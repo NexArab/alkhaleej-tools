@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>أدوات الترميز وتحويل النصوص أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="شفّر وفك تشفير النصوص بسهولة عبر أدوات Base64 وHTML وURL Encoding وHash Generator أونلاين مجاناً وبسرعة فائقة.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="أدوات الترميز وتحويل النصوص | أدوات شات الخليج">
+    <meta property="og:description" content="مجموعة أدوات مجانية لترميز النصوص وفك التشفير وتحويل النصوص إلى HTML وإنشاء Hash بسهولة.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/encoding-tools/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/encoding-tools/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "أدوات الترميز وتحويل النصوص",
+      "url": "https://tools.chat-alkhaleej.com/encoding-tools/",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "description": "أدوات ترميز مجانية تدعم تشفير وفك تشفير Base64، تحويل الروابط URL، وحذف وتشفير أكواد HTML، وتوليد الهاش.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "هل أدوات الترميز مجانية؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، كافة الأدوات مجانية تماماً وتعمل مباشرة من المتصفح دون الحاجة لتثبيت برامج."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل التشفير وتوليد الـ Hash آمن هنا؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، آمن بنسبة 100% لأن العمليات تتم محلياً في متصفحك عبر تقنية Web Crypto API ولا تُرسل البيانات لأي خوادم."
+        }
+      }]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root { 
+            --primary: #450C0C; 
+            --accent: #ffd86b; 
+            --bg: #f8fafc; 
+            --text: #1e293b; 
+        }
+        body { 
+            font-family: 'Cairo', sans-serif; 
+            background-color: var(--bg); 
+            margin: 0; padding: 0; 
+            color: var(--text); 
+            line-height: 1.6; 
+        }
+
+        /* Navbar */
+        .navbar { 
+            background: var(--primary); 
+            padding: 12px 0; 
+            border-bottom: 3px solid var(--accent); 
+            position: sticky; top: 0; z-index: 1000; 
+        }
+        .nav-container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 0 20px; 
+        }
+        .nav-logo img { height: 45px; }
+        .nav-home { color: var(--accent); text-decoration: none; font-weight: 700; font-size: 16px; }
+
+        /* Content Layout */
+        .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+        .header-section { text-align: center; margin-bottom: 30px; }
+        h1 { color: var(--primary); font-size: clamp(22px, 5vw, 32px); font-weight: 900; margin-bottom: 10px; }
+        .tool-desc { color: #64748b; font-size: 17px; max-width: 800px; margin: 0 auto 30px; }
+
+        .tool-card { 
+            background: #fff; 
+            border-radius: 20px; 
+            padding: 25px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); 
+            border: 1px solid #e2e8f0; 
+        }
+        
+        textarea { 
+            width: 100%; 
+            height: 180px; 
+            padding: 15px; 
+            border: 2px solid #e2e8f0; 
+            border-radius: 12px; 
+            font-family: 'Cairo'; 
+            font-size: 15px; 
+            resize: vertical; 
+            box-sizing: border-box; 
+            transition: 0.3s; 
+            margin-bottom: 15px; 
+        }
+        textarea:focus { border-color: var(--accent); outline: none; }
+
+        /* Stats Bar */
+        .stats-bar { 
+            display: flex; 
+            gap: 15px; 
+            margin-bottom: 20px; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+        }
+        .stat-item { 
+            background: var(--primary); 
+            color: var(--accent); 
+            padding: 5px 20px; 
+            border-radius: 50px; 
+            font-size: 13px; 
+            font-weight: 700; 
+        }
+
+        /* Hash Config Row */
+        .hash-config {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .hash-config label { font-weight: 700; color: var(--primary); }
+        .hash-select {
+            padding: 8px 15px;
+            border-radius: 8px;
+            border: 2px solid #e2e8f0;
+            font-family: 'Cairo';
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+        }
+        .hash-select:focus { border-color: var(--primary); }
+
+        /* Action Buttons Grid */
+        .actions-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            gap: 12px; 
+            margin-bottom: 25px; 
+        }
+        .btn-action { 
+            background: #f1f5f9; 
+            color: var(--primary); 
+            border: 1px solid #e2e8f0; 
+            padding: 12px; 
+            border-radius: 10px; 
+            font-weight: 700; 
+            cursor: pointer; 
+            transition: 0.2s; 
+            font-size: 14px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .btn-action:hover { background: var(--accent); border-color: var(--primary); transform: translateY(-1px); }
+        .btn-hash-trigger { background: #e0f2fe; border-color: #bae6fd; }
+
+        /* Control Buttons */
+        .controls { display: flex; gap: 10px; margin-top: 15px; }
+        .btn-main { 
+            flex: 1; padding: 12px; border: none; border-radius: 50px; 
+            font-weight: 800; cursor: pointer; transition: 0.3s; 
+            display: flex; align-items: center; justify-content: center; gap: 8px; 
+        }
+        .btn-copy { background: var(--accent); color: var(--primary); }
+        .btn-clear { background: #fee2e2; color: #ef4444; }
+        .btn-main:hover { transform: translateY(-2px); opacity: 0.9; }
+
+        /* Sections */
+        .faq-section { margin-top: 50px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 15px; border-right: 5px solid var(--accent); }
+        .faq-item h3 { margin: 0 0 10px; font-size: 18px; color: var(--primary); }
+
+        .links-title { text-align: center; color: var(--primary); margin-top: 40px; font-weight: 900; }
+        .related-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px; }
+        .tool-link { background: #fff; padding: 15px; text-align: center; border-radius: 12px; text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid #e2e8f0; transition: 0.3s; }
+        .tool-link:hover { background: var(--primary); color: #fff; }
+
+        footer { background: #fff; padding: 30px; margin-top: 50px; text-align: center; border-top: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="header-section">
+        <h1>أدوات الترميز وتحويل النصوص</h1>
+        <p class="tool-desc">مجموعة أدوات مجانية لترميز النصوص وفك التشفير وتحويل النصوص إلى HTML وإنشاء Hash بسهولة مباشرة من المتصفح.</p>
+    </div>
+
+    <main class="tool-card">
+        <label>النص أو الكود المراد معالجته:</label>
+        <textarea id="inputText" placeholder="أدخل النص الأصلي أو الكود المشفر هنا..." oninput="updateStats('input')"></textarea>
+
+        <div class="stats-bar">
+            <div class="stat-item">كلمات: <span id="wCount">0</span></div>
+            <div class="stat-item">حروف: <span id="cCount">0</span></div>
+            <div class="stat-item">أسطر: <span id="lCount">0</span></div>
+        </div>
+
+        <div class="hash-config">
+            <label for="hashAlgo"><i class="fas fa-shield-alt"></i> خوارزمية الـ Hash:</label>
+            <select id="hashAlgo" class="hash-select">
+                <option value="SHA-1">SHA-1</option>
+                <option value="SHA-256" selected>SHA-256</option>
+                <option value="SHA-512">SHA-512</option>
+            </select>
+            <button class="btn-action btn-hash-trigger" onclick="generateHash()" style="margin: 0; padding: 8px 20px;">
+                <i class="fas fa-fingerprint"></i> توليد الـ Hash المُختار
+            </button>
+        </div>
+
+        <div class="actions-grid">
+            <button class="btn-action" onclick="executeTransform('encodeBase64')"><i class="fas fa-lock"></i> تشفير Base64</button>
+            <button class="btn-action" onclick="executeTransform('decodeBase64')"><i class="fas fa-unlock"></i> فك تشفير Base64</button>
+            <button class="btn-action" onclick="executeTransform('encodeHtml')"><i class="fas fa-code"></i> تحويل إلى HTML Entities</button>
+            <button class="btn-action" onclick="executeTransform('stripHtml')"><i class="fas fa-file-code"></i> إزالة أكواد HTML</button>
+            <button class="btn-action" onclick="executeTransform('encodeUrl')"><i class="fas fa-globe"></i> URL Encoder</button>
+            <button class="btn-action" onclick="executeTransform('decodeUrl')"><i class="fas fa-link-slash"></i> URL Decoder</button>
+        </div>
+
+        <label>النتيجة النهائية المحوّلة:</label>
+        <textarea id="outputText" readonly placeholder="ستظهر المخرجات المشفرة أو المحولة هنا فوراً..."></textarea>
+
+        <div class="controls">
+            <button class="btn-main btn-copy" onclick="copyResult()">
+                <i class="fas fa-copy"></i> نسخ النتيجة
+            </button>
+            <button class="btn-main btn-clear" onclick="clearAll()">
+                <i class="fas fa-trash"></i> مسح الكل
+            </button>
+        </div>
+    </main>
+
+    <section class="faq-section">
+        <h2 style="color: var(--primary); text-align: center;">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <h3>هل الأدوات مجانية؟</h3>
+            <p>نعم، جميع وظائف التشفير والفك وتوليد البصمات الرقمية (Hashes) مجانية ومدعومة بالكامل وبلا حدود.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل يتم حفظ النصوص التي أدخلها لتشفيرها؟</h3>
+            <p>لا، الأداة تحترم خصوصية المستخدم كلياً؛ تعمل العمليات البرمجية بداخل المتصفح الخاص بجهازك ولا ترفع أي شيء للكلود.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل التشفير وتوليد الـ Hash آمن وموثوق؟</h3>
+            <p>نعم، لأن توليد بصمات SHA يتم عبر محرك المتصفح الرسمي بواسطة Web Crypto API الحديثة، مما يضمن أماناً فائقاً ومطابقة تامة للمقاييس العالمية.</p>
+        </div>
+    </section>
+
+    <h2 class="links-title">أقسام شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">أدوات</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج</a>
+    </div>
+</div>
+
+<footer><p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p></footer>
+
+<script>
+    // الدالة التنفيذية لوظائف التعديل والترميز المباشرة
+    function executeTransform(action) {
+        const input = document.getElementById('inputText').value;
+        let output = "";
+
+        if (!input.trim()) { 
+            alert("الرجاء كتابة أو لصق نص في الحقل الأصلي للبدء."); 
+            return; 
+        }
+
+        switch(action) {
+            case 'encodeBase64':
+                try {
+                    // معالجة النصوص العربية بأمان لمنع خطأ الـ UTF-8 مع btoa
+                    output = btoa(encodeURIComponent(input).replace(/%([0-9A-F]{2})/g, function(match, p1) {
+                        return String.fromCharCode('0x' + p1);
+                    }));
+                } catch(e) {
+                    output = "خطأ: لم نتمكن من تشفير النص بنظام Base64.";
+                }
+                break;
+
+            case 'decodeBase64':
+                try {
+                    // فك التشفير مع المحافظة على معايير اللغة العربية
+                    output = decodeURIComponent(atob(input).split('').map(function(c) {
+                        return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                    }).join(''));
+                } catch(e) {
+                    output = "خطأ: النص المدخل ليس ترميز Base64 صحيح أو يحتوي بنية خاطئة.";
+                }
+                break;
+
+            case 'encodeHtml':
+                // تحويل الرموز الخاصة المحددة إلى HTML entities بشكل دقيق
+                output = input.replace(/&/g, '&amp;')
+                              .replace(/</g, '&lt;')
+                              .replace(/>/g, '&gt;')
+                              .replace(/"/g, '&quot;')
+                              .replace(/'/g, '&#39;');
+                break;
+
+            case 'stripHtml':
+                // حذف كل وسوم الـ HTML والـ Tags والاحتفاظ بالنصوص الصافية فقط
+                output = input.replace(/<\/?[^>]+(>|$)/g, "");
+                break;
+
+            case 'encodeUrl':
+                // ترميز الروابط والـ Parameters للامتثال لبروتوكولات الويب
+                output = encodeURIComponent(input);
+                break;
+
+            case 'decodeUrl':
+                try {
+                    // إرجاع روابط الويب إلى صيغتها الأصلية القابلة للقراءة
+                    output = decodeURIComponent(input);
+                } catch(e) {
+                    output = "خطأ: تعذر فك ترميز URL، تأكد من سلامة البنية.";
+                }
+                break;
+        }
+
+        document.getElementById('outputText').value = output;
+        updateStats('output');
+    }
+
+    // دالة توليد الهاش باستخدام خوارزميات Web Crypto API الحديثة (بشكل غير متزامن)
+    async function generateHash() {
+        const input = document.getElementById('inputText').value;
+        const algo = document.getElementById('hashAlgo').value;
+
+        if (!input.trim()) {
+            alert("يرجى إدخال نص أولاً لتوليد بصمة الـ Hash له.");
+            return;
+        }
+
+        try {
+            // تحويل النص إلى مصفوفة بايتات
+            const encoder = new TextEncoder();
+            const data = encoder.encode(input);
+            
+            // استدعاء خوارزمية التشفير الأصلية من المتصفح مباشرة
+            const hashBuffer = await crypto.subtle.digest(algo, data);
+            
+            // تحويل الـ ArrayBuffer الناتج إلى سلسلة نصوص Hexadecimal
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+            
+            document.getElementById('outputText').value = hashHex;
+            updateStats('output');
+        } catch (error) {
+            document.getElementById('outputText').value = "خطأ: متصفحك لا يدعم توليد الـ Hash برمجياً عبر هذه الميزة.";
+        }
+    }
+
+    // حساب الإحصائيات الفورية للنصوص
+    function updateStats(type) {
+        const text = type === 'input' ? document.getElementById('inputText').value : document.getElementById('outputText').value;
+        const words = text.trim() ? text.trim().split(/\s+/).length : 0;
+        const chars = text.length;
+        const lines = text.length > 0 ? text.split(/\n/).length : 0;
+
+        document.getElementById('wCount').innerText = words;
+        document.getElementById('cCount').innerText = chars;
+        document.getElementById('lCount').innerText = lines;
+    }
+
+    // نسخ المخرجات النهائية بنقرة واحدة
+    function copyResult() {
+        const output = document.getElementById('outputText');
+        if (!output.value) return;
+        
+        navigator.clipboard.writeText(output.value).then(() => {
+            const btn = document.querySelector('.btn-copy');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> تم نسخ الكود!';
+            setTimeout(() => btn.innerHTML = originalText, 2000);
+        });
+    }
+
+    // تصفية وإعادة تعيين الحقول
+    function clearAll() {
+        document.getElementById('inputText').value = '';
+        document.getElementById('outputText').value = '';
+        updateStats('input');
+    }
+</script>
+</body>
+</html>
