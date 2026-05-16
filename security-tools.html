@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>مولد كلمات مرور وأدوات الأمان أونلاين | أدوات شات الخليج</title>
+    <meta name="description" content="أنشئ كلمات مرور قوية وأكواد PIN وSecret Keys وافحص قوة كلمة المرور بسهولة عبر أدوات أمان مجانية تعمل مباشرة من المتصفح.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="مولد كلمات مرور وأدوات الأمان أونلاين | أدوات شات الخليج">
+    <meta property="og:description" content="أنشئ كلمات مرور قوية وأكواد PIN وSecret Keys وافحص قوة كلمة المرور بسهولة عبر أدوات أمان مجانية تعمل مباشرة من المتصفح.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/security-tools/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/security-tools/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "مولدات وأدوات الأمان",
+      "url": "https://tools.chat-alkhaleej.com/security-tools/",
+      "applicationCategory": "SecurityApplication",
+      "operatingSystem": "Any",
+      "description": "مجموعة أدوات مجانية لإنشاء كلمات مرور قوية وأكواد عشوائية وفحص قوة كلمات المرور وتوليد مفاتيح أمان بسهولة مباشرة من المتصفح.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "هل الأدوات مجانية؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، كافة أدوات الأمان وتوليد كلمات المرور وفحصها وتشفير SHA-256 مجانية بالكامل بنسبة 100% وبدون قيود."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل يتم حفظ كلمات المرور؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نهائياً، لا يتم حفظ أو إرسال أي كلمات مرور أو نصوص. كافة العمليات تتم محلياً كلياً داخل جهازك عبر المتصفح ولا وجود لأي خادم وسيط لتخزينها."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل تعمل الأدوات بدون إنترنت؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، بمجرد تحميل الصفحة، يمكنك فصل الاتصال بالإنترنت تماماً وستستمر جميع المولدات وأدوات التشفير والفحص بالعمل محلياً بكفاءة كاملة."
+        }
+      }]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root { 
+            --primary: #450C0C; 
+            --accent: #ffd86b; 
+            --bg: #fdfdfd; 
+            --text: #1e293b; 
+            --success: #16a34a;
+            --warning: #eab308;
+            --danger: #dc2626;
+        }
+        body { 
+            font-family: 'Cairo', sans-serif; 
+            background-color: var(--bg); 
+            margin: 0; padding: 0; 
+            color: var(--text); 
+            line-height: 1.6; 
+        }
+
+        /* Navbar */
+        .navbar { 
+            background: var(--primary); 
+            padding: 12px 0; 
+            border-bottom: 3px solid var(--accent); 
+            position: sticky; top: 0; z-index: 1000; 
+        }
+        .nav-container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 0 20px; 
+        }
+        .nav-logo img { height: 45px; }
+        .nav-home { color: var(--accent); text-decoration: none; font-weight: 700; font-size: 16px; transition: 0.2s; }
+        .nav-home:hover { opacity: 0.8; }
+
+        /* حاوية المحتوى */
+        .container { max-width: 1200px; margin: 40px auto; padding: 0 20px; box-sizing: border-box; }
+        .header-section { text-align: center; margin-bottom: 30px; }
+        h1 { color: var(--primary); font-size: clamp(24px, 5vw, 34px); font-weight: 900; margin-bottom: 10px; }
+        .tool-desc { color: #64748b; font-size: 17px; max-width: 800px; margin: 0 auto 20px; }
+
+        /* إشعار الأمان والخصوصية المحلي */
+        .security-notice {
+            background-color: #f0fdf4; border: 1px solid #bbf7d0; color: #166534;
+            padding: 15px; border-radius: 12px; font-weight: 700; text-align: center;
+            margin-bottom: 30px; display: flex; align-items: center; justify-content: center; gap: 10px; font-size: 15px;
+        }
+
+        /* تخطيط الأدوات في شبكة متجاوبة */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        @media (max-width: 400px) {
+            .tools-grid { grid-template-columns: 1fr; }
+        }
+
+        /* تصميم الكارت الخاص بكل أداة */
+        .card {
+            background: #fff; border: 1px solid #e2e8f0; border-radius: 16px;
+            padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+            display: flex; flex-direction: column; justify-content: space-between;
+        }
+        .card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; border-bottom: 1px dashed #e2e8f0; padding-bottom: 10px; }
+        .card-header i { color: var(--primary); font-size: 20px; }
+        .card-header h2 { margin: 0; font-size: 18px; font-weight: 800; color: var(--primary); }
+
+        /* عناصر التحكم والنماذج */
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; font-weight: 700; font-size: 13.5px; margin-bottom: 6px; color: #475569; }
+        
+        .checkbox-group { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px; }
+        .checkbox-label { display: flex; align-items: center; gap: 8px; font-size: 13.5px; font-weight: 600; cursor: pointer; }
+        .checkbox-label input { width: 16px; height: 16px; accent-color: var(--primary); }
+
+        input[type="text"], input[type="password"], input[type="number"], select, textarea {
+            width: 100%; padding: 10px 12px; border: 2px solid #e2e8f0; border-radius: 10px;
+            font-family: 'Cairo', sans-serif; font-size: 14px; box-sizing: border-box; outline: none; transition: 0.2s;
+        }
+        input:focus, select:focus, textarea:focus { border-color: var(--primary); background: #fff; }
+        
+        textarea { resize: vertical; font-family: 'Fira Code', monospace; font-size: 13px; height: 100px; background: #fafafa; }
+        
+        .mono-display {
+            font-family: 'Fira Code', monospace; font-size: 14px; background: #f8fafc;
+            border: 2px solid #e2e8f0; padding: 10px; border-radius: 10px; text-align: left; direction: ltr;
+            word-break: break-all; min-height: 44px; box-sizing: border-box; display: flex; align-items: center; justify-content: space-between;
+        }
+
+        /* أشرطة وعدادات القوة والفحص */
+        .strength-container { margin-top: 10px; }
+        .strength-bar-bg { background: #e2e8f0; height: 6px; border-radius: 3px; overflow: hidden; margin-top: 5px; }
+        .strength-bar { height: 100%; width: 0%; transition: 0.3s; }
+        .strength-text { font-size: 13px; font-weight: 700; text-align: left; }
+        
+        .checklist { margin: 10px 0 0 0; padding: 0; list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+        .checklist li { font-size: 12px; font-weight: 600; color: #94a3b8; display: flex; align-items: center; gap: 5px; direction: ltr; text-align: left; justify-content: flex-end; }
+        .checklist li.valid { color: var(--success); }
+        .checklist li.valid i { class: "fas fa-check-circle"; }
+
+        .text-counter { font-size: 11px; font-weight: 700; color: #64748b; text-align: right; margin-top: 4px; }
+
+        /* الأزرار الإجرائية والتحكم السريع */
+        .btn-action {
+            background: var(--primary); color: #fff; border: none; padding: 10px 15px;
+            border-radius: 10px; font-family: 'Cairo', sans-serif; font-weight: 700; font-size: 14px;
+            cursor: pointer; width: 100%; transition: 0.2s; display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px;
+        }
+        .btn-action:hover { opacity: 0.95; background: #320808; }
+        
+        .output-actions { display: flex; gap: 8px; margin-top: 10px; }
+        .btn-mini {
+            flex: 1; background: #f1f5f9; border: 1px solid #cbd5e1; padding: 6px; border-radius: 8px;
+            font-family: 'Cairo', sans-serif; font-size: 12px; font-weight: 700; cursor: pointer;
+            display: flex; align-items: center; justify-content: center; gap: 5px; color: #475569;
+        }
+        .btn-mini:hover { background: var(--accent); color: var(--primary); border-color: var(--primary); }
+
+        /* القسم التوعوي لـ SEO */
+        .seo-education-section { background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 25px; margin-bottom: 40px; }
+        .seo-education-section h2 { color: var(--primary); font-size: 20px; font-weight: 900; margin-top: 0; margin-bottom: 15px; border-bottom: 2px solid var(--accent); padding-bottom: 6px; display: inline-block; }
+        .edu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+        .edu-item h3 { font-size: 15px; color: var(--primary); margin: 0 0 6px 0; font-weight: 700; }
+        .edu-item p { font-size: 14px; color: #475569; margin: 0; text-align: justify; }
+
+        /* الأسئلة الشائعة وروابط شبكة شات الخليج */
+        .faq-section { margin-top: 40px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 12px; border-right: 5px solid var(--accent); border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; border-left: 1px solid #e2e8f0; }
+        .faq-item h3 { margin: 0 0 8px; font-size: 17px; color: var(--primary); }
+        .faq-item p { margin: 0; color: #475569; font-size: 14.5px; }
+
+        .links-title { text-align: center; color: var(--primary); margin-top: 40px; font-weight: 900; font-size: 20px; }
+        .related-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-top: 20px; }
+        .tool-link { background: #fff; padding: 15px; text-align: center; border-radius: 12px; text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid #e2e8f0; transition: 0.3s; }
+        .tool-link:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+        footer { background: #fff; padding: 25px; margin-top: 50px; text-align: center; border-top: 1px solid #e2e8f0; font-size: 14px; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    <header class="header-section">
+        <h1>مولدات وأدوات الأمان</h1>
+        <p class="tool-desc">مجموعة أدوات مجانية لإنشاء كلمات مرور قوية وأكواد عشوائية وفحص قوة كلمات المرور وتوليد مفاتيح أمان بسهولة مباشرة من المتصفح.</p>
+    </header>
+
+    <div class="security-notice">
+        <i class="fas fa-shield-alt"></i>
+        <span>جميع البيانات تتم معالجتها محلياً داخل متصفحك ولا يتم إرسال أي معلومات إلى أي خادم.</span>
+    </div>
+
+    <main class="tools-grid">
+
+        <section class="card">
+            <div>
+                <div class="card-header">
+                    <i class="fas fa-key"></i>
+                    <h2>مولد كلمات مرور</h2>
+                </div>
+                <div class="form-group">
+                    <label>طول كلمة المرور (<span id="passLengthVal">16</span> حرف):</label>
+                    <input type="range" id="passLength" min="6" max="64" value="16" style="width:100%; accent-color:var(--primary);" oninput="document.getElementById('passLengthVal').innerText=this.value">
+                </div>
+                <div class="checkbox-group">
+                    <label class="checkbox-label"><input type="checkbox" id="cUpper" checked> حروف كبيرة (A-Z)</label>
+                    <label class="checkbox-label"><input type="checkbox" id="cLower" checked> حروف صغيرة (a-z)</label>
+                    <label class="checkbox-label"><input type="checkbox" id="cNumbers" checked> أرقام (0-9)</label>
+                    <label class="checkbox-label"><input type="checkbox" id="cSymbols" checked> رموز (!@#$)</label>
+                </div>
+                <div class="mono-display" id="passOutput">انقر على توليد...</div>
+            </div>
+            <div>
+                <button class="btn-action" onclick="generatePassword()"><i class="fas fa-magic"></i> توليد كلمة مرور</button>
+                <div class="output-actions">
+                    <button class="btn-mini" onclick="copyData('passOutput')"><i class="fas fa-copy"></i> نسخ السريع</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <div>
+                <div class="card-header">
+                    <i class="fas fa-lock-open"></i>
+                    <h2>فحص قوة كلمة المرور</h2>
+                </div>
+                <div class="form-group">
+                    <label for="passwordCheckInput">أدخل كلمة المرور لفحص قوتها:</label>
+                    <input type="text" id="passwordCheckInput" placeholder="اكتب أو الصق كلمة المرور هنا..." oninput="checkPasswordStrength(this.value)">
+                </div>
+                <div class="strength-container">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <span style="font-size:13px; font-weight:700; color:#475569;">مستوى الأمان:</span>
+                        <span id="strengthLabel" class="strength-text" style="color:#94a3b8;">فارغ</span>
+                    </div>
+                    <div class="strength-bar-bg">
+                        <div id="strengthBar" class="strength-bar"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <ul class="checklist">
+                    <li id="chkLength"><i class="fas fa-circle"></i> 8+ Chars</li>
+                    <li id="chkUpper"><i class="fas fa-circle"></i> ABC</li>
+                    <li id="chkLower"><i class="fas fa-circle"></i> abc</li>
+                    <li id="chkNum"><i class="fas fa-circle"></i> 123</li>
+                    <li id="chkSymbol"><i class="fas fa-circle"></i> #@!</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card">
+            <div>
+                <div class="card-header">
+                    <i class="fas fa-th"></i>
+                    <h2>مولد كود PIN</h2>
+                </div>
+                <div class="form-group">
+                    <label>اختر طول كود PIN المطلوب:</label>
+                    <select id="pinLength">
+                        <option value="4">4 أرقام خفيفة</option>
+                        <option value="6" selected>6 أرقام معيارية</option>
+                        <option value="8">8 أرقام معززة</option>
+                    </select>
+                </div>
+                <div class="mono-display" id="pinOutput">انقر على توليد...</div>
+            </div>
+            <div>
+                <button class="btn-action" onclick="generatePin()"><i class="fas fa-sync"></i> توليد PIN جديد</button>
+                <div class="output-actions">
+                    <button class="btn-mini" onclick="copyData('pinOutput')"><i class="fas fa-copy"></i> نسخ كود PIN</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <div>
+                <div class="card-header">
+                    <i class="fas fa-barcode"></i>
+                    <h2>مولد أكواد عشوائية (قسائم/سيريال)</h2>
+                </div>
+                <div class="form-group" style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+                    <div>
+                        <label>طول المقطع:</label>
+                        <input type="number" id="chunkLength" value="4" min="2" max="8">
+                    </div>
+                    <div>
+                        <label>عدد المقاطع:</label>
+                        <input type="number" id="chunkCount" value="2" min="1" max="6">
+                    </div>
+                </div>
+                <div class="mono-display" id="serialOutput">X8K2-PL9A</div>
+            </div>
+            <div>
+                <button class="btn-action" onclick="generateSerialCode()"><i class="fas fa-random"></i> توليد كود تسلسلي</button>
+                <div class="output-actions">
+                    <button class="btn-mini" onclick="copyData('serialOutput')"><i class="fas fa-copy"></i> نسخ الكود</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <div>
+                <div class="card-header">
+                    <i class="fas fa-user-secret"></i>
+                    <h2>مولد مفاتيح الأمان (Secret Key)</h2>
+                </div>
+                <div class="form-group" style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+                    <div>
+                        <label>حجم المفتاح (بايت):</label>
+                        <select id="secretBytes">
+                            <option value="16">128 بت (16 بايت)</option>
+                            <option value="32" selected>256 بت (32 بايت)</option>
+                            <option value="64">512 بت (64 بايت)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>صيغة المخرج المرمزة:</label>
+                        <select id="secretFormat">
+                            <option value="hex" selected>Hexadecimal</option>
+                            <option value="base64">Base64 Encoding</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mono-display" id="secretOutput" style="font-size:12px;">مفاتيح عشوائية آمنة...</div>
+            </div>
+            <div>
+                <button class="btn-action" onclick="generateSecretKey()"><i class="fas fa-fingerprint"></i> توليد مفتاح أمان مشفر</button>
+                <div class="output-actions">
+                    <button class="btn-mini" onclick="copyData('secretOutput')"><i class="fas fa-copy"></i> نسخ المفتاح</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <div>
+                <div class="card-header">
+                    <i class="fas fa-hashtag"></i>
+                    <h2>مولد هاش SHA-256 الفوري</h2>
+                </div>
+                <div class="form-group">
+                    <label for="hashInput">أدخل النص المراد تشفيره وتوليد بصمته الرقمية:</label>
+                    <textarea id="hashInput" placeholder="اكتب النص هنا للتشفير..." oninput="generateSha256(this.value)"></textarea>
+                    <div class="text-counter">طول النص الحالي: <span id="hashTextLength">0</span> حرف</div>
+                </div>
+                <div class="mono-display" id="hashOutput" style="font-size:12px;">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</div>
+            </div>
+            <div>
+                <div class="output-actions">
+                    <button class="btn-mini" onclick="copyData('hashOutput')" style="background:var(--primary); color:#fff;"><i class="fas fa-copy"></i> نسخ الـ Hash الناتج</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <section class="seo-education-section">
+        <h2>كيف تختار كلمة مرور قوية؟ وكيف تحمي بياناتك الرقمية؟</h2>
+        <div class="edu-grid">
+            <div class="edu-item">
+                <h3>طول كلمة المرور الكافي</h3>
+                <p>تعتبر ركيزة الطول أهم عامل تفتيشي برقم الحماية. يفضل ألا تقل أي جملة حماية عن 12 إلى 16 خانة، فكلما زاد الطول الهندسي تضاعفت صعوبة هجمات التخمين الشرسة (Brute-Force) بشكل أسي يستغرق قروناً لفك شيفرتها.</p>
+            </div>
+            <div class="edu-item">
+                <h3>استخدام الرموز المتنوعة والمنوعة</h3>
+                <p>الحرص على دمج مزيج خليط يجمع بين الحروف الكبيرة، الحروف الصغيرة، الأرقام والرموز الخاصة الشائعة يرفع احتمالات التعقيد الرياضي للاحتمالات الممكنة، مما يجعل كسرها عبر قواميس الاختراق التقليدية أمراً شبه مستحيل.</p>
+            </div>
+            <div class="edu-item">
+                <h3>تجنب الكلمات السهلة والمكررة</h3>
+                <p>الابتعاد التام عن إدراج تواريخ الميلاد، الأسماء الشخصية، أو الأنماط المتكررة السلسة على لوحة المفاتيح مثل "123456" أو "qwerty". هذه السلاسل تمثل خطورة قصوى وهي أول ما يتم فحصه وتجريبه عند استهداف الحسابات.</p>
+            </div>
+            <div class="edu-item">
+                <h3>أهمية كلمات المرور العشوائية</h3>
+                <p>الاعتماد التام على المولدات التلقائية العشوائية يضمن عدم وجود أي ترابط منطقي أو نمط بشري يمكن تتبعه أو توقعه بالهندسة الاجتماعية, مما يمنحك جدار حماية حديدي مخصص لكل حساب من حساباتك بشكل مستقل.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h2 style="color: var(--primary); text-align: center; margin-bottom: 25px; font-weight: 900;">الأسئلة الشائعة حول أدوات الخصوصية</h2>
+        <div class="faq-item">
+            <h3>هل أدوات ومولدات الأمان مجانية؟</h3>
+            <p>نعم، كافة الأدوات المدمجة في المنصة من **مولد كلمات مرور**، و**فحص قوة كلمة المرور**، ومولد الهاشات والرموز السرية مجانية تماماً وبأعلى كفاءة متاحة لمجتمع الويب دون قيود.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل يتم حفظ أو تخزين كلمات المرور على الموقع?</h3>
+            <p>نهائياً، لا يتم حفظ أو نقل أي كود أو كلمة مرور أو نص تقوم بإدخاله أو إنشائه. جميع الحسابات والمعالجات تتم بالكامل داخل الذاكرة المؤقتة لمتصفحك محلياً (Local Sandbox) وتختفي فور إغلاق التبويب.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل تعمل أدوات الأمان بدون وجود اتصال إنترنت؟</h3>
+            <p>نعم، بمجرد تحميل صفحة "مولدات وأدوات الأمان" على جهازك أو هاتفك، يمكنك فصل الإنترنت كلياً؛ حيث تم دمج وتطوير المنظومة بالكامل على السكريبتات الذاتية المستقلة التي لا تطلب أي اتصال بخوادم خارجية.</p>
+        </div>
+    </section>
+
+    <h2 class="links-title">تصفح أقسام شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">أدوات أخرى</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج</a>
+    </div>
+</div>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p>
+</footer>
+
+<script>
+    // --- دالة النسخ السريع للمخرجات ---
+    function copyData(elementId) {
+        const element = document.getElementById(elementId);
+        let textToCopy = "";
+        
+        if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+            textToCopy = element.value;
+        } else {
+            textToCopy = element.innerText.replace(/[\n\r]/g, '').trim();
+        }
+        
+        if (!textToCopy || textToCopy.includes('انقر على') || textToCopy.includes('مفاتيح عشوائية')) return;
+
+        navigator.clipboard.writeText(textToCopy).then(() => {
+            alert('تم نسخ البيانات بنجاح للحافظة بأمان!');
+        }).catch(() => {
+            alert('فشل إجراء النسخ، يرجى نسخه يدوياً.');
+        });
+    }
+
+    // ==========================================
+    // 1. محرك: مولد كلمات المرور العشوائية والآمنة (نسخة صارمة الالتزام)
+    // ==========================================
+    function generatePassword() {
+        const length = parseInt(document.getElementById('passLength').value);
+        const hasUpper = document.getElementById('cUpper').checked;
+        const hasLower = document.getElementById('cLower').checked;
+        const hasNumber = document.getElementById('cNumbers').checked;
+        const hasSymbol = document.getElementById('cSymbols').checked;
+
+        const uppers = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        const lowers = "abcdefghijklmnopqrstuvwxyz";
+        const numbers = "0123456789";
+        const symbols = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
+
+        let types = [];
+        let charPool = "";
+
+        // التحقق من المدخلات وبناء مسبح الحروف مع ضمان عنصر إجباري لكل نوع مفعل
+        if (hasUpper) { types.push(uppers); charPool += uppers; }
+        if (hasLower) { types.push(lowers); charPool += lowers; }
+        if (hasNumber) { types.push(numbers); charPool += numbers; }
+        if (hasSymbol) { types.push(symbols); charPool += symbols; }
+
+        if (types.length === 0) {
+            document.getElementById('passOutput').innerText = "الرجاء تحديد خيار واحد على الأقل!";
+            return;
+        }
+
+        // إذا كان طول كلمة المرور أقل من عدد الأنواع المختارة (حالة نادرة جداً بسبب الـ min=6 والأنواع 4)
+        if (length < types.length) {
+            document.getElementById('passOutput').innerText = "طول كلمة المرور قصير جداً للخيارات المحددة!";
+            return;
+        }
+
+        let passwordArray = [];
+        
+        // الخطوة 1: توليد بايتات مشفرة آمنة لضمان وجود حرف واحد على الأقل من كل مجموعة مفعلة
+        let mandatoryCrypto = new Uint32Array(types.length);
+        crypto.getRandomValues(mandatoryCrypto);
+        
+        for (let i = 0; i < types.length; i++) {
+            const currentPool = types[i];
+            passwordArray.push(currentPool.charAt(mandatoryCrypto[i] % currentPool.length));
+        }
+
+        // الخطوة 2: ملء المتبقي من طول كلمة المرور بشكل عشوائي من مسبح الأحرف الشامل
+        const remainingLength = length - types.length;
+        if (remainingLength > 0) {
+            let remainingCrypto = new Uint32Array(remainingLength);
+            crypto.getRandomValues(remainingCrypto);
+            for (let i = 0; i < remainingLength; i++) {
+                passwordArray.push(charPool.charAt(remainingCrypto[i] % charPool.length));
+            }
+        }
+
+        // الخطوة 3: خلط (Shuffle) المصفوفة النهائية بشكل عشوائي مشفر باستخدام خوارزمية Fisher-Yates
+        // لمنع تخمين بقاء الأحرف الإلزامية في بداية السلسلة النصية دائماً
+        let shuffleCrypto = new Uint32Array(passwordArray.length);
+        crypto.getRandomValues(shuffleCrypto);
+        
+        for (let i = passwordArray.length - 1; i > 0; i--) {
+            const j = shuffleCrypto[i] % (i + 1);
+            // استبدال العناصر
+            let temp = passwordArray[i];
+            passwordArray[i] = passwordArray[j];
+            passwordArray[j] = temp;
+        }
+
+        document.getElementById('passOutput').innerText = passwordArray.join('');
+    }
+
+    // ==========================================
+    // 2. محرك: فحص وتحليل قوة كلمات المرور
+    // ==========================================
+    function checkPasswordStrength(password) {
+        let score = 0;
+        
+        const hasLength = password.length >= 8;
+        const hasUpper = /[A-Z]/.test(password);
+        const hasLower = /[a-z]/.test(password);
+        const hasNumber = /[0-9]/.test(password);
+        const hasSymbol = /[^A-Za-z0-9]/.test(password);
+
+        if(password.length > 0) {
+            if (hasLength) score += 20;
+            if (hasUpper) score += 20;
+            if (hasLower) score += 20;
+            if (hasNumber) score += 20;
+            if (hasSymbol) score += 20;
+        }
+
+        toggleCheckClass('chkLength', hasLength);
+        toggleCheckClass('chkUpper', hasUpper);
+        toggleCheckClass('chkLower', hasLower);
+        toggleCheckClass('chkNum', hasNumber);
+        toggleCheckClass('chkSymbol', hasSymbol);
+
+        const bar = document.getElementById('strengthBar');
+        const label = document.getElementById('strengthLabel');
+        
+        bar.style.width = score + "%";
+
+        if(password.length === 0) {
+            label.innerText = "فارغ"; label.style.color = "#94a3b8"; bar.style.backgroundColor = "#e2e8f0";
+        } else if (score <= 40) {
+            label.innerText = "ضعيفة جداً ⚠️"; label.style.color = varColor('--danger'); bar.style.backgroundColor = varColor('--danger');
+        } else if (score <= 60) {
+            label.innerText = "متوسطة القوة ⚠️"; label.style.color = varColor('--warning'); bar.style.backgroundColor = varColor('--warning');
+        } else if (score <= 80) {
+            label.innerText = "قوية وممتازة 👍"; label.style.color = varColor('--success'); bar.style.backgroundColor = varColor('--success');
+        } else {
+            label.innerText = "فائقة الأمان والتعقيد 🔒"; label.style.color = "#15803d"; bar.style.backgroundColor = "#15803d";
+        }
+    }
+
+    function toggleCheckClass(elementId, isValid) {
+        const el = document.getElementById(elementId);
+        if(isValid) el.classList.add('valid'); else el.classList.remove('valid');
+    }
+    function varColor(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+
+    // ==========================================
+    // 3. محرك: توليد أكواد الـ PIN الرقمية
+    // ==========================================
+    function generatePin() {
+        const len = parseInt(document.getElementById('pinLength').value);
+        let pin = "";
+        const randomBuffer = new Uint8Array(len);
+        crypto.getRandomValues(randomBuffer);
+
+        for (let i = 0; i < len; i++) {
+            pin += (randomBuffer[i] % 10).toString();
+        }
+        document.getElementById('pinOutput').innerText = pin;
+    }
+
+    // ==========================================
+    // 4. محرك: مولد الأكواد التسلسلية العشوائية
+    // ==========================================
+    function generateSerialCode() {
+        const chunkLen = parseInt(document.getElementById('chunkLength').value) || 4;
+        const chunkCount = parseInt(document.getElementById('chunkCount').value) || 2;
+        const chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+
+        let segments = [];
+        for (let i = 0; i < chunkCount; i++) {
+            let segment = "";
+            let randomBuf = new Uint32Array(chunkLen);
+            crypto.getRandomValues(randomBuf);
+            for (let j = 0; j < chunkLen; j++) {
+                segment += chars.charAt(randomBuf[j] % chars.length);
+            }
+            segments.push(segment);
+        }
+        document.getElementById('serialOutput').innerText = segments.join('-');
+    }
+
+    // ==========================================
+    // 5. محرك: مولد مفاتيح الأمان الطويلة
+    // ==========================================
+    function generateSecretKey() {
+        const bytesCount = parseInt(document.getElementById('secretBytes').value);
+        const format = document.getElementById('secretFormat').value;
+        
+        const buffer = new Uint8Array(bytesCount);
+        crypto.getRandomValues(buffer);
+
+        let result = "";
+        if (format === 'hex') {
+            result = Array.from(buffer).map(b => b.toString(16).padStart(2, '0')).join('');
+        } else if (format === 'base64') {
+            let binaryStr = "";
+            for (let i = 0; i < buffer.length; i++) { binaryStr += String.fromCharCode(buffer[i]); }
+            result = btoa(binaryStr);
+        }
+        document.getElementById('secretOutput').innerText = result;
+    }
+
+    // ==========================================
+    // 6. محرك تشفير الهاش: SHA-256 Hash Generator
+    // ==========================================
+    async function generateSha256(text) {
+        document.getElementById('hashTextLength').innerText = text.length;
+        
+        const msgBuffer = new TextEncoder().encode(text);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+        
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        
+        document.getElementById('hashOutput').innerText = hashHex;
+    }
+
+    // تهيئة وتوليد افتراضي للمخرجات
+    window.onload = function() {
+        generatePassword();
+        generatePin();
+        generateSerialCode();
+        generateSecretKey();
+    };
+</script>
+
+</body>
+</html>
