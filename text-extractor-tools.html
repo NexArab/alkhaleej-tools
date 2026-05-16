@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>أدوات استخراج وتنقية النصوص أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="استخرج الروابط والأرقام ونظف النصوص من الرموز والإيموجي بسهولة عبر أدوات مجانية وسريعة تدعم العربية والإنجليزية وتحويل القوائم.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="أدوات استخراج وتنقية النصوص | أدوات شات الخليج">
+    <meta property="og:description" content="مجموعة أدوات مجانية لاستخراج الروابط والأرقام وتنظيف النصوص من الإيموجي والرموز وتحويل الأرقام والقوائم بسهولة.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/text-extractor-tools/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/text-extractor-tools/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "أدوات استخراج وتنقية النصوص",
+      "url": "https://tools.chat-alkhaleej.com/text-extractor-tools/",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "description": "مجموعة أدوات مجانية لاستخراج الروابط والأرقام، حذف الإيموجي، وتنقية النصوص العربية.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "هل تدعم أداة استخراج الروابط جميع البروتوكولات؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، تدعم استخراج الروابط التي تبدأ بـ http و https و www بدقة تامة وتفصلها في أسطر منفصلة."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل يمكن تحويل الأرقام الإنجليزية لعربية؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، تتضمن الأداة خيارين للتحويل المتبادل بين الأرقام الإنجليزية والأرقام العربية (الهندية) بضغطة زر."
+        }
+      }]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root { 
+            --primary: #450C0C; 
+            --accent: #ffd86b; 
+            --bg: #f8fafc; 
+            --text: #1e293b; 
+        }
+        body { 
+            font-family: 'Cairo', sans-serif; 
+            background-color: var(--bg); 
+            margin: 0; padding: 0; 
+            color: var(--text); 
+            line-height: 1.6; 
+        }
+
+        /* Navbar */
+        .navbar { 
+            background: var(--primary); 
+            padding: 12px 0; 
+            border-bottom: 3px solid var(--accent); 
+            position: sticky; top: 0; z-index: 1000; 
+        }
+        .nav-container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 0 20px; 
+        }
+        .nav-logo img { height: 45px; }
+        .nav-home { color: var(--accent); text-decoration: none; font-weight: 700; font-size: 16px; }
+
+        /* Content Layout */
+        .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+        .header-section { text-align: center; margin-bottom: 30px; }
+        h1 { color: var(--primary); font-size: clamp(22px, 5vw, 32px); font-weight: 900; margin-bottom: 10px; }
+        .tool-desc { color: #64748b; font-size: 17px; max-width: 800px; margin: 0 auto 30px; }
+
+        .tool-card { 
+            background: #fff; 
+            border-radius: 20px; 
+            padding: 25px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); 
+            border: 1px solid #e2e8f0; 
+        }
+        
+        textarea { 
+            width: 100%; 
+            height: 180px; 
+            padding: 15px; 
+            border: 2px solid #e2e8f0; 
+            border-radius: 12px; 
+            font-family: 'Cairo'; 
+            font-size: 15px; 
+            resize: vertical; 
+            box-sizing: border-box; 
+            transition: 0.3s; 
+            margin-bottom: 15px; 
+        }
+        textarea:focus { border-color: var(--accent); outline: none; }
+
+        /* Stats Bar */
+        .stats-bar { 
+            display: flex; 
+            gap: 15px; 
+            margin-bottom: 20px; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+        }
+        .stat-item { 
+            background: var(--primary); 
+            color: var(--accent); 
+            padding: 5px 20px; 
+            border-radius: 50px; 
+            font-size: 13px; 
+            font-weight: 700; 
+        }
+
+        /* Action Buttons Grid */
+        .actions-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+            gap: 12px; 
+            margin-bottom: 25px; 
+        }
+        .btn-action { 
+            background: #f1f5f9; 
+            color: var(--primary); 
+            border: 1px solid #e2e8f0; 
+            padding: 12px; 
+            border-radius: 10px; 
+            font-weight: 700; 
+            cursor: pointer; 
+            transition: 0.2s; 
+            font-size: 14px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .btn-action:hover { background: var(--accent); border-color: var(--primary); transform: translateY(-1px); }
+
+        /* Control Buttons */
+        .controls { display: flex; gap: 10px; margin-top: 15px; }
+        .btn-main { 
+            flex: 1; padding: 12px; border: none; border-radius: 50px; 
+            font-weight: 800; cursor: pointer; transition: 0.3s; 
+            display: flex; align-items: center; justify-content: center; gap: 8px; 
+        }
+        .btn-copy { background: var(--accent); color: var(--primary); }
+        .btn-clear { background: #fee2e2; color: #ef4444; }
+        .btn-main:hover { transform: translateY(-2px); opacity: 0.9; }
+
+        /* Footer & Links Sections */
+        .faq-section { margin-top: 50px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 15px; border-right: 5px solid var(--accent); }
+        .faq-item h3 { margin: 0 0 10px; font-size: 18px; color: var(--primary); }
+
+        .links-title { text-align: center; color: var(--primary); margin-top: 40px; font-weight: 900; }
+        .related-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px; }
+        .tool-link { background: #fff; padding: 15px; text-align: center; border-radius: 12px; text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid #e2e8f0; transition: 0.3s; }
+        .tool-link:hover { background: var(--primary); color: #fff; }
+
+        footer { background: #fff; padding: 30px; margin-top: 50px; text-align: center; border-top: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="header-section">
+        <h1>أدوات استخراج وتنقية النصوص</h1>
+        <p class="tool-desc">مجموعة أدوات مجانية لاستخراج الروابط والأرقام وتنظيف النصوص من الإيموجي والرموز وتحويل الأرقام العربية والإنجليزية بسهولة.</p>
+    </div>
+
+    <main class="tool-card">
+        <label>النص المراد تصفيته ومعالجته:</label>
+        <textarea id="inputText" placeholder="أدخل أو الصق النص هنا..." oninput="updateStats('input')"></textarea>
+
+        <div class="stats-bar">
+            <div class="stat-item">كلمات: <span id="wCount">0</span></div>
+            <div class="stat-item">حروف: <span id="cCount">0</span></div>
+            <div class="stat-item">أسطر: <span id="lCount">0</span></div>
+        </div>
+
+        <div class="actions-grid">
+            <button class="btn-action" onclick="executeFunction('extractUrls')"><i class="fas fa-link"></i> استخراج الروابط</button>
+            <button class="btn-action" onclick="executeFunction('extractNumbers')"><i class="fas fa-hashtag"></i> استخراج الأرقام</button>
+            <button class="btn-action" onclick="executeFunction('removeSymbols')"><i class="fas fa-eraser"></i> إزالة الرموز الخاصة</button>
+            <button class="btn-action" onclick="executeFunction('removeEmojis')"><i class="fas fa-smile-beam"></i> إزالة الإيموجي</button>
+            <button class="btn-action" onclick="executeFunction('numToEn')"><i class="fas fa-font"></i> الأرقام العربية ← إنجليزية</button>
+            <button class="btn-action" onclick="executeFunction('numToAr')"><i class="fas fa-list-ol"></i> الأرقام الإنجليزية ← عربية</button>
+            <button class="btn-action" onclick="executeFunction('toListUnordered')"><i class="fas fa-list-ul"></i> تحويل لقائمة نقطية</button>
+            <button class="btn-action" onclick="executeFunction('toListOrdered')"><i class="fas fa-list-ol"></i> تحويل لقائمة مرقمة</button>
+        </div>
+
+        <label>النتيجة المستخرجة / المنقّاة:</label>
+        <textarea id="outputText" readonly placeholder="ستظهر البيانات النهائية هنا بعد الضغط على أداة المعالجة..."></textarea>
+
+        <div class="controls">
+            <button class="btn-main btn-copy" onclick="copyResult()">
+                <i class="fas fa-copy"></i> نسخ النتيجة
+            </button>
+            <button class="btn-main btn-clear" onclick="clearAll()">
+                <i class="fas fa-trash"></i> مسح الكل
+            </button>
+        </div>
+    </main>
+
+    <section class="faq-section">
+        <h2 style="color: var(--primary); text-align: center;">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <h3>هل أداة استخراج وتنقية النصوص مجانية؟</h3>
+            <p>نعم، الأداة مجانية بالكامل، وتعمل فورياً على الحواسيب والهواتف الذكية دون أي قيود.</p>
+        </div>
+        <div class="faq-item">
+            <h3>كيف تدعم الأداة استخراج الروابط؟</h3>
+            <p>تستخدم الأداة تعابير نمطية متقدمة لفحص النص بالكامل والعثور على أي رابط يبدأ بـ http أو https أو www ومن ثم فصلها بأسطر منظمة.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل يتم حفظ المحتوى المكتوب؟</h3>
+            <p>خصوصيتك خط أحمر؛ المعالجة بالكامل تحدث برمجةً في جهازك (Client-side) عن طريق متصفحك مباشرة ولا يتم رفع البيانات نهائياً.</p>
+        </div>
+    </section>
+
+    <h2 class="links-title">أقسام شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">أدوات</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج</a>
+    </div>
+</div>
+
+<footer><p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p></footer>
+
+<script>
+    // الدالة التنفيذية للوظائف المستقلة
+    function executeFunction(action) {
+        const input = document.getElementById('inputText').value;
+        let output = "";
+
+        if (!input.trim()) { 
+            alert("الرجاء إدخال نص أولاً في الخانة المخصصة."); 
+            return; 
+        }
+
+        switch(action) {
+            case 'extractUrls':
+                // RegEx يدعم http, https, www بكفاءة عالية
+                const urlRegex = /(https?:\/\/[^\s]+|www\.[^\s]+)/g;
+                const urls = input.match(urlRegex);
+                output = urls ? urls.join('\n') : "لم يتم العثور على أي روابط في النص.";
+                break;
+
+            case 'extractNumbers':
+                // استخراج الأرقام الإنجليزية والعربية الهندية
+                const numRegex = /[0-9٠-٩]+/g;
+                const numbers = input.match(numRegex);
+                output = numbers ? numbers.join(' ') : "لم يتم العثور على أرقام في النص.";
+                break;
+
+            case 'removeSymbols':
+                // إزالة الرموز الخاصة مع المحافظة التامة على الكلمات العربية والإنجليزية والأرقام والمسافات
+                output = input.replace(/[^\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFFa-zA-Z0-9٠-٩\s]/g, '');
+                break;
+
+            case 'removeEmojis':
+                // إزالة الإيموجي والرموز التعبيرية الملونة بكفاءة
+                output = input.replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F900}-\u{1F9FF}\u{1F1E0}-\u{1F1FF}\u{1F191}-\u{1F251}\u{1F004}\u{1F0CF}\u{1F170}-\u{1F171}\u{1F17E}-\u{1F17F}\u{1F18E}\u{3030}\u{2B50}\u{2B55}\u{2934}-\u{2935}\u{2B05}-\u{2B07}\u{23E9}-\u{23EC}\u{23F0}\u{23F3}\u{25AA}-\u{25AB}\u{25B6}\u{25C0}\u{25FB}-\u{25FE}]/gu, '');
+                break;
+
+            case 'numToEn':
+                // تحويل الأرقام الشرقية (العربية الهندية) إلى أرقام غربية (إنجليزية)
+                output = input.replace(/[٠-٩]/g, function(d) {
+                    return d.charCodeAt(0) - 1632;
+                });
+                break;
+
+            case 'numToAr':
+                // تحويل الأرقام الغربية إلى أرقام شرقية هندية المستخدمة في الخليج
+                const nativeMap = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+                output = input.replace(/[0-9]/g, function(d) {
+                    return nativeMap[parseInt(d)];
+                });
+                break;
+
+            case 'toListUnordered':
+                // تحويل كل سطر إلى عنصر قائمة نقطية HTML
+                const linesUnordered = input.split(/\r?\n/).filter(line => line.trim() !== "");
+                if(linesUnordered.length > 0) {
+                    output = "<ul>\n" + linesUnordered.map(line => `  <li>${line.trim()}</li>`).join('\n') + "\n</ul>";
+                } else {
+                    output = "النص فارغ.";
+                }
+                break;
+
+            case 'toListOrdered':
+                // تحويل كل سطر إلى عنصر قائمة مرقمة HTML
+                const linesOrdered = input.split(/\r?\n/).filter(line => line.trim() !== "");
+                if(linesOrdered.length > 0) {
+                    output = "<ol>\n" + linesOrdered.map(line => `  <li>${line.trim()}</li>`).join('\n') + "\n</ol>";
+                } else {
+                    output = "النص فارغ.";
+                }
+                break;
+        }
+
+        document.getElementById('outputText').value = output;
+        updateStats('output');
+    }
+
+    // دالة تحديث الإحصائيات الفورية
+    function updateStats(type) {
+        const text = type === 'input' ? document.getElementById('inputText').value : document.getElementById('outputText').value;
+        
+        // استخدام الطريقة البرمجية الآمنة لعداد الكلمات لمنع الـ Bug الشهير عند خلو النص
+        const words = text.trim() ? text.trim().split(/\s+/).length : 0;
+        const chars = text.length;
+        const lines = text.length > 0 ? text.split(/\n/).length : 0;
+
+        document.getElementById('wCount').innerText = words;
+        document.getElementById('cCount').innerText = chars;
+        document.getElementById('lCount').innerText = lines;
+    }
+
+    // دالة نسخ النتائج بلمسة تفاعلية
+    function copyResult() {
+        const output = document.getElementById('outputText');
+        if (!output.value) return;
+        
+        navigator.clipboard.writeText(output.value).then(() => {
+            const btn = document.querySelector('.btn-copy');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> تم النسخ بنجاح!';
+            setTimeout(() => btn.innerHTML = originalText, 2000);
+        });
+    }
+
+    // دالة إعادة التعيين والمسح
+    function clearAll() {
+        document.getElementById('inputText').value = '';
+        document.getElementById('outputText').value = '';
+        updateStats('input');
+    }
+</script>
+</body>
+</html>
