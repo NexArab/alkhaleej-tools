@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>أدوات تعديل وتصميم الصور أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="مجموعة أدوات احترافية لتعديل وتصميم الصور أونلاين مجاناً. تشمل دمج الصور، الأبيض والأسود، عكس الصور، إضافة نصوص، وصناعة الميمز والاقتباسات محلياً 100% بأمان تام.">
+    <meta name="keywords" content="تعديل الصور اونلاين, دمج صورتين, كود ميمز, صانع الاقتباسات, فلتر ابيض واسود, عكس الصورة, تعديل الصور للسيو, meme generator, quote image">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/image-editor-suite.html">
+    <meta property="og:title" content="أدوات تعديل وتصميم الصور أونلاين مجاناً | شات الخليج">
+    <meta property="og:description" content="عدّل صورك وصمم الميمز والاقتباسات وأضف النصوص وادمج الصور فورياً داخل متصفحك بأمان وخصوصية تامة 100% دون رفع صورك للسيرفر.">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://tools.chat-alkhaleej.com/image-editor-suite.html">
+    <meta name="twitter:title" content="أدوات تعديل وتصميم الصور أونلاين مجاناً | شات الخليج">
+    <meta name="twitter:description" content="عدّل صورك وصمم الميمز والاقتباسات وأضف النصوص وادمج الصور فورياً داخل متصفحك بأمان وخصوصية تامة 100% دون رفع صورك للسيرفر.">
+    <meta name="twitter:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/image-editor-suite.html">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "حقيبة أدوات تعديل الصور الاحترافية",
+      "url": "https://tools.chat-alkhaleej.com/image-editor-suite.html",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "All",
+      "description": "حقيبة أدوات ويب مجانية ومتكاملة لتعديل الصور وتصميم الميمز والاقتباسات وإضافة الفلاتر محلياً بالكامل لحماية الخصوصية والأمان.",
+      "browserRequirements": "Requires HTML5, Canvas API, and JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "هل يتم تخزين صوري المعدلة على أي سيرفرات؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "لا، نهائياً. الأداة تعتمد بشكل كامل على تقنية HTML5 Canvas API المحلية، مما يعني أن كافة التعديلات، الدمج، الفلاتر وإضافة النصوص تتم داخل جهاز المتصفح (Client-Side) دون إرسال أي بايت للسيرفر."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "كيف يساعد تعديل الصور وكتابة النصوص عليها في الـ SEO؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تساعد صناعة صور الاقتباسات والميمز الحصرية على زيادة تفاعل المستخدمين ورفع معدل بقائهم في الموقع، وتجنب استخدام الصور المكررة والمحمية بحقوق الطبع والنشر، مما يعزز أرشفة موقعك في محرك بحث الصور لجوجل."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #450C0C;
+            --accent: #ffd86b;
+            --accent-hover: #f1ca5c;
+            --bg: #f8fafc;
+            --text: #1e293b;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+            --success: #10b981;
+            --danger: #ef4444;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: var(--primary);
+            padding: 12px 0;
+            border-bottom: 3px solid var(--accent);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .nav-logo img {
+            height: 45px;
+            display: block;
+        }
+        .nav-home {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 700;
+            transition: 0.3s ease;
+        }
+        .nav-home:hover {
+            color: #fff;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #290505 100%);
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+        .hero h1 {
+            font-size: clamp(24px, 5vw, 36px);
+            font-weight: 900;
+            margin-bottom: 15px;
+            color: var(--accent);
+        }
+        .hero p {
+            font-size: clamp(15px, 3vw, 18px);
+            max-width: 800px;
+            margin: 0 auto;
+            color: #f1f5f9;
+            opacity: 0.9;
+        }
+
+        /* Main Area Layout */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .workspace {
+            display: grid;
+            grid-template-columns: 290px 1fr;
+            gap: 25px;
+        }
+
+        @media (max-width: 950px) {
+            .workspace {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Sidebar Tabs */
+        .sidebar {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 20px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            height: fit-content;
+        }
+        .sidebar-title {
+            font-size: 16px;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .tab-btn {
+            width: 100%;
+            background: none;
+            border: 1px solid transparent;
+            text-align: right;
+            padding: 11px 14px;
+            font-family: 'Cairo';
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text);
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.2s ease;
+        }
+        .tab-btn:hover {
+            background: #f1f5f9;
+            color: var(--primary);
+        }
+        .tab-btn.active {
+            background: var(--primary);
+            color: var(--accent);
+            border-color: var(--primary);
+        }
+
+        /* Tool Board Frame */
+        .main-content {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 25px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            animation: fadeIn 0.4s ease;
+        }
+
+        .tool-header {
+            margin-bottom: 25px;
+        }
+        .tool-header h2 {
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .tool-header p {
+            font-size: 14px;
+            color: #64748b;
+            margin-top: 5px;
+        }
+
+        /* Upload Area (Drag & Drop) */
+        .upload-section {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        .upload-section.split-mode {
+            grid-template-columns: 1fr 1fr;
+        }
+        @media (max-width: 600px) {
+            .upload-section.split-mode {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .upload-zone {
+            border: 3px dashed var(--border);
+            background: #fafafa;
+            border-radius: 12px;
+            padding: 30px 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        .upload-zone:hover, .upload-zone.dragover {
+            border-color: var(--primary);
+            background: #f1f5f9;
+        }
+        .upload-zone i {
+            font-size: 35px;
+            color: #94a3b8;
+            margin-bottom: 10px;
+        }
+        .upload-zone p {
+            font-size: 14px;
+            font-weight: 700;
+            color: #475569;
+        }
+        .upload-zone input[type="file"] {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Dynamic Options Panels */
+        .dynamic-controls {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        .control-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .control-group label {
+            font-size: 13px;
+            font-weight: 700;
+            color: #475569;
+        }
+        .control-group input[type="text"], 
+        .control-group select, 
+        .control-group input[type="color"] {
+            padding: 8px 12px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-family: 'Cairo';
+            font-size: 14px;
+            outline: none;
+            background: #fff;
+            width: 100%;
+        }
+        .control-group input[type="range"] {
+            width: 100%;
+            margin-top: 8px;
+            accent-color: var(--primary);
+        }
+
+        /* Canvas Display Render Box */
+        .canvas-container {
+            border: 1px solid var(--border);
+            background: #e2e8f0;
+            background-image: linear-gradient(45deg, #cbd5e1 25%, transparent 25%), 
+                              linear-gradient(-45deg, #cbd5e1 25%, transparent 25%), 
+                              linear-gradient(45deg, transparent 75%, #cbd5e1 75%), 
+                              linear-gradient(-45deg, transparent 75%, #cbd5e1 75%);
+            background-size: 20px 20px;
+            background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+            border-radius: 12px;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 350px;
+            max-height: 550px;
+            overflow: auto;
+            margin-bottom: 25px;
+        }
+        canvas {
+            max-width: 100%;
+            max-height: 500px;
+            object-fit: contain;
+            border-radius: 6px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            background: transparent;
+        }
+
+        /* Action Buttons Panel */
+        .control-panel {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            flex-wrap: wrap;
+            border-top: 1px dashed var(--border);
+            padding-top: 20px;
+        }
+        .btn-group-right {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            font-family: 'Cairo';
+            font-weight: 700;
+            font-size: 14px;
+            padding: 10px 22px;
+            border-radius: 50px;
+            cursor: pointer;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        .btn-main-action {
+            background: var(--primary);
+            color: var(--accent);
+        }
+        .btn-main-action:hover {
+            background: #290505;
+        }
+        .btn-secondary {
+            background: #f1f5f9;
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+        .btn-secondary:hover {
+            background: var(--accent);
+            color: var(--primary);
+            border-color: var(--primary);
+        }
+        .btn-danger {
+            background: #fee2e2;
+            color: var(--danger);
+        }
+        .btn-danger:hover {
+            background: var(--danger);
+            color: #fff;
+        }
+
+        /* Toast Notifications */
+        #toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #334155;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 700;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            display: none;
+            z-index: 10000;
+            animation: slideIn 0.3s ease;
+        }
+
+        /* Informative Section */
+        .benefits-section {
+            background: #fff;
+            border-radius: 16px;
+            padding: 30px;
+            margin-top: 40px;
+            border: 1px solid var(--border);
+        }
+        .benefits-section h2 {
+            color: var(--primary);
+            font-weight: 900;
+            margin-bottom: 20px;
+            font-size: 24px;
+            border-right: 5px solid var(--accent);
+            padding-right: 15px;
+        }
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .benefit-card {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+        .benefit-card h3 {
+            color: var(--primary);
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .benefit-card p {
+            font-size: 14px;
+            color: #475569;
+            text-align: justify;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            margin-top: 40px;
+        }
+        .faq-section h2 {
+            text-align: center;
+            color: var(--primary);
+            font-weight: 900;
+            margin-bottom: 25px;
+        }
+        .faq-item {
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            border: 1px solid var(--border);
+            border-right: 5px solid var(--accent);
+        }
+        .faq-item h3 {
+            font-size: 16px;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+        .faq-item p {
+            font-size: 14px;
+            color: #475569;
+        }
+
+        /* Related Tools Links Grid */
+        .links-title {
+            text-align: center;
+            color: var(--primary);
+            margin-top: 50px;
+            font-weight: 900;
+        }
+        .related-tools {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .tool-link {
+            background: #fff;
+            padding: 15px;
+            text-align: center;
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            border: 1px solid var(--border);
+            transition: 0.3s;
+        }
+        .tool-link:hover {
+            background: var(--primary);
+            color: var(--accent);
+            border-color: var(--primary);
+        }
+
+        /* Footer */
+        footer {
+            background: #fff;
+            padding: 30px;
+            margin-top: 60px;
+            text-align: center;
+            border-top: 1px solid var(--border);
+            font-weight: 600;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<header class="hero">
+    <h1>حقيبة أدوات تعديل وتصميم الصور المتكاملة</h1>
+    <p>صمم واصنع وادمج الصور محلياً فوراً بلمسات احترافية. يمكنك تعديل الإضاءة والتباين، توليد الكوميك الميمز وصور الاقتباسات الشهيرة بأمان كلي دون تخزين ملفاتك.</p>
+</header>
+
+<div class="container">
+    <div class="workspace">
+        
+        <aside class="sidebar">
+            <div class="sidebar-title">
+                <i class="fas fa-wrench"></i> قائمة أدوات التعديل
+            </div>
+            <button class="tab-btn active" onclick="switchTool('merge-images', this)">
+                <i class="fas fa-images"></i> دمج صورتين معاً
+            </button>
+            <button class="tab-btn" onclick="switchTool('grayscale', this)">
+                <i class="fas fa-tint-slash"></i> تحويل لأبيض وأسود
+            </button>
+            <button class="tab-btn" onclick="switchTool('flip-h', this)">
+                <i class="fas fa-arrows-alt-h"></i> Flip عكس أفقي
+            </button>
+            <button class="tab-btn" onclick="switchTool('flip-v', this)">
+                <i class="fas fa-arrows-alt-v"></i> Flip عكس عمودي
+            </button>
+            <button class="tab-btn" onclick="switchTool('blur-filter', this)">
+                <i class="fas fa-eye-slash"></i> Blur تغبيش الصورة
+            </button>
+            <button class="tab-btn" onclick="switchTool('brightness-filter', this)">
+                <i class="fas fa-sun"></i> Brightness الإضاءة
+            </button>
+            <button class="tab-btn" onclick="switchTool('contrast-filter', this)">
+                <i class="fas fa-adjust"></i> Contrast التباين
+            </button>
+            <button class="tab-btn" onclick="switchTool('add-text', this)">
+                <i class="fas fa-font"></i> إضافة نص على الصورة
+            </button>
+            <button class="tab-btn" onclick="switchTool('quote-generator', this)">
+                <i class="fas fa-quote-right"></i> صانع صور الاقتباسات
+            </button>
+            <button class="tab-btn" onclick="switchTool('meme-generator', this)">
+                <i class="fas fa-laugh-squint"></i> Meme Generator الميمز
+            </button>
+        </aside>
+
+        <main class="main-content">
+            
+            <div class="tool-header">
+                <h2 id="toolTitle"><i class="fas fa-images"></i> دمج صورتين معاً</h2>
+                <p id="toolDesc">قم برفع صورتين مختلفتين لدمجهما معاً في صورة واحدة فوق بعضها البعض بشكل متناسق هندسياً.</p>
+            </div>
+
+            <div class="upload-section split-mode" id="uploadWrapper">
+                <div class="upload-zone" id="zonePrimary">
+                    <i class="fas fa-file-upload"></i>
+                    <p id="labelZone1">اختر الصورة الأساسية (أو اسحبها)</p>
+                    <input type="file" accept="image/*" onchange="loadImg(event, 'primary')">
+                </div>
+                <div class="upload-zone" id="zoneSecondary" style="display: block;">
+                    <i class="fas fa-layer-group"></i>
+                    <p>اختر الصورة الثانية للدمج</p>
+                    <input type="file" accept="image/*" onchange="loadImg(event, 'secondary')">
+                </div>
+            </div>
+
+            <div class="dynamic-controls" id="controlsPanel" style="display: none;">
+                </div>
+
+            <div class="canvas-container">
+                <canvas id="mainCanvas"></canvas>
+            </div>
+
+            <div class="control-panel">
+                <div class="btn-group-right">
+                    <button class="btn btn-main-action" onclick="applyEffect()"><i class="fas fa-magic"></i> تطبيق التأثير / تحديث</button>
+                    <button class="btn btn-secondary" id="downloadBtn" onclick="downloadCanvas()" disabled><i class="fas fa-download"></i> تحميل الصورة النهائية</button>
+                </div>
+                <button class="btn btn-danger" onclick="resetAll()"><i class="fas fa-sync-alt"></i> تفريغ ومسح الكل</button>
+            </div>
+
+        </main>
+    </div>
+
+    <section class="benefits-section">
+        <h2>فوائد تعديل الصور وتحسينها للسوشال ميديا ومحركات البحث وSEO</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <h3><i class="fas fa-bullhorn"></i> تسويق أقوى على السوشال ميديا</h3>
+                <p>المنشورات التي تحتوي على صور معدلة واحترافية مثل الميمز وصور الاقتباسات تحقق نسب مشاركة (Share) ونسب نقرات (CTR) أعلى بـ 3 أضعاف مقارنة بالنصوص الجامدة. تمنحك هذه الأدوات إمكانية صياغة أفكارك فورياً ومشاركتها لزيادة الـ Engagement.</p>
+            </div>
+            <div class="benefit-card">
+                <h3><i class="fas fa-search-plus"></i> تصدر بحث الصور جوجل Image SEO</h3>
+                <p>تفضل عناكب بحث جوجل الصور الفريدة والحصرية التي تقدم قيمة للمستخدم. كتابة نص توضيحي جذاب على صور المنتجات، أو تحويل خلفيات الصور ودمجها بذكاء يمنع تصنيف صور موقعك كـ "محتوى مكرر"، مما يضمن تصدرها الكلمات المستهدفة.</p>
+            </div>
+            <div class="benefit-card">
+                <h3><i class="fas fa-user-shield"></i> الأمان والخصوصية الرقمية</h3>
+                <p>أغلب المطورين وأصحاب المواقع يقلقون من رفع شعاراتهم أو صور مشاريعهم إلى مواقع تعديل صور غير موثوقة تسرب البيانات. معالجة الصور محلياً بالكامل تضمن لك الحماية المطلقة وحفظ حقوقك دون تسريب أي ملفات خارج متصفحك الشخصي.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h2>الأسئلة الشائعة حول أدوات تعديل وتصميم الصور</h2>
+        <div class="faq-item">
+            <h3>كيف تعمل ميزة دمج صورتين في الأداة؟</h3>
+            <p>عند رفع الصورتين، تقوم الأداة بقراءة أبعاد الصورة الأساسية أولاً، ثم تقوم برسم وتطبيق الطبقة الثانية فوقها بنسبة شفافية متناسقة، مما يتيح لك دمج الخلفيات أو وضع العلامات المائية والشعارات على صورك بسهولة.</p>
+        </div>
+        <div class="faq-item">
+            <h3>ما هي ميزة الـ Meme Generator المتاحة هنا؟</h3>
+            <p>تتيح لك الأداة رفع أي قالب كوميك شهير، ومن ثم تقوم بكتابة نص في الأعلى ونص في الأسفل بخط عريض وواضح باللون الأبيض ومحاط بظلال سوداء كالمعمول به في أشهر منصات الميمز العالمية وبشكل منسق وتلقائي.</p>
+        </div>
+        <div class="faq-item">
+            <h3>لماذا تظهر جودة الصور عالية جداً بعد تحميلها؟</h3>
+            <p>لأننا نستخدم واجهة Canvas API البرمجية التي تحافظ على نفس كثافة البكسلات (Resolution) الأصلية للملف المرفوع، وعند ضغط زر التحميل نقوم بتصدير الصورة بصيغة PNG خام غير مضغوطة للحفاظ على كامل الألوان والحدة.</p>
+        </div>
+    </section>
+
+    <h2 class="links-title">تصفح أقسام موقع شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">منصة الأدوات المجانية</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج التقنية</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب الترفيهية</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة الصوتية</a>
+    </div>
+
+</div>
+
+<div id="toast">تمت العملية بنجاح!</div>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p>
+</footer>
+
+<script>
+    // الحالة العامة لبيانات الصور المرفوعة والتأثيرات
+    let currentTool = 'merge-images';
+    let imgPrimary = null;
+    let imgSecondary = null;
+
+    // المراجع الأساسية لعناصر الـ HTML
+    const canvas = document.getElementById('mainCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // كائنات إعدادات الأدوات المتاحة
+    const toolsConfig = {
+        'merge-images': {
+            title: 'دمج صورتين معاً',
+            desc: 'قم برفع صورتين مختلفتين لدمجهما معاً في صورة واحدة فوق بعضها البعض بشكل متناسق هندسياً.',
+            icon: 'fa-images',
+            splitUpload: true,
+            label1: 'اختر الصورة الأساسية (أو اسحبها)',
+            controlsHtml: `
+                <div class="control-row">
+                    <div class="control-group">
+                        <label>درجة شفافية الصورة الثانية:</label>
+                        <input type="range" id="mergeOpacity" min="0" max="1" step="0.1" value="0.5">
+                    </div>
+                </div>
+            `
+        },
+        'grayscale': {
+            title: 'تحويل لأبيض وأسود',
+            desc: 'تطبيق فلتر Grayscale نقي لإزالة كود الألوان وتحويل الصورة إلى النمط الكلاسيكي الفخم.',
+            icon: 'fa-tint-slash',
+            splitUpload: false,
+            label1: 'اختر الصورة لتطبيق الفلتر عليها',
+            controlsHtml: `<span style="font-size:13px; color:#475569;">لا توجد إعدادات إضافية، اضغط على زر تطبيق التأثير مباشرة.</span>`
+        },
+        'flip-h': {
+            title: 'Flip عكس أفقي',
+            desc: 'عكس اتجاه محاور الصورة أفقياً بمقدار 180 درجة لتحسين اتجاه الرؤية.',
+            icon: 'fa-arrows-alt-h',
+            splitUpload: false,
+            label1: 'اختر الصورة لقلبها أفقياً',
+            controlsHtml: `<span style="font-size:13px; color:#475569;">اضغط على تطبيق التأثير لعكس الصورة جهة اليمين واليسار.</span>`
+        },
+        'flip-v': {
+            title: 'Flip عكس عمودي',
+            desc: 'قلب الصورة رأسياً على عقب لقلب محاور الرؤية والتصميم البرمجي.',
+            icon: 'fa-arrows-alt-v',
+            splitUpload: false,
+            label1: 'اختر الصورة لقلبها رأسياً',
+            controlsHtml: `<span style="font-size:13px; color:#475569;">اضغط على تطبيق التأثير لقلب الصورة للأعلى والأسفل.</span>`
+        },
+        'blur-filter': {
+            title: 'Blur تغبيش الصورة',
+            desc: 'إضافة تأثير ضبابي غامض Blur على معالم الصورة للتركيز على تفاصيل معينة.',
+            icon: 'fa-eye-slash',
+            splitUpload: false,
+            label1: 'اختر الصورة لتطبيق الضبابية',
+            controlsHtml: `
+                <div class="control-row">
+                    <div class="control-group">
+                        <label>قوة الضبابية (بكسل):</label>
+                        <input type="range" id="blurRange" min="0" max="20" step="1" value="5">
+                    </div>
+                </div>
+            `
+        },
+        'brightness-filter': {
+            title: 'Brightness التحكم بالإضاءة',
+            desc: 'تعديل سطوع وقوة وهج الإضاءة بداخل الصورة لجعلها أكثر إشراقاً أو عتمة.',
+            icon: 'fa-sun',
+            splitUpload: false,
+            label1: 'اختر الصورة للتحكم بالسطوع',
+            controlsHtml: `
+                <div class="control-row">
+                    <div class="control-group">
+                        <label>مستوى الإضاءة (%):</label>
+                        <input type="range" id="brightRange" min="50" max="200" step="5" value="100">
+                    </div>
+                </div>
+            `
+        },
+        'contrast-filter': {
+            title: 'Contrast التحكم بالتباين',
+            desc: 'ضبط الفروقات بين الأجزاء المضيئة والمظلمة لزيادة وضوح التفاصيل العميقة بداخل ملف الميديا.',
+            icon: 'fa-adjust',
+            splitUpload: false,
+            label1: 'اختر الصورة لضبط تباينها',
+            controlsHtml: `
+                <div class="control-row">
+                    <div class="control-group">
+                        <label>نسبة التباين (%):</label>
+                        <input type="range" id="contrastRange" min="50" max="200" step="5" value="100">
+                    </div>
+                </div>
+            `
+        },
+        'add-text': {
+            title: 'إضافة نص على الصورة',
+            desc: 'قم بكتابة أي نص أو جملة فوق الصورة مع تحديد الألوان والمقاسات ومكان التموضع الفوري.',
+            icon: 'fa-font',
+            splitUpload: false,
+            label1: 'اختر الصورة للكتابة عليها',
+            controlsHtml: `
+                <div class="control-row">
+                    <div class="control-group">
+                        <label>النص المراد كتابته:</label>
+                        <input type="text" id="textInputString" value="شات الخليج">
+                    </div>
+                    <div class="control-group">
+                        <label>لون الخط:</label>
+                        <input type="color" id="textColor" value="#ffd86b">
+                    </div>
+                    <div class="control-group">
+                        <label>حجم الخط (بكسل):</label>
+                        <select id="textSize">
+                            <option value="24">24 بكسل</option>
+                            <option value="36" selected>36 بكسل</option>
+                            <option value="48">48 بكسل</option>
+                            <option value="72">72 بكسل</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label>مكان تموضع النص:</label>
+                        <select id="textPosition">
+                            <option value="center">في المنتصف</option>
+                            <option value="top">في الأعلى</option>
+                            <option value="bottom">في الأسفل</option>
+                        </select>
+                    </div>
+                </div>
+            `
+        },
+        'quote-generator': {
+            title: 'صانع صور الاقتباسات الاحترافية',
+            desc: 'قم بتوليد بطاقة اقتباسية فخمة؛ حيث يتم استخدام الصورة كخلفية معتمة ونظام خط عريض مخصص للعبارات الطويلة.',
+            icon: 'fa-quote-right',
+            splitUpload: false,
+            label1: 'اختر صورة خلفية البطاقة',
+            controlsHtml: `
+                <div class="control-row">
+                    <div class="control-group" style="grid-column: span 2;">
+                        <label>نص المقولة أو الاقتباس:</label>
+                        <input type="text" id="quoteTextString" value="&ldquo; البرمجة لا تتعلق بما تعرفه، بل بما يمكنك اكتشافه وفهمه &rdquo;">
+                    </div>
+                    <div class="control-group">
+                        <label>اسم صاحب المقولة:</label>
+                        <input type="text" id="quoteAuthorString" value="مطور ويب">
+                    </div>
+                </div>
+            `
+        },
+        'meme-generator': {
+            title: 'Meme Generator صانع الميمز',
+            desc: 'اصنع الميمز الساخرة بضغطة زر عبر تزويد الصورة بالوصف والمكتوب الهيكلي الأعلى والأسفل.',
+            icon: 'fa-laugh-squint',
+            splitUpload: false,
+            label1: 'اختر قالب الكوميك الميم',
+            controlsHtml: `
+                <div class="control-row">
+                    <div class="control-group">
+                        <label>النص العلوي (Top Text):</label>
+                        <input type="text" id="memeTopText" value="لما الكود يشتغل من أول مرة">
+                    </div>
+                    <div class="control-group">
+                        <label>النص السفلي (Bottom Text):</label>
+                        <input type="text" id="memeBottomText" value="بدون أي خطأ قواعدي وعلامات تعجب!">
+                    </div>
+                </div>
+            `
+        }
+    };
+
+    // إعداد مستمعات السحب والإفلات التفاعلية للواجهات
+    setupDragAndDrop('zonePrimary');
+    setupDragAndDrop('zoneSecondary');
+
+    function setupDragAndDrop(id) {
+        const zone = document.getElementById(id);
+        if(!zone) return;
+
+        ['dragenter', 'dragover'].forEach(name => {
+            zone.addEventListener(name, (e) => {
+                e.preventDefault();
+                zone.classList.add('dragover');
+            }, false);
+        });
+
+        ['dragleave', 'drop'].forEach(name => {
+            zone.addEventListener(name, (e) => {
+                e.preventDefault();
+                zone.classList.remove('dragover');
+            }, false);
+        });
+
+        zone.addEventListener('drop', (e) => {
+            const files = e.dataTransfer.files;
+            if(files.length > 0) {
+                const type = id === 'zonePrimary' ? 'primary' : 'secondary';
+                mockFileInputEvent(files[0], type);
+            }
+        });
+    }
+
+    function mockFileInputEvent(file, type) {
+        const dummyEvent = { target: { files: [file] } };
+        loadImg(dummyEvent, type);
+    }
+
+    // التبديل بين الأدوات وإعادة صياغة الخيارات
+    function switchTool(toolId, element) {
+        currentTool = toolId;
+
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        element.classList.add('active');
+
+        const config = toolsConfig[toolId];
+        document.getElementById('toolTitle').innerHTML = `<i class="fas ${config.icon}"></i> ${config.title}`;
+        document.getElementById('toolDesc').innerText = config.desc;
+        document.getElementById('labelZone1').innerText = config.label1;
+
+        const uploadWrapper = document.getElementById('uploadWrapper');
+        const zoneSecondary = document.getElementById('zoneSecondary');
+
+        if(config.splitUpload) {
+            uploadWrapper.classList.add('split-mode');
+            zoneSecondary.style.display = 'block';
+        } else {
+            uploadWrapper.classList.remove('split-mode');
+            zoneSecondary.style.display = 'none';
+        }
+
+        const panel = document.getElementById('controlsPanel');
+        if(config.controlsHtml) {
+            panel.style.display = 'block';
+            panel.innerHTML = config.controlsHtml;
+        } else {
+            panel.style.display = 'none';
+        }
+
+        // الحفاظ على الصور المرفوعة ولكن إعادة تهيئة الـ Canvas للتأثير الجديد
+        if(imgPrimary) {
+            drawInitialCanvas();
+        }
+    }
+
+    // معالجة وقراءة وتحميل السورس للصور المرفوعة
+    function loadImg(event, role) {
+        const file = event.target.files[0];
+        if(!file) return;
+
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const tempImg = new Image();
+            tempImg.src = e.target.result;
+            tempImg.onload = function() {
+                if(role === 'primary') {
+                    imgPrimary = this;
+                    showToast('تم تحميل الصورة الأساسية بنجاح!');
+                    drawInitialCanvas();
+                    document.getElementById('downloadBtn').removeAttribute('disabled');
+                } else {
+                    imgSecondary = this;
+                    showToast('تم تحميل الصورة الثانية للدمج!');
+                    if(imgPrimary) drawInitialCanvas();
+                }
+            };
+        };
+        reader.readAsDataURL(file);
+    }
+
+    // الرسم الابتدائي الأولي للصورة على الـ Canvas بدون فلاتر لتهيئة الأبعاد
+    function drawInitialCanvas() {
+        if(!imgPrimary) return;
+        canvas.width = imgPrimary.width;
+        canvas.height = imgPrimary.height;
+        
+        // مسح الفلاتر الافتراضية
+        ctx.filter = 'none';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(imgPrimary, 0, 0);
+    }
+
+    // الدالة التشغيلية الكبرى لتطبيق وتوليد الفلاتر الرسومية والنصوص
+    function applyEffect() {
+        if(!imgPrimary) {
+            showToast('الرجاء اختيار صورة أولاً لتطبيق التأثير عليها!');
+            return;
+        }
+
+        // مسح وتنظيف الـ Canvas وإعادة رسم النسخة الأصلية قبل التعديل
+        canvas.width = imgPrimary.width;
+        canvas.height = imgPrimary.height;
+        ctx.filter = 'none';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        switch(currentTool) {
+            case 'merge-images':
+                ctx.drawImage(imgPrimary, 0, 0);
+                if(imgSecondary) {
+                    const opacity = parseFloat(document.getElementById('mergeOpacity').value) || 0.5;
+                    ctx.globalAlpha = opacity;
+                    // رسم الصورة الثانية ممتدة بذكاء على نفس أبعاد الصورة الأولى
+                    ctx.drawImage(imgSecondary, 0, 0, canvas.width, canvas.height);
+                    ctx.globalAlpha = 1.0; // إعادة الشفافية لوضعها الطبيعي
+                    showToast('تم دمج الصورتين معاً!');
+                } else {
+                    showToast('يرجى رفع الصورة الثانية لإتمام عملية الدمج البرمجية.');
+                }
+                break;
+
+            case 'grayscale':
+                ctx.drawImage(imgPrimary, 0, 0);
+                const imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+                const data = imgData.data;
+                // تفكيك البكسلات وتحويلها برمجياً لمعادلة الأبيض والأسود النقي
+                for (let i = 0; i < data.length; i += 4) {
+                    let brightness = 0.34 * data[i] + 0.5 * data[i + 1] + 0.16 * data[i + 2];
+                    data[i]     = brightness; // R
+                    data[i + 1] = brightness; // G
+                    data[i + 2] = brightness; // B
+                }
+                ctx.putImageData(imgData, 0, 0);
+                showToast('تم تطبيق الفلتر الكلاسيكي الأبيض والأسود!');
+                break;
+
+            case 'flip-h':
+                ctx.save();
+                ctx.translate(canvas.width, 0);
+                ctx.scale(-1, 1);
+                ctx.drawImage(imgPrimary, 0, 0);
+                ctx.restore();
+                showToast('تم عكس اتجاه الصورة أفقياً!');
+                break;
+
+            case 'flip-v':
+                ctx.save();
+                ctx.translate(0, canvas.height);
+                ctx.scale(1, -1);
+                ctx.drawImage(imgPrimary, 0, 0);
+                ctx.restore();
+                showToast('تم قلب الصورة رأسياً وعمودياً!');
+                break;
+
+            case 'blur-filter':
+                const blurVal = document.getElementById('blurRange').value || 5;
+                ctx.filter = `blur(${blurVal}px)`;
+                ctx.drawImage(imgPrimary, 0, 0);
+                showToast('تم غسيل وتغبيش الصورة بنجاح!');
+                break;
+
+            case 'brightness-filter':
+                const brightVal = document.getElementById('brightRange').value || 100;
+                ctx.filter = `brightness(${brightVal}%)`;
+                ctx.drawImage(imgPrimary, 0, 0);
+                showToast('تم تحديث مستويات إضاءة السطوع.');
+                break;
+
+            case 'contrast-filter':
+                const contrastVal = document.getElementById('contrastRange').value || 100;
+                ctx.filter = `contrast(${contrastVal}%)`;
+                ctx.drawImage(imgPrimary, 0, 0);
+                showToast('تمت موازنة مستويات التباين والألوان.');
+                break;
+
+            case 'add-text':
+                ctx.drawImage(imgPrimary, 0, 0);
+                const textStr = document.getElementById('textInputString').value || '';
+                const colorVal = document.getElementById('textColor').value || '#ffffff';
+                const sizeVal = document.getElementById('textSize').value || '36';
+                const posVal = document.getElementById('textPosition').value || 'center';
+
+                ctx.font = `bold ${sizeVal}px 'Cairo', sans-serif`;
+                ctx.fillStyle = colorVal;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+
+                // إضافة ظلال عريضة سوداء خلف النص لضمان القراءة بوضوح على كل الألوان
+                ctx.strokeStyle = '#000000';
+                ctx.lineWidth = 5;
+
+                let textX = canvas.width / 2;
+                let textY = canvas.height / 2;
+
+                if(posVal === 'top') textY = parseInt(sizeVal) + 30;
+                if(posVal === 'bottom') textY = canvas.height - parseInt(sizeVal) - 30;
+
+                ctx.strokeText(textStr, textX, textY);
+                ctx.fillText(textStr, textX, textY);
+                showToast('تمت طباعة النص المخصص على الصورة!');
+                break;
+
+            case 'quote-generator':
+                // رسم الخلفية مع طبقة عاتمة سوداء فخمة للاقتباسات
+                ctx.drawImage(imgPrimary, 0, 0);
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.6)';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                const qText = document.getElementById('quoteTextString').value || '';
+                const qAuthor = document.getElementById('quoteAuthorString').value || '';
+
+                // كتابة نص الاقتباس الرئيسي بمنتصف الكارت
+                ctx.fillStyle = '#ffffff';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                
+                // ملاءمة حجم الخط ديناميكياً مع الأبعاد
+                let fontSize = Math.max(20, Math.floor(canvas.width / 25));
+                ctx.font = `bold ${fontSize}px 'Cairo', sans-serif`;
+                
+                // معالجة التفاف النص البسيط في حالة كان السطر طويلاً جداً
+                wrapTextAndDraw(ctx, qText, canvas.width / 2, (canvas.height / 2) - 20, canvas.width * 0.8, fontSize * 1.5);
+
+                // كتابة اسم الكاتب بالأسفل مع فخامة الألوان
+                ctx.fillStyle = varColor('--accent');
+                ctx.font = `italic 700 ${Math.floor(fontSize * 0.7)}px 'Cairo', sans-serif`;
+                ctx.fillText(`— ${qAuthor}`, canvas.width / 2, (canvas.height / 2) + 80);
+                showToast('تم توليد بطاقة الاقتباس بنجاح!');
+                break;
+
+            case 'meme-generator':
+                ctx.drawImage(imgPrimary, 0, 0);
+                const tMeme = document.getElementById('memeTopText').value || '';
+                const bMeme = document.getElementById('memeBottomText').value || '';
+
+                let memeSize = Math.max(22, Math.floor(canvas.width / 18));
+                ctx.font = `900 ${memeSize}px 'Impact', 'Cairo', sans-serif`;
+                ctx.fillStyle = '#ffffff';
+                ctx.strokeStyle = '#000000';
+                ctx.lineWidth = Math.max(3, memeSize / 8);
+                ctx.textAlign = 'center';
+
+                // رسم وطباعة التكست العلوي للكوميك
+                ctx.textBaseline = 'top';
+                ctx.strokeText(tMeme, canvas.width / 2, 20);
+                ctx.fillText(tMeme, canvas.width / 2, 20);
+
+                // رسم وطباعة التكست السفلي للكوميك
+                ctx.textBaseline = 'bottom';
+                ctx.strokeText(bMeme, canvas.width / 2, canvas.height - 20);
+                ctx.fillText(bMeme, canvas.width / 2, canvas.height - 20);
+                
+                showToast('تم صناعة الميم بنجاح!');
+                break;
+        }
+    }
+
+    // دالة مساعدة لعمل التفاف أسطر تلقائي للاقتباسات الطويلة داخل الـ Canvas
+    function wrapTextAndDraw(context, text, x, y, maxWidth, lineHeight) {
+        let words = text.split(' ');
+        let line = '';
+        let currentY = y;
+
+        for (let n = 0; n < words.length; n++) {
+            let testLine = line + words[n] + ' ';
+            let metrics = context.measureText(testLine);
+            let testWidth = metrics.width;
+            if (testWidth > maxWidth && n > 0) {
+                context.fillText(line, x, currentY);
+                line = words[n] + ' ';
+                currentY += lineHeight;
+            } else {
+                line = testLine;
+            }
+        }
+        context.fillText(line, x, currentY);
+    }
+
+    // جلب قيم الألوان المتغيرة من كود الـ CSS
+    function varColor(name) {
+        return name === '--accent' ? '#ffd86b' : '#450C0C';
+    }
+
+    // تنزيل وتحميل الصورة النهائية المنتجة من الكانفاس لجهاز المستخدم مباشرة
+    function downloadCanvas() {
+        if(!imgPrimary) return;
+        
+        const link = document.createElement('a');
+        link.download = 'shat_alkhaleej_edited_image.png';
+        link.href = canvas.toDataURL('image/png');
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        showToast('بدء تنزيل وتحميل ملف الصورة المعدلة...');
+    }
+
+    // تفريغ ومسح مساحة العمل بالكامل
+    function resetAll() {
+        imgPrimary = null;
+        imgSecondary = null;
+        ctx.filter = 'none';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        canvas.width = 300;
+        canvas.height = 150;
+        
+        // تصفير مستندات الرفع المدخلة
+        document.querySelectorAll('input[type="file"]').forEach(i => i.value = '');
+        document.getElementById('downloadBtn').setAttribute('disabled', 'true');
+        showToast('تم تصفير وتنظيف ساحة العمل.');
+    }
+
+    // إظهار إشعارات الـ Toast اللحظية
+    function showToast(message) {
+        const toast = document.getElementById('toast');
+        toast.innerText = message;
+        toast.style.display = 'block';
+        setTimeout(() => {
+            toast.style.display = 'none';
+        }, 2500);
+    }
+
+    // التشغيل المبدئي للخيارات الافتراضية لأول أداة عند التحميل
+    window.onload = function() {
+        const firstTab = document.querySelector('.tab-btn');
+        if(firstTab) switchTool('merge-images', firstTab);
+    };
+</script>
+</body>
+</html>
