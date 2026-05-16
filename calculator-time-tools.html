@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>أدوات الحساب والوقت الاحترافية أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="مجموعة أدوات حسابية وزمنية متكاملة أونلاين مجاناً. تشمل آلة حاسبة، حساب العمر، فرق التاريخ، النسبة المئوية، مؤشر كتلة الجسم BMI، تحويل الوحدات والمناطق الزمنية محلياً 100%.">
+    <meta name="keywords" content="حساب العمر, فرق التاريخ, حاسبة النسبة المئوية, حاسبة BMI, تحويل الوحدات, تحويل المناطق الزمنية, آلة حاسبة اونلاين, date formatter">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/calculator-time-tools.html">
+    <meta property="og:title" content="أدوات الحساب والوقت الاحترافية أونلاين مجاناً | شات الخليج">
+    <meta property="og:description" content="احسب عمرك بدقة، واستخرج فرق التاريخ والنسبة المئوية، وحوّل الوحدات والمناطق الزمنية فوراً داخل متصفحك بأمان وخصوصية تامة وبدون أي رفع للبيانات.">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://tools.chat-alkhaleej.com/calculator-time-tools.html">
+    <meta name="twitter:title" content="أدوات الحساب والوقت الاحترافية أونلاين مجاناً | شات الخليج">
+    <meta name="twitter:description" content="احسب عمرك بدقة، واستخرج فرق التاريخ والنسبة المئوية، وحوّل الوحدات والمناطق الزمنية فوراً داخل متصفحك بأمان وخصوصية تامة وبدون أي رفع للبيانات.">
+    <meta name="twitter:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/calculator-time-tools.html">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "أدوات الحساب والوقت الاحترافية",
+      "url": "https://tools.chat-alkhaleej.com/calculator-time-tools.html",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "All",
+      "description": "حقيبة أدوات ويب مجانية لحساب العمر، فرق التاريخ، النسب المئوية، تحويل الوحدات، درجات الحرارة، والمناطق الزمنية محلياً بالكامل داخل المتصفح وبدقة فائقة.",
+      "browserRequirements": "Requires JavaScript and HTML5",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "كيف تقوم أداة تحويل المناطق الزمنية بحساب الوقت بدون سيرفر؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تعتمد الأداة على واجهة برمجة تطبيقات JavaScript الدولية المدمجة والمعروفة باسم Intl API، والتي تتيح للمتصفح الوصول إلى قاعدة بيانات التوقيت العالمي ونظام التشغيل لحساب فروق التوقيت بدقة تامة وبشكل فوري محلياً."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل بياناتي الحسابية أو التواريخ التي أدخلها آمنة؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم، آمنة بنسبة 100%. كافة العمليات الحسابية، معادلات العمر، وبيانات الوزن والطول لا تخرج من جهازك نهائياً، حيث تتم المعالجة داخلياً على مستوى المتصفح (Client-Side) لضمان الخصوصية وسرعة الاستجابة الفورية."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #450C0C;
+            --accent: #ffd86b;
+            --accent-hover: #f1ca5c;
+            --bg: #f8fafc;
+            --text: #1e293b;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+            --success: #10b981;
+            --danger: #ef4444;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: var(--primary);
+            padding: 12px 0;
+            border-bottom: 3px solid var(--accent);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .nav-logo img {
+            height: 45px;
+            display: block;
+        }
+        .nav-home {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 700;
+            transition: 0.3s ease;
+        }
+        .nav-home:hover {
+            color: #fff;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #290505 100%);
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+        .hero h1 {
+            font-size: clamp(24px, 5vw, 36px);
+            font-weight: 900;
+            margin-bottom: 15px;
+            color: var(--accent);
+        }
+        .hero p {
+            font-size: clamp(15px, 3vw, 18px);
+            max-width: 800px;
+            margin: 0 auto;
+            color: #f1f5f9;
+            opacity: 0.9;
+        }
+
+        /* Layout Structure */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .workspace {
+            display: grid;
+            grid-template-columns: 290px 1fr;
+            gap: 25px;
+        }
+
+        @media (max-width: 950px) {
+            .workspace {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Sidebar Tabs Navigation */
+        .sidebar {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 20px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            height: fit-content;
+        }
+        .sidebar-title {
+            font-size: 16px;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .tab-btn {
+            width: 100%;
+            background: none;
+            border: 1px solid transparent;
+            text-align: right;
+            padding: 11px 14px;
+            font-family: 'Cairo';
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text);
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.2s ease;
+        }
+        .tab-btn:hover {
+            background: #f1f5f9;
+            color: var(--primary);
+        }
+        .tab-btn.active {
+            background: var(--primary);
+            color: var(--accent);
+            border-color: var(--primary);
+        }
+
+        /* Main Workspace Container */
+        .main-content {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 25px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            animation: fadeIn 0.4s ease;
+        }
+
+        .tool-header {
+            margin-bottom: 25px;
+            border-bottom: 1px dashed var(--border);
+            padding-bottom: 15px;
+        }
+        .tool-header h2 {
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .tool-header p {
+            font-size: 14px;
+            color: #64748b;
+            margin-top: 5px;
+        }
+
+        /* Forms Layout & Inputs Configuration */
+        .inputs-panel {
+            margin-bottom: 25px;
+        }
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .form-group label {
+            font-size: 13px;
+            font-weight: 700;
+            color: #475569;
+        }
+        .form-group input[type="number"],
+        .form-group input[type="date"],
+        .form-group input[type="text"],
+        .form-group select {
+            padding: 10px 14px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-family: 'Cairo';
+            font-size: 14px;
+            outline: none;
+            background: #fff;
+            width: 100%;
+            transition: border-color 0.2s;
+        }
+        .form-group input:focus, .form-group select:focus {
+            border-color: var(--primary);
+        }
+
+        /* Calculator UI Custom Sub-Design */
+        .calc-wrapper {
+            max-width: 340px;
+            margin: 0 auto;
+            background: #1e1e24;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        .calc-screen {
+            width: 100%;
+            height: 60px;
+            background: #2d2d35;
+            border: none;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 24px;
+            text-align: left;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-family: monospace;
+            outline: none;
+        }
+        .calc-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .calc-btn {
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: 'Cairo';
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .calc-btn.op { background: var(--primary); color: var(--accent); }
+        .calc-btn.num { background: #3d3d45; color: #fff; }
+        .calc-btn.eq { background: #10b981; color: #fff; grid-column: span 2; }
+        .calc-btn.clear { background: #ef4444; color: #fff; }
+        .calc-btn:hover { opacity: 0.9; }
+
+        /* Dynamic Visual Live Results Component */
+        .results-panel {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        .results-title {
+            font-size: 14px;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .result-box-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 15px;
+        }
+        .result-card {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+        .result-card .value {
+            font-size: 22px;
+            font-weight: 900;
+            color: var(--primary);
+            margin-bottom: 4px;
+            word-break: break-all;
+        }
+        .result-card .label {
+            font-size: 12px;
+            font-weight: 700;
+            color: #64748b;
+        }
+
+        /* BMI Evaluation Tag Styles */
+        .bmi-status {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 4px 15px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #fff;
+            background: #94a3b8;
+        }
+        .bmi-1 { background: #38bdf8; } /* نحيف */
+        .bmi-2 { background: #10b981; } /* طبيعي */
+        .bmi-3 { background: #f59e0b; } /* زيادة وزن */
+        .bmi-4 { background: #ef4444; } /* سمنة مفرطة */
+
+        /* Operational Controls Panel */
+        .control-panel {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            flex-wrap: wrap;
+            border-top: 1px dashed var(--border);
+            padding-top: 20px;
+        }
+        .btn-group-right {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            font-family: 'Cairo';
+            font-weight: 700;
+            font-size: 14px;
+            padding: 10px 22px;
+            border-radius: 50px;
+            cursor: pointer;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        .btn-main-action {
+            background: var(--primary);
+            color: var(--accent);
+        }
+        .btn-main-action:hover {
+            background: #290505;
+        }
+        .btn-secondary {
+            background: #f1f5f9;
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+        .btn-secondary:hover {
+            background: var(--accent);
+            color: var(--primary);
+            border-color: var(--primary);
+        }
+
+        /* System Toast Messages */
+        #toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #334155;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 700;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            display: none;
+            z-index: 10000;
+            animation: slideIn 0.3s ease;
+        }
+
+        /* Benefits Articles Section */
+        .benefits-section {
+            background: #fff;
+            border-radius: 16px;
+            padding: 30px;
+            margin-top: 40px;
+            border: 1px solid var(--border);
+        }
+        .benefits-section h2 {
+            color: var(--primary);
+            font-weight: 900;
+            margin-bottom: 20px;
+            font-size: 24px;
+            border-right: 5px solid var(--accent);
+            padding-right: 15px;
+        }
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .benefit-card {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+        .benefit-card h3 {
+            color: var(--primary);
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .benefit-card p {
+            font-size: 14px;
+            color: #475569;
+            text-align: justify;
+        }
+
+        /* FAQ Section Accordion UI */
+        .faq-section {
+            margin-top: 40px;
+        }
+        .faq-section h2 {
+            text-align: center;
+            color: var(--primary);
+            font-weight: 900;
+            margin-bottom: 25px;
+        }
+        .faq-item {
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            border: 1px solid var(--border);
+            border-right: 5px solid var(--accent);
+        }
+        .faq-item h3 {
+            font-size: 16px;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+        .faq-item p {
+            font-size: 14px;
+            color: #475569;
+        }
+
+        /* Networking Tools External Grids Footer */
+        .links-title {
+            text-align: center;
+            color: var(--primary);
+            margin-top: 50px;
+            font-weight: 900;
+        }
+        .related-tools {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .tool-link {
+            background: #fff;
+            padding: 15px;
+            text-align: center;
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            border: 1px solid var(--border);
+            transition: 0.3s;
+        }
+        .tool-link:hover {
+            background: var(--primary);
+            color: var(--accent);
+            border-color: var(--primary);
+        }
+
+        /* Footer */
+        footer {
+            background: #fff;
+            padding: 30px;
+            margin-top: 60px;
+            text-align: center;
+            border-top: 1px solid var(--border);
+            font-weight: 600;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<header class="hero">
+    <h1>منصة أدوات الحساب والوقت الذكية</h1>
+    <p>حقيبة برمجية تفاعلية متكاملة لإجراء الحسابات الرياضية، تتبع الفوارق الزمنية، قياس المؤشرات الحيوية للجسم، وتحويل المناطق الزمنية بدقة متناهية محلياً فوراً.</p>
+</header>
+
+<div class="container">
+    <div class="workspace">
+        
+        <aside class="sidebar">
+            <div class="sidebar-title">
+                <i class="fas fa-calculator"></i> قائمة الأدوات المتوفرة
+            </div>
+            <button class="tab-btn active" onclick="switchTool('calculator', this)">
+                <i class="fas fa-calculator"></i> آلة حاسبة متطورة
+            </button>
+            <button class="tab-btn" onclick="switchTool('age-calc', this)">
+                <i class="fas fa-birthday-cake"></i> أداة حساب العمر بدقة
+            </button>
+            <button class="tab-btn" onclick="switchTool('date-diff', this)">
+                <i class="fas fa-calendar-alt"></i> حساب فرق التاريخ
+            </button>
+            <button class="tab-btn" onclick="switchTool('percentage', this)">
+                <i class="fas fa-percent"></i> حساب النسبة المئوية
+            </button>
+            <button class="tab-btn" onclick="switchTool('bmi-calc', this)">
+                <i class="fas fa-heartbeat"></i> حاسبة كتلة الجسم BMI
+            </button>
+            <button class="tab-btn" onclick="switchTool('unit-converter', this)">
+                <i class="fas fa-balance-scale"></i> محول وحدات القياس
+            </button>
+            <button class="tab-btn" onclick="switchTool('temp-converter', this)">
+                <i class="fas fa-thermometer-half"></i> تحويل درجات الحرارة
+            </button>
+            <button class="tab-btn" onclick="switchTool('date-formatter', this)">
+                <i class="fas fa-business-time"></i> صيغ وتنسيق التاريخ
+            </button>
+            <button class="tab-btn" onclick="switchTool('timezone-conv', this)">
+                <i class="fas fa-globe-americas"></i> محول المناطق الزمنية
+            </button>
+        </aside>
+
+        <main class="main-content">
+            
+            <div class="tool-header">
+                <h2 id="toolTitle"><i class="fas fa-calculator"></i> آلة حاسبة متطورة</h2>
+                <p id="toolDesc">تنفيذ وإجراء كافة العمليات الرياضية الحسابية والأساسية بدقة بكسل فورية.</p>
+            </div>
+
+            <div class="inputs-panel" id="dynamicInputsWrapper">
+                </div>
+
+            <div class="results-panel" id="resultsViewWrapper" style="display: none;">
+                <div class="results-title"><i class="fas fa-poll-h"></i> النتائج والمخرجات المحسوبة:</div>
+                <div class="result-box-grid" id="resultsBoxesGrid">
+                    </div>
+                <div id="additionalStatusBox" style="text-align: center;"></div>
+            </div>
+
+            <div class="control-panel" id="globalControlsPanel">
+                <div class="btn-group-right">
+                    <button class="btn btn-main-action" id="actionTriggerBtn" onclick="executeCalculation()"><i class="fas fa-magic"></i> احسب الآن</button>
+                    <button class="btn btn-secondary" id="copyResultBtn" onclick="copyResultsToClipboard()"><i class="fas fa-copy"></i> نسخ النتيجة</button>
+                </div>
+                <button class="btn btn-secondary" onclick="clearInputsAndViews()"><i class="fas fa-eraser"></i> مسح الحقول</button>
+            </div>
+
+        </main>
+    </div>
+
+    <section class="benefits-section">
+        <h2>فوائد أدوات الحساب والوقت للمستخدمين والطلاب وأصحاب المواقع والمطورين</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <h3><i class="fas fa-user-graduate"></i> أداء أكاديمي وإنتاجية فائقة</h3>
+                <p>تساعد حاسبات فرق التاريخ والنسب المئوية الطلاب والباحثين في موازنة المخططات الزمنية للمشاريع الدراسية، وحساب المعدلات التراكمية، وجدولة المذاكرة بدقة تامة وبأقل جهد مبذول دون تعقيد.</p>
+            </div>
+            <div class="benefit-card">
+                <h3><i class="fas fa-code"></i> تسريع بيئة عمل المطورين</h3>
+                <p>يحتاج مبرمجو الواجهات (Front-End) باستمرار إلى تحويل صيغ التواريخ (Date Formatter) والتحويل بين المناطق الزمنية العالمية المختلفة لتنسيق المواعيد في التطبيقات، وهو ما توفره أداتنا محلياً بالكامل عبر معايير الـ Intl الفائقة.</p>
+            </div>
+            <div class="benefit-card">
+                <h3><i class="fas fa-apple-alt"></i> متابعة المؤشرات الصحية الحيوية</h3>
+                <p>أدوات مثل حاسبة مؤشر كتلة الجسم BMI تمنح الأفراد والمستخدمين العاديين فرصة ممتازة لفهم الحالة البدنية للجسم بشكل فوري ومعرفة إذا ما كان الوزن يقع في النطاق الطبيعي أو يعاني من النحافة أو السمنة لتبني نمط حياة صحي.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h2>الأسئلة الشائعة حول أدوات معالجة الوقت والعمليات الرياضية</h2>
+        <div class="faq-item">
+            <h3>كيف تحسب أداة العمر السن بدقة بالأيام والشهور؟</h3>
+            <p>تقوم الأداة بإنشاء كائنين للوقت في الـ JavaScript؛ الأول يمثل تاريخ اليوم الحالي والآخر يمثل تاريخ الميلاد المختار، ثم تقوم بطرح التواريخ حسابياً مع مراعاة الفروق الهندسية لعدد الأيام في الشهور الكبيسة والبسيطة.</p>
+        </div>
+        <div class="faq-item">
+            <h3>ما هي أهمية استخدام الـ Date Formatter أونلاين؟</h3>
+            <p>تختلف الصيغ القياسية للتواريخ حول العالم؛ فمنها ما يعتمد النظام الأمريكي (الشهر قبل اليوم)، أو النظام الأوروبي القياسي. تتيح لك أداة التنسيق توحيد وعرض التاريخ بالشكل المناسب لك باللغتين العربية والإنجليزية بضغطة واحدة.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل تعمل حاسبة النسبة المئوية في العمليات المالية والتجارية؟</h3>
+            <p>نعم، الأداة مبنية على دقة رياضية تامة (Floating-Point Precision) تجعلها مناسبة جداً لحساب نسب الخصومات التجارية على المشتريات، حساب الضرائب، ومعرفة القيم المضافة للفواتير بشكل موثوق.</p>
+        </div>
+    </section>
+
+    <h2 class="links-title">تصفح أقسام موقع شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">منصة الأدوات المجانية</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج التقنية</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب الترفيهية</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة الصوتية</a>
+    </div>
+
+</div>
+
+<div id="toast">تمت العملية بنجاح!</div>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p>
+</footer>
+
+<script>
+    // متغيرات تتبع حالة الأداة المختارة حالياً ومخرجاتها
+    let currentTool = 'calculator';
+    let currentCalculatedResultString = '';
+
+    // كائن الإعدادات والهياكل البرمجية لكل أداة منفصلة داخل الصفحة
+    const toolsConfig = {
+        'calculator': {
+            title: 'آلة حاسبة متطورة',
+            desc: 'تنفيذ وإجراء كافة العمليات الرياضية الحسابية والأساسية بدقة بكسل فورية وبسيطة.',
+            icon: 'fa-calculator',
+            hideGlobalControls: true,
+            inputsHtml: `
+                <div class="calc-wrapper">
+                    <input type="text" class="calc-screen" id="calcDisplay" readonly placeholder="0">
+                    <div class="calc-grid">
+                        <button class="calc-btn clear" onclick="pressCalc('C')">C</button>
+                        <button class="calc-btn op" onclick="pressCalc('%')">%</button>
+                        <button class="calc-btn op" onclick="pressCalc('/')">÷</button>
+                        <button class="calc-btn op" onclick="pressCalc('*')">×</button>
+                        
+                        <button class="calc-btn num" onclick="pressCalc('7')">7</button>
+                        <button class="calc-btn num" onclick="pressCalc('8')">8</button>
+                        <button class="calc-btn num" onclick="pressCalc('9')">9</button>
+                        <button class="calc-btn op" onclick="pressCalc('-')">-</button>
+                        
+                        <button class="calc-btn num" onclick="pressCalc('4')">4</button>
+                        <button class="calc-btn num" onclick="pressCalc('5')">5</button>
+                        <button class="calc-btn num" onclick="pressCalc('6')">6</button>
+                        <button class="calc-btn op" onclick="pressCalc('+')">+</button>
+                        
+                        <button class="calc-btn num" onclick="pressCalc('1')">1</button>
+                        <button class="calc-btn num" onclick="pressCalc('2')">2</button>
+                        <button class="calc-btn num" onclick="pressCalc('3')">3</button>
+                        <button class="calc-btn num" onclick="pressCalc('.')">.</button>
+                        
+                        <button class="calc-btn num" onclick="pressCalc('0')">0</button>
+                        <button class="calc-btn eq" onclick="pressCalc('=')">=</button>
+                    </div>
+                </div>
+            `
+        },
+        'age-calc': {
+            title: 'أداة حساب العمر بدقة',
+            desc: 'احسب عمرك بالتفصيل الكامل مقسماً بالسنوات والأشهر والأيام بدقة متناهية وفورية.',
+            icon: 'fa-birthday-cake',
+            hideGlobalControls: false,
+            btnText: 'احسب العمر',
+            inputsHtml: `
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>اختر تاريخ ميلادك الكامل:</label>
+                        <input type="date" id="birthDateInput" value="2000-01-01">
+                    </div>
+                </div>
+            `
+        },
+        'date-diff': {
+            title: 'حساب فرق التاريخ بين يومين',
+            desc: 'استخراج الفوارق الفلكية والزمنية الدقيقة الفاصلة بين تاريخين مختلفين بالأيام والأسابيع والشهور.',
+            icon: 'fa-calendar-alt',
+            hideGlobalControls: false,
+            btnText: 'احسب فرق التاريخ',
+            inputsHtml: `
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>من تاريخ (التاريخ الأول):</label>
+                        <input type="date" id="diffDate1" value="2026-01-01">
+                    </div>
+                    <div class="form-group">
+                        <label>إلى تاريخ (التاريخ الثاني):</label>
+                        <input type="date" id="diffDate2" value="2026-05-16">
+                    </div>
+                </div>
+            `
+        },
+        'percentage': {
+            title: 'حاسبة النسبة المئوية الذكية',
+            desc: 'استخراج نسب مئوية معينة من مبالغ مالية أو أرقام تجارية مستهدفة بسهولة فائقة.',
+            icon: 'fa-percent',
+            hideGlobalControls: false,
+            btnText: 'احسب النسبة المئوية',
+            inputsHtml: `
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>كم تساوي النسبة المئوية (%):</label>
+                        <input type="number" id="percentRatio" placeholder="مثال: 20" value="20">
+                    </div>
+                    <div class="form-group">
+                        <label>من العدد الإجمالي الكلي:</label>
+                        <input type="number" id="percentTotal" placeholder="مثال: 500" value="500">
+                    </div>
+                </div>
+            `
+        },
+        'bmi-calc': {
+            title: 'حاسبة مؤشر كتلة الجسم BMI',
+            desc: 'معرفة جودة وموازنة وزنك الإجمالي تبعا للطول الفعلي وتحديد تصنيفات السمنة أو النحافة الحيوية.',
+            icon: 'fa-heartbeat',
+            hideGlobalControls: false,
+            btnText: 'احسب مؤشر BMI',
+            inputsHtml: `
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>الوزن الحالي (بالكيلوجرام):</label>
+                        <input type="number" id="bmiWeight" placeholder="مثال: 75" value="75">
+                    </div>
+                    <div class="form-group">
+                        <label>الطول الفعلي (بالسنتيمتر):</label>
+                        <input type="number" id="bmiHeight" placeholder="مثال: 175" value="175">
+                    </div>
+                </div>
+            `
+        },
+        'unit-converter': {
+            title: 'محول وحدات القياس الهندسية',
+            desc: 'التحويل الآمن والسريع بين الأوزان، الأطوال، المساحات، ومعدلات السرعة والمسافات.',
+            icon: 'fa-balance-scale',
+            hideGlobalControls: false,
+            btnText: 'حوّل الوحدات',
+            inputsHtml: `
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>فئة القياس:</label>
+                        <select id="unitCategory" onchange="updateUnitOptions()">
+                            <option value="length">الطول (متر, سم, بوصة..)</option>
+                            <option value="weight">الوزن (كيلوجرام, جرام, باوند..)</option>
+                            <option value="area">المساحة (متر مربع, كم مربع..)</option>
+                            <option value="speed">السرعة (كم/ساعة, ميل/ساعة..)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>القيمة المدخلة:</label>
+                        <input type="number" id="unitInputValue" value="10">
+                    </div>
+                    <div class="form-group">
+                        <label>من وحدة:</label>
+                        <select id="unitFrom"></select>
+                    </div>
+                    <div class="form-group">
+                        <label>إلى وحدة:</label>
+                        <select id="unitTo"></select>
+                    </div>
+                </div>
+            `
+        },
+        'temp-converter': {
+            title: 'محول درجات الحرارة الفيزيائية',
+            desc: 'تحويل درجات الحرارة الفورية بين الأنظمة المعتمدة عالمياً: سليزيوس، فهرنهايت، وكلفن.',
+            icon: 'fa-thermometer-half',
+            hideGlobalControls: false,
+            btnText: 'حوّل درجة الحرارة',
+            inputsHtml: `
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>القيمة الحرارية المكتوبة:</label>
+                        <input type="number" id="tempInputValue" value="37">
+                    </div>
+                    <div class="form-group">
+                        <label>من نظام تبريد/تسخين:</label>
+                        <select id="tempFrom">
+                            <option value="C">Celsius (°C)</option>
+                            <option value="F">Fahrenheit (°F)</option>
+                            <option value="K">Kelvin (K)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>إلى نظام المستهدف:</label>
+                        <select id="tempTo">
+                            <option value="F">Fahrenheit (°F)</option>
+                            <option value="C">Celsius (°C)</option>
+                            <option value="K">Kelvin (K)</option>
+                        </select>
+                    </div>
+                </div>
+            `
+        },
+        'date-formatter': {
+            title: 'أداة تنسيق وتشكيل صيغ التاريخ Date Formatter',
+            desc: 'صياغة التواريخ بأكثر من كود وترتيب نصي مختلف باللغتين العربية والإنجليزية.',
+            icon: 'fa-business-time',
+            hideGlobalControls: false,
+            btnText: 'تنسيق وصياغة التاريخ',
+            inputsHtml: `
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>اختر التاريخ المستهدف:</label>
+                        <input type="date" id="formatterDateInput" value="2026-05-16">
+                    </div>
+                </div>
+            `
+        },
+        'timezone-conv': {
+            title: 'محول توقيت المناطق الزمنية العالمي Time Zone Converter',
+            desc: 'مراقبة وتحويل فروق المواعيد بين كبرى عواصم ومدن العالم تفاعلياً عبر الـ Intl API القياسي.',
+            icon: 'fa-globe-americas',
+            hideGlobalControls: false,
+            btnText: 'تحويل الوقت للمنطقة',
+            inputsHtml: `
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>اختر منطقة العاصمة المستهدفة:</label>
+                        <select id="timezoneTargetSelect">
+                            <option value="Asia/Baghdad">بغداد (توقيت العراق)</option>
+                            <option value="Asia/Riyadh">الرياض (توقيت السعودية)</option>
+                            <option value="Europe/Berlin">برلين / ألمانيا</option>
+                            <option value="Europe/London">لندن / جرينتش</option>
+                            <option value="America/New_York">نيويورك / أمريكا</option>
+                            <option value="Asia/Dubai">دبي / الإمارات</option>
+                            <option value="Africa/Cairo">القاهرة / مصر</option>
+                            <option value="Asia/Tokyo">طوكيو / اليابان</option>
+                        </select>
+                    </div>
+                </div>
+            `
+        }
+    };
+
+    // مصفوفات ثوابت محول الوحدات الهندسية
+    const unitOptionsData = {
+        length: { meters: 'متر', cm: 'سنتيمتر', inch: 'بوصة', feet: 'قدم' },
+        weight: { kg: 'كيلوجرام', gram: 'جرام', lb: 'باوند (رطل)' },
+        area: { sqm: 'متر مربع', sqkm: 'كيلومتر مربع', acre: 'فدان / إيكر' },
+        speed: { kmh: 'كم / ساعة', miph: 'ميل / ساعة', ms: 'متر / ثانية' }
+    };
+
+    // التبديل بين الأدوات وإعادة توليد واجهات العرض
+    function switchTool(toolId, element) {
+        currentTool = toolId;
+
+        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+        element.classList.add('active');
+
+        const config = toolsConfig[toolId];
+        document.getElementById('toolTitle').innerHTML = `<i class="fas ${config.icon}"></i> ${config.title}`;
+        document.getElementById('toolDesc').innerText = config.desc;
+
+        document.getElementById('dynamicInputsWrapper').innerHTML = config.inputsHtml;
+
+        const controlsPanel = document.getElementById('globalControlsPanel');
+        const actionBtn = document.getElementById('actionTriggerBtn');
+
+        if(config.hideGlobalControls) {
+            controlsPanel.style.display = 'none';
+        } else {
+            controlsPanel.style.display = 'flex';
+            actionBtn.innerHTML = `<i class="fas fa-magic"></i> ${config.btnText}`;
+        }
+
+        // معالجة تشغيل الخيارات الفرعية للوحدات فورياً
+        if(toolId === 'unit-converter') {
+            updateUnitOptions();
+        }
+
+        // تصفير شاشات النتائج السابقة
+        document.getElementById('resultsViewWrapper').style.display = 'none';
+        document.getElementById('resultsBoxesGrid').innerHTML = '';
+        document.getElementById('additionalStatusBox').innerHTML = '';
+        currentCalculatedResultString = '';
+    }
+
+    // تحديث خيارات الاختيار (Select Options) التابعة لأداة محول الوحدات
+    function updateUnitOptions() {
+        const cat = document.getElementById('unitCategory').value;
+        const fromSelect = document.getElementById('unitFrom');
+        const toSelect = document.getElementById('unitTo');
+
+        let optionsHtml = '';
+        for (const [key, label] of Object.entries(unitOptionsData[cat])) {
+            optionsHtml += `<option value="${key}">${label}</option>`;
+        }
+
+        fromSelect.innerHTML = optionsHtml;
+        toSelect.innerHTML = optionsHtml;
+        
+        // تعيين قيمة افتراضية مختلفة للوحدة المستهدفة لمنع تحويل الوحدة لنفسها برمجياً
+        if(toSelect.options.length > 1) {
+            toSelect.selectedIndex = 1;
+        }
+    }
+
+    // محرك أزرار الآلة الحاسبة المستقلة
+    function pressCalc(val) {
+        const screen = document.getElementById('calcDisplay');
+        if(!screen) return;
+
+        if(val === 'C') {
+            screen.value = '';
+        } else if(val === '=') {
+            try {
+                // تنفيذ آمن للعمليات المكتوبة على الشاشة باستخدام الدالة الرياضية القياسية
+                if(screen.value.trim() === '') return;
+                let sanitizedExpression = screen.value.replace(/×/g, '*').replace(/÷/g, '/');
+                let result = Function('"use strict"; return (' + sanitizedExpression + ')')();
+                screen.value = Number(result).toLocaleString('ar-EG', {maximumFractionDigits: 4});
+                showToast('تمت العملية الحسابية!');
+            } catch(e) {
+                screen.value = 'خطأ رياضي';
+            }
+        } else {
+            if(screen.value === 'خطأ رياضي') screen.value = '';
+            screen.value += val;
+        }
+    }
+
+    // الدالة الكبرى المسؤولة عن معالجة وتنفيذ الحسابات بناءً على الأداة النشطة
+    function executeCalculation() {
+        const grid = document.getElementById('resultsBoxesGrid');
+        const statusBox = document.getElementById('additionalStatusBox');
+        grid.innerHTML = '';
+        statusBox.innerHTML = '';
+        currentCalculatedResultString = '';
+
+        switch(currentTool) {
+            case 'age-calc':
+                const bInput = document.getElementById('birthDateInput').value;
+                if(!bInput) { showToast('يرجى تحديد تاريخ ميلاد صحيح أولاً!'); return; }
+                
+                const birth = new Date(bInput);
+                const now = new Date();
+                
+                if(birth > now) { showToast('تاريخ الميلاد لا يمكن أن يكون في المستقبل يا غالي! 😂'); return; }
+
+                let years = now.getFullYear() - birth.getFullYear();
+                let months = now.getMonth() - birth.getMonth();
+                let days = now.getDate() - birth.getDate();
+
+                if (days < 0) {
+                    months--;
+                    // جلب عدد الأيام الحقيقي في الشهر السابق
+                    let prevMonth = new Date(now.getFullYear(), now.getMonth(), 0).getDate();
+                    days += prevMonth;
+                }
+                if (months < 0) {
+                    years--;
+                    months += 12;
+                }
+
+                buildResultCard(years, 'سنوات');
+                buildResultCard(months, 'أشهر');
+                buildResultCard(days, 'أيام');
+                
+                currentCalculatedResultString = `العمر التفصيلي: ${years} سنة، و ${months} شهر، و ${days} يوم.`;
+                showToast('تم حساب العمر بدقة متناهية!');
+                break;
+
+            case 'date-diff':
+                const d1Val = document.getElementById('diffDate1').value;
+                const d2Val = document.getElementById('diffDate2').value;
+                if(!d1Val || !d2Val) { showToast('الرجاء التأكد من ملء كلا التاريخين!'); return; }
+
+                const date1 = new Date(d1Val);
+                const date2 = new Date(d2Val);
+                const diffTime = Math.abs(date2 - date1);
+                const totalDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+                
+                const totalWeeks = (totalDays / 7).toFixed(1);
+                const totalMonthsApprox = (totalDays / 30.43).toFixed(1);
+
+                buildResultCard(totalDays, 'إجمالي الأيام');
+                buildResultCard(totalWeeks, 'إجمالي الأسابيع');
+                buildResultCard(totalMonthsApprox, 'إجمالي الشهور تقريباً');
+
+                currentCalculatedResultString = `فرق التواريخ: ${totalDays} يوم، أي ما يعادل ${totalWeeks} أسبوع أو ${totalMonthsApprox} شهر.`;
+                showToast('تم استخراج الفوارق الزمنية للتواريخ!');
+                break;
+
+            case 'percentage':
+                const ratio = parseFloat(document.getElementById('percentRatio').value);
+                const total = parseFloat(document.getElementById('percentTotal').value);
+                if(isNaN(ratio) || isNaN(total)) { showToast('يرجى كتابة أرقام صحيحة في الحقول!'); return; }
+
+                const finalPercentResult = (ratio / 100) * total;
+                buildResultCard(finalPercentResult.toFixed(2), 'الناتج المستخرج');
+                buildResultCard(ratio + '%', 'النسبة المطبقة');
+                buildResultCard(total, 'من العدد الكلي');
+
+                currentCalculatedResultString = `النتيجة المئوية: ${ratio}% من ${total} تساوي ${finalPercentResult}`;
+                showToast('تم حساب النسبة المئوية بنجاح!');
+                break;
+
+            case 'bmi-calc':
+                const w = parseFloat(document.getElementById('bmiWeight').value);
+                const h = parseFloat(document.getElementById('bmiHeight').value);
+                if(!w || !h) { showToast('الرجاء تعبئة بيانات الوزن والطول بشكل منطقي!'); return; }
+
+                // تحويل الطول من سنتيمتر إلى متر لإتمام المعادلة الطبية الحيوية
+                const heightMeters = h / 100;
+                const bmi = (w / (heightMeters * heightMeters)).toFixed(1);
+
+                buildResultCard(bmi, 'مؤشر كتلة الجسم BMI');
+                
+                let statusClass = 'bmi-2';
+                let statusText = 'وزن طبيعي ومتناسق 100%';
+                
+                if(bmi < 18.5) { statusClass = 'bmi-1'; statusText = 'نحافة شديدة، تحتاج إلى تغذية مكثفة!'; }
+                else if(bmi >= 25 && bmi < 29.9) { statusClass = 'bmi-3'; statusText = 'وزن زائد عن الحد الطبيعي'; }
+                else if(bmi >= 30) { statusClass = 'bmi-4'; statusText = 'سمنة مفرطة، ينصح بممارسة الرياضة وتنظيم الوجبات'; }
+
+                statusBox.innerHTML = `<span class="bmi-status ${statusClass}">${statusText}</span>`;
+                currentCalculatedResultString = `مؤشر كتلة الجسم هو: ${bmi} التصنيف الطبي: (${statusText})`;
+                showToast('تم حساب الـ BMI وتقييم الحالة البدنية!');
+                break;
+
+            case 'unit-converter':
+                const uCat = document.getElementById('unitCategory').value;
+                const uVal = parseFloat(document.getElementById('unitInputValue').value);
+                const uFrom = document.getElementById('unitFrom').value;
+                const uTo = document.getElementById('unitTo').value;
+
+                if(isNaN(uVal)) { showToast('الرجاء كتابة قيمة رقمية صالحة للتحويل!'); return; }
+
+                let outVal = uVal;
+
+                // معالجات فئات التحويل الهندسية رياضياً وعبر المعايير
+                if(uCat === 'length') {
+                    // تحويل الكل إلى متر كقاعدة ارتكاز وسيطة
+                    let meters = uVal;
+                    if(uFrom === 'cm') meters = uVal / 100;
+                    if(uFrom === 'inch') meters = uVal * 0.0254;
+                    if(uFrom === 'feet') meters = uVal * 0.3048;
+
+                    // التحويل من المتر إلى الوحدة المستهدفة المحددة
+                    outVal = meters;
+                    if(uTo === 'cm') outVal = meters * 100;
+                    if(uTo === 'inch') outVal = meters / 0.0254;
+                    if(uTo === 'feet') outVal = meters / 0.3048;
+                }
+                else if(uCat === 'weight') {
+                    let kgs = uVal;
+                    if(uFrom === 'gram') kgs = uVal / 1000;
+                    if(uFrom === 'lb') kgs = uVal * 0.453592;
+
+                    outVal = kgs;
+                    if(uTo === 'gram') outVal = kgs * 1000;
+                    if(uTo === 'lb') outVal = kgs / 0.453592;
+                }
+                else if(uCat === 'area') {
+                    let sqm = uVal;
+                    if(uFrom === 'sqkm') sqm = uVal * 1000000;
+                    if(uFrom === 'acre') sqm = uVal * 4046.86;
+
+                    outVal = sqm;
+                    if(uTo === 'sqkm') outVal = sqm / 1000000;
+                    if(uTo === 'acre') outVal = sqm / 4046.86;
+                }
+                else if(uCat === 'speed') {
+                    let kmh = uVal;
+                    if(uFrom === 'miph') kmh = uVal * 1.60934;
+                    if(uFrom === 'ms') kmh = uVal * 3.6;
+
+                    outVal = kmh;
+                    if(uTo === 'miph') outVal = kmh / 1.60934;
+                    if(uTo === 'ms') outVal = kmh / 3.6;
+                }
+
+                buildResultCard(uVal, uFrom);
+                buildResultCard(outVal.toFixed(3), uTo);
+
+                currentCalculatedResultString = `تحويل الوحدات: القيمة ${uVal} من وحدة ${uFrom} تساوي ${outVal.toFixed(3)} بوحدة ${uTo}`;
+                showToast('تم إتمام تحويل وتكافؤ الوحدات الفوري!');
+                break;
+
+            case 'temp-converter':
+                const tVal = parseFloat(document.getElementById('tempInputValue').value);
+                const tFrom = document.getElementById('tempFrom').value;
+                const tTo = document.getElementById('tempTo').value;
+
+                if(isNaN(tVal)) { showToast('الرجاء كتابة قيمة درجة حرارة صالحة!'); return; }
+
+                let cTemp = tVal;
+                // التحويل الوسيط الدائم إلى نظام السليزيوس الكوني
+                if(tFrom === 'F') cTemp = (tVal - 32) * 5/9;
+                if(tFrom === 'K') cTemp = tVal - 273.15;
+
+                let finalTemp = cTemp;
+                // التحويل من السليزيوس للنظام المطلوب النهائي
+                if(tTo === 'F') finalTemp = (cTemp * 9/5) + 32;
+                if(tTo === 'K') finalTemp = cTemp + 273.15;
+
+                if(tFrom === tTo) finalTemp = tVal; // حالة التطابق
+
+                buildResultCard(tVal + '° ' + tFrom, 'من النظام الأصلي');
+                buildResultCard(finalTemp.toFixed(2) + '° ' + tTo, 'إلى النظام المخرجات');
+
+                currentCalculatedResultString = `تحويل الحرارة: درجة ${tVal}° ${tFrom} تساوي ${finalTemp.toFixed(2)}° ${tTo}`;
+                showToast('تم تحويل درجات الحرارة الفيزيائية.');
+                break;
+
+            case 'date-formatter':
+                const fDateInput = document.getElementById('formatterDateInput').value;
+                if(!fDateInput) { showToast('يرجى تعيين تاريخ للتنسيق برمجياً!'); return; }
+
+                const coreDate = new Date(fDateInput);
+                
+                // صياغة التنسيق الأوروبي القياسي
+                const fEu = coreDate.toLocaleDateString('en-GB'); // DD/MM/YYYY
+                // التنسيق القياسي للويب وقواعد البيانات
+                const fIso = coreDate.toISOString().split('T')[0]; // YYYY-MM-DD
+                
+                // صياغة التنسيق النصي العريض باللغتين العربية والإنجليزية عبر المتصفح
+                const optionsLong = { year: 'numeric', month: 'long', day: 'numeric' };
+                const fTextAr = coreDate.toLocaleDateString('ar-EG', optionsLong);
+                const fTextEn = coreDate.toLocaleDateString('en-US', optionsLong);
+
+                buildResultCard(fEu, 'الصيغة (يوم/شهر/سنة)');
+                buildResultCard(fIso, 'الصيغة (سنة-شهر-يوم)');
+                buildResultCard(fTextAr, 'التنسيق النصي العربي');
+                buildResultCard(fTextEn, 'التنسيق النصي الإنجليزي');
+
+                currentCalculatedResultString = `صيغ التاريخ المولد: ${fEu} | ${fIso} | ${fTextAr}`;
+                showToast('تم تنسيق التاريخ لعدة صيغ عالمية ومحلية!');
+                break;
+
+            case 'timezone-conv':
+                const targetZone = document.getElementById('timezoneTargetSelect').value;
+                const localNow = new Date();
+
+                // التوليد الفوري لتوقيت العاصمة المستهدفة عبر الـ Intl API
+                const zoneFormatter = new Intl.DateTimeFormat('ar-EG', {
+                    timeZone: targetZone,
+                    year: 'numeric', month: 'long', day: 'numeric',
+                    hour: 'numeric', minute: 'numeric', second: 'numeric',
+                    hour12: true
+                });
+
+                const formattedZoneTimeText = zoneFormatter.format(localNow);
+
+                buildResultCard(formattedZoneTimeText, `التوقيت الحالي في: ${targetZone}`);
+                buildResultCard(localNow.toLocaleTimeString('ar-EG'), 'توقيت جهازك المحلي الآن');
+
+                currentCalculatedResultString = `الوقت في منطقة ${targetZone} هو: ${formattedZoneTimeText}`;
+                showToast('تم حساب وتحويل التوقيت للمنطقة الزمنية المحددة!');
+                break;
+        }
+
+        // إظهار لوحة النتائج الإجمالية فور اكتمال العمليات الحسابية بنجاح
+        document.getElementById('resultsViewWrapper').style.display = 'block';
+    }
+
+    // دالة مساعدة لبناء وإنشاء بطاقات كروت النتائج والمخرجات ديناميكياً
+    function buildResultCard(value, label) {
+        const grid = document.getElementById('resultsBoxesGrid');
+        const cardHtml = `
+            <div class="result-card">
+                <div class="value">${value}</div>
+                <div class="label">${label}</div>
+            </div>
+        `;
+        grid.innerHTML += cardHtml;
+    }
+
+    // نسخ المخرجات والنتائج الحسابية المنتجة كاملة بضغطة زر إلى حافظة الجهاز
+    function copyResultsToClipboard() {
+        if(!currentCalculatedResultString) {
+            showToast('لا توجد نتائج محسوبة لنسخها حالياً، يرجى الحساب أولاً!');
+            return;
+        }
+        navigator.clipboard.writeText(currentCalculatedResultString).then(() => {
+            showToast('تم نسخ المخرجات الرياضية للحافظة بنجاح! 📋');
+        });
+    }
+
+    // تنظيف وتفريغ كافة مدخلات ومخرجات حقول الأداة الحالية لإعادة التهيئة
+    function clearInputsAndViews() {
+        const catContainer = currentTool;
+        // تصفير المداخل الرقمية والتاريخية بداخل الأداة
+        document.querySelectorAll('#dynamicInputsWrapper input').forEach(input => {
+            if(input.type === 'number') input.value = '';
+            else if(input.type === 'text') input.value = '';
+        });
+
+        document.getElementById('resultsViewWrapper').style.display = 'none';
+        document.getElementById('resultsBoxesGrid').innerHTML = '';
+        document.getElementById('additionalStatusBox').innerHTML = '';
+        currentCalculatedResultString = '';
+        showToast('تم تنظيف ومسح حقول الأداة.');
+    }
+
+    // إظهار إشعارات النظام العائمة Toast للمستخدمين
+    function showToast(message) {
+        const toast = document.getElementById('toast');
+        toast.innerText = message;
+        toast.style.display = 'block';
+        setTimeout(() => {
+            toast.style.display = 'none';
+        }, 2500);
+    }
+
+    // التشغيل التلقائي الابتدائي وتحميل واجهة الآلة الحاسبة عند فتح الصفحة
+    window.onload = function() {
+        const defaultTab = document.querySelector('.tab-btn');
+        if(defaultTab) switchTool('calculator', defaultTab);
+    };
+</script>
+</body>
+</html>
