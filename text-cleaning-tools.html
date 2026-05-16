@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>أدوات تنظيف وتحويل النصوص أونلاين مجاناً | أدوات شات الخليج</title>
+    
+    <meta name="description" content="أداة احترافية مجانية لتنظيف ومعالجة النصوص أونلاين. تشمل إزالة التشكيل، التحويل إلى camelCase و snake_case، إزالة الروابط، تنظيف Unicode، وفلترة الأسطر بدقة عالية.">
+    <meta name="keywords" content="تنظيف النصوص, إزالة التشكيل, تحويل النصوص, سيو, camelCase, snake_case, kebab-case, إزالة الروابط, عداد الأسطر, شات الخليج">
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/text-cleaning-tools.html" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="أدوات تنظيف وتحويل النصوص أونلاين مجاناً | أدوات شات الخليج">
+    <meta property="og:description" content="أداة احترافية مجانية لتنظيف ومعالجة النصوص أونلاين. تشمل إزالة التشكيل، التحويل إلى camelCase و snake_case، إزالة الروابط، تنظيف Unicode، وفلترة الأسطر بدقة عالية.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/text-cleaning-tools.html">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+    <meta property="og:site_name" content="أدوات شات الخليج">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="أدوات تنظيف وتحويل النصوص أونلاين مجاناً | أدوات شات الخليج">
+    <meta name="twitter:description" content="أداة احترافية مجانية لتنظيف ومعالجة النصوص أونلاين. تشمل إزالة التشكيل، التحويل إلى camelCase و snake_case، إزالة الروابط، تنظيف Unicode، وفلترة الأسطر بدقة عالية.">
+    <meta name="twitter:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "أدوات تنظيف وتحويل النصوص",
+      "url": "https://tools.chat-alkhaleej.com/text-cleaning-tools.html",
+      "applicationCategory": "TextEditorApplication",
+      "operatingSystem": "Any",
+      "description": "مجموعة أدوات برمجية محلية متكاملة لمعالجة وهندسة النصوص وتطهير المحتوى من الشوائب البرمجية والتشكيل والروابط.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "هل يتم رفع النصوص المعالجة إلى خوادم موقع شات الخليج؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "لا، نهائياً. جميع عمليات تنظيف وتحويل النصوص تتم بالكامل محلياً داخل متصفحك عبر لغة JavaScript، مما يضمن أمان وخصوصية نصوصك بنسبة 100%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ما هي أهمية تنظيف النصوص بالنسبة للـ SEO؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تطهير النصوص من الروابط العشوائية، الأسطر الفارغة، والرموز البرمجية الغريبة يساهم في تحسين جودة المحتوى (Content Quality) وتسهيل قراءته من قبل عناكب بحث جوجل."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #450C0C;
+            --primary-light: #5d1313;
+            --accent: #ffd86b;
+            --accent-hover: #fcd053;
+            --bg: #fdfbfc;
+            --card-bg: #ffffff;
+            --text: #1f2937;
+            --text-muted: #4b5563;
+            --border: #e5e7eb;
+            --radius: 12px;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: var(--primary);
+            border-bottom: 3px solid var(--accent);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .nav-logo img {
+            height: 45px;
+            display: block;
+        }
+        .nav-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            transition: var(--transition);
+        }
+        .nav-link:hover {
+            color: #fff;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+        .hero-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .hero h1 {
+            font-size: clamp(28px, 5vw, 38px);
+            font-weight: 900;
+            color: var(--accent);
+            margin-bottom: 15px;
+        }
+        .hero p {
+            font-size: 17px;
+            color: #f3f4f6;
+            font-weight: 600;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Main Grid Area */
+        .workspace {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        @media (min-width: 992px) {
+            .workspace {
+                grid-template-columns: 320px 1fr;
+            }
+        }
+
+        /* Sidebar - Tools List */
+        .sidebar {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            height: fit-content;
+        }
+        .sidebar-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border);
+        }
+        .tool-btn {
+            width: 100%;
+            background: none;
+            border: 1px solid transparent;
+            padding: 12px 15px;
+            text-align: right;
+            font-family: 'Cairo', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-muted);
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            transition: var(--transition);
+        }
+        .tool-btn i {
+            width: 20px;
+            font-size: 16px;
+            color: var(--primary);
+        }
+        .tool-btn:hover {
+            background-color: #f9fafb;
+            color: var(--primary);
+        }
+        .tool-btn.active {
+            background-color: var(--primary);
+            color: var(--accent);
+            border-color: var(--primary);
+        }
+        .tool-btn.active i {
+            color: var(--accent);
+        }
+
+        /* Main App Card */
+        .app-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        }
+        .app-header {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed var(--border);
+        }
+        .app-header h2 {
+            font-size: 20px;
+            color: var(--primary);
+            font-weight: 800;
+        }
+
+        /* Dynamic Options Panel */
+        .options-panel {
+            background: #fffbeb;
+            border: 1px solid #fef3c7;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+        .options-panel.visible {
+            display: block;
+        }
+        .options-panel label {
+            font-size: 14px;
+            font-weight: 700;
+            color: #92400e;
+            display: block;
+            margin-bottom: 6px;
+        }
+        .options-panel input {
+            width: 120px;
+            padding: 8px;
+            border: 1px solid #fde68a;
+            border-radius: 6px;
+            font-family: 'Cairo', sans-serif;
+            outline: none;
+        }
+
+        /* Textareas Layout */
+        .text-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        @media (min-width: 768px) {
+            .text-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        .textarea-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+        .textarea-wrapper label {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+        }
+        textarea {
+            width: 100%;
+            height: 250px;
+            padding: 15px;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-family: 'Cairo', 'Fira Code', sans-serif;
+            font-size: 14px;
+            outline: none;
+            resize: vertical;
+            transition: var(--transition);
+        }
+        textarea:focus {
+            border-color: var(--primary);
+        }
+        textarea[readonly] {
+            background-color: #f9fafb;
+            cursor: not-allowed;
+        }
+
+        /* Live Statistics Bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+            background: #f8fafc;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-item span {
+            display: block;
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 700;
+        }
+        .stat-item strong {
+            font-size: 16px;
+            color: var(--primary);
+            font-weight: 900;
+        }
+
+        /* Action Row Control */
+        .actions-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        .btn {
+            padding: 10px 22px;
+            font-family: 'Cairo', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+        .btn-primary {
+            background-color: var(--primary);
+            color: #fff;
+        }
+        .btn-primary:hover {
+            background-color: var(--primary-light);
+            transform: translateY(-1px);
+        }
+        .btn-accent {
+            background-color: var(--accent);
+            color: var(--primary);
+        }
+        .btn-accent:hover {
+            background-color: var(--accent-hover);
+            transform: translateY(-1px);
+        }
+        .btn-danger {
+            background-color: #fee2e2;
+            color: #dc2626;
+            border: 1px solid #fca5a5;
+        }
+        .btn-danger:hover {
+            background-color: #dc2626;
+            color: #fff;
+        }
+
+        /* Toast Notifications */
+        .toast-container {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 10000;
+        }
+        .toast {
+            background-color: #1f2937;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 700;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            margin-top: 10px;
+            animation: slideIn 0.3s ease;
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        /* SEO Informative Section */
+        .seo-info {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+        .seo-info h3 {
+            color: var(--primary);
+            font-size: 22px;
+            margin-bottom: 15px;
+            font-weight: 900;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        .seo-info h4 {
+            color: var(--primary-light);
+            margin: 15px 0 5px;
+            font-weight: 700;
+        }
+        .seo-info p {
+            font-size: 14.5px;
+            color: var(--text-muted);
+            text-align: justify;
+        }
+
+        /* FAQ Accordion Section */
+        .faq-section {
+            margin-bottom: 40px;
+        }
+        .faq-section h3 {
+            text-align: center;
+            color: var(--primary);
+            font-size: 24px;
+            font-weight: 900;
+            margin-bottom: 25px;
+        }
+        .faq-box {
+            display: grid;
+            gap: 15px;
+        }
+        .faq-item {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 15px 20px;
+            border-right: 5px solid var(--accent);
+        }
+        .faq-item h4 {
+            color: var(--primary);
+            font-size: 16px;
+            font-weight: 800;
+            margin-bottom: 6px;
+        }
+        .faq-item p {
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        /* Internal Network Links */
+        .network-links {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+        }
+        .network-links p {
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        .links-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .net-link {
+            background: #f3f4f6;
+            color: var(--primary);
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            transition: var(--transition);
+        }
+        .net-link:hover {
+            background-color: var(--primary);
+            color: var(--accent);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 6px;
+            border-top: 3px solid var(--accent);
+            font-size: 13px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-link"><i class="fas fa-home"></i> رئيسية شبكة الخليج</a>
+    </div>
+</nav>
+
+<header class="hero">
+    <div class="hero-container">
+        <h1>أدوات تنظيف وتحويل النصوص</h1>
+        <p>مجموعة الأدوات المتقدمة الأكثر شمولية واحترافية لمعالجة وتطهير وهندسة النصوص برمجياً ولغوياً محلياً 100% داخل المتصفح بأقصى درجات الحماية والأمان الممكنة.</p>
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="workspace">
+        
+        <aside class="sidebar">
+            <div class="sidebar-title"><i class="fas fa-sliders-h"></i> اختر نوع المعالجة المطلوبة:</div>
+            <button class="tool-btn active" onclick="activateTool('t_diacritics', this)"><i class="fas fa-language"></i> 1- إزالة التشكيل العربي</button>
+            <button class="tool-btn" onclick="activateTool('t_camel', this)"><i class="fas fa-code"></i> 2- تحويل إلى camelCase</button>
+            <button class="tool-btn" onclick="activateTool('t_snake', this)"><i class="fas fa-terminal"></i> 3- تحويل إلى snake_case</button>
+            <button class="tool-btn" onclick="activateTool('t_kebab', this)"><i class="fas fa-font"></i> 4- تحويل إلى kebab-case</button>
+            <button class="tool-btn" onclick="activateTool('t_short', this)"><i class="fas fa-scissors"></i> 5- إزالة الأسطر القصيرة</button>
+            <button class="tool-btn" onclick="activateTool('t_long', this)"><i class="fas fa-align-left"></i> 6- إزالة الأسطر الطويلة</button>
+            <button class="tool-btn" onclick="activateTool('t_links', this)"><i class="fas fa-link"></i> 7- تطهير وإزالة الروابط</button>
+            <button class="tool-btn" onclick="activateTool('t_html', this)"><i class="fas fa-file-code"></i> 8- فك رموز HTML Entities</button>
+            <button class="tool-btn" onclick="activateTool('t_unicode', this)"><i class="fas fa-shield-virus"></i> 9- تنظيف محارف Unicode</button>
+            <button class="tool-btn" onclick="activateTool('t_lines_counter', this)"><i class="fas fa-calculator"></i> 10- عداد وتحليل الأسطر</button>
+        </aside>
+
+        <main class="app-card">
+            <div class="app-header">
+                <h2 id="current_tool_title">أداة إزالة التشكيل والحركات العربية بالكامل</h2>
+            </div>
+
+            <div id="panel_short" class="options-panel">
+                <label for="short_limit">الحد الأدنى لعدد الأحرف (احذف السطر إذا كان أقل من):</label>
+                <input type="number" id="short_limit" value="5" min="1">
+            </div>
+            <div id="panel_long" class="options-panel">
+                <label for="long_limit">الحد الأقصى لعدد الأحرف (احذف السطر إذا كان أكبر من):</label>
+                <input type="number" id="long_limit" value="50" min="1">
+            </div>
+
+            <div class="text-grid">
+                <div class="textarea-wrapper">
+                    <label for="input_text">النص الأصلي / المدخلات:</label>
+                    <textarea id="input_text" placeholder="قم بلصق أو كتابة نصك هنا لبدء المعالجة الذكية الفورية..." oninput="updateLiveStats()"></textarea>
+                </div>
+                <div class="textarea-wrapper">
+                    <label for="output_text">النتيجة النهائية المعالجة / المخرجات:</label>
+                    <textarea id="output_text" readonly placeholder="ستظهر هنا النتيجة النهائية المنظفة بدقة بعد نقرك على تنفيذ المعالجة..."></textarea>
+                </div>
+            </div>
+
+            <div class="stats-bar">
+                <div class="stat-item"><span>إجمالي الأسطر</span><strong id="st_lines">0</strong></div>
+                <div class="stat-item"><span>أسطر فارغة</span><strong id="st_empty">0</strong></div>
+                <div class="stat-item"><span>أسطر ممتلئة</span><strong id="st_filled">0</strong></div>
+                <div class="stat-item"><span>إجمالي الحروف</span><strong id="st_chars">0</strong></div>
+            </div>
+
+            <div class="actions-row">
+                <button class="btn btn-primary" onclick="executeProcessing()"><i class="fas fa-cogs"></i> تنفيذ المعالجة الفورية</button>
+                <button class="btn btn-accent" onclick="copyResultText()"><i class="fas fa-copy"></i> نسخ النتيجة</button>
+                <button class="btn btn-danger" onclick="clearWorkspaces()"><i class="fas fa-trash-alt"></i> مسح شامل</button>
+            </div>
+        </main>
+
+    </div>
+
+    <section class="seo-info">
+        <h3>ما أهمية تنظيف النصوص وتحسينها لمحركات البحث (SEO)؟</h3>
+        <p>يعتبر تطهير وهندسة المحتوى النصي من أهم العمليات المخفية في تهيئة المواقع لمحركات البحث وضمان سلامة تجربة المستخدم وسرعة الزحف الفني وعناكب البحث الرقمية التابعة لـ Google.</p>
+        
+        <h4>1. تنظيف النصوص البرمجية ومحارف اليونيكود المخفية</h4>
+        <p>عند نسخ النصوص من محرر نصوص آخر أو ملفات PDF، غالباً ما تنتقل معها محارف غير مرئية (Hidden Unicode Tags) أو رموز HTML مشوهة ومعقدة. هذه الأخطاء البرمجية قد تمنع خوارزميات الذكاء الاصطناعي من فهم الكلمات المستهدفة بدقة وتوزيعها داخل هيكل الصفحة.</p>
+        
+        <h4>2. إزالة الروابط الخارجية العشوائية (Spam Links)</h4>
+        <p>تنظيف النصوص والتعليقات من الروابط مجهولة المصدر يحميك من عقوبات محرك البحث جوجل الصارمة المتعلقة بالروابط الصادرة السبام، ويحافظ على سلامة وقوة الدومين أوثورتي (Domain Authority) لموقعك.</p>
+        
+        <h4>3. هندسة كود الـ Slug والروابط النظيفة</h4>
+        <p>التحويل الذكي لعناوين المواقع والمقالات البرمجية لنظام الكاس كيس (kebab-case) أو (snake_case) يضمن الحصول على مسارات روابط نظيفة (Clean SEO URLs) سهلة القراءة ومباشرة الفهرسة والتصنيف الرقمي.</p>
+    </section>
+
+    <section class="faq-section">
+        <h3>الأسئلة الشائعة حول حزمة معالجة وتطهير النصوص</h3>
+        <div class="faq-box">
+            <div class="faq-item">
+                <h4>هل يتم حفظ البيانات أو النصوص التي أقوم بمعالجتها في هذه الصفحة؟</h4>
+                <p>نهائياً وبشكل قاطع. تتم المعالجة بالكامل محلياً داخل جهازك (Client-Side HTML/JS)؛ لا ترسل الصفحة أي طلبات للخوادم، مما يوفر بيئة سرية فائقة الأمان للبيانات الحساسة.</p>
+            </div>
+            <div class="faq-item">
+                <h4>ما هي ميزة تحويل النص لنظام camelCase أو snake_case؟</h4>
+                <p>تُستخدم هذه التنسيقات على نطاق واسع جداً من قبل المبرمجين ومطوري الويب لإنشاء أسماء متغيرات برمجية نظيفة، أو لبناء مسارات ملفات وروابط وقواعد بيانات متوافقة مع الأنظمة دون فراغات.</p>
+            </div>
+            <div class="faq-item">
+                <h4>هل أداة إزالة التشكيل تحذف الحروف الأصلية؟</h4>
+                <p>لا، الأداة مصممة بدقة لحذف الحركات السطحية فقط (الفتحة، الضمة، الكسرة، التنوين، الشدة، السكون) مع الإبقاء الكامل على الحروف والمحارف العربية والإنجليزية الأصلية دون أي تشويه أو تعديل.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="network-links">
+        <p>تصفح المزيد من الأقسام والمنظومات الاستراتيجية لشبكة شات الخليج العربي:</p>
+        <div class="links-grid">
+            <a href="https://chat-alkhaleej.com/tools/" class="net-link" target="_blank"><i class="fas fa-toolbox"></i> بوابة الأدوات الفنية</a>
+            <a href="https://chat-alkhaleej.com/blog/" class="net-link" target="_blank"><i class="fas fa-blog"></i> مدونة الخليج الفنية</a>
+            <a href="https://chat-alkhaleej.com/games/" class="net-link" target="_blank"><i class="fas fa-gamepad"></i> الألعاب والمسابقات</a>
+            <a href="https://chat-alkhaleej.com/rooms/" class="net-link" target="_blank"><i class="fas fa-comments"></i> غرف ومحطات الدردشة</a>
+        </div>
+    </section>
+
+</div>
+
+<div id="toast_container" class="toast-container"></div>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2026 شبكة شات الخليج | مطورة هندسياً بأعلى معايير السرعة والأرشفة والأمان الرقمي المحلي</p>
+</footer>
+
+<script>
+    // الحالات العامة وإدارة المتغيرات الحالية للأداة المفعلة
+    let currentToolId = 't_diacritics';
+
+    // مصفوفة العناوين التوضيحية للأدوات لسهولة التحديث المرن للواجهات
+    const toolTitles = {
+        't_diacritics': 'أداة إزالة التشكيل والحركات العربية بالكامل',
+        't_camel': 'تحويل النص والعبارات إلى صيغة الجمل البرمجية camelCase',
+        't_snake': 'تحويل النص والعبارات إلى صيغة الثعبان المتصل snake_case',
+        't_kebab': 'تحويل النص والعبارات إلى صيغة روابط المواقع kebab-case',
+        't_short': 'فلترة وحذف الأسطر القصيرة المحددة بدقة',
+        't_long': 'فلترة وحذف الأسطر الطويلة المكتظة بالحروف',
+        't_links': 'تطهير النص وحذف كافة روابط ومواقع الإنترنت (URLs)',
+        't_html': 'تفكيك وتحويل رموز الـ HTML Entities إلى محارف طبيعية',
+        't_unicode': 'تطهير وإزالة الرموز المخفية والمحارف الغريبة من الـ Unicode',
+        't_lines_counter': 'لوحة إحصائيات وعداد وتحليل الأسطر الفوري العميق'
+    };
+
+    // تبديل وتفعيل الأداة المختارة من القائمة الجانبية وإبراز التعديلات البصرية
+    function activateTool(toolId, btnElement) {
+        currentToolId = toolId;
+        
+        // إزالة الفاعلية عن كافة الأزرار
+        document.querySelectorAll('.tool-btn').forEach(btn => btn.classList.remove('active'));
+        // تفعيل الزر الحالي
+        btnElement.classList.add('active');
+        
+        // تحديث عنوان الأداة بالهيدر الرئيسي
+        document.getElementById('current_tool_title').innerText = toolTitles[toolId];
+        
+        // إخفاء وإظهار لوحات الخيارات الفرعية المتقدمة حسب الحاجة
+        document.querySelectorAll('.options-panel').forEach(p => p.classList.remove('visible'));
+        if (toolId === 't_short') document.getElementById('panel_short').classList.add('visible');
+        if (toolId === 't_long') document.getElementById('panel_long').classList.add('visible');
+
+        showToast("تم الانتقال إلى: " + toolTitles[toolId]);
+        
+        // تنفيذ فوري للمعالجة إن وجد نص سابق لتسهيل التصفح
+        if (document.getElementById('input_text').value.trim() !== "") {
+            executeProcessing();
+        }
+    }
+
+    // منظومة التنبيهات المنبثقة التلقائية (Toast Notification System)
+    function showToast(message) {
+        const container = document.getElementById('toast_container');
+        const toast = document.createElement('div');
+        toast.className = 'toast';
+        toast.innerText = message;
+        container.appendChild(toast);
+        
+        setTimeout(() => {
+            toast.style.opacity = '0';
+            setTimeout(() => toast.remove(), 300);
+        }, 2500);
+    }
+
+    // حساب وعرض الإحصائيات الفورية المباشرة للكتلة النصية داخل المدخلات
+    function updateLiveStats() {
+        const text = document.getElementById('input_text').value;
+        const totalChars = text.length;
+        
+        let totalLines = 0;
+        let emptyLines = 0;
+        let filledLines = 0;
+        
+        if (text.length > 0) {
+            const lines = text.split('\n');
+            totalLines = lines.length;
+            lines.forEach(line => {
+                if (line.trim() === '') emptyLines++;
+                else filledLines++;
+            });
+        }
+        
+        document.getElementById('st_lines').innerText = totalLines;
+        document.getElementById('st_empty').innerText = emptyLines;
+        document.getElementById('st_filled').innerText = filledLines;
+        document.getElementById('st_chars').innerText = totalChars;
+    }
+
+    // تصفير وتنظيف مساحات العمل والمخرجات بالكامل
+    function clearWorkspaces() {
+        document.getElementById('input_text').value = '';
+        document.getElementById('output_text').value = '';
+        updateLiveStats();
+        showToast("تم مسح كافة الحقول النصية بنجاح.");
+    }
+
+    // نسخ النص النهائي المستخرج إلى حافظة النظام
+    function copyResultText() {
+        const out = document.getElementById('output_text');
+        if (!out.value) {
+            showToast("لا يوجد نص معالج لنسخه حالياً!");
+            return;
+        }
+        navigator.clipboard.writeText(out.value).then(() => {
+            showToast("تم نسخ النص المعالج إلى الحافظة بنجاح ✔️");
+        }).catch(() => {
+            showToast("فشل النسخ التلقائي، انسخ يدوياً.");
+        });
+    }
+
+    // المحرك البرمي المركزي - توجيه العمليات الفورية طبقاً للأداة الفعالة بالوقت الحالي
+    function executeProcessing() {
+        const input = document.getElementById('input_text').value;
+        const outContainer = document.getElementById('output_text');
+
+        if (!input) {
+            showToast("الرجاء إدخال أو لصق نص أولاً لبدء العملية!");
+            outContainer.value = '';
+            return;
+        }
+
+        let result = '';
+
+        switch (currentToolId) {
+            case 't_diacritics':
+                // حذف التشكيل والحركات العربية مع الحفاظ التام على الألف المقصورة والياء الأصلية
+                result = input.replace(/[\u064B-\u0652\u0640]/g, '');
+                break;
+                
+            case 't_camel':
+                // تحويل الكلمات الإنجليزية والعبارات إلى نظام الـ camelCase
+                result = toCamelCase(input);
+                break;
+                
+            case 't_snake':
+                // تحويل النص إلى نظام snake_case المتصل بشرطة سفلية
+                result = toSeparatedCase(input, '_');
+                break;
+                
+            case 't_kebab':
+                // تحويل النص إلى نظام kebab-case المتوافق مع مسارات الروابط
+                result = toSeparatedCase(input, '-');
+                break;
+                
+            case 't_short':
+                // حذف الأسطر الأقل من الطول المعين من قبل المشرف
+                const shortLimit = parseInt(document.getElementById('short_limit').value) || 5;
+                result = filterLinesByLength(input, shortLimit, 'less');
+                break;
+                
+            case 't_long':
+                // حذف الأسطر الأكبر من الطول المعين من قبل المشرف
+                const longLimit = parseInt(document.getElementById('long_limit').value) || 50;
+                result = filterLinesByLength(input, longLimit, 'greater');
+                break;
+                
+            case 't_links':
+                // تطهير النص بالكامل من روابط الويب والإنترنت و بروتوكولات التوجيه عبر ريجكس متطور
+                const urlRegex = /(https?:\/\/[^\s]+|www\.[^\s]+)/gi;
+                result = input.replace(urlRegex, '');
+                break;
+                
+            case 't_html':
+                // فك الرموز والأكواد التعبيرية لـ HTMLEntities المستعصية
+                result = decodeHtmlEntities(input);
+                break;
+                
+            case 't_unicode':
+                // تنظيف وإزالة المحارف غير المرئية أو الرموز البرمجية الغريبة المخفية في اليونيكود
+                result = input.replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F-\u009F\u200B-\u200D\uFEFF]/g, '');
+                break;
+                
+            case 't_lines_counter':
+                // عرض مخرجات الإحصائيات الهيكلية المنظمة للأسطر داخل التكست اريا
+                result = analyzeLinesOutputStructure(input);
+                break;
+                
+            default:
+                result = input;
+        }
+
+        outContainer.value = result;
+        showToast("تم تنفيذ المعالجة بنجاح مذهل! ✨");
+    }
+
+    // دالة مساعدة: تحويل النصوص إلى camelCase
+    function toCamelCase(str) {
+        return str.toLowerCase()
+                  .replace(/[^a-zA-Z0-9\s]/g, ' ')
+                  .replace(/(?:^\w|[A-Z]|\b\w)/g, (word, index) => {
+                      return index === 0 ? word.toLowerCase() : word.toUpperCase();
+                  })
+                  .replace(/\s+/g, '');
+    }
+
+    // دالة مساعدة مدمجة: تحويل العبارات إلى snake_case أو kebab-case مع دعم العزل للرموز الغريبة
+    function toSeparatedCase(str, separator) {
+        return str.toLowerCase()
+                  .trim()
+                  .replace(/[^a-zA-Z0-9\s]/g, '')
+                  .replace(/\s+/g, separator);
+    }
+
+    // دالة مساعدة فنية: فلترة وتصفية أسطر المحتوى تبعاً للمؤشر الحجمي والعددي المختار
+    function filterLinesByLength(str, limit, criteria) {
+        const lines = str.split('\n');
+        const filtered = lines.filter(line => {
+            const len = line.length;
+            if (criteria === 'less') {
+                return len >= limit; // الإبقاء على الأسطر التي تساوي أو تزيد عن الحد فقط وحذف الأقل منها
+            } else {
+                return len <= limit; // الإبقاء على الأسطر التي تساوي أو تقل عن الحد فقط وحذف الأطول منها
+            }
+        });
+        return filtered.join('\n');
+    }
+
+    // دالة مساعدة هندسية: تفكيك وإعادة بناء الرموز البرمجية للـ HTML Entities
+    function decodeHtmlEntities(str) {
+        const txt = document.createElement('textarea');
+        txt.innerHTML = str;
+        return txt.value;
+    }
+
+    // دالة مساعدة: صياغة نص الإحصائيات الشاملة عند استخدام أداة عداد وتحليل الأسطر
+    function analyzeLinesOutputStructure(str) {
+        const lines = str.split('\n');
+        const total = lines.length;
+        let empty = 0;
+        let filled = 0;
+        
+        lines.forEach(line => {
+            if (line.trim() === '') empty++;
+            else filled++;
+        });
+
+        return `--- تقرير تحليل وهندسة الأسطر المنظم ---\n\n` +
+               `* إجمالي عدد الأسطر الكلي في النص: ${total} سطر.\n` +
+               `* عدد الأسطر الفارغة بالكامل: ${empty} سطر.\n` +
+               `* عدد الأسطر الممتلئة والمكتوبة: ${filled} سطر.\n\n` +
+               `-----------------------------------------`;
+    }
+</script>
+
+</body>
+</html>
