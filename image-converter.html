@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>تحويل صيغ الصور أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="حوّل الصور بين JPG وPNG وWebP وICO بسهولة عبر أداة مجانية وسريعة تعمل مباشرة من المتصفح بدون رفع الملفات للسيرفر.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="تحويل صيغ الصور أونلاين مجاناً | أدوات شات الخليج">
+    <meta property="og:description" content="حوّل الصور بين JPG وPNG وWebP وICO بسهولة عبر أداة مجانية وسريعة تعمل مباشرة من المتصفح بدون رفع الملفات للسيرفر.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/image-converter/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/image-converter/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "تحويل صيغ الصور",
+      "url": "https://tools.chat-alkhaleej.com/image-converter/",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Any",
+      "description": "أداة مجانية لتحويل الصور بين صيغ JPG وPNG وWebP وICO بسهولة وسرعة مباشرة من المتصفح مع الحفاظ على الجودة.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "هل الأداة مجانية؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، الأداة مجانية بالكامل وتتيح لك تحويل صيغ الصور بدون حدود مباشرة من المتصفح."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل يتم رفع الصور للسيرفر؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "لا، نهائياً. جميع عمليات تحويل الصور تتم محلياً داخل متصفحك لحماية الخصوصية والأمان بنسبة 100% وبدون استهلاك بيانات الرفع."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل تقل جودة الصورة بعد التحويل؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "تحافظ الأداة على أعلى جودة ممكنة للصورة الأصلية عند التحويل بين الصيغ المختلفة مثل PNG و WebP و JPG."
+        }
+      }]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root { 
+            --primary: #450C0C; 
+            --accent: #ffd86b; 
+            --bg: #f8fafc; 
+            --text: #1e293b; 
+        }
+        body { 
+            font-family: 'Cairo', sans-serif; 
+            background-color: var(--bg); 
+            margin: 0; padding: 0; 
+            color: var(--text); 
+            line-height: 1.6; 
+        }
+
+        /* Navbar */
+        .navbar { 
+            background: var(--primary); 
+            padding: 12px 0; 
+            border-bottom: 3px solid var(--accent); 
+            position: sticky; top: 0; z-index: 1000; 
+        }
+        .nav-container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 0 20px; 
+        }
+        .nav-logo img { height: 45px; }
+        .nav-home { color: var(--accent); text-decoration: none; font-weight: 700; font-size: 16px; transition: 0.2s; }
+        .nav-home:hover { opacity: 0.8; }
+
+        /* حاوية المحتوى الرئيسي */
+        .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; box-sizing: border-box; }
+        .header-section { text-align: center; margin-bottom: 30px; }
+        h1 { color: var(--primary); font-size: clamp(24px, 5vw, 34px); font-weight: 900; margin-bottom: 10px; }
+        .tool-desc { color: #64748b; font-size: 17px; max-width: 800px; margin: 0 auto 15px; }
+        
+        .privacy-alert {
+            background-color: #f0fdf4;
+            color: #166534;
+            border: 1px solid #bbf7d0;
+            padding: 10px 20px;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+
+        .tool-card { 
+            background: #fff; 
+            border-radius: 20px; 
+            padding: 25px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); 
+            border: 1px solid #e2e8f0; 
+        }
+
+        /* منطقة إسقاط الملفات Dropzone */
+        .dropzone {
+            border: 3px dashed #cbd5e1;
+            border-radius: 15px;
+            padding: 40px 20px;
+            text-align: center;
+            cursor: pointer;
+            background: #f8fafc;
+            transition: 0.3s;
+            margin-bottom: 25px;
+        }
+        .dropzone.dragover {
+            border-color: var(--primary);
+            background: #fee2e2;
+        }
+        .dropzone i { font-size: 45px; color: var(--primary); margin-bottom: 15px; }
+        .dropzone p { margin: 0 0 15px 0; font-size: 16px; font-weight: 700; color: #475569; }
+        
+        .btn-browse {
+            background: var(--primary);
+            color: #fff;
+            padding: 8px 25px;
+            border-radius: 50px;
+            border: none;
+            font-weight: 700;
+            cursor: pointer;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        /* خيارات التعديل والصيغ */
+        .config-zone {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .config-zone label { font-weight: 700; color: var(--primary); font-size: 16px; }
+        
+        select {
+            padding: 10px 30px 10px 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            font-family: 'Cairo', sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text);
+            outline: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        select:focus { border-color: var(--primary); }
+
+        /* أزرار العمليات */
+        .controls { display: flex; gap: 12px; margin-bottom: 30px; flex-wrap: wrap; }
+        .btn-main { 
+            flex: 1; min-width: 140px; padding: 14px; border: none; border-radius: 50px; 
+            font-weight: 800; cursor: pointer; transition: 0.3s; 
+            display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 15px;
+        }
+        .btn-convert { background: var(--primary); color: #fff; }
+        .btn-download { background: var(--accent); color: var(--primary); display: none; }
+        .btn-clear { background: #fee2e2; color: #ef4444; display: none; }
+        .btn-main:hover { transform: translateY(-2px); opacity: 0.95; }
+        .btn-main:disabled { background: #cbd5e1; color: #94a3b8; cursor: not-allowed; transform: none; }
+
+        /* لوحة المعاينة والإحصائيات للصور */
+        .preview-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        .preview-box {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 15px;
+            padding: 15px;
+            text-align: center;
+        }
+        .preview-box h3 { margin: 0 0 15px 0; font-size: 16px; color: var(--primary); border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; }
+        .img-wrapper {
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px dashed #cbd5e1;
+        }
+        .img-wrapper img { max-width: 100%; max-height: 100%; object-fit: contain; }
+        .img-meta { font-size: 13px; color: #64748b; font-weight: 600; line-height: 1.8; }
+        
+        /* شريط نسبة التوفير والفرق في الحجم */
+        .saving-badge {
+            background: #dcfce7;
+            color: #15803d;
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-weight: 700;
+            display: inline-block;
+            margin-top: 5px;
+        }
+        .loss-badge {
+            background: #fee2e2;
+            color: #b91c1c;
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-weight: 700;
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+        /* الأسئلة الشائعة والروابط السفلية */
+        .faq-section { margin-top: 50px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 15px; border-right: 5px solid var(--accent); box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+        .faq-item h3 { margin: 0 0 10px; font-size: 18px; color: var(--primary); }
+        .faq-item p { margin: 0; color: #475569; font-size: 15px; }
+
+        .links-title { text-align: center; color: var(--primary); margin-top: 40px; font-weight: 900; font-size: 20px; }
+        .related-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-top: 20px; }
+        .tool-link { background: #fff; padding: 15px; text-align: center; border-radius: 12px; text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid #e2e8f0; transition: 0.3s; box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
+        .tool-link:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+        footer { background: #fff; padding: 25px; margin-top: 50px; text-align: center; border-top: 1px solid #e2e8f0; font-size: 14px; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    <header class="header-section">
+        <h1>تحويل صيغ الصور</h1>
+        <p class="tool-desc">أداة مجانية لتحويل الصور بين صيغ JPG وPNG وWebP وICO بسهولة وسرعة مباشرة من المتصفح مع الحفاظ على الجودة.</p>
+        <div class="privacy-alert">
+            <i class="fas fa-shield-alt"></i> جميع عمليات تحويل الصور تتم محلياً داخل متصفحك لحماية الخصوصية.
+        </div>
+    </header>
+
+    <main class="tool-card">
+        <div class="dropzone" id="dropzone" onclick="document.getElementById('fileInput').click()">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <p>اسحب وأفلت الصورة هنا أو اضغط للاختيار يدوياً</p>
+            <button class="btn-browse">اختار صورة</button>
+            <input type="file" id="fileInput" accept="image/*" style="display: none" onchange="handleFileSelect(event)">
+        </div>
+
+        <div class="config-zone">
+            <label for="formatSelect">اختر الصيغة المطلوبة للتحويل:</label>
+            <select id="formatSelect">
+                <option value="image/webp">WebP (أحجام خفيفة ومثالية للويب)</option>
+                <option value="image/png">PNG (خلفية شفافة وجودة عالية)</option>
+                <option value="image/jpeg">JPG / JPEG (متوافقة مع كل الأنظمة)</option>
+                <option value="image/x-icon">ICO (أيقونة مفضلة للمواقع 64x64)</option>
+            </select>
+        </div>
+
+        <div class="controls">
+            <button class="btn-main btn-convert" id="convertBtn" onclick="convertImage()" disabled>
+                <i class="fas fa-sync-alt"></i> تحويل الصيغة الآن
+            </button>
+            <button class="btn-main btn-download" id="downloadBtn" onclick="downloadConvertedImage()">
+                <i class="fas fa-download"></i> تحميل الصورة الجديدة
+            </button>
+            <button class="btn-main btn-clear" id="clearBtn" onclick="resetTool()">
+                <i class="fas fa-trash-alt"></i> حذف الصورة
+            </button>
+        </div>
+
+        <div class="preview-container" id="previewContainer" style="display: none;">
+            <div class="preview-box">
+                <h3>الصورة الأصلية قبل التحويل</h3>
+                <div class="img-wrapper">
+                    <img id="origImg" src="" alt="المعاينة الأصلية">
+                </div>
+                <div class="img-meta">
+                    <div>الصيغة الأصلية: <span id="origType">-</span></div>
+                    <div>الحجم الأصلي: <span id="origSize">-</span></div>
+                    <div>الأبعاد: <span id="origDim">-</span></div>
+                </div>
+            </div>
+
+            <div class="preview-box">
+                <h3>الصورة الجديدة بعد التحويل</h3>
+                <div class="img-wrapper">
+                    <img id="destImg" src="" alt="معاينة النتيجة">
+                </div>
+                <div class="img-meta">
+                    <div>الصيغة الجديدة: <span id="destType">-</span></div>
+                    <div>الحجم الجديد: <span id="destSize">-</span></div>
+                    <div>نسبة التغير في الحجم: <div id="sizeDiff">-</div></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="faq-section">
+        <h2 style="color: var(--primary); text-align: center; margin-bottom: 25px; font-weight: 900;">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <h3>هل الأداة مجانية؟</h3>
+            <p>نعم، الأداة مجانية بالكامل وتتيح لك تحويل صيغ الصور بدون حدود مباشرة من المتصفح وبدون أي رسوم خفية.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل يتم رفع الصور للسيرفر؟</h3>
+            <p>لا، نهائياً. جميع عمليات تحويل الصور تتم محلياً داخل متصفحك عبر تقنية Canvas API لحماية الخصوصية والأمان بنسبة 100%، وتعمل حتى بدون إنترنت بعد تحميل الصفحة.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل تقل جودة الصورة بعد التحويل؟</h3>
+            <p>تحافظ الأداة على التوازن المثالي وأعلى جودة ممكنة للصورة الأصلية عند التحويل بين الصيغ المختلفة مثل PNG و WebP و JPG، لضمان معايير تفوق ممتازة.</p>
+        </div>
+    </section>
+
+    <h2 class="links-title">تصفح أقسام شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">أدوات أخرى</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج</a>
+    </div>
+</div>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p>
+</footer>
+
+<script>
+    let globalLoadedImage = null; // الاحتفاظ ببيانات الصورة الأصلية المحملة
+    let globalOriginalFileName = "chat-alkhaleej";
+    let globalOriginalSize = 0;
+    let convertedBlobUrl = null; // الاحتفاظ برابط الصورة الجديدة للتحميل
+    let targetExtension = "";
+
+    // إدارة أحداث السحب والإفلات المرئية بالفوتوشوب البرمجي
+    const dropzone = document.getElementById('dropzone');
+    
+    ['dragenter', 'dragover'].forEach(eventName => {
+        dropzone.addEventListener(eventName, (e) => {
+            e.preventDefault();
+            dropzone.classList.add('dragover');
+        }, false);
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+        dropzone.addEventListener(eventName, (e) => {
+            e.preventDefault();
+            dropzone.classList.remove('dragover');
+        }, false);
+    });
+
+    dropzone.addEventListener('drop', (e) => {
+        const dt = e.dataTransfer;
+        const files = dt.files;
+        if (files.length > 0) {
+            processFile(files[0]);
+        }
+    });
+
+    function handleFileSelect(event) {
+        const file = event.target.files[0];
+        if (file) {
+            processFile(file);
+        }
+    }
+
+    // قراءة وتحليل بيانات الصورة الأصلية محلياً
+    function processFile(file) {
+        if (!file.type.startsWith('image/')) {
+            alert('من فضلك، اختر ملف صورة صحيح فقط!');
+            return;
+        }
+
+        globalOriginalFileName = file.name.substring(0, file.name.lastIndexOf('.')) || "chat-alkhaleej";
+        globalOriginalSize = file.size;
+        
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const img = new Image();
+            img.onload = function() {
+                globalLoadedImage = img;
+                
+                // عرض بيانات المعاينة الأصلية المبدئية
+                document.getElementById('origImg').src = e.target.result;
+                document.getElementById('origType').innerText = file.type.split('/')[1].toUpperCase();
+                document.getElementById('origSize').innerText = formatBytes(file.size);
+                document.getElementById('origDim').innerText = `${img.width} × ${img.height} بكسل`;
+                
+                // إدارة المظهر وعناصر الواجهة بالكامل
+                document.getElementById('previewContainer').style.display = 'grid';
+                document.getElementById('convertBtn').disabled = false;
+                document.getElementById('clearBtn').style.display = 'inline-flex';
+                
+                // تصفير شاشة المعاينة المستهدفة السابقة إن وجدت
+                document.getElementById('destImg').src = '';
+                document.getElementById('destType').innerText = '-';
+                document.getElementById('destSize').innerText = '-';
+                document.getElementById('sizeDiff').innerHTML = '-';
+                document.getElementById('downloadBtn').style.display = 'none';
+            };
+            img.src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+    }
+
+    // معالجة وتحويل صيغة الصورة عبر الـ Canvas API بدون مكاتب خارجية وبدون سيرفر
+    function convertImage() {
+        if (!globalLoadedImage) return;
+
+        const selectFormat = document.getElementById('formatSelect').value;
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+
+        let targetWidth = globalLoadedImage.width;
+        let targetHeight = globalLoadedImage.height;
+
+        // في حال تم اختيار تحويل لـ ICO، يتم تعيين المقاس الإجباري المطلوب 64x64
+        if (selectFormat === 'image/x-icon') {
+            targetWidth = 64;
+            targetHeight = 64;
+            targetExtension = "ico";
+        } else {
+            targetExtension = selectFormat.split('/')[1];
+        }
+
+        canvas.width = targetWidth;
+        canvas.height = targetHeight;
+
+        // معالجة الخلفية البيضاء في حال التحويل إلى صيغة JPG لحماية الأجزاء الشفافة
+        if (selectFormat === 'image/jpeg') {
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(0, 0, targetWidth, targetHeight);
+        }
+
+        // رسم الصورة بالأبعاد المحددة والمعدلة على الكانفاس المحمية داخلياً
+        ctx.drawImage(globalLoadedImage, 0, 0, targetWidth, targetHeight);
+
+        // تصدير الكانفاس كـ Blob رقمي لمعرفة الحجم الحقيقي والنسبة
+        // المتصفحات تدعم تصدير image/x-icon كـ PNG مبطنة أو BMP مخصصة، لذلك نحدد صيغة التصدير بشكل متوافق تماماً
+        let exportFormat = selectFormat;
+        let quality = 0.92; // ضبط معدل الحفاظ على نقاء الصورة والجودة
+
+        if (selectFormat === 'image/x-icon') {
+            exportFormat = 'image/png'; // المتصفحات تقوم بلف أيقونة الـ ICO مع حزم الـ PNG محلياً للأبعاد الصغيرة
+        }
+
+        canvas.toBlob(function(blob) {
+            if (!blob) {
+                alert('عذراً، متصفحك الحالي لا يدعم التصدير المباشر لهذه الصيغة.');
+                return;
+            }
+
+            // تنظيف الرابط القديم من الذاكرة العشوائية لتسريع وتحسين الأداء
+            if (convertedBlobUrl) {
+                URL.revokeObjectURL(convertedBlobUrl);
+            }
+
+            convertedBlobUrl = URL.createObjectURL(blob);
+            
+            // عرض النتيجة النهائية للمستخدم فورياً
+            document.getElementById('destImg').src = convertedBlobUrl;
+            document.getElementById('destType').innerText = targetExtension.toUpperCase();
+            document.getElementById('destSize').innerText = formatBytes(blob.size);
+            
+            // حساب نسبة التوفير أو الفرق الرياضي بالحجم الدقيق
+            calculateDiff(globalOriginalSize, blob.size);
+
+            document.getElementById('downloadBtn').style.display = 'inline-flex';
+
+        }, exportFormat, quality);
+    }
+
+    // تحميل وتنزيل الصورة المحدثة والمصاغة محلياً
+    function downloadConvertedImage() {
+        if (!convertedBlobUrl) return;
+        
+        const downloadLink = document.createElement('a');
+        downloadLink.href = convertedBlobUrl;
+        downloadLink.download = `${globalOriginalFileName}-converted.${targetExtension}`;
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+    }
+
+    // إعادة ضبط وتصفير واجهة الأداة بالكامل
+    function resetTool() {
+        globalLoadedImage = null;
+        globalOriginalSize = 0;
+        if (convertedBlobUrl) {
+            URL.revokeObjectURL(convertedBlobUrl);
+            convertedBlobUrl = null;
+        }
+        document.getElementById('fileInput').value = '';
+        document.getElementById('previewContainer').style.display = 'none';
+        document.getElementById('convertBtn').disabled = true;
+        document.getElementById('downloadBtn').style.display = 'none';
+        document.getElementById('clearBtn').style.display = 'none';
+    }
+
+    // حساب وعرض فرق المساحة الحوسبية للصور بالنسبة المئوية الكاشفة
+    function calculateDiff(oldSize, newSize) {
+        const diffZone = document.getElementById('sizeDiff');
+        if (newSize < oldSize) {
+            const savedPercent = ((oldSize - newSize) / oldSize * 100).toFixed(1);
+            diffZone.innerHTML = `<span class="saving-badge"><i class="fas fa-arrow-down"></i> توفير الحجم بنسبة ${savedPercent}%</span>`;
+        } else {
+            const addedPercent = ((newSize - oldSize) / oldSize * 100).toFixed(1);
+            diffZone.innerHTML = `<span class="loss-badge"><i class="fas fa-arrow-up"></i> زيادة الحجم بنسبة ${addedPercent}%</span>`;
+        }
+    }
+
+    // دالة مساعدة لتحويل أحجام بايتات التخزين إلى هيئة مقروءة ومبسطة للمستخدمين
+    function formatBytes(bytes) {
+        if (bytes === 0) return '0 بايت';
+        const k = 1024;
+        const sizes = ['بايت', 'كيلوبايت (KB)', 'ميغابايت (MB)'];
+        const i = Math.floor(Math.log(bytes) / Math.log(k));
+        return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+    }
+</script>
+
+</body>
+</html>
