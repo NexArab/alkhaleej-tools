@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>أدوات SEO وتحسين المواقع أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="مجموعة أدوات SEO مجانية تشمل مولد Meta Tags وRobots.txt وSitemap XML وتحليل العناوين والكلمات المفتاحية وتحسين صفحات المواقع بسهولة.">
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/seo-tools/" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="أدوات SEO وتحسين المواقع أونلاين مجاناً | أدوات شات الخليج">
+    <meta property="og:description" content="مجموعة أدوات SEO مجانية تشمل مولد Meta Tags وRobots.txt وSitemap XML وتحليل العناوين والكلمات المفتاحية وتحسين صفحات المواقع بسهولة.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/seo-tools/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+    <meta property="og:site_name" content="أدوات شات الخليج">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="أدوات SEO وتحسين المواقع أونلاين مجاناً | أدوات شات الخليج">
+    <meta name="twitter:description" content="مجموعة أدوات SEO مجانية تشمل مولد Meta Tags وRobots.txt وSitemap XML وتحليل العناوين والكلمات المفتاحية وتحسين صفحات المواقع بسهولة.">
+    <meta name="twitter:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "أدوات SEO وتحسين المواقع",
+      "url": "https://tools.chat-alkhaleej.com/seo-tools/",
+      "applicationCategory": "SEOApplication",
+      "operatingSystem": "Any",
+      "description": "مجموعة أدوات مجانية لتحسين محركات البحث SEO تشمل إنشاء Meta Tags وملفات Robots وSitemap وتحليل العناوين والكلمات المفتاحية بسهولة مباشرة من المتصفح.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "هل أدوات SEO مجانية؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم، كافة الأدوات المتاحة في الصفحة مجانية بالكامل بنسبة 100% وبدون أي قيود أو تسجيل."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل يتم حفظ البيانات؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نهائياً، جميع العمليات البرمجية والمعالجات النصية تتم محلياً 100% داخل متصفح جهازك عبر الجافا سكريبت ولا يتم إرسال أي بيانات أو روابط إلى أي خوادم خارجية."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ما أهمية Meta Tags؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تساعد وسوم الميتا محركات البحث مثل جوجل على فهم محتوى صفحتك بدقة، كما تحدد طريقة ظهور موقعك كعنوان ووصف في نتائج البحث وشبكات التواصل الاجتماعي."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ما هو ملف Sitemap XML؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "هو خريطة رقمية تحتوي على جميع روابط موقعك الهامة، وتُقدم لعناكب البحث لمساعدتها على زحف وفهرسة الصفحات بشكل أسرع وأكثر كفاءة."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #450C0C;
+            --accent: #ffd86b;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --success: #16a34a;
+            --warning: #eab308;
+            --danger: #dc2626;
+            --border: #e2e8f0;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: var(--primary);
+            padding: 12px 0;
+            border-bottom: 3px solid var(--accent);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .nav-logo img { height: 45px; display: block; }
+        .nav-home {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            transition: 0.2s;
+        }
+        .nav-home:hover { opacity: 0.8; }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header-section { text-align: center; margin-bottom: 35px; }
+        h1 { color: var(--primary); font-size: clamp(26px, 5vw, 36px); font-weight: 900; margin-bottom: 12px; }
+        .tool-desc { color: var(--text-muted); font-size: 17px; max-width: 850px; margin: 0 auto 20px; }
+
+        /* الخصوصية والأمان */
+        .local-notice {
+            background-color: #f0fdf4; border: 1px solid #bbf7d0; color: #166534;
+            padding: 15px; border-radius: 12px; font-weight: 700; text-align: center;
+            margin-bottom: 35px; display: flex; align-items: center; justify-content: center; gap: 10px; font-size: 15px;
+        }
+
+        /* القائمة السريعة للتبديل بين الأدوات */
+        .tools-nav {
+            display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 35px; justify-content: center;
+        }
+        .tools-nav-btn {
+            background: #fff; border: 1px solid var(--border); padding: 8px 14px; border-radius: 8px;
+            font-family: 'Cairo', sans-serif; font-size: 13.5px; font-weight: 700; cursor: pointer; color: var(--primary); transition: 0.2s;
+        }
+        .tools-nav-btn:hover, .tools-nav-btn.active {
+            background: var(--primary); color: #fff; border-color: var(--primary);
+        }
+
+        /* شبكة التحكم بالأدوات */
+        .tools-container { display: flex; flex-direction: column; gap: 30px; }
+
+        .card {
+            background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px;
+            padding: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+            display: none;
+        }
+        .card.active { display: block; animation: fadeIn 0.3s ease-in-out; }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+
+        .card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; border-bottom: 1px dashed var(--border); padding-bottom: 12px; }
+        .card-header i { color: var(--primary); font-size: 22px; }
+        .card-header h2 { margin: 0; font-size: 20px; font-weight: 800; color: var(--primary); }
+
+        /* نماذج الإدخال */
+        .grid-inputs { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin-bottom: 15px; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; font-weight: 700; font-size: 14px; margin-bottom: 6px; color: #475569; }
+        
+        input[type="text"], input[type="number"], select, textarea {
+            width: 100%; padding: 11px 14px; border: 2px solid var(--border); border-radius: 10px;
+            font-family: 'Cairo', sans-serif; font-size: 14px; box-sizing: border-box; outline: none; transition: 0.2s;
+        }
+        input:focus, select:focus, textarea:focus { border-color: var(--primary); background: #fff; }
+        textarea { resize: vertical; min-height: 120px; }
+
+        /* شاشات المخرجات */
+        .output-box { margin-top: 15px; }
+        .output-label { font-weight: 700; font-size: 13.5px; color: var(--primary); margin-bottom: 5px; display: block; }
+        .code-display {
+            font-family: 'Fira Code', monospace; font-size: 13px; background: #0f172a; color: #cbd5e1;
+            border: 1px solid #1e293b; padding: 15px; border-radius: 10px; text-align: left; direction: ltr;
+            word-break: break-all; min-height: 60px; white-space: pre-wrap; max-height: 300px; overflow-y: auto;
+        }
+
+        /* أزرار التحكم والعمليات */
+        .actions-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; }
+        .btn {
+            padding: 10px 18px; border: none; border-radius: 10px; font-family: 'Cairo', sans-serif;
+            font-weight: 700; font-size: 14px; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: 0.2s;
+        }
+        .btn-primary { background: var(--primary); color: #fff; }
+        .btn-primary:hover { background: #320808; }
+        .btn-secondary { background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; }
+        .btn-secondary:hover { background: var(--accent); color: var(--primary); border-color: var(--primary); }
+        .btn-danger { background: #fee2e2; color: var(--danger); border: 1px solid #fca5a5; }
+        .btn-danger:hover { background: var(--danger); color: #fff; }
+
+        /* عداد ومؤشرات الطول الفوري */
+        .indicator-wrapper { display: flex; justify-content: space-between; align-items: center; margin-top: 5px; font-size: 13px; font-weight: 700; }
+        .badge { padding: 3px 8px; border-radius: 6px; color: #fff; font-size: 12px; }
+        .badge.bg-success { background: var(--success); }
+        .badge.bg-warning { background: var(--warning); color: #000; }
+        .badge.bg-danger { background: var(--danger); }
+        .seo-tip { font-size: 13px; font-weight: 600; margin-top: 6px; padding: 6px 12px; border-radius: 8px; }
+        .seo-tip.tip-success { background: #f0fdf4; color: #166534; }
+        .seo-tip.tip-warning { background: #fef9c3; color: #854d0e; }
+        .seo-tip.tip-danger { background: #fef2f2; color: #991b1b; }
+
+        /* عدادات الكثافة والكلمات */
+        .density-results, .counter-results {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-top: 15px;
+        }
+        .res-box { background: #f8fafc; border: 1px solid var(--border); padding: 12px; border-radius: 10px; text-align: center; }
+        .res-box h4 { font-size: 13px; color: var(--text-muted); margin-bottom: 4px; }
+        .res-box span { font-size: 20px; font-weight: 900; color: var(--primary); }
+
+        /* جدول كثافة الكلمات المفتاحية */
+        .table-wrapper { margin-top: 15px; overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; }
+        table { width: 100%; border-collapse: collapse; text-align: right; font-size: 14px; }
+        th, td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+        th { background: #f1f5f9; color: var(--primary); font-weight: 700; }
+
+        /* القسم التوعوي لـ SEO */
+        .seo-education-section { background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 25px; margin: 40px 0; }
+        .seo-education-section h3 { color: var(--primary); font-size: 22px; font-weight: 900; margin-bottom: 15px; border-bottom: 2px solid var(--accent); padding-bottom: 6px; display: inline-block; }
+        .edu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .edu-item h4 { font-size: 16px; color: var(--primary); margin-bottom: 6px; font-weight: 700; }
+        .edu-item p { font-size: 14px; color: #475569; text-align: justify; }
+
+        /* الأسئلة الشائعة FAQ */
+        .faq-section { margin-bottom: 40px; }
+        .faq-title { text-align: center; color: var(--primary); margin-bottom: 25px; font-weight: 900; font-size: 22px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 12px; border-right: 5px solid var(--accent); border: 1px solid var(--border); border-right: 5px solid var(--accent); }
+        .faq-item h4 { margin-bottom: 8px; font-size: 16.5px; color: var(--primary); font-weight: 800; }
+        .faq-item p { margin: 0; color: #475569; font-size: 14.5px; }
+
+        /* روابط شبكة شات الخليج */
+        .links-title { text-align: center; color: var(--primary); margin-top: 40px; font-weight: 900; font-size: 20px; }
+        .related-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-top: 20px; }
+        .tool-link { background: #fff; padding: 15px; text-align: center; border-radius: 12px; text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid var(--border); transition: 0.3s; }
+        .tool-link:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+        footer { background: #fff; padding: 25px; margin-top: 50px; text-align: center; border-top: 1px solid var(--border); font-size: 14px; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    
+    <header class="header-section">
+        <h1>أدوات SEO وتحسين المواقع</h1>
+        <p class="tool-desc">مجموعة أدوات مجانية لتحسين محركات البحث SEO تشمل إنشاء Meta Tags وملفات Robots وSitemap وتحليل العناوين والكلمات المفتاحية بسهولة مباشرة من المتصفح.</p>
+    </header>
+
+    <div class="local-notice">
+        <i class="fas fa-shield-alt"></i>
+        <span>معالجة محلية آمنة وآمنة: كافة الأدوات تعمل داخل متصفحك محلياً 100% دون تخزين أو إرسال أي بيانات لخوادم وسيطة.</span>
+    </div>
+
+    <div class="tools-nav">
+        <button class="tools-nav-btn active" onclick="switchTool('meta-tags-gen', this)">مولد Meta Tags</button>
+        <button class="tools-nav-btn" onclick="switchTool('robots-gen', this)">مولد Robots.txt</button>
+        <button class="tools-nav-btn" onclick="switchTool('sitemap-gen', this)">مولد Sitemap</button>
+        <button class="tools-nav-btn" onclick="switchTool('canonical-gen', this)">مولد Canonical</button>
+        <button class="tools-nav-btn" onclick="switchTool('og-gen', this)">مولد Open Graph</button>
+        <button class="tools-nav-btn" onclick="switchTool('twitter-gen', this)">مولد Twitter Cards</button>
+        <button class="tools-nav-btn" onclick="switchTool('length-checker', this)">فحص طول العناوين</button>
+        <button class="tools-nav-btn" onclick="switchTool('density-checker', this)">كثافة الكلمات</button>
+        <button class="tools-nav-btn" onclick="switchTool('seo-counter', this)">عداد الكلمات والأسطر</button>
+        <button class="tools-nav-btn" onclick="switchTool('slug-gen', this)">تحويل النص إلى Slug</button>
+    </div>
+
+    <main class="tools-container">
+
+        <section id="meta-tags-gen" class="card active">
+            <div class="card-header">
+                <i class="fas fa-code"></i>
+                <h2>مولد وسم الميتا تاغ (Meta Tags Generator)</h2>
+            </div>
+            <div class="grid-inputs">
+                <div class="form-group">
+                    <label>عنوان الصفحة (Title):</label>
+                    <input type="text" id="m_title" placeholder="مثال: أدوات شات الخليج">
+                </div>
+                <div class="form-group">
+                    <label>رابط الكانونيكال (Canonical URL):</label>
+                    <input type="text" id="m_canonical" placeholder="https://example.com/">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>وصف الصفحة (Description):</label>
+                <textarea id="m_desc" placeholder="اكتب وصفاً جذاباً ومختصراً لصفحتك..."></textarea>
+            </div>
+            <div class="grid-inputs">
+                <div class="form-group">
+                    <label>الكلمات المفتاحية (Keywords - مفصولة بفاصلة ,):</label>
+                    <input type="text" id="m_keywords" placeholder="دردشة, العاب, شات">
+                </div>
+                <div class="form-group">
+                    <label>كاتب الصفحة / الناشر (Author):</label>
+                    <input type="text" id="m_author" placeholder="Mustafa">
+                </div>
+            </div>
+            <div class="output-box">
+                <span class="output-label">أكواد HTML الجاهزة:</span>
+                <div class="code-display" id="meta_output">&lt;!-- انقر على توليد لإنشاء الأكواد --&gt;</div>
+            </div>
+            <div class="actions-row">
+                <button class="btn btn-primary" onclick="generateMetaTags()"><i class="fas fa-cog"></i> توليد الكود</button>
+                <button class="btn btn-secondary" onclick="copyContent('meta_output')"><i class="fas fa-copy"></i> نسخ سريع</button>
+                <button class="btn btn-danger" onclick="clearInputs(['m_title','m_canonical','m_desc','m_keywords','m_author'], 'meta_output')"><i class="fas fa-trash"></i> مسح</button>
+            </div>
+        </section>
+
+        <section id="robots-gen" class="card">
+            <div class="card-header">
+                <i class="fas fa-robot"></i>
+                <h2>مولد ملف التحكم بالعناكب (Robots.txt Generator)</h2>
+            </div>
+            <div class="grid-inputs">
+                <div class="form-group">
+                    <label>عناكب البحث الأساسية:</label>
+                    <select id="r_agent">
+                        <option value="*">جميع المحركات (All Robots *)</option>
+                        <option value="Googlebot">جوجل فقط (Googlebot)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>حالة الوصول والتوجيه:</label>
+                    <select id="r_action">
+                        <option value="allow" selected>السماح بالزحف (Allow)</option>
+                        <option value="disallow">منع الزحف (Disallow)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="grid-inputs">
+                <div class="form-group">
+                    <label>المسار المختار (مثال: /admin/ أو /):</label>
+                    <input type="text" id="r_path" value="/" placeholder="/">
+                </div>
+                <div class="form-group">
+                    <label>رابط خريطة الموقع (Sitemap URL):</label>
+                    <input type="text" id="r_sitemap" placeholder="https://example.com/sitemap.xml">
+                </div>
+            </div>
+            <div class="output-box">
+                <span class="output-label">محتوى ملف robots.txt:</span>
+                <div class="code-display" id="robots_output">User-agent: *<br>Allow: /</div>
+            </div>
+            <div class="actions-row">
+                <button class="btn btn-primary" onclick="generateRobotsTxt()"><i class="fas fa-cog"></i> تحديث وتوليد</button>
+                <button class="btn btn-secondary" onclick="copyContent('robots_output')"><i class="fas fa-copy"></i> نسخ</button>
+                <button class="btn btn-secondary" onclick="downloadTxt('robots_output', 'robots.txt')"><i class="fas fa-download"></i> تحميل ملف TXT</button>
+            </div>
+        </section>
+
+        <section id="sitemap-gen" class="card">
+            <div class="card-header">
+                <i class="fas fa-sitemap"></i>
+                <h2>مولد خريطة الموقع (Sitemap XML Generator)</h2>
+            </div>
+            <div class="form-group">
+                <label>أدخل روابط موقعك (رابط واحد في كل سطر بشكل مستقل):</label>
+                <textarea id="s_urls" placeholder="https://example.com/&#10;https://example.com/page1"></textarea>
+            </div>
+            <div class="grid-inputs">
+                <div class="form-group">
+                    <label>معدل التغيير الافتراضي (Change Frequency):</label>
+                    <select id="s_freq">
+                        <option value="daily" selected>يومي (daily)</option>
+                        <option value="weekly">أسبوعي (weekly)</option>
+                        <option value="monthly">شهري (monthly)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>الأولوية التقريبية لكافة الصفحات (Priority):</label>
+                    <select id="s_priority">
+                        <option value="1.0">1.0 (الرئيسية)</option>
+                        <option value="0.8" selected>0.8 (الداخلية الهامة)</option>
+                        <option value="0.5">0.5 (العادية)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="output-box">
+                <span class="output-label">هيكل ملف sitemap.xml الناتج:</span>
+                <div class="code-display" id="sitemap_output">&lt;!-- سيتم توليد خريطة XML هنا --&gt;</div>
+            </div>
+            <div class="actions-row">
+                <button class="btn btn-primary" onclick="generateSitemapXml()"><i class="fas fa-cog"></i> بناء الخريطة فورياً</button>
+                <button class="btn btn-secondary" onclick="copyContent('sitemap_output')"><i class="fas fa-copy"></i> نسخ</button>
+                <button class="btn btn-secondary" onclick="downloadTxt('sitemap_output', 'sitemap.xml')"><i class="fas fa-download"></i> تحميل سيت ماب</button>
+            </div>
+        </section>
+
+        <section id="canonical-gen" class="card">
+            <div class="card-header">
+                <i class="fas fa-link"></i>
+                <h2>مولد الرابط الأساسي والموحد (Canonical URL Generator)</h2>
+            </div>
+            <div class="form-group">
+                <label>أدخل رابط الصفحة الفعلي المراد توحيده وعرضه كمرجع أصلي:</label>
+                <input type="text" id="c_url" placeholder="https://example.com/current-page/">
+            </div>
+            <div class="output-box">
+                <span class="output-label">وسم Canonical HTML الناتج:</span>
+                <div class="code-display" id="canonical_output">&lt;!-- أدخل الرابط واضغط توليد --&gt;</div>
+            </div>
+            <div class="actions-row">
+                <button class="btn btn-primary" onclick="generateCanonicalTag()"><i class="fas fa-cog"></i> توليد الوسم</button>
+                <button class="btn btn-secondary" onclick="copyContent('canonical_output')"><i class="fas fa-copy"></i> نسخ</button>
+                <button class="btn btn-danger" onclick="clearInputs(['c_url'], 'canonical_output')"><i class="fas fa-trash"></i> مسح</button>
+            </div>
+        </section>
+
+        <section id="og-gen" class="card">
+            <div class="card-header">
+                <i class="fab fa-facebook-square"></i>
+                <h2>مولد بروتوكول البيانات المفتوحة (Open Graph Generator)</h2>
+            </div>
+            <div class="grid-inputs">
+                <div class="form-group">
+                    <label>عنوان المشاركة (og:title):</label>
+                    <input type="text" id="og_title" placeholder="عنوان جذاب لمنصات التواصل">
+                </div>
+                <div class="form-group">
+                    <label>رابط المستند الأساسي (og:url):</label>
+                    <input type="text" id="og_url_input" placeholder="https://example.com/page/">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>الوصف المخصص للسوشيال ميديا (og:description):</label>
+                <textarea id="og_desc" placeholder="وصف مخصص يظهر عند مشاركة الرابط على فيسبوك وتليجرام..."></textarea>
+            </div>
+            <div class="form-group">
+                <label>رابط صورة المعاينة البارزة (og:image):</label>
+                <input type="text" id="og_image" placeholder="https://example.com/images/thumb.jpg">
+            </div>
+            <div class="output-box">
+                <span class="output-label">أكواد ووسوم Open Graph المقترحة:</span>
+                <div class="code-display" id="og_output">&lt;!-- سيتم إدراج وسوم og هنا --&gt;</div>
+            </div>
+            <div class="actions-row">
+                <button class="btn btn-primary" onclick="generateOpenGraph()"><i class="fas fa-cog"></i> توليد وسوم السوشيال</button>
+                <button class="btn btn-secondary" onclick="copyContent('og_output')"><i class="fas fa-copy"></i> نسخ</button>
+            </div>
+        </section>
+
+        <section id="twitter-gen" class="card">
+            <div class="card-header">
+                <i class="fab fa-twitter"></i>
+                <h2>مولد كروت منصة إكس/تويتر (Twitter Meta Card Generator)</h2>
+            </div>
+            <div class="grid-inputs">
+                <div class="form-group">
+                    <label>نوع كارت العرض المفضل:</label>
+                    <select id="tw_card">
+                        <option value="summary_large_image">صورة عريضة بارزة (Summary Card with Large Image)</option>
+                        <option value="summary">كارت كلاسيكي مصغر (Summary Card)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>معرف حساب تويتر للموقع (tw:site):</label>
+                    <input type="text" id="tw_site" placeholder="@username">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>عنوان الكارت (twitter:title):</label>
+                <input type="text" id="tw_title" placeholder="أدخل العنوان المخصص لتويتر">
+            </div>
+            <div class="form-group">
+                <label>وصف التغريدة المدمج (twitter:description):</label>
+                <textarea id="tw_desc" placeholder="اكتب مخلصاً مشوقاً للتغريدة الآلية..."></textarea>
+            </div>
+            <div class="form-group">
+                <label>رابط الصورة المرفقة بالكارت:</label>
+                <input type="text" id="tw_image" placeholder="https://example.com/image.jpg">
+            </div>
+            <div class="output-box">
+                <span class="output-label">أكواد Twitter Card HTML:</span>
+                <div class="code-display" id="twitter_output">&lt;!-- الأكواد ستظهر هنا فورياً --&gt;</div>
+            </div>
+            <div class="actions-row">
+                <button class="btn btn-primary" onclick="generateTwitterCards()"><i class="fas fa-cog"></i> معالجة وتوليد</button>
+                <button class="btn btn-secondary" onclick="copyContent('twitter_output')"><i class="fas fa-copy"></i> نسخ</button>
+            </div>
+        </section>
+
+        <section id="length-checker" class="card">
+            <div class="card-header">
+                <i class="fas fa-text-height"></i>
+                <h2>فحص ومراقبة طول العنوان والوصف وفق معايير Google</h2>
+            </div>
+            <div class="form-group">
+                <label>تجربة العنوان المقترح لـ SEO (Title Tag):</label>
+                <input type="text" id="check_title" placeholder="اكتب العنوان المراد اختباره هنا..." oninput="analyzeSeoLengths()">
+                <div class="indicator-wrapper">
+                    <span>عدد الأحرف الحالي: <strong id="t_char_num">0</strong> / 60 حداً مثالياً</span>
+                    <span id="t_status_badge" class="badge bg-danger">فارغ</span>
+                </div>
+                <div id="t_tip" class="seo-tip"></div>
+            </div>
+            <div class="form-group" style="margin-top: 25px;">
+                <label>تجربة وصف الميتا المقترح (Meta Description):</label>
+                <textarea id="check_desc" placeholder="اكتب أو الصق الوصف لاختبار كفاءة طوله وهندسته النصية..." oninput="analyzeSeoLengths()"></textarea>
+                <div class="indicator-wrapper">
+                    <span>عدد الأحرف الحالي: <strong id="d_char_num">0</strong> / 160 حداً مثالياً</span>
+                    <span id="d_status_badge" class="badge bg-danger">فارغ</span>
+                </div>
+                <div id="d_tip" class="seo-tip"></div>
+            </div>
+        </section>
+
+        <section id="density-checker" class="card">
+            <div class="card-header">
+                <i class="fas fa-percentage"></i>
+                <h2>فحص وتدقيق كثافة الكلمات المفتاحية (Keyword Density)</h2>
+            </div>
+            <div class="form-group">
+                <label>أدخل المقال أو النص الكامل للموقع:</label>
+                <textarea id="dense_text" style="height: 160px;" placeholder="قم بلصق محتوى المقال أو الصفحة هنا للتحليل المعمق..." oninput="calculateDensity()"></textarea>
+            </div>
+            <div class="form-group">
+                <label>الكلمة المفتاحية المستهدفة (المطلوب قياسها وتتبعها):</label>
+                <input type="text" id="dense_keyword" placeholder="اكتب الكلمة هنا بشكل محدد" oninput="calculateDensity()">
+            </div>
+            <div class="density-results">
+                <div class="res-box">
+                    <h4>عدد الكلمات الكلي</h4>
+                    <span id="ds_total_words">0</span>
+                </div>
+                <div class="res-box">
+                    <h4>تكرار الكلمة المفتاحية</h4>
+                    <span id="ds_key_count">0</span>
+                </div>
+                <div class="res-box">
+                    <h4>نسبة الكثافة العامة</h4>
+                    <span id="ds_percent">0%</span>
+                </div>
+            </div>
+            <div id="density_guide_tip" class="seo-tip" style="margin-top:15px; display:none;"></div>
+        </section>
+
+        <section id="seo-counter" class="card">
+            <div class="card-header">
+                <i class="fas fa-calculator"></i>
+                <h2>عداد وفاحص كلمات وهيكل نصوص الـ SEO المعمق</h2>
+            </div>
+            <div class="form-group">
+                <label>الصق النص أو المحتوى التحريري هنا للحساب الفوري المباشر:</label>
+                <textarea id="cnt_text" style="height: 180px;" placeholder="ابدأ الكتابة أو الصق محتواك النصي لتشريح الهيكل البرمجي..." oninput="runSeoCounter()"></textarea>
+            </div>
+            <div class="counter-results">
+                <div class="res-box"><h4>الكلمات</h4><span id="c_words">0</span></div>
+                <div class="res-box"><h4>الأحرف (شامل المسافات)</h4><span id="c_chars_s">0</span></div>
+                <div class="res-box"><h4>الأحرف (بدون مسافات)</h4><span id="c_chars_n">0</span></div>
+                <div class="res-box"><h4>الأسطر المكتوبة</h4><span id="c_lines">0</span></div>
+                <div class="res-box"><h4>الفقرات المستقلة</h4><span id="c_paragraphs">0</span></div>
+                <div class="res-box"><h4>وقت القراءة المقدر</h4><span id="c_read_time">0 دقيقة</span></div>
+            </div>
+        </section>
+
+        <section id="slug-gen" class="card">
+            <div class="card-header">
+                <i class="fas fa-i-cursor"></i>
+                <h2>مولد روابط الصفحات الصديقة لمحركات البحث (SEO Slug Generator)</h2>
+            </div>
+            <div class="form-group">
+                <label>أدخل عنوان المقال أو الصفحة (يدعم اللغة العربية والإنجليزية بالكامل):</label>
+                <input type="text" id="slug_input" placeholder="مثال: أفضل طريقة لتحسين سيو شات الخليج 2026" oninput="generateSlugUrl()">
+            </div>
+            <div class="output-box">
+                <span class="output-label">الـ Slug الصديق لمحركات البحث الويب:</span>
+                <div class="code-display" id="slug_output" style="font-family:'Cairo', sans-serif; font-size:14px; text-align:right; direction:rtl;">انقر على توليد أو اكتب شيئاً...</div>
+            </div>
+            <div class="actions-row">
+                <button class="btn btn-secondary" onclick="copyContent('slug_output')"><i class="fas fa-copy"></i> نسخ الروابط الصديقة</button>
+                <button class="btn btn-danger" onclick="clearInputs(['slug_input'], 'slug_output')"><i class="fas fa-trash"></i> تفريغ الخانة</button>
+            </div>
+        </section>
+
+    </main>
+
+    <section class="seo-education-section">
+        <h3>ما أهمية تحسين SEO للمواقع؟</h3>
+        <div class="edu-grid">
+            <div class="edu-item">
+                <h4>وسوم الميتا (Meta Tags)</h4>
+                <p>تعتبر حجر الأساس لتعريف محركات البحث بالهوية الهيكلية لصفحتك. تساعد وسوم العنوان والميتا ديسكربشن العناكب في بناء صورة واضحة وتصنيف صفحاتك ضمن الكلمات البحثية المستهدفة لضمان زيادة نسبة النقر إلى الظهور (CTR).</p>
+            </div>
+            <div class="edu-item">
+                <h4>خريطة الموقع (Sitemap XML)</h4>
+                <p>تمثل دليلاً سياحياً متكاملاً لعناكب الزحف، فبدلاً من ترك الخوارزميات تبحث عشوائياً بين الروابط والمقالات، توفر لها الخريطة مساراً مباشراً ومنظماً يسهل عملية أرشفة الصفحات الجديدة والقديمة بشكل دوري مريح.</p>
+            </div>
+            <div class="edu-item">
+                <h4>ملف العناكب (Robots.txt)</h4>
+                <p>يمنحك السيطرة الكاملة على ميزانية الزحف (Crawl Budget) الخاصة بموقعك. من خلاله يمكنك توجيه محرك البحث Google لمنع أرشفة الروابط غير الهامة مثل لوحات التحكم أو الملفات المؤقتة، والتركيز على المحتوى الثمين والروابط الرئيسية.</p>
+            </div>
+            <div class="edu-item">
+                <h4>توزيع الكلمات المفتاحية</h4>
+                <p>الذكاء في صياغة الكلمات وكثافتها دون حشو مفرط (Keyword Stuffing) يحمي صفحاتك من عقوبات جوجل الفنية، ويضمن تصدر محتواك بشكل طبيعي وموثوق يلبي نية المستخدم الباحث (Search Intent) بكفاءة هندسية عالية.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h3 class="faq-title">الأسئلة الشائعة حول أدوات السيو والتهيئة</h3>
+        <div class="faq-item">
+            <h4>هل أدوات SEO مجانية بالكامل؟</h4>
+            <p>نعم، كافة الأدوات المتاحة في المنصة من **مولد Meta Tags**، و**Robots.txt**، ومولد الخرائط وفاحص الكثافة النصية مجانية بالكامل ومتاحة لجميع مطوري ومحرري الويب العربي دون قيود أو حاجة للتسجيل.</p>
+        </div>
+        <div class="faq-item">
+            <h4>هل يتم حفظ البيانات أو الروابط المكتوبة على الموقع؟</h4>
+            <p>نهائياً؛ جميع المنظومات والمحركات البرمجية المدمجة في الصفحة تعتمد على **المعالجة المحلية الصارمة (Local Processing)** داخل متصفحك. فور إغلاقك لعلامة التبويب، يتم مسح كل شيء تلقائياً ولا يوجد سيرفر خارجي يحفظ أي نصوص.</p>
+        </div>
+        <div class="faq-item">
+            <h4>ما هي أهمية وسوم Meta Tags لظهور الموقع؟</h4>
+            <p>الميتا تاغس هي أول ما يقرأه روبوت الفهرسة لـ Google، وبدونها قد تضطر المحركات لتخمين محتوى صفحتك، مما قد يظهر عناوين غير متناسقة للمستخدمين ويؤثر سلباً على مركزك وجاذبية موقعك في نتائج البحث.</p>
+        </div>
+        <div class="faq-item">
+            <h4>كيف يساعدني ملف Sitemap XML في تسريع الأرشفة؟</h4>
+            <p>خريطة الموقع تخبر محركات البحث عن وجود تحديثات دورية أو روابط مقالات جديدة تم إنشاؤها فوراً، مما يقلل من زمن الانتظار الفني للأرشفة اليدوية ويوصل زوار شبكة الإنترنت لصفحاتك بأسرع وقت ممكن.</p>
+        </div>
+    </section>
+
+    <h3 class="links-title">تصفح أقسام شات الخليج الأساسية</h3>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link"><i class="fas fa-toolbox"></i> أدوات أخرى</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link"><i class="fas fa-gamepad"></i> الألعاب والمسابقات</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link"><i class="fas fa-comments"></i> غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link"><i class="fas fa-blog"></i> مدونة الخليج العربي</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج | إدارة وتطوير كبرى شبكات الدردشة العربية</p>
+</footer>
+
+<script>
+    // ==========================================
+    // دالة التبديل السلس بين نوافذ الأدوات المختلفة
+    // ==========================================
+    function switchTool(toolId, btnElement) {
+        // إزالة الكلاس الفعال من الأزرار السابقة
+        document.querySelectorAll('.tools-nav-btn').forEach(btn => btn.classList.remove('active'));
+        // إخفاء كافة الكروت الحالية
+        document.querySelectorAll('.card').forEach(card => card.classList.remove('active'));
+        
+        // تفعيل الزر والكارت المختار
+        btnElement.classList.add('active');
+        document.getElementById(toolId).classList.add('active');
+    }
+
+    // ==========================================
+    // دالة مسح وتفريغ الحقول بضغطة زر واحدة
+    // ==========================================
+    function clearInputs(inputIdsArray, outputId) {
+        inputIdsArray.forEach(id => {
+            document.getElementById(id).value = '';
+        });
+        const out = document.getElementById(outputId);
+        if(out) {
+            if(out.tagName === 'DIV') out.innerHTML = '';
+            else out.value = '';
+        }
+        // تحديث الفحوصات الفورية إن وجدت
+        if(outputId === 'slug_output') out.innerText = 'انقر على توليد أو اكتب شيئاً...';
+        analyzeSeoLengths();
+        calculateDensity();
+        runSeoCounter();
+    }
+
+    // ==========================================
+    // دالة النسخ التلقائي السريع للحافظة
+    // ==========================================
+    function copyContent(elementId) {
+        const el = document.getElementById(elementId);
+        let text = el.innerText || el.value;
+        
+        if(!text || text.includes('انقر على') || text.includes('توليد الكود') || text.includes('سيتم توليد')) {
+            alert('لا يوجد محتوى صالح للنسخ حالياً!');
+            return;
+        }
+        
+        navigator.clipboard.writeText(text).then(() => {
+            alert('تم نسخ الكود البرمجي بنجاح وبأمان إلى الحافظة!');
+        }).catch(() => {
+            alert('فشل النسخ التلقائي، يرجى تظليل النص ونسخه يدوياً.');
+        });
+    }
+
+    // ==========================================
+    // دالة تحميل المخرجات كملف نصي مستقل (.txt / .xml)
+    // ==========================================
+    function downloadTxt(elementId, filename) {
+        const el = document.getElementById(elementId);
+        const text = el.innerText || el.value;
+        
+        if(!text || text.includes('انقر على') || text.includes('سيتم')) {
+            alert('لا يوجد بيانات كافية لتصديرها كملف!');
+            return;
+        }
+
+        const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = filename;
+        link.click();
+        URL.revokeObjectURL(link.href);
+    }
+
+    // ==========================================
+    // 1. منطق معالجة: Meta Tags Generator
+    // ==========================================
+    function generateMetaTags() {
+        const title = document.getElementById('m_title').value.trim();
+        const canonical = document.getElementById('m_canonical').value.trim();
+        const desc = document.getElementById('m_desc').value.trim();
+        const keywords = document.getElementById('m_keywords').value.trim();
+        const author = document.getElementById('m_author').value.trim();
+
+        let code = `\n`;
+        if (title) code += `<title>${title}</title>\n`;
+        if (desc) code += `<meta name="description" content="${desc}">\n`;
+        if (keywords) code += `<meta name="keywords" content="${keywords}">\n`;
+        if (author) code += `<meta name="author" content="${author}">\n`;
+        if (canonical) code += `<link rel="canonical" href="${canonical}" />\n`;
+
+        document.getElementById('meta_output').innerText = code;
+    }
+
+    // ==========================================
+    // 2. منطق معالجة: Robots.txt Generator
+    // ==========================================
+    function generateRobotsTxt() {
+        const agent = document.getElementById('r_agent').value;
+        const action = document.getElementById('r_action').value;
+        const path = document.getElementById('r_path').value.trim() || '/';
+        const sitemap = document.getElementById('r_sitemap').value.trim();
+
+        let code = `User-agent: ${agent}\n`;
+        if(action === 'allow') {
+            code += `Allow: ${path}\n`;
+        } else {
+            code += `Disallow: ${path}\n`;
+        }
+        if(sitemap) {
+            code += `Sitemap: ${sitemap}\n`;
+        }
+
+        document.getElementById('robots_output').innerText = code;
+    }
+
+    // ==========================================
+    // 3. منطق معالجة: Sitemap XML Generator
+    // ==========================================
+    function generateSitemapXml() {
+        const rawUrls = document.getElementById('s_urls').value.trim();
+        const freq = document.getElementById('s_freq').value;
+        const priority = document.getElementById('s_priority').value;
+
+        if(!rawUrls) {
+            document.getElementById('sitemap_output').innerText = "الرجاء إدخال رابط واحد على الأقل لبناء الخريطة الهيكلية!";
+            return;
+        }
+
+        const urlsArray = rawUrls.split('\n').map(u => u.trim()).filter(u => u.length > 0);
+        let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+
+        urlsArray.forEach(url => {
+            // تنظيف وحماية الروابط البرمجية من الرموز الخاصة بـ XML
+            let cleanUrl = url.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            xml += `  <url>\n`;
+            xml += `    <loc>${cleanUrl}</loc>\n`;
+            xml += `    <changefreq>${freq}</changefreq>\n`;
+            xml += `    <priority>${priority}</priority>\n`;
+            xml += `  </url>\n`;
+        });
+
+        xml += `</urlset>`;
+        document.getElementById('sitemap_output').innerText = xml;
+    }
+
+    // ==========================================
+    // 4. منطق معالجة: Canonical URL Generator
+    // ==========================================
+    function generateCanonicalTag() {
+        const url = document.getElementById('c_url').value.trim();
+        if(!url) {
+            document.getElementById('canonical_output').innerText = "برجاء كتابة رابط صالح!";
+            return;
+        }
+        document.getElementById('canonical_output').innerText = `<link rel="canonical" href="${url}" />`;
+    }
+
+    // ==========================================
+    // 5. منطق معالجة: Open Graph Generator
+    // ==========================================
+    function generateOpenGraph() {
+        const title = document.getElementById('og_title').value.trim();
+        const url = document.getElementById('og_url_input').value.trim();
+        const desc = document.getElementById('og_desc').value.trim();
+        const img = document.getElementById('og_image').value.trim();
+
+        let code = `\n`;
+        code += `<meta property="og:type" content="website">\n`;
+        if(title) code += `<meta property="og:title" content="${title}">\n`;
+        if(desc) code += `<meta property="og:description" content="${desc}">\n`;
+        if(url) code += `<meta property="og:url" content="${url}">\n`;
+        if(img) code += `<meta property="og:image" content="${img}">\n`;
+
+        document.getElementById('og_output').innerText = code;
+    }
+
+    // ==========================================
+    // 6. منطق معالجة: Twitter Meta Generator
+    // ==========================================
+    function generateTwitterCards() {
+        const card = document.getElementById('tw_card').value;
+        const site = document.getElementById('tw_site').value.trim();
+        const title = document.getElementById('tw_title').value.trim();
+        const desc = document.getElementById('tw_desc').value.trim();
+        const img = document.getElementById('tw_image').value.trim();
+
+        let code = `\n`;
+        code += `<meta name="twitter:card" content="${card}">\n`;
+        if(site) code += `<meta name="twitter:site" content="${site}">\n`;
+        if(title) code += `<meta name="twitter:title" content="${title}">\n`;
+        if(desc) code += `<meta name="twitter:description" content="${desc}">\n`;
+        if(img) code += `<meta name="twitter:image" content="${img}">\n`;
+
+        document.getElementById('twitter_output').innerText = code;
+    }
+
+    // ==========================================
+    // 7. منطق معالجة: فحص طول Title وDescription الفوري
+    // ==========================================
+    function analyzeSeoLengths() {
+        // أ. فحص وتحليل العنوان
+        const titleVal = document.getElementById('check_title').value;
+        const titleLen = titleVal.length;
+        document.getElementById('t_char_num').innerText = titleLen;
+        
+        const tBadge = document.getElementById('t_status_badge');
+        const tTip = document.getElementById('t_tip');
+
+        if(titleLen === 0) {
+            tBadge.innerText = "فارغ"; tBadge.className = "badge bg-danger";
+            tTip.style.display = "none";
+        } else if (titleLen < 30) {
+            tBadge.innerText = "قصير جداً"; tBadge.className = "badge bg-warning";
+            tTip.innerText = "💡 نصيحة سيو: العنوان قصير، ننصح بزيادة طول العنوان لإضافة كلمات مستهدفة تصف محتوى الصفحة لرفع الترتيب.";
+            tTip.className = "seo-tip tip-warning"; tTip.style.display = "block";
+        } else if (titleLen <= 60) {
+            tBadge.innerText = "ممتاز ومثالي"; tBadge.className = "badge bg-success";
+            tTip.innerText = "✔ طول ممتاز! العنوان متناسق تماماً مع مساحة العرض الرقمية المحددة لنتائج بحث Google.";
+            tTip.className = "seo-tip tip-success"; tTip.style.display = "block";
+        } else {
+            tBadge.innerText = "طويل جداً"; tBadge.className = "badge bg-danger";
+            tTip.innerText = "❌ تنبيه سيو: العنوان يتجاوز 60 حرفاً! سيتم اقتطاع الأجزاء الزائدة بـ (...) في شاشات الهاتف والكمبيوتر.";
+            tTip.className = "seo-tip tip-danger"; tTip.style.display = "block";
+        }
+
+        // ب. فحص وتحليل الميتا ديسكربشن
+        const descVal = document.getElementById('check_desc').value;
+        const descLen = descVal.length;
+        document.getElementById('d_char_num').innerText = descLen;
+
+        const dBadge = document.getElementById('d_status_badge');
+        const dTip = document.getElementById('d_tip');
+
+        if(descLen === 0) {
+            dBadge.innerText = "فارغ"; dBadge.className = "badge bg-danger";
+            dTip.style.display = "none";
+        } else if (descLen < 100) {
+            dBadge.innerText = "قصير"; dBadge.className = "badge bg-warning";
+            dTip.innerText = "💡 نصيحة سيو: الوصف قصير؛ استغل المساحة المتاحة لشرح الفوائد والخدمات وحث الباحث على النقر.";
+            dTip.className = "seo-tip tip-warning"; dTip.style.display = "block";
+        } else if (descLen <= 160) {
+            dBadge.innerText = "ممتاز ومثالي"; dBadge.className = "badge bg-success";
+            dTip.innerText = "✔ طول وصف مثالي! سيظهر بشكل منسق وجذاب دون أي قطع تشويهي في سيرفرات جوجل.";
+            dTip.className = "seo-tip tip-success"; dTip.style.display = "block";
+        } else {
+            dBadge.innerText = "طويل جداً"; dBadge.className = "badge bg-danger";
+            dTip.innerText = "❌ تنبيه سيو: الوصف تخطى 160 حرفاً، مما يجبر المحركات على اقتطاع الجمل الأخيرة وإخفائها من صفحة النتائج.";
+            dTip.className = "seo-tip tip-danger"; dTip.style.display = "block";
+        }
+    }
+
+    // ==========================================
+    // 8. منطق معالجة: فحص كثافة الكلمات المفتاحية
+    // ==========================================
+    function calculateDensity() {
+        const text = document.getElementById('dense_text').value.trim();
+        const keyword = document.getElementById('dense_keyword').value.trim().toLowerCase();
+
+        if(!text) {
+            document.getElementById('ds_total_words').innerText = '0';
+            document.getElementById('ds_key_count').innerText = '0';
+            document.getElementById('ds_percent').innerText = '0%';
+            document.getElementById('density_guide_tip').style.display = "none";
+            return;
+        }
+
+        // تنظيف النصوص وعزل علامات الترقيم لفرز الكلمات
+        const wordsArray = text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()؟?]/g, "").toLowerCase().split(/\s+/).filter(w => w.length > 0);
+        const totalWordsCount = wordsArray.length;
+        document.getElementById('ds_total_words').innerText = totalWordsCount;
+
+        if(!keyword || totalWordsCount === 0) {
+            document.getElementById('ds_key_count').innerText = '0';
+            document.getElementById('ds_percent').innerText = '0%';
+            document.getElementById('density_guide_tip').style.display = "none";
+            return;
+        }
+
+        // حساب التكرارات بدقة
+        let matchCount = 0;
+        wordsArray.forEach(word => {
+            if(word === keyword) matchCount++;
+        });
+
+        // النسبة المئوية
+        const percentage = ((matchCount / totalWordsCount) * 100).toFixed(2);
+        
+        document.getElementById('ds_key_count').innerText = matchCount;
+        document.getElementById('ds_percent').innerText = percentage + '%';
+
+        // توفير إرشاد فني فوري للمشرف والمحرر
+        const tipBox = document.getElementById('density_guide_tip');
+        tipBox.style.display = "block";
+
+        if (percentage == 0) {
+            tipBox.innerText = "⚠️ الكلمة المستهدفة غير موجودة تماماً بالمقال الحالي، يرجى تضمينها لدعم الأرشفة.";
+            tipBox.className = "seo-tip tip-danger";
+        } else if (percentage < 1.0) {
+            tipBox.innerText = "💡 كثافة ضعيفة (أقل من 1%): يُفضل زيادة تكرار الكلمة بشكل طبيعي داخل العناوين الفرعية والمقدمة.";
+            tipBox.className = "seo-tip tip-warning";
+        } else if (percentage <= 3.0) {
+            tipBox.innerText = "✔ الكثافة مثالية ونموذجية (بين 1% إلى 3%): توزيع ممتاز يمنحك أفضلية الصدارة دون شبهة حشو عشوائي.";
+            tipBox.className = "seo-tip tip-success";
+        } else {
+            tipBox.innerText = "❌ الكثافة مرتفعة ومفرطة (أعلى من 3%): هذا يعتبر حشواً مفرطاً (Keyword Stuffing)، قد يعرض موقعك لعقوبة السبام من خوارزميات Google.";
+            tipBox.className = "seo-tip tip-danger";
+        }
+    }
+
+    // ==========================================
+    // 9. منطق معالجة: عداد وفاحص نصوص SEO المعمق
+    // ==========================================
+    function runSeoCounter() {
+        const text = document.getElementById('cnt_text').value;
+
+        if(!text) {
+            document.getElementById('c_words').innerText = '0';
+            document.getElementById('c_chars_s').innerText = '0';
+            document.getElementById('c_chars_n').innerText = '0';
+            document.getElementById('c_lines').innerText = '0';
+            document.getElementById('c_paragraphs').innerText = '0';
+            document.getElementById('c_read_time').innerText = '0 دقيقة';
+            return;
+        }
+
+        // الكلمات
+        const words = text.trim().split(/\s+/).filter(w => w.length > 0).length;
+        // الأحرف شاملة وغير شاملة
+        const charsWithSpaces = text.length;
+        const charsNoSpaces = text.replace(/\s/g, '').length;
+        // الأسطر
+        const lines = text.split('\n').length;
+        // الفقرات
+        const paragraphs = text.split(/\n\s*\n/).filter(p => p.trim().length > 0).length;
+        
+        // وقت القراءة التقريبي (المعدل البشري الطبيعي 200 كلمة بالدقيقة)
+        const readTime = Math.ceil(words / 200);
+
+        document.getElementById('c_words').innerText = words;
+        document.getElementById('c_chars_s').innerText = charsWithSpaces;
+        document.getElementById('c_chars_n').innerText = charsNoSpaces;
+        document.getElementById('c_lines').innerText = lines;
+        document.getElementById('c_paragraphs').innerText = paragraphs;
+        document.getElementById('c_read_time').innerText = readTime + ' دقيقة تقريباً';
+    }
+
+    // ==========================================
+    // 10. منطق معالجة: SEO Slug Generator
+    // ==========================================
+    function generateSlugUrl() {
+        const input = document.getElementById('slug_input').value.trim();
+        if(!input) {
+            document.getElementById('slug_output').innerText = 'انقر على توليد أو اكتب شيئاً...';
+            return;
+        }
+
+        // تحويل النصوص ومعالجة الرموز والفواصل للغتين العربية والإنجليزية
+        let slug = input.toLowerCase()
+            .replace(/[^a-z0-9\u0600-\u06FF\s-]/g, '') // الإبقاء على الحروف الإنجليزية، الأرقام، والحروف العربية والمسافات فقط
+            .trim()
+            .replace(/\s+/g, '-') // تحويل كافة المسافات إلى شرطة واحدة متصلة
+            .replace(/-+/g, '-'); // دمج الشرطات المتكررة إن وجدت
+
+        document.getElementById('slug_output').innerText = slug;
+    }
+</script>
+
+</body>
+</html>
