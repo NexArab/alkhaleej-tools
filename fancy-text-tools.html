@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>مولدات النصوص والزخرفة أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="أنشئ هاشتاقات وزخارف عربية وإنجليزية ويوزرات وأسماء عشوائية بسهولة عبر أدوات مجانية وسريعة أونلاين متوافقة مع جميع منصات التواصل الاجتماعي.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="مولدات النصوص والزخرفة | أدوات شات الخليج">
+    <meta property="og:description" content="مجموعة أدوات مجانية لإنشاء هاشتاقات وزخرفة النصوص العربية والإنجليزية وتوليد يوزرات وأسماء عشوائية بسهولة.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/text-generators/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/text-generators/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "مولدات النصوص والزخرفة",
+      "url": "https://tools.chat-alkhaleej.com/text-generators/",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "description": "أداة مجانية لزخرفة الأسماء العربية والإنجليزية، توليد أسماء ويوزرات عشوائية، وإنشاء الهاشتاقات تلقائياً.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "هل الأدوات مجانية؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، كافة مولدات النصوص وأدوات الزخرفة مجانية تماماً وتعمل أونلاين على الجوال والحاسوب بضغطة زر."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل تدعم الأداة زخرفة الأسماء العربية؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، تدعم الأداة زخرفة النصوص والأسماء العربية والإنجليزية بأكثر من 15 نمطاً مختلفاً ومقبولاً في منصات الدردشة والألعاب."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل يتم حفظ النصوص التي أدخلها؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "لا، تتم المعالجة والتوليد داخل متصفحك محلياً بشكل فوري وآمن 100% دون تخزين أي بيانات في خوادمنا."
+        }
+      }]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root { 
+            --primary: #450C0C; 
+            --accent: #ffd86b; 
+            --bg: #f8fafc; 
+            --text: #1e293b; 
+        }
+        body { 
+            font-family: 'Cairo', sans-serif; 
+            background-color: var(--bg); 
+            margin: 0; padding: 0; 
+            color: var(--text); 
+            line-height: 1.6; 
+        }
+
+        /* Navbar */
+        .navbar { 
+            background: var(--primary); 
+            padding: 12px 0; 
+            border-bottom: 3px solid var(--accent); 
+            position: sticky; top: 0; z-index: 1000; 
+        }
+        .nav-container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 0 20px; 
+        }
+        .nav-logo img { height: 45px; }
+        .nav-home { color: var(--accent); text-decoration: none; font-weight: 700; font-size: 16px; }
+
+        /* Content Layout */
+        .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+        .header-section { text-align: center; margin-bottom: 30px; }
+        h1 { color: var(--primary); font-size: clamp(22px, 5vw, 32px); font-weight: 900; margin-bottom: 10px; }
+        .tool-desc { color: #64748b; font-size: 17px; max-width: 800px; margin: 0 auto 30px; }
+
+        .tool-card { 
+            background: #fff; 
+            border-radius: 20px; 
+            padding: 25px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); 
+            border: 1px solid #e2e8f0; 
+        }
+        
+        textarea { 
+            width: 100%; 
+            height: 160px; 
+            padding: 15px; 
+            border: 2px solid #e2e8f0; 
+            border-radius: 12px; 
+            font-family: 'Cairo'; 
+            font-size: 15px; 
+            resize: vertical; 
+            box-sizing: border-box; 
+            transition: 0.3s; 
+            margin-bottom: 15px; 
+        }
+        textarea:focus { border-color: var(--accent); outline: none; }
+
+        /* Stats Bar */
+        .stats-bar { 
+            display: flex; 
+            gap: 15px; 
+            margin-bottom: 20px; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+        }
+        .stat-item { 
+            background: var(--primary); 
+            color: var(--accent); 
+            padding: 5px 20px; 
+            border-radius: 50px; 
+            font-size: 13px; 
+            font-weight: 700; 
+        }
+
+        /* Action Buttons Grid */
+        .actions-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); 
+            gap: 12px; 
+            margin-bottom: 25px; 
+        }
+        .btn-action { 
+            background: #f1f5f9; 
+            color: var(--primary); 
+            border: 1px solid #e2e8f0; 
+            padding: 12px; 
+            border-radius: 10px; 
+            font-weight: 700; 
+            cursor: pointer; 
+            transition: 0.2s; 
+            font-size: 14px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .btn-action:hover { background: var(--accent); border-color: var(--primary); transform: translateY(-1px); }
+
+        /* Control Buttons */
+        .controls { display: flex; gap: 10px; margin-top: 15px; }
+        .btn-main { 
+            flex: 1; padding: 12px; border: none; border-radius: 50px; 
+            font-weight: 800; cursor: pointer; transition: 0.3s; 
+            display: flex; align-items: center; justify-content: center; gap: 8px; 
+        }
+        .btn-copy { background: var(--accent); color: var(--primary); }
+        .btn-clear { background: #fee2e2; color: #ef4444; }
+        .btn-main:hover { transform: translateY(-2px); opacity: 0.9; }
+
+        /* Footer & Sections */
+        .faq-section { margin-top: 50px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 15px; border-right: 5px solid var(--accent); }
+        .faq-item h3 { margin: 0 0 10px; font-size: 18px; color: var(--primary); }
+
+        .links-title { text-align: center; color: var(--primary); margin-top: 40px; font-weight: 900; }
+        .related-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px; }
+        .tool-link { background: #fff; padding: 15px; text-align: center; border-radius: 12px; text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid #e2e8f0; transition: 0.3s; }
+        .tool-link:hover { background: var(--primary); color: #fff; }
+
+        footer { background: #fff; padding: 30px; margin-top: 50px; text-align: center; border-top: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="header-section">
+        <h1>مولدات النصوص والزخرفة</h1>
+        <p class="tool-desc">مجموعة أدوات مجانية لإنشاء هاشتاقات وزخرفة النصوص العربية والإنجليزية وتوليد يوزرات وأسماء عشوائية بسهولة مباشرة من المتصفح.</p>
+    </div>
+
+    <main class="tool-card">
+        <label>أدخل النص، الاسم أو الكلمة الافتتاحية:</label>
+        <textarea id="inputText" placeholder="اكتب هنا (مثال لشركات/هاشتاقات: تصوير سيارات | مثال للزخرفة: محمد أو Hello)..." oninput="updateStats()"></textarea>
+
+        <div class="stats-bar">
+            <div class="stat-item">الكلمات: <span id="wCount">0</span></div>
+            <div class="stat-item">الحروف: <span id="cCount">0</span></div>
+            <div class="stat-item">النتائج المولدة: <span id="gCount">0</span></div>
+        </div>
+
+        <div class="actions-grid">
+            <button class="btn-action" onclick="generateHashtags()"><i class="fas fa-hashtag"></i> مولد الهاشتاقات</button>
+            <button class="btn-action" onclick="decorateArabic()"><i class="fas fa-signature"></i> زخرفة عربية</button>
+            <button class="btn-action" onclick="decorateEnglish()"><i class="fas fa-font"></i> زخرفة إنجليزية</button>
+            <button class="btn-action" onclick="generateUsernames()"><i class="fas fa-user-tag"></i> مولد يوزرات (20 نتيِجة)</button>
+            <button class="btn-action" onclick="generateRandomNames()"><i class="fas fa-random"></i> أسماء عشوائية (20 نتيِجة)</button>
+        </div>
+
+        <label>النتائج المولّدة والمزخرفة جاهزة للنسخ:</label>
+        <textarea id="outputText" readonly placeholder="ستظهر المخرجات هنا مباشرة بعد اختيار الوظيفة..."></textarea>
+
+        <div class="controls">
+            <button class="btn-main btn-copy" onclick="copyResult()">
+                <i class="fas fa-copy"></i> نسخ النتيجة
+            </button>
+            <button class="btn-main btn-clear" onclick="clearAll()">
+                <i class="fas fa-trash"></i> مسح الكل
+            </button>
+        </div>
+    </main>
+
+    <section class="faq-section">
+        <h2 style="color: var(--primary); text-align: center;">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <h3>هل الأدوات مجانية بالكامل؟</h3>
+            <p>نعم، جميع المولدات وأدوات الزخرفة العربية والإنجليزية مجانية ومتاحة للاستخدام بلا حدود على كافة أنظمة التشغيل.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل تدعم الزخرفة العمل على تطبيقات الدردشة والألعاب؟</h3>
+            <p>بالتأكيد، تم استخدام رموز يونيكود (Unicode) عالمية ومقننة تضمن ظهور الأسماء بشكل سليم وجذاب داخل شات الخليج، ببجي، إنستغرام، وغيرها.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل يتم حفظ النصوص المكتوبة أو الهاشتاقات في السيرفر?</h3>
+            <p>نهائياً؛ تعتمد المنصة على برمجة الجافا سكريبت المحلية في جهاز المستخدم، مما يعني أن عمليات التوليد والزخرفة معزولة وآمنة تماماً.</p>
+        </div>
+    </section>
+
+    <h2 class="links-title">أقسام شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">أدوات أخرى</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج</a>
+    </div>
+</div>
+
+<footer><p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p></footer>
+
+<script>
+    // 1. مولد الهاشتاقات الذكي
+    function generateHashtags() {
+        const input = document.getElementById('inputText').value.trim();
+        if (!input) { alert("يرجى إدخال كلمات لتوليد الهاشتاقات."); return; }
+
+        const words = input.split(/\s+/).filter(w => w.length > 0);
+        let results = [];
+
+        words.forEach(word => {
+            const cleanWord = word.replace(/[^\u0600-\u06FFa-zA-Z0-9]/g, '');
+            if(cleanWord) results.push(`#${cleanWord}`);
+        });
+
+        if (words.length > 1) {
+            const compound = words.map(w => w.replace(/[^\u0600-\u06FFa-zA-Z0-9]/g, '')).join('_');
+            results.push(`#${compound}`);
+            
+            const solidCompound = words.map(w => w.replace(/[^\u0600-\u06FFa-zA-Z0-9]/g, '')).join('');
+            results.push(`#${solidCompound}`);
+        }
+
+        document.getElementById('outputText').value = results.join('\n');
+        setGeneratedCount(results.length);
+    }
+
+    // 2. زخرفة النصوص العربية (15 نمطاً معقداً ومميزاً)
+    function decorateArabic() {
+        const txt = document.getElementById('inputText').value.trim();
+        if (!txt) { alert("يرجى إدخال اسم أو نص عربي للزخرفة."); return; }
+
+        const styles = [
+            `『${txt}』`, `♛${txt}♛`, `★${txt}★`, `⚔️${txt}⚔️`, 
+            `々${txt}々`, `〆${txt}〆`, `【${txt}】`, `꧁${txt}꧂`,
+            `☠️${txt}☠️`, `☣️${txt}☣️`, ` ⚡${txt}⚡`, ` Clint_${txt}`,
+            txt.split('').join('ـ') + 'ـ', 
+            `ۆ̯͡ۆ̯͡ ${txt} ۆ̯͡ۆ̯͡`, `v${txt}v`
+        ];
+
+        document.getElementById('outputText').value = styles.join('\n');
+        setGeneratedCount(styles.length);
+    }
+
+    // 3. زخرفة النصوص الإنجليزية (15 نمطاً بالـ Unicode Maps الأصلية)
+    function decorateEnglish() {
+        const txt = document.getElementById('inputText').value.trim();
+        if (!txt) { alert("يرجى إدخال نص بالإنجليزية للزخرفة."); return; }
+
+        const maps = {
+            boldItalic: {
+                'a': '𝓪', 'b': '𝓫', 'c': '𝓬', 'd': '𝓭', 'e': '𝒆', 'f': '𝓯', 'g': '𝓰', 'h': '𝓱', 'i': '𝓲', 'j': '𝓳', 'k': '𝓴', 'l': '𝓵', 'm': '𝓶', 'n': '𝓷', 'o': '𝓸', 'p': '𝓹', 'q': '𝓿', 'r': '𝓻', 's': '𝓼', 't': '𝓽', 'u': '𝓾', 'v': '𝓿', 'w': '𝔀', 'x': '𝔁', 'y': '𝔂', 'z': '𝔃',
+                'A': '𝓐', 'B': '𝓑', 'C': '𝓒', 'D': '𝓓', 'E': '𝓔', 'F': '𝓖', 'G': '𝓖', 'H': '𝓗', 'I': '𝓘', 'J': '𝓙', 'K': '𝓚', 'L': '𝓛', 'M': '𝓜', 'N': '𝓝', 'O': '𝓞', 'P': '𝓟', 'Q': '𝓠', 'R': '𝓡', 'S': '𝓢', 'T': '𝓣', 'U': '𝓤', 'V': '𝓥', 'W': '𝓦', 'X': '𝔛', 'Y': '𝓨', 'Z': '𝓩'
+            },
+            fullWidth: {
+                'a': 'ａ', 'b': 'ｂ', 'c': 'ｃ', 'd': 'ｄ', 'e': 'ｅ', 'f': 'ｆ', 'g': 'ｇ', 'h': 'ｈ', 'i': 'ｉ', 'j': 'ｊ', 'k': 'ｋ', 'l': 'ｌ', 'm': 'ｍ', 'n': 'ｎ', 'o': 'ｏ', 'p': 'ｐ', 'q': 'ｑ', 'r': 'ｒ', 's': 'ｓ', 't': 'ｔ', 'u': 'ｕ', 'v': 'ｖ', 'w': 'ｗ', 'x': 'ｘ', 'y': 'ｙ', 'z': 'ｚ',
+                'A': 'Ａ', 'B': 'Ｂ', 'C': 'Ｃ', 'D': 'Ｄ', 'E': 'Ｅ', 'F': 'Ｆ', 'G': 'Ｇ', 'H': 'Ｈ', 'I': 'Ｉ', 'J': 'Ｊ', 'K': 'Ｋ', 'L': 'Ｌ', 'M': 'Ｍ', 'N': 'Ｎ', 'O': 'Ｏ', 'P': 'Ｐ', 'Q': 'Ｑ', 'R': 'Ｒ', 'S': 'Ｓ', 'T': 'Ｔ', 'U': 'Ｕ', 'V': 'Ｖ', 'W': 'Ｗ', 'X': 'Ｘ', 'Y': 'Ｙ', 'Z': 'Ｚ'
+            },
+            smallCaps: {
+                'a': 'ᴀ', 'b': 'ʙ', 'c': 'ᴄ', 'd': 'ᴅ', 'e': 'ᴇ', 'f': 'ꜰ', 'g': 'ɢ', 'h': 'ʜ', 'i': 'ɪ', 'j': 'ᴊ', 'k': 'ᴋ', 'l': 'ʟ', 'm': 'ᴍ', 'n': 'ɴ', 'o': 'ᴏ', 'p': 'ᴘ', 'q': 'ǫ', 'r': 'ʀ', 's': 's', 't': 'ᴛ', 'u': 'ᴜ', 'v': 'ᴠ', 'w': 'ᴡ', 'x': 'x', 'y': 'ʏ', 'z': 'ᴢ',
+                'A': 'ᴀ', 'B': 'ʙ', 'C': 'ᴄ', 'D': 'ᴅ', 'E': 'ᴇ', 'F': 'ꜰ', 'G': 'ɢ', 'H': 'ʜ', 'I': 'ɪ', 'J': 'ᴊ', 'K': 'ᴋ', 'L': 'ʟ', 'M': 'ᴍ', 'N': 'ɴ', 'O': 'ᴏ', 'P': 'ᴘ', 'Q': 'ǫ', 'R': 'ʀ', 'S': 's', 'T': 'ᴛ', 'U': 'ᴜ', 'V': 'ᴠ', 'W': 'ᴡ', 'X': 'x', 'Y': 'ʏ', 'Z': 'ᴢ'
+            },
+            squared: {
+                'a': '🄰', 'b': '🄱', 'c': '🄲', 'd': '🄳', 'e': '🄴', 'f': '🄵', 'g': '🄶', 'h': '🄷', 'i': '🄸', 'j': '🄹', 'k': '🄺', 'l': '🄻', 'm': '🄼', 'n': '🄽', 'o': '🄾', 'p': '🄿', 'q': '🅀', 'r': '🅁', 's': '🅂', 't': '🅃', 'u': '🅄', 'v': '🅅', 'w': '🅆', 'x': '🅇', 'y': '🅈', 'z': '🅉',
+                'A': '🄰', 'B': '🄱', 'C': '🄲', 'D': '🄳', 'E': '🄴', 'F': '🄵', 'G': '🄶', 'H': '🄷', 'I': '🄸', 'J': '🄹', 'K': '🄺', 'L': '🄻', 'M': '🄼', 'N': '🄽', 'O': '🄾', 'P': '🄿', 'Q': '🅀', 'R': '🅁', 'S': '🅂', 'T': '🅃', 'U': '🅄', 'V': '🅅', 'W': '🅆', 'X': '🅇', 'Y': '🅈', 'Z': '🅉'
+            }
+        };
+
+        function mapString(str, map) {
+            return str.split('').map(c => map[c] || c).join('');
+        }
+
+        const t1 = mapString(txt, maps.boldItalic);
+        const t2 = mapString(txt, maps.fullWidth);
+        const t3 = mapString(txt, maps.smallCaps);
+        const t4 = mapString(txt, maps.squared);
+
+        const styles = [
+            t1, t2, t3, t4,
+            `꧁ ${t3} ꧂`, `×º°”˜` + t1 + `˜”°º×`, `➶➶ ${t2} ➷➷`,
+            ` ̿̿ ̿̿ ̿’̿’\̵͇̿̿\ Tat_${t3}`, `[̲̅${txt.toUpperCase()}]`, `⚡${t1}⚡`,
+            `☠️ ${t2} ☠️`, `•°¤*( ${t3} )*¤°•`, `[-_${t1}_-]`, `๑ ${t3} ๑`, `♛ ${t1} ♛`
+        ];
+
+        document.getElementById('outputText').value = styles.join('\n');
+        setGeneratedCount(styles.length);
+    }
+
+    // 4. مولد اليوزرات (توليد 20 يوزر عشوائي واحترافي)
+    function generateUsernames() {
+        const prefixes = ['Shadow', 'Dark', 'Nova', 'Cyber', 'Alpha', 'Ghost', 'Knight', 'Viper', 'Pixel', 'Falcon', 'Apex', 'Matrix', 'Nexus', 'Hyper'];
+        const suffixes = ['X', 'Pro', 'Wolf', 'Storm', 'Hunter', 'King', 'Rider', 'Vortex', 'Echo', 'Core', 'Mode', 'Boy', 'Squad', 'Tech'];
+        
+        let users = new Set();
+        while(users.size < 20) {
+            const pre = prefixes[Math.floor(Math.random() * prefixes.length)];
+            const suf = suffixes[Math.floor(Math.random() * suffixes.length)];
+            const num = Math.random() > 0.5 ? Math.floor(Math.random() * 99) : '';
+            users.add(`${pre}${suf}${num}`);
+        }
+
+        const results = Array.from(users);
+        document.getElementById('outputText').value = results.join('\n');
+        setGeneratedCount(results.length);
+    }
+
+    // 5. مولد الأسماء العشوائية (دمج عربي وإنجليزي ذكي - 20 اسماً)
+    function generateRandomNames() {
+        const enPrefix = ['Nova', 'Pixel', 'Tech', 'Hub', 'Smart', 'Cloud', 'Mega', 'Elite', 'Global', 'Prime'];
+        const enSuffix = ['Store', 'App', 'Zone', 'Web', 'Net', 'Line', 'Box', 'Link', 'Space', 'Flow'];
+        const arWords = ['الخليج', 'سيد', 'الملك', 'العرب', 'الرائد', 'التقنية', 'ستور', 'فون', 'الماستر', 'بلس'];
+
+        let names = new Set();
+        while(names.size < 20) {
+            let choice = Math.floor(Math.random() * 3);
+            if (choice === 0) {
+                names.add(`${enPrefix[Math.floor(Math.random() * enPrefix.length)]} ${enSuffix[Math.floor(Math.random() * enSuffix.length)]}`);
+            } else if (choice === 1) {
+                names.add(`${arWords[Math.floor(Math.random() * arWords.length)]} ${arWords[Math.floor(Math.random() * arWords.length)]}`);
+            } else {
+                names.add(`${enPrefix[Math.floor(Math.random() * enPrefix.length)]} ${arWords[Math.floor(Math.random() * arWords.length)]}`);
+            }
+        }
+
+        const results = Array.from(names);
+        document.getElementById('outputText').value = results.join('\n');
+        setGeneratedCount(results.length);
+    }
+
+    // العدادات والمساعدات الإجرائية
+    function updateStats() {
+        const text = document.getElementById('inputText').value;
+        const words = text.trim() ? text.trim().split(/\s+/).length : 0;
+        const chars = text.length;
+
+        document.getElementById('wCount').innerText = words;
+        document.getElementById('cCount').innerText = chars;
+    }
+
+    function setGeneratedCount(count) {
+        document.getElementById('gCount').innerText = count;
+        updateStats();
+    }
+
+    function copyResult() {
+        const output = document.getElementById('outputText');
+        if (!output.value) return;
+        
+        navigator.clipboard.writeText(output.value).then(() => {
+            const btn = document.querySelector('.btn-copy');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> تم نسخ كل النتائج!';
+            setTimeout(() => btn.innerHTML = originalText, 2000);
+        });
+    }
+
+    function clearAll() {
+        document.getElementById('inputText').value = '';
+        document.getElementById('outputText').value = '';
+        document.getElementById('gCount').innerText = '0';
+        updateStats();
+    }
+</script>
+</body>
+</html>
