@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>أدوات تعديل الصور أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="عدّل الصور بسهولة عبر أدوات ضغط الصور وتغيير الأبعاد والتدوير والقص وإضافة العلامة المائية مباشرة من المتصفح مجاناً.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="أدوات تعديل الصور أونلاين مجاناً | أدوات شات الخليج">
+    <meta property="og:description" content="عدّل الصور بسهولة عبر أدوات ضغط الصور وتغيير الأبعاد والتدوير والقص وإضافة العلامة المائية مباشرة من المتصفح مجاناً.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/image-editor-tools/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/image-editor-tools/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "أدوات تعديل الصور",
+      "url": "https://tools.chat-alkhaleej.com/image-editor-tools/",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Any",
+      "description": "مجموعة أدوات مجانية لتعديل الصور وضغطها وتغيير أبعادها وقصها وتدويرها وإضافة العلامات المائية بسهولة مباشرة من المتصفح.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "هل الأداة مجانية؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، أداة تعديل الصور مجانية تماماً وبدون أي قيود أو حاجة للتسجيل في الموقع."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل يتم رفع الصور للسيرفر؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "لا، نهائياً. جميع عمليات التعديل والقص والضغط تتم محلياً داخل جهازك وعبر متصفحك مباشرة بنسبة 100% لحماية خصوصيتك الحصرية."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل تقل جودة الصورة بعد الضغط؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "تمنحك الأداة شريط تحكم كامل (Slider) لتحديد الجودة والضغط المناسب، مما يتيح لك الموازنة المثالية بين تقليل حجم الملف والحفاظ على نقاء الصورة."
+        }
+      }]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root { 
+            --primary: #450C0C; 
+            --accent: #ffd86b; 
+            --bg: #f8fafc; 
+            --text: #1e293b; 
+        }
+        body { 
+            font-family: 'Cairo', sans-serif; 
+            background-color: var(--bg); 
+            margin: 0; padding: 0; 
+            color: var(--text); 
+            line-height: 1.6; 
+        }
+
+        /* Navbar */
+        .navbar { 
+            background: var(--primary); 
+            padding: 12px 0; 
+            border-bottom: 3px solid var(--accent); 
+            position: sticky; top: 0; z-index: 1000; 
+        }
+        .nav-container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 0 20px; 
+        }
+        .nav-logo img { height: 45px; }
+        .nav-home { color: var(--accent); text-decoration: none; font-weight: 700; font-size: 16px; transition: 0.2s; }
+        .nav-home:hover { opacity: 0.8; }
+
+        /* حاوية المحتوى الرئيسي */
+        .container { max-width: 1150px; margin: 40px auto; padding: 0 20px; box-sizing: border-box; }
+        .header-section { text-align: center; margin-bottom: 30px; }
+        h1 { color: var(--primary); font-size: clamp(24px, 5vw, 34px); font-weight: 900; margin-bottom: 10px; }
+        .tool-desc { color: #64748b; font-size: 17px; max-width: 800px; margin: 0 auto 15px; }
+        
+        .privacy-alert {
+            background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0;
+            padding: 10px 20px; border-radius: 50px; display: inline-flex;
+            align-items: center; gap: 8px; font-size: 14px; font-weight: 700; margin-bottom: 25px;
+        }
+
+        .tool-card { 
+            background: #fff; border-radius: 20px; padding: 25px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; 
+        }
+
+        /* منطقة السحب والإفلات */
+        .dropzone {
+            border: 3px dashed #cbd5e1; border-radius: 15px; padding: 35px 20px;
+            text-align: center; cursor: pointer; background: #f8fafc; transition: 0.3s; margin-bottom: 25px;
+        }
+        .dropzone.dragover { border-color: var(--primary); background: #fee2e2; }
+        .dropzone i { font-size: 40px; color: var(--primary); margin-bottom: 10px; }
+        .dropzone p { margin: 0 0 15px 0; font-size: 16px; font-weight: 700; color: #475569; }
+        
+        .btn-browse {
+            background: var(--primary); color: #fff; padding: 8px 25px;
+            border-radius: 50px; border: none; font-weight: 700; cursor: pointer;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        /* لوحة التحكم وتقسيم التعديل */
+        .editor-workspace {
+            display: grid; grid-template-columns: 1fr 320px; gap: 25px; margin-top: 20px;
+        }
+        @media (max-width: 850px) {
+            .editor-workspace { grid-template-columns: 1fr; }
+        }
+
+        /* شاشات العرض والمعاينة */
+        .preview-area {
+            background: #f1f5f9; border-radius: 15px; padding: 20px;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            border: 1px dashed #cbd5e1; position: relative; min-height: 350px;
+        }
+        .canvas-container {
+            position: relative; max-width: 100%; max-height: 450px; overflow: auto;
+            background: #334155; border-radius: 8px; box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+        }
+        canvas { display: block; max-width: 100%; margin: 0 auto; }
+
+        /* صندوق القص الوهمي والتحكم فوق الكانفاس */
+        .crop-overlay {
+            position: absolute; border: 2px dashed var(--accent); box-shadow: 0 0 0 4000px rgba(0, 0, 0, 0.5);
+            cursor: move; display: none; box-sizing: border-box; z-index: 10;
+        }
+        .crop-handle {
+            position: absolute; width: 10px; height: 10px; background: #fff; border: 2px solid var(--primary);
+        }
+        .ch-nw { top: -6px; left: -6px; cursor: nwse-resize; }
+        .ch-ne { top: -6px; right: -6px; cursor: nesw-resize; }
+        .ch-se { bottom: -6px; right: -6px; cursor: nwse-resize; }
+        .ch-sw { bottom: -6px; left: -6px; cursor: nesw-resize; }
+
+        /* لوحة التعديل والخيارات الجانبية */
+        .control-panel {
+            background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 15px; padding: 20px;
+        }
+        .panel-section {
+            background: #fff; border-radius: 10px; padding: 15px; margin-bottom: 15px;
+            border: 1px solid #e2e8f0;
+        }
+        .panel-section h3 { margin: 0 0 12px 0; font-size: 15px; color: var(--primary); font-weight: 800; border-bottom: 1px solid #f1f5f9; padding-bottom: 5px; }
+        
+        .control-group { margin-bottom: 12px; }
+        .control-group:last-child { margin-bottom: 0; }
+        .control-group label { font-size: 13px; font-weight: 700; margin-bottom: 5px; color: #475569; }
+        
+        input[type="number"], input[type="text"], select {
+            width: 100%; padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 8px;
+            font-family: 'Cairo', sans-serif; font-size: 14px; box-sizing: border-box; outline: none;
+        }
+        input:focus, select:focus { border-color: var(--primary); }
+
+        .checkbox-group { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; color: #475569; margin-top: 5px; }
+        .checkbox-group input { width: 16px; height: 16px; accent-color: var(--primary); }
+
+        /* سلايدر الجودة */
+        .slider-labels { display: flex; justify-content: space-between; font-size: 11px; font-weight: 700; color: #64748b; margin-top: 2px; }
+        input[type="range"] { width: 100%; accent-color: var(--primary); cursor: pointer; }
+
+        /* أزرار التحكم السريع */
+        .btn-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+        .btn-action {
+            background: #f1f5f9; color: var(--primary); border: 1px solid #cbd5e1; padding: 8px;
+            border-radius: 8px; font-weight: 700; font-size: 12px; cursor: pointer; transition: 0.2s;
+            display: flex; align-items: center; justify-content: center; gap: 5px;
+        }
+        .btn-action:hover, .btn-action.active { background: var(--accent); border-color: var(--primary); }
+
+        /* شريط الحجم والبيانات */
+        .meta-bar {
+            display: flex; justify-content: space-around; width: 100%; background: #fff;
+            border-radius: 10px; padding: 12px; margin-top: 15px; border: 1px solid #e2e8f0;
+            flex-wrap: wrap; gap: 10px; text-align: center; font-size: 13px; font-weight: 700;
+        }
+        .meta-bar span { color: var(--primary); }
+        .badge-saving { background: #dcfce7; color: #15803d; padding: 2px 10px; border-radius: 5px; }
+        .badge-none { background: #e2e8f0; color: #475569; padding: 2px 10px; border-radius: 5px; }
+
+        /* أزرار التنفيذ النهائية */
+        .footer-controls { display: flex; gap: 12px; margin-top: 25px; flex-wrap: wrap; }
+        .btn-main {
+            flex: 1; min-width: 150px; padding: 14px; border: none; border-radius: 50px;
+            font-weight: 800; cursor: pointer; transition: 0.3s;
+            display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 15px;
+        }
+        .btn-download { background: var(--primary); color: #fff; }
+        .btn-clear { background: #fee2e2; color: #ef4444; }
+        .btn-main:hover { transform: translateY(-2px); opacity: 0.95; }
+
+        /* الأسئلة الشائعة والروابط السفلية */
+        .faq-section { margin-top: 50px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 15px; border-right: 5px solid var(--accent); box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+        .faq-item h3 { margin: 0 0 10px; font-size: 18px; color: var(--primary); }
+        .faq-item p { margin: 0; color: #475569; font-size: 15px; }
+
+        .links-title { text-align: center; color: var(--primary); margin-top: 40px; font-weight: 900; font-size: 20px; }
+        .related-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-top: 20px; }
+        .tool-link { background: #fff; padding: 15px; text-align: center; border-radius: 12px; text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid #e2e8f0; transition: 0.3s; box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
+        .tool-link:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+        footer { background: #fff; padding: 25px; margin-top: 50px; text-align: center; border-top: 1px solid #e2e8f0; font-size: 14px; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    <header class="header-section">
+        <h1>أدوات تعديل الصور</h1>
+        <p class="tool-desc">مجموعة أدوات مجانية لتعديل الصور وضغطها وتغيير أبعادها وقصها وتدويرها وإضافة العلامات المائية بسهولة مباشرة من المتصفح.</p>
+        <div class="privacy-alert">
+            <i class="fas fa-shield-alt"></i> جميع عمليات تعديل الصور تتم محلياً داخل متصفحك لحماية الخصوصية.
+        </div>
+    </header>
+
+    <main class="tool-card">
+        <div class="dropzone" id="dropzone" onclick="document.getElementById('fileInput').click()">
+            <i class="fas fa-images"></i>
+            <p>اسحب وأفلت الصورة هنا أو اضغط للاختيار والتعديل فوراً</p>
+            <button class="btn-browse">اختر صورة</button>
+            <input type="file" id="fileInput" accept="image/*" style="display: none" onchange="handleFileSelect(event)">
+        </div>
+
+        <div class="editor-workspace" id="editorWorkspace" style="display: none;">
+            
+            <div class="preview-area">
+                <div class="canvas-container" id="canvasContainer">
+                    <canvas id="mainCanvas"></canvas>
+                    <div class="crop-overlay" id="cropOverlay">
+                        <div class="crop-handle ch-nw"></div>
+                        <div class="crop-handle ch-ne"></div>
+                        <div class="crop-handle ch-se"></div>
+                        <div class="crop-handle ch-sw"></div>
+                    </div>
+                </div>
+
+                <div class="meta-bar">
+                    <div>الحجم الأصلي: <span id="origSize">-</span></div>
+                    <div>الحجم المعدل الحالي: <span id="destSize">-</span></div>
+                    <div>الحجم والأبعاد الحالية: <span id="currDim">-</span></div>
+                    <div>مؤشر التوفير: <span id="saveRatio" class="badge-none">-</span></div>
+                </div>
+            </div>
+
+            <div class="control-panel">
+                
+                <div class="panel-section">
+                    <h3><i class="fas fa-compress-alt"></i> صيغة وضغط الصورة</h3>
+                    <div class="control-group">
+                        <label>صيغة التصدير المستهدفة:</label>
+                        <select id="exportFormat" onchange="applyChanges()">
+                            <option value="image/jpeg">JPG / JPEG القياسي</option>
+                            <option value="image/webp">WebP الفائق (موصى به للويب)</option>
+                            <option value="image/png">PNG جودة كاملة</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label>مستوى التحكم في جودة الضغط:</label>
+                        <input type="range" id="qualitySlider" min="0.5" max="1.0" step="0.1" value="0.8" oninput="updateQualityLabel(this.value); applyChanges();">
+                        <div class="slider-labels">
+                            <span>50% (أقل حجم)</span>
+                            <span id="qualityVal" style="color: var(--primary); font-weight:800;">80%</span>
+                            <span>100% (أعلى جودة)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel-section">
+                    <h3><i class="fas fa-arrows-alt"></i> الحجم وتغيير الأبعاد</h3>
+                    <div class="control-group">
+                        <label>العرض (Width) بالبكسل:</label>
+                        <input type="number" id="imgWidth" oninput="resizeInputTrigger('width')">
+                    </div>
+                    <div class="control-group">
+                        <label>الارتفاع (Height) بالبكسل:</label>
+                        <input type="number" id="imgHeight" oninput="resizeInputTrigger('height')">
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="maintainAspect" checked>
+                        <label for="maintainAspect">الحفاظ على التناسب والأبعاد</label>
+                    </div>
+                </div>
+
+                <div class="panel-section">
+                    <h3><i class="fas fa-crop"></i> التدوير والقص</h3>
+                    <div class="control-group">
+                        <label>خيارات التدوير السريع:</label>
+                        <div class="btn-grid">
+                            <button class="btn-action" onclick="rotateImage(90)"><i class="fas fa-redo"></i> 90°</button>
+                            <button class="btn-action" onclick="rotateImage(180)"><i class="fas fa-redo"></i> 180°</button>
+                            <button class="btn-action" onclick="rotateImage(270)"><i class="fas fa-redo"></i> 270°</button>
+                            <button class="btn-action" id="cropToggleBtn" onclick="toggleCropMode()"><i class="fas fa-cut"></i> تفعيل القص</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel-section">
+                    <h3><i class="fas fa-font"></i> علامة مائية نصية</h3>
+                    <div class="control-group">
+                        <label>أدخل نص العلامة المائية:</label>
+                        <input type="text" id="watermarkText" placeholder="مثال: شات الخليج" oninput="applyChanges()">
+                    </div>
+                    <div class="control-group">
+                        <label>موضع العلامة المائية:</label>
+                        <select id="watermarkPos" onchange="applyChanges()">
+                            <option value="top-right">يمين أعلى</option>
+                            <option value="top-left">يسار أعلى</option>
+                            <option value="center">منتصف الصورة</option>
+                            <option value="bottom-right" selected>يمين أسفل</option>
+                            <option value="bottom-left">يسار أسفل</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-controls" id="footerControls" style="display: none;">
+            <button class="btn-main btn-download" onclick="downloadEditedImage()">
+                <i class="fas fa-cloud-download-alt"></i> تحميل الصورة النهائية
+            </button>
+            <button class="btn-main btn-clear" onclick="resetEditor()">
+                <i class="fas fa-times-circle"></i> حذف وإلغاء التعديل
+            </button>
+        </div>
+    </main>
+
+    <section class="faq-section">
+        <h2 style="color: var(--primary); text-align: center; margin-bottom: 25px; font-weight: 900;">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <h3>هل أداة تعديل الصور مجانية؟</h3>
+            <p>نعم، أداة تعديل الصور مجانية تماماً وبدون أي قيود أو حاجة للتسجيل في الموقع، يمكنك معالجة وقص وضغط ملايين الصور مجاناً.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل يتم رفع الصور للسيرفر؟</h3>
+            <p>لا، نهائياً. جميع عمليات التعديل والقص والضغط تتم محلياً داخل جهازك وعبر متصفحك مباشرة بنسبة 100% لحماية خصوصيتك الحصرية والأمان المطلق لبياناتك.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل تقل جودة الصورة بعد الضغط؟</h3>
+            <p>تمنحك الأداة شريط تحكم كامل (Slider) لتحديد الجودة والضغط المناسب، مما يتيح لك الموازنة المثالية بين تقليل حجم ملف الصور لتسريع موقعك والحفاظ على النقاء البصري.</p>
+        </div>
+    </section>
+
+    <h2 class="links-title">تصفح أقسام شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">أدوات أخرى</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج</a>
+    </div>
+</div>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p>
+</footer>
+
+<script>
+    // متغيرات الحالة الداخلية للأداة لحفظ العمليات المنفذة محلياً
+    let originalImgObject = null;
+    let originalFileSize = 0;
+    let originalFileName = "edited-chat-alkhaleej";
+    
+    // متغيرات تدير أبعاد الصورة اللحظية لتعديل العرض والارتفاع والتناسب
+    let currentWidth = 0;
+    let currentHeight = 0;
+    let baseRotation = 0;
+
+    const canvas = document.getElementById('mainCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // إدارة أحداث السحب والإفلات (Drag & Drop) بالمتصفح
+    const dropzone = document.getElementById('dropzone');
+    ['dragenter', 'dragover'].forEach(name => {
+        dropzone.addEventListener(name, (e) => { e.preventDefault(); dropzone.classList.add('dragover'); }, false);
+    });
+    ['dragleave', 'drop'].forEach(name => {
+        dropzone.addEventListener(name, (e) => { e.preventDefault(); dropzone.classList.remove('dragover'); }, false);
+    });
+    dropzone.addEventListener('drop', (e) => {
+        const dt = e.dataTransfer;
+        if (dt.files.length > 0) processIncomingFile(dt.files[0]);
+    });
+
+    function handleFileSelect(event) {
+        const file = event.target.files[0];
+        if (file) processIncomingFile(file);
+    }
+
+    // قراءة وتجهيز الصورة داخل كائن محلي
+    function processIncomingFile(file) {
+        if (!file.type.startsWith('image/')) {
+            alert('يرجى رفع ملف صورة صحيح وامتداد مدعوم!');
+            return;
+        }
+        originalFileSize = file.size;
+        originalFileName = file.name.substring(0, file.name.lastIndexOf('.')) || "edited-image";
+        document.getElementById('origSize').innerText = formatSizeUnits(file.size);
+
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            originalImgObject = new Image();
+            originalImgObject.onload = function() {
+                // تعيين الأبعاد الافتراضية الأولية من الملف المرفوع
+                currentWidth = originalImgObject.width;
+                currentHeight = originalImgObject.height;
+                baseRotation = 0;
+
+                document.getElementById('imgWidth').value = currentWidth;
+                document.getElementById('imgHeight').value = currentHeight;
+
+                // إظهار اللوحات المخفية للتحكم وتعديل خيارات الواجهة
+                document.getElementById('editorWorkspace').style.display = 'grid';
+                document.getElementById('footerControls').style.display = 'flex';
+                
+                // إلغاء تفعيل وضعية القص السابقة إن وجدت وتثبيت الصورة على الكانفاس
+                deactivateCropMode();
+                applyChanges();
+            };
+            originalImgObject.src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+    }
+
+    function updateQualityLabel(val) {
+        document.getElementById('qualityVal').innerText = Math.round(val * 100) + '%';
+    }
+
+    // إدارة مستويات الأبعاد والمدخلات بالتناسب الطردي الهندسي تلقائياً
+    function resizeInputTrigger(type) {
+        const widthInput = document.getElementById('imgWidth');
+        const heightInput = document.getElementById('imgHeight');
+        const maintain = document.getElementById('maintainAspect').checked;
+
+        let w = parseInt(widthInput.value) || 0;
+        let h = parseInt(heightInput.value) || 0;
+
+        if (w <= 0 || h <= 0) return;
+
+        // حساب نسبة التناسب اعتماداً على أبعاد الكانفاس الحالية الحقيقية
+        const aspectRatio = currentWidth / currentHeight;
+
+        if (maintain) {
+            if (type === 'width') {
+                h = Math.round(w / aspectRatio);
+                heightInput.value = h;
+            } else {
+                w = Math.round(h * aspectRatio);
+                widthInput.value = w;
+            }
+        }
+        applyChanges();
+    }
+
+    // التدوير بزوايا قائمة 90/180/270 درجة
+    function rotateImage(degrees) {
+        baseRotation = (baseRotation + degrees) % 360;
+        // تبديل قيم العرض والارتفاع في المدخلات في حال التدوير العمودي لسهولة المعاينة للمستخدم
+        if (degrees === 90 || degrees === 270) {
+            const temp = currentWidth;
+            currentWidth = currentHeight;
+            currentHeight = temp;
+            
+            const wInput = document.getElementById('imgWidth').value;
+            const hInput = document.getElementById('imgHeight').value;
+            document.getElementById('imgWidth').value = hInput;
+            document.getElementById('imgHeight').value = wInput;
+        }
+        applyChanges();
+    }
+
+    // المعالجة المركزية للصورة وتحديث الكانفاس وإضافة العلامات المائية والضغط
+    function applyChanges() {
+        if (!originalImgObject) return;
+
+        // جلب قيم المدخلات الحالية للأبعاد المقررة من المستخدم
+        const targetW = parseInt(document.getElementById('imgWidth').value) || originalImgObject.width;
+        const targetH = parseInt(document.getElementById('imgHeight').value) || originalImgObject.height;
+
+        // ضبط الحجم الحقيقي لبكسلات الكانفاس
+        if (baseRotation === 90 || baseRotation === 270) {
+            canvas.width = targetH;
+            canvas.height = targetW;
+        } else {
+            canvas.width = targetW;
+            canvas.height = targetH;
+        }
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // إجراء معالجة التدوير وتحديد نقطة المحور المركزية
+        ctx.save();
+        ctx.translate(canvas.width / 2, canvas.height / 2);
+        ctx.rotate((baseRotation * Math.PI) / 180);
+
+        // رسم الصورة بناءً على قيم الزاوية المحددة للتحكم
+        if (baseRotation === 90 || baseRotation === 270) {
+            ctx.drawImage(originalImgObject, -targetH / 2, -targetW / 2, targetH, targetW);
+        } else {
+            ctx.drawImage(originalImgObject, -targetW / 2, -targetH / 2, targetW, targetH);
+        }
+        ctx.restore();
+
+        // إضافة العلامة المائية النصية الذكية وفقاً لاختيار وموضع العميل المفضل
+        const wmText = document.getElementById('watermarkText').value.trim();
+        if (wmText) {
+            ctx.save();
+            // تحديد حجم خط ديناميكي يتناسب طردياً مع حجم الصورة المحدث لتفادي صغر حجم الخط في الصور العملاقة
+            const fontSize = Math.max(16, Math.round(canvas.width * 0.035));
+            ctx.font = `bold ${fontSize}px Cairo, sans-serif`;
+            ctx.fillStyle = "rgba(255, 216, 107, 0.75)"; // استخدام لون هوية شات الخليج الشفاف #ffd86b
+            ctx.shadowColor = "rgba(0, 0, 0, 0.5)";
+            ctx.shadowBlur = 4;
+
+            const textWidth = ctx.measureText(wmText).width;
+            const margin = 20;
+            let x = margin;
+            let y = margin + fontSize;
+
+            const pos = document.getElementById('watermarkPos').value;
+            if (pos === 'top-right') {
+                x = canvas.width - textWidth - margin;
+                y = margin + fontSize;
+            } else if (pos === 'top-left') {
+                x = margin;
+                y = margin + fontSize;
+            } else if (pos === 'center') {
+                x = (canvas.width - textWidth) / 2;
+                y = (canvas.height + fontSize) / 2;
+            } else if (pos === 'bottom-right') {
+                x = canvas.width - textWidth - margin;
+                y = canvas.height - margin;
+            } else if (pos === 'bottom-left') {
+                x = margin;
+                y = canvas.height - margin;
+            }
+
+            ctx.fillText(wmText, x, y);
+            ctx.restore();
+        }
+
+        // تحديث أرقام الأبعاد وعرض الإحصائيات الفورية لسرعة المعالجة
+        document.getElementById('currDim').innerText = `${canvas.width} × ${canvas.height} بكسل`;
+        calculateBlobMetadata();
+    }
+
+    // حساب حجم الملف الجديد والنسب المئوية للتوفير محلياً
+    function calculateBlobMetadata() {
+        const format = document.getElementById('exportFormat').value;
+        const quality = parseFloat(document.getElementById('qualitySlider').value);
+
+        canvas.toBlob(function(blob) {
+            if (!blob) return;
+            document.getElementById('destSize').innerText = formatSizeUnits(blob.size);
+            
+            const ratioSpan = document.getElementById('saveRatio');
+            if (blob.size < originalFileSize) {
+                const percent = ((originalFileSize - blob.size) / originalFileSize * 100).toFixed(1);
+                ratioSpan.innerText = `توفير حجم بنسبة ${percent}%`;
+                ratioSpan.className = "badge-saving";
+            } else {
+                ratioSpan.innerText = "أعلى من الحجم الأصلي";
+                ratioSpan.className = "badge-none";
+            }
+        }, format, quality);
+    }
+
+    // --- محرك ونظام معالجة القص الحر المبسط (Crop System) بدون مكتبات ---
+    let isCropModeActive = false;
+    let isDraggingCropBox = false;
+    let cropStartX, cropStartY;
+    
+    // إحداثيات صندوق القص الافتراضية داخل حاوية العرض
+    let cropBoxData = { top: 40, left: 40, width: 150, height: 150 };
+    const overlay = document.getElementById('cropOverlay');
+    const container = document.getElementById('canvasContainer');
+
+    function toggleCropMode() {
+        if (isCropModeActive) {
+            executeCropAction();
+        } else {
+            activateCropMode();
+        }
+    }
+
+    function activateCropMode() {
+        isCropModeActive = true;
+        const btn = document.getElementById('cropToggleBtn');
+        btn.innerHTML = '<i class="fas fa-check-double"></i> قص الصورة الآن';
+        btn.classList.add('active');
+        
+        // إظهار وتثبيت محاذاة صندوق التحديد فوق مساحة الكانفاس الحالية
+        overlay.style.display = 'block';
+        updateCropOverlayDOM();
+    }
+
+    function deactivateCropMode() {
+        isCropModeActive = false;
+        const btn = document.getElementById('cropToggleBtn');
+        btn.innerHTML = '<i class="fas fa-cut"></i> تفعيل القص';
+        btn.classList.remove('active');
+        overlay.style.display = 'none';
+    }
+
+    function updateCropOverlayDOM() {
+        overlay.style.top = cropBoxData.top + 'px';
+        overlay.style.left = cropBoxData.left + 'px';
+        overlay.style.width = cropBoxData.width + 'px';
+        overlay.style.height = cropBoxData.height + 'px';
+    }
+
+    // رصد حركات الفأرة للتعديل على أبعاد الصندوق
+    overlay.addEventListener('mousedown', (e) => {
+        if (e.target.classList.contains('crop-handle')) return; // حجز المقابض
+        isDraggingCropBox = true;
+        cropStartX = e.clientX - cropBoxData.left;
+        cropStartY = e.clientY - cropBoxData.top;
+    });
+
+    window.addEventListener('mousemove', (e) => {
+        if (!isCropModeActive) return;
+        if (isDraggingCropBox) {
+            const rect = container.getBoundingClientRect();
+            let left = e.clientX - rect.left - cropStartX;
+            let top = e.clientY - rect.top - cropStartY;
+
+            // تحديد ومنع الخروج الجانبي عن إطار الحاوية الكلية لضمان سلامة الأبعاد
+            left = Math.max(0, Math.min(left, container.clientWidth - cropBoxData.width));
+            top = Math.max(0, Math.min(top, container.clientHeight - cropBoxData.height));
+
+            cropBoxData.left = left;
+            cropBoxData.top = top;
+            updateCropOverlayDOM();
+        }
+    });
+
+    window.addEventListener('mouseup', () => { isDraggingCropBox = false; });
+
+    // تنفيذ قص مساحة البيكسل من الكانفاس محلياً وإعادة التوليد
+    function executeCropAction() {
+        // حساب المقاييس الحقيقية والفروقات بين حجم المعاينة المرئي بالمتصفح والحجم الحقيقي بالبكسل للكانفاس
+        const scaleX = canvas.width / canvas.clientWidth;
+        const scaleY = canvas.height / canvas.clientHeight;
+
+        const sourceX = cropBoxData.left * scaleX;
+        const sourceY = cropBoxData.top * scaleY;
+        const sourceW = cropBoxData.width * scaleX;
+        const sourceH = cropBoxData.height * scaleY;
+
+        if (sourceW <= 5 || sourceH <= 5) return;
+
+        // إنشاء كانفاس وسيط مؤقت لنسخ المساحة المقصودة وتثبيتها كصورة أساسية جديدة للتعديل
+        const tempCanvas = document.createElement('canvas');
+        tempCanvas.width = sourceW;
+        tempCanvas.height = sourceH;
+        const tempCtx = tempCanvas.getContext('2d');
+        tempCtx.drawImage(canvas, sourceX, sourceY, sourceW, sourceH, 0, 0, sourceW, sourceH);
+
+        // تحويل المساحة المقتطعة لتصبح المصدر الفعلي المستقبلي للصورة لتمكين العميل من إجراء عمليات أخرى
+        const croppedDataUrl = tempCanvas.toDataURL();
+        originalImgObject = new Image();
+        originalImgObject.onload = function() {
+            currentWidth = originalImgObject.width;
+            currentHeight = originalImgObject.height;
+            baseRotation = 0;
+            document.getElementById('imgWidth').value = currentWidth;
+            document.getElementById('imgHeight').value = currentHeight;
+            deactivateCropMode();
+            applyChanges();
+        };
+        originalImgObject.src = croppedDataUrl;
+    }
+
+    // تنزيل وتحميل الصورة المعدلة بالامتداد والاسم المحدد
+    function downloadEditedImage() {
+        const format = document.getElementById('exportFormat').value;
+        const quality = parseFloat(document.getElementById('qualitySlider').value);
+        const ext = format.split('/')[1] === 'jpeg' ? 'jpg' : format.split('/')[1];
+
+        canvas.toBlob(function(blob) {
+            if (!blob) return;
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = `${originalFileName}-modified.${ext}`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }, format, quality);
+    }
+
+    // تصفير الأداة بالكامل لحالتها الافتراضية الأولى
+    function resetEditor() {
+        originalImgObject = null;
+        originalFileSize = 0;
+        document.getElementById('fileInput').value = '';
+        document.getElementById('watermarkText').value = '';
+        document.getElementById('editorWorkspace').style.display = 'none';
+        document.getElementById('footerControls').style.display = 'none';
+        deactivateCropMode();
+    }
+
+    // حساب وعرض الأحجام بوحدات الكيلوبايت والميجابايت
+    function formatSizeUnits(bytes) {
+        if (bytes === 0) return '0 بايت';
+        const k = 1024;
+        const sizes = ['بايت', 'كيلوبايت (KB)', 'ميغابايت (MB)'];
+        const i = Math.floor(Math.log(bytes) / Math.log(k));
+        return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+    }
+</script>
+
+</body>
+</html>
