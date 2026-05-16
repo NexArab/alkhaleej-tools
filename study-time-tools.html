@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>مؤقت دراسة وبومودورو وساعة رقمية أونلاين | أدوات شات الخليج</title>
+    <meta name="description" content="استخدم مؤقت الدراسة ومؤقت بومودورو والعداد التنازلي والساعة الرقمية أونلاين مجاناً لتحسين التركيز وتنظيم الوقت بسهولة.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="مؤقت دراسة وبومودورو وساعة رقمية أونلاين | أدوات شات الخليج">
+    <meta property="og:description" content="استخدم مؤقت الدراسة ومؤقت بومودورو والعداد التنازلي والساعة الرقمية أونلاين مجاناً لتحسين التركيز وتنظيم الوقت بسهولة.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/study-time-tools/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/study-time-tools/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "أدوات الوقت والدراسة",
+      "url": "https://tools.chat-alkhaleej.com/study-time-tools/",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "description": "مجموعة أدوات مجانية تساعدك على تنظيم الوقت وزيادة التركيز أثناء الدراسة والعمل عبر مؤقت الدراسة والعداد التنازلي والساعة الرقمية ومؤقت بومودورو.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "هل الأدوات مجانية؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، كافة أدوات الوقت والدراسة مثل مؤقت بومودورو والعداد التنازلي والساعة الرقمية مجانية 100% وبدون قيود استخدام."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل تعمل على الجوال؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، تم تصميم الأداة بواجهة متجاوبة بالكامل لتعمل بكفاءة وسلاسة عالية على كافة الشاشات وأجهزة الجوال والتابلت."
+        }
+      }, {
+        "@type": "Question",
+        "name": "ما هي تقنية البومودورو؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "هي طريقة عالمية لتنظيم الوقت تعتمد على تقسيم فترات الدراسة أو العمل إلى جلسات مدتها 25 دقيقة يتبعها استراحة قصيرة، مما يساعد على زيادة التركيز وتقليل التشتت البصري والذهني."
+        }
+      }]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root { 
+            --primary: #450C0C; 
+            --accent: #ffd86b; 
+            --bg: #fafaf9; 
+            --text: #1c1917; 
+        }
+        body { 
+            font-family: 'Cairo', sans-serif; 
+            background-color: var(--bg); 
+            margin: 0; padding: 0; 
+            color: var(--text); 
+            line-height: 1.6; 
+        }
+
+        /* Navbar */
+        .navbar { 
+            background: var(--primary); 
+            padding: 12px 0; 
+            border-bottom: 3px solid var(--accent); 
+            position: sticky; top: 0; z-index: 1000; 
+        }
+        .nav-container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 0 20px; 
+        }
+        .nav-logo img { height: 45px; }
+        .nav-home { color: var(--accent); text-decoration: none; font-weight: 700; font-size: 16px; transition: 0.2s; }
+        .nav-home:hover { opacity: 0.8; }
+
+        /* الحاوية الأساسية */
+        .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; box-sizing: border-box; }
+        .header-section { text-align: center; margin-bottom: 35px; }
+        h1 { color: var(--primary); font-size: clamp(24px, 5vw, 34px); font-weight: 900; margin-bottom: 12px; }
+        .tool-desc { color: #57534e; font-size: 17px; max-width: 800px; margin: 0 auto; }
+
+        /* تبويبات الانتقال السريع بين الأدوات */
+        .tabs-nav {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+        @media (max-width: 600px) {
+            .tabs-nav { grid-template-columns: repeat(2, 1fr); }
+        }
+        .tab-btn {
+            background: #fff; border: 1px solid #e7e5e4; padding: 12px; border-radius: 12px;
+            font-family: 'Cairo', sans-serif; font-weight: 700; font-size: 15px; cursor: pointer;
+            color: var(--primary); transition: 0.3s; display: flex; align-items: center; justify-content: center; gap: 8px;
+        }
+        .tab-btn:hover, .tab-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+        .tab-btn.active { box-shadow: 0 4px 12px rgba(69, 12, 12, 0.15); }
+
+        /* بطاقة المحتوى والعرض */
+        .tool-card { 
+            background: #fff; border-radius: 20px; padding: 30px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.03); border: 1px solid #e7e5e4; 
+            min-height: 400px; display: flex; flex-direction: column; align-items: center; justify-content: center;
+        }
+        .tab-content { display: none; width: 100%; flex-direction: column; align-items: center; }
+        .tab-content.active { display: flex; }
+
+        /* دائرة التقدم وعداد الوقت الدائري */
+        .timer-display-container {
+            position: relative; width: 220px; height: 220px; margin-bottom: 25px;
+        }
+        .timer-svg { transform: rotate(-90deg); width: 220px; height: 220px; }
+        .timer-svg circle {
+            fill: none; stroke-width: 8;
+        }
+        .timer-svg .bg-circle { stroke: #f5f5f4; }
+        .timer-svg .progress-circle {
+            stroke: var(--primary); stroke-linecap: round;
+            stroke-dasharray: 628; stroke-dashoffset: 0; transition: stroke-dashoffset 1s linear;
+        }
+        .timer-text-overlay {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+        }
+        .time-digits { font-size: 38px; font-weight: 900; color: var(--primary); letter-spacing: 1px; }
+        .timer-status-text { font-size: 13px; font-weight: 700; color: #78716c; margin-top: 2px; }
+
+        /* لوحات الإدخال وحقول الاختيارات */
+        .inputs-row { display: flex; gap: 12px; margin-bottom: 25px; flex-wrap: wrap; justify-content: center; width: 100%; max-width: 400px; }
+        .input-box-group { display: flex; flex-direction: column; align-items: center; flex: 1; min-width: 80px; }
+        .input-box-group label { font-size: 12px; font-weight: 700; color: #57534e; margin-bottom: 5px; }
+        
+        input[type="number"], select {
+            width: 100%; padding: 10px; border: 2px solid #e7e5e4; border-radius: 10px;
+            font-family: 'Cairo', sans-serif; font-size: 15px; text-align: center; font-weight: 700; outline: none;
+        }
+        input:focus, select:focus { border-color: var(--primary); }
+
+        /* شاشات ومؤشرات لوحة الساعة الرقمية */
+        .digital-clock-face { font-size: 52px; font-weight: 900; color: var(--primary); margin-bottom: 5px; letter-spacing: 1px; }
+        .digital-date-face { font-size: 16px; font-weight: 700; color: #57534e; margin-bottom: 25px; }
+
+        /* أزرار ولوحات التشغيل المباشر */
+        .button-group { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; width: 100%; max-width: 450px; }
+        .btn-ctrl {
+            padding: 10px 24px; border: none; border-radius: 50px; font-family: 'Cairo', sans-serif;
+            font-weight: 700; font-size: 14px; cursor: pointer; transition: 0.2s; display: flex; align-items: center; gap: 6px;
+        }
+        .btn-start { background: var(--primary); color: #fff; }
+        .btn-pause { background: #f5f5f4; color: #57534e; border: 1px solid #d6d3d1; }
+        .btn-reset { background: #fee2e2; color: #ef4444; }
+        .btn-toggle-mode { background: var(--accent); color: var(--primary); font-weight: 800; border: 1px solid var(--primary); }
+        .btn-ctrl:hover { opacity: 0.9; transform: translateY(-1px); }
+
+        /* لوحات التنبيهات السريعة في الأداة */
+        .alert-toast { background: #fee2e2; color: #b91c1c; padding: 10px 20px; border-radius: 8px; font-weight: 700; margin-top: 15px; display: none; }
+
+        /* أزرار اختيار فترات بومودورو سريعة */
+        .pomodoro-modes { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; justify-content: center; }
+        .btn-pomo-mode {
+            background: #f5f5f4; color: #57534e; padding: 6px 14px; border-radius: 8px; border: 1px solid #e7e5e4;
+            font-family: 'Cairo', sans-serif; font-weight: 700; font-size: 13px; cursor: pointer; transition: 0.2s;
+        }
+        .btn-pomo-mode.active { background: var(--accent); color: var(--primary); border-color: var(--primary); }
+
+        /* لوحة الإحصائيات الفورية المدمجة */
+        .stats-grid {
+            display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%; max-width: 500px;
+            margin-top: 30px; border-top: 1px dashed #e7e5e4; padding-top: 20px; text-align: center;
+        }
+        .stat-card { background: #fcfcfc; padding: 10px; border-radius: 10px; border: 1px solid #f5f5f4; }
+        .stat-card div:first-child { font-size: 12px; color: #78716c; font-weight: 700; }
+        .stat-card div:last-child { font-size: 15px; color: var(--primary); font-weight: 800; margin-top: 3px; }
+
+        /* محتوى السيو: فوائد التقنية المدمجة للأرشفة الطبيعية */
+        .seo-benefits-section { margin-top: 45px; background: #fff; padding: 25px; border-radius: 15px; border: 1px solid #e7e5e4; }
+        .seo-benefits-section h2 { color: var(--primary); font-size: 20px; font-weight: 900; margin-top: 0; margin-bottom: 15px; border-bottom: 2px solid var(--accent); padding-bottom: 5px; display: inline-block; }
+        .benefits-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        @media (max-width: 650px) { .benefits-grid { grid-template-columns: 1fr; } }
+        .benefit-item h3 { margin: 0 0 6px 0; font-size: 15px; color: var(--primary); font-weight: 700; }
+        .benefit-item p { margin: 0; font-size: 14px; color: #57534e; text-align: justify; }
+
+        /* الأسئلة الشائعة وروابط شبكة شات الخليج السفلية */
+        .faq-section { margin-top: 40px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 12px; border-right: 5px solid var(--accent); border-top: 1px solid #e7e5e4; border-bottom: 1px solid #e7e5e4; border-left: 1px solid #e7e5e4; }
+        .faq-item h3 { margin: 0 0 8px; font-size: 17px; color: var(--primary); }
+        .faq-item p { margin: 0; color: #57534e; font-size: 14.5px; }
+
+        .links-title { text-align: center; color: var(--primary); margin-top: 40px; font-weight: 900; font-size: 20px; }
+        .related-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-top: 20px; }
+        .tool-link { background: #fff; padding: 15px; text-align: center; border-radius: 12px; text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid #e7e5e4; transition: 0.3s; }
+        .tool-link:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+        footer { background: #fff; padding: 25px; margin-top: 50px; text-align: center; border-top: 1px solid #e7e5e4; font-size: 14px; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    <header class="header-section">
+        <h1>أدوات الوقت والدراسة</h1>
+        <p class="tool-desc">مجموعة أدوات مجانية تساعدك على تنظيم الوقت وزيادة التركيز أثناء الدراسة والعمل عبر مؤقت الدراسة والعداد التنازلي والساعة الرقمية ومؤقت بومودورو المطور.</p>
+    </header>
+
+    <nav class="tabs-nav">
+        <button class="tab-btn active" onclick="switchToolTab('study-timer-tab', this)"><i class="fas fa-user-graduate"></i> مؤقت دراسة</button>
+        <button class="tab-btn" onclick="switchToolTab('countdown-tab', this)"><i class="fas fa-hourglass-half"></i> عداد تنازلي</button>
+        <button class="tab-btn" onclick="switchToolTab('digital-clock-tab', this)"><i class="fas fa-clock"></i> ساعة رقمية</button>
+        <button class="tab-btn" onclick="switchToolTab('pomodoro-tab', this)"><i class="fas fa-apple-alt"></i> مؤقت بومودورو</button>
+    </nav>
+
+    <main class="tool-card">
+
+        <div id="study-timer-tab" class="tab-content active">
+            <div class="inputs-row">
+                <div class="input-box-group">
+                    <label>اختر مدة الجلسة:</label>
+                    <select id="studyMinutesSelect" onchange="initStudyTimer()">
+                        <option value="10">10 دقائق</option>
+                        <option value="15">15 دقيقة</option>
+                        <option value="20">20 دقيقة</option>
+                        <option value="30" selected>30 دقيقة</option>
+                        <option value="45">45 دقيقة</option>
+                        <option value="60">60 دقيقة</option>
+                        <option value="90">90 دقيقة</option>
+                    </select>
+                </div>
+            </div>
+            <div class="timer-display-container">
+                <svg class="timer-svg">
+                    <circle class="bg-circle" cx="110" cy="110" r="100"></circle>
+                    <circle id="studyProgressCircle" class="progress-circle" cx="110" cy="110" r="100"></circle>
+                </svg>
+                <div class="timer-text-overlay">
+                    <div id="studyTimeText" class="time-digits">30:00</div>
+                    <div class="timer-status-text">مؤقت دراسة</div>
+                </div>
+            </div>
+            <div class="button-group">
+                <button class="btn-ctrl btn-start" onclick="startStudyTimer()"><i class="fas fa-play"></i> بدء الدراسة</button>
+                <button class="btn-ctrl btn-pause" onclick="pauseStudyTimer()"><i class="fas fa-pause"></i> إيقاف مؤقت</button>
+                <button class="btn-ctrl btn-reset" onclick="resetStudyTimer()"><i class="fas fa-redo"></i> إعادة ضبط</button>
+            </div>
+        </div>
+
+        <div id="countdown-tab" class="tab-content">
+            <div class="inputs-row">
+                <div class="input-box-group">
+                    <label>ساعات</label>
+                    <input type="number" id="cdHours" min="0" max="23" value="0" placeholder="00" onchange="initCountdownTimer()">
+                </div>
+                <div class="input-box-group">
+                    <label>دقائق</label>
+                    <input type="number" id="cdMinutes" min="0" max="59" value="5" placeholder="05" onchange="initCountdownTimer()">
+                </div>
+                <div class="input-box-group">
+                    <label>ثواني</label>
+                    <input type="number" id="cdSeconds" min="0" max="59" value="0" placeholder="00" onchange="initCountdownTimer()">
+                </div>
+            </div>
+            <div class="timer-display-container">
+                <svg class="timer-svg">
+                    <circle class="bg-circle" cx="110" cy="110" r="100"></circle>
+                    <circle id="countdownProgressCircle" class="progress-circle" cx="110" cy="110" r="100"></circle>
+                </svg>
+                <div class="timer-text-overlay">
+                    <div id="countdownTimeText" class="time-digits">00:05:00</div>
+                    <div class="timer-status-text">عداد تنازلي</div>
+                </div>
+            </div>
+            <div id="countdownToast" class="alert-toast">انتهى الوقت!</div>
+            <div class="button-group" style="margin-top: 15px;">
+                <button class="btn-ctrl btn-start" onclick="startCountdownTimer()"><i class="fas fa-play"></i> بدء</button>
+                <button class="btn-ctrl btn-pause" onclick="pauseCountdownTimer()"><i class="fas fa-pause"></i> إيقاف</button>
+                <button class="btn-ctrl btn-reset" onclick="resetCountdownTimer()"><i class="fas fa-redo"></i> تفريغ</button>
+            </div>
+        </div>
+
+        <div id="digital-clock-tab" class="tab-content">
+            <div id="clockFace" class="digital-clock-face">00:00:00 م</div>
+            <div id="clockDate" class="digital-date-face">الوقت الحالي والتاريخ...</div>
+            <div class="button-group">
+                <button class="btn-ctrl btn-toggle-mode" onclick="toggleClockFormat()"><i class="fas fa-sync-alt"></i> التبديل لنظام 24 ساعة</button>
+            </div>
+        </div>
+
+        <div id="pomodoro-tab" class="tab-content">
+            <div class="pomodoro-modes">
+                <button id="pomoBtn-study" class="btn-pomo-mode active" onclick="setPomodoroMode('study')">جلسة دراسة (25 د)</button>
+                <button id="pomoBtn-short" class="btn-pomo-mode" onclick="setPomodoroMode('short')">استراحة قصيرة (5 د)</button>
+                <button id="pomoBtn-long" class="btn-pomo-mode" onclick="setPomodoroMode('long')">استراحة طويلة (15 د)</button>
+            </div>
+            <div class="timer-display-container">
+                <svg class="timer-svg">
+                    <circle class="bg-circle" cx="110" cy="110" r="100"></circle>
+                    <circle id="pomodoroProgressCircle" class="progress-circle" cx="110" cy="110" r="100"></circle>
+                </svg>
+                <div class="timer-text-overlay">
+                    <div id="pomodoroTimeText" class="time-digits">25:00</div>
+                    <div id="pomodoroStatusLabel" class="timer-status-text" style="color: #b45309; font-weight: 800;">وقت التركيز الآن</div>
+                </div>
+            </div>
+            <div class="button-group">
+                <button class="btn-ctrl btn-start" onclick="startPomodoroTimer()"><i class="fas fa-play"></i> بدء الدورة</button>
+                <button class="btn-ctrl btn-pause" onclick="pausePomodoroTimer()"><i class="fas fa-pause"></i> إيقاف</button>
+                <button class="btn-ctrl btn-reset" onclick="resetPomodoroTimer()"><i class="fas fa-redo"></i> إعداد الجلسة</button>
+            </div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div>الوقت المتبقي الحالي</div>
+                <div id="statRemainingTime">-</div>
+            </div>
+            <div class="stat-card">
+                <div>جلسات بومودورو مكتملة</div>
+                <div id="statCompletedSessions">0</div>
+            </div>
+            <div class="stat-card">
+                <div>حالة المؤقت الحالية</div>
+                <div id="statTimerState" style="color: #16a34a;">خامل وجاهز</div>
+            </div>
+        </div>
+    </main>
+
+    <section class="seo-benefits-section">
+        <h2>فوائد تقنية البومودورو للدراسة وتنظيم الوقت</h2>
+        <div class="benefits-grid">
+            <div class="benefit-item">
+                <h3>تحسين التركيز المستمر</h3>
+                <p>تساعد تقنية **بومودورو** المبرمجة على رفع مستويات **زيادة التركيز** عبر حصر العقل في مهام محددة خلال 25 دقيقة فقط، مما يحول دون إرهاق الخلايا العصبية ويمنح الدماغ فترات راحة دورية لإعادة شحن طاقته بكفاءة عالية الاستيعاب.</p>
+            </div>
+            <div class="benefit-item">
+                <h3>إدارة الوقت باحترافية</h3>
+                <p>مفهوم **تنظيم الوقت** يتحول عبر استخدام **مؤقت أونلاين** دقيق من فكرة عشوائية إلى جدول زمني واضح ومقاس بدقة، مما يسهل تقدير الفترات الزمنية الفعلية التي تستهلكها كل مادة دراسية أو مشروع برمجي قيد التنفيذ والعمل الحقيقي.</p>
+            </div>
+            <div class="benefit-item">
+                <h3>تقليل التشتت البصري والذهني</h3>
+                <p>عند التزامك بالعد التنازلي لجلسة **مؤقت دراسة**، يتولد وازع نفسي قوي يدفعك لتأجيل الرد على التنبيهات أو تصفح شبكات التواصل، مما يبني مع الوقت بيئة دراسية وعملية نظيفة ومثمرة تدعم **الدراسة بتركيز** فائق السرعة.</p>
+            </div>
+            <div class="benefit-item">
+                <h3>زيادة الإنتاجية الأكاديمية</h3>
+                <p>الإنتاجية لا تعني العمل لساعات طويلة دون جدوى، بل تعني استغلال الدقائق المتاحة. تقسيم فترات الدراسة عبر فواصل زمنية مدروسة يمنع التسويف والمماطلة، ويسرع من نسب إنجاز الفصول والمذاكرة بأقل مجهود بدني ذهني ممكن.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h2 style="color: var(--primary); text-align: center; margin-bottom: 25px; font-weight: 900;">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <h3>هل أدوات الوقت والدراسة مجانية؟</h3>
+            <p>نعم، كافة الأدوات المدمجة من منصة **ساعة رقمية**، و**مؤقت دراسة**، ومؤقت الـ **بومودورو**، و الـ **عداد تنازلي** مجانية بالكامل بنسبة 100% بدون اشتراكات أو تسجيل مسبق في شبكة شات الخليج.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل تعمل أداة تنظيم الوقت ومؤقت الدراسة على الجوال؟</h3>
+            <p>بالتأكيد، تم بناء وهندسة واجهة الأداة البرمجية بالكامل باستخدام أكواد تنسيق متجاوبة كلياً لتتوافق مع شاشات الهواتف الذكية وأجهزة الأندرويد والآيفون بكفاءة فائقة ودقة متناهية العرض البصري.</p>
+        </div>
+        <div class="faq-item">
+            <h3>ما هي تقنية البومودورو المتاحة بالمؤقت الأونلاين؟</h3>
+            <p>تقنية البومودورو (Pomodoro Technique) هي نظام إدارة زمنية عالمي شهير يهدف لمساعدتك على **زيادة التركيز** وتجنب التسويف عن طريق تقسيم وقت العمل أو المذاكرة إلى فترات زمنية مدتها 25 دقيقة تفصل بينها فترات استراحة قصيرة تبلغ 5 دقائق، ثم أخذ استراحة طويلة تبلغ 15 دقيقة بعد إتمام 4 جلسات دراسية مكتملة بنجاح.</p>
+        </div>
+    </section>
+
+    <h2 class="links-title">تصفح أقسام شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">أدوات أخرى</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج</a>
+    </div>
+</div>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p>
+</footer>
+
+<script>
+    // --- محرك توليد الصوت المحلي المشفر تفادياً لطلب خوادم خارجية ---
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    function playAlertSound() {
+        try {
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(587.33, audioCtx.currentTime); // نغمة D5 واضحة ومريحة
+            gain.gain.setValueAtTime(0.4, audioCtx.currentTime);
+            
+            osc.start();
+            // نبضة تنبيهية ثنائية التردد مدتها نصف ثانية تناسب بيئة الدراسة بتركيز
+            setTimeout(() => {
+                osc.frequency.setValueAtTime(880, audioCtx.currentTime); 
+                setTimeout(() => { osc.stop(); }, 250);
+            }, 250);
+        } catch (e) {
+            console.log("AudioContext blocked or not initialized by user interaction.");
+        }
+    }
+
+    // --- نظام التبديل المركزي بين التبويبات والأدوات (Tabs Manager) ---
+    function switchToolTab(tabId, btnElement) {
+        // إيقاف وتصفير كافة العدادات الجارية فور تبديل التبويب لحفظ سلامة الأداء والدقة
+        stopAllActiveTimers();
+
+        document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+
+        document.getElementById(tabId).style.display = 'flex'; // تأكيد العرض المتناسق
+        document.getElementById(tabId).classList.add('active');
+        btnElement.classList.add('active');
+
+        // تنشيط تهيئة قيم الأدوات التلقائية فور دخول التبويب المخصص
+        if (tabId === 'study-timer-tab') { initStudyTimer(); }
+        else if (tabId === 'countdown-tab') { initCountdownTimer(); }
+        else if (tabId === 'digital-clock-tab') { updateDigitalClock(); }
+        else if (tabId === 'pomodoro-tab') { initPomodoroTimer(); }
+    }
+
+    function stopAllActiveTimers() {
+        clearInterval(studyTimerInterval); studyRunning = false;
+        clearInterval(countdownTimerInterval); countdownRunning = false;
+        clearInterval(pomoTimerInterval); pomoRunning = false;
+        document.getElementById('countdownToast').style.display = 'none';
+        updateGlobalStats('-', 'خامل وجاهز');
+    }
+
+    // لتحديث لوحة الإحصائيات الشاملة السفلية بانتظام
+    function updateGlobalStats(remainTime, stateText) {
+        document.getElementById('statRemainingTime').innerText = remainTime;
+        document.getElementById('statTimerState').innerText = stateText;
+        if(stateText.includes('دراسة') || stateText.includes('تركيز') || stateText.includes('عد')) {
+            document.getElementById('statTimerState').style.color = '#b45309';
+        } else if(stateText.includes('استراحة')) {
+            document.getElementById('statTimerState').style.color = '#16a34a';
+        } else {
+            document.getElementById('statTimerState').style.color = '#475569';
+        }
+    }
+
+    function updateProgressCircle(circleId, currentSec, totalSec) {
+        const circle = document.getElementById(circleId);
+        if(!circle) return;
+        const totalOffset = 628; // المحيط الإجمالي للدائرة بناءً على نصف القطر r=100
+        const percentage = currentSec / totalSec;
+        const strokeOffset = totalOffset - (percentage * totalOffset);
+        circle.style.strokeDashoffset = strokeOffset;
+    }
+
+
+    // ==========================================
+    // 1. برمجيات ومحرك: مؤقت الدراسة المخصص
+    // ==========================================
+    let studyTimerInterval, studyTotalSeconds = 1800, studyTimeLeft = 1800, studyRunning = false;
+
+    function initStudyTimer() {
+        if(studyRunning) return;
+        const m = parseInt(document.getElementById('studyMinutesSelect').value);
+        studyTotalSeconds = m * 60;
+        studyTimeLeft = studyTotalSeconds;
+        renderStudyTimeText();
+        updateProgressCircle('studyProgressCircle', studyTimeLeft, studyTotalSeconds);
+        updateGlobalStats(formatTimeDigits(studyTimeLeft), 'خامل وجاهز');
+    }
+
+    function renderStudyTimeText() {
+        const mins = Math.floor(studyTimeLeft / 60);
+        const secs = studyTimeLeft % 60;
+        const displayStr = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        document.getElementById('studyTimeText').innerText = displayStr;
+    }
+
+    function startStudyTimer() {
+        if (studyRunning) return;
+        studyRunning = true;
+        studyTimerInterval = setInterval(() => {
+            if (studyTimeLeft > 0) {
+                studyTimeLeft--;
+                renderStudyTimeText();
+                updateProgressCircle('studyProgressCircle', studyTimeLeft, studyTotalSeconds);
+                updateGlobalStats(formatTimeDigits(studyTimeLeft), 'جلسة دراسة نشطة');
+            } else {
+                clearInterval(studyTimerInterval);
+                studyRunning = false;
+                playAlertSound();
+                alert('أحسنت! انتهت جلسة الدراسة الحالية بتركيز، خذ قسطاً من الراحة الآن.');
+                initStudyTimer();
+            }
+        }, 1000);
+    }
+
+    function pauseStudyTimer() {
+        clearInterval(studyTimerInterval);
+        studyRunning = false;
+        updateGlobalStats(formatTimeDigits(studyTimeLeft), 'مؤقت دراسة متوقف مؤقتاً');
+    }
+
+    function resetStudyTimer() {
+        clearInterval(studyTimerInterval);
+        studyRunning = false;
+        initStudyTimer();
+    }
+
+
+    // ==========================================
+    // 2. برمجيات ومحرك: العداد التنازلي المطور
+    // ==========================================
+    let countdownTimerInterval, countdownTotalSeconds = 300, countdownTimeLeft = 300, countdownRunning = false;
+
+    function initCountdownTimer() {
+        if(countdownRunning) return;
+        document.getElementById('countdownToast').style.display = 'none';
+        const hrs = parseInt(document.getElementById('cdHours').value) || 0;
+        const mins = parseInt(document.getElementById('cdMinutes').value) || 0;
+        const secs = parseInt(document.getElementById('cdSeconds').value) || 0;
+
+        countdownTotalSeconds = (hrs * 3600) + (mins * 60) + secs;
+        countdownTimeLeft = countdownTotalSeconds;
+        
+        if(countdownTotalSeconds <= 0) { countdownTotalSeconds = 1; countdownTimeLeft = 1; }
+        
+        renderCountdownText();
+        updateProgressCircle('countdownProgressCircle', countdownTimeLeft, countdownTotalSeconds);
+        updateGlobalStats(formatTimeDigits(countdownTimeLeft), 'خامل وجاهز');
+    }
+
+    function renderCountdownText() {
+        document.getElementById('countdownTimeText').innerText = formatTimeDigits(countdownTimeLeft);
+    }
+
+    function formatTimeDigits(totalSecs) {
+        const hrs = Math.floor(totalSecs / 3600);
+        const mins = Math.floor((totalSecs % 3600) / 60);
+        const secs = totalSecs % 60;
+        return `${String(hrs).padStart(2, '0')}:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+    }
+
+    function startCountdownTimer() {
+        if(countdownRunning) return;
+        document.getElementById('countdownToast').style.display = 'none';
+        countdownRunning = true;
+        countdownTimerInterval = setInterval(() => {
+            if (countdownTimeLeft > 0) {
+                countdownTimeLeft--;
+                renderCountdownText();
+                updateProgressCircle('countdownProgressCircle', countdownTimeLeft, countdownTotalSeconds);
+                updateGlobalStats(formatTimeDigits(countdownTimeLeft), 'جاري العد التنازلي');
+            } else {
+                clearInterval(countdownTimerInterval);
+                countdownRunning = false;
+                document.getElementById('countdownToast').style.display = 'block';
+                playAlertSound();
+                updateGlobalStats('00:00:00', 'انتهى الوقت');
+            }
+        }, 1000);
+    }
+
+    function pauseCountdownTimer() {
+        clearInterval(countdownTimerInterval);
+        countdownRunning = false;
+        updateGlobalStats(formatTimeDigits(countdownTimeLeft), 'العد التنازلي متوقف');
+    }
+
+    function resetCountdownTimer() {
+        clearInterval(countdownTimerInterval);
+        countdownRunning = false;
+        document.getElementById('cdHours').value = 0;
+        document.getElementById('cdMinutes').value = 5;
+        document.getElementById('cdSeconds').value = 0;
+        initCountdownTimer();
+    }
+
+
+    // ==========================================
+    // 3. برمجيات ومحرك: الساعة الرقمية الحية
+    // ==========================================
+    let is24HourFormat = false;
+
+    function updateDigitalClock() {
+        // الخروج والتحقق منعاً لاستهلاك موارد المعالجة إذا لم يكن تبويب الساعة نشطاً
+        if(!document.getElementById('digital-clock-tab').classList.contains('active')) return;
+
+        const now = new Date();
+        let hours = now.getHours();
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+        let ampm = '';
+
+        if (!is24HourFormat) {
+            ampm = hours >= 12 ? ' م' : ' ص';
+            hours = hours % 12;
+            hours = hours ? hours : 12; // الساعة 0 تصبح 12 ص
+        }
+        hours = String(hours).padStart(2, '0');
+
+        document.getElementById('clockFace').innerText = `${hours}:${minutes}:${seconds}${ampm}`;
+
+        // إخراج التنسيق العربي الدقيق للتاريخ المعاصر
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('clockDate').innerText = now.toLocaleDateString('ar-EG', options);
+    }
+    // تحديث نبضات الساعة بشكل دائم كل ثانية تلقائياً
+    setInterval(updateDigitalClock, 1000);
+
+    function toggleClockFormat() {
+        is24HourFormat = !is24HourFormat;
+        const btn = document.querySelector('.btn-toggle-mode');
+        btn.innerHTML = is24HourFormat ? '<i class="fas fa-sync-alt"></i> التبديل لنظام 12 ساعة (ص/م)' : '<i class="fas fa-sync-alt"></i> التبديل لنظام 24 ساعة';
+        updateDigitalClock();
+    }
+
+
+    // ==========================================
+    // 4. برمجيات ومحرك: مؤقت بومودورو (Pomodoro)
+    // ==========================================
+    let pomoTimerInterval, pomoTimeLeft = 1500, pomoTotalSeconds = 1500, pomoRunning = false;
+    let pomoCurrentMode = 'study'; // التثبيت الافتراضي للجلسات الحالية (study / short / long)
+    let completedSessionsCounter = 0;
+
+    function setPomodoroMode(mode) {
+        if(pomoRunning) {
+            if(!confirm('هل أنت متأكد من الانتقال؟ سيتم إيقاف تتابع الجلسة الحالية وضياع وقتها.')) return;
+        }
+        clearInterval(pomoTimerInterval);
+        pomoRunning = false;
+        pomoCurrentMode = mode;
+
+        document.querySelectorAll('.btn-pomo-mode').forEach(btn => btn.classList.remove('active'));
+        
+        const label = document.getElementById('pomodoroStatusLabel');
+        if (mode === 'study') {
+            pomoTotalSeconds = 25 * 60;
+            label.innerText = 'وقت التركيز والدراسة';
+            label.style.color = '#b45309';
+            document.getElementById('pomoBtn-study').classList.add('active');
+        } else if (mode === 'short') {
+            pomoTotalSeconds = 5 * 60;
+            label.innerText = 'استراحة قصيرة مريحة';
+            label.style.color = '#16a34a';
+            document.getElementById('pomoBtn-short').classList.add('active');
+        } else if (mode === 'long') {
+            pomoTotalSeconds = 15 * 60;
+            label.innerText = 'استراحة طويلة للاستعادة';
+            label.style.color = '#1d4ed8';
+            document.getElementById('pomoBtn-long').classList.add('active');
+        }
+        
+        pomoTimeLeft = pomoTotalSeconds;
+        renderPomoText();
+        updateProgressCircle('pomodoroProgressCircle', pomoTimeLeft, pomoTotalSeconds);
+        updateGlobalStats(formatPomoDigits(), `جلسة بومودورو: جاهز للبدء`);
+    }
+
+    function initPomodoroTimer() {
+        setPomodoroMode(pomoCurrentMode);
+    }
+
+    function renderPomoText() {
+        const mins = Math.floor(pomoTimeLeft / 60);
+        const secs = pomoTimeLeft % 60;
+        document.getElementById('pomodoroTimeText').innerText = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+    }
+
+    function formatPomoDigits() {
+        const mins = Math.floor(pomoTimeLeft / 60);
+        const secs = pomoTimeLeft % 60;
+        return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+    }
+
+    function startPomodoroTimer() {
+        if (pomoRunning) return;
+        pomoRunning = true;
+        pomoTimerInterval = setInterval(() => {
+            if (pomoTimeLeft > 0) {
+                pomoTimeLeft--;
+                renderPomoText();
+                updateProgressCircle('pomodoroProgressCircle', pomoTimeLeft, pomoTotalSeconds);
+                
+                const currentStateTitle = pomoCurrentMode === 'study' ? 'وقت الدراسة بتركيز' : 'وقت الاستراحة والراحة';
+                updateGlobalStats(formatPomoDigits(), currentStateTitle);
+            } else {
+                clearInterval(pomoTimerInterval);
+                pomoRunning = false;
+                playAlertSound();
+                
+                if (pomoCurrentMode === 'study') {
+                    completedSessionsCounter++;
+                    document.getElementById('statCompletedSessions').innerText = completedSessionsCounter;
+                    alert('رائع! انتهت جلسة التركيز الحالية بومودورو بنجاح، انتقل الآن إلى الاستراحة.');
+                    setPomodoroMode('short');
+                } else {
+                    alert('انتهت فترة الاستراحة الحالية، حان الوقت للعودة والدراسة بتركيز من جديد.');
+                    setPomodoroMode('study');
+                }
+            }
+        }, 1000);
+    }
+
+    function pausePomodoroTimer() {
+        clearInterval(pomoTimerInterval);
+        pomoRunning = false;
+        updateGlobalStats(formatPomoDigits(), 'مؤقت بومودورو متوقف');
+    }
+
+    function resetPomodoroTimer() {
+        clearInterval(pomoTimerInterval);
+        pomoRunning = false;
+        setPomodoroMode(pomoCurrentMode);
+    }
+
+    // شحن الإعدادات اللحظية الأولى عند الإقلاع الفوري للموقع
+    window.onload = function() {
+        initStudyTimer();
+    };
+</script>
+
+</body>
+</html>
