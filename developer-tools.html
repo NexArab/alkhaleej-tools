@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>أدوات المطورين أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="مجموعة أدوات مجانية للمطورين تشمل تنسيق JSON وضغط CSS وJavaScript وتوليد UUID وتحويل HEX إلى RGB واختيار الألوان بسهولة.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="أدوات المطورين أونلاين مجاناً | أدوات شات الخليج">
+    <meta property="og:description" content="مجموعة أدوات مجانية للمطورين تشمل تنسيق JSON وضغط CSS وJavaScript وتوليد UUID وتحويل HEX إلى RGB واختيار الألوان بسهولة.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/developer-tools/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/developer-tools/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "أدوات المطورين",
+      "url": "https://tools.chat-alkhaleej.com/developer-tools/",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Any",
+      "description": "مجموعة أدوات مجانية للمبرمجين ومطوري الويب تساعد على تنسيق الأكواد وضغطها وتوليد UUID وتحويل الألوان بسهولة مباشرة من المتصفح.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "هل الأدوات مجانية؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، كافة أدوات المطورين والبرمجة المتاحة لدينا مجانية بالكامل 100% وبدون الحاجة لإنشاء حساب أو تسجيل."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل يتم رفع الأكواد للسيرفر؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نهائياً، جميع الأدوات تعمل وتنفذ برمجياً داخل متصفحك محلياً بشكل فوري لحماية أكوادك وبياناتك وخصوصيتك بنسبة 100%."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل الأدوات مناسبة للمطورين المبتدئين؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "بالتأكيد، تم تصميم واجهة الاستخدام لتكون بسيطة ومباشرة جداً ومزودة بأمثلة سريعة وجاهزة لتسهيل الفهم البرمجي."
+        }
+      }]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root { 
+            --primary: #450C0C; 
+            --accent: #ffd86b; 
+            --bg: #f8fafc; 
+            --text: #1e293b; 
+        }
+        body { 
+            font-family: 'Cairo', sans-serif; 
+            background-color: var(--bg); 
+            margin: 0; padding: 0; 
+            color: var(--text); 
+            line-height: 1.6; 
+        }
+
+        /* Navbar */
+        .navbar { 
+            background: var(--primary); 
+            padding: 12px 0; 
+            border-bottom: 3px solid var(--accent); 
+            position: sticky; top: 0; z-index: 1000; 
+        }
+        .nav-container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 0 20px; 
+        }
+        .nav-logo img { height: 45px; }
+        .nav-home { color: var(--accent); text-decoration: none; font-weight: 700; font-size: 16px; transition: 0.2s; }
+        .nav-home:hover { opacity: 0.8; }
+
+        /* حاوية المحتوى الرئيسي */
+        .container { max-width: 1200px; margin: 40px auto; padding: 0 20px; box-sizing: border-box; }
+        .header-section { text-align: center; margin-bottom: 30px; }
+        h1 { color: var(--primary); font-size: clamp(24px, 5vw, 34px); font-weight: 900; margin-bottom: 10px; }
+        .tool-desc { color: #64748b; font-size: 17px; max-width: 800px; margin: 0 auto 30px; }
+
+        /* بطاقة الأداة الكبيرة */
+        .tool-card { 
+            background: #fff; 
+            border-radius: 20px; 
+            padding: 25px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); 
+            border: 1px solid #e2e8f0; 
+        }
+
+        /* منطقة الألوان ومولد UUID المدمجة بالأعلى لسهولة الوصول */
+        .utility-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        .utility-box {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .utility-box h3 { margin: 0; font-size: 14px; color: var(--primary); font-weight: 800; }
+        .picker-wrapper { display: flex; align-items: center; gap: 10px; }
+        input[type="color"] {
+            border: none; width: 45px; height: 45px; border-radius: 8px; cursor: pointer; background: none;
+        }
+        
+        /* شاشات الأكواد النصية */
+        .workspace-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 768px) {
+            .workspace-grid { grid-template-columns: 1fr; }
+        }
+        .text-area-group { display: flex; flex-direction: column; }
+        .text-area-group label { font-weight: 700; color: var(--primary); font-size: 14px; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+        
+        textarea { 
+            width: 100%; 
+            height: 280px; 
+            padding: 15px; 
+            border: 2px solid #e2e8f0; 
+            border-radius: 12px; 
+            font-family: 'Fira Code', 'Courier New', Courier, monospace; 
+            font-size: 13.5px; 
+            resize: vertical; 
+            box-sizing: border-box; 
+            transition: 0.3s; 
+            direction: ltr;
+            text-align: left;
+            background: #fafafa;
+        }
+        textarea:focus { border-color: var(--primary); outline: none; background: #fff; }
+        textarea[readonly] { background-color: #f1f5f9; cursor: text; }
+
+        /* رسالة الأخطاء البرمجية الناتجة عن الـ JSON */
+        .error-msg {
+            color: #b91c1c; background: #fee2e2; border: 1px solid #fecaca;
+            padding: 10px 15px; border-radius: 8px; font-size: 13px; font-weight: 700;
+            margin-top: -10px; margin-bottom: 15px; display: none; direction: ltr; text-align: left;
+        }
+
+        /* شريط الإحصائيات الفوري */
+        .stats-bar { 
+            display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; 
+        }
+        .stat-item { 
+            background: #f1f5f9; color: #475569; padding: 4px 15px; border-radius: 50px; font-size: 12px; font-weight: 700; 
+        }
+
+        /* شبكة أزرار العمليات والتحويل */
+        .actions-section {
+            background: #f8fafc; padding: 15px; border-radius: 15px; border: 1px solid #e2e8f0; margin-bottom: 20px;
+        }
+        .actions-section h3 { margin: 0 0 12px 0; font-size: 14px; color: var(--primary); font-weight: 800; }
+        .btn-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 10px;
+        }
+        .btn-tool {
+            background: #fff; color: var(--primary); border: 1px solid #cbd5e1; padding: 10px;
+            border-radius: 10px; font-weight: 700; font-size: 13px; cursor: pointer; transition: 0.2s;
+            display: flex; align-items: center; justify-content: center; gap: 6px; font-family: 'Cairo', sans-serif;
+        }
+        .btn-tool:hover { background: var(--accent); border-color: var(--primary); }
+
+        /* أزرار التحكم والعمل الإضافية السفلية */
+        .controls-footer { display: flex; gap: 12px; flex-wrap: wrap; }
+        .btn-main { 
+            flex: 1; min-width: 140px; padding: 12px; border: none; border-radius: 50px; 
+            font-weight: 800; cursor: pointer; transition: 0.3s; font-size: 14px;
+            display: flex; align-items: center; justify-content: center; gap: 8px; font-family: 'Cairo', sans-serif;
+        }
+        .btn-copy { background: var(--primary); color: #fff; }
+        .btn-clear { background: #fee2e2; color: #ef4444; }
+        .btn-main:hover { transform: translateY(-2px); opacity: 0.95; }
+
+        /* قسم الأمثلة البرمجية السريعة */
+        .examples-section { margin-top: 40px; background: #fff; padding: 25px; border-radius: 15px; border: 1px solid #e2e8f0; }
+        .examples-section h2 { margin: 0 0 15px 0; font-size: 18px; color: var(--primary); font-weight: 900; }
+        .example-buttons { display: flex; gap: 10px; flex-wrap: wrap; }
+        .btn-ex {
+            background: #f1f5f9; color: var(--text); border: none; padding: 6px 15px; border-radius: 6px;
+            font-size: 12px; font-weight: 700; cursor: pointer; transition: 0.2s; font-family: 'Cairo', sans-serif;
+        }
+        .btn-ex:hover { background: var(--primary); color: #fff; }
+
+        /* الأسئلة الشائعة والأقسام السفلية */
+        .faq-section { margin-top: 50px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 15px; border-right: 5px solid var(--accent); box-shadow: 0 2px 10px rgba(0,0,0,0.02); border-left: 1px solid #e2e8f0; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;}
+        .faq-item h3 { margin: 0 0 10px; font-size: 18px; color: var(--primary); }
+        .faq-item p { margin: 0; color: #475569; font-size: 15px; }
+
+        .links-title { text-align: center; color: var(--primary); margin-top: 40px; font-weight: 900; font-size: 20px; }
+        .related-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-top: 20px; }
+        .tool-link { background: #fff; padding: 15px; text-align: center; border-radius: 12px; text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid #e2e8f0; transition: 0.3s; box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
+        .tool-link:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+        footer { background: #fff; padding: 25px; margin-top: 50px; text-align: center; border-top: 1px solid #e2e8f0; font-size: 14px; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    <header class="header-section">
+        <h1>أدوات المطورين</h1>
+        <p class="tool-desc">مجموعة أدوات مجانية للمبرمجين ومطوري الويب تساعد على تنسيق الأكواد وضغطها وتوليد UUID وتحويل الألوان بسهولة مباشرة من المتصفح.</p>
+    </header>
+
+    <main class="tool-card">
+        
+        <div class="utility-grid">
+            <div class="utility-box">
+                <h3><i class="fas fa-eye-dropper"></i> منتقي الألوان وتحويل HEX إلى RGB</h3>
+                <div class="picker-wrapper">
+                    <input type="color" id="colorPicker" value="#ff0000" oninput="processColorConversion(this.value)">
+                    <div>
+                        <div style="font-size: 12px; font-weight: 700; color: #64748b;">كود اللون:</div>
+                        <span id="colorHexText" style="font-family: 'Fira Code', monospace; font-size: 14px; font-weight: 600;">#ff0000</span>
+                        <span id="colorRgbText" style="font-family: 'Fira Code', monospace; font-size: 13px; font-weight: 600; color:#475569; margin-right: 12px;">rgb(255, 0, 0)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="utility-box" style="justify-content: center;">
+                <h3><i class="fas fa-fingerprint"></i> مولد معرفات UUID v4 الحصري</h3>
+                <div style="display: flex; gap: 8px;">
+                    <input type="text" id="uuidOutput" readonly style="font-family: 'Fira Code', monospace; font-size: 12px; background: #fff;" placeholder="سيعرض الـ UUID هنا">
+                    <button class="btn-tool" onclick="generateNewUuid()" style="padding: 0 15px; white-space: nowrap; border-color: var(--primary); background: var(--accent);"><i class="fas fa-magic"></i> توليد UUID جديد</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="workspace-grid">
+            <div class="text-area-group">
+                <label for="codeInput"><i class="fas fa-code"></i> الكود أو النص البرمجي الأصلي (Input):</label>
+                <textarea id="codeInput" placeholder="الصق كود JSON أو CSS أو JavaScript هنا لتنفيذ العمليات السريعة..." oninput="updateInputStats()"></textarea>
+            </div>
+            <div class="text-area-group">
+                <label for="codeOutput"><i class="fas fa-laptop-code"></i> النتيجة البرمجية النهائية (Output):</label>
+                <textarea id="codeOutput" readonly placeholder="ستظهر هنا نتائج تنسيق أو ضغط الأكواد المحدثة فوراً..."></textarea>
+            </div>
+        </div>
+
+        <div class="error-msg" id="jsonErrorContainer"></div>
+
+        <div class="stats-bar">
+            <div class="stat-item">عدد الحروف: <span id="charCount">0</span></div>
+            <div class="stat-item">عدد الأسطر: <span id="lineCount">0</span></div>
+            <div class="stat-item">عدد الكلمات: <span id="wordCount">0</span></div>
+        </div>
+
+        <div class="actions-section">
+            <h3><i class="fas fa-tools"></i> اختر العملية المطلوبة للتنفيذ الفوري:</h3>
+            <div class="btn-grid">
+                <button class="btn-tool" onclick="formatJson()"><i class="fas fa-sliders-h"></i> تنسيق JSON</button>
+                <button class="btn-tool" onclick="minifyCss()"><i class="fas fa-compress-arrows-alt"></i> ضغط CSS</button>
+                <button class="btn-tool" onclick="minifyJs()"><i class="fas fa-compress"></i> ضغط JavaScript</button>
+                <button class="btn-tool" onclick="beautifyCode()"><i class="fas fa-expand"></i> فك ضغط الأكواد</button>
+            </div>
+        </div>
+
+        <div class="controls-footer">
+            <button class="btn-main btn-copy" onclick="copyResultToClipboard()">
+                <i class="fas fa-copy"></i> نسخ النتيجة بالكامل
+            </button>
+            <button class="btn-main btn-clear" onclick="clearAllFields()">
+                <i class="fas fa-eraser"></i> مسح الحقول والبيانات
+            </button>
+        </div>
+    </main>
+
+    <section class="examples-section">
+        <h2><i class="fas fa-lightbulb"></i> أمثلة سريعة وجاهزة للمطورين (للاختبار)</h2>
+        <div class="example-buttons">
+            <button class="btn-ex" onclick="loadExample('json')">تحميل مثال JSON مبعثر</button>
+            <button class="btn-ex" onclick="loadExample('css')">تحميل مثال CSS غير مضغوط</button>
+            <button class="btn-ex" onclick="loadExample('js')">تحميل مثال JavaScript للاختبار</button>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h2 style="color: var(--primary); text-align: center; margin-bottom: 25px; font-weight: 900;">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <h3>هل الأدوات مجانية؟</h3>
+            <p>نعم، كافة أدوات المطورين والبرمجة المتاحة لدينا مجانية بالكامل 100% وبدون الحاجة لإنشاء حساب أو تسجيل أو دفع أي رسوم إضافية.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل يتم رفع الأكواد والنصوص الحساسة للسيرفر؟</h3>
+            <p>نهائياً، جميع الأدوات مبرمجة لتعمل وتنفذ محلياً داخل متصفحك محلياً (Client-Side HTML5) بشكل فوري لحماية أكوادك، بياناتك، وبراءات اختراعك الحصرية بنسبة 100%.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل الأدوات مناسبة للمطورين المبتدئين؟</h3>
+            <p>بالتأكيد، تم تصميم واجهة الاستخدام لتكون بسيطة ومباشرة جداً ومزودة بأمثلة سريعة وجاهزة لتسهيل الفهم وتجربة فك وضغط الأكواد بسهولة بالغة.</p>
+        </div>
+    </section>
+
+    <h2 class="links-title">تصفح أقسام شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">أدوات أخرى</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج</a>
+    </div>
+</div>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p>
+</footer>
+
+<script>
+    // تحديث ومراقبة الإحصائيات النصية لعدادات الكلمات والحروف والأسطر فورياً
+    function updateInputStats() {
+        const input = document.getElementById('codeInput').value;
+        
+        const chars = input.length;
+        const lines = input ? input.split('\n').length : 0;
+        const words = input.trim() ? input.trim().split(/\s+/).length : 0;
+
+        document.getElementById('charCount').innerText = chars;
+        document.getElementById('lineCount').innerText = lines;
+        document.getElementById('wordCount').innerText = words;
+    }
+
+    // تصفير وتهيئة كافة الحقول والشاشات والرسائل التنبيهية
+    function clearAllFields() {
+        document.getElementById('codeInput').value = '';
+        document.getElementById('codeOutput').value = '';
+        document.getElementById('jsonErrorContainer').style.display = 'none';
+        updateInputStats();
+    }
+
+    // نسخ مخرجات الأكواد النهائية إلى الحافظة بشكل آمن وسريع للمطور
+    function copyResultToClipboard() {
+        const output = document.getElementById('codeOutput').value;
+        if (!output) {
+            alert('لا يوجد نتائج منسوخة برمجياً حالياً! قم بإدخال الأكواد ومعالجتها أولاً.');
+            return;
+        }
+        navigator.clipboard.writeText(output).then(() => {
+            const copyBtn = document.querySelector('.btn-copy');
+            const originalHTML = copyBtn.innerHTML;
+            
+            copyBtn.innerHTML = '<i class="fas fa-check"></i> تم نسخ النتيجة البرمجية للحافظة!';
+            copyBtn.style.background = '#16a34a';
+            
+            setTimeout(() => {
+                copyBtn.innerHTML = originalHTML;
+                copyBtn.style.background = 'var(--primary)';
+            }, 2000);
+        }).catch(() => {
+            alert('فشل إجراء نسخ الكود تلقائياً، يرجى تحديده ونسخه يدوياً.');
+        });
+    }
+
+    // 1. معالج تنسيق وفهرسة ملفات الـ JSON (JSON Formatter)
+    function formatJson() {
+        const input = document.getElementById('codeInput').value.trim();
+        const errContainer = document.getElementById('jsonErrorContainer');
+        errContainer.style.display = 'none';
+
+        if (!input) return;
+
+        try {
+            const parsed = JSON.parse(input);
+            // تحويل وتنسيق مصفوفة الكائنات مع وضع مسافة مساوية لـ 4 فراغات برمجية مسافية دقيقة
+            document.getElementById('codeOutput').value = JSON.stringify(parsed, null, 4);
+        } catch (e) {
+            errContainer.style.display = 'block';
+            errContainer.innerText = `خطأ في بنية الـ JSON المرفوع (JSON Invalid): ${e.message}`;
+            document.getElementById('codeOutput').value = '';
+        }
+    }
+
+    // 2. معالج ومحرك ضغط ملفات التنسيق (CSS Minifier)
+    function minifyCss() {
+        const input = document.getElementById('codeInput').value;
+        if (!input) return;
+
+        let minified = input
+            .replace(/\/\*[\s\S]*?\*\//g, '') // إزالة كافة أنماط التعليقات البرمجية /* comment */
+            .replace(/\s+([{};,:\s])/g, '$1') // إزالة المسافات الطردية قبل الرموز والمنحنيات والهياكل
+            .replace(/([{};,:\s])\s+/g, '$1') // إزالة الفراغات الملحقة بالرموز البرمجية
+            .replace(/\s+/g, ' ') // دمج الفراغات المتكررة الكبيرة لفراغ مفرد وحيد
+            .trim();
+
+        document.getElementById('codeOutput').value = minified;
+        document.getElementById('jsonErrorContainer').style.display = 'none';
+    }
+
+    // 3. معالج ومحرك ضغط ملفات الجافا سكربت الآمن (JavaScript Minifier)
+    function minifyJs() {
+        const input = document.getElementById('codeInput').value;
+        if (!input) return;
+
+        let minified = input
+            .replace(/\/\*[\s\S]*?\*\//g, '') // حذف التعليقات متعددة الأسطر البرمجية البنية
+            .replace(/\/\/.*/g, '') // حذف التعليقات أحادية السطر البرمجية
+            .replace(/\s*\n\s*/g, '\n') // ضغط أسطر النيو لاين والفراغات حول الأسطر الجديدة
+            .replace(/\s*([=\-+*\/%,;:{}()<>!&|^])\s*/g, '$1') // إزالة المسافات حول العوامل والرموز الرياضية والبرمجية الأساسية
+            .replace(/\n+/g, ' ') // تحويل الأسطر المتبقية إلى فراغات تنظيمية
+            .replace(/\s+/g, ' ') // إزالة مسافات الدمج العشوائية المزدوجة
+            .trim();
+
+        document.getElementById('codeOutput').value = minified;
+        document.getElementById('jsonErrorContainer').style.display = 'none';
+    }
+
+    // 4. مفكك وضابط الأكواد المضغوطة لتسهيل القراءة (Code Beautifier)
+    function beautifyCode() {
+        const input = document.getElementById('codeInput').value.trim();
+        if (!input) return;
+
+        let output = input;
+        
+        // التحقق أولاً من كونه ملف JSON لفك تجميعه تلقائياً وبأعلى مرونة
+        try {
+            const parsed = JSON.parse(input);
+            document.getElementById('codeOutput').value = JSON.stringify(parsed, null, 4);
+            document.getElementById('jsonErrorContainer').style.display = 'none';
+            return;
+        } catch (e) {
+            // في حال لم يكن جيسون، ينتقل المحرك تلقائياً لمعالجة الأكواد التنسيقية وتفريعها هندسياً
+            output = output
+                .replace(/\{/g, ' {\n    ')
+                .replace(/\}/g, '\n}\n')
+                .replace(/;/g, ';\n    ')
+                .replace(/\n\s*\n/g, '\n')
+                .replace(/\{\s*\n\s*\}/g, '{}');
+                
+            // تحسين معالجة السطور لتفادي الفراغات المتبقية الزائدة في نهاية الرموز
+            output = output.split('\n').map(line => {
+                if(line.trim() === '}') return '}';
+                return line;
+            }).join('\n');
+        }
+
+        document.getElementById('codeOutput').value = output.trim();
+        document.getElementById('jsonErrorContainer').style.display = 'none';
+    }
+
+    // 5. محرك توليد معرفات الـ UUID v4 الحقيقي عبر الـ Web Crypto API المحدث محلياً
+    function generateNewUuid() {
+        try {
+            // استخدام المعيار الآمن والمحدث المدعوم محلياً بالمتصفحات الحديثة 2026
+            const newUuid = crypto.randomUUID();
+            document.getElementById('uuidOutput').value = newUuid;
+        } catch (err) {
+            // نظام بديل وهندسي كاحتياط في حال غياب تفعيل معايير التشفير ببعض المتصفحات القديمة جداً
+            document.getElementById('uuidOutput').value = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+                const r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+    }
+
+    // 6. إدارة معالجة منتقي الألوان وتحويل صيغ الـ HEX المختار إلى RGB فورياً
+    function processColorConversion(hexValue) {
+        document.getElementById('colorHexText').innerText = hexValue.toLowerCase();
+        
+        // تفكيك تجمعات الـ Hex وتحويلها لبيانات ومعادلات رقمية صحيحة
+        let r = parseInt(hexValue.slice(1, 3), 16);
+        let g = parseInt(hexValue.slice(3, 5), 16);
+        let b = parseInt(hexValue.slice(5, 7), 16);
+        
+        document.getElementById('colorRgbText').innerText = `rgb(${r}, ${g}, ${b})`;
+    }
+
+    // دالة مساعدة لشحن تحميل الأمثلة السريعة البرمجية الجاهزة للاختبار البرمجي للعميل
+    function loadExample(type) {
+        const examples = {
+            json: '{"id":1,"name":"Mustafa","skills":["SEO","Development","Automation"],"active":true,"status":{"vps":"Germany","uptime":"24/7"}}',
+            css: 'body { background-color: #f8fafc; margin: 0; padding: 0; } .navbar { background: #450c0c; border-bottom: 3px solid #ffd86b; } /* تعليق مبرمج */',
+            js: '// دالة برمجية تجريبية للضغط\nfunction welcomeUser(username) {\n    console.log("مرحباً بك يا " + username + " في شبكة أدواتنا");\n    return true;\n}'
+        };
+        
+        document.getElementById('codeInput').value = examples[type] || '';
+        updateInputStats();
+        document.getElementById('codeOutput').value = '';
+        document.getElementById('jsonErrorContainer').style.display = 'none';
+    }
+
+    // تشغيل وإطلاق المعرفات التلقائية فور تحميل الصفحة لبناء تجربة مستخدم ديناميكية
+    window.onload = function() {
+        generateNewUuid();
+    };
+</script>
+
+</body>
+</html>
