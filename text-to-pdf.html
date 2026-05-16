@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>تحويل النص إلى PDF أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="حوّل النصوص والأسماء إلى ملفات PDF منسقة ومقروءة بالعربية بسهولة، وانسخ النصوص بسرعة عبر أداة مجانية وسريعة تعمل مباشرة من المتصفح بدون تسجيل.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="تحويل النص إلى PDF أونلاين مجاناً | أدوات شات الخليج">
+    <meta property="og:description" content="حوّل النصوص والأسماء إلى ملفات PDF منسقة ومقروءة بالعربية بسهولة، وانسخ النصوص بسرعة عبر أداة مجانية وسريعة تعمل مباشرة من المتصفح بدون تسجيل.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/text-pdf-tools/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/text-pdf-tools/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "تحويل النص إلى PDF",
+      "url": "https://tools.chat-alkhaleej.com/text-pdf-tools/",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "description": "أداة مجانية احترافية لتحويل النصوص إلى ملفات PDF تدعم اللغة العربية بالكامل مع عداد كلمات ونسخ سريع.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "هل تدعم أداة تحويل النص إلى PDF اللغة العربية؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، تدعم الأداة اللغة العربية بنسبة 100% وبخطوط متناسقة وحروف مترابطة وسليمة تماماً عبر نظام المعاينة والطباعة المحلي."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل يتم حفظ النصوص التي أحولها؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "لا، تتم معالجة وتحويل النصوص محلياً بالكامل في متصفحك بشكل فوري وبخصوصية تامة دون تخزين أي بيانات في خوادمنا."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل يمكنني تعديل النص قبل تحميله؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "بالتأكيد، يمكنك تعديل النص، تكبير أو تصغير الحروف، وإزالة الأسطر الفارغة، ومراقبة عدد الكلمات مباشرة قبل الحفظ."
+        }
+      }]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root { 
+            --primary: #450C0C; 
+            --accent: #ffd86b; 
+            --bg: #f8fafc; 
+            --text: #1e293b; 
+        }
+        body { 
+            font-family: 'Cairo', sans-serif; 
+            background-color: var(--bg); 
+            margin: 0; padding: 0; 
+            color: var(--text); 
+            line-height: 1.6; 
+        }
+
+        /* Navbar */
+        .navbar { 
+            background: var(--primary); 
+            padding: 12px 0; 
+            border-bottom: 3px solid var(--accent); 
+            position: sticky; top: 0; z-index: 1000; 
+        }
+        .nav-container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 0 20px; 
+        }
+        .nav-logo img { height: 45px; }
+        .nav-home { color: var(--accent); text-decoration: none; font-weight: 700; font-size: 16px; transition: 0.2s; }
+        .nav-home:hover { opacity: 0.8; }
+
+        /* حاوية المحتوى الرئيسي */
+        .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; box-sizing: border-box; }
+        .header-section { text-align: center; margin-bottom: 30px; }
+        h1 { color: var(--primary); font-size: clamp(24px, 5vw, 34px); font-weight: 900; margin-bottom: 10px; }
+        .tool-desc { color: #64748b; font-size: 17px; max-width: 800px; margin: 0 auto 30px; }
+
+        .tool-card { 
+            background: #fff; 
+            border-radius: 20px; 
+            padding: 25px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); 
+            border: 1px solid #e2e8f0; 
+        }
+
+        label { font-weight: 700; display: block; margin-bottom: 8px; color: var(--primary); font-size: 15px; }
+        
+        textarea { 
+            width: 100%; 
+            height: 180px; 
+            padding: 15px; 
+            border: 2px solid #e2e8f0; 
+            border-radius: 12px; 
+            font-family: 'Cairo', sans-serif; 
+            font-size: 15px; 
+            resize: vertical; 
+            box-sizing: border-box; 
+            transition: 0.3s; 
+            margin-bottom: 15px; 
+        }
+        textarea:focus { border-color: var(--primary); outline: none; }
+        textarea[readonly] { background-color: #f8fafc; cursor: not-allowed; }
+
+        /* شريط الإحصائيات */
+        .stats-bar { 
+            display: flex; 
+            gap: 15px; 
+            margin-bottom: 20px; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+        }
+        .stat-item { 
+            background: var(--primary); 
+            color: var(--accent); 
+            padding: 6px 20px; 
+            border-radius: 50px; 
+            font-size: 13px; 
+            font-weight: 700; 
+        }
+
+        /* شبكة أزرار التحكم السريع */
+        .quick-actions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+        .btn-quick {
+            background: #f1f5f9;
+            color: var(--primary);
+            border: 1px solid #e2e8f0;
+            padding: 10px;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 13px;
+            cursor: pointer;
+            transition: 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .btn-quick:hover { background: var(--accent); border-color: var(--primary); }
+
+        /* أزرار العمليات والتحكم الأساسية */
+        .controls { display: flex; gap: 12px; margin-top: 15px; flex-wrap: wrap; }
+        .btn-main { 
+            flex: 1; min-width: 150px; padding: 14px; border: none; border-radius: 50px; 
+            font-weight: 800; cursor: pointer; transition: 0.3s; 
+            display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 15px;
+        }
+        .btn-pdf { background: var(--primary); color: #fff; }
+        .btn-copy { background: var(--accent); color: var(--primary); }
+        .btn-clear { background: #fee2e2; color: #ef4444; }
+        .btn-main:hover { transform: translateY(-2px); opacity: 0.95; }
+
+        /* الأقسام السفلية المخصصة لـ SEO والروابط */
+        .faq-section { margin-top: 50px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 15px; border-right: 5px solid var(--accent); box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+        .faq-item h3 { margin: 0 0 10px; font-size: 18px; color: var(--primary); }
+        .faq-item p { margin: 0; color: #475569; font-size: 15px; }
+
+        .links-title { text-align: center; color: var(--primary); margin-top: 40px; font-weight: 900; font-size: 20px; }
+        .related-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-top: 20px; }
+        .tool-link { background: #fff; padding: 15px; text-align: center; border-radius: 12px; text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid #e2e8f0; transition: 0.3s; box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
+        .tool-link:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+        footer { background: #fff; padding: 25px; margin-top: 50px; text-align: center; border-top: 1px solid #e2e8f0; font-size: 14px; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    <header class="header-section">
+        <h1>تحويل النص إلى PDF</h1>
+        <p class="tool-desc">مجموعة أدوات مجانية لتحويل النصوص إلى ملفات PDF ونسخ النصوص بسرعة بسهولة مباشرة من المتصفح وبدعم كامل للغة العربية.</p>
+    </header>
+
+    <main class="tool-card">
+        <label for="inputText">أدخل أو اكتب النص الخاص بك هنا:</label>
+        <textarea id="inputText" placeholder="اكتب أو الصق النص هنا لمعالجته أو تحويله إلى ملف PDF..." oninput="processText()"></textarea>
+
+        <div class="stats-bar">
+            <div class="stat-item">عدد الكلمات: <span id="wCount">0</span></div>
+            <div class="stat-item">عدد الحروف: <span id="cCount">0</span></div>
+            <div class="stat-item">عدد الأسطر: <span id="lCount">0</span></div>
+        </div>
+
+        <div class="quick-actions">
+            <button class="btn-quick" onclick="convertToUpperCase()"><i class="fas fa-text-height"></i> أحرف كبيرة EN</button>
+            <button class="btn-quick" onclick="convertToLowerCase()"><i class="fas fa-text-width"></i> أحرف صغيرة EN</button>
+            <button class="btn-quick" onclick="removeEmptyLines()"><i class="fas fa-align-left"></i> حذف الأسطر الفارغة</button>
+        </div>
+
+        <label for="outputText">المعاينة والنتيجة النهائية للملف والنص:</label>
+        <textarea id="outputText" readonly placeholder="ستظهر هنا معاينة النص المحدث والجاهز للإجراءات..."></textarea>
+
+        <div class="controls">
+            <button class="btn-main btn-pdf" onclick="downloadAsPDF()">
+                <i class="fas fa-file-pdf"></i> تحميل PDF
+            </button>
+            <button class="btn-main btn-copy" onclick="copyToClipboard()">
+                <i class="fas fa-copy"></i> نسخ النص بسرعة
+            </button>
+            <button class="btn-main btn-clear" onclick="clearFields()">
+                <i class="fas fa-trash"></i> مسح الكل
+            </button>
+        </div>
+    </main>
+
+    <section class="faq-section">
+        <h2 style="color: var(--primary); text-align: center; margin-bottom: 25px; font-weight: 900;">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <h3>هل أداة تحويل النص إلى PDF مجانية؟</h3>
+            <p>نعم، كافة الأدوات المدمجة لنسخ النصوص وتحويلها إلى PDF مجانية 100% وتعمل مباشرة من أي متصفح ويب أونلاين دون اشتراك.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل يتم حفظ النصوص الخاصة بي؟</h3>
+            <p>نهائياً؛ جميع العمليات الحسابية وتحرير الملفات تجري محلياً عبر متصفحك دون إرسال البيانات إلى السيرفر لضمان الأمان والخصوصية المطلقة.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل تدعم الأداة اللغة العربية داخل ملف الـ PDF؟</h3>
+            <p>نعم، عبر تقنية الطباعة الذكية المدمجة، تخرج الحروف العربية سليمة ومترابطة ومحاذية لليمين تماماً كما كتبتها وبأعلى تنسيق.</p>
+        </div>
+    </section>
+
+    <h2 class="links-title">تصفح أقسام شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">أدوات أخرى</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج</a>
+    </div>
+</div>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p>
+</footer>
+
+<script>
+    // تحديث الإحصائيات ونسخ المدخلات فورياً في صندوق المعاينة
+    function processText() {
+        const input = document.getElementById('inputText').value;
+        document.getElementById('outputText').value = input;
+
+        const words = input.trim() ? input.trim().split(/\s+/).length : 0;
+        const chars = input.length;
+        const lines = input ? input.split('\n').length : 0;
+
+        document.getElementById('wCount').innerText = words;
+        document.getElementById('cCount').innerText = chars;
+        document.getElementById('lCount').innerText = lines;
+    }
+
+    // الأزرار المساعدة السريعة
+    function convertToUpperCase() {
+        const input = document.getElementById('inputText').value;
+        document.getElementById('inputText').value = input.toUpperCase();
+        processText();
+    }
+
+    function convertToLowerCase() {
+        const input = document.getElementById('inputText').value;
+        document.getElementById('inputText').value = input.toLowerCase();
+        processText();
+    }
+
+    function removeEmptyLines() {
+        const input = document.getElementById('inputText').value;
+        const cleaned = input.split('\n').filter(line => line.trim() !== '').join('\n');
+        document.getElementById('inputText').value = cleaned;
+        processText();
+    }
+
+    // نسخ النص باستخدام Clipboard API
+    function copyToClipboard() {
+        const outputText = document.getElementById('outputText').value;
+        if (!outputText) {
+            alert("لا يوجد نص منسوخ، يرجى كتابة نص أولاً!");
+            return;
+        }
+
+        navigator.clipboard.writeText(outputText).then(() => {
+            const copyBtn = document.querySelector('.btn-copy');
+            const originalHTML = copyBtn.innerHTML;
+            
+            copyBtn.innerHTML = '<i class="fas fa-check"></i> تم نسخ النص بنجاح!';
+            copyBtn.style.background = '#22c55e';
+            copyBtn.style.color = '#fff';
+
+            setTimeout(() => {
+                copyBtn.innerHTML = originalHTML;
+                copyBtn.style.background = 'var(--accent)';
+                copyBtn.style.color = 'var(--primary)';
+            }, 2000);
+        }).catch(err => {
+            alert("فشل نسخ النص، يرجى المحاولة يدوياً.");
+        });
+    }
+
+    // تفريغ كافة الحقول
+    function clearFields() {
+        document.getElementById('inputText').value = '';
+        document.getElementById('outputText').value = '';
+        document.getElementById('wCount').innerText = '0';
+        document.getElementById('cCount').innerText = '0';
+        document.getElementById('lCount').innerText = '0';
+    }
+
+    // حل مشكلة اللغة العربية عبر الـ Print Window Trick بدون استدعاء مكتبات ثقيلة وخارجية
+    function downloadAsPDF() {
+        const textContent = document.getElementById('outputText').value.trim();
+        if (!textContent) {
+            alert("يرجى إدخال نص لتتمكن من تحويله إلى ملف PDF!");
+            return;
+        }
+
+        // إنشاء نافذة طباعة وهمية ومخصصة لمعالجة الحروف العربية السليمة وتنسيقها
+        const printWindow = window.open('', '_blank', 'width=800,height=600');
+        
+        // استبدال أسطر النيو لاين بـ <br> للمحافظة على بنية الفقرات عند الطباعة
+        const formattedText = textContent.replace(/\n/g, '<br>');
+
+        printWindow.document.write(`
+            <!DOCTYPE html>
+            <html lang="ar" dir="rtl">
+            <head>
+                <meta charset="UTF-8">
+                <title>chat-alkhaleej-text</title>
+                <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+                <style>
+                    body {
+                        font-family: 'Cairo', sans-serif;
+                        padding: 30px;
+                        line-height: 1.8;
+                        color: #1e293b;
+                        background: #fff;
+                        direction: rtl;
+                        text-align: right;
+                        font-size: 15px;
+                        white-space: pre-wrap; /* للمحافظة على المسافات والفقرات الدقيقة */
+                    }
+                    /* كسر الصفحات بشكل منظم وتلقائي لمنع تداخل الكلام في الـ PDF */
+                    @media print {
+                        body { padding: 0; margin: 20mm 15mm 20mm 15mm; }
+                        @page {
+                            size: A4;
+                            margin: 0;
+                        }
+                    }
+                </style>
+            </head>
+            <body>
+                <div>${formattedText}</div>
+                <script>
+                    // تشغيل موجه الحفظ كـ PDF وتغيير اسم التنزيل
+                    window.onload = function() {
+                        document.title = "chat-alkhaleej-text"; 
+                        alert("سيتم فتح نافذة الطباعة لحفظ الملف بصيغة PDF");
+                        window.print();
+                        setTimeout(function() { window.close(); }, 500);
+                    };
+                <\/script>
+            </body>
+            </html>
+        `);
+
+        printWindow.document.close();
+    }
+</script>
+
+</body>
+</html>
