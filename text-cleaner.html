@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>أداة تنظيف وتنسيق النصوص أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="نظف ونسق النصوص بسهولة عبر أداة مجانية لإزالة الفراغات الزائدة والأسطر الفارغة وتنظيم النصوص العربية والإنجليزية وتنسيق علامات الترقيم.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="تنظيف وتنسيق النصوص | أدوات شات الخليج">
+    <meta property="og:description" content="أداة مجانية وسريعة لتنظيف النصوص من الفراغات والأسطر الزائدة وتحسين التنسيق بشكل احترافي.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/text-cleaner/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/text-cleaner/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "أداة تنظيف وتنسيق النصوص",
+      "url": "https://tools.chat-alkhaleej.com/text-cleaner/",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "description": "أداة لتنظيف النصوص من المسافات الزائدة والأسطر الفارغة وتنسيق علامات الترقيم في المحتوى العربي.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "هل أداة تنظيف النصوص مجانية؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "نعم، الأداة مجانية تماماً وتعمل أونلاين بدون الحاجة لتحميل أي برامج." }
+      }, {
+        "@type": "Question",
+        "name": "هل تدعم الأداة تنسيق علامات الترقيم؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "نعم، تتضمن خياراً لتنسيق المسافات حول الفواصل والنقاط لجعل النص يبدو أكثر احترافية." }
+      }]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root { --primary: #450C0C; --accent: #ffd86b; --bg: #f8fafc; --text: #1e293b; }
+        body { font-family: 'Cairo', sans-serif; background-color: var(--bg); margin: 0; padding: 0; color: var(--text); line-height: 1.6; }
+
+        /* Navbar */
+        .navbar { background: var(--primary); padding: 12px 0; border-bottom: 3px solid var(--accent); position: sticky; top: 0; z-index: 1000; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+        .nav-logo img { height: 45px; }
+        .nav-home { color: var(--accent); text-decoration: none; font-weight: 700; }
+
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        .header-section { text-align: center; margin-bottom: 30px; }
+        h1 { color: var(--primary); font-size: clamp(24px, 5vw, 32px); font-weight: 900; }
+        .tool-desc { color: #64748b; font-size: 18px; }
+
+        .tool-card { background: #fff; border-radius: 20px; padding: 25px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
+        
+        textarea { width: 100%; height: 180px; padding: 15px; border: 2px solid #e2e8f0; border-radius: 12px; font-family: 'Cairo'; font-size: 15px; resize: vertical; box-sizing: border-box; transition: 0.3s; margin-bottom: 15px; }
+        textarea:focus { border-color: var(--accent); outline: none; }
+
+        /* Options Grid */
+        .options-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; background: #f1f5f9; padding: 20px; border-radius: 15px; margin-bottom: 20px; }
+        .option-item { display: flex; align-items: center; gap: 10px; cursor: pointer; font-weight: 600; font-size: 14px; color: var(--primary); }
+        .option-item input { width: 18px; height: 18px; cursor: pointer; accent-color: var(--primary); }
+
+        /* Stats Bar */
+        .stats-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin: 20px 0; }
+        .stat-box { background: #fff; padding: 10px; border-radius: 12px; border: 1px solid #e2e8f0; text-align: center; }
+        .stat-val { display: block; font-weight: 900; color: var(--primary); font-size: 18px; }
+        .stat-lbl { font-size: 12px; color: #64748b; font-weight: 700; }
+
+        .controls { display: flex; gap: 10px; flex-wrap: wrap; }
+        .btn { flex: 1; min-width: 150px; padding: 12px; border: none; border-radius: 50px; font-weight: 800; cursor: pointer; transition: 0.3s; display: flex; align-items: center; justify-content: center; gap: 8px; }
+        .btn-primary { background: var(--primary); color: var(--accent); }
+        .btn-accent { background: var(--accent); color: var(--primary); }
+        .btn-clear { background: #f1f5f9; color: #ef4444; }
+        .btn:hover { transform: translateY(-2px); opacity: 0.9; }
+
+        .faq-section { margin-top: 50px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 15px; border-right: 5px solid var(--accent); }
+        .faq-item h3 { margin: 0 0 10px; font-size: 18px; color: var(--primary); }
+
+        .related-tools { margin-top: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; }
+        .tool-link { background: #fff; padding: 15px; text-align: center; border-radius: 12px; text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid #e2e8f0; transition: 0.3s; }
+        .tool-link:hover { background: var(--primary); color: #fff; }
+
+        footer { background: #fff; padding: 30px; margin-top: 50px; text-align: center; border-top: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="header-section">
+        <h1>تنظيف وتنسيق النصوص</h1>
+        <p class="tool-desc">أداة احترافية لتنظيف النصوص من الفراغات والأسطر الزائدة وتحسين مظهر المحتوى بضغطة زر واحدة.</p>
+    </div>
+
+    <main class="tool-card">
+        <label>النص الأصلي:</label>
+        <textarea id="inputText" placeholder="أدخل النص المراد تنظيفه هنا..."></textarea>
+
+        <div class="options-grid">
+            <label class="option-item" title="دمج المسافات المتعددة في مسافة واحدة فقط">
+                <input type="checkbox" id="normalizeSpaces" checked> تنظيف المسافات الزائدة
+            </label>
+            <label class="option-item" title="حذف أي سطر لا يحتوي على كلمات">
+                <input type="checkbox" id="cleanEmptyLines" checked> حذف الأسطر الفارغة
+            </label>
+            <label class="option-item" title="إزالة المسافات من بداية ونهاية النص">
+                <input type="checkbox" id="trimText" checked> إزالة مسافات الأطراف
+            </label>
+            <label class="option-item" title="تحويل النص بالكامل إلى فقرة واحدة متصلة">
+                <input type="checkbox" id="joinLines"> تحويل الأسطر لنص متصل
+            </label>
+            <label class="option-item" title="تعديل المسافات حول الفواصل والنقاط لتنسيق احترافي">
+                <input type="checkbox" id="fixPunctuation" checked> تنسيق علامات الترقيم
+            </label>
+        </div>
+
+        <button class="btn btn-primary" onclick="processClean()">
+            <i class="fas fa-broom"></i> تنظيف وتنسيق النص
+        </button>
+
+        <div class="stats-bar">
+            <div class="stat-box"><span class="stat-val" id="statWords">0</span><span class="stat-lbl">الكلمات</span></div>
+            <div class="stat-box"><span class="stat-val" id="statChars">0</span><span class="stat-lbl">الحروف</span></div>
+            <div class="stat-box"><span class="stat-val" id="statLinesPre">0</span><span class="stat-lbl">أسطر (قبل)</span></div>
+            <div class="stat-box"><span class="stat-val" id="statLinesPost">0</span><span class="stat-lbl">أسطر (بعد)</span></div>
+        </div>
+
+        <label>النتيجة المنظفة:</label>
+        <textarea id="outputText" readonly placeholder="النتيجة ستظهر هنا..."></textarea>
+
+        <div class="controls">
+            <button class="btn btn-accent" onclick="copyResult()">
+                <i class="fas fa-copy"></i> نسخ النتيجة
+            </button>
+            <button class="btn btn-clear" onclick="clearAll()">
+                <i class="fas fa-trash"></i> مسح الكل
+            </button>
+        </div>
+    </main>
+
+    <section class="faq-section">
+        <h2 style="color: var(--primary); text-align: center;">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <h3>لماذا يجب تنظيف النصوص قبل النشر؟</h3>
+            <p>تنظيف النصوص يزيل الرموز المخفية والمسافات الزائدة التي قد تؤثر على شكل المقال في المتصفحات وتؤدي لتجربة مستخدم سيئة.</p>
+        </div>
+        <div class="faq-item">
+            <h3>ما هي ميزة تنسيق علامات الترقيم؟</h3>
+            <p>تقوم الميزة بالتأكد من أن الفواصل والنقاط ملتصقة بالكلمة التي قبلها، ويوجد بعدها مسافة واحدة فقط، وهو المعيار الصحيح للكتابة.</p>
+        </div>
+    </section>
+
+    <h2 style="color: var(--primary); text-align: center; margin-top: 40px;">أقسام شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">أدوات</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج</a>
+    </div>
+</div>
+
+<footer><p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p></footer>
+
+<script>
+    function processClean() {
+        let text = document.getElementById('inputText').value;
+        if (!text.trim()) { alert('يرجى إدخال نص أولاً'); return; }
+
+        const linesPre = text.split(/\r\n|\r|\n/).length;
+
+        // 1. إزالة مسافات الأطراف
+        if (document.getElementById('trimText').checked) {
+            text = text.trim();
+        }
+
+        // 2. حذف الأسطر الفارغة
+        if (document.getElementById('cleanEmptyLines').checked) {
+            text = text.split(/\r?\n/).filter(line => line.trim() !== '').join('\n');
+        }
+
+        // 3. تنظيف المسافات الزائدة (دمج المتعددة)
+        if (document.getElementById('normalizeSpaces').checked) {
+            text = text.replace(/[ ]+/g, ' ');
+            text = text.split(/\r?\n/).map(line => line.trim()).join('\n');
+        }
+
+        // 4. تنسيق علامات الترقيم (ذكاء تنسيقي)
+        if (document.getElementById('fixPunctuation').checked) {
+            // تصليح المسافات حول الفواصل والنقاط (العربية والإنجليزية)
+            text = text.replace(/\s*([،,.])\s*/g, "$1 ");
+            text = text.replace(/\s+$/gm, ""); // إزالة أي مسافة نتجت في نهاية السطر
+        }
+
+        // 5. تحويل الأسطر إلى نص متصل
+        if (document.getElementById('joinLines').checked) {
+            text = text.replace(/\r?\n/g, ' ');
+            text = text.replace(/\s\s+/g, ' '); 
+        }
+
+        // عرض النتيجة
+        document.getElementById('outputText').value = text;
+        
+        // تحديث الإحصائيات بدقة
+        const words = text.trim() ? text.trim().split(/\s+/).length : 0;
+        const chars = text.length;
+        const linesPost = text.length > 0 ? text.split(/\n/).length : 0;
+
+        document.getElementById('statWords').innerText = words;
+        document.getElementById('statChars').innerText = chars;
+        document.getElementById('statLinesPre').innerText = linesPre;
+        document.getElementById('statLinesPost').innerText = linesPost;
+    }
+
+    function copyResult() {
+        const output = document.getElementById('outputText');
+        if (!output.value) return;
+        navigator.clipboard.writeText(output.value).then(() => {
+            const btn = document.querySelector('.btn-accent');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> تم النسخ!';
+            setTimeout(() => btn.innerHTML = originalText, 2000);
+        });
+    }
+
+    function clearAll() {
+        document.getElementById('inputText').value = '';
+        document.getElementById('outputText').value = '';
+        document.getElementById('statWords').innerText = '0';
+        document.getElementById('statChars').innerText = '0';
+        document.getElementById('statLinesPre').innerText = '0';
+        document.getElementById('statLinesPost').innerText = '0';
+    }
+</script>
+</body>
+</html>
