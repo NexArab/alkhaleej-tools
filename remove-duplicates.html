@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>أداة حذف التكرار من النصوص أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="احذف تكرار الأسطر أو الكلمات من النصوص أونلاين مجاناً بسهولة وسرعة عبر أداة سريعة تدعم العربية والإنجليزية.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="أداة حذف التكرار من النصوص">
+    <meta property="og:description" content="احذف تكرار الأسطر أو الكلمات من النصوص بسهولة أونلاين مجاناً">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/remove-duplicates/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/remove-duplicates/" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #450C0C;
+            --accent: #ffd86b;
+            --white: #ffffff;
+            --bg: #f8fafc;
+            --text: #1e293b;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--bg);
+            margin: 0; padding: 0;
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: var(--primary);
+            padding: 12px 0;
+            border-bottom: 3px solid var(--accent);
+            position: sticky;
+            top: 0; z-index: 1000;
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .nav-logo img { height: 45px; }
+        .nav-home { color: var(--accent); text-decoration: none; font-weight: 700; font-size: 16px; }
+
+        /* Main Content */
+        .container { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+        
+        .header-section { text-align: center; margin-bottom: 40px; }
+        h1 { color: var(--primary); font-size: clamp(24px, 5vw, 32px); font-weight: 900; margin-bottom: 15px; }
+        .tool-desc { font-size: 18px; color: #64748b; margin-bottom: 30px; }
+
+        /* Tool Box */
+        .tool-card {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+        label { display: block; font-weight: 700; margin-bottom: 10px; color: var(--primary); }
+        textarea {
+            width: 100%;
+            height: 180px;
+            padding: 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-family: 'Cairo', sans-serif;
+            font-size: 15px;
+            resize: vertical;
+            box-sizing: border-box;
+            transition: 0.3s;
+            background: #fff;
+        }
+        textarea:focus { border-color: var(--accent); outline: none; box-shadow: 0 0 0 4px rgba(255, 216, 107, 0.1); }
+
+        /* Select Style */
+        .select-wrapper { margin: 20px 0; }
+        select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-family: 'Cairo', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--primary);
+            cursor: pointer;
+            outline: none;
+            transition: 0.3s;
+            appearance: none;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23450C0C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") no-repeat left 15px center;
+        }
+        select:focus { border-color: var(--accent); }
+
+        .controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+            margin: 25px 0;
+        }
+        .btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 50px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-size: 15px;
+        }
+        .btn-primary { background: var(--primary); color: var(--accent); }
+        .btn-accent { background: var(--accent); color: var(--primary); }
+        .btn-clear { background: #f1f5f9; color: #ef4444; }
+        .btn:hover { transform: translateY(-2px); opacity: 0.9; }
+
+        /* FAQ Section */
+        .faq-section { margin-top: 60px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 15px; border-right: 5px solid var(--accent); }
+        .faq-item h3 { margin: 0 0 10px; font-size: 18px; color: var(--primary); }
+        .faq-item p { margin: 0; color: #475569; }
+
+        /* Links Section */
+        .related-tools { margin-top: 50px; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; }
+        .tool-link {
+            background: #fff; padding: 15px; text-align: center; border-radius: 12px;
+            text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid #e2e8f0; transition: 0.3s;
+        }
+        .tool-link:hover { background: var(--primary); color: var(--white); }
+
+        /* Footer */
+        footer {
+            background: #fff;
+            padding: 40px 20px;
+            margin-top: 60px;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .container { margin-top: 20px; }
+            .tool-card { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="header-section">
+        <h1>حذف التكرار من النصوص</h1>
+        <p class="tool-desc">احذف تكرار الأسطر أو الكلمات من النصوص بسهولة عبر أداة مجانية وسريعة تعمل مباشرة من المتصفح.</p>
+    </div>
+
+    <main class="tool-card">
+        <label for="inputText">ضع النص هنا:</label>
+        <textarea id="inputText" placeholder="أدخل النص هنا..."></textarea>
+
+        <div class="select-wrapper">
+            <label for="modeSelect">نوع الحذف:</label>
+            <select id="modeSelect">
+                <option value="lines">حذف تكرار الأسطر</option>
+                <option value="words">حذف تكرار الكلمات</option>
+            </select>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-primary" onclick="processText()">
+                <i class="fas fa-magic"></i> تنفيذ الحذف
+            </button>
+            <button class="btn btn-clear" onclick="clearText()">
+                <i class="fas fa-trash"></i> مسح
+            </button>
+        </div>
+
+        <label for="outputText">النتيجة بعد الحذف:</label>
+        <textarea id="outputText" readonly placeholder="ستظهر النتيجة هنا..."></textarea>
+
+        <div class="controls">
+            <button class="btn btn-accent" onclick="copyText()">
+                <i class="fas fa-copy"></i> نسخ النتيجة
+            </button>
+        </div>
+    </main>
+
+    <section class="faq-section">
+        <h2 style="color: var(--primary); text-align: center;">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <h3>كيف تعمل أداة حذف التكرار؟</h3>
+            <p>يمكنك الاختيار بين حذف الأسطر المكررة بالكامل، أو حذف الكلمات المكررة داخل فقرة نصية واحدة لضمان جودة المحتوى.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل تدعم الأداة اللغة العربية؟</h3>
+            <p>بالتأكيد، الأداة تدعم العربية والإنجليزية والرموز بشكل كامل وتتعرف على الكلمات بدقة عالية.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل بياناتي آمنة؟</h3>
+            <p>نعم، المعالجة تتم فوراً داخل جهازك (Client-side) ولا يتم رفع نصوصك إلى أي خادم خارجي.</p>
+        </div>
+    </section>
+
+    <h2 style="color: var(--primary); text-align: center; margin-top: 50px;">روابط سريعة</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">أدوات</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج</a>
+    </div>
+</div>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p>
+</footer>
+
+<script>
+    function processText() {
+        const input = document.getElementById('inputText').value;
+        const mode = document.getElementById('modeSelect').value;
+        const outputField = document.getElementById('outputText');
+
+        if (!input.trim()) {
+            alert('الرجاء إدخال نص أولاً');
+            return;
+        }
+
+        if (mode === 'lines') {
+            // حذف تكرار الأسطر
+            const lines = input.split(/\r?\n/);
+            const uniqueLines = [...new Set(lines)];
+            outputField.value = uniqueLines.join('\n');
+        } else {
+            // حذف تكرار الكلمات
+            // تقسيم النص بناءً على المسافات والأسطر معاً
+            const words = input.split(/(\s+)/);
+            const seen = new Set();
+            const result = [];
+
+            words.forEach(part => {
+                // إذا كان الجزء ليس مسافة (أي كلمة)
+                if (part.trim().length > 0) {
+                    if (!seen.has(part.trim())) {
+                        seen.add(part.trim());
+                        result.push(part);
+                    }
+                } else {
+                    // الحفاظ على المسافات والأسطر الأصلية بين الكلمات غير المكررة
+                    result.push(part);
+                }
+            });
+            outputField.value = result.join('').trim();
+        }
+    }
+
+    function clearText() {
+        document.getElementById('inputText').value = '';
+        document.getElementById('outputText').value = '';
+    }
+
+    function copyText() {
+        const output = document.getElementById('outputText');
+        if (!output.value) return;
+
+        navigator.clipboard.writeText(output.value).then(() => {
+            const btn = document.querySelector('.btn-accent');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> تم النسخ!';
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+            }, 2000);
+        }).catch(err => {
+            console.error('فشل النسخ: ', err);
+        });
+    }
+</script>
+
+</body>
+</html>
