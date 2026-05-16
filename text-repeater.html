@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>أداة تكرار النص أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="كرر النصوص والكلمات والجمل بسهولة أونلاين عبر أداة مجانية وسريعة تدعم العربية والإنجليزية مع خيارات تخصيص التكرار.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="أداة تكرار النص">
+    <meta property="og:description" content="كرر النصوص أو الكلمات بعدد مرات محدد بسهولة عبر أداة مجانية وسريعة.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/text-repeater/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/text-repeater/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "أداة تكرار النص",
+      "url": "https://tools.chat-alkhaleej.com/text-repeater/",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "description": "أداة مجانية لتكرار الكلمات والجمل والنصوص بعدد مرات محدد مع خيار إضافة سطر جديد.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "هل أداة تكرار النص مجانية؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، الأداة مجانية تماماً وبدون أي حدود للاستخدام."
+        }
+      }, {
+        "@type": "Question",
+        "name": "هل تدعم الأداة اللغة العربية؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "نعم، الأداة تدعم تكرار النصوص العربية والإنجليزية والرموز التعبيرية."
+        }
+      }]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #450C0C;
+            --accent: #ffd86b;
+            --white: #ffffff;
+            --bg: #f8fafc;
+            --text: #1e293b;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--bg);
+            margin: 0; padding: 0;
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: var(--primary);
+            padding: 12px 0;
+            border-bottom: 3px solid var(--accent);
+            position: sticky;
+            top: 0; z-index: 1000;
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .nav-logo img { height: 45px; }
+        .nav-home { color: var(--accent); text-decoration: none; font-weight: 700; font-size: 16px; }
+
+        /* Main Content */
+        .container { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+        
+        .header-section { text-align: center; margin-bottom: 40px; }
+        h1 { color: var(--primary); font-size: clamp(24px, 5vw, 32px); font-weight: 900; margin-bottom: 15px; }
+        .tool-desc { font-size: 18px; color: #64748b; margin-bottom: 30px; }
+
+        /* Tool Card */
+        .tool-card {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+        label { display: block; font-weight: 700; margin-bottom: 10px; color: var(--primary); }
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-family: 'Cairo', sans-serif;
+            font-size: 15px;
+            resize: vertical;
+            box-sizing: border-box;
+            transition: 0.3s;
+            background: #fff;
+        }
+        textarea:focus { border-color: var(--accent); outline: none; }
+
+        .config-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+            margin: 20px 0;
+            padding: 15px;
+            background: #f1f5f9;
+            border-radius: 12px;
+        }
+        .input-number {
+            width: 100px;
+            padding: 10px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-family: 'Cairo';
+            font-weight: 700;
+        }
+        .checkbox-group { display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: 600; }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        .stat-item {
+            background: #fff;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 700;
+            border: 1px solid #e2e8f0;
+            color: var(--primary);
+        }
+
+        .controls { display: flex; gap: 10px; margin: 20px 0; }
+        .btn {
+            flex: 1; padding: 12px; border: none; border-radius: 50px;
+            font-weight: 800; cursor: pointer; transition: 0.3s;
+            display: flex; align-items: center; justify-content: center; gap: 8px;
+        }
+        .btn-primary { background: var(--primary); color: var(--accent); }
+        .btn-accent { background: var(--accent); color: var(--primary); }
+        .btn-clear { background: #f1f5f9; color: #ef4444; }
+        .btn:hover { transform: translateY(-2px); opacity: 0.9; }
+
+        /* FAQ */
+        .faq-section { margin-top: 60px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 15px; border-right: 5px solid var(--accent); }
+        .faq-item h3 { margin: 0 0 10px; font-size: 18px; color: var(--primary); }
+
+        /* Links */
+        .related-tools { margin-top: 50px; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; }
+        .tool-link {
+            background: #fff; padding: 15px; text-align: center; border-radius: 12px;
+            text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid #e2e8f0; transition: 0.3s;
+        }
+        .tool-link:hover { background: var(--primary); color: var(--white); }
+
+        footer { background: #fff; padding: 40px 20px; margin-top: 60px; border-top: 1px solid #e2e8f0; text-align: center; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="header-section">
+        <h1>تكرار النص</h1>
+        <p class="tool-desc">كرر النصوص أو الكلمات أو الجمل بعدد مرات محدد بسهولة عبر أداة مجانية تعمل مباشرة من المتصفح.</p>
+    </div>
+
+    <main class="tool-card">
+        <label for="inputText">النص المراد تكراره:</label>
+        <textarea id="inputText" placeholder="أدخل الكلمة أو الجملة هنا..."></textarea>
+
+        <div class="config-row">
+            <div>
+                <label style="display:inline; margin-left:10px;">عدد التكرار:</label>
+                <input type="number" id="repeatCount" class="input-number" value="10" min="1" max="10000">
+            </div>
+            <label class="checkbox-group">
+                <input type="checkbox" id="newLineCheck" checked>
+                إضافة سطر جديد بين كل تكرار
+            </label>
+        </div>
+
+        <button class="btn btn-primary" onclick="repeatText()">
+            <i class="fas fa-sync-alt"></i> تنفيذ التكرار
+        </button>
+
+        <label style="margin-top:25px;">النتيجة:</label>
+        <textarea id="outputText" readonly placeholder="ستظهر النتيجة هنا..."></textarea>
+        
+        <div class="stats-bar" id="statsBar" style="display:none;">
+            <div class="stat-item">الكلمات: <span id="wordCount">0</span></div>
+            <div class="stat-item">الحروف: <span id="charCount">0</span></div>
+            <div class="stat-item">التكرارات: <span id="repLabel">0</span></div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-accent" onclick="copyResult()">
+                <i class="fas fa-copy"></i> نسخ النتيجة
+            </button>
+            <button class="btn btn-clear" onclick="clearAll()">
+                <i class="fas fa-trash"></i> مسح
+            </button>
+        </div>
+    </main>
+
+    <section class="faq-section">
+        <h2 style="color: var(--primary); text-align: center;">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <h3>هل أداة تكرار النص مجانية؟</h3>
+            <p>نعم، الأداة مجانية تماماً وتتيح لك تكرار النصوص آلاف المرات في ثوانٍ معدودة.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل تدعم الأداة اللغة العربية؟</h3>
+            <p>بالتأكيد، تدعم الأداة اللغة العربية والإنجليزية والرموز التعبيرية (Emoji) بشكل كامل.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل يتم حفظ النصوص التي أدخلها؟</h3>
+            <p>لا، جميع العمليات تتم محلياً في متصفحك. نحن لا نقوم بتخزين أي نصوص حفاظاً على خصوصيتك.</p>
+        </div>
+    </section>
+
+    <h2 style="color: var(--primary); text-align: center; margin-top: 50px;">أقسام شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">أدوات</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج</a>
+    </div>
+</div>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p>
+</footer>
+
+<script>
+    function repeatText() {
+        const text = document.getElementById('inputText').value;
+        const count = parseInt(document.getElementById('repeatCount').value);
+        const addNewLine = document.getElementById('newLineCheck').checked;
+        const outputField = document.getElementById('outputText');
+
+        if (!text) {
+            alert('الرجاء إدخال نص أولاً');
+            return;
+        }
+
+        if (isNaN(count) || count <= 0) {
+            alert('الرجاء إدخال عدد صحيح أكبر من صفر');
+            return;
+        }
+
+        // تنفيذ التكرار بذكاء
+        let result = "";
+        const separator = addNewLine ? "\n" : " ";
+        
+        // استخدام Array.join للتكرار السريع في الذاكرة
+        result = new Array(count).fill(text).join(separator);
+
+        outputField.value = result;
+        updateStats(result, count);
+    }
+
+    function updateStats(result, count) {
+        document.getElementById('statsBar').style.display = 'flex';
+        const words = result.trim() ? result.trim().split(/\s+/).length : 0;
+        const chars = result.length;
+
+        document.getElementById('wordCount').innerText = words;
+        document.getElementById('charCount').innerText = chars;
+        document.getElementById('repLabel').innerText = count;
+    }
+
+    function copyResult() {
+        const output = document.getElementById('outputText');
+        if (!output.value) return;
+
+        navigator.clipboard.writeText(output.value).then(() => {
+            const btn = document.querySelector('.btn-accent');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> تم النسخ!';
+            setTimeout(() => btn.innerHTML = originalText, 2000);
+        });
+    }
+
+    function clearAll() {
+        document.getElementById('inputText').value = '';
+        document.getElementById('outputText').value = '';
+        document.getElementById('statsBar').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>
