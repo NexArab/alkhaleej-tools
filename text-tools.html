@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>أدوات تعديل ومعالجة النصوص أونلاين مجاناً | أدوات شات الخليج</title>
+    <meta name="description" content="عدّل ونظّم النصوص بسهولة عبر أدوات تحويل الأحرف وعكس النص وترتيب الأسطر ودمج النصوص وتنظيفها أونلاين مجاناً وبسرعة فائقة.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="أدوات تعديل ومعالجة النصوص | شات الخليج">
+    <meta property="og:description" content="مجموعة أدوات مجانية لتعديل النصوص وتحويل الأحرف وعكس النصوص وترتيب الأسطر بسهولة.">
+    <meta property="og:url" content="https://tools.chat-alkhaleej.com/text-tools/">
+    <meta property="og:image" content="https://chat-alkhaleej.com/logo.webp">
+
+    <link rel="canonical" href="https://tools.chat-alkhaleej.com/text-tools/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "أدوات تعديل ومعالجة النصوص",
+      "url": "https://tools.chat-alkhaleej.com/text-tools/",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "description": "أداة مجانية لتحويل الأحرف، عكس النصوص، ترتيب الأسطر أبجدياً وتنظيف المحتوى.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "هل تدعم الأداة ترتيب الأسطر العربية؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "نعم، تدعم الأداة ترتيب الأسطر أبجدياً للغة العربية والإنجليزية بدقة تامة." }
+      }, {
+        "@type": "Question",
+        "name": "هل الأداة آمنة؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "بالتأكيد، الأداة تعمل محلياً في متصفحك ولا يتم إرسال نصوصك إلى أي خادم خارجي." }
+      }]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root { --primary: #450C0C; --accent: #ffd86b; --bg: #f8fafc; --text: #1e293b; }
+        body { font-family: 'Cairo', sans-serif; background-color: var(--bg); margin: 0; padding: 0; color: var(--text); line-height: 1.6; }
+
+        /* Navbar */
+        .navbar { background: var(--primary); padding: 12px 0; border-bottom: 3px solid var(--accent); position: sticky; top: 0; z-index: 1000; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+        .nav-logo img { height: 45px; }
+        .nav-home { color: var(--accent); text-decoration: none; font-weight: 700; }
+
+        .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+        .header-section { text-align: center; margin-bottom: 30px; }
+        h1 { color: var(--primary); font-size: clamp(22px, 5vw, 32px); font-weight: 900; }
+        .tool-desc { color: #64748b; font-size: 17px; max-width: 700px; margin: 0 auto 30px; }
+
+        .tool-card { background: #fff; border-radius: 20px; padding: 25px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
+        
+        textarea { width: 100%; height: 180px; padding: 15px; border: 2px solid #e2e8f0; border-radius: 12px; font-family: 'Cairo'; font-size: 15px; resize: vertical; box-sizing: border-box; transition: 0.3s; margin-bottom: 15px; }
+        textarea:focus { border-color: var(--accent); outline: none; }
+
+        /* Action Buttons Grid */
+        .actions-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin-bottom: 20px; }
+        .btn-action { background: #f1f5f9; color: var(--primary); border: 1px solid #e2e8f0; padding: 10px; border-radius: 8px; font-weight: 700; cursor: pointer; transition: 0.2s; font-size: 14px; }
+        .btn-action:hover { background: var(--accent); border-color: var(--primary); }
+
+        /* Stats Bar */
+        .stats-bar { display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; justify-content: center; }
+        .stat-item { background: var(--primary); color: var(--accent); padding: 5px 20px; border-radius: 50px; font-size: 13px; font-weight: 700; }
+
+        .controls { display: flex; gap: 10px; margin-top: 15px; }
+        .btn-main { flex: 1; padding: 12px; border: none; border-radius: 50px; font-weight: 800; cursor: pointer; transition: 0.3s; display: flex; align-items: center; justify-content: center; gap: 8px; }
+        .btn-copy { background: var(--accent); color: var(--primary); }
+        .btn-clear { background: #fee2e2; color: #ef4444; }
+        .btn-main:hover { transform: translateY(-2px); opacity: 0.9; }
+
+        /* Sections */
+        .faq-section { margin-top: 50px; }
+        .faq-item { background: #fff; padding: 20px; border-radius: 15px; margin-bottom: 15px; border-right: 5px solid var(--accent); }
+        .faq-item h3 { margin: 0 0 10px; font-size: 18px; color: var(--primary); }
+
+        .links-title { text-align: center; color: var(--primary); margin-top: 40px; font-weight: 900; }
+        .related-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px; }
+        .tool-link { background: #fff; padding: 15px; text-align: center; border-radius: 12px; text-decoration: none; color: var(--primary); font-weight: 700; border: 1px solid #e2e8f0; transition: 0.3s; }
+        .tool-link:hover { background: var(--primary); color: #fff; }
+
+        footer { background: #fff; padding: 30px; margin-top: 50px; text-align: center; border-top: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="https://chat-alkhaleej.com/" class="nav-logo">
+            <img src="https://i.postimg.cc/XvkmG38J/shat-alkhlyj-alswty-drdsht-alkhlyj-alswty-shat-alkhlyj-drdsht-alkhlyj.webp" alt="شات الخليج">
+        </a>
+        <a href="https://chat-alkhaleej.com/" class="nav-home"><i class="fas fa-home"></i> الرئيسية</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="header-section">
+        <h1>أدوات تعديل ومعالجة النصوص</h1>
+        <p class="tool-desc">مجموعة أدوات مجانية لتعديل النصوص وتحويل الأحرف وعكس النصوص وترتيب الأسطر وتنظيف المحتوى بسهولة مباشرة من المتصفح.</p>
+    </div>
+
+    <main class="tool-card">
+        <label>النص المراد معالجته:</label>
+        <textarea id="inputText" placeholder="أدخل أو الصق النص هنا..." oninput="updateStats('input')"></textarea>
+
+        <div class="stats-bar">
+            <div class="stat-item">كلمات: <span id="wCount">0</span></div>
+            <div class="stat-item">حروف: <span id="cCount">0</span></div>
+            <div class="stat-item">أسطر: <span id="lCount">0</span></div>
+        </div>
+
+        <div class="actions-grid">
+            <button class="btn-action" onclick="transformText('upper')">الأحرف الكبيرة (EN)</button>
+            <button class="btn-action" onclick="transformText('lower')">الأحرف الصغيرة (EN)</button>
+            <button class="btn-action" onclick="transformText('reverse')">عكس النص</button>
+            <button class="btn-action" onclick="transformText('join')">دمج الأسطر</button>
+            <button class="btn-action" onclick="transformText('split')">تقسيم لأسطر</button>
+            <button class="btn-action" onclick="transformText('sort')">ترتيب أبجدي</button>
+            <button class="btn-action" onclick="transformText('clean')">حذف الأسطر الفارغة</button>
+        </div>
+
+        <label>النتيجة:</label>
+        <textarea id="outputText" readonly placeholder="ستظهر النتيجة هنا بعد الضغط على أحد الأزرار أعلاه..."></textarea>
+
+        <div class="controls">
+            <button class="btn-main btn-copy" onclick="copyResult()">
+                <i class="fas fa-copy"></i> نسخ النتيجة
+            </button>
+            <button class="btn-main btn-clear" onclick="clearAll()">
+                <i class="fas fa-trash"></i> مسح الكل
+            </button>
+        </div>
+    </main>
+
+    <section class="faq-section">
+        <h2 style="color: var(--primary); text-align: center;">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <h3>هل الأداة تدعم اللغة العربية؟</h3>
+            <p>نعم، جميع وظائف عكس النصوص والترتيب الأبجدي والدمج تدعم اللغة العربية والإنجليزية والرموز التعبيرية بشكل كامل.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل يمكنني ترتيب القوائم أبجدياً؟</h3>
+            <p>بالتأكيد، زر "ترتيب أبجدي" يقوم بفرز الأسطر تصاعدياً حسب الحروف، وهو مفيد جداً لتنظيم قوائم الأسماء والبيانات.</p>
+        </div>
+        <div class="faq-item">
+            <h3>أين يتم حفظ النصوص الخاصة بي؟</h3>
+            <p>لا نقوم بحفظ أي نصوص. جميع العمليات تتم داخل متصفحك الشخصي فقط لضمان أقصى درجات الخصوصية.</p>
+        </div>
+    </section>
+
+    <h2 class="links-title">أقسام شات الخليج</h2>
+    <div class="related-tools">
+        <a href="https://chat-alkhaleej.com/tools/" class="tool-link">أدوات</a>
+        <a href="https://chat-alkhaleej.com/games/" class="tool-link">الألعاب</a>
+        <a href="https://chat-alkhaleej.com/rooms/" class="tool-link">غرف الدردشة</a>
+        <a href="https://chat-alkhaleej.com/blog/" class="tool-link">مدونة الخليج</a>
+    </div>
+</div>
+
+<footer><p>جميع الحقوق محفوظة &copy; 2026 موقع شات الخليج</p></footer>
+
+<script>
+    // دالة المعالجة الرئيسية
+    function transformText(action) {
+        let input = document.getElementById('inputText').value;
+        let output = "";
+
+        if (!input) { alert("الرجاء إدخال نص أولاً"); return; }
+
+        switch(action) {
+            case 'upper':
+                output = input.toUpperCase();
+                break;
+            case 'lower':
+                output = input.toLowerCase();
+                break;
+            case 'reverse':
+                output = input.split("").reverse().join("");
+                break;
+            case 'join':
+                output = input.split(/\r?\n/).filter(line => line.trim() !== "").join(" ");
+                break;
+            case 'split':
+                output = input.replace(/\s+/g, '\n');
+                break;
+            case 'sort':
+                output = input.split(/\r?\n/).sort((a, b) => a.localeCompare(b, 'ar')).join('\n');
+                break;
+            case 'clean':
+                output = input.split(/\r?\n/).filter(line => line.trim() !== "").join('\n');
+                break;
+        }
+
+        document.getElementById('outputText').value = output;
+        updateStats('output');
+    }
+
+    // دالة تحديث الإحصائيات
+    function updateStats(type) {
+        const text = type === 'input' ? document.getElementById('inputText').value : document.getElementById('outputText').value;
+        const words = text.trim() ? text.trim().split(/\s+/).length : 0;
+        const chars = text.length;
+        const lines = text.length > 0 ? text.split(/\n/).length : 0;
+
+        document.getElementById('wCount').innerText = words;
+        document.getElementById('cCount').innerText = chars;
+        document.getElementById('lCount').innerText = lines;
+    }
+
+    function copyResult() {
+        const output = document.getElementById('outputText');
+        if (!output.value) return;
+        navigator.clipboard.writeText(output.value).then(() => {
+            const btn = document.querySelector('.btn-copy');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> تم النسخ!';
+            setTimeout(() => btn.innerHTML = originalText, 2000);
+        });
+    }
+
+    function clearAll() {
+        document.getElementById('inputText').value = '';
+        document.getElementById('outputText').value = '';
+        updateStats('input');
+    }
+</script>
+</body>
+</html>
