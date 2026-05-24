@@ -1,12 +1,32 @@
 {
-  "room": "Ø§ÙÙÙØ§ÙØ§Øª",
+  "room": "ÃÂ§ÃÂÃÂÃÂÃÂ§ÃÂÃÂ§ÃÂª",
   "weekly_champion": null,
   "weekly_champion_set_at": null,
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-25T01:19:21",
+  "last_updated": "2026-05-25T01:20:32",
   "players": {
+    "Ø¨ÙÙÙØ± Ø§ÙØ¯ÙÙÙÙÙÙÙÙÙ": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "ÙÙÙ Ø§ÙÙÙØ§ÙØ§Øª",
+      "last_win": "2026-05-25T01:19:21",
+      "updated_at": "2026-05-25T01:19:21"
+    },
+    "ØªØ¬Ø±Ø¨Ø©!ÙÙ": {
+      "weekly_points": 4,
+      "daily_points": 4,
+      "total_points": 4,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-05-25T01:19:21"
+    },
     "بَكـر الدُليمــــي": {
       "weekly_points": 5,
       "daily_points": 5,
@@ -14,8 +34,8 @@
       "wins": 1,
       "participations": 1,
       "title": "ملك المقالات",
-      "last_win": "2026-05-25T01:19:21",
-      "updated_at": "2026-05-25T01:19:21"
+      "last_win": "2026-05-25T01:20:32",
+      "updated_at": "2026-05-25T01:20:32"
     },
     "تجربة!ََ": {
       "weekly_points": 4,
@@ -25,7 +45,7 @@
       "participations": 1,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-05-25T01:19:21"
+      "updated_at": "2026-05-25T01:20:32"
     }
   },
   "matches": [
@@ -39,6 +59,21 @@
         },
         {
           "name": "تجربة!ََ",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-05-25T01:20:32"
+    },
+    {
+      "type": 5,
+      "winner": "Ø¨ÙÙÙØ± Ø§ÙØ¯ÙÙÙÙÙÙÙÙÙ",
+      "participants": [
+        {
+          "name": "Ø¨ÙÙÙØ± Ø§ÙØ¯ÙÙÙÙÙÙÙÙÙ",
+          "points": 5
+        },
+        {
+          "name": "ØªØ¬Ø±Ø¨Ø©!ÙÙ",
           "points": 4
         }
       ],
