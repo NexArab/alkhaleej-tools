@@ -43,6 +43,57 @@ var LB_GH = {
 /* ══════════════════════════════════════
    TIME HELPERS
 ══════════════════════════════════════ */
+
+/* ══════════════════════════════════════
+   ENCODING — UTF-8 safe Base64
+══════════════════════════════════════ */
+
+/* تحويل نص عربي → Base64 بدون تشويه */
+function _toBase64(str){
+  var bytes = new TextEncoder().encode(str);
+  var binary = "";
+  bytes.forEach(function(b){ binary += String.fromCharCode(b); });
+  return btoa(binary);
+}
+
+/* فك تحويل Base64 → نص عربي */
+function _fromBase64(b64){
+  var binary = atob(b64);
+  var bytes   = new Uint8Array(binary.length);
+  for(var i=0; i<binary.length; i++) bytes[i] = binary.charCodeAt(i);
+  return new TextDecoder("utf-8").decode(bytes);
+}
+
+/* فحص إذا الاسم مشوّه (Mojibake) */
+function _isGarbled(str){
+  if(!str || typeof str !== "string") return true;
+  /* أحرف Latin لا منطق لوجودها في اسم عربي خالص */
+  return /[ÙØÂÆÎ-]/.test(str);
+}
+
+/* تنظيف بيانات اللاعبين المعطوبة من JSON */
+function _cleanPlayersData(players){
+  if(!players || typeof players !== "object") return {};
+  var clean = {};
+  Object.keys(players).forEach(function(name){
+    if(!_isGarbled(name)){
+      clean[name] = players[name];
+    } else {
+      console.warn("[LB] removed garbled player:", name);
+    }
+  });
+  return clean;
+}
+
+/* تنظيف champion objects */
+function _cleanChampion(champ){
+  if(!champ || !champ.name) return champ;
+  if(_isGarbled(champ.name)){
+    console.warn("[LB] cleared garbled champion:", champ.name);
+    return null;
+  }
+  return champ;
+}
 function _meccaNow(){
   return new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Riyadh"}));
 }
@@ -97,13 +148,19 @@ function _ghGet(room, cb){
   .then(function(r){return r.json();})
   .then(function(res){
     if(res.message){cb(new Error(res.message),null,null);return;}
-    var data = JSON.parse(atob(res.content.replace(/\n/g,"")));
+    var raw  = _fromBase64(res.content.replace(/\n/g,""));
+    var data = JSON.parse(raw);
+    /* تنظيف أي بيانات مشوّهة من pushes قديمة */
+    data.players          = _cleanPlayersData(data.players || {});
+    data.weekly_champion  = _cleanChampion(data.weekly_champion);
+    data.daily_champion   = _cleanChampion(data.daily_champion);
     cb(null,data,res.sha);
   })
   .catch(cb);
 }
 function _ghPut(room, data, sha, msg, cb){
-  var enc = btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2))));
+  var jsonStr = JSON.stringify(data, null, 2);
+  var enc    = _toBase64(jsonStr);
   fetch("https://api.github.com/repos/"+LB_GH.owner+"/"+LB_GH.repo+"/contents/"+_ghPath(room),{
     method:"PUT",
     headers:_ghHeaders(),
@@ -271,5 +328,46 @@ var Leaderboard = {
   },
 
   /* تغيير التوكن من البوت */
-  setToken: function(token){ LB_GH.token = token; }
+  setToken: function(token){ LB_GH.token = token; },
+
+  /*
+    cleanRoom(room, cb?)
+    يحذف اللاعبين المشوّهين ويعيد رفع الـ JSON نظيفاً
+    استدعاء يدوي من الكونسول عند الحاجة:
+      Leaderboard.cleanRoom("maqalat");
+  */
+  cleanRoom: function(room, cb){
+    if(!ROOM_CONFIG[room]){ console.error("[LB] unknown room:", room); return; }
+    _ghGet(room, function(err, data, sha){
+      if(err){ console.error("[LB] cleanRoom get error:", err); if(cb) cb(err); return; }
+
+      var before = Object.keys(data.players||{}).length;
+      data.players         = _cleanPlayersData(data.players||{});
+      data.weekly_champion = _cleanChampion(data.weekly_champion);
+      data.daily_champion  = _cleanChampion(data.daily_champion);
+
+      /* تنظيف matches */
+      if(Array.isArray(data.matches)){
+        data.matches = data.matches.filter(function(m){
+          return m && !_isGarbled(m.winner);
+        }).map(function(m){
+          if(Array.isArray(m.participants)){
+            m.participants = m.participants.filter(function(p){
+              return p && !_isGarbled(p.name);
+            });
+          }
+          return m;
+        });
+      }
+
+      var after = Object.keys(data.players).length;
+      console.log("[LB] cleanRoom:", room, "| players before:", before, "after:", after);
+
+      _ghPut(room, data, sha, "cleanup: remove garbled players ["+room+"]", function(e){
+        if(e) console.error("[LB] cleanRoom push error:", e);
+        else  console.log("[LB] cleanRoom done:", room);
+        if(cb) cb(e||null);
+      });
+    });
+  }
 };
