@@ -222,7 +222,8 @@ footer{border-top:1px solid var(--border);padding:32px 20px 52px;max-width:1080p
 <script>
 var OWNER  = "NexArab";
 var REPO   = "alkhaleej-tools";
-var BASE   = "https://"+OWNER+".github.io/"+REPO+"/leaderboard/data/";
+/* مسار نسبي — يعمل على أي دومين (GitHub Pages أو tools.chat-alkhaleej.com) */
+var BASE   = "./data/";
 var CHAT   = "https://chat-alkhaleej.com/";
 var ROOMS  = [
   {key:"maqalat",   name:"المقالات",  icon:"📝", title:"ملك المقالات"},
@@ -258,7 +259,13 @@ function timeAgo(iso){
 }
 
 /* ── player points helper (supports both old int and new object) ── */
-function weeklyPts(p){ return typeof p==="object" ? (p.weekly_points||0) : (p||0); }
+function weeklyPts(p){
+  if(typeof p==="object"){
+    /* إذا weekly_points موجودة نستخدمها، وإلا total_points */
+    return p.weekly_points || p.total_points || 0;
+  }
+  return p||0;
+}
 function dailyPts(p){  return typeof p==="object" ? (p.daily_points||0)  : 0; }
 function totalPts(p){  return typeof p==="object" ? (p.total_points||0)  : (p||0); }
 function playerTitle(p){ return typeof p==="object" ? (p.title||null) : null; }
@@ -373,7 +380,7 @@ function dailySection(data){
 function buildCard(r, data, isRefresh){
   var players=data.players||{};
   var total   = Object.values(players).reduce(function(s,p){ return s+weeklyPts(p); },0);
-  var count   = Object.keys(players).filter(function(k){ return weeklyPts(players[k])>0; }).length;
+  var count   = Object.keys(players).length;  /* نعرض كل لاعب حتى لو 0 نقطة أسبوعية */
   var matches = (data.matches||[]).length;
   var upd     = fmtTime(data.last_updated);
   var flashCls = isRefresh?" flash":"";
@@ -431,9 +438,16 @@ function reveal(){ document.querySelectorAll(".card").forEach(function(c){c.clas
 function loadAll(){
   var grid=document.getElementById("rooms"), pend=ROOMS.length;
   ROOMS.forEach(function(r){
-    fetch(dataUrl(r.key))
-      .then(function(res){ if(!res.ok) throw 0; return res.json(); })
+    var url = dataUrl(r.key);
+    console.log("[LB FETCH]", r.key, url);
+    fetch(url, {cache:"no-store"})
+      .then(function(res){
+        console.log("[LB RES]", r.key, res.status, res.ok);
+        if(!res.ok) throw new Error(res.status);
+        return res.json();
+      })
       .then(function(data){
+        console.log("[LB DATA]", r.key, "players:", Object.keys(data.players||{}).length, "matches:", (data.matches||[]).length);
         var isRef=!!document.getElementById("card_"+r.key);
         var html=buildCard(r,data,isRef);
         var ex=document.getElementById("card_"+r.key);
