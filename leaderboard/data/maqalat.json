@@ -5,40 +5,59 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-25T01:49:34",
+  "last_updated": "2026-05-25T01:56:11",
   "players": {
     "بَكـر الدُليمــــي": {
-      "weekly_points": 15,
-      "daily_points": 15,
-      "total_points": 15,
-      "wins": 3,
-      "participations": 3,
+      "weekly_points": 20,
+      "daily_points": 20,
+      "total_points": 20,
+      "wins": 4,
+      "participations": 4,
       "title": "ملك المقالات",
-      "last_win": "2026-05-25T01:49:34",
-      "updated_at": "2026-05-25T01:49:34"
+      "last_win": "2026-05-25T01:56:11",
+      "updated_at": "2026-05-25T01:56:11"
     },
     "مقالات!َ": {
-      "weekly_points": 12,
-      "daily_points": 12,
-      "total_points": 12,
+      "weekly_points": 16,
+      "daily_points": 16,
+      "total_points": 16,
       "wins": 0,
-      "participations": 3,
+      "participations": 4,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-05-25T01:49:34"
+      "updated_at": "2026-05-25T01:56:11"
     },
     "هـُـمــام": {
-      "weekly_points": 3,
-      "daily_points": 3,
-      "total_points": 3,
+      "weekly_points": 6,
+      "daily_points": 6,
+      "total_points": 6,
       "wins": 0,
-      "participations": 1,
+      "participations": 2,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-05-25T01:49:34"
+      "updated_at": "2026-05-25T01:56:11"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "بَكـر الدُليمــــي",
+      "participants": [
+        {
+          "name": "بَكـر الدُليمــــي",
+          "points": 5
+        },
+        {
+          "name": "مقالات!َ",
+          "points": 4
+        },
+        {
+          "name": "هـُـمــام",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-05-25T01:56:11"
+    },
     {
       "type": 5,
       "winner": "بَكـر الدُليمــــي",
