@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-25T14:10:43",
+  "last_updated": "2026-05-25T15:28:48",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 12,
@@ -46,9 +46,58 @@
       "title": "سيد المسابقات",
       "last_win": "2026-05-25T14:10:43",
       "updated_at": "2026-05-25T14:10:43"
+    },
+    "جـوج": {
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 10,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-05-25T15:28:48",
+      "updated_at": "2026-05-25T15:28:48"
+    },
+    "voeuxmi": {
+      "weekly_points": 3,
+      "daily_points": 3,
+      "total_points": 3,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-05-25T15:28:48"
+    },
+    "Rio": {
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 1,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-05-25T15:28:48"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 10
+        },
+        {
+          "name": "voeuxmi",
+          "points": 3
+        },
+        {
+          "name": "Rio",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-05-25T15:28:48"
+    },
     {
       "type": 5,
       "winner": "Solo",
