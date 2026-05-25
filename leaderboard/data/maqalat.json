@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-25T20:56:56",
+  "last_updated": "2026-05-25T21:44:26",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 19,
@@ -38,14 +38,14 @@
       "updated_at": "2026-05-25T15:05:25"
     },
     "ＣＰＵ   ..": {
-      "weekly_points": 299,
-      "daily_points": 299,
-      "total_points": 299,
-      "wins": 25,
-      "participations": 27,
+      "weekly_points": 304,
+      "daily_points": 304,
+      "total_points": 304,
+      "wins": 26,
+      "participations": 28,
       "title": "ملك المقالات",
-      "last_win": "2026-05-25T20:30:44",
-      "updated_at": "2026-05-25T20:30:44"
+      "last_win": "2026-05-25T21:44:26",
+      "updated_at": "2026-05-25T21:44:26"
     },
     "بدرزين": {
       "weekly_points": 61,
@@ -96,9 +96,34 @@
       "title": "ملك المقالات",
       "last_win": "2026-05-25T20:56:56",
       "updated_at": "2026-05-25T20:56:56"
+    },
+    "زيرو": {
+      "weekly_points": 3,
+      "daily_points": 3,
+      "total_points": 3,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-05-25T21:44:26"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ＣＰＵ   ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ   ..",
+          "points": 5
+        },
+        {
+          "name": "زيرو",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-05-25T21:44:26"
+    },
     {
       "type": 5,
       "winner": "𝕄ـ𝕆ــــ𝕆ℕ",
