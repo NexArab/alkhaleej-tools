@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-25T20:17:19",
+  "last_updated": "2026-05-25T20:25:17",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 19,
@@ -38,14 +38,14 @@
       "updated_at": "2026-05-25T15:05:25"
     },
     "ＣＰＵ   ..": {
-      "weekly_points": 264,
-      "daily_points": 264,
-      "total_points": 264,
-      "wins": 23,
-      "participations": 25,
+      "weekly_points": 289,
+      "daily_points": 289,
+      "total_points": 289,
+      "wins": 24,
+      "participations": 26,
       "title": "ملك المقالات",
-      "last_win": "2026-05-25T20:17:19",
-      "updated_at": "2026-05-25T20:17:19"
+      "last_win": "2026-05-25T20:25:17",
+      "updated_at": "2026-05-25T20:25:17"
     },
     "بدرزين": {
       "weekly_points": 61,
@@ -89,6 +89,17 @@
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "ＣＰＵ   ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ   ..",
+          "points": 25
+        }
+      ],
+      "created_at": "2026-05-25T20:25:17"
+    },
     {
       "type": 5,
       "winner": "ＣＰＵ   ..",
