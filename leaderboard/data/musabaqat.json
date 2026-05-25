@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-25T11:28:12",
+  "last_updated": "2026-05-25T14:10:43",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 12,
@@ -36,9 +36,30 @@
       "title": "سيد المسابقات",
       "last_win": "2026-05-25T11:18:31",
       "updated_at": "2026-05-25T11:18:31"
+    },
+    "Solo": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-05-25T14:10:43",
+      "updated_at": "2026-05-25T14:10:43"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Solo",
+      "participants": [
+        {
+          "name": "Solo",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-25T14:10:43"
+    },
     {
       "type": 5,
       "winner": "How?",
