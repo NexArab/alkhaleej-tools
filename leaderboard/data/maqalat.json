@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-25T14:26:21",
+  "last_updated": "2026-05-25T14:35:09",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 5,
@@ -18,17 +18,28 @@
       "updated_at": "2026-05-25T09:58:14"
     },
     "voeuxmi": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 25,
+      "wins": 2,
+      "participations": 2,
       "title": "ملك المقالات",
-      "last_win": "2026-05-25T14:26:21",
-      "updated_at": "2026-05-25T14:26:21"
+      "last_win": "2026-05-25T14:35:09",
+      "updated_at": "2026-05-25T14:35:09"
     }
   },
   "matches": [
+    {
+      "type": 20,
+      "winner": "voeuxmi",
+      "participants": [
+        {
+          "name": "voeuxmi",
+          "points": 20
+        }
+      ],
+      "created_at": "2026-05-25T14:35:09"
+    },
     {
       "type": 5,
       "winner": "voeuxmi",
