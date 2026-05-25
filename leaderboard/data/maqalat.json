@@ -5,17 +5,17 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-25T18:24:35",
+  "last_updated": "2026-05-25T19:10:48",
   "players": {
     "بَكـر الدُليمــــي": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 5,
+      "weekly_points": 12,
+      "daily_points": 12,
+      "total_points": 12,
       "wins": 1,
-      "participations": 1,
+      "participations": 2,
       "title": "ملك المقالات",
       "last_win": "2026-05-25T09:58:14",
-      "updated_at": "2026-05-25T09:58:14"
+      "updated_at": "2026-05-25T19:10:48"
     },
     "voeuxmi": {
       "weekly_points": 45,
@@ -38,14 +38,14 @@
       "updated_at": "2026-05-25T15:05:25"
     },
     "ＣＰＵ   ..": {
-      "weekly_points": 136,
-      "daily_points": 136,
-      "total_points": 136,
-      "wins": 14,
-      "participations": 15,
+      "weekly_points": 161,
+      "daily_points": 161,
+      "total_points": 161,
+      "wins": 15,
+      "participations": 16,
       "title": "ملك المقالات",
-      "last_win": "2026-05-25T18:24:35",
-      "updated_at": "2026-05-25T18:24:35"
+      "last_win": "2026-05-25T19:10:48",
+      "updated_at": "2026-05-25T19:10:48"
     },
     "بدرزين": {
       "weekly_points": 61,
@@ -76,9 +76,38 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-05-25T18:24:35"
+    },
+    "دخيل": {
+      "weekly_points": 16,
+      "daily_points": 16,
+      "total_points": 16,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-05-25T19:10:48"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "ＣＰＵ   ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ   ..",
+          "points": 25
+        },
+        {
+          "name": "دخيل",
+          "points": 16
+        },
+        {
+          "name": "بَكـر الدُليمــــي",
+          "points": 7
+        }
+      ],
+      "created_at": "2026-05-25T19:10:48"
+    },
     {
       "type": 15,
       "winner": "ＣＰＵ   ..",
