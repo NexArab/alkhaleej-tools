@@ -5,17 +5,17 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-25T19:15:36",
+  "last_updated": "2026-05-25T19:24:28",
   "players": {
     "بَكـر الدُليمــــي": {
-      "weekly_points": 18,
-      "daily_points": 18,
-      "total_points": 18,
+      "weekly_points": 19,
+      "daily_points": 19,
+      "total_points": 19,
       "wins": 1,
-      "participations": 3,
+      "participations": 4,
       "title": "ملك المقالات",
       "last_win": "2026-05-25T09:58:14",
-      "updated_at": "2026-05-25T19:15:36"
+      "updated_at": "2026-05-25T19:24:28"
     },
     "voeuxmi": {
       "weekly_points": 45,
@@ -38,14 +38,14 @@
       "updated_at": "2026-05-25T15:05:25"
     },
     "ＣＰＵ   ..": {
-      "weekly_points": 171,
-      "daily_points": 171,
-      "total_points": 171,
-      "wins": 16,
-      "participations": 17,
+      "weekly_points": 181,
+      "daily_points": 181,
+      "total_points": 181,
+      "wins": 17,
+      "participations": 18,
       "title": "ملك المقالات",
-      "last_win": "2026-05-25T19:15:36",
-      "updated_at": "2026-05-25T19:15:36"
+      "last_win": "2026-05-25T19:24:28",
+      "updated_at": "2026-05-25T19:24:28"
     },
     "بدرزين": {
       "weekly_points": 61,
@@ -78,17 +78,36 @@
       "updated_at": "2026-05-25T18:24:35"
     },
     "دخيل": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 25,
+      "weekly_points": 30,
+      "daily_points": 30,
+      "total_points": 30,
       "wins": 0,
-      "participations": 2,
+      "participations": 3,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-05-25T19:15:36"
+      "updated_at": "2026-05-25T19:24:28"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ   ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ   ..",
+          "points": 10
+        },
+        {
+          "name": "دخيل",
+          "points": 5
+        },
+        {
+          "name": "بَكـر الدُليمــــي",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-05-25T19:24:28"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ   ..",
