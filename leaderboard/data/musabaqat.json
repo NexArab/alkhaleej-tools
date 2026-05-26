@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-26T21:44:34",
+  "last_updated": "2026-05-26T21:46:31",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 12,
@@ -48,14 +48,14 @@
       "updated_at": "2026-05-25T14:10:43"
     },
     "جـوج": {
-      "weekly_points": 269,
-      "daily_points": 269,
-      "total_points": 269,
+      "weekly_points": 274,
+      "daily_points": 274,
+      "total_points": 274,
       "wins": 28,
-      "participations": 32,
+      "participations": 33,
       "title": "سيد المسابقات",
       "last_win": "2026-05-26T21:44:34",
-      "updated_at": "2026-05-26T21:44:34"
+      "updated_at": "2026-05-26T21:46:31"
     },
     "voeuxmi": {
       "weekly_points": 24,
@@ -88,14 +88,14 @@
       "updated_at": "2026-05-26T21:20:37"
     },
     "هـُـمــام": {
-      "weekly_points": 125,
-      "daily_points": 125,
-      "total_points": 125,
-      "wins": 10,
-      "participations": 19,
+      "weekly_points": 135,
+      "daily_points": 135,
+      "total_points": 135,
+      "wins": 11,
+      "participations": 20,
       "title": "سيد المسابقات",
-      "last_win": "2026-05-26T05:06:20",
-      "updated_at": "2026-05-26T05:06:20"
+      "last_win": "2026-05-26T21:46:31",
+      "updated_at": "2026-05-26T21:46:31"
     },
     "جديمان": {
       "weekly_points": 12,
@@ -229,6 +229,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "هـُـمــام",
+      "participants": [
+        {
+          "name": "هـُـمــام",
+          "points": 10
+        },
+        {
+          "name": "جـوج",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-26T21:46:31"
+    },
     {
       "type": 10,
       "winner": "جـوج",
@@ -811,17 +826,6 @@
         }
       ],
       "created_at": "2026-05-25T19:16:48"
-    },
-    {
-      "type": 5,
-      "winner": "𝑲𝑯𝑨𝑳𝑬𝑫",
-      "participants": [
-        {
-          "name": "𝑲𝑯𝑨𝑳𝑬𝑫",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-25T19:04:12"
     }
   ]
 }
