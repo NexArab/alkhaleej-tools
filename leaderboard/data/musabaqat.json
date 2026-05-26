@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-26T17:03:55",
+  "last_updated": "2026-05-26T17:44:43",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 12,
@@ -148,14 +148,14 @@
       "updated_at": "2026-05-25T19:16:48"
     },
     "جديمان بن شلاح الشلاويح": {
-      "weekly_points": 4,
-      "daily_points": 4,
-      "total_points": 4,
-      "wins": 0,
-      "participations": 1,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-05-25T19:16:48"
+      "weekly_points": 9,
+      "daily_points": 9,
+      "total_points": 9,
+      "wins": 1,
+      "participations": 2,
+      "title": "سيد المسابقات",
+      "last_win": "2026-05-26T17:44:43",
+      "updated_at": "2026-05-26T17:44:43"
     },
     "𝕄ـ𝕆ــــ𝕆ℕ": {
       "weekly_points": 5,
@@ -219,6 +219,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "جديمان بن شلاح الشلاويح",
+      "participants": [
+        {
+          "name": "جديمان بن شلاح الشلاويح",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-26T17:44:43"
+    },
     {
       "type": 10,
       "winner": "H~",
