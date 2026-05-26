@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-27T01:49:37",
+  "last_updated": "2026-05-27T02:02:01",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 19,
@@ -68,14 +68,14 @@
       "updated_at": "2026-05-25T17:27:19"
     },
     "ســاهــــر": {
-      "weekly_points": 38,
-      "daily_points": 38,
-      "total_points": 38,
-      "wins": 4,
-      "participations": 5,
+      "weekly_points": 48,
+      "daily_points": 48,
+      "total_points": 48,
+      "wins": 5,
+      "participations": 6,
       "title": "ملك المقالات",
-      "last_win": "2026-05-27T01:49:37",
-      "updated_at": "2026-05-27T01:49:37"
+      "last_win": "2026-05-27T02:02:01",
+      "updated_at": "2026-05-27T02:02:01"
     },
     "دخيل": {
       "weekly_points": 68,
@@ -169,6 +169,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-05-27T02:02:01"
+    },
     {
       "type": 5,
       "winner": "ســاهــــر",
@@ -719,17 +730,6 @@
         }
       ],
       "created_at": "2026-05-26T01:34:49"
-    },
-    {
-      "type": 25,
-      "winner": "قنفذ",
-      "participants": [
-        {
-          "name": "قنفذ",
-          "points": 25
-        }
-      ],
-      "created_at": "2026-05-26T00:34:33"
     }
   ]
 }
