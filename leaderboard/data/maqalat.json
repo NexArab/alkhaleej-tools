@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-26T13:51:20",
+  "last_updated": "2026-05-26T14:00:33",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 19,
@@ -138,27 +138,42 @@
       "updated_at": "2026-05-26T09:05:44"
     },
     "انتر": {
-      "weekly_points": 16,
-      "daily_points": 16,
-      "total_points": 16,
+      "weekly_points": 36,
+      "daily_points": 36,
+      "total_points": 36,
       "wins": 3,
-      "participations": 4,
+      "participations": 5,
       "title": "ملك المقالات",
       "last_win": "2026-05-26T13:46:13",
-      "updated_at": "2026-05-26T13:51:20"
+      "updated_at": "2026-05-26T14:00:33"
     },
     "عنقبور": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 30,
+      "daily_points": 30,
+      "total_points": 30,
+      "wins": 2,
+      "participations": 2,
       "title": "ملك المقالات",
-      "last_win": "2026-05-26T13:51:20",
-      "updated_at": "2026-05-26T13:51:20"
+      "last_win": "2026-05-26T14:00:33",
+      "updated_at": "2026-05-26T14:00:33"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "عنقبور",
+      "participants": [
+        {
+          "name": "عنقبور",
+          "points": 25
+        },
+        {
+          "name": "انتر",
+          "points": 20
+        }
+      ],
+      "created_at": "2026-05-26T14:00:33"
+    },
     {
       "type": 5,
       "winner": "عنقبور",
@@ -773,21 +788,6 @@
         }
       ],
       "created_at": "2026-05-25T17:52:04"
-    },
-    {
-      "type": 10,
-      "winner": "ＣＰＵ   ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ   ..",
-          "points": 10
-        },
-        {
-          "name": "بدرزين",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-05-25T17:41:48"
     }
   ]
 }
