@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-26T10:38:55",
+  "last_updated": "2026-05-26T12:40:23",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 12,
@@ -186,9 +186,44 @@
       "title": "سيد المسابقات",
       "last_win": "2026-05-26T08:24:48",
       "updated_at": "2026-05-26T08:24:48"
+    },
+    "حمدد": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-05-26T12:40:23",
+      "updated_at": "2026-05-26T12:40:23"
+    },
+    "ميار": {
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 1,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-05-26T12:40:23"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "حمدد",
+      "participants": [
+        {
+          "name": "حمدد",
+          "points": 5
+        },
+        {
+          "name": "ميار",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-05-26T12:40:23"
+    },
     {
       "type": 5,
       "winner": "⠀⠀           M",
