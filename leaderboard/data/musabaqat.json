@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-26T12:43:48",
+  "last_updated": "2026-05-26T14:55:37",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 12,
@@ -58,14 +58,14 @@
       "updated_at": "2026-05-25T18:22:28"
     },
     "voeuxmi": {
-      "weekly_points": 14,
-      "daily_points": 14,
-      "total_points": 14,
-      "wins": 1,
-      "participations": 4,
+      "weekly_points": 24,
+      "daily_points": 24,
+      "total_points": 24,
+      "wins": 2,
+      "participations": 5,
       "title": "سيد المسابقات",
-      "last_win": "2026-05-25T15:33:08",
-      "updated_at": "2026-05-26T10:38:55"
+      "last_win": "2026-05-26T14:55:37",
+      "updated_at": "2026-05-26T14:55:37"
     },
     "Rio": {
       "weekly_points": 23,
@@ -209,6 +209,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "voeuxmi",
+      "participants": [
+        {
+          "name": "voeuxmi",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-05-26T14:55:37"
+    },
     {
       "type": 5,
       "winner": "ميار",
