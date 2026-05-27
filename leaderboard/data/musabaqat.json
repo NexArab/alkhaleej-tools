@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-27T14:37:32",
+  "last_updated": "2026-05-27T14:38:34",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 12,
@@ -48,14 +48,14 @@
       "updated_at": "2026-05-25T14:10:43"
     },
     "جـوج": {
-      "weekly_points": 1320,
-      "daily_points": 1320,
-      "total_points": 1320,
-      "wins": 133,
-      "participations": 142,
+      "weekly_points": 1325,
+      "daily_points": 1325,
+      "total_points": 1325,
+      "wins": 134,
+      "participations": 143,
       "title": "سيد المسابقات",
-      "last_win": "2026-05-27T14:37:32",
-      "updated_at": "2026-05-27T14:37:32"
+      "last_win": "2026-05-27T14:38:34",
+      "updated_at": "2026-05-27T14:38:34"
     },
     "voeuxmi": {
       "weekly_points": 24,
@@ -279,6 +279,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-27T14:38:34"
+    },
     {
       "type": 5,
       "winner": "جـوج",
@@ -833,17 +844,6 @@
         }
       ],
       "created_at": "2026-05-27T02:49:21"
-    },
-    {
-      "type": 10,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-27T02:46:43"
     }
   ]
 }
