@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-27T23:29:27",
+  "last_updated": "2026-05-28T01:05:48",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 12,
@@ -98,14 +98,14 @@
       "updated_at": "2026-05-27T11:08:56"
     },
     "جديمان": {
-      "weekly_points": 12,
-      "daily_points": 12,
-      "total_points": 12,
+      "weekly_points": 14,
+      "daily_points": 14,
+      "total_points": 14,
       "wins": 1,
-      "participations": 2,
+      "participations": 3,
       "title": "سيد المسابقات",
       "last_win": "2026-05-25T18:17:47",
-      "updated_at": "2026-05-25T18:27:48"
+      "updated_at": "2026-05-28T01:05:48"
     },
     "𝑁𝐴𝑍": {
       "weekly_points": 9,
@@ -218,14 +218,14 @@
       "updated_at": "2026-05-26T23:14:38"
     },
     "جديعان بن شلاح الشلاويح": {
-      "weekly_points": 27,
-      "daily_points": 27,
-      "total_points": 27,
-      "wins": 3,
-      "participations": 7,
+      "weekly_points": 32,
+      "daily_points": 32,
+      "total_points": 32,
+      "wins": 4,
+      "participations": 8,
       "title": "سيد المسابقات",
-      "last_win": "2026-05-27T00:09:42",
-      "updated_at": "2026-05-27T00:22:40"
+      "last_win": "2026-05-28T01:05:48",
+      "updated_at": "2026-05-28T01:05:48"
     },
     "ＣＰＵ        ~": {
       "weekly_points": 6,
@@ -319,6 +319,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "جديعان بن شلاح الشلاويح",
+      "participants": [
+        {
+          "name": "جديعان بن شلاح الشلاويح",
+          "points": 5
+        },
+        {
+          "name": "جديمان",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-05-28T01:05:48"
+    },
     {
       "type": 5,
       "winner": "ســاهــــر",
@@ -861,17 +876,6 @@
         }
       ],
       "created_at": "2026-05-27T18:46:36"
-    },
-    {
-      "type": 10,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-27T18:44:36"
     }
   ]
 }
