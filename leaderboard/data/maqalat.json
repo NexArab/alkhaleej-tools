@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-28T01:08:15",
+  "last_updated": "2026-05-28T01:11:07",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 19,
@@ -98,14 +98,14 @@
       "updated_at": "2026-05-25T20:56:56"
     },
     "زيرو": {
-      "weekly_points": 191,
-      "daily_points": 191,
-      "total_points": 191,
-      "wins": 17,
-      "participations": 20,
+      "weekly_points": 196,
+      "daily_points": 196,
+      "total_points": 196,
+      "wins": 18,
+      "participations": 21,
       "title": "ملك المقالات",
-      "last_win": "2026-05-28T01:08:15",
-      "updated_at": "2026-05-28T01:08:15"
+      "last_win": "2026-05-28T01:11:07",
+      "updated_at": "2026-05-28T01:11:07"
     },
     "قنفذ": {
       "weekly_points": 125,
@@ -209,6 +209,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "زيرو",
+      "participants": [
+        {
+          "name": "زيرو",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-28T01:11:07"
+    },
     {
       "type": 5,
       "winner": "زيرو",
@@ -759,17 +770,6 @@
         }
       ],
       "created_at": "2026-05-26T22:28:03"
-    },
-    {
-      "type": 25,
-      "winner": "ＣＰＵ   ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ   ..",
-          "points": 25
-        }
-      ],
-      "created_at": "2026-05-26T21:56:21"
     }
   ]
 }
