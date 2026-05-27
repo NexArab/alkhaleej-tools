@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-27T03:22:41",
+  "last_updated": "2026-05-27T03:24:26",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 12,
@@ -48,14 +48,14 @@
       "updated_at": "2026-05-25T14:10:43"
     },
     "جـوج": {
-      "weekly_points": 1190,
-      "daily_points": 1190,
-      "total_points": 1190,
-      "wins": 119,
-      "participations": 128,
+      "weekly_points": 1200,
+      "daily_points": 1200,
+      "total_points": 1200,
+      "wins": 120,
+      "participations": 129,
       "title": "سيد المسابقات",
-      "last_win": "2026-05-27T03:22:41",
-      "updated_at": "2026-05-27T03:22:41"
+      "last_win": "2026-05-27T03:24:26",
+      "updated_at": "2026-05-27T03:24:26"
     },
     "voeuxmi": {
       "weekly_points": 24,
@@ -239,6 +239,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-05-27T03:24:26"
+    },
     {
       "type": 10,
       "winner": "جـوج",
@@ -809,21 +820,6 @@
         }
       ],
       "created_at": "2026-05-27T00:02:12"
-    },
-    {
-      "type": 10,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 10
-        },
-        {
-          "name": "جديعان بن شلاح الشلاويح",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-05-26T23:52:57"
     }
   ]
 }
