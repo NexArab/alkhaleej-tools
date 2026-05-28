@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-28T03:42:41",
+  "last_updated": "2026-05-28T15:35:36",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 19,
@@ -138,14 +138,14 @@
       "updated_at": "2026-05-27T17:57:15"
     },
     "انتر": {
-      "weekly_points": 36,
-      "daily_points": 36,
-      "total_points": 36,
-      "wins": 3,
-      "participations": 5,
+      "weekly_points": 41,
+      "daily_points": 41,
+      "total_points": 41,
+      "wins": 4,
+      "participations": 6,
       "title": "ملك المقالات",
-      "last_win": "2026-05-26T13:46:13",
-      "updated_at": "2026-05-26T14:00:33"
+      "last_win": "2026-05-28T15:35:36",
+      "updated_at": "2026-05-28T15:35:36"
     },
     "عنقبور": {
       "weekly_points": 30,
@@ -229,6 +229,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "انتر",
+      "participants": [
+        {
+          "name": "انتر",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-28T15:35:36"
+    },
     {
       "type": 20,
       "winner": "تحـزيم",
@@ -795,17 +806,6 @@
         }
       ],
       "created_at": "2026-05-26T23:49:54"
-    },
-    {
-      "type": 15,
-      "winner": "زيرو",
-      "participants": [
-        {
-          "name": "زيرو",
-          "points": 15
-        }
-      ],
-      "created_at": "2026-05-26T23:35:46"
     }
   ]
 }
