@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-28T02:48:21",
+  "last_updated": "2026-05-28T03:47:30",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 12,
@@ -98,14 +98,14 @@
       "updated_at": "2026-05-28T02:48:21"
     },
     "جديمان": {
-      "weekly_points": 14,
-      "daily_points": 14,
-      "total_points": 14,
+      "weekly_points": 15,
+      "daily_points": 15,
+      "total_points": 15,
       "wins": 1,
-      "participations": 3,
+      "participations": 4,
       "title": "سيد المسابقات",
       "last_win": "2026-05-25T18:17:47",
-      "updated_at": "2026-05-28T01:05:48"
+      "updated_at": "2026-05-28T03:47:30"
     },
     "𝑁𝐴𝑍": {
       "weekly_points": 9,
@@ -316,9 +316,34 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-05-27T18:56:56"
+    },
+    "تحـزيم": {
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 10,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-05-28T03:47:30",
+      "updated_at": "2026-05-28T03:47:30"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "تحـزيم",
+      "participants": [
+        {
+          "name": "تحـزيم",
+          "points": 10
+        },
+        {
+          "name": "جديمان",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-05-28T03:47:30"
+    },
     {
       "type": 10,
       "winner": "هـُـمــام",
@@ -865,17 +890,6 @@
         }
       ],
       "created_at": "2026-05-27T19:20:34"
-    },
-    {
-      "type": 10,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-27T19:07:12"
     }
   ]
 }
