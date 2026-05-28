@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-28T17:32:05",
+  "last_updated": "2026-05-28T17:40:42",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 19,
@@ -228,17 +228,28 @@
       "updated_at": "2026-05-28T03:27:55"
     },
     "جـوج": {
-      "weekly_points": 65,
-      "daily_points": 65,
-      "total_points": 65,
-      "wins": 5,
-      "participations": 5,
+      "weekly_points": 90,
+      "daily_points": 90,
+      "total_points": 90,
+      "wins": 6,
+      "participations": 6,
       "title": "ملك المقالات",
-      "last_win": "2026-05-28T17:32:05",
-      "updated_at": "2026-05-28T17:32:05"
+      "last_win": "2026-05-28T17:40:42",
+      "updated_at": "2026-05-28T17:40:42"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 25
+        }
+      ],
+      "created_at": "2026-05-28T17:40:42"
+    },
     {
       "type": 5,
       "winner": "جـوج",
@@ -805,17 +816,6 @@
         }
       ],
       "created_at": "2026-05-27T00:32:56"
-    },
-    {
-      "type": 5,
-      "winner": "زيرو",
-      "participants": [
-        {
-          "name": "زيرو",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-27T00:29:52"
     }
   ]
 }
