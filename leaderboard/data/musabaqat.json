@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-28T03:51:11",
+  "last_updated": "2026-05-28T04:50:31",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 12,
@@ -68,14 +68,14 @@
       "updated_at": "2026-05-26T14:55:37"
     },
     "Rio": {
-      "weekly_points": 175,
-      "daily_points": 175,
-      "total_points": 175,
-      "wins": 18,
-      "participations": 21,
+      "weekly_points": 185,
+      "daily_points": 185,
+      "total_points": 185,
+      "wins": 19,
+      "participations": 22,
       "title": "سيد المسابقات",
-      "last_win": "2026-05-28T01:23:07",
-      "updated_at": "2026-05-28T01:23:07"
+      "last_win": "2026-05-28T04:50:31",
+      "updated_at": "2026-05-28T04:50:31"
     },
     "ＣＰＵ   ..": {
       "weekly_points": 21,
@@ -329,6 +329,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-05-28T04:50:31"
+    },
     {
       "type": 10,
       "winner": "تحـزيم",
@@ -883,17 +894,6 @@
         }
       ],
       "created_at": "2026-05-27T19:23:37"
-    },
-    {
-      "type": 10,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-27T19:22:02"
     }
   ]
 }
