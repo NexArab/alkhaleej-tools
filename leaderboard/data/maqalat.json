@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-28T22:49:14",
+  "last_updated": "2026-05-29T01:03:30",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 19,
@@ -68,14 +68,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 93,
-      "daily_points": 93,
-      "total_points": 93,
-      "wins": 12,
-      "participations": 13,
+      "weekly_points": 103,
+      "daily_points": 103,
+      "total_points": 103,
+      "wins": 13,
+      "participations": 14,
       "title": "ملك المقالات",
-      "last_win": "2026-05-27T23:31:31",
-      "updated_at": "2026-05-27T23:31:31"
+      "last_win": "2026-05-29T01:03:30",
+      "updated_at": "2026-05-29T01:03:30"
     },
     "دخيل": {
       "weekly_points": 68,
@@ -249,6 +249,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-05-29T01:03:30"
+    },
     {
       "type": 5,
       "winner": "جديمان بن شلآح الشلآويح",
@@ -819,17 +830,6 @@
         }
       ],
       "created_at": "2026-05-27T14:25:12"
-    },
-    {
-      "type": 5,
-      "winner": "ضامي",
-      "participants": [
-        {
-          "name": "ضامي",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-27T14:16:16"
     }
   ]
 }
