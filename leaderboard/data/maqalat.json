@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": null,
-  "last_updated": "2026-05-28T03:27:55",
+  "last_updated": "2026-05-28T03:38:15",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 19,
@@ -208,14 +208,14 @@
       "updated_at": "2026-05-28T00:40:24"
     },
     "تحـزيم": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 25,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 50,
+      "daily_points": 50,
+      "total_points": 50,
+      "wins": 2,
+      "participations": 2,
       "title": "ملك المقالات",
-      "last_win": "2026-05-28T03:27:55",
-      "updated_at": "2026-05-28T03:27:55"
+      "last_win": "2026-05-28T03:38:15",
+      "updated_at": "2026-05-28T03:38:15"
     },
     "جـديمان بن شلاح الشلاويح": {
       "weekly_points": 1,
@@ -229,6 +229,17 @@
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "تحـزيم",
+      "participants": [
+        {
+          "name": "تحـزيم",
+          "points": 25
+        }
+      ],
+      "created_at": "2026-05-28T03:38:15"
+    },
     {
       "type": 25,
       "winner": "تحـزيم",
@@ -787,17 +798,6 @@
         }
       ],
       "created_at": "2026-05-26T23:29:14"
-    },
-    {
-      "type": 20,
-      "winner": "ＣＰＵ        ~",
-      "participants": [
-        {
-          "name": "ＣＰＵ        ~",
-          "points": 20
-        }
-      ],
-      "created_at": "2026-05-26T23:06:50"
     }
   ]
 }
