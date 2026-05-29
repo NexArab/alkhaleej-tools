@@ -1,15 +1,23 @@
 {
   "room": "المقالات",
-  "weekly_champion": null,
-  "weekly_champion_set_at": null,
-  "daily_champion": null,
-  "daily_champion_set_at": null,
-  "last_reset": null,
-  "last_updated": "2026-05-29T03:11:27",
+  "weekly_champion": {
+    "name": "ＣＰＵ   ..",
+    "points": 500,
+    "week_of": "2026-05-29"
+  },
+  "weekly_champion_set_at": "2026-05-29T10:34:09",
+  "daily_champion": {
+    "name": "ＣＰＵ   ..",
+    "points": 500,
+    "date": "2026-05-29"
+  },
+  "daily_champion_set_at": "2026-05-29T10:34:09",
+  "last_reset": "2026-05-29T10:34:09",
+  "last_updated": "2026-05-29T10:34:09",
   "players": {
     "بَكـر الدُليمــــي": {
-      "weekly_points": 19,
-      "daily_points": 19,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 19,
       "wins": 1,
       "participations": 4,
@@ -18,8 +26,8 @@
       "updated_at": "2026-05-25T19:24:28"
     },
     "voeuxmi": {
-      "weekly_points": 45,
-      "daily_points": 45,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 45,
       "wins": 3,
       "participations": 3,
@@ -28,8 +36,8 @@
       "updated_at": "2026-05-25T15:22:51"
     },
     "ولـييد": {
-      "weekly_points": 25,
-      "daily_points": 25,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 25,
       "wins": 1,
       "participations": 1,
@@ -38,8 +46,8 @@
       "updated_at": "2026-05-25T15:05:25"
     },
     "ＣＰＵ   ..": {
-      "weekly_points": 500,
-      "daily_points": 500,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 500,
       "wins": 36,
       "participations": 39,
@@ -48,8 +56,8 @@
       "updated_at": "2026-05-26T21:56:21"
     },
     "بدرزين": {
-      "weekly_points": 61,
-      "daily_points": 61,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 61,
       "wins": 1,
       "participations": 9,
@@ -58,8 +66,8 @@
       "updated_at": "2026-05-25T17:59:42"
     },
     "جديمان": {
-      "weekly_points": 27,
-      "daily_points": 27,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 27,
       "wins": 1,
       "participations": 6,
@@ -68,8 +76,8 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 153,
-      "daily_points": 153,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 153,
       "wins": 18,
       "participations": 19,
@@ -78,8 +86,8 @@
       "updated_at": "2026-05-29T03:11:27"
     },
     "دخيل": {
-      "weekly_points": 68,
-      "daily_points": 68,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 68,
       "wins": 1,
       "participations": 7,
@@ -88,8 +96,8 @@
       "updated_at": "2026-05-25T22:18:15"
     },
     "𝕄ـ𝕆ــــ𝕆ℕ": {
-      "weekly_points": 15,
-      "daily_points": 15,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 15,
       "wins": 2,
       "participations": 2,
@@ -98,8 +106,8 @@
       "updated_at": "2026-05-25T20:56:56"
     },
     "زيرو": {
-      "weekly_points": 201,
-      "daily_points": 201,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 201,
       "wins": 19,
       "participations": 22,
@@ -108,8 +116,8 @@
       "updated_at": "2026-05-28T01:13:29"
     },
     "قنفذ": {
-      "weekly_points": 125,
-      "daily_points": 125,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 125,
       "wins": 5,
       "participations": 5,
@@ -118,8 +126,8 @@
       "updated_at": "2026-05-26T14:57:23"
     },
     "Rio": {
-      "weekly_points": 71,
-      "daily_points": 71,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 71,
       "wins": 13,
       "participations": 14,
@@ -128,8 +136,8 @@
       "updated_at": "2026-05-27T02:44:54"
     },
     "ضامي": {
-      "weekly_points": 51,
-      "daily_points": 51,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 51,
       "wins": 10,
       "participations": 11,
@@ -138,8 +146,8 @@
       "updated_at": "2026-05-27T17:57:15"
     },
     "انتر": {
-      "weekly_points": 66,
-      "daily_points": 66,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 66,
       "wins": 5,
       "participations": 7,
@@ -148,8 +156,8 @@
       "updated_at": "2026-05-28T15:41:04"
     },
     "عنقبور": {
-      "weekly_points": 30,
-      "daily_points": 30,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 30,
       "wins": 2,
       "participations": 2,
@@ -158,8 +166,8 @@
       "updated_at": "2026-05-26T14:00:33"
     },
     "ＣＰＵ        ~": {
-      "weekly_points": 35,
-      "daily_points": 35,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 35,
       "wins": 3,
       "participations": 3,
@@ -168,8 +176,8 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 20,
-      "daily_points": 20,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 20,
       "wins": 4,
       "participations": 4,
@@ -178,18 +186,18 @@
       "updated_at": "2026-05-27T14:29:35"
     },
     "كتب": {
-      "weekly_points": 200,
-      "daily_points": 200,
-      "total_points": 200,
-      "wins": 8,
-      "participations": 8,
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 225,
+      "wins": 9,
+      "participations": 9,
       "title": "ملك المقالات",
-      "last_win": "2026-05-28T20:55:23",
-      "updated_at": "2026-05-28T20:55:23"
+      "last_win": "2026-05-29T10:34:09",
+      "updated_at": "2026-05-29T10:34:09"
     },
     "روميو": {
-      "weekly_points": 10,
-      "daily_points": 10,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 10,
       "wins": 2,
       "participations": 2,
@@ -198,8 +206,8 @@
       "updated_at": "2026-05-28T22:40:07"
     },
     "جديعان بن شلاح الشلاويح": {
-      "weekly_points": 13,
-      "daily_points": 13,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 13,
       "wins": 2,
       "participations": 4,
@@ -208,8 +216,8 @@
       "updated_at": "2026-05-28T22:46:15"
     },
     "تحـزيم": {
-      "weekly_points": 70,
-      "daily_points": 70,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 70,
       "wins": 3,
       "participations": 3,
@@ -218,8 +226,8 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "جـديمان بن شلاح الشلاويح": {
-      "weekly_points": 1,
-      "daily_points": 1,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 1,
       "wins": 0,
       "participations": 1,
@@ -228,8 +236,8 @@
       "updated_at": "2026-05-28T03:27:55"
     },
     "جـوج": {
-      "weekly_points": 270,
-      "daily_points": 270,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 270,
       "wins": 14,
       "participations": 14,
@@ -238,8 +246,8 @@
       "updated_at": "2026-05-28T19:21:37"
     },
     "جديمان بن شلآح الشلآويح": {
-      "weekly_points": 12,
-      "daily_points": 12,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 12,
       "wins": 2,
       "participations": 3,
@@ -249,6 +257,17 @@
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "كتب",
+      "participants": [
+        {
+          "name": "كتب",
+          "points": 25
+        }
+      ],
+      "created_at": "2026-05-29T10:34:09"
+    },
     {
       "type": 10,
       "winner": "ســاهــــر",
@@ -815,17 +834,8 @@
         }
       ],
       "created_at": "2026-05-27T18:19:37"
-    },
-    {
-      "type": 5,
-      "winner": "ضامي",
-      "participants": [
-        {
-          "name": "ضامي",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-27T17:57:15"
     }
-  ]
+  ],
+  "last_daily_reset": "2026-05-29T10:34:09",
+  "last_weekly_reset": "2026-05-29T10:34:09"
 }
