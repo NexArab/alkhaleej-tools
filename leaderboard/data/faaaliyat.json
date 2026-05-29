@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-05-30T00:47:20",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-30T00:54:00",
+  "last_updated": "2026-05-30T00:55:30",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -22,14 +22,14 @@
       "updated_at": "2026-05-29T05:20:37"
     },
     "Rio": {
-      "weekly_points": 132,
-      "daily_points": 20,
-      "total_points": 132,
+      "weekly_points": 136,
+      "daily_points": 24,
+      "total_points": 136,
       "wins": 25,
-      "participations": 27,
+      "participations": 28,
       "title": "بطل الفعاليات",
       "last_win": "2026-05-30T00:54:00",
-      "updated_at": "2026-05-30T00:54:00"
+      "updated_at": "2026-05-30T00:55:30"
     },
     "ناعور": {
       "weekly_points": 24,
@@ -72,14 +72,14 @@
       "updated_at": "2026-05-29T20:09:35"
     },
     "هـنِيالك": {
-      "weekly_points": 6,
-      "daily_points": 4,
-      "total_points": 6,
-      "wins": 0,
-      "participations": 3,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-05-30T00:54:00"
+      "weekly_points": 11,
+      "daily_points": 9,
+      "total_points": 11,
+      "wins": 1,
+      "participations": 4,
+      "title": "بطل الفعاليات",
+      "last_win": "2026-05-30T00:55:30",
+      "updated_at": "2026-05-30T00:55:30"
     },
     "⠀⠀           ام": {
       "weekly_points": 5,
@@ -133,6 +133,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "هـنِيالك",
+      "participants": [
+        {
+          "name": "هـنِيالك",
+          "points": 5
+        },
+        {
+          "name": "Rio",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-05-30T00:55:30"
+    },
     {
       "type": 5,
       "winner": "Rio",
@@ -719,17 +734,6 @@
         }
       ],
       "created_at": "2026-05-29T17:10:31"
-    },
-    {
-      "type": 5,
-      "winner": "هـُـمــام",
-      "participants": [
-        {
-          "name": "هـُـمــام",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-29T10:31:28"
     }
   ],
   "last_daily_reset": "2026-05-30T00:47:20",
