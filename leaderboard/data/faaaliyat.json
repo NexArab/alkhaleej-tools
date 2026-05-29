@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-05-30T00:47:20",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-30T00:51:07",
+  "last_updated": "2026-05-30T00:54:00",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -22,14 +22,14 @@
       "updated_at": "2026-05-29T05:20:37"
     },
     "Rio": {
-      "weekly_points": 127,
-      "daily_points": 15,
-      "total_points": 127,
-      "wins": 24,
-      "participations": 26,
+      "weekly_points": 132,
+      "daily_points": 20,
+      "total_points": 132,
+      "wins": 25,
+      "participations": 27,
       "title": "بطل الفعاليات",
-      "last_win": "2026-05-30T00:51:07",
-      "updated_at": "2026-05-30T00:51:07"
+      "last_win": "2026-05-30T00:54:00",
+      "updated_at": "2026-05-30T00:54:00"
     },
     "ناعور": {
       "weekly_points": 24,
@@ -72,14 +72,14 @@
       "updated_at": "2026-05-29T20:09:35"
     },
     "هـنِيالك": {
-      "weekly_points": 2,
-      "daily_points": 0,
-      "total_points": 2,
+      "weekly_points": 6,
+      "daily_points": 4,
+      "total_points": 6,
       "wins": 0,
-      "participations": 2,
+      "participations": 3,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-05-29T09:31:45"
+      "updated_at": "2026-05-30T00:54:00"
     },
     "⠀⠀           ام": {
       "weekly_points": 5,
@@ -133,6 +133,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 5
+        },
+        {
+          "name": "هـنِيالك",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-05-30T00:54:00"
+    },
     {
       "type": 5,
       "winner": "Rio",
@@ -715,17 +730,6 @@
         }
       ],
       "created_at": "2026-05-29T10:31:28"
-    },
-    {
-      "type": 5,
-      "winner": "vvf",
-      "participants": [
-        {
-          "name": "vvf",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-29T10:04:57"
     }
   ],
   "last_daily_reset": "2026-05-30T00:47:20",
