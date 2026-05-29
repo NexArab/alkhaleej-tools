@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-29T09:07:45",
+  "last_updated": "2026-05-29T09:31:45",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -48,14 +48,14 @@
       "updated_at": "2026-05-29T09:00:33"
     },
     "بَكـر الدُليمــــي": {
-      "weekly_points": 17,
-      "daily_points": 17,
-      "total_points": 17,
+      "weekly_points": 21,
+      "daily_points": 21,
+      "total_points": 21,
       "wins": 3,
-      "participations": 4,
+      "participations": 5,
       "title": "بطل الفعاليات",
       "last_win": "2026-05-29T09:07:45",
-      "updated_at": "2026-05-29T09:07:45"
+      "updated_at": "2026-05-29T09:31:45"
     },
     "⠀⠀           M": {
       "weekly_points": 11,
@@ -68,17 +68,46 @@
       "updated_at": "2026-05-29T09:07:45"
     },
     "هـنِيالك": {
-      "weekly_points": 1,
-      "daily_points": 1,
-      "total_points": 1,
+      "weekly_points": 2,
+      "daily_points": 2,
+      "total_points": 2,
       "wins": 0,
-      "participations": 1,
+      "participations": 2,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-05-29T09:06:33"
+      "updated_at": "2026-05-29T09:31:45"
+    },
+    "⠀⠀           ام": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "بطل الفعاليات",
+      "last_win": "2026-05-29T09:31:45",
+      "updated_at": "2026-05-29T09:31:45"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "⠀⠀           ام",
+      "participants": [
+        {
+          "name": "⠀⠀           ام",
+          "points": 5
+        },
+        {
+          "name": "بَكـر الدُليمــــي",
+          "points": 4
+        },
+        {
+          "name": "هـنِيالك",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-05-29T09:31:45"
+    },
     {
       "type": 5,
       "winner": "بَكـر الدُليمــــي",
