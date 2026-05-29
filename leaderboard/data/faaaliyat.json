@@ -5,20 +5,31 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-29T05:19:34",
+  "last_updated": "2026-05-29T05:20:37",
   "players": {
     "إستبــــــــــــرق": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 10,
-      "wins": 2,
-      "participations": 2,
+      "weekly_points": 15,
+      "daily_points": 15,
+      "total_points": 15,
+      "wins": 3,
+      "participations": 3,
       "title": "بطل الفعاليات",
-      "last_win": "2026-05-29T05:19:34",
-      "updated_at": "2026-05-29T05:19:34"
+      "last_win": "2026-05-29T05:20:37",
+      "updated_at": "2026-05-29T05:20:37"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "إستبــــــــــــرق",
+      "participants": [
+        {
+          "name": "إستبــــــــــــرق",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-29T05:20:37"
+    },
     {
       "type": 5,
       "winner": "إستبــــــــــــرق",
