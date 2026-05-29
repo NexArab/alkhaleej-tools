@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-29T09:05:25",
+  "last_updated": "2026-05-29T09:06:33",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -48,27 +48,56 @@
       "updated_at": "2026-05-29T09:00:33"
     },
     "بَكـر الدُليمــــي": {
+      "weekly_points": 12,
+      "daily_points": 12,
+      "total_points": 12,
+      "wins": 2,
+      "participations": 3,
+      "title": "بطل الفعاليات",
+      "last_win": "2026-05-29T09:06:33",
+      "updated_at": "2026-05-29T09:06:33"
+    },
+    "⠀⠀           M": {
       "weekly_points": 7,
       "daily_points": 7,
       "total_points": 7,
       "wins": 1,
       "participations": 2,
       "title": "بطل الفعاليات",
-      "last_win": "2026-05-29T09:00:33",
-      "updated_at": "2026-05-29T09:05:25"
-    },
-    "⠀⠀           M": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
-      "title": "بطل الفعاليات",
       "last_win": "2026-05-29T09:05:25",
-      "updated_at": "2026-05-29T09:05:25"
+      "updated_at": "2026-05-29T09:06:33"
+    },
+    "هـنِيالك": {
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 1,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-05-29T09:06:33"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "بَكـر الدُليمــــي",
+      "participants": [
+        {
+          "name": "بَكـر الدُليمــــي",
+          "points": 5
+        },
+        {
+          "name": "⠀⠀           M",
+          "points": 2
+        },
+        {
+          "name": "هـنِيالك",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-05-29T09:06:33"
+    },
     {
       "type": 5,
       "winner": "⠀⠀           M",
