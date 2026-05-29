@@ -5,7 +5,7 @@
   "daily_champion": null,
   "daily_champion_set_at": null,
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-29T21:06:30",
+  "last_updated": "2026-05-29T21:09:43",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -38,14 +38,14 @@
       "updated_at": "2026-05-29T06:48:00"
     },
     "vvf": {
-      "weekly_points": 111,
-      "daily_points": 111,
-      "total_points": 111,
-      "wins": 19,
-      "participations": 27,
+      "weekly_points": 116,
+      "daily_points": 116,
+      "total_points": 116,
+      "wins": 20,
+      "participations": 28,
       "title": "بطل الفعاليات",
-      "last_win": "2026-05-29T21:06:30",
-      "updated_at": "2026-05-29T21:06:30"
+      "last_win": "2026-05-29T21:09:43",
+      "updated_at": "2026-05-29T21:09:43"
     },
     "بَكـر الدُليمــــي": {
       "weekly_points": 21,
@@ -129,6 +129,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "vvf",
+      "participants": [
+        {
+          "name": "vvf",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-29T21:09:43"
+    },
     {
       "type": 5,
       "winner": "vvf",
@@ -731,21 +742,6 @@
         }
       ],
       "created_at": "2026-05-29T09:06:33"
-    },
-    {
-      "type": 5,
-      "winner": "⠀⠀           M",
-      "participants": [
-        {
-          "name": "⠀⠀           M",
-          "points": 5
-        },
-        {
-          "name": "بَكـر الدُليمــــي",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-05-29T09:05:25"
     }
   ],
   "last_daily_reset": "2026-05-29T05:16:09",
