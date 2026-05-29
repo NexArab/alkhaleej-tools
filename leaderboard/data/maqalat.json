@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-05-29T10:34:09",
   "last_reset": "2026-05-29T10:34:09",
-  "last_updated": "2026-05-29T22:15:08",
+  "last_updated": "2026-05-29T22:25:12",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 30,
-      "daily_points": 30,
-      "total_points": 183,
-      "wins": 20,
-      "participations": 21,
+      "weekly_points": 40,
+      "daily_points": 40,
+      "total_points": 193,
+      "wins": 21,
+      "participations": 22,
       "title": "ملك المقالات",
-      "last_win": "2026-05-29T22:15:08",
-      "updated_at": "2026-05-29T22:15:08"
+      "last_win": "2026-05-29T22:25:12",
+      "updated_at": "2026-05-29T22:25:12"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -257,6 +257,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-05-29T22:25:12"
+    },
     {
       "type": 20,
       "winner": "ســاهــــر",
@@ -823,17 +834,6 @@
         }
       ],
       "created_at": "2026-05-27T21:58:38"
-    },
-    {
-      "type": 25,
-      "winner": "كتب",
-      "participants": [
-        {
-          "name": "كتب",
-          "points": 25
-        }
-      ],
-      "created_at": "2026-05-27T21:48:52"
     }
   ],
   "last_daily_reset": "2026-05-29T10:34:09",
