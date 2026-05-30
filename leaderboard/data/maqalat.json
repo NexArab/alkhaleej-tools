@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-05-30T00:09:45",
   "last_reset": "2026-05-29T10:34:09",
-  "last_updated": "2026-05-30T03:12:48",
+  "last_updated": "2026-05-30T04:11:33",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 25,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 30,
       "wins": 5,
-      "participations": 5,
+      "participations": 6,
       "title": "ملك المقالات",
       "last_win": "2026-05-30T03:12:48",
-      "updated_at": "2026-05-30T03:12:48"
+      "updated_at": "2026-05-30T04:11:33"
     },
     "كتب": {
       "weekly_points": 100,
@@ -236,14 +236,14 @@
       "updated_at": "2026-05-28T03:27:55"
     },
     "جـوج": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 270,
-      "wins": 14,
-      "participations": 14,
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 295,
+      "wins": 15,
+      "participations": 15,
       "title": "ملك المقالات",
-      "last_win": "2026-05-28T19:21:37",
-      "updated_at": "2026-05-28T19:21:37"
+      "last_win": "2026-05-30T04:11:33",
+      "updated_at": "2026-05-30T04:11:33"
     },
     "جديمان بن شلآح الشلآويح": {
       "weekly_points": 0,
@@ -257,6 +257,21 @@
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 25
+        },
+        {
+          "name": "ＣＰＵ ..",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-30T04:11:33"
+    },
     {
       "type": 5,
       "winner": "ＣＰＵ ..",
@@ -823,17 +838,6 @@
         }
       ],
       "created_at": "2026-05-28T00:40:24"
-    },
-    {
-      "type": 5,
-      "winner": "جديعان بن شلاح الشلاويح",
-      "participants": [
-        {
-          "name": "جديعان بن شلاح الشلاويح",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-28T00:36:42"
     }
   ],
   "last_daily_reset": "2026-05-30T00:09:45",
