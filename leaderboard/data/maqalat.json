@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-05-29T10:34:09",
   "daily_champion": {
-    "name": "كتب",
-    "points": 100,
-    "date": "2026-05-30"
+    "name": "ســاهــــر",
+    "points": 65,
+    "date": "2026-05-31"
   },
-  "daily_champion_set_at": "2026-05-30T00:09:45",
+  "daily_champion_set_at": "2026-05-31T01:50:24",
   "last_reset": "2026-05-29T10:34:09",
-  "last_updated": "2026-05-30T04:11:33",
+  "last_updated": "2026-05-31T01:50:24",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 105,
-      "daily_points": 65,
+      "daily_points": 0,
       "total_points": 258,
       "wins": 26,
       "participations": 27,
@@ -177,7 +177,7 @@
     },
     "ＣＰＵ ..": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 30,
       "wins": 5,
       "participations": 6,
@@ -237,7 +237,7 @@
     },
     "جـوج": {
       "weekly_points": 25,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 295,
       "wins": 15,
       "participations": 15,
@@ -254,9 +254,30 @@
       "title": "ملك المقالات",
       "last_win": "2026-05-28T22:49:14",
       "updated_at": "2026-05-28T22:49:14"
+    },
+    "...": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-05-31T01:50:24",
+      "updated_at": "2026-05-31T01:50:24"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "...",
+      "participants": [
+        {
+          "name": "...",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-31T01:50:24"
+    },
     {
       "type": 25,
       "winner": "جـوج",
@@ -823,23 +844,8 @@
         }
       ],
       "created_at": "2026-05-28T01:06:19"
-    },
-    {
-      "type": 5,
-      "winner": "جديعان بن شلاح الشلاويح",
-      "participants": [
-        {
-          "name": "جديعان بن شلاح الشلاويح",
-          "points": 5
-        },
-        {
-          "name": "جديمان",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-05-28T00:40:24"
     }
   ],
-  "last_daily_reset": "2026-05-30T00:09:45",
+  "last_daily_reset": "2026-05-31T01:50:24",
   "last_weekly_reset": "2026-05-29T10:34:09"
 }
