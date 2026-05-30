@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-05-30T00:47:20",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-30T20:52:14",
+  "last_updated": "2026-05-30T20:53:29",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -42,14 +42,14 @@
       "updated_at": "2026-05-29T06:48:00"
     },
     "vvf": {
-      "weekly_points": 230,
-      "daily_points": 94,
-      "total_points": 230,
+      "weekly_points": 234,
+      "daily_points": 98,
+      "total_points": 234,
       "wins": 42,
-      "participations": 53,
+      "participations": 54,
       "title": "بطل الفعاليات",
       "last_win": "2026-05-30T20:52:14",
-      "updated_at": "2026-05-30T20:52:14"
+      "updated_at": "2026-05-30T20:53:29"
     },
     "بَكـر الدُليمــــي": {
       "weekly_points": 22,
@@ -142,17 +142,32 @@
       "updated_at": "2026-05-30T03:16:00"
     },
     "𝑁𝐴𝑍": {
-      "weekly_points": 12,
-      "daily_points": 12,
-      "total_points": 12,
-      "wins": 1,
-      "participations": 3,
+      "weekly_points": 17,
+      "daily_points": 17,
+      "total_points": 17,
+      "wins": 2,
+      "participations": 4,
       "title": "بطل الفعاليات",
-      "last_win": "2026-05-30T20:51:01",
-      "updated_at": "2026-05-30T20:52:14"
+      "last_win": "2026-05-30T20:53:29",
+      "updated_at": "2026-05-30T20:53:29"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "𝑁𝐴𝑍",
+      "participants": [
+        {
+          "name": "𝑁𝐴𝑍",
+          "points": 5
+        },
+        {
+          "name": "vvf",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-05-30T20:53:29"
+    },
     {
       "type": 5,
       "winner": "vvf",
@@ -715,17 +730,6 @@
         }
       ],
       "created_at": "2026-05-30T05:57:09"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-30T05:55:52"
     }
   ],
   "last_daily_reset": "2026-05-30T00:47:20",
