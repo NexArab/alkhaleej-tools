@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-05-30T01:37:43",
   "last_reset": "2026-05-29T06:55:03",
-  "last_updated": "2026-05-30T04:03:25",
+  "last_updated": "2026-05-30T05:55:39",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -196,14 +196,14 @@
       "updated_at": "2026-05-26T08:24:48"
     },
     "حمدد": {
-      "weekly_points": 20,
-      "daily_points": 0,
-      "total_points": 39,
-      "wins": 5,
-      "participations": 6,
+      "weekly_points": 25,
+      "daily_points": 5,
+      "total_points": 44,
+      "wins": 6,
+      "participations": 7,
       "title": "سيد المسابقات",
-      "last_win": "2026-05-29T21:38:08",
-      "updated_at": "2026-05-29T21:38:08"
+      "last_win": "2026-05-30T05:55:39",
+      "updated_at": "2026-05-30T05:55:39"
     },
     "ميار": {
       "weekly_points": 0,
@@ -357,6 +357,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "حمدد",
+      "participants": [
+        {
+          "name": "حمدد",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-30T05:55:39"
+    },
     {
       "type": 10,
       "winner": "جـوج",
@@ -903,17 +914,6 @@
         }
       ],
       "created_at": "2026-05-29T02:39:43"
-    },
-    {
-      "type": 10,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-29T02:29:05"
     }
   ],
   "last_daily_reset": "2026-05-30T01:37:43",
