@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-05-30T00:47:20",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-30T14:04:58",
+  "last_updated": "2026-05-30T14:06:46",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -102,14 +102,14 @@
       "updated_at": "2026-05-29T19:48:01"
     },
     "جـوج": {
-      "weekly_points": 218,
-      "daily_points": 74,
-      "total_points": 218,
-      "wins": 40,
-      "participations": 46,
+      "weekly_points": 223,
+      "daily_points": 79,
+      "total_points": 223,
+      "wins": 41,
+      "participations": 47,
       "title": "بطل الفعاليات",
-      "last_win": "2026-05-30T14:04:58",
-      "updated_at": "2026-05-30T14:04:58"
+      "last_win": "2026-05-30T14:06:46",
+      "updated_at": "2026-05-30T14:06:46"
     },
     "جديمان بن شلآح الشلآويح": {
       "weekly_points": 6,
@@ -143,6 +143,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-30T14:06:46"
+    },
     {
       "type": 5,
       "winner": "جـوج",
@@ -697,17 +708,6 @@
         }
       ],
       "created_at": "2026-05-30T04:31:26"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-30T04:30:25"
     }
   ],
   "last_daily_reset": "2026-05-30T00:47:20",
