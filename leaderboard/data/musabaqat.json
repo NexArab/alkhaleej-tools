@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-05-30T01:37:43",
   "last_reset": "2026-05-29T06:55:03",
-  "last_updated": "2026-05-30T10:01:02",
+  "last_updated": "2026-05-30T20:46:47",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -374,9 +374,30 @@
       "title": "سيد المسابقات",
       "last_win": "2026-05-30T10:01:02",
       "updated_at": "2026-05-30T10:01:02"
+    },
+    "دآمـي .": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-05-30T20:46:47",
+      "updated_at": "2026-05-30T20:46:47"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "دآمـي .",
+      "participants": [
+        {
+          "name": "دآمـي .",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-30T20:46:47"
+    },
     {
       "type": 5,
       "winner": "نجر",
@@ -931,17 +952,6 @@
         }
       ],
       "created_at": "2026-05-29T06:55:03"
-    },
-    {
-      "type": 10,
-      "winner": "⠀⠀           M",
-      "participants": [
-        {
-          "name": "⠀⠀           M",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-29T04:11:11"
     }
   ],
   "last_daily_reset": "2026-05-30T01:37:43",
