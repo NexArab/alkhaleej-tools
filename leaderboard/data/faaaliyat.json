@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-05-30T00:47:20",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-30T21:06:40",
+  "last_updated": "2026-05-30T21:09:22",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -42,14 +42,14 @@
       "updated_at": "2026-05-29T06:48:00"
     },
     "vvf": {
-      "weekly_points": 259,
-      "daily_points": 123,
-      "total_points": 259,
-      "wins": 45,
-      "participations": 60,
+      "weekly_points": 264,
+      "daily_points": 128,
+      "total_points": 264,
+      "wins": 46,
+      "participations": 61,
       "title": "بطل الفعاليات",
-      "last_win": "2026-05-30T21:06:40",
-      "updated_at": "2026-05-30T21:06:40"
+      "last_win": "2026-05-30T21:09:22",
+      "updated_at": "2026-05-30T21:09:22"
     },
     "بَكـر الدُليمــــي": {
       "weekly_points": 22,
@@ -142,17 +142,32 @@
       "updated_at": "2026-05-30T03:16:00"
     },
     "𝑁𝐴𝑍": {
-      "weekly_points": 40,
-      "daily_points": 40,
-      "total_points": 40,
+      "weekly_points": 44,
+      "daily_points": 44,
+      "total_points": 44,
       "wins": 5,
-      "participations": 10,
+      "participations": 11,
       "title": "بطل الفعاليات",
       "last_win": "2026-05-30T21:03:43",
-      "updated_at": "2026-05-30T21:06:40"
+      "updated_at": "2026-05-30T21:09:22"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "vvf",
+      "participants": [
+        {
+          "name": "vvf",
+          "points": 5
+        },
+        {
+          "name": "𝑁𝐴𝑍",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-05-30T21:09:22"
+    },
     {
       "type": 5,
       "winner": "vvf",
@@ -743,17 +758,6 @@
         }
       ],
       "created_at": "2026-05-30T06:22:47"
-    },
-    {
-      "type": 5,
-      "winner": "vvf",
-      "participants": [
-        {
-          "name": "vvf",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-30T06:21:06"
     }
   ],
   "last_daily_reset": "2026-05-30T00:47:20",
