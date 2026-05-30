@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-05-30T00:47:20",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-30T02:41:50",
+  "last_updated": "2026-05-30T03:03:46",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -102,14 +102,14 @@
       "updated_at": "2026-05-29T19:48:01"
     },
     "جـوج": {
-      "weekly_points": 144,
-      "daily_points": 0,
-      "total_points": 144,
+      "weekly_points": 146,
+      "daily_points": 2,
+      "total_points": 146,
       "wins": 26,
-      "participations": 30,
+      "participations": 31,
       "title": "بطل الفعاليات",
       "last_win": "2026-05-29T23:05:58",
-      "updated_at": "2026-05-29T23:05:58"
+      "updated_at": "2026-05-30T03:03:46"
     },
     "جديمان بن شلآح الشلآويح": {
       "weekly_points": 6,
@@ -130,9 +130,34 @@
       "title": "بطل الفعاليات",
       "last_win": "2026-05-29T17:26:56",
       "updated_at": "2026-05-30T01:08:52"
+    },
+    "ＣＰＵ ..": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "بطل الفعاليات",
+      "last_win": "2026-05-30T03:03:46",
+      "updated_at": "2026-05-30T03:03:46"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 5
+        },
+        {
+          "name": "جـوج",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-05-30T03:03:46"
+    },
     {
       "type": 5,
       "winner": "⠀⠀           M",
@@ -719,17 +744,6 @@
         }
       ],
       "created_at": "2026-05-29T19:00:39"
-    },
-    {
-      "type": 5,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-29T18:59:02"
     }
   ],
   "last_daily_reset": "2026-05-30T00:47:20",
