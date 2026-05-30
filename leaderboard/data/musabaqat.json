@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-05-31T01:29:38",
   "last_reset": "2026-05-29T06:55:03",
-  "last_updated": "2026-05-31T01:29:38",
+  "last_updated": "2026-05-31T01:40:41",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -96,14 +96,14 @@
       "updated_at": "2026-05-26T21:20:37"
     },
     "هـُـمــام": {
-      "weekly_points": 30,
-      "daily_points": 10,
-      "total_points": 347,
-      "wins": 31,
-      "participations": 43,
+      "weekly_points": 35,
+      "daily_points": 15,
+      "total_points": 352,
+      "wins": 32,
+      "participations": 44,
       "title": "سيد المسابقات",
-      "last_win": "2026-05-31T01:29:38",
-      "updated_at": "2026-05-31T01:29:38"
+      "last_win": "2026-05-31T01:40:41",
+      "updated_at": "2026-05-31T01:40:41"
     },
     "جديمان": {
       "weekly_points": 0,
@@ -397,6 +397,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "هـُـمــام",
+      "participants": [
+        {
+          "name": "هـُـمــام",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-31T01:40:41"
+    },
     {
       "type": 10,
       "winner": "هـُـمــام",
@@ -947,21 +958,6 @@
         }
       ],
       "created_at": "2026-05-29T07:30:12"
-    },
-    {
-      "type": 10,
-      "winner": "ناعور",
-      "participants": [
-        {
-          "name": "ناعور",
-          "points": 10
-        },
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-29T07:26:05"
     }
   ],
   "last_daily_reset": "2026-05-31T01:29:38",
