@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-05-29T06:55:03",
   "daily_champion": {
-    "name": "ناعور",
-    "points": 170,
-    "date": "2026-05-30"
+    "name": "vvf",
+    "points": 45,
+    "date": "2026-05-31"
   },
-  "daily_champion_set_at": "2026-05-30T01:37:43",
+  "daily_champion_set_at": "2026-05-31T01:29:38",
   "last_reset": "2026-05-29T06:55:03",
-  "last_updated": "2026-05-30T22:00:48",
+  "last_updated": "2026-05-31T01:29:38",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -37,7 +37,7 @@
     },
     "هـنِيالك": {
       "weekly_points": 4,
-      "daily_points": 4,
+      "daily_points": 0,
       "total_points": 15,
       "wins": 2,
       "participations": 4,
@@ -57,7 +57,7 @@
     },
     "جـوج": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 2331,
       "wins": 235,
       "participations": 245,
@@ -77,7 +77,7 @@
     },
     "Rio": {
       "weekly_points": 55,
-      "daily_points": 35,
+      "daily_points": 0,
       "total_points": 480,
       "wins": 49,
       "participations": 53,
@@ -96,14 +96,14 @@
       "updated_at": "2026-05-26T21:20:37"
     },
     "هـُـمــام": {
-      "weekly_points": 20,
-      "daily_points": 0,
-      "total_points": 337,
-      "wins": 30,
-      "participations": 42,
+      "weekly_points": 30,
+      "daily_points": 10,
+      "total_points": 347,
+      "wins": 31,
+      "participations": 43,
       "title": "سيد المسابقات",
-      "last_win": "2026-05-29T10:52:36",
-      "updated_at": "2026-05-29T10:52:36"
+      "last_win": "2026-05-31T01:29:38",
+      "updated_at": "2026-05-31T01:29:38"
     },
     "جديمان": {
       "weekly_points": 0,
@@ -177,7 +177,7 @@
     },
     "⠀⠀           M": {
       "weekly_points": 15,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 68,
       "wins": 11,
       "participations": 14,
@@ -197,7 +197,7 @@
     },
     "حمدد": {
       "weekly_points": 35,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 54,
       "wins": 7,
       "participations": 8,
@@ -267,7 +267,7 @@
     },
     "ＣＰＵ ..": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 20,
       "wins": 3,
       "participations": 3,
@@ -347,7 +347,7 @@
     },
     "vvf": {
       "weekly_points": 105,
-      "daily_points": 45,
+      "daily_points": 0,
       "total_points": 105,
       "wins": 10,
       "participations": 12,
@@ -357,7 +357,7 @@
     },
     "..،،": {
       "weekly_points": 15,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 15,
       "wins": 3,
       "participations": 3,
@@ -367,7 +367,7 @@
     },
     "نجر": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -377,7 +377,7 @@
     },
     "دآمـي .": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -387,7 +387,7 @@
     },
     "ٕ، وهَـنٌ ..": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 10,
       "wins": 1,
       "participations": 1,
@@ -397,6 +397,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "هـُـمــام",
+      "participants": [
+        {
+          "name": "هـُـمــام",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-05-31T01:29:38"
+    },
     {
       "type": 10,
       "winner": "ٕ، وهَـنٌ ..",
@@ -951,19 +962,8 @@
         }
       ],
       "created_at": "2026-05-29T07:26:05"
-    },
-    {
-      "type": 10,
-      "winner": "ناعور",
-      "participants": [
-        {
-          "name": "ناعور",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-29T07:22:02"
     }
   ],
-  "last_daily_reset": "2026-05-30T01:37:43",
+  "last_daily_reset": "2026-05-31T01:29:38",
   "last_weekly_reset": "2026-05-29T06:55:03"
 }
