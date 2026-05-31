@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-05-31T01:50:24",
   "last_reset": "2026-05-29T10:34:09",
-  "last_updated": "2026-05-31T03:48:33",
+  "last_updated": "2026-05-31T03:53:28",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -274,9 +274,30 @@
       "title": "ملك المقالات",
       "last_win": "2026-05-31T03:48:33",
       "updated_at": "2026-05-31T03:48:33"
+    },
+    "شين باء": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-05-31T03:53:28",
+      "updated_at": "2026-05-31T03:53:28"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "شين باء",
+      "participants": [
+        {
+          "name": "شين باء",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-31T03:53:28"
+    },
     {
       "type": 5,
       "winner": "How?",
@@ -843,17 +864,6 @@
         }
       ],
       "created_at": "2026-05-28T03:27:55"
-    },
-    {
-      "type": 5,
-      "winner": "جديمان",
-      "participants": [
-        {
-          "name": "جديمان",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-28T02:50:13"
     }
   ],
   "last_daily_reset": "2026-05-31T01:50:24",
