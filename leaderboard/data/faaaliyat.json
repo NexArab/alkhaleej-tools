@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-05-31T01:38:08",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-31T07:17:29",
+  "last_updated": "2026-05-31T07:19:16",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -22,14 +22,14 @@
       "updated_at": "2026-05-29T05:20:37"
     },
     "Rio": {
-      "weekly_points": 517,
-      "daily_points": 125,
-      "total_points": 517,
-      "wins": 99,
-      "participations": 108,
+      "weekly_points": 522,
+      "daily_points": 130,
+      "total_points": 522,
+      "wins": 100,
+      "participations": 109,
       "title": "بطل الفعاليات",
-      "last_win": "2026-05-31T07:12:14",
-      "updated_at": "2026-05-31T07:16:06"
+      "last_win": "2026-05-31T07:19:16",
+      "updated_at": "2026-05-31T07:19:16"
     },
     "ناعور": {
       "weekly_points": 24,
@@ -42,14 +42,14 @@
       "updated_at": "2026-05-29T06:48:00"
     },
     "vvf": {
-      "weekly_points": 334,
-      "daily_points": 70,
-      "total_points": 334,
+      "weekly_points": 337,
+      "daily_points": 73,
+      "total_points": 337,
       "wins": 59,
-      "participations": 76,
+      "participations": 77,
       "title": "بطل الفعاليات",
       "last_win": "2026-05-31T07:17:29",
-      "updated_at": "2026-05-31T07:17:29"
+      "updated_at": "2026-05-31T07:19:16"
     },
     "بَكـر الدُليمــــي": {
       "weekly_points": 22,
@@ -173,6 +173,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 5
+        },
+        {
+          "name": "vvf",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-05-31T07:19:16"
+    },
     {
       "type": 5,
       "winner": "vvf",
@@ -787,21 +802,6 @@
         }
       ],
       "created_at": "2026-05-30T20:56:30"
-    },
-    {
-      "type": 5,
-      "winner": "𝑁𝐴𝑍",
-      "participants": [
-        {
-          "name": "𝑁𝐴𝑍",
-          "points": 5
-        },
-        {
-          "name": "vvf",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-05-30T20:53:29"
     }
   ],
   "last_daily_reset": "2026-05-31T01:38:08",
