@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-05-31T01:38:08",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-31T04:51:16",
+  "last_updated": "2026-05-31T04:53:12",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -22,14 +22,14 @@
       "updated_at": "2026-05-29T05:20:37"
     },
     "Rio": {
-      "weekly_points": 464,
-      "daily_points": 72,
-      "total_points": 464,
-      "wins": 90,
-      "participations": 95,
+      "weekly_points": 469,
+      "daily_points": 77,
+      "total_points": 469,
+      "wins": 91,
+      "participations": 96,
       "title": "بطل الفعاليات",
-      "last_win": "2026-05-31T04:51:16",
-      "updated_at": "2026-05-31T04:51:16"
+      "last_win": "2026-05-31T04:53:12",
+      "updated_at": "2026-05-31T04:53:12"
     },
     "ناعور": {
       "weekly_points": 24,
@@ -152,17 +152,46 @@
       "updated_at": "2026-05-30T21:09:22"
     },
     "، سهـِر ..": {
-      "weekly_points": 1,
-      "daily_points": 1,
-      "total_points": 1,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 0,
+      "participations": 2,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-05-31T04:53:12"
+    },
+    "، دهـِر ..": {
+      "weekly_points": 3,
+      "daily_points": 3,
+      "total_points": 3,
       "wins": 0,
       "participations": 1,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-05-31T04:51:16"
+      "updated_at": "2026-05-31T04:53:12"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 5
+        },
+        {
+          "name": "، سهـِر ..",
+          "points": 4
+        },
+        {
+          "name": "، دهـِر ..",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-05-31T04:53:12"
+    },
     {
       "type": 5,
       "winner": "Rio",
@@ -761,17 +790,6 @@
         }
       ],
       "created_at": "2026-05-30T14:04:58"
-    },
-    {
-      "type": 5,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-30T14:03:28"
     }
   ],
   "last_daily_reset": "2026-05-31T01:38:08",
