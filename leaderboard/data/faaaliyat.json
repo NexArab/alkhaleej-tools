@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-05-31T01:38:08",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-31T07:30:12",
+  "last_updated": "2026-05-31T16:34:15",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -22,14 +22,14 @@
       "updated_at": "2026-05-29T05:20:37"
     },
     "Rio": {
-      "weekly_points": 527,
-      "daily_points": 135,
-      "total_points": 527,
-      "wins": 101,
-      "participations": 110,
+      "weekly_points": 532,
+      "daily_points": 140,
+      "total_points": 532,
+      "wins": 102,
+      "participations": 111,
       "title": "بطل الفعاليات",
-      "last_win": "2026-05-31T07:30:12",
-      "updated_at": "2026-05-31T07:30:12"
+      "last_win": "2026-05-31T16:34:15",
+      "updated_at": "2026-05-31T16:34:15"
     },
     "ناعور": {
       "weekly_points": 24,
@@ -173,6 +173,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-05-31T16:34:15"
+    },
     {
       "type": 5,
       "winner": "Rio",
@@ -779,21 +790,6 @@
         }
       ],
       "created_at": "2026-05-30T21:00:48"
-    },
-    {
-      "type": 5,
-      "winner": "𝑁𝐴𝑍",
-      "participants": [
-        {
-          "name": "𝑁𝐴𝑍",
-          "points": 5
-        },
-        {
-          "name": "vvf",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-05-30T20:59:24"
     }
   ],
   "last_daily_reset": "2026-05-31T01:38:08",
