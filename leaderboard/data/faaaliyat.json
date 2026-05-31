@@ -4,12 +4,12 @@
   "weekly_champion_set_at": null,
   "daily_champion": {
     "name": "Rio",
-    "points": 280,
-    "date": "2026-05-31"
+    "points": 160,
+    "date": "2026-06-01"
   },
-  "daily_champion_set_at": "2026-05-31T01:38:08",
+  "daily_champion_set_at": "2026-06-01T01:26:50",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-05-31T22:08:17",
+  "last_updated": "2026-06-01T01:26:50",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -22,14 +22,14 @@
       "updated_at": "2026-05-29T05:20:37"
     },
     "Rio": {
-      "weekly_points": 552,
-      "daily_points": 160,
-      "total_points": 552,
-      "wins": 106,
-      "participations": 115,
+      "weekly_points": 557,
+      "daily_points": 5,
+      "total_points": 557,
+      "wins": 107,
+      "participations": 116,
       "title": "بطل الفعاليات",
-      "last_win": "2026-05-31T22:08:17",
-      "updated_at": "2026-05-31T22:08:17"
+      "last_win": "2026-06-01T01:26:50",
+      "updated_at": "2026-06-01T01:26:50"
     },
     "ناعور": {
       "weekly_points": 24,
@@ -43,7 +43,7 @@
     },
     "vvf": {
       "weekly_points": 342,
-      "daily_points": 78,
+      "daily_points": 0,
       "total_points": 342,
       "wins": 60,
       "participations": 78,
@@ -73,7 +73,7 @@
     },
     "هـنِيالك": {
       "weekly_points": 36,
-      "daily_points": 17,
+      "daily_points": 0,
       "total_points": 36,
       "wins": 5,
       "participations": 12,
@@ -93,7 +93,7 @@
     },
     "هـُـمــام": {
       "weekly_points": 15,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 15,
       "wins": 3,
       "participations": 3,
@@ -123,7 +123,7 @@
     },
     "نــــايــــف": {
       "weekly_points": 27,
-      "daily_points": 14,
+      "daily_points": 0,
       "total_points": 27,
       "wins": 3,
       "participations": 9,
@@ -153,7 +153,7 @@
     },
     "، سهـِر ..": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 0,
       "participations": 2,
@@ -163,7 +163,7 @@
     },
     "، دهـِر ..": {
       "weekly_points": 3,
-      "daily_points": 3,
+      "daily_points": 0,
       "total_points": 3,
       "wins": 0,
       "participations": 1,
@@ -173,6 +173,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-01T01:26:50"
+    },
     {
       "type": 5,
       "winner": "Rio",
@@ -767,19 +778,8 @@
         }
       ],
       "created_at": "2026-05-31T01:40:22"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-31T01:38:08"
     }
   ],
-  "last_daily_reset": "2026-05-31T01:38:08",
+  "last_daily_reset": "2026-06-01T01:26:50",
   "last_weekly_reset": "2026-05-29T05:16:09"
 }
