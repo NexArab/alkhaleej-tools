@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-05-31T01:29:38",
   "last_reset": "2026-05-29T06:55:03",
-  "last_updated": "2026-05-31T03:43:10",
+  "last_updated": "2026-05-31T04:25:35",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -36,14 +36,14 @@
       "updated_at": "2026-05-31T03:43:10"
     },
     "هـنِيالك": {
-      "weekly_points": 4,
-      "daily_points": 0,
-      "total_points": 15,
-      "wins": 2,
-      "participations": 4,
+      "weekly_points": 14,
+      "daily_points": 10,
+      "total_points": 25,
+      "wins": 3,
+      "participations": 5,
       "title": "سيد المسابقات",
-      "last_win": "2026-05-25T22:25:27",
-      "updated_at": "2026-05-30T08:29:28"
+      "last_win": "2026-05-31T04:25:35",
+      "updated_at": "2026-05-31T04:25:35"
     },
     "Solo": {
       "weekly_points": 0,
@@ -397,6 +397,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "هـنِيالك",
+      "participants": [
+        {
+          "name": "هـنِيالك",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-05-31T04:25:35"
+    },
     {
       "type": 5,
       "winner": "How?",
@@ -947,17 +958,6 @@
         }
       ],
       "created_at": "2026-05-29T07:36:41"
-    },
-    {
-      "type": 10,
-      "winner": "ناعور",
-      "participants": [
-        {
-          "name": "ناعور",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-29T07:34:58"
     }
   ],
   "last_daily_reset": "2026-05-31T01:29:38",
