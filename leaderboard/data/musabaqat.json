@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-05-29T06:55:03",
   "daily_champion": {
-    "name": "vvf",
-    "points": 45,
-    "date": "2026-05-31"
+    "name": "Rio",
+    "points": 31,
+    "date": "2026-06-01"
   },
-  "daily_champion_set_at": "2026-05-31T01:29:38",
+  "daily_champion_set_at": "2026-06-01T02:15:33",
   "last_reset": "2026-05-29T06:55:03",
-  "last_updated": "2026-05-31T22:15:12",
+  "last_updated": "2026-06-01T02:15:33",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,18 +26,18 @@
       "updated_at": "2026-05-25T10:45:46"
     },
     "How?": {
-      "weekly_points": 30,
-      "daily_points": 30,
-      "total_points": 87,
-      "wins": 15,
-      "participations": 16,
+      "weekly_points": 35,
+      "daily_points": 5,
+      "total_points": 92,
+      "wins": 16,
+      "participations": 17,
       "title": "سيد المسابقات",
-      "last_win": "2026-05-31T06:14:44",
-      "updated_at": "2026-05-31T06:14:44"
+      "last_win": "2026-06-01T02:15:33",
+      "updated_at": "2026-06-01T02:15:33"
     },
     "هـنِيالك": {
       "weekly_points": 14,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 25,
       "wins": 3,
       "participations": 5,
@@ -77,7 +77,7 @@
     },
     "Rio": {
       "weekly_points": 86,
-      "daily_points": 31,
+      "daily_points": 0,
       "total_points": 511,
       "wins": 52,
       "participations": 57,
@@ -97,7 +97,7 @@
     },
     "هـُـمــام": {
       "weekly_points": 35,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 352,
       "wins": 32,
       "participations": 44,
@@ -267,7 +267,7 @@
     },
     "ＣＰＵ ..": {
       "weekly_points": 15,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 25,
       "wins": 4,
       "participations": 4,
@@ -387,7 +387,7 @@
     },
     "ٕ، وهَـنٌ ..": {
       "weekly_points": 30,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 30,
       "wins": 4,
       "participations": 4,
@@ -397,7 +397,7 @@
     },
     "⠀⠀           محـمّد": {
       "weekly_points": 30,
-      "daily_points": 30,
+      "daily_points": 0,
       "total_points": 30,
       "wins": 3,
       "participations": 3,
@@ -407,7 +407,7 @@
     },
     "𝒟𝒶𝓃": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -417,6 +417,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-01T02:15:33"
+    },
     {
       "type": 5,
       "winner": "𝒟𝒶𝓃",
@@ -971,19 +982,8 @@
         }
       ],
       "created_at": "2026-05-29T09:02:12"
-    },
-    {
-      "type": 10,
-      "winner": "vvf",
-      "participants": [
-        {
-          "name": "vvf",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-29T08:53:53"
     }
   ],
-  "last_daily_reset": "2026-05-31T01:29:38",
+  "last_daily_reset": "2026-06-01T02:15:33",
   "last_weekly_reset": "2026-05-29T06:55:03"
 }
