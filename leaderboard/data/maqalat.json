@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-05-29T10:34:09",
   "daily_champion": {
-    "name": "ســاهــــر",
-    "points": 65,
-    "date": "2026-05-31"
+    "name": "كتب",
+    "points": 180,
+    "date": "2026-06-01"
   },
-  "daily_champion_set_at": "2026-05-31T01:50:24",
+  "daily_champion_set_at": "2026-06-01T02:18:12",
   "last_reset": "2026-05-29T10:34:09",
-  "last_updated": "2026-05-31T20:35:35",
+  "last_updated": "2026-06-01T02:18:12",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -127,7 +127,7 @@
     },
     "Rio": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 76,
       "wins": 14,
       "participations": 15,
@@ -137,7 +137,7 @@
     },
     "ضامي": {
       "weekly_points": 35,
-      "daily_points": 35,
+      "daily_points": 0,
       "total_points": 86,
       "wins": 17,
       "participations": 18,
@@ -177,7 +177,7 @@
     },
     "ＣＰＵ ..": {
       "weekly_points": 175,
-      "daily_points": 165,
+      "daily_points": 0,
       "total_points": 195,
       "wins": 24,
       "participations": 26,
@@ -187,7 +187,7 @@
     },
     "كتب": {
       "weekly_points": 280,
-      "daily_points": 180,
+      "daily_points": 0,
       "total_points": 480,
       "wins": 22,
       "participations": 22,
@@ -247,7 +247,7 @@
     },
     "جديمان بن شلآح الشلآويح": {
       "weekly_points": 1,
-      "daily_points": 1,
+      "daily_points": 0,
       "total_points": 13,
       "wins": 2,
       "participations": 4,
@@ -257,7 +257,7 @@
     },
     "...": {
       "weekly_points": 15,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 15,
       "wins": 3,
       "participations": 3,
@@ -266,18 +266,18 @@
       "updated_at": "2026-05-31T12:22:30"
     },
     "How?": {
-      "weekly_points": 22,
-      "daily_points": 22,
-      "total_points": 22,
-      "wins": 2,
-      "participations": 6,
+      "weekly_points": 27,
+      "daily_points": 5,
+      "total_points": 27,
+      "wins": 3,
+      "participations": 7,
       "title": "ملك المقالات",
-      "last_win": "2026-05-31T03:48:33",
-      "updated_at": "2026-05-31T04:42:20"
+      "last_win": "2026-06-01T02:18:12",
+      "updated_at": "2026-06-01T02:18:12"
     },
     "شين باء": {
       "weekly_points": 51,
-      "daily_points": 51,
+      "daily_points": 0,
       "total_points": 51,
       "wins": 3,
       "participations": 10,
@@ -287,7 +287,7 @@
     },
     "سولو": {
       "weekly_points": 2,
-      "daily_points": 2,
+      "daily_points": 0,
       "total_points": 2,
       "wins": 0,
       "participations": 2,
@@ -297,6 +297,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-01T02:18:12"
+    },
     {
       "type": 25,
       "winner": "كتب",
@@ -899,19 +910,8 @@
         }
       ],
       "created_at": "2026-05-30T00:23:58"
-    },
-    {
-      "type": 10,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-30T00:22:04"
     }
   ],
-  "last_daily_reset": "2026-05-31T01:50:24",
+  "last_daily_reset": "2026-06-01T02:18:12",
   "last_weekly_reset": "2026-05-29T10:34:09"
 }
