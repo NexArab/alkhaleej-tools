@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-01T02:18:12",
   "last_reset": "2026-05-29T10:34:09",
-  "last_updated": "2026-06-01T07:14:46",
+  "last_updated": "2026-06-01T07:21:11",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -186,14 +186,14 @@
       "updated_at": "2026-05-31T04:55:18"
     },
     "كتب": {
-      "weekly_points": 330,
-      "daily_points": 50,
-      "total_points": 530,
-      "wins": 24,
-      "participations": 24,
+      "weekly_points": 355,
+      "daily_points": 75,
+      "total_points": 555,
+      "wins": 25,
+      "participations": 25,
       "title": "ملك المقالات",
-      "last_win": "2026-06-01T07:14:46",
-      "updated_at": "2026-06-01T07:14:46"
+      "last_win": "2026-06-01T07:21:11",
+      "updated_at": "2026-06-01T07:21:11"
     },
     "روميو": {
       "weekly_points": 0,
@@ -327,6 +327,17 @@
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "كتب",
+      "participants": [
+        {
+          "name": "كتب",
+          "points": 25
+        }
+      ],
+      "created_at": "2026-06-01T07:21:11"
+    },
     {
       "type": 25,
       "winner": "كتب",
@@ -969,17 +980,6 @@
         }
       ],
       "created_at": "2026-05-31T03:59:07"
-    },
-    {
-      "type": 10,
-      "winner": "شين باء",
-      "participants": [
-        {
-          "name": "شين باء",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-31T03:56:19"
     }
   ],
   "last_daily_reset": "2026-06-01T02:18:12",
