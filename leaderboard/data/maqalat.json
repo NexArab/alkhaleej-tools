@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-01T02:18:12",
   "last_reset": "2026-05-29T10:34:09",
-  "last_updated": "2026-06-01T20:29:19",
+  "last_updated": "2026-06-01T20:31:08",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -326,17 +326,28 @@
       "updated_at": "2026-06-01T07:14:46"
     },
     "التجربة": {
-      "weekly_points": 55,
-      "daily_points": 55,
-      "total_points": 55,
-      "wins": 4,
-      "participations": 4,
+      "weekly_points": 60,
+      "daily_points": 60,
+      "total_points": 60,
+      "wins": 5,
+      "participations": 5,
       "title": "ملك المقالات",
-      "last_win": "2026-06-01T20:29:19",
-      "updated_at": "2026-06-01T20:29:19"
+      "last_win": "2026-06-01T20:31:08",
+      "updated_at": "2026-06-01T20:31:08"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "التجربة",
+      "participants": [
+        {
+          "name": "التجربة",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-01T20:31:08"
+    },
     {
       "type": 10,
       "winner": "التجربة",
@@ -939,21 +950,6 @@
         }
       ],
       "created_at": "2026-05-31T04:49:15"
-    },
-    {
-      "type": 10,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 10
-        },
-        {
-          "name": "شين باء",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-31T04:46:19"
     }
   ],
   "last_daily_reset": "2026-06-01T02:18:12",
