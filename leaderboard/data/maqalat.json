@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-01T02:18:12",
   "last_reset": "2026-05-29T10:34:09",
-  "last_updated": "2026-06-01T06:52:54",
+  "last_updated": "2026-06-01T07:14:46",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -186,14 +186,14 @@
       "updated_at": "2026-05-31T04:55:18"
     },
     "كتب": {
-      "weekly_points": 305,
-      "daily_points": 25,
-      "total_points": 505,
-      "wins": 23,
-      "participations": 23,
+      "weekly_points": 330,
+      "daily_points": 50,
+      "total_points": 530,
+      "wins": 24,
+      "participations": 24,
       "title": "ملك المقالات",
-      "last_win": "2026-06-01T06:52:54",
-      "updated_at": "2026-06-01T06:52:54"
+      "last_win": "2026-06-01T07:14:46",
+      "updated_at": "2026-06-01T07:14:46"
     },
     "روميو": {
       "weekly_points": 0,
@@ -316,17 +316,32 @@
       "updated_at": "2026-06-01T06:02:55"
     },
     "نجر": {
-      "weekly_points": 15,
-      "daily_points": 15,
-      "total_points": 15,
+      "weekly_points": 28,
+      "daily_points": 28,
+      "total_points": 28,
       "wins": 1,
-      "participations": 3,
+      "participations": 4,
       "title": "ملك المقالات",
       "last_win": "2026-06-01T06:02:55",
-      "updated_at": "2026-06-01T06:02:55"
+      "updated_at": "2026-06-01T07:14:46"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "كتب",
+      "participants": [
+        {
+          "name": "كتب",
+          "points": 25
+        },
+        {
+          "name": "نجر",
+          "points": 13
+        }
+      ],
+      "created_at": "2026-06-01T07:14:46"
+    },
     {
       "type": 25,
       "winner": "كتب",
@@ -965,17 +980,6 @@
         }
       ],
       "created_at": "2026-05-31T03:56:19"
-    },
-    {
-      "type": 5,
-      "winner": "شين باء",
-      "participants": [
-        {
-          "name": "شين باء",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-31T03:53:28"
     }
   ],
   "last_daily_reset": "2026-06-01T02:18:12",
