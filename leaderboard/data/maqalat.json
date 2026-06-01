@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-01T02:18:12",
   "last_reset": "2026-05-29T10:34:09",
-  "last_updated": "2026-06-01T05:51:52",
+  "last_updated": "2026-06-01T05:56:08",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -246,14 +246,14 @@
       "updated_at": "2026-05-30T04:11:33"
     },
     "جديمان بن شلآح الشلآويح": {
-      "weekly_points": 8,
-      "daily_points": 7,
-      "total_points": 20,
+      "weekly_points": 10,
+      "daily_points": 9,
+      "total_points": 22,
       "wins": 3,
-      "participations": 6,
+      "participations": 7,
       "title": "ملك المقالات",
       "last_win": "2026-06-01T05:41:35",
-      "updated_at": "2026-06-01T05:51:52"
+      "updated_at": "2026-06-01T05:56:08"
     },
     "...": {
       "weekly_points": 15,
@@ -266,14 +266,14 @@
       "updated_at": "2026-05-31T12:22:30"
     },
     "How?": {
-      "weekly_points": 53,
-      "daily_points": 31,
-      "total_points": 53,
+      "weekly_points": 56,
+      "daily_points": 34,
+      "total_points": 56,
       "wins": 6,
-      "participations": 12,
+      "participations": 13,
       "title": "ملك المقالات",
       "last_win": "2026-06-01T05:08:35",
-      "updated_at": "2026-06-01T05:51:52"
+      "updated_at": "2026-06-01T05:56:08"
     },
     "شين باء": {
       "weekly_points": 51,
@@ -306,27 +306,50 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 10,
-      "wins": 2,
-      "participations": 2,
+      "weekly_points": 20,
+      "daily_points": 20,
+      "total_points": 20,
+      "wins": 3,
+      "participations": 3,
       "title": "ملك المقالات",
-      "last_win": "2026-06-01T05:51:52",
-      "updated_at": "2026-06-01T05:51:52"
+      "last_win": "2026-06-01T05:56:08",
+      "updated_at": "2026-06-01T05:56:08"
     },
     "نجر": {
-      "weekly_points": 3,
-      "daily_points": 3,
-      "total_points": 3,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
       "wins": 0,
-      "participations": 1,
+      "participations": 2,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-01T05:51:52"
+      "updated_at": "2026-06-01T05:56:08"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 10
+        },
+        {
+          "name": "How?",
+          "points": 3
+        },
+        {
+          "name": "نجر",
+          "points": 2
+        },
+        {
+          "name": "جديمان بن شلآح الشلآويح",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-01T05:56:08"
+    },
     {
       "type": 5,
       "winner": "أدرينالين",
@@ -945,17 +968,6 @@
         }
       ],
       "created_at": "2026-05-31T03:46:29"
-    },
-    {
-      "type": 10,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-31T02:46:15"
     }
   ],
   "last_daily_reset": "2026-06-01T02:18:12",
