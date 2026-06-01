@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-06-01T01:26:50",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-06-01T21:01:37",
+  "last_updated": "2026-06-01T21:04:46",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -102,14 +102,14 @@
       "updated_at": "2026-05-31T01:48:55"
     },
     "جـوج": {
-      "weekly_points": 397,
-      "daily_points": 109,
-      "total_points": 397,
-      "wins": 75,
-      "participations": 82,
+      "weekly_points": 402,
+      "daily_points": 114,
+      "total_points": 402,
+      "wins": 76,
+      "participations": 83,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-01T21:01:37",
-      "updated_at": "2026-06-01T21:01:37"
+      "last_win": "2026-06-01T21:04:46",
+      "updated_at": "2026-06-01T21:04:46"
     },
     "جديمان بن شلآح الشلآويح": {
       "weekly_points": 6,
@@ -182,17 +182,32 @@
       "updated_at": "2026-06-01T19:17:58"
     },
     "𝑲𝑯𝑨𝑳𝑬𝑫": {
-      "weekly_points": 3,
-      "daily_points": 3,
-      "total_points": 3,
+      "weekly_points": 4,
+      "daily_points": 4,
+      "total_points": 4,
       "wins": 0,
-      "participations": 2,
+      "participations": 3,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-01T21:01:37"
+      "updated_at": "2026-06-01T21:04:46"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 5
+        },
+        {
+          "name": "𝑲𝑯𝑨𝑳𝑬𝑫",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-01T21:04:46"
+    },
     {
       "type": 5,
       "winner": "جـوج",
@@ -755,17 +770,6 @@
         }
       ],
       "created_at": "2026-05-31T07:30:12"
-    },
-    {
-      "type": 5,
-      "winner": "vvf",
-      "participants": [
-        {
-          "name": "vvf",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-31T07:20:22"
     }
   ],
   "last_daily_reset": "2026-06-01T01:26:50",
