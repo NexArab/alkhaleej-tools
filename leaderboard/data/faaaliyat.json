@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-06-01T01:26:50",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-06-01T17:16:05",
+  "last_updated": "2026-06-01T17:18:22",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -22,14 +22,14 @@
       "updated_at": "2026-05-29T05:20:37"
     },
     "Rio": {
-      "weekly_points": 652,
-      "daily_points": 100,
-      "total_points": 652,
+      "weekly_points": 654,
+      "daily_points": 102,
+      "total_points": 654,
       "wins": 126,
-      "participations": 135,
+      "participations": 136,
       "title": "بطل الفعاليات",
       "last_win": "2026-06-01T17:16:05",
-      "updated_at": "2026-06-01T17:16:05"
+      "updated_at": "2026-06-01T17:18:22"
     },
     "ناعور": {
       "weekly_points": 24,
@@ -102,14 +102,14 @@
       "updated_at": "2026-05-31T01:48:55"
     },
     "جـوج": {
-      "weekly_points": 288,
-      "daily_points": 0,
-      "total_points": 288,
-      "wins": 54,
-      "participations": 60,
+      "weekly_points": 293,
+      "daily_points": 5,
+      "total_points": 293,
+      "wins": 55,
+      "participations": 61,
       "title": "بطل الفعاليات",
-      "last_win": "2026-05-30T16:29:09",
-      "updated_at": "2026-05-30T16:29:09"
+      "last_win": "2026-06-01T17:18:22",
+      "updated_at": "2026-06-01T17:18:22"
     },
     "جديمان بن شلآح الشلآويح": {
       "weekly_points": 6,
@@ -173,6 +173,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 5
+        },
+        {
+          "name": "Rio",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-01T17:18:22"
+    },
     {
       "type": 5,
       "winner": "Rio",
@@ -743,25 +758,6 @@
         }
       ],
       "created_at": "2026-05-31T05:21:31"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        },
-        {
-          "name": "، سهـِر ..",
-          "points": 4
-        },
-        {
-          "name": "، دهـِر ..",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-05-31T04:53:12"
     }
   ],
   "last_daily_reset": "2026-06-01T01:26:50",
