@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-06-01T01:26:50",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-06-01T21:52:02",
+  "last_updated": "2026-06-01T21:54:31",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -102,14 +102,14 @@
       "updated_at": "2026-05-31T01:48:55"
     },
     "جـوج": {
-      "weekly_points": 507,
-      "daily_points": 219,
-      "total_points": 507,
-      "wins": 97,
-      "participations": 104,
+      "weekly_points": 512,
+      "daily_points": 224,
+      "total_points": 512,
+      "wins": 98,
+      "participations": 105,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-01T21:52:02",
-      "updated_at": "2026-06-01T21:52:02"
+      "last_win": "2026-06-01T21:54:31",
+      "updated_at": "2026-06-01T21:54:31"
     },
     "جديمان بن شلآح الشلآويح": {
       "weekly_points": 6,
@@ -172,14 +172,14 @@
       "updated_at": "2026-05-31T04:53:12"
     },
     "‏‎‏‎‎‎‏‎‏‎‎‎‏‎‏‎‎‎‏‎                   ‏Rio": {
-      "weekly_points": 2,
-      "daily_points": 2,
-      "total_points": 2,
+      "weekly_points": 6,
+      "daily_points": 6,
+      "total_points": 6,
       "wins": 0,
-      "participations": 1,
+      "participations": 2,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-01T19:17:58"
+      "updated_at": "2026-06-01T21:54:31"
     },
     "𝑲𝑯𝑨𝑳𝑬𝑫": {
       "weekly_points": 6,
@@ -193,6 +193,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 5
+        },
+        {
+          "name": "‏‎‏‎‎‎‏‎‏‎‎‎‏‎‏‎‎‎‏‎                   ‏Rio",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-06-01T21:54:31"
+    },
     {
       "type": 5,
       "winner": "جـوج",
@@ -759,17 +774,6 @@
         }
       ],
       "created_at": "2026-06-01T05:25:50"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-01T05:24:51"
     }
   ],
   "last_daily_reset": "2026-06-01T01:26:50",
