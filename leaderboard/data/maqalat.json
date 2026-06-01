@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-01T02:18:12",
   "last_reset": "2026-05-29T10:34:09",
-  "last_updated": "2026-06-01T05:41:35",
+  "last_updated": "2026-06-01T05:47:35",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -304,9 +304,30 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-06-01T05:41:35"
+    },
+    "أدرينالين": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-06-01T05:47:35",
+      "updated_at": "2026-06-01T05:47:35"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-01T05:47:35"
+    },
     {
       "type": 5,
       "winner": "جديمان بن شلآح الشلآويح",
@@ -913,17 +934,6 @@
         }
       ],
       "created_at": "2026-05-31T02:17:43"
-    },
-    {
-      "type": 5,
-      "winner": "...",
-      "participants": [
-        {
-          "name": "...",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-31T01:50:24"
     }
   ],
   "last_daily_reset": "2026-06-01T02:18:12",
