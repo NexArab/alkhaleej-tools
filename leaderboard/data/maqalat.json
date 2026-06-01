@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-01T02:18:12",
   "last_reset": "2026-05-29T10:34:09",
-  "last_updated": "2026-06-01T22:53:35",
+  "last_updated": "2026-06-01T22:58:00",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -246,14 +246,14 @@
       "updated_at": "2026-05-30T04:11:33"
     },
     "جديمان بن شلآح الشلآويح": {
-      "weekly_points": 20,
-      "daily_points": 19,
-      "total_points": 32,
-      "wins": 4,
-      "participations": 8,
+      "weekly_points": 30,
+      "daily_points": 29,
+      "total_points": 42,
+      "wins": 5,
+      "participations": 9,
       "title": "ملك المقالات",
-      "last_win": "2026-06-01T22:53:35",
-      "updated_at": "2026-06-01T22:53:35"
+      "last_win": "2026-06-01T22:58:00",
+      "updated_at": "2026-06-01T22:58:00"
     },
     "...": {
       "weekly_points": 15,
@@ -337,6 +337,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "جديمان بن شلآح الشلآويح",
+      "participants": [
+        {
+          "name": "جديمان بن شلآح الشلآويح",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-01T22:58:00"
+    },
     {
       "type": 10,
       "winner": "جديمان بن شلآح الشلآويح",
@@ -927,17 +938,6 @@
         }
       ],
       "created_at": "2026-05-31T05:42:16"
-    },
-    {
-      "type": 5,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-05-31T04:55:18"
     }
   ],
   "last_daily_reset": "2026-06-01T02:18:12",
