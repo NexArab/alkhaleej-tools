@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-06-03T00:18:52",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-06-03T00:18:52",
+  "last_updated": "2026-06-03T00:20:23",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -92,14 +92,14 @@
       "updated_at": "2026-05-29T09:31:45"
     },
     "هـُـمــام": {
-      "weekly_points": 15,
-      "daily_points": 0,
-      "total_points": 15,
+      "weekly_points": 16,
+      "daily_points": 1,
+      "total_points": 16,
       "wins": 3,
-      "participations": 3,
+      "participations": 4,
       "title": "بطل الفعاليات",
       "last_win": "2026-05-31T01:48:55",
-      "updated_at": "2026-05-31T01:48:55"
+      "updated_at": "2026-06-03T00:20:23"
     },
     "جـوج": {
       "weekly_points": 552,
@@ -122,14 +122,14 @@
       "updated_at": "2026-05-29T17:21:55"
     },
     "نــــايــــف": {
-      "weekly_points": 32,
-      "daily_points": 5,
-      "total_points": 32,
-      "wins": 4,
-      "participations": 10,
+      "weekly_points": 37,
+      "daily_points": 10,
+      "total_points": 37,
+      "wins": 5,
+      "participations": 11,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-03T00:18:52",
-      "updated_at": "2026-06-03T00:18:52"
+      "last_win": "2026-06-03T00:20:23",
+      "updated_at": "2026-06-03T00:20:23"
     },
     "ＣＰＵ ..": {
       "weekly_points": 10,
@@ -193,6 +193,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "نــــايــــف",
+      "participants": [
+        {
+          "name": "نــــايــــف",
+          "points": 5
+        },
+        {
+          "name": "هـُـمــام",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-03T00:20:23"
+    },
     {
       "type": 5,
       "winner": "نــــايــــف",
@@ -731,17 +746,6 @@
         }
       ],
       "created_at": "2026-06-02T03:42:40"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-02T03:41:38"
     }
   ],
   "last_daily_reset": "2026-06-03T00:18:52",
