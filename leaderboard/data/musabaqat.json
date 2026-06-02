@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-02T03:12:29",
   "last_reset": "2026-05-29T06:55:03",
-  "last_updated": "2026-06-02T04:48:15",
+  "last_updated": "2026-06-02T06:18:33",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -424,9 +424,30 @@
       "title": "سيد المسابقات",
       "last_win": "2026-06-01T18:37:30",
       "updated_at": "2026-06-01T18:37:30"
+    },
+    "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة": {
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 10,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-06-02T06:18:33",
+      "updated_at": "2026-06-02T06:18:33"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة",
+      "participants": [
+        {
+          "name": "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-02T06:18:33"
+    },
     {
       "type": 5,
       "winner": "How?",
@@ -981,17 +1002,6 @@
         }
       ],
       "created_at": "2026-05-30T06:53:37"
-    },
-    {
-      "type": 10,
-      "winner": "vvf",
-      "participants": [
-        {
-          "name": "vvf",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-30T06:41:06"
     }
   ],
   "last_daily_reset": "2026-06-02T03:12:29",
