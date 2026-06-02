@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-02T03:12:29",
   "last_reset": "2026-05-29T06:55:03",
-  "last_updated": "2026-06-02T06:20:55",
+  "last_updated": "2026-06-02T06:23:27",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-05-25T10:45:46"
     },
     "How?": {
-      "weekly_points": 50,
-      "daily_points": 15,
-      "total_points": 107,
-      "wins": 18,
-      "participations": 19,
+      "weekly_points": 60,
+      "daily_points": 25,
+      "total_points": 117,
+      "wins": 19,
+      "participations": 20,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-02T06:20:55",
-      "updated_at": "2026-06-02T06:20:55"
+      "last_win": "2026-06-02T06:23:27",
+      "updated_at": "2026-06-02T06:23:27"
     },
     "هـنِيالك": {
       "weekly_points": 14,
@@ -426,17 +426,32 @@
       "updated_at": "2026-06-01T18:37:30"
     },
     "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 10,
+      "weekly_points": 17,
+      "daily_points": 17,
+      "total_points": 17,
       "wins": 1,
-      "participations": 1,
+      "participations": 2,
       "title": "سيد المسابقات",
       "last_win": "2026-06-02T06:18:33",
-      "updated_at": "2026-06-02T06:18:33"
+      "updated_at": "2026-06-02T06:23:27"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 10
+        },
+        {
+          "name": "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة",
+          "points": 7
+        }
+      ],
+      "created_at": "2026-06-02T06:23:27"
+    },
     {
       "type": 10,
       "winner": "How?",
@@ -987,17 +1002,6 @@
         }
       ],
       "created_at": "2026-05-30T07:17:32"
-    },
-    {
-      "type": 10,
-      "winner": "vvf",
-      "participants": [
-        {
-          "name": "vvf",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-05-30T06:59:24"
     }
   ],
   "last_daily_reset": "2026-06-02T03:12:29",
