@@ -1,18 +1,22 @@
 {
   "room": "الفعاليات",
-  "weekly_champion": null,
-  "weekly_champion_set_at": null,
+  "weekly_champion": {
+    "name": "Rio",
+    "points": 1255,
+    "week_of": "2026-06-04"
+  },
+  "weekly_champion_set_at": "2026-06-04T01:36:14",
   "daily_champion": {
     "name": "Rio",
-    "points": 294,
-    "date": "2026-06-03"
+    "points": 302,
+    "date": "2026-06-04"
   },
-  "daily_champion_set_at": "2026-06-03T00:18:52",
-  "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-06-03T17:55:05",
+  "daily_champion_set_at": "2026-06-04T01:36:14",
+  "last_reset": "2026-06-04T01:36:14",
+  "last_updated": "2026-06-04T01:36:14",
   "players": {
     "إستبــــــــــــرق": {
-      "weekly_points": 15,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 15,
       "wins": 3,
@@ -22,17 +26,17 @@
       "updated_at": "2026-05-29T05:20:37"
     },
     "Rio": {
-      "weekly_points": 1255,
-      "daily_points": 302,
-      "total_points": 1255,
-      "wins": 245,
-      "participations": 257,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 1260,
+      "wins": 246,
+      "participations": 258,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-03T17:55:05",
-      "updated_at": "2026-06-03T17:55:05"
+      "last_win": "2026-06-04T01:36:14",
+      "updated_at": "2026-06-04T01:36:14"
     },
     "ناعور": {
-      "weekly_points": 24,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 24,
       "wins": 2,
@@ -42,8 +46,8 @@
       "updated_at": "2026-05-29T06:48:00"
     },
     "vvf": {
-      "weekly_points": 343,
-      "daily_points": 1,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 343,
       "wins": 60,
       "participations": 79,
@@ -52,7 +56,7 @@
       "updated_at": "2026-06-03T17:27:01"
     },
     "بَكـر الدُليمــــي": {
-      "weekly_points": 27,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 27,
       "wins": 4,
@@ -62,7 +66,7 @@
       "updated_at": "2026-06-01T19:24:51"
     },
     "⠀⠀           M": {
-      "weekly_points": 50,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 50,
       "wins": 8,
@@ -72,7 +76,7 @@
       "updated_at": "2026-05-30T02:41:50"
     },
     "هـنِيالك": {
-      "weekly_points": 36,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 36,
       "wins": 5,
@@ -82,7 +86,7 @@
       "updated_at": "2026-05-31T22:08:17"
     },
     "⠀⠀           ام": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 5,
       "wins": 1,
@@ -92,8 +96,8 @@
       "updated_at": "2026-05-29T09:31:45"
     },
     "هـُـمــام": {
-      "weekly_points": 16,
-      "daily_points": 1,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 16,
       "wins": 3,
       "participations": 4,
@@ -102,8 +106,8 @@
       "updated_at": "2026-06-03T00:20:23"
     },
     "جـوج": {
-      "weekly_points": 559,
-      "daily_points": 7,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 559,
       "wins": 106,
       "participations": 115,
@@ -112,7 +116,7 @@
       "updated_at": "2026-06-03T03:38:47"
     },
     "جديمان بن شلآح الشلآويح": {
-      "weekly_points": 6,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 6,
       "wins": 0,
@@ -122,8 +126,8 @@
       "updated_at": "2026-05-29T17:21:55"
     },
     "نــــايــــف": {
-      "weekly_points": 47,
-      "daily_points": 20,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 47,
       "wins": 7,
       "participations": 13,
@@ -132,7 +136,7 @@
       "updated_at": "2026-06-03T04:34:43"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 10,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 10,
       "wins": 2,
@@ -142,8 +146,8 @@
       "updated_at": "2026-05-30T03:16:00"
     },
     "𝑁𝐴𝑍": {
-      "weekly_points": 71,
-      "daily_points": 27,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 71,
       "wins": 8,
       "participations": 18,
@@ -152,7 +156,7 @@
       "updated_at": "2026-06-03T04:04:08"
     },
     "، سهـِر ..": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 5,
       "wins": 0,
@@ -162,7 +166,7 @@
       "updated_at": "2026-05-31T04:53:12"
     },
     "، دهـِر ..": {
-      "weekly_points": 3,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 3,
       "wins": 0,
@@ -172,7 +176,7 @@
       "updated_at": "2026-05-31T04:53:12"
     },
     "‏‎‏‎‎‎‏‎‏‎‎‎‏‎‏‎‎‎‏‎                   ‏Rio": {
-      "weekly_points": 6,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 6,
       "wins": 0,
@@ -182,7 +186,7 @@
       "updated_at": "2026-06-01T21:54:31"
     },
     "𝑲𝑯𝑨𝑳𝑬𝑫": {
-      "weekly_points": 6,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 6,
       "wins": 0,
@@ -192,8 +196,8 @@
       "updated_at": "2026-06-01T21:06:16"
     },
     "🪿": {
-      "weekly_points": 28,
-      "daily_points": 28,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 28,
       "wins": 4,
       "participations": 6,
@@ -203,6 +207,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-04T01:36:14"
+    },
     {
       "type": 5,
       "winner": "Rio",
@@ -745,19 +760,8 @@
         }
       ],
       "created_at": "2026-06-03T05:29:06"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-03T05:26:02"
     }
   ],
-  "last_daily_reset": "2026-06-03T00:18:52",
-  "last_weekly_reset": "2026-05-29T05:16:09"
+  "last_daily_reset": "2026-06-04T01:36:14",
+  "last_weekly_reset": "2026-06-04T01:36:14"
 }
