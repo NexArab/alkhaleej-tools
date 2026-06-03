@@ -9,7 +9,7 @@
   },
   "daily_champion_set_at": "2026-06-03T00:18:52",
   "last_reset": "2026-05-29T05:16:09",
-  "last_updated": "2026-06-03T04:01:20",
+  "last_updated": "2026-06-03T04:04:08",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 15,
@@ -142,14 +142,14 @@
       "updated_at": "2026-05-30T03:16:00"
     },
     "𝑁𝐴𝑍": {
-      "weekly_points": 66,
-      "daily_points": 22,
-      "total_points": 66,
-      "wins": 7,
-      "participations": 17,
+      "weekly_points": 71,
+      "daily_points": 27,
+      "total_points": 71,
+      "wins": 8,
+      "participations": 18,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-03T03:57:47",
-      "updated_at": "2026-06-03T04:01:20"
+      "last_win": "2026-06-03T04:04:08",
+      "updated_at": "2026-06-03T04:04:08"
     },
     "، سهـِر ..": {
       "weekly_points": 5,
@@ -192,17 +192,32 @@
       "updated_at": "2026-06-01T21:06:16"
     },
     "🪿": {
-      "weekly_points": 24,
-      "daily_points": 24,
-      "total_points": 24,
+      "weekly_points": 28,
+      "daily_points": 28,
+      "total_points": 28,
       "wins": 4,
-      "participations": 5,
+      "participations": 6,
       "title": "بطل الفعاليات",
       "last_win": "2026-06-03T04:01:20",
-      "updated_at": "2026-06-03T04:01:20"
+      "updated_at": "2026-06-03T04:04:08"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "𝑁𝐴𝑍",
+      "participants": [
+        {
+          "name": "𝑁𝐴𝑍",
+          "points": 5
+        },
+        {
+          "name": "🪿",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-06-03T04:04:08"
+    },
     {
       "type": 5,
       "winner": "🪿",
@@ -777,17 +792,6 @@
         }
       ],
       "created_at": "2026-06-02T04:16:06"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-02T04:14:58"
     }
   ],
   "last_daily_reset": "2026-06-03T00:18:52",
