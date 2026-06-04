@@ -1,19 +1,19 @@
 {
   "room": "المسابقات",
   "weekly_champion": {
-    "name": "جـوج",
-    "points": 2321,
-    "week_of": "2026-05-29"
+    "name": "vvf",
+    "points": 265,
+    "week_of": "2026-06-04"
   },
-  "weekly_champion_set_at": "2026-05-29T06:55:03",
+  "weekly_champion_set_at": "2026-06-04T03:02:31",
   "daily_champion": {
-    "name": "How?",
-    "points": 25,
-    "date": "2026-06-03"
+    "name": "vvf",
+    "points": 160,
+    "date": "2026-06-04"
   },
-  "daily_champion_set_at": "2026-06-03T00:24:50",
-  "last_reset": "2026-05-29T06:55:03",
-  "last_updated": "2026-06-03T23:01:21",
+  "daily_champion_set_at": "2026-06-04T03:02:31",
+  "last_reset": "2026-06-04T03:02:31",
+  "last_updated": "2026-06-04T03:02:31",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,7 +26,7 @@
       "updated_at": "2026-05-25T10:45:46"
     },
     "How?": {
-      "weekly_points": 60,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 117,
       "wins": 19,
@@ -36,7 +36,7 @@
       "updated_at": "2026-06-02T06:23:27"
     },
     "هـنِيالك": {
-      "weekly_points": 14,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 25,
       "wins": 3,
@@ -56,8 +56,8 @@
       "updated_at": "2026-05-25T14:10:43"
     },
     "جـوج": {
-      "weekly_points": 35,
-      "daily_points": 25,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 2356,
       "wins": 238,
       "participations": 251,
@@ -76,8 +76,8 @@
       "updated_at": "2026-05-26T14:55:37"
     },
     "Rio": {
-      "weekly_points": 136,
-      "daily_points": 10,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 561,
       "wins": 57,
       "participations": 62,
@@ -96,8 +96,8 @@
       "updated_at": "2026-05-26T21:20:37"
     },
     "هـُـمــام": {
-      "weekly_points": 87,
-      "daily_points": 42,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 404,
       "wins": 36,
       "participations": 54,
@@ -116,8 +116,8 @@
       "updated_at": "2026-05-28T03:47:30"
     },
     "𝑁𝐴𝑍": {
-      "weekly_points": 4,
-      "daily_points": 4,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 18,
       "wins": 2,
       "participations": 6,
@@ -126,7 +126,7 @@
       "updated_at": "2026-06-03T20:22:11"
     },
     "ســاهــــر": {
-      "weekly_points": 25,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 35,
       "wins": 5,
@@ -176,7 +176,7 @@
       "updated_at": "2026-05-25T20:57:52"
     },
     "⠀⠀           M": {
-      "weekly_points": 15,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 68,
       "wins": 11,
@@ -196,7 +196,7 @@
       "updated_at": "2026-05-26T08:24:48"
     },
     "حمدد": {
-      "weekly_points": 35,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 54,
       "wins": 7,
@@ -246,7 +246,7 @@
       "updated_at": "2026-05-27T00:51:04"
     },
     "🪿": {
-      "weekly_points": 20,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 35,
       "wins": 4,
@@ -266,8 +266,8 @@
       "updated_at": "2026-05-27T13:24:00"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 20,
-      "daily_points": 5,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 30,
       "wins": 5,
       "participations": 5,
@@ -276,8 +276,8 @@
       "updated_at": "2026-06-03T20:30:32"
     },
     "ضامي": {
-      "weekly_points": 5,
-      "daily_points": 5,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 11,
       "wins": 2,
       "participations": 3,
@@ -336,8 +336,8 @@
       "updated_at": "2026-05-28T03:51:11"
     },
     "ناعور": {
-      "weekly_points": 240,
-      "daily_points": 70,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 240,
       "wins": 24,
       "participations": 24,
@@ -346,17 +346,17 @@
       "updated_at": "2026-06-03T17:30:19"
     },
     "vvf": {
-      "weekly_points": 265,
-      "daily_points": 160,
-      "total_points": 265,
-      "wins": 26,
-      "participations": 28,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 275,
+      "wins": 27,
+      "participations": 29,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-03T09:14:35",
-      "updated_at": "2026-06-03T09:14:35"
+      "last_win": "2026-06-04T03:02:31",
+      "updated_at": "2026-06-04T03:02:31"
     },
     "..،،": {
-      "weekly_points": 15,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 15,
       "wins": 3,
@@ -366,7 +366,7 @@
       "updated_at": "2026-05-30T08:29:28"
     },
     "نجر": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 5,
       "wins": 1,
@@ -376,7 +376,7 @@
       "updated_at": "2026-05-30T10:01:02"
     },
     "دآمـي .": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 5,
       "wins": 1,
@@ -386,7 +386,7 @@
       "updated_at": "2026-05-30T20:46:47"
     },
     "ٕ، وهَـنٌ ..": {
-      "weekly_points": 30,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 30,
       "wins": 4,
@@ -396,7 +396,7 @@
       "updated_at": "2026-05-31T04:48:16"
     },
     "⠀⠀           محـمّد": {
-      "weekly_points": 35,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 35,
       "wins": 4,
@@ -406,7 +406,7 @@
       "updated_at": "2026-06-01T08:59:55"
     },
     "𝒟𝒶𝓃": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 5,
       "wins": 1,
@@ -416,8 +416,8 @@
       "updated_at": "2026-05-31T22:15:12"
     },
     "علي ناعور": {
-      "weekly_points": 90,
-      "daily_points": 40,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 90,
       "wins": 9,
       "participations": 9,
@@ -426,7 +426,7 @@
       "updated_at": "2026-06-03T08:02:18"
     },
     "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة": {
-      "weekly_points": 17,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 17,
       "wins": 1,
@@ -436,8 +436,8 @@
       "updated_at": "2026-06-02T06:23:27"
     },
     "نــــايــــف": {
-      "weekly_points": 25,
-      "daily_points": 25,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 25,
       "wins": 3,
       "participations": 3,
@@ -446,8 +446,8 @@
       "updated_at": "2026-06-03T00:39:24"
     },
     ".. سُوشي": {
-      "weekly_points": 20,
-      "daily_points": 20,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 20,
       "wins": 4,
       "participations": 4,
@@ -456,8 +456,8 @@
       "updated_at": "2026-06-03T01:43:52"
     },
     "ل": {
-      "weekly_points": 21,
-      "daily_points": 21,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 21,
       "wins": 2,
       "participations": 5,
@@ -466,8 +466,8 @@
       "updated_at": "2026-06-03T02:30:52"
     },
     "مُُُ": {
-      "weekly_points": 26,
-      "daily_points": 26,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 26,
       "wins": 3,
       "participations": 4,
@@ -477,6 +477,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "vvf",
+      "participants": [
+        {
+          "name": "vvf",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-04T03:02:31"
+    },
     {
       "type": 5,
       "winner": "جـوج",
@@ -1075,19 +1086,8 @@
         }
       ],
       "created_at": "2026-06-02T06:23:27"
-    },
-    {
-      "type": 10,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-02T06:20:55"
     }
   ],
-  "last_daily_reset": "2026-06-03T00:24:50",
-  "last_weekly_reset": "2026-05-29T06:55:03"
+  "last_daily_reset": "2026-06-04T03:02:31",
+  "last_weekly_reset": "2026-06-04T03:02:31"
 }
