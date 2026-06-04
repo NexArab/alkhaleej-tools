@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-04T03:02:31",
   "last_reset": "2026-06-04T03:02:31",
-  "last_updated": "2026-06-04T03:07:49",
+  "last_updated": "2026-06-04T03:12:14",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -474,9 +474,44 @@
       "title": "سيد المسابقات",
       "last_win": "2026-06-03T02:30:52",
       "updated_at": "2026-06-03T02:30:52"
+    },
+    "إستبــــــــــــرق": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-06-04T03:12:14",
+      "updated_at": "2026-06-04T03:12:14"
+    },
+    "طـــــــونـــــــي": {
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 1,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-04T03:12:14"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "إستبــــــــــــرق",
+      "participants": [
+        {
+          "name": "إستبــــــــــــرق",
+          "points": 5
+        },
+        {
+          "name": "طـــــــونـــــــي",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-04T03:12:14"
+    },
     {
       "type": 10,
       "winner": "vvf",
@@ -1055,21 +1090,6 @@
         }
       ],
       "created_at": "2026-06-03T00:36:48"
-    },
-    {
-      "type": 5,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 5
-        },
-        {
-          "name": "هـُـمــام",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-06-03T00:34:23"
     }
   ],
   "last_daily_reset": "2026-06-04T03:02:31",
