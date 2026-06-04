@@ -4,13 +4,16 @@
   Core System — مشترك بين جميع البوتات
   المسؤولية: infrastructure, GitHub push, validation, save/update
 
+  Reset Logic:
+  - daily_points  تُصفَّر كل يوم الساعة 12:00 ليل بتوقيت مكة
+  - weekly_points تُصفَّر كل خميس الساعة 12:00 ليل بتوقيت مكة
+  - total_points  لا تُصفَّر أبداً
+
   كل روم يبقى منفصل تماماً — لا يوجد global leaderboard.
-  الاستخدام:
-    Leaderboard.addMatch({ room:"maqalat", winner:"أحمد", participants:[...], type:5 });
 */
 
 /* ══════════════════════════════════════
-   ROOM CONFIG — مركزي لكل الرومات
+   ROOM CONFIG
 ══════════════════════════════════════ */
 var ROOM_CONFIG = {
   maqalat:   { title: "ملك المقالات",       icon: "📝" },
@@ -31,7 +34,7 @@ var ROUND_POINTS = {
 };
 
 /* ══════════════════════════════════════
-   GITHUB CONFIG — يُضبط مرة واحدة
+   GITHUB CONFIG
 ══════════════════════════════════════ */
 var LB_GH = {
   token  : "ghp_XXXXXXXXXXXXXXXXXXXXXXXX",  /* ← Personal Access Token */
@@ -41,59 +44,42 @@ var LB_GH = {
 };
 
 /* ══════════════════════════════════════
-   TIME HELPERS
+   ENCODING
 ══════════════════════════════════════ */
-
-/* ══════════════════════════════════════
-   ENCODING — UTF-8 safe Base64
-══════════════════════════════════════ */
-
-/* تحويل نص عربي → Base64 بدون تشويه */
 function _toBase64(str){
   var bytes = new TextEncoder().encode(str);
   var binary = "";
   bytes.forEach(function(b){ binary += String.fromCharCode(b); });
   return btoa(binary);
 }
-
-/* فك تحويل Base64 → نص عربي */
 function _fromBase64(b64){
   var binary = atob(b64);
   var bytes   = new Uint8Array(binary.length);
   for(var i=0; i<binary.length; i++) bytes[i] = binary.charCodeAt(i);
   return new TextDecoder("utf-8").decode(bytes);
 }
-
-/* فحص إذا الاسم مشوّه (Mojibake) */
 function _isGarbled(str){
   if(!str || typeof str !== "string") return true;
-  /* أحرف Latin لا منطق لوجودها في اسم عربي خالص */
-  return /[ÙØÂÆÎ-]/.test(str);
+  return /[ÙØÂÆÎ-]/.test(str);
 }
-
-/* تنظيف بيانات اللاعبين المعطوبة من JSON */
 function _cleanPlayersData(players){
   if(!players || typeof players !== "object") return {};
   var clean = {};
   Object.keys(players).forEach(function(name){
-    if(!_isGarbled(name)){
-      clean[name] = players[name];
-    } else {
-      console.warn("[LB] removed garbled player:", name);
-    }
+    if(!_isGarbled(name)) clean[name] = players[name];
+    else console.warn("[LB] removed garbled player:", name);
   });
   return clean;
 }
-
-/* تنظيف champion objects */
 function _cleanChampion(champ){
   if(!champ || !champ.name) return champ;
-  if(_isGarbled(champ.name)){
-    console.warn("[LB] cleared garbled champion:", champ.name);
-    return null;
-  }
+  if(_isGarbled(champ.name)){ console.warn("[LB] cleared garbled champion:", champ.name); return null; }
   return champ;
 }
+
+/* ══════════════════════════════════════
+   TIME HELPERS — بتوقيت مكة
+══════════════════════════════════════ */
 function _meccaNow(){
   return new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Riyadh"}));
 }
@@ -103,13 +89,36 @@ function _meccaISO(){
 function _meccaDate(){
   return _meccaISO().slice(0,10);
 }
-function _isWeeklyReset(){
-  var d=_meccaNow();
-  return d.getDay()===4 && d.getHours()===0 && d.getMinutes()<5;
+
+/*
+  هل يجب تصفير daily_points؟
+  نقارن تاريخ آخر reset يومي بتاريخ اليوم — إذا مختلفان → نصفّر
+*/
+function _needsDailyReset(data){
+  var today = _meccaDate();
+  var lastD = data.last_daily_reset ? data.last_daily_reset.slice(0,10) : null;
+  return lastD !== today;
 }
-function _isDailyReset(){
-  var d=_meccaNow();
-  return d.getHours()===23 && d.getMinutes()<5;
+
+/*
+  هل يجب تصفير weekly_points؟
+  نتحقق إذا مرّ خميس كامل منذ آخر weekly reset
+*/
+function _needsWeeklyReset(data){
+  var now   = _meccaNow();
+  var lastW = data.last_weekly_reset ? data.last_weekly_reset.slice(0,10) : null;
+
+  if(!lastW) return true;
+
+  /* إيجاد آخر خميس ماضٍ (أو اليوم إذا كان خميساً) */
+  var lastThursday = new Date(now);
+  var dayOfWeek    = lastThursday.getDay(); /* 0=أحد, 4=خميس */
+  var daysToSub    = (dayOfWeek >= 4) ? (dayOfWeek - 4) : (dayOfWeek + 3);
+  lastThursday.setDate(lastThursday.getDate() - daysToSub);
+  var lastThursdayDate = lastThursday.toLocaleDateString("sv-SE",{timeZone:"Asia/Riyadh"});
+
+  /* إذا آخر weekly reset قبل آخر خميس → نصفّر */
+  return lastW < lastThursdayDate;
 }
 
 /* ══════════════════════════════════════
@@ -123,7 +132,6 @@ function _validateMatch(opts){
   if(!Array.isArray(opts.participants) || !opts.participants.length) return "no participants";
   return null;
 }
-
 function _cleanName(n){
   return String(n||"").replace(/[<>&"']/g,"").trim().slice(0,60);
 }
@@ -131,9 +139,7 @@ function _cleanName(n){
 /* ══════════════════════════════════════
    GITHUB API
 ══════════════════════════════════════ */
-function _ghPath(room){
-  return "leaderboard/data/"+room+".json";
-}
+function _ghPath(room){ return "leaderboard/data/"+room+".json"; }
 function _ghHeaders(){
   return {
     "Authorization":"Bearer "+LB_GH.token,
@@ -150,17 +156,16 @@ function _ghGet(room, cb){
     if(res.message){cb(new Error(res.message),null,null);return;}
     var raw  = _fromBase64(res.content.replace(/\n/g,""));
     var data = JSON.parse(raw);
-    /* تنظيف أي بيانات مشوّهة من pushes قديمة */
-    data.players          = _cleanPlayersData(data.players || {});
-    data.weekly_champion  = _cleanChampion(data.weekly_champion);
-    data.daily_champion   = _cleanChampion(data.daily_champion);
+    data.players         = _cleanPlayersData(data.players || {});
+    data.weekly_champion = _cleanChampion(data.weekly_champion);
+    data.daily_champion  = _cleanChampion(data.daily_champion);
     cb(null,data,res.sha);
   })
   .catch(cb);
 }
 function _ghPut(room, data, sha, msg, cb){
   var jsonStr = JSON.stringify(data, null, 2);
-  var enc    = _toBase64(jsonStr);
+  var enc     = _toBase64(jsonStr);
   fetch("https://api.github.com/repos/"+LB_GH.owner+"/"+LB_GH.repo+"/contents/"+_ghPath(room),{
     method:"PUT",
     headers:_ghHeaders(),
@@ -172,21 +177,14 @@ function _ghPut(room, data, sha, msg, cb){
 }
 
 /* ══════════════════════════════════════
-   PLAYER OBJECT HELPERS
+   PLAYER HELPERS
 ══════════════════════════════════════ */
 function _defaultPlayer(){
   return {
-    weekly_points:0,
-    daily_points:0,
-    total_points:0,
-    wins:0,
-    participations:0,
-    title:null,
-    last_win:null,
-    updated_at:null
+    weekly_points:0, daily_points:0, total_points:0,
+    wins:0, participations:0, title:null, last_win:null, updated_at:null
   };
 }
-
 function _updatePlayer(player, pts, isWinner, room){
   if(!player) player = _defaultPlayer();
   player.weekly_points  = (player.weekly_points||0) + pts;
@@ -195,74 +193,84 @@ function _updatePlayer(player, pts, isWinner, room){
   player.participations = (player.participations||0) + 1;
   player.updated_at     = _meccaISO();
   if(isWinner){
-    player.wins = (player.wins||0) + 1;
+    player.wins     = (player.wins||0) + 1;
     player.last_win = _meccaISO();
-    player.title = ROOM_CONFIG[room]&&ROOM_CONFIG[room].title || null;
+    player.title    = ROOM_CONFIG[room]&&ROOM_CONFIG[room].title || null;
   }
   return player;
 }
 
 /* ══════════════════════════════════════
-   WEEKLY / DAILY RESET
+   RESET LOGIC — يُطبَّق قبل إضافة النقاط
 ══════════════════════════════════════ */
 function _applyResets(data, room){
+  var players = data.players || {};
   var sorted;
 
-  /* daily: 11 مساء — تسجيل بطل اليوم + تصفير daily_points */
-  if(_isDailyReset()){
-    sorted = Object.entries(data.players||{})
-      .sort(function(a,b){return (b[1].daily_points||0)-(a[1].daily_points||0);});
+  /* ── DAILY RESET ── */
+  if(_needsDailyReset(data)){
+    sorted = Object.entries(players)
+      .filter(function(e){ return (e[1].daily_points||0) > 0; })
+      .sort(function(a,b){ return (b[1].daily_points||0)-(a[1].daily_points||0); });
+
     if(sorted.length){
       data.daily_champion = {
-        name:sorted[0][0],
-        points:sorted[0][1].daily_points||0,
-        date:_meccaDate()
+        name   : sorted[0][0],
+        points : sorted[0][1].daily_points||0,
+        date   : _meccaDate()
       };
       data.daily_champion_set_at = _meccaISO();
     }
-    /* reset daily_points لكل اللاعبين */
-    Object.keys(data.players||{}).forEach(function(n){
-      if(data.players[n]) data.players[n].daily_points = 0;
+
+    Object.keys(players).forEach(function(n){
+      if(players[n]) players[n].daily_points = 0;
     });
+
+    data.last_daily_reset = _meccaISO();
+    console.log("[LB] daily reset — room:", room, "date:", _meccaDate());
   }
 
-  /* weekly: خميس 12 ليل — بطل الأسبوع + تصفير weekly_points */
-  if(_isWeeklyReset()){
-    sorted = Object.entries(data.players||{})
-      .sort(function(a,b){return (b[1].weekly_points||0)-(a[1].weekly_points||0);});
+  /* ── WEEKLY RESET ── */
+  if(_needsWeeklyReset(data)){
+    sorted = Object.entries(players)
+      .filter(function(e){ return (e[1].weekly_points||0) > 0; })
+      .sort(function(a,b){ return (b[1].weekly_points||0)-(a[1].weekly_points||0); });
+
     if(sorted.length){
       data.weekly_champion = {
-        name:sorted[0][0],
-        points:sorted[0][1].weekly_points||0,
-        week_of:_meccaDate()
+        name    : sorted[0][0],
+        points  : sorted[0][1].weekly_points||0,
+        week_of : _meccaDate()
       };
       data.weekly_champion_set_at = _meccaISO();
     }
-    /* reset weekly_points فقط — total_points تبقى */
-    Object.keys(data.players||{}).forEach(function(n){
-      if(data.players[n]) data.players[n].weekly_points = 0;
+
+    Object.keys(players).forEach(function(n){
+      if(players[n]) players[n].weekly_points = 0;
     });
-    data.last_reset = _meccaISO();
+
+    data.last_weekly_reset = _meccaISO();
+    data.last_reset        = _meccaISO();
     console.log("[LB] weekly reset — room:", room);
   }
 
+  data.players = players;
   return data;
 }
 
 /* ══════════════════════════════════════
-   MATCH STORAGE — max 50 matches
+   MATCH STORAGE — max 50
 ══════════════════════════════════════ */
 var MAX_MATCHES = 50;
-
 function _saveMatch(data, opts){
   if(!Array.isArray(data.matches)) data.matches = [];
   data.matches.unshift({
-    type       : opts.type,
-    winner     : _cleanName(opts.winner),
+    type        : opts.type,
+    winner      : _cleanName(opts.winner),
     participants: (opts.participants||[]).map(function(p){
       return {name:_cleanName(p.name), points:p.points||0};
     }),
-    created_at : _meccaISO()
+    created_at  : _meccaISO()
   });
   if(data.matches.length > MAX_MATCHES)
     data.matches = data.matches.slice(0, MAX_MATCHES);
@@ -270,31 +278,28 @@ function _saveMatch(data, opts){
 }
 
 /* ══════════════════════════════════════
-   PUBLIC API — Leaderboard
+   PUBLIC API
 ══════════════════════════════════════ */
 var Leaderboard = {
 
-  /*
-    addMatch(opts, cb?)
-    opts: { room, type, winner, participants:[{name,points},...] }
-    cb: optional function(err)
-  */
   addMatch: function(opts, cb){
     var err = _validateMatch(opts);
     if(err){ console.error("[LB] validation error:", err); if(cb) cb(new Error(err)); return; }
 
-    var room        = opts.room;
-    var winner      = _cleanName(opts.winner);
-    var type        = opts.type;
-    var dist        = ROUND_POINTS[type];
-    var participants= opts.participants||[];
+    var room         = opts.room;
+    var winner       = _cleanName(opts.winner);
+    var type         = opts.type;
+    var dist         = ROUND_POINTS[type];
+    var participants = opts.participants||[];
 
     _ghGet(room, function(err, data, sha){
       if(err){ console.error("[LB] get error:", err.message||err); if(cb) cb(err); return; }
-
       if(!data.players) data.players = {};
 
-      /* تحديث نقاط كل مشارك */
+      /* ✅ الريست أولاً — قبل إضافة أي نقاط */
+      data = _applyResets(data, room);
+
+      /* تحديث نقاط المشاركين */
       participants.forEach(function(p,i){
         var name = _cleanName(p.name);
         if(!name) return;
@@ -305,10 +310,6 @@ var Leaderboard = {
 
       /* حفظ الجولة */
       data = _saveMatch(data, {type:type, winner:winner, participants:participants});
-
-      /* resets */
-      data = _applyResets(data, room);
-
       data.last_updated = _meccaISO();
 
       _ghPut(room, data, sha,
@@ -322,47 +323,31 @@ var Leaderboard = {
     });
   },
 
-  /* للقراءة فقط — يُستخدم بالبوت إذا احتاج */
   getPoints: function(room, cb){
     _ghGet(room, function(err, data){ cb(err, data); });
   },
 
-  /* تغيير التوكن من البوت */
   setToken: function(token){ LB_GH.token = token; },
 
-  /*
-    cleanRoom(room, cb?)
-    يحذف اللاعبين المشوّهين ويعيد رفع الـ JSON نظيفاً
-    استدعاء يدوي من الكونسول عند الحاجة:
-      Leaderboard.cleanRoom("maqalat");
-  */
   cleanRoom: function(room, cb){
     if(!ROOM_CONFIG[room]){ console.error("[LB] unknown room:", room); return; }
     _ghGet(room, function(err, data, sha){
       if(err){ console.error("[LB] cleanRoom get error:", err); if(cb) cb(err); return; }
-
       var before = Object.keys(data.players||{}).length;
       data.players         = _cleanPlayersData(data.players||{});
       data.weekly_champion = _cleanChampion(data.weekly_champion);
       data.daily_champion  = _cleanChampion(data.daily_champion);
-
-      /* تنظيف matches */
       if(Array.isArray(data.matches)){
         data.matches = data.matches.filter(function(m){
           return m && !_isGarbled(m.winner);
         }).map(function(m){
-          if(Array.isArray(m.participants)){
-            m.participants = m.participants.filter(function(p){
-              return p && !_isGarbled(p.name);
-            });
-          }
+          if(Array.isArray(m.participants))
+            m.participants = m.participants.filter(function(p){ return p && !_isGarbled(p.name); });
           return m;
         });
       }
-
       var after = Object.keys(data.players).length;
       console.log("[LB] cleanRoom:", room, "| players before:", before, "after:", after);
-
       _ghPut(room, data, sha, "cleanup: remove garbled players ["+room+"]", function(e){
         if(e) console.error("[LB] cleanRoom push error:", e);
         else  console.log("[LB] cleanRoom done:", room);
