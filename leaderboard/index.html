@@ -222,7 +222,6 @@ footer{border-top:1px solid var(--border);padding:32px 20px 52px;max-width:1080p
 <script>
 var OWNER  = "NexArab";
 var REPO   = "alkhaleej-tools";
-/* مسار نسبي — يعمل على أي دومين (GitHub Pages أو tools.chat-alkhaleej.com) */
 var BASE   = "./data/";
 var CHAT   = "https://chat-alkhaleej.com/";
 var ROOMS  = [
@@ -258,11 +257,11 @@ function timeAgo(iso){
   return "منذ "+Math.floor(diff/86400)+" يوم";
 }
 
-/* ── player points helper (supports both old int and new object) ── */
+/* ── player points helper ── */
 function weeklyPts(p){
   if(typeof p==="object"){
-    /* إذا weekly_points موجودة نستخدمها، وإلا total_points */
-    return p.weekly_points || p.total_points || 0;
+    /* FIX: استخدام weekly_points كرقم صريح — لا نرجع لـ total_points إذا كانت 0 */
+    return typeof p.weekly_points === "number" ? p.weekly_points : (p.total_points || 0);
   }
   return p||0;
 }
@@ -357,7 +356,6 @@ function dailySection(data){
   var h='<div class="dy-section">';
   h+='<div class="dy-lbl">⭐ &nbsp;أبطال اليوم</div>';
 
-  /* عرض daily_champion من JSON أو من النقاط الحية */
   var displayList = sorted.length ? sorted.slice(0,3) : (dc&&dc.name ? [{name:dc.name,pts:dc.points}] : []);
 
   if(displayList.length){
@@ -380,7 +378,7 @@ function dailySection(data){
 function buildCard(r, data, isRefresh){
   var players=data.players||{};
   var total   = Object.values(players).reduce(function(s,p){ return s+weeklyPts(p); },0);
-  var count   = Object.keys(players).length;  /* نعرض كل لاعب حتى لو 0 نقطة أسبوعية */
+  var count   = Object.keys(players).length;
   var matches = (data.matches||[]).length;
   var upd     = fmtTime(data.last_updated);
   var flashCls = isRefresh?" flash":"";
