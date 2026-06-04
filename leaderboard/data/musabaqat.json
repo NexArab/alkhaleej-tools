@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-04T03:02:31",
   "last_reset": "2026-06-04T03:02:31",
-  "last_updated": "2026-06-04T03:27:09",
+  "last_updated": "2026-06-04T03:46:08",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-26T14:55:37"
     },
     "Rio": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 561,
-      "wins": 57,
-      "participations": 62,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 571,
+      "wins": 58,
+      "participations": 63,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-03T06:40:02",
-      "updated_at": "2026-06-03T06:40:02"
+      "last_win": "2026-06-04T03:46:08",
+      "updated_at": "2026-06-04T03:46:08"
     },
     "ＣＰＵ   ..": {
       "weekly_points": 0,
@@ -96,14 +96,14 @@
       "updated_at": "2026-05-26T21:20:37"
     },
     "هـُـمــام": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 404,
+      "weekly_points": 9,
+      "daily_points": 9,
+      "total_points": 413,
       "wins": 36,
-      "participations": 54,
+      "participations": 55,
       "title": "سيد المسابقات",
       "last_win": "2026-06-03T22:59:23",
-      "updated_at": "2026-06-03T23:01:21"
+      "updated_at": "2026-06-04T03:46:08"
     },
     "جديمان": {
       "weekly_points": 0,
@@ -494,9 +494,38 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-06-04T03:12:14"
+    },
+    "لا أظن": {
+      "weekly_points": 3,
+      "daily_points": 3,
+      "total_points": 3,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-04T03:46:08"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 10
+        },
+        {
+          "name": "هـُـمــام",
+          "points": 9
+        },
+        {
+          "name": "لا أظن",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-06-04T03:46:08"
+    },
     {
       "type": 10,
       "winner": "vvf",
@@ -1071,21 +1100,6 @@
         }
       ],
       "created_at": "2026-06-03T00:43:40"
-    },
-    {
-      "type": 5,
-      "winner": "نــــايــــف",
-      "participants": [
-        {
-          "name": "نــــايــــف",
-          "points": 5
-        },
-        {
-          "name": "جـوج",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-06-03T00:39:24"
     }
   ],
   "last_daily_reset": "2026-06-04T03:02:31",
