@@ -8,12 +8,12 @@
   "weekly_champion_set_at": "2026-06-05T23:10:44",
   "daily_champion": {
     "name": "vvf",
-    "points": 75,
-    "date": "2026-06-05"
+    "points": 30,
+    "date": "2026-06-06"
   },
-  "daily_champion_set_at": "2026-06-05T02:21:58",
+  "daily_champion_set_at": "2026-06-06T01:13:22",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-05T23:10:44",
+  "last_updated": "2026-06-06T01:13:22",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-05-25T10:45:46"
     },
     "How?": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 117,
-      "wins": 19,
-      "participations": 20,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 122,
+      "wins": 20,
+      "participations": 21,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-02T06:23:27",
-      "updated_at": "2026-06-02T06:23:27"
+      "last_win": "2026-06-06T01:13:22",
+      "updated_at": "2026-06-06T01:13:22"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -97,7 +97,7 @@
     },
     "هـُـمــام": {
       "weekly_points": 0,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 459,
       "wins": 42,
       "participations": 63,
@@ -267,7 +267,7 @@
     },
     "ＣＰＵ ..": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 40,
       "wins": 6,
       "participations": 6,
@@ -277,7 +277,7 @@
     },
     "ضامي": {
       "weekly_points": 0,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 21,
       "wins": 4,
       "participations": 5,
@@ -347,7 +347,7 @@
     },
     "vvf": {
       "weekly_points": 0,
-      "daily_points": 30,
+      "daily_points": 0,
       "total_points": 370,
       "wins": 37,
       "participations": 39,
@@ -527,7 +527,7 @@
     },
     "Yara": {
       "weekly_points": 0,
-      "daily_points": 3,
+      "daily_points": 0,
       "total_points": 3,
       "wins": 0,
       "participations": 1,
@@ -537,6 +537,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-06T01:13:22"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1139,19 +1150,8 @@
         }
       ],
       "created_at": "2026-06-03T09:07:00"
-    },
-    {
-      "type": 10,
-      "winner": "vvf",
-      "participants": [
-        {
-          "name": "vvf",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-03T09:02:27"
     }
   ],
-  "last_daily_reset": "2026-06-05T02:21:58",
+  "last_daily_reset": "2026-06-06T01:13:22",
   "last_weekly_reset": "2026-06-05T23:10:44"
 }
