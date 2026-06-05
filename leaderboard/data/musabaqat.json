@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-06T01:13:22",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-06T02:37:14",
+  "last_updated": "2026-06-06T02:50:14",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 6,
@@ -536,17 +536,56 @@
       "updated_at": "2026-06-05T03:32:59"
     },
     "ل.": {
-      "weekly_points": 35,
-      "daily_points": 35,
-      "total_points": 35,
+      "weekly_points": 38,
+      "daily_points": 38,
+      "total_points": 38,
       "wins": 4,
-      "participations": 4,
+      "participations": 5,
       "title": "سيد المسابقات",
       "last_win": "2026-06-06T02:37:14",
-      "updated_at": "2026-06-06T02:37:14"
+      "updated_at": "2026-06-06T02:50:14"
+    },
+    "رؤيا": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-06-06T02:50:14",
+      "updated_at": "2026-06-06T02:50:14"
+    },
+    "كوربيكا": {
+      "weekly_points": 2,
+      "daily_points": 2,
+      "total_points": 2,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-06T02:50:14"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "رؤيا",
+      "participants": [
+        {
+          "name": "رؤيا",
+          "points": 5
+        },
+        {
+          "name": "ل.",
+          "points": 3
+        },
+        {
+          "name": "كوربيكا",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-06T02:50:14"
+    },
     {
       "type": 10,
       "winner": "ل.",
@@ -1157,17 +1196,6 @@
         }
       ],
       "created_at": "2026-06-03T11:27:13"
-    },
-    {
-      "type": 10,
-      "winner": "ناعور",
-      "participants": [
-        {
-          "name": "ناعور",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-03T11:24:41"
     }
   ],
   "last_daily_reset": "2026-06-06T01:13:22",
