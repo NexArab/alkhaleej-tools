@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-05T02:21:58",
   "last_reset": "2026-06-04T03:02:31",
-  "last_updated": "2026-06-05T03:03:24",
+  "last_updated": "2026-06-05T03:25:01",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -96,14 +96,14 @@
       "updated_at": "2026-05-26T21:20:37"
     },
     "هـُـمــام": {
-      "weekly_points": 35,
-      "daily_points": 0,
-      "total_points": 439,
-      "wins": 39,
-      "participations": 60,
+      "weekly_points": 45,
+      "daily_points": 10,
+      "total_points": 449,
+      "wins": 40,
+      "participations": 61,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-04T03:59:43",
-      "updated_at": "2026-06-04T03:59:43"
+      "last_win": "2026-06-05T03:25:01",
+      "updated_at": "2026-06-05T03:25:01"
     },
     "جديمان": {
       "weekly_points": 0,
@@ -527,6 +527,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "هـُـمــام",
+      "participants": [
+        {
+          "name": "هـُـمــام",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-05T03:25:01"
+    },
     {
       "type": 10,
       "winner": "vvf",
@@ -1125,17 +1136,6 @@
         }
       ],
       "created_at": "2026-06-03T08:43:02"
-    },
-    {
-      "type": 10,
-      "winner": "vvf",
-      "participants": [
-        {
-          "name": "vvf",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-03T08:38:03"
     }
   ],
   "last_daily_reset": "2026-06-05T02:21:58",
