@@ -8,12 +8,12 @@
   "weekly_champion_set_at": "2026-06-04T01:36:14",
   "daily_champion": {
     "name": "Rio",
-    "points": 75,
-    "date": "2026-06-05"
+    "points": 18,
+    "date": "2026-06-06"
   },
-  "daily_champion_set_at": "2026-06-05T00:34:19",
+  "daily_champion_set_at": "2026-06-06T00:06:21",
   "last_reset": "2026-06-04T01:36:14",
-  "last_updated": "2026-06-05T18:07:40",
+  "last_updated": "2026-06-06T00:06:21",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -27,7 +27,7 @@
     },
     "Rio": {
       "weekly_points": 93,
-      "daily_points": 18,
+      "daily_points": 0,
       "total_points": 1348,
       "wins": 263,
       "participations": 276,
@@ -106,14 +106,14 @@
       "updated_at": "2026-06-03T00:20:23"
     },
     "جـوج": {
-      "weekly_points": 2,
-      "daily_points": 2,
-      "total_points": 561,
-      "wins": 106,
-      "participations": 116,
+      "weekly_points": 7,
+      "daily_points": 5,
+      "total_points": 566,
+      "wins": 107,
+      "participations": 117,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-02T01:28:17",
-      "updated_at": "2026-06-05T01:53:21"
+      "last_win": "2026-06-06T00:06:21",
+      "updated_at": "2026-06-06T00:06:21"
     },
     "جديمان بن شلآح الشلآويح": {
       "weekly_points": 0,
@@ -127,7 +127,7 @@
     },
     "نــــايــــف": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 52,
       "wins": 8,
       "participations": 14,
@@ -217,7 +217,7 @@
     },
     "Yara": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -227,6 +227,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-06T00:06:21"
+    },
     {
       "type": 5,
       "winner": "Rio",
@@ -777,19 +788,8 @@
         }
       ],
       "created_at": "2026-06-03T17:10:33"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-03T07:45:12"
     }
   ],
-  "last_daily_reset": "2026-06-05T00:34:19",
+  "last_daily_reset": "2026-06-06T00:06:21",
   "last_weekly_reset": "2026-06-04T01:36:14"
 }
