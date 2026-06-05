@@ -1,19 +1,19 @@
 {
   "room": "المقالات",
   "weekly_champion": {
-    "name": "ســاهــــر",
-    "points": 10,
-    "week_of": "2026-06-04"
+    "name": "ＣＰＵ ..",
+    "points": 95,
+    "week_of": "2026-06-05"
   },
-  "weekly_champion_set_at": "2026-06-04T23:53:13",
+  "weekly_champion_set_at": "2026-06-05T23:09:38",
   "daily_champion": {
     "name": "ＣＰＵ ..",
     "points": 150,
     "date": "2026-06-05"
   },
   "daily_champion_set_at": "2026-06-05T00:00:59",
-  "last_reset": "2026-06-04T23:53:13",
-  "last_updated": "2026-06-05T22:47:07",
+  "last_reset": "2026-06-05T23:09:38",
+  "last_updated": "2026-06-05T23:09:38",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 7,
-      "daily_points": 5,
-      "total_points": 310,
-      "wins": 32,
-      "participations": 36,
+      "weekly_points": 15,
+      "daily_points": 20,
+      "total_points": 325,
+      "wins": 33,
+      "participations": 37,
       "title": "ملك المقالات",
-      "last_win": "2026-06-04T23:45:20",
-      "updated_at": "2026-06-05T00:07:34"
+      "last_win": "2026-06-05T23:09:38",
+      "updated_at": "2026-06-05T23:09:38"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -136,7 +136,7 @@
       "updated_at": "2026-05-31T16:42:28"
     },
     "ضامي": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 5,
       "total_points": 96,
       "wins": 19,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 95,
-      "daily_points": 95,
-      "total_points": 533,
+      "weekly_points": 1,
+      "daily_points": 96,
+      "total_points": 534,
       "wins": 55,
-      "participations": 59,
+      "participations": 60,
       "title": "ملك المقالات",
       "last_win": "2026-06-05T22:47:07",
-      "updated_at": "2026-06-05T22:47:07"
+      "updated_at": "2026-06-05T23:09:38"
     },
     "كتب": {
       "weekly_points": 0,
@@ -276,7 +276,7 @@
       "updated_at": "2026-06-01T06:02:55"
     },
     "شين باء": {
-      "weekly_points": 25,
+      "weekly_points": 0,
       "daily_points": 25,
       "total_points": 121,
       "wins": 4,
@@ -356,7 +356,7 @@
       "updated_at": "2026-06-04T10:49:32"
     },
     "ZAZA": {
-      "weekly_points": 26,
+      "weekly_points": 0,
       "daily_points": 21,
       "total_points": 26,
       "wins": 1,
@@ -367,6 +367,21 @@
     }
   },
   "matches": [
+    {
+      "type": 15,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 15
+        },
+        {
+          "name": "ＣＰＵ ..",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-05T23:09:38"
+    },
     {
       "type": 25,
       "winner": "ＣＰＵ ..",
@@ -973,19 +988,8 @@
         }
       ],
       "created_at": "2026-06-01T17:27:20"
-    },
-    {
-      "type": 10,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-01T17:22:46"
     }
   ],
   "last_daily_reset": "2026-06-05T00:00:59",
-  "last_weekly_reset": "2026-06-04T23:53:13"
+  "last_weekly_reset": "2026-06-05T23:09:38"
 }
