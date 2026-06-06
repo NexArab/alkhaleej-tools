@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-06T00:06:21",
   "last_reset": "2026-06-04T01:36:14",
-  "last_updated": "2026-06-06T11:42:15",
+  "last_updated": "2026-06-06T12:28:19",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -224,9 +224,30 @@
       "title": "بطل الفعاليات",
       "last_win": "2026-06-05T03:34:55",
       "updated_at": "2026-06-05T03:34:55"
+    },
+    "⠀⠀           محـمّد": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "بطل الفعاليات",
+      "last_win": "2026-06-06T12:28:19",
+      "updated_at": "2026-06-06T12:28:19"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "⠀⠀           محـمّد",
+      "participants": [
+        {
+          "name": "⠀⠀           محـمّد",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-06T12:28:19"
+    },
     {
       "type": 5,
       "winner": "بَكـر الدُليمــــي",
@@ -781,17 +802,6 @@
         }
       ],
       "created_at": "2026-06-03T17:16:44"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-03T17:15:13"
     }
   ],
   "last_daily_reset": "2026-06-06T00:06:21",
