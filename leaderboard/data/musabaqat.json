@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-06T01:13:22",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-06T02:50:14",
+  "last_updated": "2026-06-06T04:21:03",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 6,
@@ -276,14 +276,14 @@
       "updated_at": "2026-06-05T23:10:44"
     },
     "ضامي": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 21,
-      "wins": 4,
-      "participations": 5,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 26,
+      "wins": 5,
+      "participations": 6,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-05T22:30:17",
-      "updated_at": "2026-06-05T22:30:17"
+      "last_win": "2026-06-06T04:21:03",
+      "updated_at": "2026-06-06T04:21:03"
     },
     "💛💙 Champions 💛💙": {
       "weekly_points": 0,
@@ -567,6 +567,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ضامي",
+      "participants": [
+        {
+          "name": "ضامي",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-06T04:21:03"
+    },
     {
       "type": 5,
       "winner": "رؤيا",
@@ -1185,17 +1196,6 @@
         }
       ],
       "created_at": "2026-06-03T11:30:39"
-    },
-    {
-      "type": 10,
-      "winner": "ناعور",
-      "participants": [
-        {
-          "name": "ناعور",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-03T11:27:13"
     }
   ],
   "last_daily_reset": "2026-06-06T01:13:22",
