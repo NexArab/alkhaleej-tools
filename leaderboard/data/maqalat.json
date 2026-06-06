@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-06T01:22:43",
   "last_reset": "2026-06-05T23:09:38",
-  "last_updated": "2026-06-06T07:56:09",
+  "last_updated": "2026-06-06T10:25:47",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -186,14 +186,14 @@
       "updated_at": "2026-06-05T23:09:38"
     },
     "كتب": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 605,
-      "wins": 27,
-      "participations": 27,
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 630,
+      "wins": 28,
+      "participations": 28,
       "title": "ملك المقالات",
-      "last_win": "2026-06-04T19:47:59",
-      "updated_at": "2026-06-04T19:47:59"
+      "last_win": "2026-06-06T10:25:47",
+      "updated_at": "2026-06-06T10:25:47"
     },
     "روميو": {
       "weekly_points": 0,
@@ -367,6 +367,17 @@
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "كتب",
+      "participants": [
+        {
+          "name": "كتب",
+          "points": 25
+        }
+      ],
+      "created_at": "2026-06-06T10:25:47"
+    },
     {
       "type": 5,
       "winner": "ضامي",
@@ -969,17 +980,6 @@
         }
       ],
       "created_at": "2026-06-01T20:31:08"
-    },
-    {
-      "type": 10,
-      "winner": "التجربة",
-      "participants": [
-        {
-          "name": "التجربة",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-01T20:29:19"
     }
   ],
   "last_daily_reset": "2026-06-06T01:22:43",
