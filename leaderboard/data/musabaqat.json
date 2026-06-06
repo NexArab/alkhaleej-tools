@@ -13,17 +13,17 @@
   },
   "daily_champion_set_at": "2026-06-06T01:13:22",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-06T04:21:03",
+  "last_updated": "2026-06-06T10:54:48",
   "players": {
     "بَكـر الدُليمــــي": {
-      "weekly_points": 6,
-      "daily_points": 6,
-      "total_points": 18,
-      "wins": 2,
-      "participations": 5,
+      "weekly_points": 11,
+      "daily_points": 11,
+      "total_points": 23,
+      "wins": 3,
+      "participations": 6,
       "title": "سيد المسابقات",
-      "last_win": "2026-05-25T10:35:40",
-      "updated_at": "2026-06-06T02:37:14"
+      "last_win": "2026-06-06T10:54:48",
+      "updated_at": "2026-06-06T10:54:48"
     },
     "How?": {
       "weekly_points": 10,
@@ -567,6 +567,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "بَكـر الدُليمــــي",
+      "participants": [
+        {
+          "name": "بَكـر الدُليمــــي",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-06T10:54:48"
+    },
     {
       "type": 5,
       "winner": "ضامي",
@@ -1185,17 +1196,6 @@
         }
       ],
       "created_at": "2026-06-03T11:33:05"
-    },
-    {
-      "type": 10,
-      "winner": "ناعور",
-      "participants": [
-        {
-          "name": "ناعور",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-03T11:30:39"
     }
   ],
   "last_daily_reset": "2026-06-06T01:13:22",
