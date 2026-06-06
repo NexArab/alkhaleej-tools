@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-06T01:13:22",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-06T21:10:19",
+  "last_updated": "2026-06-06T21:12:57",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -266,14 +266,14 @@
       "updated_at": "2026-05-27T13:24:00"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 30,
-      "daily_points": 20,
-      "total_points": 60,
-      "wins": 9,
-      "participations": 11,
+      "weekly_points": 35,
+      "daily_points": 25,
+      "total_points": 65,
+      "wins": 10,
+      "participations": 12,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-06T21:10:19",
-      "updated_at": "2026-06-06T21:10:19"
+      "last_win": "2026-06-06T21:12:57",
+      "updated_at": "2026-06-06T21:12:57"
     },
     "ضامي": {
       "weekly_points": 5,
@@ -566,17 +566,32 @@
       "updated_at": "2026-06-06T02:50:14"
     },
     "Greece": {
-      "weekly_points": 11,
-      "daily_points": 11,
-      "total_points": 11,
+      "weekly_points": 13,
+      "daily_points": 13,
+      "total_points": 13,
       "wins": 2,
-      "participations": 3,
+      "participations": 4,
       "title": "سيد المسابقات",
       "last_win": "2026-06-06T21:09:11",
-      "updated_at": "2026-06-06T21:10:19"
+      "updated_at": "2026-06-06T21:12:57"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 5
+        },
+        {
+          "name": "Greece",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-06T21:12:57"
+    },
     {
       "type": 5,
       "winner": "ＣＰＵ ..",
@@ -1191,17 +1206,6 @@
         }
       ],
       "created_at": "2026-06-04T03:06:14"
-    },
-    {
-      "type": 10,
-      "winner": "vvf",
-      "participants": [
-        {
-          "name": "vvf",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-04T03:04:21"
     }
   ],
   "last_daily_reset": "2026-06-06T01:13:22",
