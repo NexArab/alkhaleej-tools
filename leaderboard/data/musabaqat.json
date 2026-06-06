@@ -7,17 +7,17 @@
   },
   "weekly_champion_set_at": "2026-06-05T23:10:44",
   "daily_champion": {
-    "name": "vvf",
-    "points": 30,
-    "date": "2026-06-06"
+    "name": "ل.",
+    "points": 38,
+    "date": "2026-06-07"
   },
-  "daily_champion_set_at": "2026-06-06T01:13:22",
+  "daily_champion_set_at": "2026-06-07T00:53:10",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-06T23:50:28",
+  "last_updated": "2026-06-07T00:53:10",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
-      "daily_points": 11,
+      "daily_points": 0,
       "total_points": 23,
       "wins": 3,
       "participations": 6,
@@ -27,7 +27,7 @@
     },
     "How?": {
       "weekly_points": 15,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 132,
       "wins": 22,
       "participations": 23,
@@ -267,7 +267,7 @@
     },
     "ＣＰＵ ..": {
       "weekly_points": 35,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 65,
       "wins": 10,
       "participations": 12,
@@ -277,7 +277,7 @@
     },
     "ضامي": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 31,
       "wins": 6,
       "participations": 7,
@@ -417,7 +417,7 @@
     },
     "علي ناعور": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 120,
       "wins": 12,
       "participations": 12,
@@ -516,14 +516,14 @@
       "updated_at": "2026-06-04T20:10:24"
     },
     "Q": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 12,
-      "wins": 1,
-      "participations": 2,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 17,
+      "wins": 2,
+      "participations": 3,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-04T20:10:24",
-      "updated_at": "2026-06-04T20:10:24"
+      "last_win": "2026-06-07T00:53:10",
+      "updated_at": "2026-06-07T00:53:10"
     },
     "Yara": {
       "weekly_points": 0,
@@ -537,7 +537,7 @@
     },
     "ل.": {
       "weekly_points": 38,
-      "daily_points": 38,
+      "daily_points": 0,
       "total_points": 38,
       "wins": 4,
       "participations": 5,
@@ -547,7 +547,7 @@
     },
     "رؤيا": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -557,7 +557,7 @@
     },
     "كوربيكا": {
       "weekly_points": 2,
-      "daily_points": 2,
+      "daily_points": 0,
       "total_points": 2,
       "wins": 0,
       "participations": 1,
@@ -567,7 +567,7 @@
     },
     "Greece": {
       "weekly_points": 13,
-      "daily_points": 13,
+      "daily_points": 0,
       "total_points": 13,
       "wins": 2,
       "participations": 4,
@@ -577,7 +577,7 @@
     },
     "مُُ": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 10,
       "wins": 1,
       "participations": 1,
@@ -587,6 +587,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Q",
+      "participants": [
+        {
+          "name": "Q",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-07T00:53:10"
+    },
     {
       "type": 5,
       "winner": "ضامي",
@@ -1201,23 +1212,8 @@
         }
       ],
       "created_at": "2026-06-04T03:27:09"
-    },
-    {
-      "type": 5,
-      "winner": "إستبــــــــــــرق",
-      "participants": [
-        {
-          "name": "إستبــــــــــــرق",
-          "points": 5
-        },
-        {
-          "name": "طـــــــونـــــــي",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-06-04T03:12:14"
     }
   ],
-  "last_daily_reset": "2026-06-06T01:13:22",
+  "last_daily_reset": "2026-06-07T00:53:10",
   "last_weekly_reset": "2026-06-05T23:10:44"
 }
