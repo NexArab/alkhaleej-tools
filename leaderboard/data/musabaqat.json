@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-07T00:53:10",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-07T06:20:27",
+  "last_updated": "2026-06-07T06:23:50",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -96,14 +96,14 @@
       "updated_at": "2026-05-26T21:20:37"
     },
     "هـُـمــام": {
-      "weekly_points": 7,
-      "daily_points": 7,
-      "total_points": 466,
+      "weekly_points": 8,
+      "daily_points": 8,
+      "total_points": 467,
       "wins": 42,
-      "participations": 64,
+      "participations": 65,
       "title": "سيد المسابقات",
       "last_win": "2026-06-05T03:32:59",
-      "updated_at": "2026-06-07T06:20:27"
+      "updated_at": "2026-06-07T06:23:50"
     },
     "جديمان": {
       "weekly_points": 0,
@@ -426,14 +426,14 @@
       "updated_at": "2026-06-06T11:08:58"
     },
     "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 27,
-      "wins": 2,
-      "participations": 3,
+      "weekly_points": 15,
+      "daily_points": 15,
+      "total_points": 32,
+      "wins": 3,
+      "participations": 4,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-07T06:20:27",
-      "updated_at": "2026-06-07T06:20:27"
+      "last_win": "2026-06-07T06:23:50",
+      "updated_at": "2026-06-07T06:23:50"
     },
     "نــــايــــف": {
       "weekly_points": 0,
@@ -597,6 +597,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة",
+      "participants": [
+        {
+          "name": "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة",
+          "points": 5
+        },
+        {
+          "name": "هـُـمــام",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-07T06:23:50"
+    },
     {
       "type": 10,
       "winner": "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة",
@@ -1195,17 +1210,6 @@
         }
       ],
       "created_at": "2026-06-04T11:13:23"
-    },
-    {
-      "type": 5,
-      "winner": "هـُـمــام",
-      "participants": [
-        {
-          "name": "هـُـمــام",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-04T03:59:43"
     }
   ],
   "last_daily_reset": "2026-06-07T00:53:10",
