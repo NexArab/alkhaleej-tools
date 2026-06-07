@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-07T01:41:37",
   "last_reset": "2026-06-05T23:09:38",
-  "last_updated": "2026-06-07T20:36:48",
+  "last_updated": "2026-06-07T21:32:29",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,24 +176,24 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 2,
-      "daily_points": 0,
-      "total_points": 535,
-      "wins": 55,
-      "participations": 61,
+      "weekly_points": 27,
+      "daily_points": 25,
+      "total_points": 560,
+      "wins": 56,
+      "participations": 62,
       "title": "ملك المقالات",
-      "last_win": "2026-06-05T22:47:07",
-      "updated_at": "2026-06-06T19:44:16"
+      "last_win": "2026-06-07T21:32:29",
+      "updated_at": "2026-06-07T21:32:29"
     },
     "كتب": {
-      "weekly_points": 100,
-      "daily_points": 25,
-      "total_points": 705,
+      "weekly_points": 114,
+      "daily_points": 39,
+      "total_points": 719,
       "wins": 31,
-      "participations": 31,
+      "participations": 32,
       "title": "ملك المقالات",
       "last_win": "2026-06-07T20:36:48",
-      "updated_at": "2026-06-07T20:36:48"
+      "updated_at": "2026-06-07T21:32:29"
     },
     "روميو": {
       "weekly_points": 5,
@@ -367,6 +367,21 @@
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 25
+        },
+        {
+          "name": "كتب",
+          "points": 14
+        }
+      ],
+      "created_at": "2026-06-07T21:32:29"
+    },
     {
       "type": 25,
       "winner": "كتب",
@@ -973,17 +988,6 @@
         }
       ],
       "created_at": "2026-06-04T19:19:07"
-    },
-    {
-      "type": 10,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-04T16:54:45"
     }
   ],
   "last_daily_reset": "2026-06-07T01:41:37",
