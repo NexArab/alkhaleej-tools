@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-07T00:22:49",
   "last_reset": "2026-06-06T23:20:35",
-  "last_updated": "2026-06-07T22:37:08",
+  "last_updated": "2026-06-07T22:38:19",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -106,14 +106,14 @@
       "updated_at": "2026-06-07T03:00:22"
     },
     "جـوج": {
-      "weekly_points": 526,
-      "daily_points": 525,
-      "total_points": 1092,
-      "wins": 212,
-      "participations": 223,
+      "weekly_points": 531,
+      "daily_points": 530,
+      "total_points": 1097,
+      "wins": 213,
+      "participations": 224,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-07T22:37:08",
-      "updated_at": "2026-06-07T22:37:08"
+      "last_win": "2026-06-07T22:38:19",
+      "updated_at": "2026-06-07T22:38:19"
     },
     "جديمان بن شلآح الشلآويح": {
       "weekly_points": 0,
@@ -247,6 +247,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-07T22:38:19"
+    },
     {
       "type": 5,
       "winner": "جـوج",
@@ -805,17 +816,6 @@
         }
       ],
       "created_at": "2026-06-07T02:27:56"
-    },
-    {
-      "type": 5,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-07T02:25:51"
     }
   ],
   "last_daily_reset": "2026-06-07T00:22:49",
