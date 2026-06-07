@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-07T00:53:10",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-07T06:27:27",
+  "last_updated": "2026-06-07T06:30:00",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -96,14 +96,14 @@
       "updated_at": "2026-05-26T21:20:37"
     },
     "هـُـمــام": {
-      "weekly_points": 19,
-      "daily_points": 19,
-      "total_points": 478,
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 484,
       "wins": 43,
-      "participations": 67,
+      "participations": 68,
       "title": "سيد المسابقات",
       "last_win": "2026-06-07T06:24:57",
-      "updated_at": "2026-06-07T06:27:27"
+      "updated_at": "2026-06-07T06:30:00"
     },
     "جديمان": {
       "weekly_points": 0,
@@ -426,14 +426,14 @@
       "updated_at": "2026-06-06T11:08:58"
     },
     "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 42,
-      "wins": 4,
-      "participations": 5,
+      "weekly_points": 35,
+      "daily_points": 35,
+      "total_points": 52,
+      "wins": 5,
+      "participations": 6,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-07T06:27:27",
-      "updated_at": "2026-06-07T06:27:27"
+      "last_win": "2026-06-07T06:30:00",
+      "updated_at": "2026-06-07T06:30:00"
     },
     "نــــايــــف": {
       "weekly_points": 0,
@@ -597,6 +597,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة",
+      "participants": [
+        {
+          "name": "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة",
+          "points": 10
+        },
+        {
+          "name": "هـُـمــام",
+          "points": 6
+        }
+      ],
+      "created_at": "2026-06-07T06:30:00"
+    },
     {
       "type": 10,
       "winner": "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة",
@@ -1203,17 +1218,6 @@
         }
       ],
       "created_at": "2026-06-04T16:35:11"
-    },
-    {
-      "type": 10,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-04T16:33:46"
     }
   ],
   "last_daily_reset": "2026-06-07T00:53:10",
