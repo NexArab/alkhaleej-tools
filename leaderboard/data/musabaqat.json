@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-05T23:10:44",
   "daily_champion": {
-    "name": "ل.",
-    "points": 38,
-    "date": "2026-06-07"
+    "name": "جـوج",
+    "points": 52,
+    "date": "2026-06-08"
   },
-  "daily_champion_set_at": "2026-06-07T00:53:10",
+  "daily_champion_set_at": "2026-06-08T01:29:32",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-07T22:44:15",
+  "last_updated": "2026-06-08T01:29:32",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -27,7 +27,7 @@
     },
     "How?": {
       "weekly_points": 26,
-      "daily_points": 11,
+      "daily_points": 0,
       "total_points": 143,
       "wins": 24,
       "participations": 26,
@@ -57,7 +57,7 @@
     },
     "جـوج": {
       "weekly_points": 52,
-      "daily_points": 52,
+      "daily_points": 0,
       "total_points": 2408,
       "wins": 243,
       "participations": 257,
@@ -77,7 +77,7 @@
     },
     "Rio": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 612,
       "wins": 62,
       "participations": 70,
@@ -97,7 +97,7 @@
     },
     "هـُـمــام": {
       "weekly_points": 45,
-      "daily_points": 45,
+      "daily_points": 0,
       "total_points": 504,
       "wins": 45,
       "participations": 70,
@@ -267,7 +267,7 @@
     },
     "ＣＰＵ ..": {
       "weekly_points": 65,
-      "daily_points": 30,
+      "daily_points": 0,
       "total_points": 95,
       "wins": 15,
       "participations": 17,
@@ -276,14 +276,14 @@
       "updated_at": "2026-06-07T22:44:15"
     },
     "ضامي": {
-      "weekly_points": 10,
-      "daily_points": 0,
-      "total_points": 31,
-      "wins": 6,
-      "participations": 7,
+      "weekly_points": 15,
+      "daily_points": 5,
+      "total_points": 36,
+      "wins": 7,
+      "participations": 8,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-06T23:50:28",
-      "updated_at": "2026-06-06T23:50:28"
+      "last_win": "2026-06-08T01:29:32",
+      "updated_at": "2026-06-08T01:29:32"
     },
     "💛💙 Champions 💛💙": {
       "weekly_points": 0,
@@ -347,7 +347,7 @@
     },
     "vvf": {
       "weekly_points": 30,
-      "daily_points": 30,
+      "daily_points": 0,
       "total_points": 400,
       "wins": 40,
       "participations": 42,
@@ -427,7 +427,7 @@
     },
     "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة": {
       "weekly_points": 40,
-      "daily_points": 40,
+      "daily_points": 0,
       "total_points": 57,
       "wins": 5,
       "participations": 7,
@@ -437,7 +437,7 @@
     },
     "نــــايــــف": {
       "weekly_points": 1,
-      "daily_points": 1,
+      "daily_points": 0,
       "total_points": 26,
       "wins": 3,
       "participations": 4,
@@ -517,7 +517,7 @@
     },
     "Q": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 17,
       "wins": 2,
       "participations": 3,
@@ -567,7 +567,7 @@
     },
     "Greece": {
       "weekly_points": 18,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 18,
       "wins": 2,
       "participations": 6,
@@ -587,7 +587,7 @@
     },
     "W": {
       "weekly_points": 2,
-      "daily_points": 2,
+      "daily_points": 0,
       "total_points": 2,
       "wins": 0,
       "participations": 1,
@@ -597,6 +597,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ضامي",
+      "participants": [
+        {
+          "name": "ضامي",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-08T01:29:32"
+    },
     {
       "type": 5,
       "winner": "ＣＰＵ ..",
@@ -1215,19 +1226,8 @@
         }
       ],
       "created_at": "2026-06-05T03:25:01"
-    },
-    {
-      "type": 10,
-      "winner": "vvf",
-      "participants": [
-        {
-          "name": "vvf",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-05T03:03:24"
     }
   ],
-  "last_daily_reset": "2026-06-07T00:53:10",
+  "last_daily_reset": "2026-06-08T01:29:32",
   "last_weekly_reset": "2026-06-05T23:10:44"
 }
