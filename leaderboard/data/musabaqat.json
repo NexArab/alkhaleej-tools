@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-08T01:29:32",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-08T07:02:19",
+  "last_updated": "2026-06-08T07:08:30",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -56,14 +56,14 @@
       "updated_at": "2026-05-25T14:10:43"
     },
     "جـوج": {
-      "weekly_points": 350,
-      "daily_points": 298,
-      "total_points": 2706,
-      "wins": 272,
-      "participations": 289,
+      "weekly_points": 360,
+      "daily_points": 308,
+      "total_points": 2716,
+      "wins": 273,
+      "participations": 290,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-08T07:02:19",
-      "updated_at": "2026-06-08T07:02:19"
+      "last_win": "2026-06-08T07:08:30",
+      "updated_at": "2026-06-08T07:08:30"
     },
     "voeuxmi": {
       "weekly_points": 0,
@@ -597,6 +597,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-08T07:08:30"
+    },
     {
       "type": 10,
       "winner": "جـوج",
@@ -1179,21 +1190,6 @@
         }
       ],
       "created_at": "2026-06-07T06:30:00"
-    },
-    {
-      "type": 10,
-      "winner": "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة",
-      "participants": [
-        {
-          "name": "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة",
-          "points": 10
-        },
-        {
-          "name": "هـُـمــام",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-06-07T06:27:27"
     }
   ],
   "last_daily_reset": "2026-06-08T01:29:32",
