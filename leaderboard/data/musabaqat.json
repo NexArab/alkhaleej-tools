@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-08T01:29:32",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-08T09:49:00",
+  "last_updated": "2026-06-08T16:05:16",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -276,14 +276,14 @@
       "updated_at": "2026-06-07T22:44:15"
     },
     "ضامي": {
-      "weekly_points": 20,
-      "daily_points": 10,
-      "total_points": 41,
-      "wins": 8,
-      "participations": 9,
+      "weekly_points": 25,
+      "daily_points": 15,
+      "total_points": 46,
+      "wins": 9,
+      "participations": 10,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-08T04:47:32",
-      "updated_at": "2026-06-08T04:47:32"
+      "last_win": "2026-06-08T16:05:16",
+      "updated_at": "2026-06-08T16:05:16"
     },
     "💛💙 Champions 💛💙": {
       "weekly_points": 0,
@@ -597,6 +597,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ضامي",
+      "participants": [
+        {
+          "name": "ضامي",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-08T16:05:16"
+    },
     {
       "type": 10,
       "winner": "How?",
@@ -1155,17 +1166,6 @@
         }
       ],
       "created_at": "2026-06-08T01:29:32"
-    },
-    {
-      "type": 5,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-07T22:44:15"
     }
   ],
   "last_daily_reset": "2026-06-08T01:29:32",
