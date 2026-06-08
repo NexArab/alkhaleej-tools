@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-08T01:29:32",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-08T21:43:08",
+  "last_updated": "2026-06-08T21:48:01",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -416,14 +416,14 @@
       "updated_at": "2026-05-31T22:15:12"
     },
     "علي ناعور": {
-      "weekly_points": 20,
-      "daily_points": 10,
-      "total_points": 130,
+      "weekly_points": 23,
+      "daily_points": 13,
+      "total_points": 133,
       "wins": 14,
-      "participations": 14,
+      "participations": 15,
       "title": "سيد المسابقات",
       "last_win": "2026-06-08T21:43:08",
-      "updated_at": "2026-06-08T21:43:08"
+      "updated_at": "2026-06-08T21:48:01"
     },
     "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة": {
       "weekly_points": 40,
@@ -594,9 +594,34 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-06-07T06:20:27"
+    },
+    "Lyx": {
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 10,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-06-08T21:48:01",
+      "updated_at": "2026-06-08T21:48:01"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Lyx",
+      "participants": [
+        {
+          "name": "Lyx",
+          "points": 10
+        },
+        {
+          "name": "علي ناعور",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-06-08T21:48:01"
+    },
     {
       "type": 5,
       "winner": "علي ناعور",
@@ -1171,17 +1196,6 @@
         }
       ],
       "created_at": "2026-06-08T03:23:29"
-    },
-    {
-      "type": 10,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-08T03:21:02"
     }
   ],
   "last_daily_reset": "2026-06-08T01:29:32",
