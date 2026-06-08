@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-05T23:09:38",
   "daily_champion": {
-    "name": "ＣＰＵ ..",
-    "points": 40,
-    "date": "2026-06-08"
+    "name": "كتب",
+    "points": 75,
+    "date": "2026-06-09"
   },
-  "daily_champion_set_at": "2026-06-08T04:45:58",
+  "daily_champion_set_at": "2026-06-09T01:08:20",
   "last_reset": "2026-06-05T23:09:38",
-  "last_updated": "2026-06-08T22:53:47",
+  "last_updated": "2026-06-09T01:08:20",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 75,
-      "daily_points": 0,
-      "total_points": 385,
-      "wins": 38,
-      "participations": 42,
+      "weekly_points": 90,
+      "daily_points": 15,
+      "total_points": 400,
+      "wins": 39,
+      "participations": 43,
       "title": "ملك المقالات",
-      "last_win": "2026-06-07T15:34:43",
-      "updated_at": "2026-06-07T15:34:43"
+      "last_win": "2026-06-09T01:08:20",
+      "updated_at": "2026-06-09T01:08:20"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -137,7 +137,7 @@
     },
     "ضامي": {
       "weekly_points": 80,
-      "daily_points": 50,
+      "daily_points": 0,
       "total_points": 176,
       "wins": 33,
       "participations": 34,
@@ -177,7 +177,7 @@
     },
     "ＣＰＵ ..": {
       "weekly_points": 85,
-      "daily_points": 43,
+      "daily_points": 0,
       "total_points": 618,
       "wins": 64,
       "participations": 73,
@@ -187,7 +187,7 @@
     },
     "كتب": {
       "weekly_points": 189,
-      "daily_points": 75,
+      "daily_points": 0,
       "total_points": 794,
       "wins": 34,
       "participations": 35,
@@ -267,7 +267,7 @@
     },
     "How?": {
       "weekly_points": 50,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 109,
       "wins": 13,
       "participations": 21,
@@ -317,7 +317,7 @@
     },
     "نجر": {
       "weekly_points": 30,
-      "daily_points": 30,
+      "daily_points": 0,
       "total_points": 58,
       "wins": 4,
       "participations": 7,
@@ -327,7 +327,7 @@
     },
     "التجربة": {
       "weekly_points": 30,
-      "daily_points": 30,
+      "daily_points": 0,
       "total_points": 95,
       "wins": 9,
       "participations": 9,
@@ -367,7 +367,7 @@
     },
     "avhvm": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -377,6 +377,17 @@
     }
   },
   "matches": [
+    {
+      "type": 15,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 15
+        }
+      ],
+      "created_at": "2026-06-09T01:08:20"
+    },
     {
       "type": 10,
       "winner": "نجر",
@@ -935,19 +946,8 @@
         }
       ],
       "created_at": "2026-06-06T01:26:10"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-06T01:22:43"
     }
   ],
-  "last_daily_reset": "2026-06-08T04:45:58",
+  "last_daily_reset": "2026-06-09T01:08:20",
   "last_weekly_reset": "2026-06-05T23:09:38"
 }
