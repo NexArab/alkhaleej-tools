@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-08T01:29:32",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-08T09:01:10",
+  "last_updated": "2026-06-08T09:49:00",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -26,14 +26,14 @@
       "updated_at": "2026-06-06T10:54:48"
     },
     "How?": {
-      "weekly_points": 51,
-      "daily_points": 25,
-      "total_points": 168,
-      "wins": 29,
-      "participations": 31,
+      "weekly_points": 61,
+      "daily_points": 35,
+      "total_points": 178,
+      "wins": 30,
+      "participations": 32,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-08T09:01:10",
-      "updated_at": "2026-06-08T09:01:10"
+      "last_win": "2026-06-08T09:49:00",
+      "updated_at": "2026-06-08T09:49:00"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -598,6 +598,17 @@
   },
   "matches": [
     {
+      "type": 10,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-08T09:49:00"
+    },
+    {
       "type": 5,
       "winner": "How?",
       "participants": [
@@ -1155,21 +1166,6 @@
         }
       ],
       "created_at": "2026-06-07T22:44:15"
-    },
-    {
-      "type": 5,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 5
-        },
-        {
-          "name": "Greece",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-06-07T22:42:45"
     }
   ],
   "last_daily_reset": "2026-06-08T01:29:32",
