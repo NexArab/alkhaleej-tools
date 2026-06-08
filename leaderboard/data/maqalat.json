@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-08T04:45:58",
   "last_reset": "2026-06-05T23:09:38",
-  "last_updated": "2026-06-08T08:55:12",
+  "last_updated": "2026-06-08T08:56:17",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -326,14 +326,14 @@
       "updated_at": "2026-06-01T07:14:46"
     },
     "التجربة": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 90,
-      "wins": 8,
-      "participations": 8,
+      "weekly_points": 30,
+      "daily_points": 30,
+      "total_points": 95,
+      "wins": 9,
+      "participations": 9,
       "title": "ملك المقالات",
-      "last_win": "2026-06-08T08:55:12",
-      "updated_at": "2026-06-08T08:55:12"
+      "last_win": "2026-06-08T08:56:17",
+      "updated_at": "2026-06-08T08:56:17"
     },
     "Sir Deinich": {
       "weekly_points": 0,
@@ -367,6 +367,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "التجربة",
+      "participants": [
+        {
+          "name": "التجربة",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-08T08:56:17"
+    },
     {
       "type": 15,
       "winner": "التجربة",
@@ -949,21 +960,6 @@
         }
       ],
       "created_at": "2026-06-04T22:12:34"
-    },
-    {
-      "type": 25,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 25
-        },
-        {
-          "name": "شين باء",
-          "points": 11
-        }
-      ],
-      "created_at": "2026-06-04T22:03:42"
     }
   ],
   "last_daily_reset": "2026-06-08T04:45:58",
