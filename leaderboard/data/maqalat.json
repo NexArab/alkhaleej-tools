@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-09T01:08:20",
   "last_reset": "2026-06-05T23:09:38",
-  "last_updated": "2026-06-09T20:30:47",
+  "last_updated": "2026-06-09T20:34:58",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -376,17 +376,28 @@
       "updated_at": "2026-06-08T17:26:06"
     },
     "GRIM": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 10,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 20,
+      "daily_points": 20,
+      "total_points": 20,
+      "wins": 2,
+      "participations": 2,
       "title": "ملك المقالات",
-      "last_win": "2026-06-09T20:30:47",
-      "updated_at": "2026-06-09T20:30:47"
+      "last_win": "2026-06-09T20:34:58",
+      "updated_at": "2026-06-09T20:34:58"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "GRIM",
+      "participants": [
+        {
+          "name": "GRIM",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-09T20:34:58"
+    },
     {
       "type": 10,
       "winner": "GRIM",
@@ -937,21 +948,6 @@
         }
       ],
       "created_at": "2026-06-07T21:39:49"
-    },
-    {
-      "type": 25,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 25
-        },
-        {
-          "name": "كتب",
-          "points": 14
-        }
-      ],
-      "created_at": "2026-06-07T21:32:29"
     }
   ],
   "last_daily_reset": "2026-06-09T01:08:20",
