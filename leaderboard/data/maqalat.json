@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-09T01:08:20",
   "last_reset": "2026-06-05T23:09:38",
-  "last_updated": "2026-06-09T22:20:14",
+  "last_updated": "2026-06-09T22:40:55",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -376,14 +376,14 @@
       "updated_at": "2026-06-08T17:26:06"
     },
     "GRIM": {
-      "weekly_points": 128,
-      "daily_points": 128,
-      "total_points": 128,
-      "wins": 14,
-      "participations": 15,
+      "weekly_points": 133,
+      "daily_points": 133,
+      "total_points": 133,
+      "wins": 15,
+      "participations": 16,
       "title": "ملك المقالات",
-      "last_win": "2026-06-09T22:20:14",
-      "updated_at": "2026-06-09T22:20:14"
+      "last_win": "2026-06-09T22:40:55",
+      "updated_at": "2026-06-09T22:40:55"
     },
     "Y": {
       "weekly_points": 1,
@@ -407,6 +407,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "GRIM",
+      "participants": [
+        {
+          "name": "GRIM",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-09T22:40:55"
+    },
     {
       "type": 25,
       "winner": "GRIM",
@@ -977,17 +988,6 @@
         }
       ],
       "created_at": "2026-06-08T17:26:06"
-    },
-    {
-      "type": 5,
-      "winner": "ضامي",
-      "participants": [
-        {
-          "name": "ضامي",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-08T16:09:18"
     }
   ],
   "last_daily_reset": "2026-06-09T01:08:20",
