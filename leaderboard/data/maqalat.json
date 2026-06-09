@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-10T00:32:13",
   "last_reset": "2026-06-05T23:09:38",
-  "last_updated": "2026-06-10T02:31:31",
+  "last_updated": "2026-06-10T02:35:25",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 158,
-      "daily_points": 68,
-      "total_points": 691,
-      "wins": 71,
-      "participations": 81,
+      "weekly_points": 168,
+      "daily_points": 78,
+      "total_points": 701,
+      "wins": 72,
+      "participations": 82,
       "title": "ملك المقالات",
-      "last_win": "2026-06-10T02:31:31",
-      "updated_at": "2026-06-10T02:31:31"
+      "last_win": "2026-06-10T02:35:25",
+      "updated_at": "2026-06-10T02:35:25"
     },
     "كتب": {
       "weekly_points": 189,
@@ -416,14 +416,14 @@
       "updated_at": "2026-06-10T00:42:04"
     },
     "إيزن": {
-      "weekly_points": 31,
-      "daily_points": 31,
-      "total_points": 31,
+      "weekly_points": 33,
+      "daily_points": 33,
+      "total_points": 33,
       "wins": 1,
-      "participations": 4,
+      "participations": 5,
       "title": "ملك المقالات",
       "last_win": "2026-06-10T01:47:44",
-      "updated_at": "2026-06-10T02:31:31"
+      "updated_at": "2026-06-10T02:35:25"
     },
     "Chan": {
       "weekly_points": 21,
@@ -437,6 +437,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "إيزن",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-10T02:35:25"
+    },
     {
       "type": 5,
       "winner": "ＣＰＵ ..",
@@ -1035,17 +1050,6 @@
         }
       ],
       "created_at": "2026-06-09T01:12:33"
-    },
-    {
-      "type": 15,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 15
-        }
-      ],
-      "created_at": "2026-06-09T01:08:20"
     }
   ],
   "last_daily_reset": "2026-06-10T00:32:13",
