@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-09T01:08:20",
   "last_reset": "2026-06-05T23:09:38",
-  "last_updated": "2026-06-09T06:26:07",
+  "last_updated": "2026-06-09T06:34:12",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -236,14 +236,14 @@
       "updated_at": "2026-05-28T03:27:55"
     },
     "جـوج": {
-      "weekly_points": 250,
-      "daily_points": 250,
-      "total_points": 545,
-      "wins": 25,
-      "participations": 25,
+      "weekly_points": 275,
+      "daily_points": 275,
+      "total_points": 570,
+      "wins": 26,
+      "participations": 26,
       "title": "ملك المقالات",
-      "last_win": "2026-06-09T06:26:07",
-      "updated_at": "2026-06-09T06:26:07"
+      "last_win": "2026-06-09T06:34:12",
+      "updated_at": "2026-06-09T06:34:12"
     },
     "جديمان بن شلآح الشلآويح": {
       "weekly_points": 0,
@@ -377,6 +377,17 @@
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 25
+        }
+      ],
+      "created_at": "2026-06-09T06:34:12"
+    },
     {
       "type": 25,
       "winner": "جـوج",
@@ -931,17 +942,6 @@
         }
       ],
       "created_at": "2026-06-07T01:45:49"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-07T01:41:37"
     }
   ],
   "last_daily_reset": "2026-06-09T01:08:20",
