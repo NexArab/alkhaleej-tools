@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-09T01:08:20",
   "last_reset": "2026-06-05T23:09:38",
-  "last_updated": "2026-06-09T20:54:14",
+  "last_updated": "2026-06-09T20:56:26",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -376,14 +376,14 @@
       "updated_at": "2026-06-08T17:26:06"
     },
     "GRIM": {
-      "weekly_points": 50,
-      "daily_points": 50,
-      "total_points": 50,
-      "wins": 7,
-      "participations": 7,
+      "weekly_points": 55,
+      "daily_points": 55,
+      "total_points": 55,
+      "wins": 8,
+      "participations": 8,
       "title": "ملك المقالات",
-      "last_win": "2026-06-09T20:54:14",
-      "updated_at": "2026-06-09T20:54:14"
+      "last_win": "2026-06-09T20:56:26",
+      "updated_at": "2026-06-09T20:56:26"
     },
     "Y": {
       "weekly_points": 1,
@@ -396,17 +396,32 @@
       "updated_at": "2026-06-09T20:38:11"
     },
     "؟": {
-      "weekly_points": 4,
-      "daily_points": 4,
-      "total_points": 4,
+      "weekly_points": 6,
+      "daily_points": 6,
+      "total_points": 6,
       "wins": 0,
-      "participations": 2,
+      "participations": 3,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-09T20:54:14"
+      "updated_at": "2026-06-09T20:56:26"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "GRIM",
+      "participants": [
+        {
+          "name": "GRIM",
+          "points": 5
+        },
+        {
+          "name": "؟",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-09T20:56:26"
+    },
     {
       "type": 5,
       "winner": "GRIM",
@@ -969,17 +984,6 @@
         }
       ],
       "created_at": "2026-06-08T07:33:52"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-08T07:17:32"
     }
   ],
   "last_daily_reset": "2026-06-09T01:08:20",
