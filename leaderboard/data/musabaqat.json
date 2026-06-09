@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-09T00:02:37",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-09T21:18:09",
+  "last_updated": "2026-06-09T23:32:08",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -56,14 +56,14 @@
       "updated_at": "2026-05-25T14:10:43"
     },
     "جـوج": {
-      "weekly_points": 500,
-      "daily_points": 55,
-      "total_points": 2856,
+      "weekly_points": 501,
+      "daily_points": 56,
+      "total_points": 2857,
       "wins": 288,
-      "participations": 305,
+      "participations": 306,
       "title": "سيد المسابقات",
       "last_win": "2026-06-09T04:09:23",
-      "updated_at": "2026-06-09T04:09:23"
+      "updated_at": "2026-06-09T23:32:08"
     },
     "voeuxmi": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-26T14:55:37"
     },
     "Rio": {
-      "weekly_points": 94,
-      "daily_points": 74,
-      "total_points": 696,
+      "weekly_points": 96,
+      "daily_points": 76,
+      "total_points": 698,
       "wins": 72,
-      "participations": 81,
+      "participations": 82,
       "title": "سيد المسابقات",
       "last_win": "2026-06-09T20:57:54",
-      "updated_at": "2026-06-09T20:57:54"
+      "updated_at": "2026-06-09T23:32:08"
     },
     "ＣＰＵ   ..": {
       "weekly_points": 0,
@@ -366,14 +366,14 @@
       "updated_at": "2026-05-30T08:29:28"
     },
     "نجر": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 15,
+      "wins": 2,
+      "participations": 2,
       "title": "سيد المسابقات",
-      "last_win": "2026-05-30T10:01:02",
-      "updated_at": "2026-05-30T10:01:02"
+      "last_win": "2026-06-09T23:32:08",
+      "updated_at": "2026-06-09T23:32:08"
     },
     "دآمـي .": {
       "weekly_points": 0,
@@ -436,14 +436,14 @@
       "updated_at": "2026-06-07T06:34:05"
     },
     "نــــايــــف": {
-      "weekly_points": 43,
-      "daily_points": 0,
-      "total_points": 68,
+      "weekly_points": 45,
+      "daily_points": 2,
+      "total_points": 70,
       "wins": 7,
-      "participations": 10,
+      "participations": 11,
       "title": "سيد المسابقات",
       "last_win": "2026-06-08T06:51:13",
-      "updated_at": "2026-06-08T06:51:13"
+      "updated_at": "2026-06-09T23:32:08"
     },
     ".. سُوشي": {
       "weekly_points": 0,
@@ -617,6 +617,29 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 10
+        },
+        {
+          "name": "نــــايــــف",
+          "points": 2
+        },
+        {
+          "name": "Rio",
+          "points": 2
+        },
+        {
+          "name": "جـوج",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-09T23:32:08"
+    },
     {
       "type": 10,
       "winner": "؟",
@@ -1203,17 +1226,6 @@
         }
       ],
       "created_at": "2026-06-08T07:19:06"
-    },
-    {
-      "type": 10,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-08T07:17:35"
     }
   ],
   "last_daily_reset": "2026-06-09T00:02:37",
