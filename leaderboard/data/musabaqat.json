@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-05T23:10:44",
   "daily_champion": {
-    "name": "جـوج",
-    "points": 393,
-    "date": "2026-06-09"
+    "name": "Rio",
+    "points": 76,
+    "date": "2026-06-10"
   },
-  "daily_champion_set_at": "2026-06-09T00:02:37",
+  "daily_champion_set_at": "2026-06-10T00:48:37",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-09T23:32:08",
+  "last_updated": "2026-06-10T00:48:37",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -57,7 +57,7 @@
     },
     "جـوج": {
       "weekly_points": 501,
-      "daily_points": 56,
+      "daily_points": 0,
       "total_points": 2857,
       "wins": 288,
       "participations": 306,
@@ -77,7 +77,7 @@
     },
     "Rio": {
       "weekly_points": 96,
-      "daily_points": 76,
+      "daily_points": 0,
       "total_points": 698,
       "wins": 72,
       "participations": 82,
@@ -266,14 +266,14 @@
       "updated_at": "2026-05-27T13:24:00"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 114,
-      "daily_points": 1,
-      "total_points": 144,
-      "wins": 23,
-      "participations": 27,
+      "weekly_points": 124,
+      "daily_points": 10,
+      "total_points": 154,
+      "wins": 24,
+      "participations": 28,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-08T21:16:14",
-      "updated_at": "2026-06-09T00:37:35"
+      "last_win": "2026-06-10T00:48:37",
+      "updated_at": "2026-06-10T00:48:37"
     },
     "ضامي": {
       "weekly_points": 25,
@@ -367,7 +367,7 @@
     },
     "نجر": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 15,
       "wins": 2,
       "participations": 2,
@@ -437,7 +437,7 @@
     },
     "نــــايــــف": {
       "weekly_points": 45,
-      "daily_points": 2,
+      "daily_points": 0,
       "total_points": 70,
       "wins": 7,
       "participations": 11,
@@ -597,7 +597,7 @@
     },
     "Lyx": {
       "weekly_points": 41,
-      "daily_points": 1,
+      "daily_points": 0,
       "total_points": 41,
       "wins": 3,
       "participations": 6,
@@ -607,7 +607,7 @@
     },
     "؟": {
       "weekly_points": 30,
-      "daily_points": 30,
+      "daily_points": 0,
       "total_points": 30,
       "wins": 4,
       "participations": 4,
@@ -617,6 +617,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-10T00:48:37"
+    },
     {
       "type": 10,
       "winner": "نجر",
@@ -1215,19 +1226,8 @@
         }
       ],
       "created_at": "2026-06-08T07:21:33"
-    },
-    {
-      "type": 10,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-08T07:19:06"
     }
   ],
-  "last_daily_reset": "2026-06-09T00:02:37",
+  "last_daily_reset": "2026-06-10T00:48:37",
   "last_weekly_reset": "2026-06-05T23:10:44"
 }
