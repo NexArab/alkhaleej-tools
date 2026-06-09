@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-09T01:08:20",
   "last_reset": "2026-06-05T23:09:38",
-  "last_updated": "2026-06-09T21:00:06",
+  "last_updated": "2026-06-09T21:42:59",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -376,14 +376,14 @@
       "updated_at": "2026-06-08T17:26:06"
     },
     "GRIM": {
-      "weekly_points": 58,
-      "daily_points": 58,
-      "total_points": 58,
-      "wins": 8,
-      "participations": 9,
+      "weekly_points": 63,
+      "daily_points": 63,
+      "total_points": 63,
+      "wins": 9,
+      "participations": 10,
       "title": "ملك المقالات",
-      "last_win": "2026-06-09T20:56:26",
-      "updated_at": "2026-06-09T21:00:06"
+      "last_win": "2026-06-09T21:42:59",
+      "updated_at": "2026-06-09T21:42:59"
     },
     "Y": {
       "weekly_points": 1,
@@ -407,6 +407,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "GRIM",
+      "participants": [
+        {
+          "name": "GRIM",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-09T21:42:59"
+    },
     {
       "type": 5,
       "winner": "؟",
@@ -977,17 +988,6 @@
         }
       ],
       "created_at": "2026-06-08T08:55:12"
-    },
-    {
-      "type": 10,
-      "winner": "التجربة",
-      "participants": [
-        {
-          "name": "التجربة",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-08T08:49:47"
     }
   ],
   "last_daily_reset": "2026-06-09T01:08:20",
