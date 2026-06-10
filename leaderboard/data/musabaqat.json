@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-11T00:05:46",
   "last_reset": "2026-06-11T00:05:46",
-  "last_updated": "2026-06-11T00:17:19",
+  "last_updated": "2026-06-11T00:19:03",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -616,37 +616,56 @@
       "updated_at": "2026-06-10T09:47:06"
     },
     "كــــعبول": {
-      "weekly_points": 11,
-      "daily_points": 11,
-      "total_points": 26,
-      "wins": 2,
-      "participations": 4,
+      "weekly_points": 16,
+      "daily_points": 16,
+      "total_points": 31,
+      "wins": 3,
+      "participations": 5,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-10T23:55:16",
-      "updated_at": "2026-06-11T00:17:19"
+      "last_win": "2026-06-11T00:19:03",
+      "updated_at": "2026-06-11T00:19:03"
     },
     "إيزن": {
-      "weekly_points": 20,
-      "daily_points": 20,
-      "total_points": 24,
+      "weekly_points": 22,
+      "daily_points": 22,
+      "total_points": 26,
       "wins": 3,
-      "participations": 4,
+      "participations": 5,
       "title": "سيد المسابقات",
       "last_win": "2026-06-11T00:17:19",
-      "updated_at": "2026-06-11T00:17:19"
+      "updated_at": "2026-06-11T00:19:03"
     },
     "sooo": {
-      "weekly_points": 3,
-      "daily_points": 3,
-      "total_points": 3,
+      "weekly_points": 4,
+      "daily_points": 4,
+      "total_points": 4,
       "wins": 0,
-      "participations": 1,
+      "participations": 2,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-11T00:17:19"
+      "updated_at": "2026-06-11T00:19:03"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 5
+        },
+        {
+          "name": "إيزن",
+          "points": 2
+        },
+        {
+          "name": "sooo",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-11T00:19:03"
+    },
     {
       "type": 5,
       "winner": "إيزن",
@@ -1225,29 +1244,6 @@
         }
       ],
       "created_at": "2026-06-10T00:48:37"
-    },
-    {
-      "type": 10,
-      "winner": "نجر",
-      "participants": [
-        {
-          "name": "نجر",
-          "points": 10
-        },
-        {
-          "name": "نــــايــــف",
-          "points": 2
-        },
-        {
-          "name": "Rio",
-          "points": 2
-        },
-        {
-          "name": "جـوج",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-06-09T23:32:08"
     }
   ],
   "last_daily_reset": "2026-06-11T00:05:46",
