@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-10T07:52:02",
   "last_reset": "2026-06-06T23:20:35",
-  "last_updated": "2026-06-10T17:38:56",
+  "last_updated": "2026-06-10T20:58:31",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -126,14 +126,14 @@
       "updated_at": "2026-05-29T17:21:55"
     },
     "نــــايــــف": {
-      "weekly_points": 5,
-      "daily_points": 0,
-      "total_points": 57,
-      "wins": 8,
-      "participations": 18,
+      "weekly_points": 10,
+      "daily_points": 5,
+      "total_points": 62,
+      "wins": 9,
+      "participations": 19,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-05T01:53:21",
-      "updated_at": "2026-06-08T02:16:44"
+      "last_win": "2026-06-10T20:58:31",
+      "updated_at": "2026-06-10T20:58:31"
     },
     "ＣＰＵ ..": {
       "weekly_points": 0,
@@ -277,6 +277,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "نــــايــــف",
+      "participants": [
+        {
+          "name": "نــــايــــف",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-10T20:58:31"
+    },
     {
       "type": 5,
       "winner": "‎‏‎‏‎‏‎ ‏ ‏ هـنِيالك",
@@ -823,17 +834,6 @@
         }
       ],
       "created_at": "2026-06-08T07:30:12"
-    },
-    {
-      "type": 5,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-08T07:28:36"
     }
   ],
   "last_daily_reset": "2026-06-10T07:52:02",
