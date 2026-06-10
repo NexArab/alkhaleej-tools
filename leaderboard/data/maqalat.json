@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-10T00:32:13",
   "last_reset": "2026-06-05T23:09:38",
-  "last_updated": "2026-06-10T08:08:16",
+  "last_updated": "2026-06-10T08:16:34",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -236,14 +236,14 @@
       "updated_at": "2026-05-28T03:27:55"
     },
     "جـوج": {
-      "weekly_points": 358,
-      "daily_points": 5,
-      "total_points": 653,
-      "wins": 30,
-      "participations": 31,
+      "weekly_points": 383,
+      "daily_points": 30,
+      "total_points": 678,
+      "wins": 31,
+      "participations": 32,
       "title": "ملك المقالات",
-      "last_win": "2026-06-10T08:08:16",
-      "updated_at": "2026-06-10T08:08:16"
+      "last_win": "2026-06-10T08:16:34",
+      "updated_at": "2026-06-10T08:16:34"
     },
     "جديمان بن شلآح الشلآويح": {
       "weekly_points": 0,
@@ -434,9 +434,34 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-06-10T01:47:44"
+    },
+    "⁵¹⁵𝙰𝙼𝙸𝚁𝙰": {
+      "weekly_points": 2,
+      "daily_points": 2,
+      "total_points": 2,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-10T08:16:34"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "جـوج",
+      "participants": [
+        {
+          "name": "جـوج",
+          "points": 25
+        },
+        {
+          "name": "⁵¹⁵𝙰𝙼𝙸𝚁𝙰",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-10T08:16:34"
+    },
     {
       "type": 5,
       "winner": "جـوج",
@@ -1039,17 +1064,6 @@
         }
       ],
       "created_at": "2026-06-09T03:16:30"
-    },
-    {
-      "type": 25,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 25
-        }
-      ],
-      "created_at": "2026-06-09T03:04:22"
     }
   ],
   "last_daily_reset": "2026-06-10T00:32:13",
