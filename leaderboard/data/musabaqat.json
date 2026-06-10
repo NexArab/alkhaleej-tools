@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-11T00:05:46",
   "last_reset": "2026-06-11T00:05:46",
-  "last_updated": "2026-06-11T00:26:03",
+  "last_updated": "2026-06-11T00:33:19",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -616,14 +616,14 @@
       "updated_at": "2026-06-10T09:47:06"
     },
     "كــــعبول": {
-      "weekly_points": 31,
-      "daily_points": 31,
-      "total_points": 46,
-      "wins": 5,
-      "participations": 7,
+      "weekly_points": 41,
+      "daily_points": 41,
+      "total_points": 56,
+      "wins": 6,
+      "participations": 8,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-11T00:26:03",
-      "updated_at": "2026-06-11T00:26:03"
+      "last_win": "2026-06-11T00:33:19",
+      "updated_at": "2026-06-11T00:33:19"
     },
     "إيزن": {
       "weekly_points": 28,
@@ -647,6 +647,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-11T00:33:19"
+    },
     {
       "type": 10,
       "winner": "كــــعبول",
@@ -1241,21 +1252,6 @@
         }
       ],
       "created_at": "2026-06-10T05:47:06"
-    },
-    {
-      "type": 5,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 5
-        },
-        {
-          "name": "ＣＰＵ ..",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-06-10T01:58:23"
     }
   ],
   "last_daily_reset": "2026-06-11T00:05:46",
