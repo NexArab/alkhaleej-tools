@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-10T00:48:37",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-10T16:09:49",
+  "last_updated": "2026-06-10T16:11:33",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-26T14:55:37"
     },
     "Rio": {
-      "weekly_points": 136,
-      "daily_points": 40,
-      "total_points": 738,
-      "wins": 76,
-      "participations": 86,
+      "weekly_points": 146,
+      "daily_points": 50,
+      "total_points": 748,
+      "wins": 77,
+      "participations": 87,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-10T16:09:49",
-      "updated_at": "2026-06-10T16:09:49"
+      "last_win": "2026-06-10T16:11:33",
+      "updated_at": "2026-06-10T16:11:33"
     },
     "ＣＰＵ   ..": {
       "weekly_points": 0,
@@ -627,6 +627,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-10T16:11:33"
+    },
     {
       "type": 10,
       "winner": "Rio",
@@ -1209,17 +1220,6 @@
         }
       ],
       "created_at": "2026-06-08T22:15:48"
-    },
-    {
-      "type": 10,
-      "winner": "Lyx",
-      "participants": [
-        {
-          "name": "Lyx",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-08T22:13:00"
     }
   ],
   "last_daily_reset": "2026-06-10T00:48:37",
