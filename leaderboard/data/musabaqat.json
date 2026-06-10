@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-10T00:48:37",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-10T05:47:06",
+  "last_updated": "2026-06-10T06:07:15",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -96,14 +96,14 @@
       "updated_at": "2026-05-26T21:20:37"
     },
     "هـُـمــام": {
-      "weekly_points": 55,
-      "daily_points": 0,
-      "total_points": 514,
-      "wins": 46,
-      "participations": 71,
+      "weekly_points": 65,
+      "daily_points": 10,
+      "total_points": 524,
+      "wins": 47,
+      "participations": 72,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-08T22:05:35",
-      "updated_at": "2026-06-08T22:05:35"
+      "last_win": "2026-06-10T06:07:15",
+      "updated_at": "2026-06-10T06:07:15"
     },
     "جديمان": {
       "weekly_points": 0,
@@ -627,6 +627,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "هـُـمــام",
+      "participants": [
+        {
+          "name": "هـُـمــام",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-10T06:07:15"
+    },
     {
       "type": 5,
       "winner": "ＣＰＵ ..",
@@ -1229,17 +1240,6 @@
         }
       ],
       "created_at": "2026-06-08T08:29:22"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-08T07:28:27"
     }
   ],
   "last_daily_reset": "2026-06-10T00:48:37",
