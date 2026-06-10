@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-10T00:48:37",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-10T23:00:10",
+  "last_updated": "2026-06-10T23:02:39",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -566,14 +566,14 @@
       "updated_at": "2026-06-06T02:50:14"
     },
     "Greece": {
-      "weekly_points": 39,
-      "daily_points": 5,
-      "total_points": 39,
-      "wins": 2,
-      "participations": 10,
+      "weekly_points": 44,
+      "daily_points": 10,
+      "total_points": 44,
+      "wins": 3,
+      "participations": 11,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-06T21:09:11",
-      "updated_at": "2026-06-10T23:00:10"
+      "last_win": "2026-06-10T23:02:39",
+      "updated_at": "2026-06-10T23:02:39"
     },
     "مُُ": {
       "weekly_points": 10,
@@ -627,6 +627,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Greece",
+      "participants": [
+        {
+          "name": "Greece",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-10T23:02:39"
+    },
     {
       "type": 10,
       "winner": "Rio",
@@ -1201,17 +1212,6 @@
         }
       ],
       "created_at": "2026-06-09T04:02:55"
-    },
-    {
-      "type": 10,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-09T04:00:17"
     }
   ],
   "last_daily_reset": "2026-06-10T00:48:37",
