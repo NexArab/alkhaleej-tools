@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-10T00:48:37",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-10T23:36:06",
+  "last_updated": "2026-06-10T23:55:16",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -616,17 +616,42 @@
       "updated_at": "2026-06-10T09:47:06"
     },
     "كــــعبول": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 15,
+      "daily_points": 15,
+      "total_points": 15,
+      "wins": 2,
+      "participations": 2,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-10T01:58:23",
-      "updated_at": "2026-06-10T01:58:23"
+      "last_win": "2026-06-10T23:55:16",
+      "updated_at": "2026-06-10T23:55:16"
+    },
+    "إيزن": {
+      "weekly_points": 4,
+      "daily_points": 4,
+      "total_points": 4,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-10T23:55:16"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 10
+        },
+        {
+          "name": "إيزن",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-06-10T23:55:16"
+    },
     {
       "type": 10,
       "winner": "Rio",
@@ -1201,17 +1226,6 @@
         }
       ],
       "created_at": "2026-06-09T21:09:38"
-    },
-    {
-      "type": 5,
-      "winner": "؟",
-      "participants": [
-        {
-          "name": "؟",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-09T21:06:45"
     }
   ],
   "last_daily_reset": "2026-06-10T00:48:37",
