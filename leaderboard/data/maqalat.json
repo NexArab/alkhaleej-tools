@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-11T01:13:06",
   "last_reset": "2026-06-11T01:13:06",
-  "last_updated": "2026-06-11T01:13:06",
+  "last_updated": "2026-06-11T02:02:16",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -446,17 +446,28 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 19,
-      "daily_points": 19,
-      "total_points": 111,
-      "wins": 5,
-      "participations": 10,
+      "weekly_points": 24,
+      "daily_points": 24,
+      "total_points": 116,
+      "wins": 6,
+      "participations": 11,
       "title": "ملك المقالات",
-      "last_win": "2026-06-10T23:34:03",
-      "updated_at": "2026-06-11T01:13:06"
+      "last_win": "2026-06-11T02:02:16",
+      "updated_at": "2026-06-11T02:02:16"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-11T02:02:16"
+    },
     {
       "type": 25,
       "winner": "إيزن",
@@ -1091,17 +1102,6 @@
         }
       ],
       "created_at": "2026-06-09T22:45:03"
-    },
-    {
-      "type": 5,
-      "winner": "GRIM",
-      "participants": [
-        {
-          "name": "GRIM",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-09T22:40:55"
     }
   ],
   "last_daily_reset": "2026-06-11T01:13:06",
