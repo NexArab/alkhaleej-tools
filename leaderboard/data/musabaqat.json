@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-10T00:48:37",
   "last_reset": "2026-06-05T23:10:44",
-  "last_updated": "2026-06-10T14:05:03",
+  "last_updated": "2026-06-10T14:08:39",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 11,
@@ -416,14 +416,14 @@
       "updated_at": "2026-05-31T22:15:12"
     },
     "علي ناعور": {
-      "weekly_points": 55,
-      "daily_points": 10,
-      "total_points": 165,
-      "wins": 17,
-      "participations": 20,
+      "weekly_points": 60,
+      "daily_points": 15,
+      "total_points": 170,
+      "wins": 18,
+      "participations": 21,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-10T14:05:03",
-      "updated_at": "2026-06-10T14:05:03"
+      "last_win": "2026-06-10T14:08:39",
+      "updated_at": "2026-06-10T14:08:39"
     },
     "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة": {
       "weekly_points": 40,
@@ -627,6 +627,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "علي ناعور",
+      "participants": [
+        {
+          "name": "علي ناعور",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-10T14:08:39"
+    },
     {
       "type": 10,
       "winner": "علي ناعور",
@@ -1229,25 +1240,6 @@
         }
       ],
       "created_at": "2026-06-08T21:16:14"
-    },
-    {
-      "type": 5,
-      "winner": "Q",
-      "participants": [
-        {
-          "name": "Q",
-          "points": 5
-        },
-        {
-          "name": "Greece",
-          "points": 4
-        },
-        {
-          "name": "ＣＰＵ ..",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-06-08T21:10:25"
     }
   ],
   "last_daily_reset": "2026-06-10T00:48:37",
