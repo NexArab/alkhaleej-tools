@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-11T00:05:46",
   "last_reset": "2026-06-11T00:05:46",
-  "last_updated": "2026-06-11T01:59:19",
+  "last_updated": "2026-06-11T02:22:38",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -546,14 +546,14 @@
       "updated_at": "2026-06-06T02:50:14"
     },
     "رؤيا": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 10,
+      "wins": 2,
+      "participations": 2,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-06T02:50:14",
-      "updated_at": "2026-06-06T02:50:14"
+      "last_win": "2026-06-11T02:22:38",
+      "updated_at": "2026-06-11T02:22:38"
     },
     "كوربيكا": {
       "weekly_points": 0,
@@ -647,6 +647,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "رؤيا",
+      "participants": [
+        {
+          "name": "رؤيا",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-11T02:22:38"
+    },
     {
       "type": 10,
       "winner": "Rio",
@@ -1249,17 +1260,6 @@
         }
       ],
       "created_at": "2026-06-10T12:37:45"
-    },
-    {
-      "type": 10,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-10T11:47:27"
     }
   ],
   "last_daily_reset": "2026-06-11T00:05:46",
