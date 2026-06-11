@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-11T00:05:46",
   "last_reset": "2026-06-11T00:05:46",
-  "last_updated": "2026-06-11T03:37:18",
+  "last_updated": "2026-06-11T03:44:16",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -416,14 +416,14 @@
       "updated_at": "2026-05-31T22:15:12"
     },
     "علي ناعور": {
-      "weekly_points": 8,
-      "daily_points": 8,
-      "total_points": 178,
-      "wins": 19,
-      "participations": 24,
+      "weekly_points": 13,
+      "daily_points": 13,
+      "total_points": 183,
+      "wins": 20,
+      "participations": 25,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-11T03:31:32",
-      "updated_at": "2026-06-11T03:37:18"
+      "last_win": "2026-06-11T03:44:16",
+      "updated_at": "2026-06-11T03:44:16"
     },
     "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة": {
       "weekly_points": 0,
@@ -667,6 +667,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "علي ناعور",
+      "participants": [
+        {
+          "name": "علي ناعور",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-11T03:44:16"
+    },
     {
       "type": 5,
       "winner": "𝑁𝐴𝑍 ྀི",
@@ -1281,17 +1292,6 @@
         }
       ],
       "created_at": "2026-06-10T12:48:04"
-    },
-    {
-      "type": 10,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-10T12:44:59"
     }
   ],
   "last_daily_reset": "2026-06-11T00:05:46",
