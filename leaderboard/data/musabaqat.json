@@ -5,15 +5,15 @@
     "points": 10,
     "week_of": "2026-06-11"
   },
-  "weekly_champion_set_at": "2026-06-11T23:27:57",
+  "weekly_champion_set_at": "2026-06-11T23:52:34",
   "daily_champion": {
     "name": "Rio",
     "points": 230,
     "date": "2026-06-11"
   },
   "daily_champion_set_at": "2026-06-11T00:05:46",
-  "last_reset": "2026-06-11T23:27:57",
-  "last_updated": "2026-06-11T23:27:57",
+  "last_reset": "2026-06-11T23:52:34",
+  "last_updated": "2026-06-11T23:52:34",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,13 +77,13 @@
     },
     "Rio": {
       "weekly_points": 10,
-      "daily_points": 300,
-      "total_points": 1228,
-      "wins": 125,
-      "participations": 135,
+      "daily_points": 310,
+      "total_points": 1238,
+      "wins": 126,
+      "participations": 136,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-11T23:27:57",
-      "updated_at": "2026-06-11T23:27:57"
+      "last_win": "2026-06-11T23:52:34",
+      "updated_at": "2026-06-11T23:52:34"
     },
     "ＣＰＵ   ..": {
       "weekly_points": 0,
@@ -446,7 +446,7 @@
       "updated_at": "2026-06-10T21:19:49"
     },
     ".. سُوشي": {
-      "weekly_points": 4,
+      "weekly_points": 0,
       "daily_points": 5,
       "total_points": 25,
       "wins": 4,
@@ -667,6 +667,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-11T23:52:34"
+    },
     {
       "type": 10,
       "winner": "Rio",
@@ -1281,19 +1292,8 @@
         }
       ],
       "created_at": "2026-06-10T23:55:16"
-    },
-    {
-      "type": 10,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-10T23:36:06"
     }
   ],
   "last_daily_reset": "2026-06-11T00:05:46",
-  "last_weekly_reset": "2026-06-11T23:27:57"
+  "last_weekly_reset": "2026-06-11T23:52:34"
 }
