@@ -2,18 +2,18 @@
   "room": "المسابقات",
   "weekly_champion": {
     "name": "Rio",
-    "points": 270,
+    "points": 10,
     "week_of": "2026-06-11"
   },
-  "weekly_champion_set_at": "2026-06-11T23:22:42",
+  "weekly_champion_set_at": "2026-06-11T23:25:59",
   "daily_champion": {
     "name": "Rio",
     "points": 230,
     "date": "2026-06-11"
   },
   "daily_champion_set_at": "2026-06-11T00:05:46",
-  "last_reset": "2026-06-11T23:22:42",
-  "last_updated": "2026-06-11T23:22:42",
+  "last_reset": "2026-06-11T23:25:59",
+  "last_updated": "2026-06-11T23:25:59",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,13 +77,13 @@
     },
     "Rio": {
       "weekly_points": 10,
-      "daily_points": 280,
-      "total_points": 1208,
-      "wins": 123,
-      "participations": 133,
+      "daily_points": 290,
+      "total_points": 1218,
+      "wins": 124,
+      "participations": 134,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-11T23:22:42",
-      "updated_at": "2026-06-11T23:22:42"
+      "last_win": "2026-06-11T23:25:59",
+      "updated_at": "2026-06-11T23:25:59"
     },
     "ＣＰＵ   ..": {
       "weekly_points": 0,
@@ -446,7 +446,7 @@
       "updated_at": "2026-06-10T21:19:49"
     },
     ".. سُوشي": {
-      "weekly_points": 1,
+      "weekly_points": 0,
       "daily_points": 1,
       "total_points": 21,
       "wins": 4,
@@ -667,6 +667,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-11T23:25:59"
+    },
     {
       "type": 10,
       "winner": "Rio",
@@ -1277,19 +1288,8 @@
         }
       ],
       "created_at": "2026-06-10T23:34:28"
-    },
-    {
-      "type": 10,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-10T23:32:32"
     }
   ],
   "last_daily_reset": "2026-06-11T00:05:46",
-  "last_weekly_reset": "2026-06-11T23:22:42"
+  "last_weekly_reset": "2026-06-11T23:25:59"
 }
