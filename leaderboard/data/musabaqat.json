@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-11T00:05:46",
   "last_reset": "2026-06-11T00:05:46",
-  "last_updated": "2026-06-11T03:31:32",
+  "last_updated": "2026-06-11T03:33:18",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -416,14 +416,14 @@
       "updated_at": "2026-05-31T22:15:12"
     },
     "علي ناعور": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 175,
+      "weekly_points": 7,
+      "daily_points": 7,
+      "total_points": 177,
       "wins": 19,
-      "participations": 22,
+      "participations": 23,
       "title": "سيد المسابقات",
       "last_win": "2026-06-11T03:31:32",
-      "updated_at": "2026-06-11T03:31:32"
+      "updated_at": "2026-06-11T03:33:18"
     },
     "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة": {
       "weekly_points": 0,
@@ -656,17 +656,32 @@
       "updated_at": "2026-06-11T03:23:37"
     },
     "𝑁𝐴𝑍 ྀི": {
-      "weekly_points": 3,
-      "daily_points": 3,
-      "total_points": 3,
-      "wins": 0,
-      "participations": 1,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-06-11T03:31:32"
+      "weekly_points": 8,
+      "daily_points": 8,
+      "total_points": 8,
+      "wins": 1,
+      "participations": 2,
+      "title": "سيد المسابقات",
+      "last_win": "2026-06-11T03:33:18",
+      "updated_at": "2026-06-11T03:33:18"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "𝑁𝐴𝑍 ྀི",
+      "participants": [
+        {
+          "name": "𝑁𝐴𝑍 ྀི",
+          "points": 5
+        },
+        {
+          "name": "علي ناعور",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-11T03:33:18"
+    },
     {
       "type": 5,
       "winner": "علي ناعور",
@@ -1273,17 +1288,6 @@
         }
       ],
       "created_at": "2026-06-10T12:43:14"
-    },
-    {
-      "type": 10,
-      "winner": "جـوج",
-      "participants": [
-        {
-          "name": "جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-10T12:41:34"
     }
   ],
   "last_daily_reset": "2026-06-11T00:05:46",
