@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-11T00:05:46",
   "last_reset": "2026-06-11T00:05:46",
-  "last_updated": "2026-06-11T18:22:20",
+  "last_updated": "2026-06-11T18:23:41",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-26T14:55:37"
     },
     "Rio": {
-      "weekly_points": 40,
-      "daily_points": 40,
-      "total_points": 968,
-      "wins": 99,
-      "participations": 109,
+      "weekly_points": 50,
+      "daily_points": 50,
+      "total_points": 978,
+      "wins": 100,
+      "participations": 110,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-11T18:22:20",
-      "updated_at": "2026-06-11T18:22:20"
+      "last_win": "2026-06-11T18:23:41",
+      "updated_at": "2026-06-11T18:23:41"
     },
     "ＣＰＵ   ..": {
       "weekly_points": 0,
@@ -667,6 +667,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-11T18:23:41"
+    },
     {
       "type": 10,
       "winner": "Rio",
@@ -1281,17 +1292,6 @@
         }
       ],
       "created_at": "2026-06-10T14:08:39"
-    },
-    {
-      "type": 10,
-      "winner": "علي ناعور",
-      "participants": [
-        {
-          "name": "علي ناعور",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-10T14:05:03"
     }
   ],
   "last_daily_reset": "2026-06-11T00:05:46",
