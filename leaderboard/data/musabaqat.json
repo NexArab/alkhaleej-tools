@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-12T00:52:09",
   "last_reset": "2026-06-11T23:56:49",
-  "last_updated": "2026-06-12T00:58:28",
+  "last_updated": "2026-06-12T01:00:14",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -616,14 +616,14 @@
       "updated_at": "2026-06-10T09:47:06"
     },
     "كــــعبول": {
-      "weekly_points": 14,
-      "daily_points": 14,
-      "total_points": 100,
+      "weekly_points": 17,
+      "daily_points": 17,
+      "total_points": 103,
       "wins": 11,
-      "participations": 15,
+      "participations": 16,
       "title": "سيد المسابقات",
       "last_win": "2026-06-12T00:54:52",
-      "updated_at": "2026-06-12T00:58:28"
+      "updated_at": "2026-06-12T01:00:14"
     },
     "إيزن": {
       "weekly_points": 0,
@@ -666,14 +666,14 @@
       "updated_at": "2026-06-11T03:37:18"
     },
     "AizeN": {
-      "weekly_points": 6,
-      "daily_points": 6,
-      "total_points": 6,
+      "weekly_points": 8,
+      "daily_points": 8,
+      "total_points": 8,
       "wins": 0,
-      "participations": 2,
+      "participations": 3,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-12T00:58:28"
+      "updated_at": "2026-06-12T01:00:14"
     },
     "شايب - أسود": {
       "weekly_points": 5,
@@ -682,11 +682,30 @@
       "wins": 1,
       "participations": 1,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-12T00:58:28",
-      "updated_at": "2026-06-12T00:58:28"
+      "last_win": "2026-06-12T01:00:14",
+      "updated_at": "2026-06-12T01:00:14"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "شايب - أسود",
+      "participants": [
+        {
+          "name": "شايب - أسود",
+          "points": 5
+        },
+        {
+          "name": "كــــعبول",
+          "points": 3
+        },
+        {
+          "name": "AizeN",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-12T01:00:14"
+    },
     {
       "type": 5,
       "winner": "شايب - أسود",
@@ -1285,25 +1304,6 @@
         }
       ],
       "created_at": "2026-06-11T00:33:19"
-    },
-    {
-      "type": 10,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 10
-        },
-        {
-          "name": "إيزن",
-          "points": 6
-        },
-        {
-          "name": "sooo",
-          "points": 6
-        }
-      ],
-      "created_at": "2026-06-11T00:26:03"
     }
   ],
   "last_daily_reset": "2026-06-12T00:52:09",
