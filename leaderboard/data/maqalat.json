@@ -1,22 +1,22 @@
 {
   "room": "المقالات",
   "weekly_champion": {
-    "name": "AizeN",
-    "points": 5,
-    "week_of": "2026-06-11"
+    "name": "كــــعبول",
+    "points": 73,
+    "week_of": "2026-06-12"
   },
-  "weekly_champion_set_at": "2026-06-11T23:50:32",
+  "weekly_champion_set_at": "2026-06-12T23:32:41",
   "daily_champion": {
     "name": "كــــعبول",
     "points": 148,
     "date": "2026-06-12"
   },
   "daily_champion_set_at": "2026-06-12T00:04:40",
-  "last_reset": "2026-06-11T23:50:32",
-  "last_updated": "2026-06-12T22:29:02",
+  "last_reset": "2026-06-12T23:32:41",
+  "last_updated": "2026-06-12T23:32:41",
   "players": {
     "بَكـر الدُليمــــي": {
-      "weekly_points": 25,
+      "weekly_points": 0,
       "daily_points": 25,
       "total_points": 44,
       "wins": 2,
@@ -136,7 +136,7 @@
       "updated_at": "2026-05-31T16:42:28"
     },
     "ضامي": {
-      "weekly_points": 39,
+      "weekly_points": 0,
       "daily_points": 39,
       "total_points": 215,
       "wins": 38,
@@ -176,7 +176,7 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 46,
+      "weekly_points": 0,
       "daily_points": 46,
       "total_points": 777,
       "wins": 82,
@@ -446,7 +446,7 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 73,
+      "weekly_points": 0,
       "daily_points": 48,
       "total_points": 288,
       "wins": 15,
@@ -456,17 +456,17 @@
       "updated_at": "2026-06-12T01:45:10"
     },
     "AizeN": {
-      "weekly_points": 24,
-      "daily_points": 13,
-      "total_points": 29,
-      "wins": 1,
-      "participations": 3,
+      "weekly_points": 5,
+      "daily_points": 18,
+      "total_points": 34,
+      "wins": 2,
+      "participations": 4,
       "title": "ملك المقالات",
-      "last_win": "2026-06-11T23:28:30",
-      "updated_at": "2026-06-12T00:32:05"
+      "last_win": "2026-06-12T23:32:41",
+      "updated_at": "2026-06-12T23:32:41"
     },
     "Lam": {
-      "weekly_points": 29,
+      "weekly_points": 0,
       "daily_points": 29,
       "total_points": 29,
       "wins": 4,
@@ -476,7 +476,7 @@
       "updated_at": "2026-06-12T04:12:26"
     },
     "نــادر": {
-      "weekly_points": 23,
+      "weekly_points": 0,
       "daily_points": 23,
       "total_points": 23,
       "wins": 3,
@@ -486,7 +486,7 @@
       "updated_at": "2026-06-12T22:29:02"
     },
     "قمر.": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 5,
       "total_points": 5,
       "wins": 1,
@@ -497,6 +497,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "AizeN",
+      "participants": [
+        {
+          "name": "AizeN",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-12T23:32:41"
+    },
     {
       "type": 5,
       "winner": "نــادر",
@@ -1139,23 +1150,8 @@
         }
       ],
       "created_at": "2026-06-10T22:37:00"
-    },
-    {
-      "type": 5,
-      "winner": "إيزن",
-      "participants": [
-        {
-          "name": "إيزن",
-          "points": 5
-        },
-        {
-          "name": "كــــعبول",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-06-10T22:29:16"
     }
   ],
   "last_daily_reset": "2026-06-12T00:04:40",
-  "last_weekly_reset": "2026-06-11T23:50:32"
+  "last_weekly_reset": "2026-06-12T23:32:41"
 }
