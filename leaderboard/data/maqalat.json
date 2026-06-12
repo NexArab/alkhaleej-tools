@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-12T00:04:40",
   "last_reset": "2026-06-11T23:50:32",
-  "last_updated": "2026-06-12T06:55:41",
+  "last_updated": "2026-06-12T06:56:53",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 25,
@@ -136,14 +136,14 @@
       "updated_at": "2026-05-31T16:42:28"
     },
     "ضامي": {
-      "weekly_points": 24,
-      "daily_points": 24,
-      "total_points": 200,
-      "wins": 35,
-      "participations": 37,
+      "weekly_points": 29,
+      "daily_points": 29,
+      "total_points": 205,
+      "wins": 36,
+      "participations": 38,
       "title": "ملك المقالات",
-      "last_win": "2026-06-12T06:55:41",
-      "updated_at": "2026-06-12T06:55:41"
+      "last_win": "2026-06-12T06:56:53",
+      "updated_at": "2026-06-12T06:56:53"
     },
     "انتر": {
       "weekly_points": 0,
@@ -477,6 +477,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ضامي",
+      "participants": [
+        {
+          "name": "ضامي",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-12T06:56:53"
+    },
     {
       "type": 5,
       "winner": "ضامي",
@@ -1127,17 +1138,6 @@
         }
       ],
       "created_at": "2026-06-10T19:48:42"
-    },
-    {
-      "type": 25,
-      "winner": "كتب",
-      "participants": [
-        {
-          "name": "كتب",
-          "points": 25
-        }
-      ],
-      "created_at": "2026-06-10T19:12:42"
     }
   ],
   "last_daily_reset": "2026-06-12T00:04:40",
