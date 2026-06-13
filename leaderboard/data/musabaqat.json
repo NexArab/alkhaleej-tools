@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-13T00:14:19",
   "last_reset": "2026-06-13T23:01:53",
-  "last_updated": "2026-06-13T23:03:41",
+  "last_updated": "2026-06-13T23:09:52",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -126,14 +126,14 @@
       "updated_at": "2026-06-03T20:22:11"
     },
     "ســاهــــر": {
-      "weekly_points": 12,
-      "daily_points": 12,
-      "total_points": 67,
-      "wins": 8,
-      "participations": 9,
+      "weekly_points": 22,
+      "daily_points": 22,
+      "total_points": 77,
+      "wins": 9,
+      "participations": 10,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-13T23:01:53",
-      "updated_at": "2026-06-13T23:03:41"
+      "last_win": "2026-06-13T23:09:52",
+      "updated_at": "2026-06-13T23:09:52"
     },
     "𝑲𝑯𝑨𝑳𝑬𝑫": {
       "weekly_points": 0,
@@ -266,14 +266,14 @@
       "updated_at": "2026-05-27T13:24:00"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 187,
+      "weekly_points": 15,
+      "daily_points": 15,
+      "total_points": 192,
       "wins": 29,
-      "participations": 34,
+      "participations": 35,
       "title": "سيد المسابقات",
       "last_win": "2026-06-13T23:03:41",
-      "updated_at": "2026-06-13T23:03:41"
+      "updated_at": "2026-06-13T23:09:52"
     },
     "ضامي": {
       "weekly_points": 0,
@@ -566,14 +566,14 @@
       "updated_at": "2026-06-06T02:50:14"
     },
     "Greece": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 55,
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 56,
       "wins": 4,
-      "participations": 14,
+      "participations": 15,
       "title": "سيد المسابقات",
       "last_win": "2026-06-12T03:32:24",
-      "updated_at": "2026-06-12T03:38:06"
+      "updated_at": "2026-06-13T23:09:52"
     },
     "مُُ": {
       "weekly_points": 0,
@@ -687,6 +687,25 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 10
+        },
+        {
+          "name": "ＣＰＵ ..",
+          "points": 5
+        },
+        {
+          "name": "Greece",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-13T23:09:52"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1305,17 +1324,6 @@
         }
       ],
       "created_at": "2026-06-11T20:53:26"
-    },
-    {
-      "type": 10,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-11T20:52:05"
     }
   ],
   "last_daily_reset": "2026-06-13T00:14:19",
