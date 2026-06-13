@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-13T00:15:26",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-13T21:43:08",
+  "last_updated": "2026-06-13T21:55:04",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 121,
-      "daily_points": 121,
-      "total_points": 898,
-      "wins": 87,
-      "participations": 107,
+      "weekly_points": 146,
+      "daily_points": 146,
+      "total_points": 923,
+      "wins": 88,
+      "participations": 108,
       "title": "ملك المقالات",
-      "last_win": "2026-06-13T21:38:53",
-      "updated_at": "2026-06-13T21:43:08"
+      "last_win": "2026-06-13T21:55:04",
+      "updated_at": "2026-06-13T21:55:04"
     },
     "كتب": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 293,
+      "weekly_points": 6,
+      "daily_points": 6,
+      "total_points": 294,
       "wins": 15,
-      "participations": 26,
+      "participations": 27,
       "title": "ملك المقالات",
       "last_win": "2026-06-12T00:32:05",
-      "updated_at": "2026-06-13T21:43:08"
+      "updated_at": "2026-06-13T21:55:04"
     },
     "AizeN": {
       "weekly_points": 5,
@@ -506,17 +506,36 @@
       "updated_at": "2026-06-13T21:25:01"
     },
     "شايب - أسود": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 10,
-      "wins": 1,
+      "weekly_points": 2,
+      "daily_points": 2,
+      "total_points": 2,
+      "wins": 0,
       "participations": 1,
-      "title": "ملك المقالات",
-      "last_win": "2026-06-13T21:43:08",
-      "updated_at": "2026-06-13T21:43:08"
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-13T21:55:04"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 25
+        },
+        {
+          "name": "شايب - أسود",
+          "points": 2
+        },
+        {
+          "name": "كــــعبول",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-13T21:55:04"
+    },
     {
       "type": 10,
       "winner": "شايب - أسود",
@@ -1163,21 +1182,6 @@
         }
       ],
       "created_at": "2026-06-12T00:32:05"
-    },
-    {
-      "type": 25,
-      "winner": "شايب - أسود",
-      "participants": [
-        {
-          "name": "شايب - أسود",
-          "points": 25
-        },
-        {
-          "name": "كــــعبول",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-06-12T00:04:40"
     }
   ],
   "last_daily_reset": "2026-06-13T00:15:26",
