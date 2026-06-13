@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-13T00:14:19",
   "last_reset": "2026-06-11T23:56:49",
-  "last_updated": "2026-06-13T10:12:10",
+  "last_updated": "2026-06-13T10:31:23",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -96,14 +96,14 @@
       "updated_at": "2026-05-26T21:20:37"
     },
     "هـُـمــام": {
-      "weekly_points": 20,
-      "daily_points": 20,
-      "total_points": 550,
-      "wins": 49,
-      "participations": 77,
+      "weekly_points": 30,
+      "daily_points": 30,
+      "total_points": 560,
+      "wins": 50,
+      "participations": 78,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-13T10:12:10",
-      "updated_at": "2026-06-13T10:12:10"
+      "last_win": "2026-06-13T10:31:23",
+      "updated_at": "2026-06-13T10:31:23"
     },
     "جديمان": {
       "weekly_points": 0,
@@ -687,6 +687,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "هـُـمــام",
+      "participants": [
+        {
+          "name": "هـُـمــام",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-13T10:31:23"
+    },
     {
       "type": 10,
       "winner": "هـُـمــام",
@@ -1301,17 +1312,6 @@
         }
       ],
       "created_at": "2026-06-11T18:33:42"
-    },
-    {
-      "type": 10,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-11T18:32:27"
     }
   ],
   "last_daily_reset": "2026-06-13T00:14:19",
