@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-15T00:32:51",
   "last_reset": "2026-06-11T23:37:48",
-  "last_updated": "2026-06-15T02:19:17",
+  "last_updated": "2026-06-15T02:21:04",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-05-29T05:20:37"
     },
     "Rio": {
-      "weekly_points": 102,
-      "daily_points": 15,
-      "total_points": 1684,
-      "wins": 328,
-      "participations": 346,
+      "weekly_points": 107,
+      "daily_points": 20,
+      "total_points": 1689,
+      "wins": 329,
+      "participations": 347,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-15T02:19:17",
-      "updated_at": "2026-06-15T02:19:17"
+      "last_win": "2026-06-15T02:21:04",
+      "updated_at": "2026-06-15T02:21:04"
     },
     "ناعور": {
       "weekly_points": 0,
@@ -256,14 +256,14 @@
       "updated_at": "2026-06-08T00:22:37"
     },
     "علي ناعور": {
-      "weekly_points": 6,
-      "daily_points": 4,
-      "total_points": 14,
+      "weekly_points": 7,
+      "daily_points": 5,
+      "total_points": 15,
       "wins": 1,
-      "participations": 4,
+      "participations": 5,
       "title": "بطل الفعاليات",
       "last_win": "2026-06-08T21:16:49",
-      "updated_at": "2026-06-15T02:19:17"
+      "updated_at": "2026-06-15T02:21:04"
     },
     "‎‏‎‏‎‏‎ ‏ ‏ هـنِيالك": {
       "weekly_points": 0,
@@ -317,6 +317,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 5
+        },
+        {
+          "name": "علي ناعور",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-15T02:21:04"
+    },
     {
       "type": 5,
       "winner": "Rio",
@@ -887,21 +902,6 @@
         }
       ],
       "created_at": "2026-06-10T21:51:59"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        },
-        {
-          "name": "نــــايــــف",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-06-10T21:31:32"
     }
   ],
   "last_daily_reset": "2026-06-15T00:32:51",
