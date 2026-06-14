@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-12T23:32:41",
   "daily_champion": {
-    "name": "ＣＰＵ ..",
-    "points": 146,
-    "date": "2026-06-14"
+    "name": "كــــعبول",
+    "points": 130,
+    "date": "2026-06-15"
   },
-  "daily_champion_set_at": "2026-06-14T00:41:35",
+  "daily_champion_set_at": "2026-06-15T00:19:05",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-14T23:45:36",
+  "last_updated": "2026-06-15T00:19:05",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 106,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 669,
       "wins": 56,
       "participations": 63,
@@ -127,7 +127,7 @@
     },
     "Rio": {
       "weekly_points": 25,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 101,
       "wins": 19,
       "participations": 20,
@@ -267,7 +267,7 @@
     },
     "How?": {
       "weekly_points": 15,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 124,
       "wins": 15,
       "participations": 23,
@@ -397,7 +397,7 @@
     },
     "؟": {
       "weekly_points": 13,
-      "daily_points": 13,
+      "daily_points": 0,
       "total_points": 24,
       "wins": 2,
       "participations": 7,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 234,
-      "daily_points": 130,
-      "total_points": 522,
-      "wins": 34,
-      "participations": 53,
+      "weekly_points": 239,
+      "daily_points": 5,
+      "total_points": 527,
+      "wins": 35,
+      "participations": 54,
       "title": "ملك المقالات",
-      "last_win": "2026-06-14T23:45:36",
-      "updated_at": "2026-06-14T23:45:36"
+      "last_win": "2026-06-15T00:19:05",
+      "updated_at": "2026-06-15T00:19:05"
     },
     "AizeN": {
       "weekly_points": 5,
@@ -507,26 +507,27 @@
     },
     "⠀⠀جـوج": {
       "weekly_points": 30,
-      "daily_points": 30,
+      "daily_points": 0,
       "total_points": 30,
       "wins": 2,
       "participations": 2,
       "title": "ملك المقالات",
       "last_win": "2026-06-14T12:06:09",
       "updated_at": "2026-06-14T12:06:09"
-    },
-    "شايب - أسود": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 5,
-      "wins": 0,
-      "participations": 1,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-06-14T23:45:36"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-15T00:19:05"
+    },
     {
       "type": 15,
       "winner": "كــــعبول",
@@ -1177,23 +1178,8 @@
         }
       ],
       "created_at": "2026-06-13T20:15:06"
-    },
-    {
-      "type": 10,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 10
-        },
-        {
-          "name": "شايب - أسود",
-          "points": 7
-        }
-      ],
-      "created_at": "2026-06-13T20:03:32"
     }
   ],
-  "last_daily_reset": "2026-06-14T00:41:35",
+  "last_daily_reset": "2026-06-15T00:19:05",
   "last_weekly_reset": "2026-06-12T23:32:41"
 }
