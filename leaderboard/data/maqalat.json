@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-14T00:41:35",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-14T21:29:38",
+  "last_updated": "2026-06-14T21:40:42",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 172,
-      "daily_points": 68,
-      "total_points": 460,
+      "weekly_points": 176,
+      "daily_points": 72,
+      "total_points": 464,
       "wins": 30,
-      "participations": 47,
+      "participations": 48,
       "title": "ملك المقالات",
       "last_win": "2026-06-14T20:55:08",
-      "updated_at": "2026-06-14T21:29:38"
+      "updated_at": "2026-06-14T21:40:42"
     },
     "AizeN": {
       "weekly_points": 5,
@@ -516,17 +516,32 @@
       "updated_at": "2026-06-14T12:06:09"
     },
     "شايب - أسود": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 10,
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 25,
       "wins": 1,
       "participations": 1,
       "title": "ملك المقالات",
-      "last_win": "2026-06-14T21:29:38",
-      "updated_at": "2026-06-14T21:29:38"
+      "last_win": "2026-06-14T21:40:42",
+      "updated_at": "2026-06-14T21:40:42"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "شايب - أسود",
+      "participants": [
+        {
+          "name": "شايب - أسود",
+          "points": 25
+        },
+        {
+          "name": "كــــعبول",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-06-14T21:40:42"
+    },
     {
       "type": 10,
       "winner": "شايب - أسود",
@@ -1165,17 +1180,6 @@
         }
       ],
       "created_at": "2026-06-13T02:20:07"
-    },
-    {
-      "type": 15,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 15
-        }
-      ],
-      "created_at": "2026-06-13T02:16:51"
     }
   ],
   "last_daily_reset": "2026-06-14T00:41:35",
