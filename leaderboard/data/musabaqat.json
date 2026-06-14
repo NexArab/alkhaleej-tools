@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-14T00:12:40",
   "last_reset": "2026-06-13T23:01:53",
-  "last_updated": "2026-06-14T19:09:13",
+  "last_updated": "2026-06-14T20:32:45",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -606,14 +606,14 @@
       "updated_at": "2026-06-09T00:37:35"
     },
     "؟": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 40,
-      "wins": 5,
-      "participations": 5,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 50,
+      "wins": 6,
+      "participations": 6,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-10T09:47:06",
-      "updated_at": "2026-06-10T09:47:06"
+      "last_win": "2026-06-14T20:32:45",
+      "updated_at": "2026-06-14T20:32:45"
     },
     "كــــعبول": {
       "weekly_points": 0,
@@ -697,6 +697,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "؟",
+      "participants": [
+        {
+          "name": "؟",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-14T20:32:45"
+    },
     {
       "type": 5,
       "winner": "⠀⠀جـوج",
@@ -1259,17 +1270,6 @@
         }
       ],
       "created_at": "2026-06-13T01:06:53"
-    },
-    {
-      "type": 5,
-      "winner": "نجر",
-      "participants": [
-        {
-          "name": "نجر",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-13T01:03:46"
     }
   ],
   "last_daily_reset": "2026-06-14T00:12:40",
