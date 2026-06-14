@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-14T01:07:06",
   "last_reset": "2026-06-11T23:37:48",
-  "last_updated": "2026-06-14T02:13:59",
+  "last_updated": "2026-06-14T03:36:18",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -46,14 +46,14 @@
       "updated_at": "2026-05-29T06:48:00"
     },
     "vvf": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 425,
-      "wins": 76,
-      "participations": 96,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 430,
+      "wins": 77,
+      "participations": 97,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-06T13:14:05",
-      "updated_at": "2026-06-06T13:14:05"
+      "last_win": "2026-06-14T03:36:18",
+      "updated_at": "2026-06-14T03:36:18"
     },
     "بَكـر الدُليمــــي": {
       "weekly_points": 2,
@@ -317,6 +317,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "vvf",
+      "participants": [
+        {
+          "name": "vvf",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-14T03:36:18"
+    },
     {
       "type": 5,
       "winner": "Rio",
@@ -891,17 +902,6 @@
         }
       ],
       "created_at": "2026-06-10T20:58:31"
-    },
-    {
-      "type": 5,
-      "winner": "‎‏‎‏‎‏‎ ‏ ‏ هـنِيالك",
-      "participants": [
-        {
-          "name": "‎‏‎‏‎‏‎ ‏ ‏ هـنِيالك",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-10T17:38:56"
     }
   ],
   "last_daily_reset": "2026-06-14T01:07:06",
