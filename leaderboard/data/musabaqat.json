@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-14T00:12:40",
   "last_reset": "2026-06-13T23:01:53",
-  "last_updated": "2026-06-14T05:01:54",
+  "last_updated": "2026-06-14T05:03:10",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-26T14:55:37"
     },
     "Rio": {
-      "weekly_points": 80,
-      "daily_points": 80,
-      "total_points": 1388,
-      "wins": 142,
-      "participations": 152,
+      "weekly_points": 90,
+      "daily_points": 90,
+      "total_points": 1398,
+      "wins": 143,
+      "participations": 153,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-14T05:01:54",
-      "updated_at": "2026-06-14T05:01:54"
+      "last_win": "2026-06-14T05:03:10",
+      "updated_at": "2026-06-14T05:03:10"
     },
     "ＣＰＵ   ..": {
       "weekly_points": 0,
@@ -687,6 +687,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-14T05:03:10"
+    },
     {
       "type": 10,
       "winner": "Rio",
@@ -1301,21 +1312,6 @@
         }
       ],
       "created_at": "2026-06-12T00:54:52"
-    },
-    {
-      "type": 5,
-      "winner": "شايب - أسود",
-      "participants": [
-        {
-          "name": "شايب - أسود",
-          "points": 5
-        },
-        {
-          "name": "كــــعبول",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-06-12T00:52:09"
     }
   ],
   "last_daily_reset": "2026-06-14T00:12:40",
