@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-14T00:41:35",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-14T21:40:42",
+  "last_updated": "2026-06-14T22:16:27",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 176,
-      "daily_points": 72,
-      "total_points": 464,
+      "weekly_points": 179,
+      "daily_points": 75,
+      "total_points": 467,
       "wins": 30,
-      "participations": 48,
+      "participations": 49,
       "title": "ملك المقالات",
       "last_win": "2026-06-14T20:55:08",
-      "updated_at": "2026-06-14T21:40:42"
+      "updated_at": "2026-06-14T22:16:27"
     },
     "AizeN": {
       "weekly_points": 5,
@@ -516,17 +516,32 @@
       "updated_at": "2026-06-14T12:06:09"
     },
     "شايب - أسود": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 25,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 10,
       "wins": 1,
       "participations": 1,
       "title": "ملك المقالات",
-      "last_win": "2026-06-14T21:40:42",
-      "updated_at": "2026-06-14T21:40:42"
+      "last_win": "2026-06-14T22:16:27",
+      "updated_at": "2026-06-14T22:16:27"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "شايب - أسود",
+      "participants": [
+        {
+          "name": "شايب - أسود",
+          "points": 10
+        },
+        {
+          "name": "كــــعبول",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-06-14T22:16:27"
+    },
     {
       "type": 25,
       "winner": "شايب - أسود",
@@ -1169,17 +1184,6 @@
         }
       ],
       "created_at": "2026-06-13T18:38:25"
-    },
-    {
-      "type": 5,
-      "winner": "AizeN ..",
-      "participants": [
-        {
-          "name": "AizeN ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-13T02:20:07"
     }
   ],
   "last_daily_reset": "2026-06-14T00:41:35",
