@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-15T00:19:05",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-15T21:57:25",
+  "last_updated": "2026-06-15T22:04:15",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-06-13T23:59:32"
     },
     "نجر": {
-      "weekly_points": 200,
-      "daily_points": 95,
-      "total_points": 340,
-      "wins": 21,
-      "participations": 35,
+      "weekly_points": 205,
+      "daily_points": 100,
+      "total_points": 345,
+      "wins": 22,
+      "participations": 36,
       "title": "ملك المقالات",
-      "last_win": "2026-06-15T21:54:08",
-      "updated_at": "2026-06-15T21:57:25"
+      "last_win": "2026-06-15T22:04:15",
+      "updated_at": "2026-06-15T22:04:15"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -537,6 +537,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-15T22:04:15"
+    },
     {
       "type": 5,
       "winner": "سوؤيرم",
@@ -1171,17 +1182,6 @@
         }
       ],
       "created_at": "2026-06-14T12:06:09"
-    },
-    {
-      "type": 5,
-      "winner": "⠀⠀جـوج",
-      "participants": [
-        {
-          "name": "⠀⠀جـوج",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-14T11:55:57"
     }
   ],
   "last_daily_reset": "2026-06-15T00:19:05",
