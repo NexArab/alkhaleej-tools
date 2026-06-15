@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-15T00:19:05",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-15T22:04:15",
+  "last_updated": "2026-06-15T22:08:14",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-06-13T23:59:32"
     },
     "نجر": {
-      "weekly_points": 205,
-      "daily_points": 100,
-      "total_points": 345,
-      "wins": 22,
-      "participations": 36,
+      "weekly_points": 210,
+      "daily_points": 105,
+      "total_points": 350,
+      "wins": 23,
+      "participations": 37,
       "title": "ملك المقالات",
-      "last_win": "2026-06-15T22:04:15",
-      "updated_at": "2026-06-15T22:04:15"
+      "last_win": "2026-06-15T22:08:14",
+      "updated_at": "2026-06-15T22:08:14"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -534,9 +534,34 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-15T21:57:25",
       "updated_at": "2026-06-15T21:57:25"
+    },
+    "beZzzz": {
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 1,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-15T22:08:14"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 5
+        },
+        {
+          "name": "beZzzz",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-15T22:08:14"
+    },
     {
       "type": 5,
       "winner": "نجر",
@@ -1171,17 +1196,6 @@
         }
       ],
       "created_at": "2026-06-14T13:20:03"
-    },
-    {
-      "type": 25,
-      "winner": "⠀⠀جـوج",
-      "participants": [
-        {
-          "name": "⠀⠀جـوج",
-          "points": 25
-        }
-      ],
-      "created_at": "2026-06-14T12:06:09"
     }
   ],
   "last_daily_reset": "2026-06-15T00:19:05",
