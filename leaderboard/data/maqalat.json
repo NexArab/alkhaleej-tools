@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-16T00:08:33",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-16T01:45:30",
+  "last_updated": "2026-06-16T02:00:48",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -326,14 +326,14 @@
       "updated_at": "2026-06-16T01:01:19"
     },
     "التجربة": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 95,
+      "weekly_points": 8,
+      "daily_points": 8,
+      "total_points": 103,
       "wins": 9,
-      "participations": 9,
+      "participations": 10,
       "title": "ملك المقالات",
       "last_win": "2026-06-08T08:56:17",
-      "updated_at": "2026-06-08T08:56:17"
+      "updated_at": "2026-06-16T02:00:48"
     },
     "Sir Deinich": {
       "weekly_points": 0,
@@ -584,9 +584,34 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-06-16T01:45:30"
+    },
+    "شايب - أسود": {
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 10,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-06-16T02:00:48",
+      "updated_at": "2026-06-16T02:00:48"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "شايب - أسود",
+      "participants": [
+        {
+          "name": "شايب - أسود",
+          "points": 10
+        },
+        {
+          "name": "التجربة",
+          "points": 8
+        }
+      ],
+      "created_at": "2026-06-16T02:00:48"
+    },
     {
       "type": 5,
       "winner": "كــــعبول",
@@ -1301,21 +1326,6 @@
         }
       ],
       "created_at": "2026-06-14T22:16:27"
-    },
-    {
-      "type": 25,
-      "winner": "شايب - أسود",
-      "participants": [
-        {
-          "name": "شايب - أسود",
-          "points": 25
-        },
-        {
-          "name": "كــــعبول",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-06-14T21:40:42"
     }
   ],
   "last_daily_reset": "2026-06-16T00:08:33",
