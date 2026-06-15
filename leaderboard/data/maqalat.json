@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-16T00:08:33",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-16T02:09:07",
+  "last_updated": "2026-06-16T02:20:52",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,14 +306,14 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 30,
-      "daily_points": 0,
-      "total_points": 58,
+      "weekly_points": 50,
+      "daily_points": 20,
+      "total_points": 78,
       "wins": 4,
-      "participations": 6,
+      "participations": 7,
       "title": "ملك المقالات",
       "last_win": "2026-06-13T23:59:32",
-      "updated_at": "2026-06-13T23:59:32"
+      "updated_at": "2026-06-16T02:20:52"
     },
     "نجر": {
       "weekly_points": 278,
@@ -326,14 +326,14 @@
       "updated_at": "2026-06-16T01:01:19"
     },
     "التجربة": {
-      "weekly_points": 23,
-      "daily_points": 23,
-      "total_points": 118,
-      "wins": 10,
-      "participations": 11,
+      "weekly_points": 48,
+      "daily_points": 48,
+      "total_points": 143,
+      "wins": 11,
+      "participations": 12,
       "title": "ملك المقالات",
-      "last_win": "2026-06-16T02:09:07",
-      "updated_at": "2026-06-16T02:09:07"
+      "last_win": "2026-06-16T02:20:52",
+      "updated_at": "2026-06-16T02:20:52"
     },
     "Sir Deinich": {
       "weekly_points": 0,
@@ -584,19 +584,24 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-06-16T01:45:30"
-    },
-    "شايب - أسود": {
-      "weekly_points": 12,
-      "daily_points": 12,
-      "total_points": 12,
-      "wins": 0,
-      "participations": 1,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-06-16T02:09:07"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "التجربة",
+      "participants": [
+        {
+          "name": "التجربة",
+          "points": 25
+        },
+        {
+          "name": "أدرينالين",
+          "points": 20
+        }
+      ],
+      "created_at": "2026-06-16T02:20:52"
+    },
     {
       "type": 15,
       "winner": "التجربة",
@@ -1315,21 +1320,6 @@
         }
       ],
       "created_at": "2026-06-14T23:29:01"
-    },
-    {
-      "type": 25,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 25
-        },
-        {
-          "name": "شايب - أسود",
-          "points": 7
-        }
-      ],
-      "created_at": "2026-06-14T22:27:44"
     }
   ],
   "last_daily_reset": "2026-06-16T00:08:33",
