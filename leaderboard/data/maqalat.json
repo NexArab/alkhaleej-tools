@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-15T00:19:05",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-15T21:18:38",
+  "last_updated": "2026-06-15T21:29:00",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-06-13T23:59:32"
     },
     "نجر": {
-      "weekly_points": 166,
-      "daily_points": 61,
-      "total_points": 306,
+      "weekly_points": 177,
+      "daily_points": 72,
+      "total_points": 317,
       "wins": 20,
-      "participations": 31,
+      "participations": 32,
       "title": "ملك المقالات",
       "last_win": "2026-06-15T21:18:38",
-      "updated_at": "2026-06-15T21:18:38"
+      "updated_at": "2026-06-15T21:29:00"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -516,17 +516,46 @@
       "updated_at": "2026-06-14T12:06:09"
     },
     "سوريم": {
-      "weekly_points": 2,
-      "daily_points": 2,
-      "total_points": 2,
+      "weekly_points": 27,
+      "daily_points": 27,
+      "total_points": 27,
+      "wins": 1,
+      "participations": 2,
+      "title": "ملك المقالات",
+      "last_win": "2026-06-15T21:29:00",
+      "updated_at": "2026-06-15T21:29:00"
+    },
+    "شايب - أسود": {
+      "weekly_points": 6,
+      "daily_points": 6,
+      "total_points": 6,
       "wins": 0,
       "participations": 1,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-15T21:11:59"
+      "updated_at": "2026-06-15T21:29:00"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "سوريم",
+      "participants": [
+        {
+          "name": "سوريم",
+          "points": 25
+        },
+        {
+          "name": "نجر",
+          "points": 11
+        },
+        {
+          "name": "شايب - أسود",
+          "points": 6
+        }
+      ],
+      "created_at": "2026-06-15T21:29:00"
+    },
     {
       "type": 10,
       "winner": "نجر",
@@ -1133,17 +1162,6 @@
         }
       ],
       "created_at": "2026-06-14T05:14:22"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-14T05:12:08"
     }
   ],
   "last_daily_reset": "2026-06-15T00:19:05",
