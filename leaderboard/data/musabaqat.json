@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-13T23:01:53",
   "daily_champion": {
-    "name": "How?",
-    "points": 40,
-    "date": "2026-06-14"
+    "name": "Rio",
+    "points": 120,
+    "date": "2026-06-15"
   },
-  "daily_champion_set_at": "2026-06-14T00:12:40",
+  "daily_champion_set_at": "2026-06-15T06:20:36",
   "last_reset": "2026-06-13T23:01:53",
-  "last_updated": "2026-06-14T22:04:39",
+  "last_updated": "2026-06-15T06:20:36",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-06-06T10:54:48"
     },
     "How?": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 263,
-      "wins": 44,
-      "participations": 46,
+      "weekly_points": 30,
+      "daily_points": 5,
+      "total_points": 268,
+      "wins": 45,
+      "participations": 47,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-14T14:25:59",
-      "updated_at": "2026-06-14T14:25:59"
+      "last_win": "2026-06-15T06:20:36",
+      "updated_at": "2026-06-15T06:20:36"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "Rio": {
       "weekly_points": 120,
-      "daily_points": 120,
+      "daily_points": 0,
       "total_points": 1428,
       "wins": 146,
       "participations": 156,
@@ -97,7 +97,7 @@
     },
     "هـُـمــام": {
       "weekly_points": 31,
-      "daily_points": 31,
+      "daily_points": 0,
       "total_points": 591,
       "wins": 53,
       "participations": 82,
@@ -347,7 +347,7 @@
     },
     "vvf": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 410,
       "wins": 41,
       "participations": 43,
@@ -607,7 +607,7 @@
     },
     "؟": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 50,
       "wins": 6,
       "participations": 6,
@@ -677,7 +677,7 @@
     },
     "⠀⠀جـوج": {
       "weekly_points": 68,
-      "daily_points": 68,
+      "daily_points": 0,
       "total_points": 101,
       "wins": 12,
       "participations": 14,
@@ -687,26 +687,27 @@
     },
     "Viper": {
       "weekly_points": 14,
-      "daily_points": 14,
+      "daily_points": 0,
       "total_points": 14,
       "wins": 0,
       "participations": 2,
       "title": null,
       "last_win": null,
       "updated_at": "2026-06-14T10:22:43"
-    },
-    "شايب - أسود": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 10,
-      "wins": 1,
-      "participations": 1,
-      "title": "سيد المسابقات",
-      "last_win": "2026-06-14T22:04:39",
-      "updated_at": "2026-06-14T22:04:39"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-15T06:20:36"
+    },
     {
       "type": 10,
       "winner": "شايب - أسود",
@@ -1273,19 +1274,8 @@
         }
       ],
       "created_at": "2026-06-13T08:21:13"
-    },
-    {
-      "type": 10,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-13T08:17:55"
     }
   ],
-  "last_daily_reset": "2026-06-14T00:12:40",
+  "last_daily_reset": "2026-06-15T06:20:36",
   "last_weekly_reset": "2026-06-13T23:01:53"
 }
