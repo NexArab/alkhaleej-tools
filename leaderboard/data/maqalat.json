@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-15T00:19:05",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-15T21:04:46",
+  "last_updated": "2026-06-15T21:11:59",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 333,
-      "daily_points": 99,
-      "total_points": 621,
-      "wins": 45,
-      "participations": 68,
+      "weekly_points": 338,
+      "daily_points": 104,
+      "total_points": 626,
+      "wins": 46,
+      "participations": 69,
       "title": "ملك المقالات",
-      "last_win": "2026-06-15T17:31:12",
-      "updated_at": "2026-06-15T21:04:46"
+      "last_win": "2026-06-15T21:11:59",
+      "updated_at": "2026-06-15T21:11:59"
     },
     "AizeN": {
       "weekly_points": 5,
@@ -515,18 +515,33 @@
       "last_win": "2026-06-14T12:06:09",
       "updated_at": "2026-06-14T12:06:09"
     },
-    "شايب - أسود": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 25,
-      "wins": 1,
+    "سوريم": {
+      "weekly_points": 2,
+      "daily_points": 2,
+      "total_points": 2,
+      "wins": 0,
       "participations": 1,
-      "title": "ملك المقالات",
-      "last_win": "2026-06-15T21:04:46",
-      "updated_at": "2026-06-15T21:04:46"
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-15T21:11:59"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 5
+        },
+        {
+          "name": "سوريم",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-15T21:11:59"
+    },
     {
       "type": 25,
       "winner": "شايب - أسود",
@@ -1129,17 +1144,6 @@
         }
       ],
       "created_at": "2026-06-14T00:46:25"
-    },
-    {
-      "type": 5,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-14T00:41:35"
     }
   ],
   "last_daily_reset": "2026-06-15T00:19:05",
