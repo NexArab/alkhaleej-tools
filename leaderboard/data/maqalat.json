@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-16T00:08:33",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-16T02:20:52",
+  "last_updated": "2026-06-16T02:31:36",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,14 +306,14 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 50,
-      "daily_points": 20,
-      "total_points": 78,
+      "weekly_points": 69,
+      "daily_points": 39,
+      "total_points": 97,
       "wins": 4,
-      "participations": 7,
+      "participations": 8,
       "title": "ملك المقالات",
       "last_win": "2026-06-13T23:59:32",
-      "updated_at": "2026-06-16T02:20:52"
+      "updated_at": "2026-06-16T02:31:36"
     },
     "نجر": {
       "weekly_points": 278,
@@ -326,14 +326,14 @@
       "updated_at": "2026-06-16T01:01:19"
     },
     "التجربة": {
-      "weekly_points": 48,
-      "daily_points": 48,
-      "total_points": 143,
+      "weekly_points": 50,
+      "daily_points": 50,
+      "total_points": 145,
       "wins": 11,
-      "participations": 12,
+      "participations": 13,
       "title": "ملك المقالات",
       "last_win": "2026-06-16T02:20:52",
-      "updated_at": "2026-06-16T02:20:52"
+      "updated_at": "2026-06-16T02:31:36"
     },
     "Sir Deinich": {
       "weekly_points": 0,
@@ -584,9 +584,38 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-06-16T01:45:30"
+    },
+    "التجربة3": {
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 25,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-06-16T02:31:36",
+      "updated_at": "2026-06-16T02:31:36"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "التجربة3",
+      "participants": [
+        {
+          "name": "التجربة3",
+          "points": 25
+        },
+        {
+          "name": "أدرينالين",
+          "points": 19
+        },
+        {
+          "name": "التجربة",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-16T02:31:36"
+    },
     {
       "type": 25,
       "winner": "التجربة",
@@ -1309,17 +1338,6 @@
         }
       ],
       "created_at": "2026-06-14T23:34:07"
-    },
-    {
-      "type": 5,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-14T23:29:01"
     }
   ],
   "last_daily_reset": "2026-06-16T00:08:33",
