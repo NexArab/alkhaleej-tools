@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-16T00:08:33",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-16T01:01:19",
+  "last_updated": "2026-06-16T01:15:48",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 417,
-      "daily_points": 34,
-      "total_points": 705,
-      "wins": 49,
-      "participations": 78,
+      "weekly_points": 442,
+      "daily_points": 59,
+      "total_points": 730,
+      "wins": 50,
+      "participations": 79,
       "title": "ملك المقالات",
-      "last_win": "2026-06-16T00:38:59",
-      "updated_at": "2026-06-16T01:01:19"
+      "last_win": "2026-06-16T01:15:48",
+      "updated_at": "2026-06-16T01:15:48"
     },
     "AizeN": {
       "weekly_points": 5,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 38,
-      "daily_points": 0,
-      "total_points": 38,
+      "weekly_points": 45,
+      "daily_points": 7,
+      "total_points": 45,
       "wins": 2,
-      "participations": 7,
+      "participations": 8,
       "title": "ملك المقالات",
       "last_win": "2026-06-13T02:20:07",
-      "updated_at": "2026-06-15T22:57:52"
+      "updated_at": "2026-06-16T01:15:48"
     },
     "⠀⠀جـوج": {
       "weekly_points": 30,
@@ -577,6 +577,21 @@
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 25
+        },
+        {
+          "name": "AizeN ..",
+          "points": 7
+        }
+      ],
+      "created_at": "2026-06-16T01:15:48"
+    },
     {
       "type": 10,
       "winner": "نجر",
@@ -1275,21 +1290,6 @@
         }
       ],
       "created_at": "2026-06-14T20:55:08"
-    },
-    {
-      "type": 10,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 10
-        },
-        {
-          "name": "؟",
-          "points": 7
-        }
-      ],
-      "created_at": "2026-06-14T20:49:56"
     }
   ],
   "last_daily_reset": "2026-06-16T00:08:33",
