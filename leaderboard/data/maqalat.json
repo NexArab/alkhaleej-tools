@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-16T00:08:33",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-16T22:42:45",
+  "last_updated": "2026-06-16T22:46:30",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-06-16T02:31:36"
     },
     "نجر": {
-      "weekly_points": 298,
-      "daily_points": 65,
-      "total_points": 438,
-      "wins": 31,
-      "participations": 46,
+      "weekly_points": 308,
+      "daily_points": 75,
+      "total_points": 448,
+      "wins": 32,
+      "participations": 47,
       "title": "ملك المقالات",
-      "last_win": "2026-06-16T22:42:45",
-      "updated_at": "2026-06-16T22:42:45"
+      "last_win": "2026-06-16T22:46:30",
+      "updated_at": "2026-06-16T22:46:30"
     },
     "التجربة": {
       "weekly_points": 50,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 480,
-      "daily_points": 97,
-      "total_points": 768,
+      "weekly_points": 481,
+      "daily_points": 98,
+      "total_points": 769,
       "wins": 55,
-      "participations": 90,
+      "participations": 91,
       "title": "ملك المقالات",
       "last_win": "2026-06-16T22:11:17",
-      "updated_at": "2026-06-16T22:42:45"
+      "updated_at": "2026-06-16T22:46:30"
     },
     "AizeN": {
       "weekly_points": 5,
@@ -617,6 +617,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 10
+        },
+        {
+          "name": "كــــعبول",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-16T22:46:30"
+    },
     {
       "type": 10,
       "winner": "نجر",
@@ -1379,21 +1394,6 @@
         }
       ],
       "created_at": "2026-06-15T21:13:44"
-    },
-    {
-      "type": 5,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 5
-        },
-        {
-          "name": "سوريم",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-06-15T21:11:59"
     }
   ],
   "last_daily_reset": "2026-06-16T00:08:33",
