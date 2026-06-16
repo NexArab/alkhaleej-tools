@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-17T00:01:12",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-17T00:14:33",
+  "last_updated": "2026-06-17T00:17:27",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-06-16T02:31:36"
     },
     "نجر": {
-      "weekly_points": 353,
-      "daily_points": 0,
-      "total_points": 493,
+      "weekly_points": 354,
+      "daily_points": 1,
+      "total_points": 494,
       "wins": 35,
-      "participations": 50,
+      "participations": 51,
       "title": "ملك المقالات",
       "last_win": "2026-06-16T23:27:33",
-      "updated_at": "2026-06-16T23:27:33"
+      "updated_at": "2026-06-17T00:17:27"
     },
     "التجربة": {
       "weekly_points": 50,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 492,
-      "daily_points": 11,
-      "total_points": 780,
-      "wins": 57,
-      "participations": 94,
+      "weekly_points": 497,
+      "daily_points": 16,
+      "total_points": 785,
+      "wins": 58,
+      "participations": 95,
       "title": "ملك المقالات",
-      "last_win": "2026-06-17T00:11:53",
-      "updated_at": "2026-06-17T00:14:33"
+      "last_win": "2026-06-17T00:17:27",
+      "updated_at": "2026-06-17T00:17:27"
     },
     "AizeN": {
       "weekly_points": 5,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 62,
-      "daily_points": 5,
-      "total_points": 62,
+      "weekly_points": 63,
+      "daily_points": 6,
+      "total_points": 63,
       "wins": 3,
-      "participations": 13,
+      "participations": 14,
       "title": "ملك المقالات",
       "last_win": "2026-06-17T00:14:33",
-      "updated_at": "2026-06-17T00:14:33"
+      "updated_at": "2026-06-17T00:17:27"
     },
     "⠀⠀جـوج": {
       "weekly_points": 30,
@@ -617,6 +617,25 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 5
+        },
+        {
+          "name": "AizeN ..",
+          "points": 1
+        },
+        {
+          "name": "نجر",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-17T00:17:27"
+    },
     {
       "type": 5,
       "winner": "AizeN ..",
@@ -1367,21 +1386,6 @@
         }
       ],
       "created_at": "2026-06-15T22:04:15"
-    },
-    {
-      "type": 5,
-      "winner": "سوؤيرم",
-      "participants": [
-        {
-          "name": "سوؤيرم",
-          "points": 5
-        },
-        {
-          "name": "نجر",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-06-15T21:57:25"
     }
   ],
   "last_daily_reset": "2026-06-17T00:01:12",
