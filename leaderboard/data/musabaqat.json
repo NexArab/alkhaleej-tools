@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-13T23:01:53",
   "daily_champion": {
-    "name": "Rio",
-    "points": 120,
-    "date": "2026-06-15"
+    "name": "How?",
+    "points": 5,
+    "date": "2026-06-16"
   },
-  "daily_champion_set_at": "2026-06-15T06:20:36",
+  "daily_champion_set_at": "2026-06-16T03:46:51",
   "last_reset": "2026-06-13T23:01:53",
-  "last_updated": "2026-06-15T22:17:51",
+  "last_updated": "2026-06-16T03:46:51",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-06-06T10:54:48"
     },
     "How?": {
-      "weekly_points": 30,
+      "weekly_points": 35,
       "daily_points": 5,
-      "total_points": 268,
-      "wins": 45,
-      "participations": 47,
+      "total_points": 273,
+      "wins": 46,
+      "participations": 48,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-15T06:20:36",
-      "updated_at": "2026-06-15T06:20:36"
+      "last_win": "2026-06-16T03:46:51",
+      "updated_at": "2026-06-16T03:46:51"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -367,7 +367,7 @@
     },
     "نجر": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 35,
       "wins": 5,
       "participations": 5,
@@ -697,6 +697,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-16T03:46:51"
+    },
     {
       "type": 5,
       "winner": "نجر",
@@ -1263,19 +1274,8 @@
         }
       ],
       "created_at": "2026-06-13T10:12:10"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-13T09:29:26"
     }
   ],
-  "last_daily_reset": "2026-06-15T06:20:36",
+  "last_daily_reset": "2026-06-16T03:46:51",
   "last_weekly_reset": "2026-06-13T23:01:53"
 }
