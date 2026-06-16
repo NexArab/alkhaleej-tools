@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-16T00:08:33",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-16T06:54:31",
+  "last_updated": "2026-06-16T06:57:50",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -266,14 +266,14 @@
       "updated_at": "2026-05-31T12:22:30"
     },
     "How?": {
-      "weekly_points": 30,
-      "daily_points": 15,
-      "total_points": 139,
-      "wins": 17,
-      "participations": 25,
+      "weekly_points": 40,
+      "daily_points": 25,
+      "total_points": 149,
+      "wins": 18,
+      "participations": 26,
       "title": "ملك المقالات",
-      "last_win": "2026-06-16T06:54:31",
-      "updated_at": "2026-06-16T06:54:31"
+      "last_win": "2026-06-16T06:57:50",
+      "updated_at": "2026-06-16T06:57:50"
     },
     "شين باء": {
       "weekly_points": 0,
@@ -597,6 +597,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-16T06:57:50"
+    },
     {
       "type": 10,
       "winner": "How?",
@@ -1323,21 +1334,6 @@
         }
       ],
       "created_at": "2026-06-15T00:31:53"
-    },
-    {
-      "type": 10,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 10
-        },
-        {
-          "name": "شايب - أسود",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-06-15T00:25:22"
     }
   ],
   "last_daily_reset": "2026-06-16T00:08:33",
