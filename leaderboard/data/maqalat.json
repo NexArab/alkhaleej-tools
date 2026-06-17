@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-17T00:01:12",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-17T18:58:38",
+  "last_updated": "2026-06-17T19:00:23",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 323,
-      "daily_points": 40,
-      "total_points": 1100,
-      "wins": 100,
-      "participations": 124,
+      "weekly_points": 328,
+      "daily_points": 45,
+      "total_points": 1105,
+      "wins": 101,
+      "participations": 125,
       "title": "ملك المقالات",
-      "last_win": "2026-06-17T18:58:38",
-      "updated_at": "2026-06-17T18:58:38"
+      "last_win": "2026-06-17T19:00:23",
+      "updated_at": "2026-06-17T19:00:23"
     },
     "كتب": {
       "weekly_points": 0,
@@ -576,14 +576,14 @@
       "updated_at": "2026-06-16T00:08:33"
     },
     "⠀BkR": {
-      "weekly_points": 6,
-      "daily_points": 0,
-      "total_points": 6,
+      "weekly_points": 9,
+      "daily_points": 3,
+      "total_points": 9,
       "wins": 0,
-      "participations": 2,
+      "participations": 3,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-16T01:45:30"
+      "updated_at": "2026-06-17T19:00:23"
     },
     "التجربة3": {
       "weekly_points": 35,
@@ -627,6 +627,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 5
+        },
+        {
+          "name": "⠀BkR",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-06-17T19:00:23"
+    },
     {
       "type": 5,
       "winner": "ＣＰＵ ..",
@@ -1273,29 +1288,6 @@
         }
       ],
       "created_at": "2026-06-16T21:42:16"
-    },
-    {
-      "type": 25,
-      "winner": "سي ون",
-      "participants": [
-        {
-          "name": "سي ون",
-          "points": 25
-        },
-        {
-          "name": "شايب - أسود",
-          "points": 21
-        },
-        {
-          "name": "ＣＰＵ ..",
-          "points": 16
-        },
-        {
-          "name": "ســاهــــر",
-          "points": 7
-        }
-      ],
-      "created_at": "2026-06-16T21:34:39"
     }
   ],
   "last_daily_reset": "2026-06-17T00:01:12",
