@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-17T01:09:14",
   "last_reset": "2026-06-13T23:01:53",
-  "last_updated": "2026-06-17T01:09:14",
+  "last_updated": "2026-06-17T08:09:41",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-06-06T10:54:48"
     },
     "How?": {
-      "weekly_points": 110,
-      "daily_points": 0,
-      "total_points": 348,
-      "wins": 56,
-      "participations": 58,
+      "weekly_points": 115,
+      "daily_points": 5,
+      "total_points": 353,
+      "wins": 57,
+      "participations": 59,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-16T09:20:57",
-      "updated_at": "2026-06-16T09:20:57"
+      "last_win": "2026-06-17T08:09:41",
+      "updated_at": "2026-06-17T08:09:41"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -699,6 +699,17 @@
   "matches": [
     {
       "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-17T08:09:41"
+    },
+    {
+      "type": 5,
       "winner": "نجر",
       "participants": [
         {
@@ -1263,17 +1274,6 @@
         }
       ],
       "created_at": "2026-06-13T23:03:41"
-    },
-    {
-      "type": 10,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-13T23:01:53"
     }
   ],
   "last_daily_reset": "2026-06-17T01:09:14",
