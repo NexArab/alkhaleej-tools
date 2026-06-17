@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-18T01:00:56",
   "last_reset": "2026-06-18T01:00:56",
-  "last_updated": "2026-06-18T01:49:09",
+  "last_updated": "2026-06-18T01:53:30",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 100,
-      "daily_points": 100,
-      "total_points": 943,
-      "wins": 73,
-      "participations": 125,
+      "weekly_points": 110,
+      "daily_points": 110,
+      "total_points": 953,
+      "wins": 74,
+      "participations": 126,
       "title": "ملك المقالات",
-      "last_win": "2026-06-18T01:49:09",
-      "updated_at": "2026-06-18T01:49:09"
+      "last_win": "2026-06-18T01:53:30",
+      "updated_at": "2026-06-18T01:53:30"
     },
     "AizeN": {
       "weekly_points": 0,
@@ -657,6 +657,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-18T01:53:30"
+    },
     {
       "type": 5,
       "winner": "كــــعبول",
@@ -1407,17 +1418,6 @@
         }
       ],
       "created_at": "2026-06-17T19:13:44"
-    },
-    {
-      "type": 5,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-17T19:11:14"
     }
   ],
   "last_daily_reset": "2026-06-18T01:00:56",
