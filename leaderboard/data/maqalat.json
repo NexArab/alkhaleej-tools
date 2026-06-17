@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-17T00:01:12",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-17T22:54:46",
+  "last_updated": "2026-06-17T23:02:18",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -625,18 +625,43 @@
       "last_win": "2026-06-17T07:04:46",
       "updated_at": "2026-06-17T07:04:46"
     },
-    "شايب - أسود": {
-      "weekly_points": 19,
-      "daily_points": 19,
-      "total_points": 19,
+    "نجر 215": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-06-17T23:02:18",
+      "updated_at": "2026-06-17T23:02:18"
+    },
+    "بدون إسم": {
+      "weekly_points": 2,
+      "daily_points": 2,
+      "total_points": 2,
       "wins": 0,
       "participations": 1,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-17T22:54:46"
+      "updated_at": "2026-06-17T23:02:18"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "نجر 215",
+      "participants": [
+        {
+          "name": "نجر 215",
+          "points": 5
+        },
+        {
+          "name": "بدون إسم",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-17T23:02:18"
+    },
     {
       "type": 25,
       "winner": "نجر",
@@ -1383,17 +1408,6 @@
         }
       ],
       "created_at": "2026-06-17T11:42:17"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-17T09:23:02"
     }
   ],
   "last_daily_reset": "2026-06-17T00:01:12",
