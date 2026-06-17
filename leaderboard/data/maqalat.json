@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-17T00:01:12",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-17T19:00:23",
+  "last_updated": "2026-06-17T19:03:17",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 328,
-      "daily_points": 45,
-      "total_points": 1105,
-      "wins": 101,
-      "participations": 125,
+      "weekly_points": 338,
+      "daily_points": 55,
+      "total_points": 1115,
+      "wins": 102,
+      "participations": 126,
       "title": "ملك المقالات",
-      "last_win": "2026-06-17T19:00:23",
-      "updated_at": "2026-06-17T19:00:23"
+      "last_win": "2026-06-17T19:03:17",
+      "updated_at": "2026-06-17T19:03:17"
     },
     "كتب": {
       "weekly_points": 0,
@@ -576,14 +576,14 @@
       "updated_at": "2026-06-16T00:08:33"
     },
     "⠀BkR": {
-      "weekly_points": 9,
-      "daily_points": 3,
-      "total_points": 9,
+      "weekly_points": 13,
+      "daily_points": 7,
+      "total_points": 13,
       "wins": 0,
-      "participations": 3,
+      "participations": 4,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-17T19:00:23"
+      "updated_at": "2026-06-17T19:03:17"
     },
     "التجربة3": {
       "weekly_points": 35,
@@ -627,6 +627,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "⠀BkR",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-06-17T19:03:17"
+    },
     {
       "type": 5,
       "winner": "ＣＰＵ ..",
@@ -1269,25 +1284,6 @@
         }
       ],
       "created_at": "2026-06-16T21:44:20"
-    },
-    {
-      "type": 25,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 25
-        },
-        {
-          "name": "ســاهــــر",
-          "points": 12
-        },
-        {
-          "name": "شايب - أسود",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-06-16T21:42:16"
     }
   ],
   "last_daily_reset": "2026-06-17T00:01:12",
