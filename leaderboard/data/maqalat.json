@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-17T00:01:12",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-17T19:13:44",
+  "last_updated": "2026-06-17T19:51:28",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 356,
-      "daily_points": 73,
-      "total_points": 1133,
+      "weekly_points": 358,
+      "daily_points": 75,
+      "total_points": 1135,
       "wins": 104,
-      "participations": 130,
+      "participations": 131,
       "title": "ملك المقالات",
       "last_win": "2026-06-17T19:11:14",
-      "updated_at": "2026-06-17T19:13:44"
+      "updated_at": "2026-06-17T19:51:28"
     },
     "كتب": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-06-16T02:31:36"
     },
     "نجر": {
-      "weekly_points": 399,
-      "daily_points": 46,
-      "total_points": 539,
-      "wins": 40,
-      "participations": 56,
+      "weekly_points": 409,
+      "daily_points": 56,
+      "total_points": 549,
+      "wins": 41,
+      "participations": 57,
       "title": "ملك المقالات",
-      "last_win": "2026-06-17T01:03:12",
-      "updated_at": "2026-06-17T01:03:12"
+      "last_win": "2026-06-17T19:51:28",
+      "updated_at": "2026-06-17T19:51:28"
     },
     "التجربة": {
       "weekly_points": 50,
@@ -576,14 +576,14 @@
       "updated_at": "2026-06-16T00:08:33"
     },
     "⠀BkR": {
-      "weekly_points": 14,
-      "daily_points": 8,
-      "total_points": 14,
+      "weekly_points": 16,
+      "daily_points": 10,
+      "total_points": 16,
       "wins": 0,
-      "participations": 5,
+      "participations": 6,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-17T19:09:34"
+      "updated_at": "2026-06-17T19:51:28"
     },
     "التجربة3": {
       "weekly_points": 35,
@@ -624,19 +624,28 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-17T07:04:46",
       "updated_at": "2026-06-17T07:04:46"
-    },
-    "شايب - أسود": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 10,
-      "wins": 1,
-      "participations": 1,
-      "title": "ملك المقالات",
-      "last_win": "2026-06-17T19:13:44",
-      "updated_at": "2026-06-17T19:13:44"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 10
+        },
+        {
+          "name": "⠀BkR",
+          "points": 2
+        },
+        {
+          "name": "ＣＰＵ ..",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-17T19:51:28"
+    },
     {
       "type": 10,
       "winner": "شايب - أسود",
@@ -1271,21 +1280,6 @@
         }
       ],
       "created_at": "2026-06-16T22:39:08"
-    },
-    {
-      "type": 10,
-      "winner": "سي تو",
-      "participants": [
-        {
-          "name": "سي تو",
-          "points": 10
-        },
-        {
-          "name": "شايب - أسود",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-06-16T22:26:28"
     }
   ],
   "last_daily_reset": "2026-06-17T00:01:12",
