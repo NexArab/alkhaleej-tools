@@ -1,19 +1,19 @@
 {
   "room": "المقالات",
   "weekly_champion": {
-    "name": "كــــعبول",
-    "points": 73,
-    "week_of": "2026-06-12"
+    "name": "ＣＰＵ ..",
+    "points": 620,
+    "week_of": "2026-06-18"
   },
-  "weekly_champion_set_at": "2026-06-12T23:32:41",
+  "weekly_champion_set_at": "2026-06-18T01:00:56",
   "daily_champion": {
     "name": "ＣＰＵ ..",
-    "points": 132,
-    "date": "2026-06-17"
+    "points": 337,
+    "date": "2026-06-18"
   },
-  "daily_champion_set_at": "2026-06-17T00:01:12",
-  "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-17T23:47:47",
+  "daily_champion_set_at": "2026-06-18T01:00:56",
+  "last_reset": "2026-06-18T01:00:56",
+  "last_updated": "2026-06-18T01:00:56",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,8 +76,8 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 212,
-      "daily_points": 69,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 775,
       "wins": 63,
       "participations": 76,
@@ -126,8 +126,8 @@
       "updated_at": "2026-05-26T14:57:23"
     },
     "Rio": {
-      "weekly_points": 55,
-      "daily_points": 25,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 131,
       "wins": 25,
       "participations": 26,
@@ -136,8 +136,8 @@
       "updated_at": "2026-06-17T08:43:44"
     },
     "ضامي": {
-      "weekly_points": 32,
-      "daily_points": 32,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 247,
       "wins": 44,
       "participations": 47,
@@ -176,8 +176,8 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 620,
-      "daily_points": 337,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 1397,
       "wins": 116,
       "participations": 155,
@@ -266,8 +266,8 @@
       "updated_at": "2026-05-31T12:22:30"
     },
     "How?": {
-      "weekly_points": 55,
-      "daily_points": 5,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 164,
       "wins": 20,
       "participations": 28,
@@ -306,7 +306,7 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 69,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 97,
       "wins": 4,
@@ -316,8 +316,8 @@
       "updated_at": "2026-06-16T02:31:36"
     },
     "نجر": {
-      "weekly_points": 613,
-      "daily_points": 260,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 753,
       "wins": 51,
       "participations": 79,
@@ -326,7 +326,7 @@
       "updated_at": "2026-06-17T23:47:47"
     },
     "التجربة": {
-      "weekly_points": 50,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 145,
       "wins": 11,
@@ -396,7 +396,7 @@
       "updated_at": "2026-06-09T20:38:11"
     },
     "؟": {
-      "weekly_points": 13,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 24,
       "wins": 2,
@@ -446,17 +446,17 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 555,
-      "daily_points": 74,
-      "total_points": 843,
-      "wins": 61,
-      "participations": 113,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 848,
+      "wins": 62,
+      "participations": 114,
       "title": "ملك المقالات",
-      "last_win": "2026-06-17T17:08:56",
-      "updated_at": "2026-06-17T23:36:25"
+      "last_win": "2026-06-18T01:00:56",
+      "updated_at": "2026-06-18T01:00:56"
     },
     "AizeN": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 34,
       "wins": 2,
@@ -496,8 +496,8 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 66,
-      "daily_points": 9,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 66,
       "wins": 3,
       "participations": 15,
@@ -506,7 +506,7 @@
       "updated_at": "2026-06-17T00:22:33"
     },
     "⠀⠀جـوج": {
-      "weekly_points": 30,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 30,
       "wins": 2,
@@ -516,7 +516,7 @@
       "updated_at": "2026-06-14T12:06:09"
     },
     "سوريم": {
-      "weekly_points": 27,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 27,
       "wins": 1,
@@ -526,7 +526,7 @@
       "updated_at": "2026-06-15T21:29:00"
     },
     "سوؤيرم": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 5,
       "wins": 1,
@@ -536,7 +536,7 @@
       "updated_at": "2026-06-15T21:57:25"
     },
     "beZzzz": {
-      "weekly_points": 3,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 3,
       "wins": 0,
@@ -546,7 +546,7 @@
       "updated_at": "2026-06-15T22:16:54"
     },
     "زاطاطاطط": {
-      "weekly_points": 2,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 2,
       "wins": 0,
@@ -556,7 +556,7 @@
       "updated_at": "2026-06-15T22:36:13"
     },
     "تربينو": {
-      "weekly_points": 1,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 1,
       "wins": 0,
@@ -566,7 +566,7 @@
       "updated_at": "2026-06-15T23:49:21"
     },
     "صاروخ": {
-      "weekly_points": 1,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 1,
       "wins": 0,
@@ -576,8 +576,8 @@
       "updated_at": "2026-06-16T00:08:33"
     },
     "⠀BkR": {
-      "weekly_points": 21,
-      "daily_points": 15,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 21,
       "wins": 0,
       "participations": 7,
@@ -586,7 +586,7 @@
       "updated_at": "2026-06-17T19:56:41"
     },
     "التجربة3": {
-      "weekly_points": 35,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 35,
       "wins": 2,
@@ -596,7 +596,7 @@
       "updated_at": "2026-06-16T02:34:58"
     },
     "سي ون": {
-      "weekly_points": 25,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 25,
       "wins": 1,
@@ -606,7 +606,7 @@
       "updated_at": "2026-06-16T21:34:39"
     },
     "سي تو": {
-      "weekly_points": 14,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 14,
       "wins": 1,
@@ -616,8 +616,8 @@
       "updated_at": "2026-06-16T22:26:28"
     },
     "غـايب": {
-      "weekly_points": 20,
-      "daily_points": 20,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 20,
       "wins": 3,
       "participations": 3,
@@ -626,8 +626,8 @@
       "updated_at": "2026-06-17T07:04:46"
     },
     "نجر 215": {
-      "weekly_points": 6,
-      "daily_points": 6,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 6,
       "wins": 1,
       "participations": 2,
@@ -636,8 +636,8 @@
       "updated_at": "2026-06-17T23:07:09"
     },
     "بدون إسم": {
-      "weekly_points": 14,
-      "daily_points": 14,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 14,
       "wins": 1,
       "participations": 3,
@@ -646,8 +646,8 @@
       "updated_at": "2026-06-17T23:11:44"
     },
     "نجر 1167": {
-      "weekly_points": 13,
-      "daily_points": 13,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 13,
       "wins": 1,
       "participations": 2,
@@ -657,6 +657,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-18T01:00:56"
+    },
     {
       "type": 5,
       "winner": "نجر",
@@ -1439,19 +1450,8 @@
         }
       ],
       "created_at": "2026-06-17T16:59:06"
-    },
-    {
-      "type": 5,
-      "winner": "ضامي",
-      "participants": [
-        {
-          "name": "ضامي",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-17T16:56:45"
     }
   ],
-  "last_daily_reset": "2026-06-17T00:01:12",
-  "last_weekly_reset": "2026-06-12T23:32:41"
+  "last_daily_reset": "2026-06-18T01:00:56",
+  "last_weekly_reset": "2026-06-18T01:00:56"
 }
