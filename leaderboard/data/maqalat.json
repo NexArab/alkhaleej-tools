@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-17T00:01:12",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-17T20:29:16",
+  "last_updated": "2026-06-17T21:12:31",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 537,
-      "daily_points": 56,
-      "total_points": 825,
+      "weekly_points": 539,
+      "daily_points": 58,
+      "total_points": 827,
       "wins": 61,
-      "participations": 104,
+      "participations": 105,
       "title": "ملك المقالات",
       "last_win": "2026-06-17T17:08:56",
-      "updated_at": "2026-06-17T17:08:56"
+      "updated_at": "2026-06-17T21:12:31"
     },
     "AizeN": {
       "weekly_points": 5,
@@ -624,9 +624,34 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-17T07:04:46",
       "updated_at": "2026-06-17T07:04:46"
+    },
+    "شايب - أسود": {
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 25,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-06-17T21:12:31",
+      "updated_at": "2026-06-17T21:12:31"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "شايب - أسود",
+      "participants": [
+        {
+          "name": "شايب - أسود",
+          "points": 25
+        },
+        {
+          "name": "كــــعبول",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-17T21:12:31"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1301,21 +1326,6 @@
         }
       ],
       "created_at": "2026-06-17T00:17:27"
-    },
-    {
-      "type": 5,
-      "winner": "AizeN ..",
-      "participants": [
-        {
-          "name": "AizeN ..",
-          "points": 5
-        },
-        {
-          "name": "كــــعبول",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-06-17T00:14:33"
     }
   ],
   "last_daily_reset": "2026-06-17T00:01:12",
