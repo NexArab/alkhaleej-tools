@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-17T00:01:12",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-17T11:42:17",
+  "last_updated": "2026-06-17T11:46:10",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 148,
-      "daily_points": 5,
-      "total_points": 711,
-      "wins": 58,
-      "participations": 69,
+      "weekly_points": 158,
+      "daily_points": 15,
+      "total_points": 721,
+      "wins": 59,
+      "participations": 70,
       "title": "ملك المقالات",
-      "last_win": "2026-06-17T11:42:17",
-      "updated_at": "2026-06-17T11:42:17"
+      "last_win": "2026-06-17T11:46:10",
+      "updated_at": "2026-06-17T11:46:10"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -627,6 +627,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-17T11:46:10"
+    },
     {
       "type": 5,
       "winner": "ســاهــــر",
@@ -1297,25 +1308,6 @@
         }
       ],
       "created_at": "2026-06-16T02:34:58"
-    },
-    {
-      "type": 25,
-      "winner": "التجربة3",
-      "participants": [
-        {
-          "name": "التجربة3",
-          "points": 25
-        },
-        {
-          "name": "أدرينالين",
-          "points": 19
-        },
-        {
-          "name": "التجربة",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-06-16T02:31:36"
     }
   ],
   "last_daily_reset": "2026-06-17T00:01:12",
