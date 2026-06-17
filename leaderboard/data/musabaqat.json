@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-17T01:09:14",
   "last_reset": "2026-06-13T23:01:53",
-  "last_updated": "2026-06-17T18:51:16",
+  "last_updated": "2026-06-17T19:13:10",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -676,14 +676,14 @@
       "updated_at": "2026-06-12T01:11:48"
     },
     "⠀⠀جـوج": {
-      "weekly_points": 218,
-      "daily_points": 150,
-      "total_points": 251,
-      "wins": 27,
-      "participations": 29,
+      "weekly_points": 228,
+      "daily_points": 160,
+      "total_points": 261,
+      "wins": 28,
+      "participations": 30,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-17T18:51:16",
-      "updated_at": "2026-06-17T18:51:16"
+      "last_win": "2026-06-17T19:13:10",
+      "updated_at": "2026-06-17T19:13:10"
     },
     "Viper": {
       "weekly_points": 14,
@@ -697,6 +697,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "⠀⠀جـوج",
+      "participants": [
+        {
+          "name": "⠀⠀جـوج",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-17T19:13:10"
+    },
     {
       "type": 10,
       "winner": "⠀⠀جـوج",
@@ -1239,17 +1250,6 @@
         }
       ],
       "created_at": "2026-06-14T11:53:50"
-    },
-    {
-      "type": 5,
-      "winner": "⠀⠀جـوج",
-      "participants": [
-        {
-          "name": "⠀⠀جـوج",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-14T11:45:24"
     }
   ],
   "last_daily_reset": "2026-06-17T01:09:14",
