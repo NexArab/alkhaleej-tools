@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-17T00:01:12",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-17T22:38:59",
+  "last_updated": "2026-06-17T22:43:53",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-06-16T02:31:36"
     },
     "نجر": {
-      "weekly_points": 523,
-      "daily_points": 170,
-      "total_points": 663,
-      "wins": 46,
-      "participations": 72,
+      "weekly_points": 533,
+      "daily_points": 180,
+      "total_points": 673,
+      "wins": 47,
+      "participations": 73,
       "title": "ملك المقالات",
-      "last_win": "2026-06-17T22:38:59",
-      "updated_at": "2026-06-17T22:38:59"
+      "last_win": "2026-06-17T22:43:53",
+      "updated_at": "2026-06-17T22:43:53"
     },
     "التجربة": {
       "weekly_points": 50,
@@ -626,17 +626,32 @@
       "updated_at": "2026-06-17T07:04:46"
     },
     "شايب - أسود": {
-      "weekly_points": 8,
-      "daily_points": 8,
-      "total_points": 8,
+      "weekly_points": 9,
+      "daily_points": 9,
+      "total_points": 9,
       "wins": 0,
       "participations": 1,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-17T22:38:59"
+      "updated_at": "2026-06-17T22:43:53"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 10
+        },
+        {
+          "name": "شايب - أسود",
+          "points": 9
+        }
+      ],
+      "created_at": "2026-06-17T22:43:53"
+    },
     {
       "type": 10,
       "winner": "نجر",
@@ -1371,17 +1386,6 @@
         }
       ],
       "created_at": "2026-06-17T08:43:44"
-    },
-    {
-      "type": 5,
-      "winner": "غـايب",
-      "participants": [
-        {
-          "name": "غـايب",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-17T07:04:46"
     }
   ],
   "last_daily_reset": "2026-06-17T00:01:12",
