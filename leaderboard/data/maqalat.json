@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-17T00:01:12",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-17T22:14:48",
+  "last_updated": "2026-06-17T22:18:00",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 561,
-      "daily_points": 278,
-      "total_points": 1338,
+      "weekly_points": 566,
+      "daily_points": 283,
+      "total_points": 1343,
       "wins": 116,
-      "participations": 149,
+      "participations": 150,
       "title": "ملك المقالات",
       "last_win": "2026-06-17T22:10:26",
-      "updated_at": "2026-06-17T22:14:48"
+      "updated_at": "2026-06-17T22:18:00"
     },
     "كتب": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-06-16T02:31:36"
     },
     "نجر": {
-      "weekly_points": 471,
-      "daily_points": 118,
-      "total_points": 611,
-      "wins": 43,
-      "participations": 67,
+      "weekly_points": 481,
+      "daily_points": 128,
+      "total_points": 621,
+      "wins": 44,
+      "participations": 68,
       "title": "ملك المقالات",
-      "last_win": "2026-06-17T22:14:48",
-      "updated_at": "2026-06-17T22:14:48"
+      "last_win": "2026-06-17T22:18:00",
+      "updated_at": "2026-06-17T22:18:00"
     },
     "التجربة": {
       "weekly_points": 50,
@@ -624,9 +624,38 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-17T07:04:46",
       "updated_at": "2026-06-17T07:04:46"
+    },
+    "شايب - أسود": {
+      "weekly_points": 2,
+      "daily_points": 2,
+      "total_points": 2,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-17T22:18:00"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 10
+        },
+        {
+          "name": "ＣＰＵ ..",
+          "points": 5
+        },
+        {
+          "name": "شايب - أسود",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-17T22:18:00"
+    },
     {
       "type": 10,
       "winner": "نجر",
@@ -1321,17 +1350,6 @@
         }
       ],
       "created_at": "2026-06-17T02:20:30"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-17T02:13:46"
     }
   ],
   "last_daily_reset": "2026-06-17T00:01:12",
