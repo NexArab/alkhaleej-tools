@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-17T00:01:12",
   "last_reset": "2026-06-12T23:32:41",
-  "last_updated": "2026-06-17T18:46:10",
+  "last_updated": "2026-06-17T18:52:48",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 308,
-      "daily_points": 25,
-      "total_points": 1085,
-      "wins": 98,
-      "participations": 122,
+      "weekly_points": 318,
+      "daily_points": 35,
+      "total_points": 1095,
+      "wins": 99,
+      "participations": 123,
       "title": "ملك المقالات",
-      "last_win": "2026-06-17T18:46:10",
-      "updated_at": "2026-06-17T18:46:10"
+      "last_win": "2026-06-17T18:52:48",
+      "updated_at": "2026-06-17T18:52:48"
     },
     "كتب": {
       "weekly_points": 0,
@@ -626,17 +626,32 @@
       "updated_at": "2026-06-17T07:04:46"
     },
     "شايب - أسود": {
-      "weekly_points": 2,
-      "daily_points": 2,
-      "total_points": 2,
+      "weekly_points": 3,
+      "daily_points": 3,
+      "total_points": 3,
       "wins": 0,
       "participations": 1,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-17T18:46:10"
+      "updated_at": "2026-06-17T18:52:48"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "شايب - أسود",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-06-17T18:52:48"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1295,21 +1310,6 @@
         }
       ],
       "created_at": "2026-06-16T21:16:46"
-    },
-    {
-      "type": 10,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 10
-        },
-        {
-          "name": "شايب - أسود",
-          "points": 9
-        }
-      ],
-      "created_at": "2026-06-16T21:14:28"
     }
   ],
   "last_daily_reset": "2026-06-17T00:01:12",
