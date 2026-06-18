@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-19T00:08:17",
   "last_reset": "2026-06-18T23:59:20",
-  "last_updated": "2026-06-19T02:00:56",
+  "last_updated": "2026-06-19T02:25:32",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-06-16T02:31:36"
     },
     "نجر": {
-      "weekly_points": 70,
-      "daily_points": 70,
-      "total_points": 883,
-      "wins": 58,
-      "participations": 86,
+      "weekly_points": 95,
+      "daily_points": 95,
+      "total_points": 908,
+      "wins": 59,
+      "participations": 87,
       "title": "ملك المقالات",
-      "last_win": "2026-06-19T02:00:56",
-      "updated_at": "2026-06-19T02:00:56"
+      "last_win": "2026-06-19T02:25:32",
+      "updated_at": "2026-06-19T02:25:32"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 125,
-      "daily_points": 120,
-      "total_points": 1194,
+      "weekly_points": 127,
+      "daily_points": 122,
+      "total_points": 1196,
       "wins": 93,
-      "participations": 166,
+      "participations": 167,
       "title": "ملك المقالات",
       "last_win": "2026-06-19T01:24:17",
-      "updated_at": "2026-06-19T02:00:56"
+      "updated_at": "2026-06-19T02:25:32"
     },
     "AizeN": {
       "weekly_points": 0,
@@ -657,6 +657,21 @@
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 25
+        },
+        {
+          "name": "كــــعبول",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-19T02:25:32"
+    },
     {
       "type": 25,
       "winner": "نجر",
@@ -1299,17 +1314,6 @@
         }
       ],
       "created_at": "2026-06-18T01:49:09"
-    },
-    {
-      "type": 10,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-18T01:45:43"
     }
   ],
   "last_daily_reset": "2026-06-19T00:08:17",
