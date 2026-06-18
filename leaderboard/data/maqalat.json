@@ -5,15 +5,15 @@
     "points": 5,
     "week_of": "2026-06-18"
   },
-  "weekly_champion_set_at": "2026-06-18T23:05:13",
+  "weekly_champion_set_at": "2026-06-18T23:09:38",
   "daily_champion": {
     "name": "ＣＰＵ ..",
     "points": 337,
     "date": "2026-06-18"
   },
   "daily_champion_set_at": "2026-06-18T01:00:56",
-  "last_reset": "2026-06-18T23:05:13",
-  "last_updated": "2026-06-18T23:05:13",
+  "last_reset": "2026-06-18T23:09:38",
+  "last_updated": "2026-06-18T23:09:38",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -447,13 +447,13 @@
     },
     "كــــعبول": {
       "weekly_points": 5,
-      "daily_points": 207,
-      "total_points": 1050,
-      "wins": 83,
-      "participations": 144,
+      "daily_points": 212,
+      "total_points": 1055,
+      "wins": 84,
+      "participations": 145,
       "title": "ملك المقالات",
-      "last_win": "2026-06-18T23:05:13",
-      "updated_at": "2026-06-18T23:05:13"
+      "last_win": "2026-06-18T23:09:38",
+      "updated_at": "2026-06-18T23:09:38"
     },
     "AizeN": {
       "weekly_points": 0,
@@ -654,19 +654,20 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-17T23:07:09",
       "updated_at": "2026-06-17T23:11:44"
-    },
-    "شايب - أسود": {
-      "weekly_points": 4,
-      "daily_points": 4,
-      "total_points": 4,
-      "wins": 0,
-      "participations": 1,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-06-18T23:05:13"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-18T23:09:38"
+    },
     {
       "type": 5,
       "winner": "كــــعبول",
@@ -1305,27 +1306,8 @@
         }
       ],
       "created_at": "2026-06-17T22:38:59"
-    },
-    {
-      "type": 10,
-      "winner": "شايب - أسود",
-      "participants": [
-        {
-          "name": "شايب - أسود",
-          "points": 10
-        },
-        {
-          "name": "نجر",
-          "points": 8
-        },
-        {
-          "name": "ＣＰＵ ..",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-06-17T22:34:12"
     }
   ],
   "last_daily_reset": "2026-06-18T01:00:56",
-  "last_weekly_reset": "2026-06-18T23:05:13"
+  "last_weekly_reset": "2026-06-18T23:09:38"
 }
