@@ -1,22 +1,22 @@
 {
   "room": "المسابقات",
   "weekly_champion": {
-    "name": "⠀⠀جـوج",
-    "points": 251,
-    "week_of": "2026-06-18"
+    "name": "How?",
+    "points": 10,
+    "week_of": "2026-06-19"
   },
-  "weekly_champion_set_at": "2026-06-18T01:27:36",
+  "weekly_champion_set_at": "2026-06-19T23:04:02",
   "daily_champion": {
     "name": "هـُـمــام",
     "points": 10,
     "date": "2026-06-19"
   },
   "daily_champion_set_at": "2026-06-19T02:02:49",
-  "last_reset": "2026-06-18T01:27:36",
-  "last_updated": "2026-06-19T22:59:54",
+  "last_reset": "2026-06-19T23:04:02",
+  "last_updated": "2026-06-19T23:04:02",
   "players": {
     "بَكـر الدُليمــــي": {
-      "weekly_points": 8,
+      "weekly_points": 0,
       "daily_points": 8,
       "total_points": 31,
       "wins": 4,
@@ -26,7 +26,7 @@
       "updated_at": "2026-06-19T03:52:09"
     },
     "How?": {
-      "weekly_points": 10,
+      "weekly_points": 0,
       "daily_points": 10,
       "total_points": 373,
       "wins": 60,
@@ -76,7 +76,7 @@
       "updated_at": "2026-05-26T14:55:37"
     },
     "Rio": {
-      "weekly_points": 10,
+      "weekly_points": 0,
       "daily_points": 10,
       "total_points": 1448,
       "wins": 148,
@@ -96,7 +96,7 @@
       "updated_at": "2026-05-26T21:20:37"
     },
     "هـُـمــام": {
-      "weekly_points": 10,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 611,
       "wins": 55,
@@ -276,7 +276,7 @@
       "updated_at": "2026-06-17T17:47:35"
     },
     "ضامي": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 5,
       "total_points": 66,
       "wins": 13,
@@ -366,7 +366,7 @@
       "updated_at": "2026-05-30T08:29:28"
     },
     "نجر": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 5,
       "total_points": 55,
       "wins": 8,
@@ -676,14 +676,14 @@
       "updated_at": "2026-06-12T01:11:48"
     },
     "⠀⠀جـوج": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 294,
+      "weekly_points": 1,
+      "daily_points": 11,
+      "total_points": 295,
       "wins": 31,
-      "participations": 35,
+      "participations": 36,
       "title": "سيد المسابقات",
       "last_win": "2026-06-19T22:43:35",
-      "updated_at": "2026-06-19T22:59:54"
+      "updated_at": "2026-06-19T23:04:02"
     },
     "Viper": {
       "weekly_points": 0,
@@ -696,7 +696,7 @@
       "updated_at": "2026-06-14T10:22:43"
     },
     "غـايب": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 5,
       "total_points": 5,
       "wins": 1,
@@ -706,17 +706,32 @@
       "updated_at": "2026-06-19T03:52:09"
     },
     "AizeN ..": {
-      "weekly_points": 9,
-      "daily_points": 9,
-      "total_points": 9,
-      "wins": 1,
-      "participations": 3,
+      "weekly_points": 5,
+      "daily_points": 14,
+      "total_points": 14,
+      "wins": 2,
+      "participations": 4,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-19T22:47:46",
-      "updated_at": "2026-06-19T22:59:54"
+      "last_win": "2026-06-19T23:04:02",
+      "updated_at": "2026-06-19T23:04:02"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "AizeN ..",
+      "participants": [
+        {
+          "name": "AizeN ..",
+          "points": 5
+        },
+        {
+          "name": "⠀⠀جـوج",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-19T23:04:02"
+    },
     {
       "type": 10,
       "winner": "How?",
@@ -1279,19 +1294,8 @@
         }
       ],
       "created_at": "2026-06-16T03:46:51"
-    },
-    {
-      "type": 5,
-      "winner": "نجر",
-      "participants": [
-        {
-          "name": "نجر",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-15T22:17:51"
     }
   ],
   "last_daily_reset": "2026-06-19T02:02:49",
-  "last_weekly_reset": "2026-06-18T01:27:36"
+  "last_weekly_reset": "2026-06-19T23:04:02"
 }
