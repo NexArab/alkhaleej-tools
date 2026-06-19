@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-19T02:02:49",
   "last_reset": "2026-06-18T01:27:36",
-  "last_updated": "2026-06-19T22:47:46",
+  "last_updated": "2026-06-19T22:59:54",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 8,
@@ -26,14 +26,14 @@
       "updated_at": "2026-06-19T03:52:09"
     },
     "How?": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 363,
-      "wins": 59,
-      "participations": 61,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 373,
+      "wins": 60,
+      "participations": 62,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-17T08:17:55",
-      "updated_at": "2026-06-17T08:17:55"
+      "last_win": "2026-06-19T22:59:54",
+      "updated_at": "2026-06-19T22:59:54"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -676,14 +676,14 @@
       "updated_at": "2026-06-12T01:11:48"
     },
     "⠀⠀جـوج": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 289,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 294,
       "wins": 31,
-      "participations": 34,
+      "participations": 35,
       "title": "سيد المسابقات",
       "last_win": "2026-06-19T22:43:35",
-      "updated_at": "2026-06-19T22:43:35"
+      "updated_at": "2026-06-19T22:59:54"
     },
     "Viper": {
       "weekly_points": 0,
@@ -706,17 +706,36 @@
       "updated_at": "2026-06-19T03:52:09"
     },
     "AizeN ..": {
-      "weekly_points": 8,
-      "daily_points": 8,
-      "total_points": 8,
+      "weekly_points": 9,
+      "daily_points": 9,
+      "total_points": 9,
       "wins": 1,
-      "participations": 2,
+      "participations": 3,
       "title": "سيد المسابقات",
       "last_win": "2026-06-19T22:47:46",
-      "updated_at": "2026-06-19T22:47:46"
+      "updated_at": "2026-06-19T22:59:54"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 10
+        },
+        {
+          "name": "⠀⠀جـوج",
+          "points": 5
+        },
+        {
+          "name": "AizeN ..",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-19T22:59:54"
+    },
     {
       "type": 5,
       "winner": "AizeN ..",
@@ -1271,17 +1290,6 @@
         }
       ],
       "created_at": "2026-06-15T22:17:51"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-15T06:20:36"
     }
   ],
   "last_daily_reset": "2026-06-19T02:02:49",
