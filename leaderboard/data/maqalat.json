@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-19T00:08:17",
   "last_reset": "2026-06-18T23:59:20",
-  "last_updated": "2026-06-19T08:01:10",
+  "last_updated": "2026-06-19T08:13:22",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 110,
-      "daily_points": 110,
-      "total_points": 1507,
-      "wins": 127,
-      "participations": 166,
+      "weekly_points": 135,
+      "daily_points": 135,
+      "total_points": 1532,
+      "wins": 128,
+      "participations": 167,
       "title": "ملك المقالات",
-      "last_win": "2026-06-19T08:01:10",
-      "updated_at": "2026-06-19T08:01:10"
+      "last_win": "2026-06-19T08:13:22",
+      "updated_at": "2026-06-19T08:13:22"
     },
     "كتب": {
       "weekly_points": 0,
@@ -656,17 +656,32 @@
       "updated_at": "2026-06-17T23:11:44"
     },
     "شايب - أسود": {
-      "weekly_points": 3,
-      "daily_points": 3,
-      "total_points": 3,
+      "weekly_points": 22,
+      "daily_points": 22,
+      "total_points": 22,
       "wins": 0,
       "participations": 1,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-19T08:01:10"
+      "updated_at": "2026-06-19T08:13:22"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 25
+        },
+        {
+          "name": "شايب - أسود",
+          "points": 22
+        }
+      ],
+      "created_at": "2026-06-19T08:13:22"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1293,17 +1308,6 @@
         }
       ],
       "created_at": "2026-06-18T22:53:00"
-    },
-    {
-      "type": 25,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 25
-        }
-      ],
-      "created_at": "2026-06-18T22:51:05"
     }
   ],
   "last_daily_reset": "2026-06-19T00:08:17",
