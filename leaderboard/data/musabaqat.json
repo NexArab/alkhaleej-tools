@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-19T02:02:49",
   "last_reset": "2026-06-18T01:27:36",
-  "last_updated": "2026-06-19T22:43:35",
+  "last_updated": "2026-06-19T22:47:46",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 8,
@@ -706,17 +706,28 @@
       "updated_at": "2026-06-19T03:52:09"
     },
     "AizeN ..": {
-      "weekly_points": 3,
-      "daily_points": 3,
-      "total_points": 3,
-      "wins": 0,
-      "participations": 1,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-06-19T22:43:35"
+      "weekly_points": 8,
+      "daily_points": 8,
+      "total_points": 8,
+      "wins": 1,
+      "participations": 2,
+      "title": "سيد المسابقات",
+      "last_win": "2026-06-19T22:47:46",
+      "updated_at": "2026-06-19T22:47:46"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "AizeN ..",
+      "participants": [
+        {
+          "name": "AizeN ..",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-19T22:47:46"
+    },
     {
       "type": 5,
       "winner": "⠀⠀جـوج",
@@ -1271,21 +1282,6 @@
         }
       ],
       "created_at": "2026-06-15T06:20:36"
-    },
-    {
-      "type": 10,
-      "winner": "شايب - أسود",
-      "participants": [
-        {
-          "name": "شايب - أسود",
-          "points": 10
-        },
-        {
-          "name": "⠀⠀جـوج",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-06-14T22:04:39"
     }
   ],
   "last_daily_reset": "2026-06-19T02:02:49",
