@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-20T00:44:04",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-20T03:23:31",
+  "last_updated": "2026-06-20T03:24:42",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -266,14 +266,14 @@
       "updated_at": "2026-05-31T12:22:30"
     },
     "How?": {
-      "weekly_points": 19,
-      "daily_points": 14,
-      "total_points": 183,
-      "wins": 22,
-      "participations": 31,
+      "weekly_points": 24,
+      "daily_points": 19,
+      "total_points": 188,
+      "wins": 23,
+      "participations": 32,
       "title": "ملك المقالات",
-      "last_win": "2026-06-20T03:23:31",
-      "updated_at": "2026-06-20T03:23:31"
+      "last_win": "2026-06-20T03:24:42",
+      "updated_at": "2026-06-20T03:24:42"
     },
     "شين باء": {
       "weekly_points": 0,
@@ -616,14 +616,14 @@
       "updated_at": "2026-06-16T22:26:28"
     },
     "غـايب": {
-      "weekly_points": 18,
-      "daily_points": 18,
-      "total_points": 121,
+      "weekly_points": 20,
+      "daily_points": 20,
+      "total_points": 123,
       "wins": 14,
-      "participations": 18,
+      "participations": 19,
       "title": "ملك المقالات",
       "last_win": "2026-06-20T03:20:32",
-      "updated_at": "2026-06-20T03:23:31"
+      "updated_at": "2026-06-20T03:24:42"
     },
     "نجر 215": {
       "weekly_points": 0,
@@ -667,6 +667,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        },
+        {
+          "name": "غـايب",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-20T03:24:42"
+    },
     {
       "type": 5,
       "winner": "How?",
@@ -1249,17 +1264,6 @@
         }
       ],
       "created_at": "2026-06-19T03:29:03"
-    },
-    {
-      "type": 5,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-19T03:26:01"
     }
   ],
   "last_daily_reset": "2026-06-20T00:44:04",
