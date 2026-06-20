@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-19T23:04:02",
   "daily_champion": {
-    "name": "⠀⠀جـوج",
-    "points": 27,
-    "date": "2026-06-20"
+    "name": "Rio",
+    "points": 10,
+    "date": "2026-06-21"
   },
-  "daily_champion_set_at": "2026-06-20T00:25:21",
+  "daily_champion_set_at": "2026-06-21T01:19:51",
   "last_reset": "2026-06-19T23:04:02",
-  "last_updated": "2026-06-20T19:53:32",
+  "last_updated": "2026-06-21T01:19:51",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -27,7 +27,7 @@
     },
     "How?": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 378,
       "wins": 61,
       "participations": 63,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-26T14:55:37"
     },
     "Rio": {
-      "weekly_points": 10,
+      "weekly_points": 20,
       "daily_points": 10,
-      "total_points": 1458,
-      "wins": 149,
-      "participations": 159,
+      "total_points": 1468,
+      "wins": 150,
+      "participations": 160,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-20T05:54:59",
-      "updated_at": "2026-06-20T05:54:59"
+      "last_win": "2026-06-21T01:19:51",
+      "updated_at": "2026-06-21T01:19:51"
     },
     "ＣＰＵ   ..": {
       "weekly_points": 0,
@@ -127,7 +127,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 87,
       "wins": 10,
       "participations": 11,
@@ -717,7 +717,7 @@
     },
     "££": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 10,
       "wins": 2,
       "participations": 2,
@@ -727,6 +727,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-21T01:19:51"
+    },
     {
       "type": 10,
       "winner": "ســاهــــر",
@@ -1309,19 +1320,8 @@
         }
       ],
       "created_at": "2026-06-16T07:09:10"
-    },
-    {
-      "type": 10,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-16T06:51:07"
     }
   ],
-  "last_daily_reset": "2026-06-20T00:25:21",
+  "last_daily_reset": "2026-06-21T01:19:51",
   "last_weekly_reset": "2026-06-19T23:04:02"
 }
