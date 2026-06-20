@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-21T00:00:08",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-21T00:44:35",
+  "last_updated": "2026-06-21T00:50:33",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 391,
-      "daily_points": 50,
-      "total_points": 1923,
-      "wins": 148,
-      "participations": 195,
+      "weekly_points": 401,
+      "daily_points": 60,
+      "total_points": 1933,
+      "wins": 149,
+      "participations": 196,
       "title": "ملك المقالات",
-      "last_win": "2026-06-21T00:44:35",
-      "updated_at": "2026-06-21T00:44:35"
+      "last_win": "2026-06-21T00:50:33",
+      "updated_at": "2026-06-21T00:50:33"
     },
     "كتب": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-06-16T02:31:36"
     },
     "نجر": {
-      "weekly_points": 150,
-      "daily_points": 95,
-      "total_points": 1058,
+      "weekly_points": 156,
+      "daily_points": 101,
+      "total_points": 1064,
       "wins": 63,
-      "participations": 96,
+      "participations": 97,
       "title": "ملك المقالات",
       "last_win": "2026-06-20T23:49:23",
-      "updated_at": "2026-06-21T00:44:35"
+      "updated_at": "2026-06-21T00:50:33"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -674,19 +674,24 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-20T16:13:51",
       "updated_at": "2026-06-20T16:13:51"
-    },
-    "شايب - أسود": {
-      "weekly_points": 1,
-      "daily_points": 1,
-      "total_points": 1,
-      "wins": 0,
-      "participations": 1,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-06-21T00:44:35"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "نجر",
+          "points": 6
+        }
+      ],
+      "created_at": "2026-06-21T00:50:33"
+    },
     {
       "type": 25,
       "winner": "ＣＰＵ ..",
@@ -1417,17 +1422,6 @@
         }
       ],
       "created_at": "2026-06-19T23:30:34"
-    },
-    {
-      "type": 10,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-19T23:28:36"
     }
   ],
   "last_daily_reset": "2026-06-21T00:00:08",
