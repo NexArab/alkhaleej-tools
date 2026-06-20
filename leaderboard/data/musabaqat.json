@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-20T00:25:21",
   "last_reset": "2026-06-19T23:04:02",
-  "last_updated": "2026-06-20T05:54:59",
+  "last_updated": "2026-06-20T19:53:32",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -126,14 +126,14 @@
       "updated_at": "2026-06-03T20:22:11"
     },
     "ســاهــــر": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 77,
-      "wins": 9,
-      "participations": 10,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 87,
+      "wins": 10,
+      "participations": 11,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-13T23:09:52",
-      "updated_at": "2026-06-13T23:09:52"
+      "last_win": "2026-06-20T19:53:32",
+      "updated_at": "2026-06-20T19:53:32"
     },
     "𝑲𝑯𝑨𝑳𝑬𝑫": {
       "weekly_points": 0,
@@ -729,6 +729,17 @@
   "matches": [
     {
       "type": 10,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-20T19:53:32"
+    },
+    {
+      "type": 10,
       "winner": "Rio",
       "participants": [
         {
@@ -1309,17 +1320,6 @@
         }
       ],
       "created_at": "2026-06-16T06:51:07"
-    },
-    {
-      "type": 10,
-      "winner": "هـُـمــام",
-      "participants": [
-        {
-          "name": "هـُـمــام",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-16T06:02:12"
     }
   ],
   "last_daily_reset": "2026-06-20T00:25:21",
