@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-20T00:44:04",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-20T21:27:07",
+  "last_updated": "2026-06-20T21:35:25",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 197,
-      "daily_points": 127,
-      "total_points": 1729,
-      "wins": 142,
-      "participations": 185,
+      "weekly_points": 207,
+      "daily_points": 137,
+      "total_points": 1739,
+      "wins": 143,
+      "participations": 186,
       "title": "ملك المقالات",
-      "last_win": "2026-06-20T21:27:07",
-      "updated_at": "2026-06-20T21:27:07"
+      "last_win": "2026-06-20T21:35:25",
+      "updated_at": "2026-06-20T21:35:25"
     },
     "كتب": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 1264,
+      "weekly_points": 30,
+      "daily_points": 30,
+      "total_points": 1269,
       "wins": 96,
-      "participations": 179,
+      "participations": 180,
       "title": "ملك المقالات",
       "last_win": "2026-06-20T20:33:37",
-      "updated_at": "2026-06-20T21:27:07"
+      "updated_at": "2026-06-20T21:35:25"
     },
     "AizeN": {
       "weekly_points": 0,
@@ -677,6 +677,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "كــــعبول",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-20T21:35:25"
+    },
     {
       "type": 25,
       "winner": "ＣＰＵ ..",
@@ -1299,17 +1314,6 @@
         }
       ],
       "created_at": "2026-06-19T11:16:51"
-    },
-    {
-      "type": 25,
-      "winner": "شايب - أسود",
-      "participants": [
-        {
-          "name": "شايب - أسود",
-          "points": 25
-        }
-      ],
-      "created_at": "2026-06-19T11:07:44"
     }
   ],
   "last_daily_reset": "2026-06-20T00:44:04",
