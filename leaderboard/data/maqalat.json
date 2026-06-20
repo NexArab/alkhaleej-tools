@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-21T00:00:08",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-21T00:50:33",
+  "last_updated": "2026-06-21T00:55:56",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 401,
-      "daily_points": 60,
-      "total_points": 1933,
-      "wins": 149,
-      "participations": 196,
+      "weekly_points": 421,
+      "daily_points": 80,
+      "total_points": 1953,
+      "wins": 150,
+      "participations": 197,
       "title": "ملك المقالات",
-      "last_win": "2026-06-21T00:50:33",
-      "updated_at": "2026-06-21T00:50:33"
+      "last_win": "2026-06-21T00:55:56",
+      "updated_at": "2026-06-21T00:55:56"
     },
     "كتب": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-06-16T02:31:36"
     },
     "نجر": {
-      "weekly_points": 156,
-      "daily_points": 101,
-      "total_points": 1064,
+      "weekly_points": 166,
+      "daily_points": 111,
+      "total_points": 1074,
       "wins": 63,
-      "participations": 97,
+      "participations": 98,
       "title": "ملك المقالات",
       "last_win": "2026-06-20T23:49:23",
-      "updated_at": "2026-06-21T00:50:33"
+      "updated_at": "2026-06-21T00:55:56"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 140,
-      "daily_points": 13,
-      "total_points": 1379,
+      "weekly_points": 141,
+      "daily_points": 14,
+      "total_points": 1380,
       "wins": 100,
-      "participations": 198,
+      "participations": 199,
       "title": "ملك المقالات",
       "last_win": "2026-06-20T23:28:08",
-      "updated_at": "2026-06-21T00:44:35"
+      "updated_at": "2026-06-21T00:55:56"
     },
     "AizeN": {
       "weekly_points": 0,
@@ -677,6 +677,25 @@
     }
   },
   "matches": [
+    {
+      "type": 20,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 20
+        },
+        {
+          "name": "نجر",
+          "points": 10
+        },
+        {
+          "name": "كــــعبول",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-21T00:55:56"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1411,17 +1430,6 @@
         }
       ],
       "created_at": "2026-06-20T00:44:04"
-    },
-    {
-      "type": 5,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-19T23:30:34"
     }
   ],
   "last_daily_reset": "2026-06-21T00:00:08",
