@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-20T04:36:50",
   "last_reset": "2026-06-19T22:31:26",
-  "last_updated": "2026-06-20T19:55:50",
+  "last_updated": "2026-06-20T21:12:37",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -296,14 +296,14 @@
       "updated_at": "2026-06-12T06:44:21"
     },
     "⠀⠀جـوج": {
-      "weekly_points": 25,
-      "daily_points": 0,
-      "total_points": 230,
-      "wins": 46,
-      "participations": 46,
+      "weekly_points": 30,
+      "daily_points": 5,
+      "total_points": 235,
+      "wins": 47,
+      "participations": 47,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-19T22:36:42",
-      "updated_at": "2026-06-19T22:36:42"
+      "last_win": "2026-06-20T21:12:37",
+      "updated_at": "2026-06-20T21:12:37"
     },
     "BkR": {
       "weekly_points": 0,
@@ -337,6 +337,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "⠀⠀جـوج",
+      "participants": [
+        {
+          "name": "⠀⠀جـوج",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-20T21:12:37"
+    },
     {
       "type": 5,
       "winner": "ســاهــــر",
@@ -875,17 +886,6 @@
         }
       ],
       "created_at": "2026-06-17T08:15:14"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-17T08:12:26"
     }
   ],
   "last_daily_reset": "2026-06-20T04:36:50",
