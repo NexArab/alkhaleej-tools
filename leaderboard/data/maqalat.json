@@ -13,17 +13,17 @@
   },
   "daily_champion_set_at": "2026-06-21T00:00:08",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-21T09:09:53",
+  "last_updated": "2026-06-21T09:13:48",
   "players": {
     "بَكـر الدُليمــــي": {
-      "weekly_points": 18,
-      "daily_points": 18,
-      "total_points": 62,
-      "wins": 3,
-      "participations": 8,
+      "weekly_points": 28,
+      "daily_points": 28,
+      "total_points": 72,
+      "wins": 4,
+      "participations": 9,
       "title": "ملك المقالات",
-      "last_win": "2026-06-21T09:09:53",
-      "updated_at": "2026-06-21T09:09:53"
+      "last_win": "2026-06-21T09:13:48",
+      "updated_at": "2026-06-21T09:13:48"
     },
     "voeuxmi": {
       "weekly_points": 0,
@@ -686,17 +686,32 @@
       "updated_at": "2026-06-21T04:28:44"
     },
     "شايب - أسود": {
-      "weekly_points": 9,
-      "daily_points": 9,
-      "total_points": 9,
+      "weekly_points": 8,
+      "daily_points": 8,
+      "total_points": 8,
       "wins": 0,
       "participations": 1,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-21T09:09:53"
+      "updated_at": "2026-06-21T09:13:48"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "بَكـر الدُليمــــي",
+      "participants": [
+        {
+          "name": "بَكـر الدُليمــــي",
+          "points": 10
+        },
+        {
+          "name": "شايب - أسود",
+          "points": 8
+        }
+      ],
+      "created_at": "2026-06-21T09:13:48"
+    },
     {
       "type": 10,
       "winner": "بَكـر الدُليمــــي",
@@ -1443,17 +1458,6 @@
         }
       ],
       "created_at": "2026-06-20T15:37:18"
-    },
-    {
-      "type": 10,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-20T15:05:29"
     }
   ],
   "last_daily_reset": "2026-06-21T00:00:08",
