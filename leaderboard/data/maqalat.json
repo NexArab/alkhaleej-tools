@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-21T00:00:08",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-21T20:33:12",
+  "last_updated": "2026-06-21T20:42:31",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 28,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 170,
-      "daily_points": 43,
-      "total_points": 1409,
-      "wins": 102,
-      "participations": 206,
+      "weekly_points": 180,
+      "daily_points": 53,
+      "total_points": 1419,
+      "wins": 103,
+      "participations": 207,
       "title": "ملك المقالات",
-      "last_win": "2026-06-21T20:09:16",
-      "updated_at": "2026-06-21T20:33:12"
+      "last_win": "2026-06-21T20:42:31",
+      "updated_at": "2026-06-21T20:42:31"
     },
     "AizeN": {
       "weekly_points": 0,
@@ -706,17 +706,32 @@
       "updated_at": "2026-06-21T17:20:53"
     },
     "شايب - أسمـر": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 25,
-      "wins": 1,
+      "weekly_points": 2,
+      "daily_points": 2,
+      "total_points": 2,
+      "wins": 0,
       "participations": 1,
-      "title": "ملك المقالات",
-      "last_win": "2026-06-21T20:33:12",
-      "updated_at": "2026-06-21T20:33:12"
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-21T20:42:31"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 10
+        },
+        {
+          "name": "شايب - أسمـر",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-21T20:42:31"
+    },
     {
       "type": 25,
       "winner": "شايب - أسمـر",
@@ -1407,25 +1422,6 @@
         }
       ],
       "created_at": "2026-06-20T22:49:29"
-    },
-    {
-      "type": 25,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 25
-        },
-        {
-          "name": "شايب - أسود",
-          "points": 10
-        },
-        {
-          "name": "كــــعبول",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-06-20T22:35:48"
     }
   ],
   "last_daily_reset": "2026-06-21T00:00:08",
