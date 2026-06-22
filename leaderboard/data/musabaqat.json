@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-19T23:04:02",
   "daily_champion": {
-    "name": "How?",
-    "points": 40,
-    "date": "2026-06-22"
+    "name": "AizeN ..",
+    "points": 18,
+    "date": "2026-06-23"
   },
-  "daily_champion_set_at": "2026-06-22T00:31:25",
+  "daily_champion_set_at": "2026-06-23T00:10:40",
   "last_reset": "2026-06-19T23:04:02",
-  "last_updated": "2026-06-22T22:37:39",
+  "last_updated": "2026-06-23T00:10:40",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "Rio": {
       "weekly_points": 53,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 1501,
       "wins": 153,
       "participations": 164,
@@ -677,7 +677,7 @@
     },
     "⠀⠀جـوج": {
       "weekly_points": 32,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 326,
       "wins": 35,
       "participations": 41,
@@ -707,7 +707,7 @@
     },
     "AizeN ..": {
       "weekly_points": 29,
-      "daily_points": 18,
+      "daily_points": 0,
       "total_points": 38,
       "wins": 5,
       "participations": 11,
@@ -726,27 +726,52 @@
       "updated_at": "2026-06-20T00:29:47"
     },
     ".. بَشيِر،إليُوسفِي۶.": {
-      "weekly_points": 11,
-      "daily_points": 11,
-      "total_points": 11,
-      "wins": 1,
-      "participations": 3,
+      "weekly_points": 16,
+      "daily_points": 5,
+      "total_points": 16,
+      "wins": 2,
+      "participations": 4,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-22T00:41:22",
-      "updated_at": "2026-06-22T03:17:17"
+      "last_win": "2026-06-23T00:10:40",
+      "updated_at": "2026-06-23T00:10:40"
     },
     "توة": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
       "title": "سيد المسابقات",
       "last_win": "2026-06-22T03:17:17",
       "updated_at": "2026-06-22T03:17:17"
+    },
+    "ck": {
+      "weekly_points": 2,
+      "daily_points": 2,
+      "total_points": 2,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-23T00:10:40"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": ".. بَشيِر،إليُوسفِي۶.",
+      "participants": [
+        {
+          "name": ".. بَشيِر،إليُوسفِي۶.",
+          "points": 5
+        },
+        {
+          "name": "ck",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-23T00:10:40"
+    },
     {
       "type": 5,
       "winner": "AizeN ..",
@@ -1345,19 +1370,8 @@
         }
       ],
       "created_at": "2026-06-17T16:22:16"
-    },
-    {
-      "type": 10,
-      "winner": "⠀⠀جـوج",
-      "participants": [
-        {
-          "name": "⠀⠀جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-17T16:16:15"
     }
   ],
-  "last_daily_reset": "2026-06-22T00:31:25",
+  "last_daily_reset": "2026-06-23T00:10:40",
   "last_weekly_reset": "2026-06-19T23:04:02"
 }
