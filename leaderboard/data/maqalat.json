@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-22T00:59:20",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-22T18:19:15",
+  "last_updated": "2026-06-22T18:27:49",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 28,
@@ -616,14 +616,14 @@
       "updated_at": "2026-06-16T22:26:28"
     },
     "غـايب": {
-      "weekly_points": 106,
-      "daily_points": 2,
-      "total_points": 209,
+      "weekly_points": 107,
+      "daily_points": 3,
+      "total_points": 210,
       "wins": 24,
-      "participations": 33,
+      "participations": 34,
       "title": "ملك المقالات",
       "last_win": "2026-06-21T14:48:27",
-      "updated_at": "2026-06-22T18:19:15"
+      "updated_at": "2026-06-22T18:27:49"
     },
     "نجر 215": {
       "weekly_points": 0,
@@ -715,16 +715,6 @@
       "last_win": "2026-06-22T00:59:20",
       "updated_at": "2026-06-22T00:59:20"
     },
-    "شايب - أسمـر": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 25,
-      "wins": 1,
-      "participations": 1,
-      "title": "ملك المقالات",
-      "last_win": "2026-06-22T18:19:15",
-      "updated_at": "2026-06-22T18:19:15"
-    },
     "ＣＰＵ    ..": {
       "weekly_points": 23,
       "daily_points": 23,
@@ -734,9 +724,34 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-06-22T18:19:15"
+    },
+    "شايب - أسمـر": {
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 25,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-06-22T18:27:49",
+      "updated_at": "2026-06-22T18:27:49"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "شايب - أسمـر",
+      "participants": [
+        {
+          "name": "شايب - أسمـر",
+          "points": 25
+        },
+        {
+          "name": "غـايب",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-22T18:27:49"
+    },
     {
       "type": 25,
       "winner": "شايب - أسمـر",
@@ -1383,17 +1398,6 @@
         }
       ],
       "created_at": "2026-06-21T04:28:44"
-    },
-    {
-      "type": 5,
-      "winner": "of",
-      "participants": [
-        {
-          "name": "of",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-21T04:27:10"
     }
   ],
   "last_daily_reset": "2026-06-22T00:59:20",
