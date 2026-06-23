@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-23T04:02:04",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-23T20:43:23",
+  "last_updated": "2026-06-23T20:47:00",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 28,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 747,
-      "daily_points": 25,
-      "total_points": 2279,
-      "wins": 173,
-      "participations": 224,
+      "weekly_points": 757,
+      "daily_points": 35,
+      "total_points": 2289,
+      "wins": 174,
+      "participations": 225,
       "title": "ملك المقالات",
-      "last_win": "2026-06-23T20:43:23",
-      "updated_at": "2026-06-23T20:43:23"
+      "last_win": "2026-06-23T20:47:00",
+      "updated_at": "2026-06-23T20:47:00"
     },
     "كتب": {
       "weekly_points": 0,
@@ -756,17 +756,32 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 4,
-      "daily_points": 4,
-      "total_points": 4,
+      "weekly_points": 8,
+      "daily_points": 8,
+      "total_points": 8,
       "wins": 0,
-      "participations": 1,
+      "participations": 2,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-23T20:43:23"
+      "updated_at": "2026-06-23T20:47:00"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "D E F",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-06-23T20:47:00"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1449,17 +1464,6 @@
         }
       ],
       "created_at": "2026-06-22T04:00:57"
-    },
-    {
-      "type": 10,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-22T03:55:44"
     }
   ],
   "last_daily_reset": "2026-06-23T04:02:04",
