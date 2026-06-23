@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-19T23:04:02",
   "daily_champion": {
-    "name": "AizeN ..",
-    "points": 18,
-    "date": "2026-06-23"
+    "name": "Rio",
+    "points": 30,
+    "date": "2026-06-24"
   },
-  "daily_champion_set_at": "2026-06-23T00:10:40",
+  "daily_champion_set_at": "2026-06-24T00:16:07",
   "last_reset": "2026-06-19T23:04:02",
-  "last_updated": "2026-06-23T19:45:24",
+  "last_updated": "2026-06-24T00:16:07",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -27,7 +27,7 @@
     },
     "How?": {
       "weekly_points": 55,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 428,
       "wins": 70,
       "participations": 72,
@@ -77,7 +77,7 @@
     },
     "Rio": {
       "weekly_points": 83,
-      "daily_points": 30,
+      "daily_points": 0,
       "total_points": 1531,
       "wins": 156,
       "participations": 167,
@@ -617,7 +617,7 @@
     },
     "كــــعبول": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 120,
       "wins": 13,
       "participations": 19,
@@ -707,7 +707,7 @@
     },
     "AizeN ..": {
       "weekly_points": 32,
-      "daily_points": 3,
+      "daily_points": 0,
       "total_points": 41,
       "wins": 5,
       "participations": 12,
@@ -726,14 +726,14 @@
       "updated_at": "2026-06-20T00:29:47"
     },
     ".. بَشيِر،إليُوسفِي۶.": {
-      "weekly_points": 21,
+      "weekly_points": 31,
       "daily_points": 10,
-      "total_points": 21,
-      "wins": 3,
-      "participations": 5,
+      "total_points": 31,
+      "wins": 4,
+      "participations": 6,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-23T01:04:50",
-      "updated_at": "2026-06-23T01:04:50"
+      "last_win": "2026-06-24T00:16:07",
+      "updated_at": "2026-06-24T00:16:07"
     },
     "توة": {
       "weekly_points": 5,
@@ -747,7 +747,7 @@
     },
     "ck": {
       "weekly_points": 2,
-      "daily_points": 2,
+      "daily_points": 0,
       "total_points": 2,
       "wins": 0,
       "participations": 1,
@@ -757,7 +757,7 @@
     },
     "الخليج": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -767,16 +767,41 @@
     },
     "Def": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
       "title": "سيد المسابقات",
       "last_win": "2026-06-23T19:45:24",
       "updated_at": "2026-06-23T19:45:24"
+    },
+    "-  أحدهم  ..": {
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 1,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-24T00:16:07"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": ".. بَشيِر،إليُوسفِي۶.",
+      "participants": [
+        {
+          "name": ".. بَشيِر،إليُوسفِي۶.",
+          "points": 10
+        },
+        {
+          "name": "-  أحدهم  ..",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-24T00:16:07"
+    },
     {
       "type": 5,
       "winner": "Def",
@@ -1379,23 +1404,8 @@
         }
       ],
       "created_at": "2026-06-17T21:21:32"
-    },
-    {
-      "type": 10,
-      "winner": "نــــايــــف",
-      "participants": [
-        {
-          "name": "نــــايــــف",
-          "points": 10
-        },
-        {
-          "name": "⠀⠀جـوج",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-06-17T21:19:57"
     }
   ],
-  "last_daily_reset": "2026-06-23T00:10:40",
+  "last_daily_reset": "2026-06-24T00:16:07",
   "last_weekly_reset": "2026-06-19T23:04:02"
 }
