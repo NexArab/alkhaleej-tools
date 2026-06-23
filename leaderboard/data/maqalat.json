@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-23T04:02:04",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-23T04:07:20",
+  "last_updated": "2026-06-23T07:01:43",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 28,
@@ -126,14 +126,14 @@
       "updated_at": "2026-05-26T14:57:23"
     },
     "Rio": {
-      "weekly_points": 25,
-      "daily_points": 0,
-      "total_points": 156,
-      "wins": 30,
-      "participations": 31,
+      "weekly_points": 30,
+      "daily_points": 5,
+      "total_points": 161,
+      "wins": 31,
+      "participations": 32,
       "title": "ملك المقالات",
-      "last_win": "2026-06-22T04:02:50",
-      "updated_at": "2026-06-22T04:02:50"
+      "last_win": "2026-06-23T07:01:43",
+      "updated_at": "2026-06-23T07:01:43"
     },
     "ضامي": {
       "weekly_points": 0,
@@ -747,6 +747,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-23T07:01:43"
+    },
     {
       "type": 5,
       "winner": "نجر",
@@ -1457,17 +1468,6 @@
         }
       ],
       "created_at": "2026-06-21T20:18:08"
-    },
-    {
-      "type": 10,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-21T20:09:16"
     }
   ],
   "last_daily_reset": "2026-06-23T04:02:04",
