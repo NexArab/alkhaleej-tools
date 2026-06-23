@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-24T00:00:19",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-24T02:06:01",
+  "last_updated": "2026-06-24T02:08:45",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 28,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 1004,
-      "daily_points": 50,
-      "total_points": 2536,
-      "wins": 192,
-      "participations": 254,
+      "weekly_points": 1014,
+      "daily_points": 60,
+      "total_points": 2546,
+      "wins": 193,
+      "participations": 255,
       "title": "ملك المقالات",
-      "last_win": "2026-06-24T02:03:02",
-      "updated_at": "2026-06-24T02:06:01"
+      "last_win": "2026-06-24T02:08:45",
+      "updated_at": "2026-06-24T02:08:45"
     },
     "كتب": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-06-24T01:55:00"
     },
     "نجر": {
-      "weekly_points": 326,
-      "daily_points": 140,
-      "total_points": 1234,
+      "weekly_points": 327,
+      "daily_points": 141,
+      "total_points": 1235,
       "wins": 72,
-      "participations": 117,
+      "participations": 118,
       "title": "ملك المقالات",
       "last_win": "2026-06-24T02:06:01",
-      "updated_at": "2026-06-24T02:06:01"
+      "updated_at": "2026-06-24T02:08:45"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -767,6 +767,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "نجر",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-24T02:08:45"
+    },
     {
       "type": 10,
       "winner": "نجر",
@@ -1585,21 +1600,6 @@
         }
       ],
       "created_at": "2026-06-23T20:49:06"
-    },
-    {
-      "type": 10,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 10
-        },
-        {
-          "name": "D E F",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-06-23T20:47:00"
     }
   ],
   "last_daily_reset": "2026-06-24T00:00:19",
