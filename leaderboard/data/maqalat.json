@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-23T04:02:04",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-23T22:48:10",
+  "last_updated": "2026-06-23T22:53:28",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 28,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 909,
-      "daily_points": 187,
-      "total_points": 2441,
-      "wins": 185,
-      "participations": 241,
+      "weekly_points": 929,
+      "daily_points": 207,
+      "total_points": 2461,
+      "wins": 186,
+      "participations": 242,
       "title": "ملك المقالات",
-      "last_win": "2026-06-23T22:48:10",
-      "updated_at": "2026-06-23T22:48:10"
+      "last_win": "2026-06-23T22:53:28",
+      "updated_at": "2026-06-23T22:53:28"
     },
     "كتب": {
       "weekly_points": 0,
@@ -756,17 +756,32 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 58,
-      "daily_points": 58,
-      "total_points": 58,
+      "weekly_points": 66,
+      "daily_points": 66,
+      "total_points": 66,
       "wins": 2,
-      "participations": 15,
+      "participations": 16,
       "title": "ملك المقالات",
       "last_win": "2026-06-23T22:41:01",
-      "updated_at": "2026-06-23T22:48:10"
+      "updated_at": "2026-06-23T22:53:28"
     }
   },
   "matches": [
+    {
+      "type": 20,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 20
+        },
+        {
+          "name": "D E F",
+          "points": 8
+        }
+      ],
+      "created_at": "2026-06-23T22:53:28"
+    },
     {
       "type": 15,
       "winner": "ＣＰＵ ..",
@@ -1477,33 +1492,6 @@
         }
       ],
       "created_at": "2026-06-22T22:01:02"
-    },
-    {
-      "type": 25,
-      "winner": "شايب - أسمـر",
-      "participants": [
-        {
-          "name": "شايب - أسمـر",
-          "points": 25
-        },
-        {
-          "name": "moon",
-          "points": 14
-        },
-        {
-          "name": "ＣＰＵ ..",
-          "points": 9
-        },
-        {
-          "name": "ســاهــــر",
-          "points": 4
-        },
-        {
-          "name": "كــــعبول",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-06-22T21:47:07"
     }
   ],
   "last_daily_reset": "2026-06-23T04:02:04",
