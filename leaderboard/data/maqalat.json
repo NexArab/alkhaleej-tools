@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-24T00:00:19",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-24T01:46:09",
+  "last_updated": "2026-06-24T01:48:21",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 28,
@@ -306,24 +306,24 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 90,
-      "daily_points": 80,
-      "total_points": 187,
-      "wins": 11,
-      "participations": 15,
+      "weekly_points": 95,
+      "daily_points": 85,
+      "total_points": 192,
+      "wins": 12,
+      "participations": 16,
       "title": "ملك المقالات",
-      "last_win": "2026-06-24T01:46:09",
-      "updated_at": "2026-06-24T01:46:09"
+      "last_win": "2026-06-24T01:48:21",
+      "updated_at": "2026-06-24T01:48:21"
     },
     "نجر": {
-      "weekly_points": 299,
-      "daily_points": 113,
-      "total_points": 1207,
+      "weekly_points": 302,
+      "daily_points": 116,
+      "total_points": 1210,
       "wins": 71,
-      "participations": 112,
+      "participations": 113,
       "title": "ملك المقالات",
       "last_win": "2026-06-24T01:05:15",
-      "updated_at": "2026-06-24T01:46:09"
+      "updated_at": "2026-06-24T01:48:21"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -767,6 +767,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 5
+        },
+        {
+          "name": "نجر",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-06-24T01:48:21"
+    },
     {
       "type": 10,
       "winner": "أدرينالين",
@@ -1577,17 +1592,6 @@
         }
       ],
       "created_at": "2026-06-23T19:52:29"
-    },
-    {
-      "type": 10,
-      "winner": "Def",
-      "participants": [
-        {
-          "name": "Def",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-23T19:51:30"
     }
   ],
   "last_daily_reset": "2026-06-24T00:00:19",
