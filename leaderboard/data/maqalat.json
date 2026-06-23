@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-24T00:00:19",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-24T01:40:10",
+  "last_updated": "2026-06-24T01:46:09",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 28,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 965,
-      "daily_points": 11,
-      "total_points": 2497,
+      "weekly_points": 972,
+      "daily_points": 18,
+      "total_points": 2504,
       "wins": 190,
-      "participations": 248,
+      "participations": 249,
       "title": "ملك المقالات",
       "last_win": "2026-06-23T23:02:56",
-      "updated_at": "2026-06-24T01:40:10"
+      "updated_at": "2026-06-24T01:46:09"
     },
     "كتب": {
       "weekly_points": 0,
@@ -306,24 +306,24 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 80,
-      "daily_points": 70,
-      "total_points": 177,
-      "wins": 10,
-      "participations": 14,
+      "weekly_points": 90,
+      "daily_points": 80,
+      "total_points": 187,
+      "wins": 11,
+      "participations": 15,
       "title": "ملك المقالات",
-      "last_win": "2026-06-24T01:40:10",
-      "updated_at": "2026-06-24T01:40:10"
+      "last_win": "2026-06-24T01:46:09",
+      "updated_at": "2026-06-24T01:46:09"
     },
     "نجر": {
-      "weekly_points": 293,
-      "daily_points": 107,
-      "total_points": 1201,
+      "weekly_points": 299,
+      "daily_points": 113,
+      "total_points": 1207,
       "wins": 71,
-      "participations": 111,
+      "participations": 112,
       "title": "ملك المقالات",
       "last_win": "2026-06-24T01:05:15",
-      "updated_at": "2026-06-24T01:40:10"
+      "updated_at": "2026-06-24T01:46:09"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 422,
-      "daily_points": 39,
-      "total_points": 1661,
+      "weekly_points": 424,
+      "daily_points": 41,
+      "total_points": 1663,
       "wins": 115,
-      "participations": 245,
+      "participations": 246,
       "title": "ملك المقالات",
       "last_win": "2026-06-24T00:31:28",
-      "updated_at": "2026-06-24T01:05:15"
+      "updated_at": "2026-06-24T01:46:09"
     },
     "AizeN": {
       "weekly_points": 0,
@@ -767,6 +767,29 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 10
+        },
+        {
+          "name": "ＣＰＵ ..",
+          "points": 7
+        },
+        {
+          "name": "نجر",
+          "points": 6
+        },
+        {
+          "name": "كــــعبول",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-24T01:46:09"
+    },
     {
       "type": 20,
       "winner": "أدرينالين",
@@ -1565,17 +1588,6 @@
         }
       ],
       "created_at": "2026-06-23T19:51:30"
-    },
-    {
-      "type": 5,
-      "winner": "Def",
-      "participants": [
-        {
-          "name": "Def",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-23T19:49:12"
     }
   ],
   "last_daily_reset": "2026-06-24T00:00:19",
