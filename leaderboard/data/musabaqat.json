@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-23T00:10:40",
   "last_reset": "2026-06-19T23:04:02",
-  "last_updated": "2026-06-23T17:04:39",
+  "last_updated": "2026-06-23T19:45:24",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -764,9 +764,30 @@
       "title": "سيد المسابقات",
       "last_win": "2026-06-23T09:57:18",
       "updated_at": "2026-06-23T09:57:18"
+    },
+    "Def": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-06-23T19:45:24",
+      "updated_at": "2026-06-23T19:45:24"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Def",
+      "participants": [
+        {
+          "name": "Def",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-23T19:45:24"
+    },
     {
       "type": 10,
       "winner": "كــــعبول",
@@ -1373,17 +1394,6 @@
         }
       ],
       "created_at": "2026-06-17T21:19:57"
-    },
-    {
-      "type": 10,
-      "winner": "⠀⠀جـوج",
-      "participants": [
-        {
-          "name": "⠀⠀جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-17T19:13:10"
     }
   ],
   "last_daily_reset": "2026-06-23T00:10:40",
