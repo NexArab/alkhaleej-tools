@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-23T00:10:40",
   "last_reset": "2026-06-19T23:04:02",
-  "last_updated": "2026-06-23T07:09:42",
+  "last_updated": "2026-06-23T09:57:18",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -754,9 +754,30 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-06-23T00:10:40"
+    },
+    "الخليج": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-06-23T09:57:18",
+      "updated_at": "2026-06-23T09:57:18"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "الخليج",
+      "participants": [
+        {
+          "name": "الخليج",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-23T09:57:18"
+    },
     {
       "type": 10,
       "winner": "Rio",
@@ -1363,17 +1384,6 @@
         }
       ],
       "created_at": "2026-06-17T18:51:16"
-    },
-    {
-      "type": 5,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-17T17:47:35"
     }
   ],
   "last_daily_reset": "2026-06-23T00:10:40",
