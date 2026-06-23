@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-23T04:02:04",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-23T20:49:06",
+  "last_updated": "2026-06-23T20:51:50",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 28,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 767,
-      "daily_points": 45,
-      "total_points": 2299,
-      "wins": 175,
-      "participations": 226,
+      "weekly_points": 777,
+      "daily_points": 55,
+      "total_points": 2309,
+      "wins": 176,
+      "participations": 227,
       "title": "ملك المقالات",
-      "last_win": "2026-06-23T20:49:06",
-      "updated_at": "2026-06-23T20:49:06"
+      "last_win": "2026-06-23T20:51:50",
+      "updated_at": "2026-06-23T20:51:50"
     },
     "كتب": {
       "weekly_points": 0,
@@ -756,17 +756,32 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 11,
-      "daily_points": 11,
-      "total_points": 11,
+      "weekly_points": 15,
+      "daily_points": 15,
+      "total_points": 15,
       "wins": 0,
-      "participations": 3,
+      "participations": 4,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-23T20:49:06"
+      "updated_at": "2026-06-23T20:51:50"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "D E F",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-06-23T20:51:50"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1457,17 +1472,6 @@
         }
       ],
       "created_at": "2026-06-22T06:57:04"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-22T04:02:50"
     }
   ],
   "last_daily_reset": "2026-06-23T04:02:04",
