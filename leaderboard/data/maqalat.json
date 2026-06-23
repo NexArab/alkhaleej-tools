@@ -8,12 +8,12 @@
   "weekly_champion_set_at": "2026-06-19T23:01:37",
   "daily_champion": {
     "name": "ＣＰＵ ..",
-    "points": 161,
-    "date": "2026-06-23"
+    "points": 232,
+    "date": "2026-06-24"
   },
-  "daily_champion_set_at": "2026-06-23T04:02:04",
+  "daily_champion_set_at": "2026-06-24T00:00:19",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-23T23:43:12",
+  "last_updated": "2026-06-24T00:00:19",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 28,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 174,
-      "daily_points": 62,
+      "daily_points": 0,
       "total_points": 1001,
       "wins": 76,
       "participations": 96,
@@ -127,7 +127,7 @@
     },
     "Rio": {
       "weekly_points": 40,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 171,
       "wins": 33,
       "participations": 34,
@@ -177,7 +177,7 @@
     },
     "ＣＰＵ ..": {
       "weekly_points": 954,
-      "daily_points": 232,
+      "daily_points": 0,
       "total_points": 2486,
       "wins": 190,
       "participations": 246,
@@ -317,7 +317,7 @@
     },
     "نجر": {
       "weekly_points": 186,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 1094,
       "wins": 67,
       "participations": 102,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 383,
-      "daily_points": 95,
-      "total_points": 1622,
-      "wins": 112,
-      "participations": 238,
+      "weekly_points": 388,
+      "daily_points": 5,
+      "total_points": 1627,
+      "wins": 113,
+      "participations": 239,
       "title": "ملك المقالات",
-      "last_win": "2026-06-23T23:18:31",
-      "updated_at": "2026-06-23T23:37:44"
+      "last_win": "2026-06-24T00:00:19",
+      "updated_at": "2026-06-24T00:00:19"
     },
     "AizeN": {
       "weekly_points": 0,
@@ -497,7 +497,7 @@
     },
     "AizeN ..": {
       "weekly_points": 47,
-      "daily_points": 31,
+      "daily_points": 0,
       "total_points": 138,
       "wins": 8,
       "participations": 26,
@@ -617,7 +617,7 @@
     },
     "غـايب": {
       "weekly_points": 142,
-      "daily_points": 35,
+      "daily_points": 0,
       "total_points": 245,
       "wins": 28,
       "participations": 43,
@@ -747,7 +747,7 @@
     },
     "Def": {
       "weekly_points": 44,
-      "daily_points": 44,
+      "daily_points": 0,
       "total_points": 44,
       "wins": 5,
       "participations": 6,
@@ -757,7 +757,7 @@
     },
     "D E F": {
       "weekly_points": 75,
-      "daily_points": 75,
+      "daily_points": 0,
       "total_points": 75,
       "wins": 2,
       "participations": 20,
@@ -767,6 +767,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-24T00:00:19"
+    },
     {
       "type": 5,
       "winner": "ســاهــــر",
@@ -1493,19 +1504,8 @@
         }
       ],
       "created_at": "2026-06-23T07:03:55"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-23T07:01:43"
     }
   ],
-  "last_daily_reset": "2026-06-23T04:02:04",
+  "last_daily_reset": "2026-06-24T00:00:19",
   "last_weekly_reset": "2026-06-19T23:01:37"
 }
