@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-24T00:00:19",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-24T22:44:34",
+  "last_updated": "2026-06-24T22:48:41",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 28,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 1135,
-      "daily_points": 181,
-      "total_points": 2667,
-      "wins": 201,
-      "participations": 266,
+      "weekly_points": 1145,
+      "daily_points": 191,
+      "total_points": 2677,
+      "wins": 202,
+      "participations": 267,
       "title": "ملك المقالات",
-      "last_win": "2026-06-24T22:44:34",
-      "updated_at": "2026-06-24T22:44:34"
+      "last_win": "2026-06-24T22:48:41",
+      "updated_at": "2026-06-24T22:48:41"
     },
     "كتب": {
       "weekly_points": 0,
@@ -776,17 +776,32 @@
       "updated_at": "2026-06-24T21:11:06"
     },
     "شايب - أسمـر": {
-      "weekly_points": 8,
-      "daily_points": 8,
-      "total_points": 8,
+      "weekly_points": 7,
+      "daily_points": 7,
+      "total_points": 7,
       "wins": 0,
       "participations": 1,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-24T22:44:34"
+      "updated_at": "2026-06-24T22:48:41"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "شايب - أسمـر",
+          "points": 7
+        }
+      ],
+      "created_at": "2026-06-24T22:48:41"
+    },
     {
       "type": 25,
       "winner": "ＣＰＵ ..",
@@ -1437,17 +1452,6 @@
         }
       ],
       "created_at": "2026-06-24T03:35:07"
-    },
-    {
-      "type": 10,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-24T03:32:36"
     }
   ],
   "last_daily_reset": "2026-06-24T00:00:19",
