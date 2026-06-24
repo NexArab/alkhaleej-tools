@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-24T00:00:19",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-24T12:19:45",
+  "last_updated": "2026-06-24T12:21:32",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 28,
@@ -616,14 +616,14 @@
       "updated_at": "2026-06-16T22:26:28"
     },
     "غـايب": {
-      "weekly_points": 172,
-      "daily_points": 30,
-      "total_points": 275,
-      "wins": 32,
-      "participations": 47,
+      "weekly_points": 177,
+      "daily_points": 35,
+      "total_points": 280,
+      "wins": 33,
+      "participations": 48,
       "title": "ملك المقالات",
-      "last_win": "2026-06-24T12:19:45",
-      "updated_at": "2026-06-24T12:19:45"
+      "last_win": "2026-06-24T12:21:32",
+      "updated_at": "2026-06-24T12:21:32"
     },
     "نجر 215": {
       "weekly_points": 0,
@@ -686,14 +686,14 @@
       "updated_at": "2026-06-22T06:57:04"
     },
     "ضلينا": {
-      "weekly_points": 16,
-      "daily_points": 8,
-      "total_points": 16,
+      "weekly_points": 17,
+      "daily_points": 9,
+      "total_points": 17,
       "wins": 2,
-      "participations": 7,
+      "participations": 8,
       "title": "ملك المقالات",
       "last_win": "2026-06-24T12:08:38",
-      "updated_at": "2026-06-24T12:19:45"
+      "updated_at": "2026-06-24T12:21:32"
     },
     "برقوق": {
       "weekly_points": 5,
@@ -767,6 +767,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "غـايب",
+      "participants": [
+        {
+          "name": "غـايب",
+          "points": 5
+        },
+        {
+          "name": "ضلينا",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-24T12:21:32"
+    },
     {
       "type": 5,
       "winner": "غـايب",
@@ -1409,25 +1424,6 @@
         }
       ],
       "created_at": "2026-06-24T01:21:42"
-    },
-    {
-      "type": 10,
-      "winner": "أدرينالين",
-      "participants": [
-        {
-          "name": "أدرينالين",
-          "points": 10
-        },
-        {
-          "name": "نجر",
-          "points": 4
-        },
-        {
-          "name": "D E F",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-06-24T01:16:34"
     }
   ],
   "last_daily_reset": "2026-06-24T00:00:19",
