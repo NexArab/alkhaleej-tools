@@ -8,12 +8,12 @@
   "weekly_champion_set_at": "2026-06-19T22:31:26",
   "daily_champion": {
     "name": "Rio",
-    "points": 25,
-    "date": "2026-06-23"
+    "points": 65,
+    "date": "2026-06-24"
   },
-  "daily_champion_set_at": "2026-06-23T02:22:50",
+  "daily_champion_set_at": "2026-06-24T19:35:39",
   "last_reset": "2026-06-19T22:31:26",
-  "last_updated": "2026-06-23T17:10:37",
+  "last_updated": "2026-06-24T19:35:39",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -27,7 +27,7 @@
     },
     "Rio": {
       "weekly_points": 155,
-      "daily_points": 65,
+      "daily_points": 0,
       "total_points": 1849,
       "wins": 361,
       "participations": 379,
@@ -296,14 +296,14 @@
       "updated_at": "2026-06-12T06:44:21"
     },
     "⠀⠀جـوج": {
-      "weekly_points": 35,
-      "daily_points": 0,
-      "total_points": 240,
-      "wins": 48,
-      "participations": 48,
+      "weekly_points": 40,
+      "daily_points": 5,
+      "total_points": 245,
+      "wins": 49,
+      "participations": 49,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-22T11:13:03",
-      "updated_at": "2026-06-22T11:13:03"
+      "last_win": "2026-06-24T19:35:39",
+      "updated_at": "2026-06-24T19:35:39"
     },
     "BkR": {
       "weekly_points": 0,
@@ -347,7 +347,7 @@
     },
     "كــــعبول": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -357,6 +357,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "⠀⠀جـوج",
+      "participants": [
+        {
+          "name": "⠀⠀جـوج",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-24T19:35:39"
+    },
     {
       "type": 5,
       "winner": "كــــعبول",
@@ -903,19 +914,8 @@
         }
       ],
       "created_at": "2026-06-17T14:55:06"
-    },
-    {
-      "type": 5,
-      "winner": "⠀⠀جـوج",
-      "participants": [
-        {
-          "name": "⠀⠀جـوج",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-17T14:39:25"
     }
   ],
-  "last_daily_reset": "2026-06-23T02:22:50",
+  "last_daily_reset": "2026-06-24T19:35:39",
   "last_weekly_reset": "2026-06-19T22:31:26"
 }
