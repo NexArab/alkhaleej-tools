@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-24T00:00:19",
   "last_reset": "2026-06-19T23:01:37",
-  "last_updated": "2026-06-24T22:34:41",
+  "last_updated": "2026-06-24T22:37:08",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 28,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 1107,
-      "daily_points": 153,
-      "total_points": 2639,
+      "weekly_points": 1110,
+      "daily_points": 156,
+      "total_points": 2642,
       "wins": 200,
-      "participations": 264,
+      "participations": 265,
       "title": "ملك المقالات",
       "last_win": "2026-06-24T21:14:04",
-      "updated_at": "2026-06-24T22:34:41"
+      "updated_at": "2026-06-24T22:37:08"
     },
     "كتب": {
       "weekly_points": 0,
@@ -776,17 +776,32 @@
       "updated_at": "2026-06-24T21:11:06"
     },
     "شايب - أسمـر": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 25,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
       "wins": 1,
       "participations": 1,
       "title": "ملك المقالات",
-      "last_win": "2026-06-24T22:34:41",
-      "updated_at": "2026-06-24T22:34:41"
+      "last_win": "2026-06-24T22:37:08",
+      "updated_at": "2026-06-24T22:37:08"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "شايب - أسمـر",
+      "participants": [
+        {
+          "name": "شايب - أسمـر",
+          "points": 5
+        },
+        {
+          "name": "ＣＰＵ ..",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-06-24T22:37:08"
+    },
     {
       "type": 25,
       "winner": "شايب - أسمـر",
@@ -1433,17 +1448,6 @@
         }
       ],
       "created_at": "2026-06-24T03:30:24"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-24T03:25:37"
     }
   ],
   "last_daily_reset": "2026-06-24T00:00:19",
