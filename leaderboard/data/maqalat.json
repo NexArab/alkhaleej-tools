@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-25T23:34:06",
   "daily_champion": {
-    "name": "D E F",
-    "points": 251,
-    "date": "2026-06-25"
+    "name": "ＣＰＵ ..",
+    "points": 433,
+    "date": "2026-06-26"
   },
-  "daily_champion_set_at": "2026-06-25T00:02:27",
+  "daily_champion_set_at": "2026-06-26T00:56:06",
   "last_reset": "2026-06-25T23:34:06",
-  "last_updated": "2026-06-25T23:34:06",
+  "last_updated": "2026-06-26T00:56:06",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 0,
-      "daily_points": 47,
+      "daily_points": 0,
       "total_points": 1071,
       "wins": 82,
       "participations": 105,
@@ -177,7 +177,7 @@
     },
     "ＣＰＵ ..": {
       "weekly_points": 15,
-      "daily_points": 433,
+      "daily_points": 0,
       "total_points": 3167,
       "wins": 241,
       "participations": 312,
@@ -447,7 +447,7 @@
     },
     "كــــعبول": {
       "weekly_points": 2,
-      "daily_points": 172,
+      "daily_points": 0,
       "total_points": 1891,
       "wins": 128,
       "participations": 280,
@@ -497,7 +497,7 @@
     },
     "AizeN ..": {
       "weekly_points": 0,
-      "daily_points": 1,
+      "daily_points": 0,
       "total_points": 143,
       "wins": 8,
       "participations": 28,
@@ -616,14 +616,14 @@
       "updated_at": "2026-06-16T22:26:28"
     },
     "غـايب": {
-      "weekly_points": 0,
-      "daily_points": 73,
-      "total_points": 441,
-      "wins": 53,
-      "participations": 77,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 446,
+      "wins": 54,
+      "participations": 78,
       "title": "ملك المقالات",
-      "last_win": "2026-06-25T14:22:08",
-      "updated_at": "2026-06-25T14:22:08"
+      "last_win": "2026-06-26T00:56:06",
+      "updated_at": "2026-06-26T00:56:06"
     },
     "نجر 215": {
       "weekly_points": 0,
@@ -717,7 +717,7 @@
     },
     "ＣＰＵ    ..": {
       "weekly_points": 0,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 43,
       "wins": 2,
       "participations": 6,
@@ -757,7 +757,7 @@
     },
     "D E F": {
       "weekly_points": 0,
-      "daily_points": 183,
+      "daily_points": 0,
       "total_points": 509,
       "wins": 56,
       "participations": 104,
@@ -777,7 +777,7 @@
     },
     "بوحرب": {
       "weekly_points": 0,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 0,
       "participations": 3,
@@ -787,6 +787,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "غـايب",
+      "participants": [
+        {
+          "name": "غـايب",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-26T00:56:06"
+    },
     {
       "type": 15,
       "winner": "ＣＰＵ ..",
@@ -1425,23 +1436,8 @@
         }
       ],
       "created_at": "2026-06-25T05:31:07"
-    },
-    {
-      "type": 5,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 5
-        },
-        {
-          "name": "D E F",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-06-25T05:24:23"
     }
   ],
-  "last_daily_reset": "2026-06-25T00:02:27",
+  "last_daily_reset": "2026-06-26T00:56:06",
   "last_weekly_reset": "2026-06-25T23:34:06"
 }
