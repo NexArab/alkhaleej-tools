@@ -5,15 +5,15 @@
     "points": 10,
     "week_of": "2026-06-25"
   },
-  "weekly_champion_set_at": "2026-06-25T23:21:46",
+  "weekly_champion_set_at": "2026-06-25T23:24:28",
   "daily_champion": {
     "name": "D E F",
     "points": 251,
     "date": "2026-06-25"
   },
   "daily_champion_set_at": "2026-06-25T00:02:27",
-  "last_reset": "2026-06-25T23:21:46",
-  "last_updated": "2026-06-25T23:21:46",
+  "last_reset": "2026-06-25T23:24:28",
+  "last_updated": "2026-06-25T23:24:28",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 10,
-      "daily_points": 403,
-      "total_points": 3137,
-      "wins": 238,
-      "participations": 309,
+      "weekly_points": 5,
+      "daily_points": 408,
+      "total_points": 3142,
+      "wins": 239,
+      "participations": 310,
       "title": "ملك المقالات",
-      "last_win": "2026-06-25T23:21:46",
-      "updated_at": "2026-06-25T23:21:46"
+      "last_win": "2026-06-25T23:24:28",
+      "updated_at": "2026-06-25T23:24:28"
     },
     "كتب": {
       "weekly_points": 0,
@@ -446,7 +446,7 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 1,
+      "weekly_points": 0,
       "daily_points": 165,
       "total_points": 1884,
       "wins": 128,
@@ -787,6 +787,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-25T23:24:28"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1421,19 +1432,8 @@
         }
       ],
       "created_at": "2026-06-25T05:13:49"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-25T05:09:36"
     }
   ],
   "last_daily_reset": "2026-06-25T00:02:27",
-  "last_weekly_reset": "2026-06-25T23:21:46"
+  "last_weekly_reset": "2026-06-25T23:24:28"
 }
