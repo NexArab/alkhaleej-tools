@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-25T00:02:27",
   "last_reset": "2026-06-25T00:02:27",
-  "last_updated": "2026-06-25T07:29:04",
+  "last_updated": "2026-06-25T07:33:38",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 210,
-      "daily_points": 210,
-      "total_points": 2944,
-      "wins": 224,
-      "participations": 293,
+      "weekly_points": 220,
+      "daily_points": 220,
+      "total_points": 2954,
+      "wins": 225,
+      "participations": 294,
       "title": "ملك المقالات",
-      "last_win": "2026-06-25T07:25:33",
-      "updated_at": "2026-06-25T07:29:04"
+      "last_win": "2026-06-25T07:33:38",
+      "updated_at": "2026-06-25T07:33:38"
     },
     "كتب": {
       "weekly_points": 0,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 163,
-      "daily_points": 163,
-      "total_points": 489,
+      "weekly_points": 167,
+      "daily_points": 167,
+      "total_points": 493,
       "wins": 56,
-      "participations": 99,
+      "participations": 100,
       "title": "ملك المقالات",
       "last_win": "2026-06-25T07:29:04",
-      "updated_at": "2026-06-25T07:29:04"
+      "updated_at": "2026-06-25T07:33:38"
     },
     "طرب": {
       "weekly_points": 0,
@@ -787,6 +787,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "D E F",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-06-25T07:33:38"
+    },
     {
       "type": 10,
       "winner": "D E F",
@@ -1445,25 +1460,6 @@
         }
       ],
       "created_at": "2026-06-24T23:49:27"
-    },
-    {
-      "type": 15,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 15
-        },
-        {
-          "name": "كــــعبول",
-          "points": 12
-        },
-        {
-          "name": "D E F",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-06-24T23:45:14"
     }
   ],
   "last_daily_reset": "2026-06-25T00:02:27",
