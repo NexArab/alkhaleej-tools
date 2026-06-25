@@ -2,18 +2,18 @@
   "room": "المقالات",
   "weekly_champion": {
     "name": "ＣＰＵ ..",
-    "points": 25,
+    "points": 10,
     "week_of": "2026-06-25"
   },
-  "weekly_champion_set_at": "2026-06-25T23:07:51",
+  "weekly_champion_set_at": "2026-06-25T23:16:32",
   "daily_champion": {
     "name": "D E F",
     "points": 251,
     "date": "2026-06-25"
   },
   "daily_champion_set_at": "2026-06-25T00:02:27",
-  "last_reset": "2026-06-25T23:07:51",
-  "last_updated": "2026-06-25T23:07:51",
+  "last_reset": "2026-06-25T23:16:32",
+  "last_updated": "2026-06-25T23:16:32",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 10,
-      "daily_points": 363,
-      "total_points": 3097,
-      "wins": 235,
-      "participations": 306,
+      "weekly_points": 20,
+      "daily_points": 383,
+      "total_points": 3117,
+      "wins": 236,
+      "participations": 307,
       "title": "ملك المقالات",
-      "last_win": "2026-06-25T23:07:51",
-      "updated_at": "2026-06-25T23:07:51"
+      "last_win": "2026-06-25T23:16:32",
+      "updated_at": "2026-06-25T23:16:32"
     },
     "كتب": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 3,
-      "daily_points": 158,
-      "total_points": 1877,
+      "weekly_points": 6,
+      "daily_points": 164,
+      "total_points": 1883,
       "wins": 128,
-      "participations": 276,
+      "participations": 277,
       "title": "ملك المقالات",
       "last_win": "2026-06-25T22:44:08",
-      "updated_at": "2026-06-25T23:07:51"
+      "updated_at": "2026-06-25T23:16:32"
     },
     "AizeN": {
       "weekly_points": 0,
@@ -787,6 +787,21 @@
     }
   },
   "matches": [
+    {
+      "type": 20,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 20
+        },
+        {
+          "name": "كــــعبول",
+          "points": 6
+        }
+      ],
+      "created_at": "2026-06-25T23:16:32"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1413,19 +1428,8 @@
         }
       ],
       "created_at": "2026-06-25T05:06:26"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-25T05:05:20"
     }
   ],
   "last_daily_reset": "2026-06-25T00:02:27",
-  "last_weekly_reset": "2026-06-25T23:07:51"
+  "last_weekly_reset": "2026-06-25T23:16:32"
 }
