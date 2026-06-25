@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-25T00:02:27",
   "last_reset": "2026-06-25T00:02:27",
-  "last_updated": "2026-06-25T20:11:11",
+  "last_updated": "2026-06-25T20:13:29",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 94,
-      "daily_points": 94,
-      "total_points": 1813,
-      "wins": 123,
-      "participations": 267,
+      "weekly_points": 99,
+      "daily_points": 99,
+      "total_points": 1818,
+      "wins": 124,
+      "participations": 268,
       "title": "ملك المقالات",
-      "last_win": "2026-06-25T01:23:53",
-      "updated_at": "2026-06-25T20:11:11"
+      "last_win": "2026-06-25T20:13:29",
+      "updated_at": "2026-06-25T20:13:29"
     },
     "AizeN": {
       "weekly_points": 0,
@@ -786,17 +786,32 @@
       "updated_at": "2026-06-25T01:53:26"
     },
     "شايب - أسمـر": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 25,
-      "wins": 1,
+      "weekly_points": 4,
+      "daily_points": 4,
+      "total_points": 4,
+      "wins": 0,
       "participations": 1,
-      "title": "ملك المقالات",
-      "last_win": "2026-06-25T20:11:11",
-      "updated_at": "2026-06-25T20:11:11"
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-25T20:13:29"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 5
+        },
+        {
+          "name": "شايب - أسمـر",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-06-25T20:13:29"
+    },
     {
       "type": 25,
       "winner": "شايب - أسمـر",
@@ -1407,21 +1422,6 @@
         }
       ],
       "created_at": "2026-06-25T03:42:15"
-    },
-    {
-      "type": 10,
-      "winner": "ＣＰＵ    ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ    ..",
-          "points": 10
-        },
-        {
-          "name": "D E F",
-          "points": 8
-        }
-      ],
-      "created_at": "2026-06-25T03:37:37"
     }
   ],
   "last_daily_reset": "2026-06-25T00:02:27",
