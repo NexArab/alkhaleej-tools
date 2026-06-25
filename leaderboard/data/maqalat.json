@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-25T00:02:27",
   "last_reset": "2026-06-25T00:02:27",
-  "last_updated": "2026-06-25T07:16:13",
+  "last_updated": "2026-06-25T07:20:22",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 185,
-      "daily_points": 185,
-      "total_points": 2919,
+      "weekly_points": 191,
+      "daily_points": 191,
+      "total_points": 2925,
       "wins": 223,
-      "participations": 290,
+      "participations": 291,
       "title": "ملك المقالات",
       "last_win": "2026-06-25T07:16:13",
-      "updated_at": "2026-06-25T07:16:13"
+      "updated_at": "2026-06-25T07:20:22"
     },
     "كتب": {
       "weekly_points": 0,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 137,
-      "daily_points": 137,
-      "total_points": 463,
-      "wins": 54,
-      "participations": 96,
+      "weekly_points": 147,
+      "daily_points": 147,
+      "total_points": 473,
+      "wins": 55,
+      "participations": 97,
       "title": "ملك المقالات",
-      "last_win": "2026-06-25T05:13:49",
-      "updated_at": "2026-06-25T07:16:13"
+      "last_win": "2026-06-25T07:20:22",
+      "updated_at": "2026-06-25T07:20:22"
     },
     "طرب": {
       "weekly_points": 0,
@@ -787,6 +787,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 10
+        },
+        {
+          "name": "ＣＰＵ ..",
+          "points": 6
+        }
+      ],
+      "created_at": "2026-06-25T07:20:22"
+    },
     {
       "type": 5,
       "winner": "ＣＰＵ ..",
@@ -1441,21 +1456,6 @@
         }
       ],
       "created_at": "2026-06-24T23:27:26"
-    },
-    {
-      "type": 10,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 10
-        },
-        {
-          "name": "شايب - أسمـر",
-          "points": 9
-        }
-      ],
-      "created_at": "2026-06-24T23:04:03"
     }
   ],
   "last_daily_reset": "2026-06-25T00:02:27",
