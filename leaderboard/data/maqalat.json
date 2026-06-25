@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-25T00:02:27",
   "last_reset": "2026-06-25T00:02:27",
-  "last_updated": "2026-06-25T20:21:47",
+  "last_updated": "2026-06-25T20:25:37",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 272,
-      "daily_points": 272,
-      "total_points": 3006,
-      "wins": 230,
-      "participations": 300,
+      "weekly_points": 277,
+      "daily_points": 277,
+      "total_points": 3011,
+      "wins": 231,
+      "participations": 301,
       "title": "ملك المقالات",
-      "last_win": "2026-06-25T20:21:47",
-      "updated_at": "2026-06-25T20:21:47"
+      "last_win": "2026-06-25T20:25:37",
+      "updated_at": "2026-06-25T20:25:37"
     },
     "كتب": {
       "weekly_points": 0,
@@ -784,19 +784,20 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-06-25T01:53:26"
-    },
-    "شايب - أسمـر": {
-      "weekly_points": 4,
-      "daily_points": 4,
-      "total_points": 4,
-      "wins": 0,
-      "participations": 1,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-06-25T20:21:47"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-25T20:25:37"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1399,25 +1400,6 @@
         }
       ],
       "created_at": "2026-06-25T04:00:55"
-    },
-    {
-      "type": 20,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 20
-        },
-        {
-          "name": "D E F",
-          "points": 19
-        },
-        {
-          "name": "ＣＰＵ    ..",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-06-25T03:52:17"
     }
   ],
   "last_daily_reset": "2026-06-25T00:02:27",
