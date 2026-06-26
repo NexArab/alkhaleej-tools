@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-27T00:07:43",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-27T00:18:20",
+  "last_updated": "2026-06-27T00:25:28",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,24 +306,24 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 40,
-      "daily_points": 40,
-      "total_points": 379,
-      "wins": 25,
-      "participations": 30,
+      "weekly_points": 55,
+      "daily_points": 55,
+      "total_points": 394,
+      "wins": 26,
+      "participations": 31,
       "title": "ملك المقالات",
-      "last_win": "2026-06-27T00:18:20",
-      "updated_at": "2026-06-27T00:18:20"
+      "last_win": "2026-06-27T00:25:28",
+      "updated_at": "2026-06-27T00:25:28"
     },
     "نجر": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 1254,
+      "weekly_points": 15,
+      "daily_points": 15,
+      "total_points": 1264,
       "wins": 73,
-      "participations": 124,
+      "participations": 125,
       "title": "ملك المقالات",
       "last_win": "2026-06-26T03:58:41",
-      "updated_at": "2026-06-27T00:18:20"
+      "updated_at": "2026-06-27T00:25:28"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -847,6 +847,21 @@
     }
   },
   "matches": [
+    {
+      "type": 15,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 15
+        },
+        {
+          "name": "نجر",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-27T00:25:28"
+    },
     {
       "type": 10,
       "winner": "أدرينالين",
@@ -1497,17 +1512,6 @@
         }
       ],
       "created_at": "2026-06-26T10:43:10"
-    },
-    {
-      "type": 5,
-      "winner": "سوط",
-      "participants": [
-        {
-          "name": "سوط",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-26T10:39:03"
     }
   ],
   "last_daily_reset": "2026-06-27T00:07:43",
