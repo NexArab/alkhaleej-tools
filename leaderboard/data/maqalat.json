@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-26T00:56:06",
   "last_reset": "2026-06-25T23:34:06",
-  "last_updated": "2026-06-26T10:34:57",
+  "last_updated": "2026-06-26T10:37:56",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -816,17 +816,42 @@
       "updated_at": "2026-06-26T08:04:36"
     },
     "سوط": {
-      "weekly_points": 50,
-      "daily_points": 50,
-      "total_points": 50,
-      "wins": 7,
-      "participations": 7,
+      "weekly_points": 60,
+      "daily_points": 60,
+      "total_points": 60,
+      "wins": 8,
+      "participations": 8,
       "title": "ملك المقالات",
-      "last_win": "2026-06-26T10:34:57",
-      "updated_at": "2026-06-26T10:34:57"
+      "last_win": "2026-06-26T10:37:56",
+      "updated_at": "2026-06-26T10:37:56"
+    },
+    "K9": {
+      "weekly_points": 3,
+      "daily_points": 3,
+      "total_points": 3,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-26T10:37:56"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "سوط",
+      "participants": [
+        {
+          "name": "سوط",
+          "points": 10
+        },
+        {
+          "name": "K9",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-06-26T10:37:56"
+    },
     {
       "type": 10,
       "winner": "سوط",
@@ -1405,21 +1430,6 @@
         }
       ],
       "created_at": "2026-06-25T23:19:28"
-    },
-    {
-      "type": 20,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 20
-        },
-        {
-          "name": "كــــعبول",
-          "points": 6
-        }
-      ],
-      "created_at": "2026-06-25T23:16:32"
     }
   ],
   "last_daily_reset": "2026-06-26T00:56:06",
