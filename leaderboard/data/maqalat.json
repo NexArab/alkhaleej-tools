@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-26T00:56:06",
   "last_reset": "2026-06-25T23:34:06",
-  "last_updated": "2026-06-26T13:41:10",
+  "last_updated": "2026-06-26T14:44:29",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -834,9 +834,30 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-26T13:41:10",
       "updated_at": "2026-06-26T13:41:10"
+    },
+    "yIs": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-06-26T14:44:29",
+      "updated_at": "2026-06-26T14:44:29"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "yIs",
+      "participants": [
+        {
+          "name": "yIs",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-26T14:44:29"
+    },
     {
       "type": 5,
       "winner": "K9",
@@ -1415,17 +1436,6 @@
         }
       ],
       "created_at": "2026-06-26T03:53:51"
-    },
-    {
-      "type": 5,
-      "winner": "moon",
-      "participants": [
-        {
-          "name": "moon",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-26T01:33:01"
     }
   ],
   "last_daily_reset": "2026-06-26T00:56:06",
