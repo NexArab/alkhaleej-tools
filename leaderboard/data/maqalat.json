@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-26T00:56:06",
   "last_reset": "2026-06-25T23:34:06",
-  "last_updated": "2026-06-26T15:05:55",
+  "last_updated": "2026-06-26T15:16:10",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -826,14 +826,14 @@
       "updated_at": "2026-06-26T10:39:03"
     },
     "K9": {
-      "weekly_points": 48,
-      "daily_points": 48,
-      "total_points": 48,
+      "weekly_points": 54,
+      "daily_points": 54,
+      "total_points": 54,
       "wins": 7,
-      "participations": 11,
+      "participations": 12,
       "title": "ملك المقالات",
       "last_win": "2026-06-26T15:05:55",
-      "updated_at": "2026-06-26T15:05:55"
+      "updated_at": "2026-06-26T15:16:10"
     },
     "yIs": {
       "weekly_points": 28,
@@ -844,9 +844,34 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-26T14:57:10",
       "updated_at": "2026-06-26T15:01:59"
+    },
+    "شايب - أسمـر": {
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 25,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-06-26T15:16:10",
+      "updated_at": "2026-06-26T15:16:10"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "شايب - أسمـر",
+      "participants": [
+        {
+          "name": "شايب - أسمـر",
+          "points": 25
+        },
+        {
+          "name": "K9",
+          "points": 6
+        }
+      ],
+      "created_at": "2026-06-26T15:16:10"
+    },
     {
       "type": 5,
       "winner": "K9",
@@ -1429,17 +1454,6 @@
         }
       ],
       "created_at": "2026-06-26T05:53:16"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-26T05:51:52"
     }
   ],
   "last_daily_reset": "2026-06-26T00:56:06",
