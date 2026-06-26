@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-26T00:56:06",
   "last_reset": "2026-06-25T23:34:06",
-  "last_updated": "2026-06-26T14:49:45",
+  "last_updated": "2026-06-26T14:57:10",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -836,17 +836,42 @@
       "updated_at": "2026-06-26T13:41:10"
     },
     "yIs": {
-      "weekly_points": 15,
-      "daily_points": 15,
-      "total_points": 15,
-      "wins": 3,
-      "participations": 3,
+      "weekly_points": 20,
+      "daily_points": 20,
+      "total_points": 20,
+      "wins": 4,
+      "participations": 4,
       "title": "ملك المقالات",
-      "last_win": "2026-06-26T14:49:45",
-      "updated_at": "2026-06-26T14:49:45"
+      "last_win": "2026-06-26T14:57:10",
+      "updated_at": "2026-06-26T14:57:10"
+    },
+    "شايب - أسمـر": {
+      "weekly_points": 3,
+      "daily_points": 3,
+      "total_points": 3,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-26T14:57:10"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "yIs",
+      "participants": [
+        {
+          "name": "yIs",
+          "points": 5
+        },
+        {
+          "name": "شايب - أسمـر",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-06-26T14:57:10"
+    },
     {
       "type": 5,
       "winner": "yIs",
@@ -1413,21 +1438,6 @@
         }
       ],
       "created_at": "2026-06-26T04:44:06"
-    },
-    {
-      "type": 5,
-      "winner": "نجر",
-      "participants": [
-        {
-          "name": "نجر",
-          "points": 5
-        },
-        {
-          "name": "أدرينالين",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-06-26T03:58:41"
     }
   ],
   "last_daily_reset": "2026-06-26T00:56:06",
