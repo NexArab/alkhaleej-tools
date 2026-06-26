@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-26T00:56:06",
   "last_reset": "2026-06-25T23:34:06",
-  "last_updated": "2026-06-26T14:59:57",
+  "last_updated": "2026-06-26T15:01:59",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -826,24 +826,24 @@
       "updated_at": "2026-06-26T10:39:03"
     },
     "K9": {
-      "weekly_points": 41,
-      "daily_points": 41,
-      "total_points": 41,
+      "weekly_points": 43,
+      "daily_points": 43,
+      "total_points": 43,
       "wins": 6,
-      "participations": 9,
+      "participations": 10,
       "title": "ملك المقالات",
       "last_win": "2026-06-26T13:41:10",
-      "updated_at": "2026-06-26T14:59:57"
+      "updated_at": "2026-06-26T15:01:59"
     },
     "yIs": {
-      "weekly_points": 24,
-      "daily_points": 24,
-      "total_points": 24,
+      "weekly_points": 28,
+      "daily_points": 28,
+      "total_points": 28,
       "wins": 4,
-      "participations": 5,
+      "participations": 6,
       "title": "ملك المقالات",
       "last_win": "2026-06-26T14:57:10",
-      "updated_at": "2026-06-26T14:59:57"
+      "updated_at": "2026-06-26T15:01:59"
     },
     "شايب - أسمـر": {
       "weekly_points": 5,
@@ -852,11 +852,30 @@
       "wins": 1,
       "participations": 1,
       "title": "ملك المقالات",
-      "last_win": "2026-06-26T14:59:57",
-      "updated_at": "2026-06-26T14:59:57"
+      "last_win": "2026-06-26T15:01:59",
+      "updated_at": "2026-06-26T15:01:59"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "شايب - أسمـر",
+      "participants": [
+        {
+          "name": "شايب - أسمـر",
+          "points": 5
+        },
+        {
+          "name": "yIs",
+          "points": 4
+        },
+        {
+          "name": "K9",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-26T15:01:59"
+    },
     {
       "type": 5,
       "winner": "شايب - أسمـر",
@@ -1435,17 +1454,6 @@
         }
       ],
       "created_at": "2026-06-26T05:23:56"
-    },
-    {
-      "type": 10,
-      "winner": "أدرينالين",
-      "participants": [
-        {
-          "name": "أدرينالين",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-26T04:49:37"
     }
   ],
   "last_daily_reset": "2026-06-26T00:56:06",
