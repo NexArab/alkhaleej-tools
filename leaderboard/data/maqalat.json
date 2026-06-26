@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-26T00:56:06",
   "last_reset": "2026-06-25T23:34:06",
-  "last_updated": "2026-06-26T19:48:50",
+  "last_updated": "2026-06-26T19:53:00",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 27,
-      "daily_points": 25,
-      "total_points": 1916,
-      "wins": 131,
-      "participations": 283,
+      "weekly_points": 37,
+      "daily_points": 35,
+      "total_points": 1926,
+      "wins": 132,
+      "participations": 284,
       "title": "ملك المقالات",
-      "last_win": "2026-06-26T19:48:50",
-      "updated_at": "2026-06-26T19:48:50"
+      "last_win": "2026-06-26T19:53:00",
+      "updated_at": "2026-06-26T19:53:00"
     },
     "AizeN": {
       "weekly_points": 0,
@@ -844,9 +844,34 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-26T14:57:10",
       "updated_at": "2026-06-26T15:01:59"
+    },
+    "شايب - أسمـر": {
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 1,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-26T19:53:00"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 10
+        },
+        {
+          "name": "شايب - أسمـر",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-26T19:53:00"
+    },
     {
       "type": 10,
       "winner": "كــــعبول",
@@ -1453,21 +1478,6 @@
         }
       ],
       "created_at": "2026-06-26T08:02:23"
-    },
-    {
-      "type": 5,
-      "winner": "ضلينا",
-      "participants": [
-        {
-          "name": "ضلينا",
-          "points": 5
-        },
-        {
-          "name": "عقدوسوار",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-06-26T07:57:04"
     }
   ],
   "last_daily_reset": "2026-06-26T00:56:06",
