@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-26T00:56:06",
   "last_reset": "2026-06-25T23:34:06",
-  "last_updated": "2026-06-26T07:43:05",
+  "last_updated": "2026-06-26T07:53:09",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -686,14 +686,14 @@
       "updated_at": "2026-06-22T06:57:04"
     },
     "ضلينا": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 39,
-      "wins": 6,
-      "participations": 14,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 44,
+      "wins": 7,
+      "participations": 15,
       "title": "ملك المقالات",
-      "last_win": "2026-06-24T15:02:06",
-      "updated_at": "2026-06-24T15:02:06"
+      "last_win": "2026-06-26T07:53:09",
+      "updated_at": "2026-06-26T07:53:09"
     },
     "برقوق": {
       "weekly_points": 0,
@@ -797,6 +797,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ضلينا",
+      "participants": [
+        {
+          "name": "ضلينا",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-26T07:53:09"
+    },
     {
       "type": 5,
       "winner": "D E F",
@@ -1415,17 +1426,6 @@
         }
       ],
       "created_at": "2026-06-25T14:22:08"
-    },
-    {
-      "type": 5,
-      "winner": "غـايب",
-      "participants": [
-        {
-          "name": "غـايب",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-25T14:20:07"
     }
   ],
   "last_daily_reset": "2026-06-26T00:56:06",
