@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-26T03:19:18",
   "last_reset": "2026-06-25T00:12:57",
-  "last_updated": "2026-06-26T22:08:34",
+  "last_updated": "2026-06-26T22:09:58",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -706,14 +706,14 @@
       "updated_at": "2026-06-19T03:52:09"
     },
     "AizeN ..": {
-      "weekly_points": 20,
-      "daily_points": 20,
-      "total_points": 61,
-      "wins": 9,
-      "participations": 16,
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 66,
+      "wins": 10,
+      "participations": 17,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-26T22:08:34",
-      "updated_at": "2026-06-26T22:08:34"
+      "last_win": "2026-06-26T22:09:58",
+      "updated_at": "2026-06-26T22:09:58"
     },
     "££": {
       "weekly_points": 0,
@@ -817,6 +817,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "AizeN ..",
+      "participants": [
+        {
+          "name": "AizeN ..",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-26T22:09:58"
+    },
     {
       "type": 5,
       "winner": "AizeN ..",
@@ -1379,21 +1390,6 @@
         }
       ],
       "created_at": "2026-06-22T06:42:18"
-    },
-    {
-      "type": 5,
-      "winner": "توة",
-      "participants": [
-        {
-          "name": "توة",
-          "points": 5
-        },
-        {
-          "name": ".. بَشيِر،إليُوسفِي۶.",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-06-22T03:17:17"
     }
   ],
   "last_daily_reset": "2026-06-26T03:19:18",
