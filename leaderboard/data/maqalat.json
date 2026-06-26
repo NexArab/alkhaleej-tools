@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-26T00:56:06",
   "last_reset": "2026-06-25T23:34:06",
-  "last_updated": "2026-06-26T01:33:01",
+  "last_updated": "2026-06-26T03:53:51",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,24 +306,24 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 212,
-      "wins": 14,
-      "participations": 18,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 222,
+      "wins": 15,
+      "participations": 19,
       "title": "ملك المقالات",
-      "last_win": "2026-06-24T01:55:00",
-      "updated_at": "2026-06-24T01:55:00"
+      "last_win": "2026-06-26T03:53:51",
+      "updated_at": "2026-06-26T03:53:51"
     },
     "نجر": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 1235,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 1240,
       "wins": 72,
-      "participations": 118,
+      "participations": 119,
       "title": "ملك المقالات",
       "last_win": "2026-06-24T02:06:01",
-      "updated_at": "2026-06-24T02:08:45"
+      "updated_at": "2026-06-26T03:53:51"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -787,6 +787,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 10
+        },
+        {
+          "name": "نجر",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-26T03:53:51"
+    },
     {
       "type": 5,
       "winner": "moon",
@@ -1425,17 +1440,6 @@
         }
       ],
       "created_at": "2026-06-25T07:09:36"
-    },
-    {
-      "type": 10,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-25T07:08:22"
     }
   ],
   "last_daily_reset": "2026-06-26T00:56:06",
