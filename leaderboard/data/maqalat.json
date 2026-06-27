@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-27T00:07:43",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-27T04:46:18",
+  "last_updated": "2026-06-27T04:47:57",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -736,14 +736,14 @@
       "updated_at": "2026-06-22T21:23:36"
     },
     "moon": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 53,
-      "wins": 3,
-      "participations": 5,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 58,
+      "wins": 4,
+      "participations": 6,
       "title": "ملك المقالات",
-      "last_win": "2026-06-27T02:34:55",
-      "updated_at": "2026-06-27T02:34:55"
+      "last_win": "2026-06-27T04:47:57",
+      "updated_at": "2026-06-27T04:47:57"
     },
     "Def": {
       "weekly_points": 0,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 40,
-      "daily_points": 25,
-      "total_points": 644,
+      "weekly_points": 42,
+      "daily_points": 27,
+      "total_points": 646,
       "wins": 82,
-      "participations": 130,
+      "participations": 131,
       "title": "ملك المقالات",
       "last_win": "2026-06-27T04:46:18",
-      "updated_at": "2026-06-27T04:46:18"
+      "updated_at": "2026-06-27T04:47:57"
     },
     "طرب": {
       "weekly_points": 0,
@@ -847,6 +847,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "moon",
+      "participants": [
+        {
+          "name": "moon",
+          "points": 5
+        },
+        {
+          "name": "D E F",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-06-27T04:47:57"
+    },
     {
       "type": 5,
       "winner": "D E F",
@@ -1497,17 +1512,6 @@
         }
       ],
       "created_at": "2026-06-26T15:16:10"
-    },
-    {
-      "type": 5,
-      "winner": "K9",
-      "participants": [
-        {
-          "name": "K9",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-26T15:05:55"
     }
   ],
   "last_daily_reset": "2026-06-27T00:07:43",
