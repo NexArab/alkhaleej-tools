@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-25T00:12:57",
   "daily_champion": {
-    "name": "ＣＰＵ ..",
-    "points": 16,
-    "date": "2026-06-26"
+    "name": "AizeN ..",
+    "points": 60,
+    "date": "2026-06-27"
   },
-  "daily_champion_set_at": "2026-06-26T03:19:18",
+  "daily_champion_set_at": "2026-06-27T09:08:42",
   "last_reset": "2026-06-25T00:12:57",
-  "last_updated": "2026-06-26T22:27:51",
+  "last_updated": "2026-06-27T09:08:42",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "Rio": {
       "weekly_points": 26,
-      "daily_points": 26,
+      "daily_points": 0,
       "total_points": 1587,
       "wins": 161,
       "participations": 173,
@@ -277,7 +277,7 @@
     },
     "ضامي": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 76,
       "wins": 15,
       "participations": 16,
@@ -347,7 +347,7 @@
     },
     "vvf": {
       "weekly_points": 50,
-      "daily_points": 50,
+      "daily_points": 0,
       "total_points": 460,
       "wins": 46,
       "participations": 48,
@@ -366,14 +366,14 @@
       "updated_at": "2026-05-30T08:29:28"
     },
     "نجر": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 60,
-      "wins": 9,
-      "participations": 9,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 65,
+      "wins": 10,
+      "participations": 10,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-24T02:14:43",
-      "updated_at": "2026-06-24T02:14:43"
+      "last_win": "2026-06-27T09:08:42",
+      "updated_at": "2026-06-27T09:08:42"
     },
     "دآمـي .": {
       "weekly_points": 0,
@@ -397,7 +397,7 @@
     },
     "⠀⠀           محـمّد": {
       "weekly_points": 8,
-      "daily_points": 3,
+      "daily_points": 0,
       "total_points": 58,
       "wins": 8,
       "participations": 9,
@@ -707,7 +707,7 @@
     },
     "AizeN ..": {
       "weekly_points": 60,
-      "daily_points": 60,
+      "daily_points": 0,
       "total_points": 101,
       "wins": 17,
       "participations": 24,
@@ -787,7 +787,7 @@
     },
     "ˣ": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -797,7 +797,7 @@
     },
     "سوط": {
       "weekly_points": 30,
-      "daily_points": 30,
+      "daily_points": 0,
       "total_points": 30,
       "wins": 6,
       "participations": 6,
@@ -807,7 +807,7 @@
     },
     "Humam": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 10,
       "wins": 1,
       "participations": 1,
@@ -817,6 +817,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-27T09:08:42"
+    },
     {
       "type": 5,
       "winner": "AizeN ..",
@@ -1375,19 +1386,8 @@
         }
       ],
       "created_at": "2026-06-23T07:08:22"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-23T05:47:34"
     }
   ],
-  "last_daily_reset": "2026-06-26T03:19:18",
+  "last_daily_reset": "2026-06-27T09:08:42",
   "last_weekly_reset": "2026-06-25T00:12:57"
 }
