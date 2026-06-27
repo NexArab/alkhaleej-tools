@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-27T00:07:43",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-27T21:58:50",
+  "last_updated": "2026-06-27T22:36:09",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,24 +306,24 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 179,
-      "daily_points": 179,
-      "total_points": 518,
+      "weekly_points": 185,
+      "daily_points": 185,
+      "total_points": 524,
       "wins": 34,
-      "participations": 40,
+      "participations": 41,
       "title": "ملك المقالات",
       "last_win": "2026-06-27T21:38:47",
-      "updated_at": "2026-06-27T21:38:47"
+      "updated_at": "2026-06-27T22:36:09"
     },
     "نجر": {
-      "weekly_points": 57,
-      "daily_points": 57,
-      "total_points": 1306,
-      "wins": 75,
-      "participations": 130,
+      "weekly_points": 82,
+      "daily_points": 82,
+      "total_points": 1331,
+      "wins": 76,
+      "participations": 131,
       "title": "ملك المقالات",
-      "last_win": "2026-06-27T02:52:57",
-      "updated_at": "2026-06-27T02:52:57"
+      "last_win": "2026-06-27T22:36:09",
+      "updated_at": "2026-06-27T22:36:09"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -866,17 +866,36 @@
       "updated_at": "2026-06-27T11:18:44"
     },
     "شايب - أسمـر": {
-      "weekly_points": 14,
-      "daily_points": 14,
-      "total_points": 14,
+      "weekly_points": 18,
+      "daily_points": 18,
+      "total_points": 18,
       "wins": 0,
       "participations": 1,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-27T21:58:50"
+      "updated_at": "2026-06-27T22:36:09"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 25
+        },
+        {
+          "name": "شايب - أسمـر",
+          "points": 18
+        },
+        {
+          "name": "أدرينالين",
+          "points": 6
+        }
+      ],
+      "created_at": "2026-06-27T22:36:09"
+    },
     {
       "type": 25,
       "winner": "K9",
@@ -1471,17 +1490,6 @@
         }
       ],
       "created_at": "2026-06-27T04:46:18"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-27T04:43:29"
     }
   ],
   "last_daily_reset": "2026-06-27T00:07:43",
