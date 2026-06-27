@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-27T00:07:43",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-27T21:30:28",
+  "last_updated": "2026-06-27T21:38:47",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,14 +306,14 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 154,
-      "daily_points": 154,
-      "total_points": 493,
-      "wins": 33,
-      "participations": 39,
+      "weekly_points": 179,
+      "daily_points": 179,
+      "total_points": 518,
+      "wins": 34,
+      "participations": 40,
       "title": "ملك المقالات",
-      "last_win": "2026-06-27T21:30:28",
-      "updated_at": "2026-06-27T21:30:28"
+      "last_win": "2026-06-27T21:38:47",
+      "updated_at": "2026-06-27T21:38:47"
     },
     "نجر": {
       "weekly_points": 57,
@@ -866,17 +866,32 @@
       "updated_at": "2026-06-27T11:18:44"
     },
     "شايب - أسمـر": {
-      "weekly_points": 11,
-      "daily_points": 11,
-      "total_points": 11,
+      "weekly_points": 13,
+      "daily_points": 13,
+      "total_points": 13,
       "wins": 0,
       "participations": 1,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-27T21:30:28"
+      "updated_at": "2026-06-27T21:38:47"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 25
+        },
+        {
+          "name": "شايب - أسمـر",
+          "points": 13
+        }
+      ],
+      "created_at": "2026-06-27T21:38:47"
+    },
     {
       "type": 20,
       "winner": "أدرينالين",
@@ -1463,17 +1478,6 @@
         }
       ],
       "created_at": "2026-06-27T04:41:37"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-27T04:33:54"
     }
   ],
   "last_daily_reset": "2026-06-27T00:07:43",
