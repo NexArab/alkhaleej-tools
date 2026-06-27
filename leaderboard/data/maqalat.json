@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-27T00:07:43",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-27T10:14:15",
+  "last_updated": "2026-06-27T10:21:41",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -846,27 +846,42 @@
       "updated_at": "2026-06-26T15:01:59"
     },
     "هاجد": {
-      "weekly_points": 33,
-      "daily_points": 33,
-      "total_points": 33,
+      "weekly_points": 43,
+      "daily_points": 43,
+      "total_points": 43,
+      "wins": 2,
+      "participations": 4,
+      "title": "ملك المقالات",
+      "last_win": "2026-06-27T10:09:12",
+      "updated_at": "2026-06-27T10:21:41"
+    },
+    "عبق": {
+      "weekly_points": 41,
+      "daily_points": 41,
+      "total_points": 41,
       "wins": 2,
       "participations": 3,
       "title": "ملك المقالات",
-      "last_win": "2026-06-27T10:09:12",
-      "updated_at": "2026-06-27T10:14:15"
-    },
-    "عبق": {
-      "weekly_points": 26,
-      "daily_points": 26,
-      "total_points": 26,
-      "wins": 1,
-      "participations": 2,
-      "title": "ملك المقالات",
-      "last_win": "2026-06-27T10:14:15",
-      "updated_at": "2026-06-27T10:14:15"
+      "last_win": "2026-06-27T10:21:41",
+      "updated_at": "2026-06-27T10:21:41"
     }
   },
   "matches": [
+    {
+      "type": 15,
+      "winner": "عبق",
+      "participants": [
+        {
+          "name": "عبق",
+          "points": 15
+        },
+        {
+          "name": "هاجد",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-27T10:21:41"
+    },
     {
       "type": 15,
       "winner": "عبق",
@@ -1505,17 +1520,6 @@
         }
       ],
       "created_at": "2026-06-26T20:59:06"
-    },
-    {
-      "type": 10,
-      "winner": "K9",
-      "participants": [
-        {
-          "name": "K9",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-26T20:40:46"
     }
   ],
   "last_daily_reset": "2026-06-27T00:07:43",
