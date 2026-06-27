@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-27T00:07:43",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-27T23:35:31",
+  "last_updated": "2026-06-27T23:40:57",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,14 +306,14 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 266,
-      "daily_points": 266,
-      "total_points": 605,
-      "wins": 39,
-      "participations": 47,
+      "weekly_points": 271,
+      "daily_points": 271,
+      "total_points": 610,
+      "wins": 40,
+      "participations": 48,
       "title": "ملك المقالات",
-      "last_win": "2026-06-27T23:30:10",
-      "updated_at": "2026-06-27T23:30:10"
+      "last_win": "2026-06-27T23:40:57",
+      "updated_at": "2026-06-27T23:40:57"
     },
     "نجر": {
       "weekly_points": 117,
@@ -864,19 +864,20 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-27T11:18:44",
       "updated_at": "2026-06-27T11:18:44"
-    },
-    "شايب - أسمـر": {
-      "weekly_points": 2,
-      "daily_points": 2,
-      "total_points": 2,
-      "wins": 0,
-      "participations": 1,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-06-27T23:35:31"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-27T23:40:57"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1531,17 +1532,6 @@
         }
       ],
       "created_at": "2026-06-27T06:17:55"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-27T06:15:58"
     }
   ],
   "last_daily_reset": "2026-06-27T00:07:43",
