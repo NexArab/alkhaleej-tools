@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-26T03:27:17",
   "daily_champion": {
-    "name": "⠀⠀جـوج",
-    "points": 10,
-    "date": "2026-06-26"
+    "name": "Rio",
+    "points": 25,
+    "date": "2026-06-27"
   },
-  "daily_champion_set_at": "2026-06-26T03:27:17",
+  "daily_champion_set_at": "2026-06-27T21:24:41",
   "last_reset": "2026-06-26T03:27:17",
-  "last_updated": "2026-06-26T05:19:11",
+  "last_updated": "2026-06-27T21:24:41",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -27,7 +27,7 @@
     },
     "Rio": {
       "weekly_points": 25,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 1874,
       "wins": 366,
       "participations": 384,
@@ -47,7 +47,7 @@
     },
     "vvf": {
       "weekly_points": 25,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 470,
       "wins": 85,
       "participations": 105,
@@ -296,14 +296,14 @@
       "updated_at": "2026-06-12T06:44:21"
     },
     "⠀⠀جـوج": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 250,
-      "wins": 50,
-      "participations": 50,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 255,
+      "wins": 51,
+      "participations": 51,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-24T19:41:01",
-      "updated_at": "2026-06-24T19:41:01"
+      "last_win": "2026-06-27T21:24:41",
+      "updated_at": "2026-06-27T21:24:41"
     },
     "BkR": {
       "weekly_points": 0,
@@ -357,7 +357,7 @@
     },
     "قوي مره": {
       "weekly_points": 2,
-      "daily_points": 2,
+      "daily_points": 0,
       "total_points": 2,
       "wins": 0,
       "participations": 2,
@@ -367,6 +367,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "⠀⠀جـوج",
+      "participants": [
+        {
+          "name": "⠀⠀جـوج",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-27T21:24:41"
+    },
     {
       "type": 5,
       "winner": "Rio",
@@ -921,19 +932,8 @@
         }
       ],
       "created_at": "2026-06-19T22:35:12"
-    },
-    {
-      "type": 5,
-      "winner": "⠀⠀جـوج",
-      "participants": [
-        {
-          "name": "⠀⠀جـوج",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-19T22:33:50"
     }
   ],
-  "last_daily_reset": "2026-06-26T03:27:17",
+  "last_daily_reset": "2026-06-27T21:24:41",
   "last_weekly_reset": "2026-06-26T03:27:17"
 }
