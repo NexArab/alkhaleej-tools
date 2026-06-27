@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-27T00:07:43",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-27T22:36:09",
+  "last_updated": "2026-06-27T22:54:17",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 4,
-      "daily_points": 4,
-      "total_points": 1165,
-      "wins": 90,
-      "participations": 117,
+      "weekly_points": 14,
+      "daily_points": 14,
+      "total_points": 1175,
+      "wins": 91,
+      "participations": 118,
       "title": "ملك المقالات",
-      "last_win": "2026-06-26T19:11:59",
-      "updated_at": "2026-06-27T00:48:21"
+      "last_win": "2026-06-27T22:54:17",
+      "updated_at": "2026-06-27T22:54:17"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -306,24 +306,24 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 185,
-      "daily_points": 185,
-      "total_points": 524,
+      "weekly_points": 186,
+      "daily_points": 186,
+      "total_points": 525,
       "wins": 34,
-      "participations": 41,
+      "participations": 42,
       "title": "ملك المقالات",
       "last_win": "2026-06-27T21:38:47",
-      "updated_at": "2026-06-27T22:36:09"
+      "updated_at": "2026-06-27T22:54:17"
     },
     "نجر": {
-      "weekly_points": 82,
-      "daily_points": 82,
-      "total_points": 1331,
+      "weekly_points": 83,
+      "daily_points": 83,
+      "total_points": 1332,
       "wins": 76,
-      "participations": 131,
+      "participations": 132,
       "title": "ملك المقالات",
       "last_win": "2026-06-27T22:36:09",
-      "updated_at": "2026-06-27T22:36:09"
+      "updated_at": "2026-06-27T22:54:17"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -864,19 +864,28 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-27T11:18:44",
       "updated_at": "2026-06-27T11:18:44"
-    },
-    "شايب - أسمـر": {
-      "weekly_points": 18,
-      "daily_points": 18,
-      "total_points": 18,
-      "wins": 0,
-      "participations": 1,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-06-27T22:36:09"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 10
+        },
+        {
+          "name": "أدرينالين",
+          "points": 1
+        },
+        {
+          "name": "نجر",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-06-27T22:54:17"
+    },
     {
       "type": 25,
       "winner": "نجر",
@@ -1479,17 +1488,6 @@
         }
       ],
       "created_at": "2026-06-27T04:47:57"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-27T04:46:18"
     }
   ],
   "last_daily_reset": "2026-06-27T00:07:43",
