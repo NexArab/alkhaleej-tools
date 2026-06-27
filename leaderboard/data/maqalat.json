@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-27T00:07:43",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-27T15:02:23",
+  "last_updated": "2026-06-27T15:34:49",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -826,14 +826,14 @@
       "updated_at": "2026-06-26T10:39:03"
     },
     "K9": {
-      "weekly_points": 41,
-      "daily_points": 33,
-      "total_points": 129,
-      "wins": 17,
-      "participations": 31,
+      "weekly_points": 46,
+      "daily_points": 38,
+      "total_points": 134,
+      "wins": 18,
+      "participations": 32,
       "title": "ملك المقالات",
-      "last_win": "2026-06-27T15:02:23",
-      "updated_at": "2026-06-27T15:02:23"
+      "last_win": "2026-06-27T15:34:49",
+      "updated_at": "2026-06-27T15:34:49"
     },
     "yIs": {
       "weekly_points": 0,
@@ -867,6 +867,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "K9",
+      "participants": [
+        {
+          "name": "K9",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-27T15:34:49"
+    },
     {
       "type": 5,
       "winner": "K9",
@@ -1481,21 +1492,6 @@
         }
       ],
       "created_at": "2026-06-27T00:10:23"
-    },
-    {
-      "type": 20,
-      "winner": "أدرينالين",
-      "participants": [
-        {
-          "name": "أدرينالين",
-          "points": 20
-        },
-        {
-          "name": "K9",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-06-27T00:07:43"
     }
   ],
   "last_daily_reset": "2026-06-27T00:07:43",
