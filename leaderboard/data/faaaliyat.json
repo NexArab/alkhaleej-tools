@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-26T03:27:17",
   "daily_champion": {
-    "name": "Rio",
-    "points": 25,
-    "date": "2026-06-27"
+    "name": "⠀⠀جـوج",
+    "points": 20,
+    "date": "2026-06-28"
   },
-  "daily_champion_set_at": "2026-06-27T21:24:41",
+  "daily_champion_set_at": "2026-06-28T01:23:52",
   "last_reset": "2026-06-26T03:27:17",
-  "last_updated": "2026-06-27T21:31:25",
+  "last_updated": "2026-06-28T01:23:52",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -27,7 +27,7 @@
     },
     "Rio": {
       "weekly_points": 29,
-      "daily_points": 4,
+      "daily_points": 0,
       "total_points": 1878,
       "wins": 366,
       "participations": 386,
@@ -296,14 +296,14 @@
       "updated_at": "2026-06-12T06:44:21"
     },
     "⠀⠀جـوج": {
-      "weekly_points": 20,
-      "daily_points": 20,
-      "total_points": 270,
-      "wins": 54,
-      "participations": 54,
+      "weekly_points": 25,
+      "daily_points": 5,
+      "total_points": 275,
+      "wins": 55,
+      "participations": 55,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-27T21:31:25",
-      "updated_at": "2026-06-27T21:31:25"
+      "last_win": "2026-06-28T01:23:52",
+      "updated_at": "2026-06-28T01:23:52"
     },
     "BkR": {
       "weekly_points": 0,
@@ -367,6 +367,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "⠀⠀جـوج",
+      "participants": [
+        {
+          "name": "⠀⠀جـوج",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-28T01:23:52"
+    },
     {
       "type": 5,
       "winner": "⠀⠀جـوج",
@@ -929,19 +940,8 @@
         }
       ],
       "created_at": "2026-06-20T04:52:40"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-20T04:38:35"
     }
   ],
-  "last_daily_reset": "2026-06-27T21:24:41",
+  "last_daily_reset": "2026-06-28T01:23:52",
   "last_weekly_reset": "2026-06-26T03:27:17"
 }
