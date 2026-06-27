@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-28T00:02:59",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-28T01:33:10",
+  "last_updated": "2026-06-28T01:38:18",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-10T08:16:34"
     },
     "كــــعبول": {
-      "weekly_points": 63,
-      "daily_points": 63,
-      "total_points": 1996,
-      "wins": 138,
-      "participations": 294,
+      "weekly_points": 78,
+      "daily_points": 78,
+      "total_points": 2011,
+      "wins": 139,
+      "participations": 295,
       "title": "ملك المقالات",
-      "last_win": "2026-06-28T01:33:10",
-      "updated_at": "2026-06-28T01:33:10"
+      "last_win": "2026-06-28T01:38:18",
+      "updated_at": "2026-06-28T01:38:18"
     },
     "AizeN": {
       "weekly_points": 0,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 8,
-      "daily_points": 8,
-      "total_points": 161,
+      "weekly_points": 18,
+      "daily_points": 18,
+      "total_points": 171,
       "wins": 10,
-      "participations": 32,
+      "participations": 33,
       "title": "ملك المقالات",
       "last_win": "2026-06-26T22:31:20",
-      "updated_at": "2026-06-28T01:33:10"
+      "updated_at": "2026-06-28T01:38:18"
     },
     "⠀⠀جـوج": {
       "weekly_points": 0,
@@ -867,6 +867,21 @@
     }
   },
   "matches": [
+    {
+      "type": 15,
+      "winner": "كــــعبول",
+      "participants": [
+        {
+          "name": "كــــعبول",
+          "points": 15
+        },
+        {
+          "name": "AizeN ..",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-28T01:38:18"
+    },
     {
       "type": 10,
       "winner": "كــــعبول",
@@ -1569,17 +1584,6 @@
         }
       ],
       "created_at": "2026-06-27T11:48:39"
-    },
-    {
-      "type": 25,
-      "winner": "شايب - أسمـر",
-      "participants": [
-        {
-          "name": "شايب - أسمـر",
-          "points": 25
-        }
-      ],
-      "created_at": "2026-06-27T11:46:31"
     }
   ],
   "last_daily_reset": "2026-06-28T00:02:59",
