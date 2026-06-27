@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-27T00:07:43",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-27T11:18:44",
+  "last_updated": "2026-06-27T11:46:31",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -864,9 +864,30 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-27T11:18:44",
       "updated_at": "2026-06-27T11:18:44"
+    },
+    "شايب - أسمـر": {
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 25,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-06-27T11:46:31",
+      "updated_at": "2026-06-27T11:46:31"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "شايب - أسمـر",
+      "participants": [
+        {
+          "name": "شايب - أسمـر",
+          "points": 25
+        }
+      ],
+      "created_at": "2026-06-27T11:46:31"
+    },
     {
       "type": 5,
       "winner": "عبق",
@@ -1497,21 +1518,6 @@
         }
       ],
       "created_at": "2026-06-26T21:26:45"
-    },
-    {
-      "type": 20,
-      "winner": "أدرينالين",
-      "participants": [
-        {
-          "name": "أدرينالين",
-          "points": 20
-        },
-        {
-          "name": "شايب - أسمـر",
-          "points": 17
-        }
-      ],
-      "created_at": "2026-06-26T21:16:44"
     }
   ],
   "last_daily_reset": "2026-06-27T00:07:43",
