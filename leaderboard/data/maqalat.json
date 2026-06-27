@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-27T00:07:43",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-27T07:38:15",
+  "last_updated": "2026-06-27T10:00:26",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -844,9 +844,30 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-26T14:57:10",
       "updated_at": "2026-06-26T15:01:59"
+    },
+    "هاجد": {
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 10,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-06-27T10:00:26",
+      "updated_at": "2026-06-27T10:00:26"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "هاجد",
+      "participants": [
+        {
+          "name": "هاجد",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-27T10:00:26"
+    },
     {
       "type": 5,
       "winner": "D E F",
@@ -1481,21 +1502,6 @@
         }
       ],
       "created_at": "2026-06-26T20:11:13"
-    },
-    {
-      "type": 10,
-      "winner": "كــــعبول",
-      "participants": [
-        {
-          "name": "كــــعبول",
-          "points": 10
-        },
-        {
-          "name": "شايب - أسمـر",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-06-26T19:53:00"
     }
   ],
   "last_daily_reset": "2026-06-27T00:07:43",
