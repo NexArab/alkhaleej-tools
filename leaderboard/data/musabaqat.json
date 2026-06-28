@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-25T00:12:57",
   "daily_champion": {
-    "name": "How?",
-    "points": 10,
-    "date": "2026-06-28"
+    "name": "D E F",
+    "points": 35,
+    "date": "2026-06-29"
   },
-  "daily_champion_set_at": "2026-06-28T08:17:36",
+  "daily_champion_set_at": "2026-06-29T02:28:17",
   "last_reset": "2026-06-25T00:12:57",
-  "last_updated": "2026-06-28T22:20:54",
+  "last_updated": "2026-06-29T02:28:17",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -27,7 +27,7 @@
     },
     "How?": {
       "weekly_points": 35,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 463,
       "wins": 74,
       "participations": 76,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-26T14:55:37"
     },
     "Rio": {
-      "weekly_points": 26,
-      "daily_points": 0,
-      "total_points": 1587,
-      "wins": 161,
-      "participations": 173,
+      "weekly_points": 36,
+      "daily_points": 10,
+      "total_points": 1597,
+      "wins": 162,
+      "participations": 174,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-26T03:20:57",
-      "updated_at": "2026-06-26T03:40:43"
+      "last_win": "2026-06-29T02:28:17",
+      "updated_at": "2026-06-29T02:28:17"
     },
     "ＣＰＵ   ..": {
       "weekly_points": 0,
@@ -397,7 +397,7 @@
     },
     "⠀⠀           محـمّد": {
       "weekly_points": 13,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 63,
       "wins": 9,
       "participations": 10,
@@ -817,7 +817,7 @@
     },
     "D E F": {
       "weekly_points": 35,
-      "daily_points": 35,
+      "daily_points": 0,
       "total_points": 35,
       "wins": 6,
       "participations": 6,
@@ -827,7 +827,7 @@
     },
     "Ricca": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -837,6 +837,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-29T02:28:17"
+    },
     {
       "type": 5,
       "winner": "⠀⠀           محـمّد",
@@ -1391,19 +1402,8 @@
         }
       ],
       "created_at": "2026-06-24T19:27:55"
-    },
-    {
-      "type": 5,
-      "winner": ".. بَشيِر،إليُوسفِي۶.",
-      "participants": [
-        {
-          "name": ".. بَشيِر،إليُوسفِي۶.",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-24T19:22:34"
     }
   ],
-  "last_daily_reset": "2026-06-28T08:17:36",
+  "last_daily_reset": "2026-06-29T02:28:17",
   "last_weekly_reset": "2026-06-25T00:12:57"
 }
