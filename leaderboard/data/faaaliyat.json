@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-28T01:23:52",
   "last_reset": "2026-06-26T03:27:17",
-  "last_updated": "2026-06-28T05:40:30",
+  "last_updated": "2026-06-28T12:37:21",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -374,9 +374,30 @@
       "title": "بطل الفعاليات",
       "last_win": "2026-06-28T05:40:30",
       "updated_at": "2026-06-28T05:40:30"
+    },
+    "moon": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "بطل الفعاليات",
+      "last_win": "2026-06-28T12:37:21",
+      "updated_at": "2026-06-28T12:37:21"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "moon",
+      "participants": [
+        {
+          "name": "moon",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-28T12:37:21"
+    },
     {
       "type": 5,
       "winner": "‎‎ ‏ ‏ هـنِيالك",
@@ -939,17 +960,6 @@
         }
       ],
       "created_at": "2026-06-20T21:12:37"
-    },
-    {
-      "type": 5,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-20T19:55:50"
     }
   ],
   "last_daily_reset": "2026-06-28T01:23:52",
