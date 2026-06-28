@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-28T00:02:59",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-28T21:53:24",
+  "last_updated": "2026-06-28T22:11:12",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -826,14 +826,14 @@
       "updated_at": "2026-06-26T10:39:03"
     },
     "K9": {
-      "weekly_points": 469,
-      "daily_points": 275,
-      "total_points": 557,
+      "weekly_points": 482,
+      "daily_points": 288,
+      "total_points": 570,
       "wins": 61,
-      "participations": 79,
+      "participations": 80,
       "title": "ملك المقالات",
       "last_win": "2026-06-28T21:53:24",
-      "updated_at": "2026-06-28T21:53:24"
+      "updated_at": "2026-06-28T22:11:12"
     },
     "yIs": {
       "weekly_points": 0,
@@ -866,27 +866,46 @@
       "updated_at": "2026-06-27T11:18:44"
     },
     "أبو زيــد": {
-      "weekly_points": 86,
-      "daily_points": 86,
-      "total_points": 86,
+      "weekly_points": 98,
+      "daily_points": 98,
+      "total_points": 98,
       "wins": 8,
-      "participations": 10,
+      "participations": 11,
       "title": "ملك المقالات",
       "last_win": "2026-06-28T21:38:21",
-      "updated_at": "2026-06-28T21:53:24"
+      "updated_at": "2026-06-28T22:11:12"
     },
     "شايب - أسمـر": {
-      "weekly_points": 14,
-      "daily_points": 14,
-      "total_points": 14,
-      "wins": 0,
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 25,
+      "wins": 1,
       "participations": 1,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-06-28T21:53:24"
+      "title": "ملك المقالات",
+      "last_win": "2026-06-28T22:11:12",
+      "updated_at": "2026-06-28T22:11:12"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "شايب - أسمـر",
+      "participants": [
+        {
+          "name": "شايب - أسمـر",
+          "points": 25
+        },
+        {
+          "name": "K9",
+          "points": 13
+        },
+        {
+          "name": "أبو زيــد",
+          "points": 12
+        }
+      ],
+      "created_at": "2026-06-28T22:11:12"
+    },
     {
       "type": 25,
       "winner": "K9",
@@ -1453,17 +1472,6 @@
         }
       ],
       "created_at": "2026-06-28T10:20:26"
-    },
-    {
-      "type": 10,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-28T10:17:34"
     }
   ],
   "last_daily_reset": "2026-06-28T00:02:59",
