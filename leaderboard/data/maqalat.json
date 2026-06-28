@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-28T00:02:59",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-28T21:38:21",
+  "last_updated": "2026-06-28T21:41:39",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -826,14 +826,14 @@
       "updated_at": "2026-06-26T10:39:03"
     },
     "K9": {
-      "weekly_points": 424,
-      "daily_points": 230,
-      "total_points": 512,
-      "wins": 57,
-      "participations": 75,
+      "weekly_points": 434,
+      "daily_points": 240,
+      "total_points": 522,
+      "wins": 58,
+      "participations": 76,
       "title": "ملك المقالات",
-      "last_win": "2026-06-28T21:19:10",
-      "updated_at": "2026-06-28T21:19:10"
+      "last_win": "2026-06-28T21:41:39",
+      "updated_at": "2026-06-28T21:41:39"
     },
     "yIs": {
       "weekly_points": 0,
@@ -866,17 +866,32 @@
       "updated_at": "2026-06-27T11:18:44"
     },
     "أبو زيــد": {
-      "weekly_points": 80,
-      "daily_points": 80,
-      "total_points": 80,
+      "weekly_points": 84,
+      "daily_points": 84,
+      "total_points": 84,
       "wins": 8,
-      "participations": 8,
+      "participations": 9,
       "title": "ملك المقالات",
       "last_win": "2026-06-28T21:38:21",
-      "updated_at": "2026-06-28T21:38:21"
+      "updated_at": "2026-06-28T21:41:39"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "K9",
+      "participants": [
+        {
+          "name": "K9",
+          "points": 10
+        },
+        {
+          "name": "أبو زيــد",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-06-28T21:41:39"
+    },
     {
       "type": 10,
       "winner": "أبو زيــد",
@@ -1427,17 +1442,6 @@
         }
       ],
       "created_at": "2026-06-28T10:12:06"
-    },
-    {
-      "type": 10,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-28T08:14:31"
     }
   ],
   "last_daily_reset": "2026-06-28T00:02:59",
