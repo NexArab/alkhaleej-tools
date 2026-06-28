@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-26T23:27:33",
   "daily_champion": {
-    "name": "أدرينالين",
-    "points": 271,
-    "date": "2026-06-28"
+    "name": "K9",
+    "points": 288,
+    "date": "2026-06-29"
   },
-  "daily_champion_set_at": "2026-06-28T00:02:59",
+  "daily_champion_set_at": "2026-06-29T00:08:49",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-28T23:59:49",
+  "last_updated": "2026-06-29T00:08:49",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 22,
-      "daily_points": 6,
+      "daily_points": 0,
       "total_points": 1183,
       "wins": 91,
       "participations": 120,
@@ -177,7 +177,7 @@
     },
     "ＣＰＵ ..": {
       "weekly_points": 103,
-      "daily_points": 91,
+      "daily_points": 0,
       "total_points": 3270,
       "wins": 249,
       "participations": 325,
@@ -267,7 +267,7 @@
     },
     "How?": {
       "weekly_points": 20,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 266,
       "wins": 30,
       "participations": 45,
@@ -306,18 +306,18 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 343,
-      "daily_points": 72,
-      "total_points": 682,
-      "wins": 42,
-      "participations": 55,
+      "weekly_points": 368,
+      "daily_points": 25,
+      "total_points": 707,
+      "wins": 43,
+      "participations": 56,
       "title": "ملك المقالات",
-      "last_win": "2026-06-28T23:59:49",
-      "updated_at": "2026-06-28T23:59:49"
+      "last_win": "2026-06-29T00:08:49",
+      "updated_at": "2026-06-29T00:08:49"
     },
     "نجر": {
       "weekly_points": 138,
-      "daily_points": 21,
+      "daily_points": 0,
       "total_points": 1387,
       "wins": 77,
       "participations": 140,
@@ -447,7 +447,7 @@
     },
     "كــــعبول": {
       "weekly_points": 78,
-      "daily_points": 78,
+      "daily_points": 0,
       "total_points": 2011,
       "wins": 139,
       "participations": 295,
@@ -497,7 +497,7 @@
     },
     "AizeN ..": {
       "weekly_points": 38,
-      "daily_points": 38,
+      "daily_points": 0,
       "total_points": 191,
       "wins": 10,
       "participations": 38,
@@ -737,7 +737,7 @@
     },
     "moon": {
       "weekly_points": 74,
-      "daily_points": 40,
+      "daily_points": 0,
       "total_points": 122,
       "wins": 11,
       "participations": 17,
@@ -757,7 +757,7 @@
     },
     "D E F": {
       "weekly_points": 326,
-      "daily_points": 208,
+      "daily_points": 0,
       "total_points": 930,
       "wins": 131,
       "participations": 188,
@@ -827,7 +827,7 @@
     },
     "K9": {
       "weekly_points": 482,
-      "daily_points": 288,
+      "daily_points": 0,
       "total_points": 570,
       "wins": 61,
       "participations": 80,
@@ -867,7 +867,7 @@
     },
     "أبو زيــد": {
       "weekly_points": 158,
-      "daily_points": 158,
+      "daily_points": 0,
       "total_points": 158,
       "wins": 11,
       "participations": 17,
@@ -876,17 +876,32 @@
       "updated_at": "2026-06-28T23:59:49"
     },
     "شايب - أسمـر": {
-      "weekly_points": 3,
-      "daily_points": 3,
-      "total_points": 3,
+      "weekly_points": 16,
+      "daily_points": 16,
+      "total_points": 16,
       "wins": 0,
       "participations": 1,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-06-28T23:59:49"
+      "updated_at": "2026-06-29T00:08:49"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 25
+        },
+        {
+          "name": "شايب - أسمـر",
+          "points": 16
+        }
+      ],
+      "created_at": "2026-06-29T00:08:49"
+    },
     {
       "type": 25,
       "winner": "أدرينالين",
@@ -1505,19 +1520,8 @@
         }
       ],
       "created_at": "2026-06-28T10:41:27"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-28T10:30:12"
     }
   ],
-  "last_daily_reset": "2026-06-28T00:02:59",
+  "last_daily_reset": "2026-06-29T00:08:49",
   "last_weekly_reset": "2026-06-26T23:27:33"
 }
