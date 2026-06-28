@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-06-25T00:12:57",
   "daily_champion": {
-    "name": "AizeN ..",
-    "points": 60,
-    "date": "2026-06-27"
+    "name": "How?",
+    "points": 10,
+    "date": "2026-06-28"
   },
-  "daily_champion_set_at": "2026-06-27T09:08:42",
+  "daily_champion_set_at": "2026-06-28T08:17:36",
   "last_reset": "2026-06-25T00:12:57",
-  "last_updated": "2026-06-27T11:13:11",
+  "last_updated": "2026-06-28T08:17:36",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-06-19T03:52:09"
     },
     "How?": {
-      "weekly_points": 10,
+      "weekly_points": 20,
       "daily_points": 10,
-      "total_points": 438,
-      "wins": 71,
-      "participations": 73,
+      "total_points": 448,
+      "wins": 72,
+      "participations": 74,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-27T11:13:11",
-      "updated_at": "2026-06-27T11:13:11"
+      "last_win": "2026-06-28T08:17:36",
+      "updated_at": "2026-06-28T08:17:36"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -367,7 +367,7 @@
     },
     "نجر": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 65,
       "wins": 10,
       "participations": 10,
@@ -817,6 +817,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-28T08:17:36"
+    },
     {
       "type": 10,
       "winner": "How?",
@@ -1375,19 +1386,8 @@
         }
       ],
       "created_at": "2026-06-23T09:57:18"
-    },
-    {
-      "type": 10,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-23T07:09:42"
     }
   ],
-  "last_daily_reset": "2026-06-27T09:08:42",
+  "last_daily_reset": "2026-06-28T08:17:36",
   "last_weekly_reset": "2026-06-25T00:12:57"
 }
