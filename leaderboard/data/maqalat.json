@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-28T00:02:59",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-28T07:43:14",
+  "last_updated": "2026-06-28T08:14:31",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -266,14 +266,14 @@
       "updated_at": "2026-05-31T12:22:30"
     },
     "How?": {
-      "weekly_points": 10,
-      "daily_points": 0,
-      "total_points": 256,
-      "wins": 29,
-      "participations": 44,
+      "weekly_points": 20,
+      "daily_points": 10,
+      "total_points": 266,
+      "wins": 30,
+      "participations": 45,
       "title": "ملك المقالات",
-      "last_win": "2026-06-27T11:05:38",
-      "updated_at": "2026-06-27T11:05:38"
+      "last_win": "2026-06-28T08:14:31",
+      "updated_at": "2026-06-28T08:14:31"
     },
     "شين باء": {
       "weekly_points": 0,
@@ -877,6 +877,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-28T08:14:31"
+    },
     {
       "type": 5,
       "winner": "D E F",
@@ -1503,21 +1514,6 @@
         }
       ],
       "created_at": "2026-06-27T23:40:57"
-    },
-    {
-      "type": 10,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 10
-        },
-        {
-          "name": "شايب - أسمـر",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-06-27T23:35:31"
     }
   ],
   "last_daily_reset": "2026-06-28T00:02:59",
