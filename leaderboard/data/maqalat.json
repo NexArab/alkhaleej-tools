@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-29T00:08:49",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-29T05:51:11",
+  "last_updated": "2026-06-29T05:54:46",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 519,
-      "daily_points": 193,
-      "total_points": 1123,
-      "wins": 158,
-      "participations": 221,
+      "weekly_points": 534,
+      "daily_points": 208,
+      "total_points": 1138,
+      "wins": 159,
+      "participations": 222,
       "title": "ملك المقالات",
-      "last_win": "2026-06-29T05:51:11",
-      "updated_at": "2026-06-29T05:51:11"
+      "last_win": "2026-06-29T05:54:46",
+      "updated_at": "2026-06-29T05:54:46"
     },
     "طرب": {
       "weekly_points": 0,
@@ -877,6 +877,17 @@
     }
   },
   "matches": [
+    {
+      "type": 15,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 15
+        }
+      ],
+      "created_at": "2026-06-29T05:54:46"
+    },
     {
       "type": 25,
       "winner": "D E F",
@@ -1475,17 +1486,6 @@
         }
       ],
       "created_at": "2026-06-29T00:25:52"
-    },
-    {
-      "type": 10,
-      "winner": "أبو زيــد",
-      "participants": [
-        {
-          "name": "أبو زيــد",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-29T00:24:24"
     }
   ],
   "last_daily_reset": "2026-06-29T00:08:49",
