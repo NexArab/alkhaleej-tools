@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-29T02:28:17",
   "last_reset": "2026-06-25T00:12:57",
-  "last_updated": "2026-06-29T03:08:48",
+  "last_updated": "2026-06-29T03:20:25",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -826,17 +826,28 @@
       "updated_at": "2026-06-29T02:48:38"
     },
     "Ricca": {
-      "weekly_points": 9,
-      "daily_points": 4,
-      "total_points": 9,
-      "wins": 1,
-      "participations": 2,
+      "weekly_points": 14,
+      "daily_points": 9,
+      "total_points": 14,
+      "wins": 2,
+      "participations": 3,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-28T19:00:41",
-      "updated_at": "2026-06-29T03:08:48"
+      "last_win": "2026-06-29T03:20:25",
+      "updated_at": "2026-06-29T03:20:25"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Ricca",
+      "participants": [
+        {
+          "name": "Ricca",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-06-29T03:20:25"
+    },
     {
       "type": 10,
       "winner": "vvf",
@@ -1391,17 +1402,6 @@
         }
       ],
       "created_at": "2026-06-25T06:20:33"
-    },
-    {
-      "type": 5,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-25T06:13:29"
     }
   ],
   "last_daily_reset": "2026-06-29T02:28:17",
