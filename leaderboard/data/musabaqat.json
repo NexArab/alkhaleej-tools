@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-29T02:28:17",
   "last_reset": "2026-06-25T00:12:57",
-  "last_updated": "2026-06-29T03:46:23",
+  "last_updated": "2026-06-29T03:48:31",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -346,14 +346,14 @@
       "updated_at": "2026-06-04T17:09:48"
     },
     "vvf": {
-      "weekly_points": 80,
-      "daily_points": 30,
-      "total_points": 490,
-      "wins": 49,
-      "participations": 51,
+      "weekly_points": 90,
+      "daily_points": 40,
+      "total_points": 500,
+      "wins": 50,
+      "participations": 52,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-29T03:46:23",
-      "updated_at": "2026-06-29T03:46:23"
+      "last_win": "2026-06-29T03:48:31",
+      "updated_at": "2026-06-29T03:48:31"
     },
     "..،،": {
       "weekly_points": 0,
@@ -837,6 +837,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "vvf",
+      "participants": [
+        {
+          "name": "vvf",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-29T03:48:31"
+    },
     {
       "type": 10,
       "winner": "vvf",
@@ -1387,17 +1398,6 @@
         }
       ],
       "created_at": "2026-06-26T03:38:06"
-    },
-    {
-      "type": 10,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-26T03:20:57"
     }
   ],
   "last_daily_reset": "2026-06-29T02:28:17",
