@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-29T00:08:49",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-29T13:02:05",
+  "last_updated": "2026-06-29T13:05:10",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -816,14 +816,14 @@
       "updated_at": "2026-06-26T08:04:36"
     },
     "سوط": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 75,
-      "wins": 10,
-      "participations": 10,
+      "weekly_points": 20,
+      "daily_points": 20,
+      "total_points": 85,
+      "wins": 11,
+      "participations": 11,
       "title": "ملك المقالات",
-      "last_win": "2026-06-29T13:02:05",
-      "updated_at": "2026-06-29T13:02:05"
+      "last_win": "2026-06-29T13:05:10",
+      "updated_at": "2026-06-29T13:05:10"
     },
     "K9": {
       "weekly_points": 531,
@@ -877,6 +877,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "سوط",
+      "participants": [
+        {
+          "name": "سوط",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-29T13:05:10"
+    },
     {
       "type": 10,
       "winner": "سوط",
@@ -1455,21 +1466,6 @@
         }
       ],
       "created_at": "2026-06-29T01:07:10"
-    },
-    {
-      "type": 10,
-      "winner": "K9",
-      "participants": [
-        {
-          "name": "K9",
-          "points": 10
-        },
-        {
-          "name": "أبو زيــد",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-06-29T01:06:02"
     }
   ],
   "last_daily_reset": "2026-06-29T00:08:49",
