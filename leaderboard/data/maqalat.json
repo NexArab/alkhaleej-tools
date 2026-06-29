@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-29T00:08:49",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-29T12:30:51",
+  "last_updated": "2026-06-29T12:33:24",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-06-29T01:51:49"
     },
     "نجر": {
-      "weekly_points": 198,
-      "daily_points": 60,
-      "total_points": 1447,
-      "wins": 82,
-      "participations": 145,
+      "weekly_points": 208,
+      "daily_points": 70,
+      "total_points": 1457,
+      "wins": 83,
+      "participations": 146,
       "title": "ملك المقالات",
-      "last_win": "2026-06-29T12:30:51",
-      "updated_at": "2026-06-29T12:30:51"
+      "last_win": "2026-06-29T12:33:24",
+      "updated_at": "2026-06-29T12:33:24"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -877,6 +877,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-29T12:33:24"
+    },
     {
       "type": 10,
       "winner": "نجر",
@@ -1463,21 +1474,6 @@
         }
       ],
       "created_at": "2026-06-29T01:03:51"
-    },
-    {
-      "type": 10,
-      "winner": "K9",
-      "participants": [
-        {
-          "name": "K9",
-          "points": 10
-        },
-        {
-          "name": "أبو زيــد",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-06-29T01:02:44"
     }
   ],
   "last_daily_reset": "2026-06-29T00:08:49",
