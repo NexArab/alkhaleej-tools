@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-29T02:28:17",
   "last_reset": "2026-06-25T00:12:57",
-  "last_updated": "2026-06-29T17:39:09",
+  "last_updated": "2026-06-29T17:56:57",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-26T14:55:37"
     },
     "Rio": {
-      "weekly_points": 146,
-      "daily_points": 120,
-      "total_points": 1707,
-      "wins": 173,
-      "participations": 185,
+      "weekly_points": 156,
+      "daily_points": 130,
+      "total_points": 1717,
+      "wins": 174,
+      "participations": 186,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-29T17:39:09",
-      "updated_at": "2026-06-29T17:39:09"
+      "last_win": "2026-06-29T17:56:57",
+      "updated_at": "2026-06-29T17:56:57"
     },
     "ＣＰＵ   ..": {
       "weekly_points": 0,
@@ -846,6 +846,17 @@
           "points": 10
         }
       ],
+      "created_at": "2026-06-29T17:56:57"
+    },
+    {
+      "type": 10,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 10
+        }
+      ],
       "created_at": "2026-06-29T17:39:09"
     },
     {
@@ -1383,17 +1394,6 @@
         }
       ],
       "created_at": "2026-06-26T22:04:52"
-    },
-    {
-      "type": 10,
-      "winner": "Humam",
-      "participants": [
-        {
-          "name": "Humam",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-26T16:22:36"
     }
   ],
   "last_daily_reset": "2026-06-29T02:28:17",
