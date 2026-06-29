@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-30T00:07:08",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-30T00:16:58",
+  "last_updated": "2026-06-30T00:26:57",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 88,
-      "daily_points": 5,
-      "total_points": 241,
+      "weekly_points": 95,
+      "daily_points": 12,
+      "total_points": 248,
       "wins": 19,
-      "participations": 48,
+      "participations": 49,
       "title": "ملك المقالات",
       "last_win": "2026-06-29T23:47:42",
-      "updated_at": "2026-06-30T00:16:58"
+      "updated_at": "2026-06-30T00:26:57"
     },
     "⠀⠀جـوج": {
       "weekly_points": 0,
@@ -866,17 +866,32 @@
       "updated_at": "2026-06-27T11:18:44"
     },
     "أبو زيــد": {
-      "weekly_points": 260,
-      "daily_points": 35,
-      "total_points": 260,
-      "wins": 21,
-      "participations": 34,
+      "weekly_points": 285,
+      "daily_points": 60,
+      "total_points": 285,
+      "wins": 22,
+      "participations": 35,
       "title": "ملك المقالات",
-      "last_win": "2026-06-30T00:16:58",
-      "updated_at": "2026-06-30T00:16:58"
+      "last_win": "2026-06-30T00:26:57",
+      "updated_at": "2026-06-30T00:26:57"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "أبو زيــد",
+      "participants": [
+        {
+          "name": "أبو زيــد",
+          "points": 25
+        },
+        {
+          "name": "AizeN ..",
+          "points": 7
+        }
+      ],
+      "created_at": "2026-06-30T00:26:57"
+    },
     {
       "type": 20,
       "winner": "أبو زيــد",
@@ -1427,17 +1442,6 @@
         }
       ],
       "created_at": "2026-06-29T05:34:42"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-29T05:32:00"
     }
   ],
   "last_daily_reset": "2026-06-30T00:07:08",
