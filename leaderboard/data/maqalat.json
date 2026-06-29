@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-30T00:07:08",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-30T02:50:50",
+  "last_updated": "2026-06-30T02:57:00",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 42,
-      "daily_points": 20,
-      "total_points": 1203,
-      "wins": 93,
-      "participations": 122,
+      "weekly_points": 52,
+      "daily_points": 30,
+      "total_points": 1213,
+      "wins": 94,
+      "participations": 123,
       "title": "ملك المقالات",
-      "last_win": "2026-06-30T02:12:58",
-      "updated_at": "2026-06-30T02:12:58"
+      "last_win": "2026-06-30T02:57:00",
+      "updated_at": "2026-06-30T02:57:00"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -879,6 +879,17 @@
   "matches": [
     {
       "type": 10,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-30T02:57:00"
+    },
+    {
+      "type": 10,
       "winner": "Rio",
       "participants": [
         {
@@ -1451,17 +1462,6 @@
         }
       ],
       "created_at": "2026-06-29T13:08:31"
-    },
-    {
-      "type": 10,
-      "winner": "سوط",
-      "participants": [
-        {
-          "name": "سوط",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-29T13:05:10"
     }
   ],
   "last_daily_reset": "2026-06-30T00:07:08",
