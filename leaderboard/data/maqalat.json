@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-29T00:08:49",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-29T04:14:27",
+  "last_updated": "2026-06-29T04:20:11",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 137,
-      "daily_points": 34,
-      "total_points": 3304,
-      "wins": 254,
-      "participations": 331,
+      "weekly_points": 147,
+      "daily_points": 44,
+      "total_points": 3314,
+      "wins": 255,
+      "participations": 332,
       "title": "ملك المقالات",
-      "last_win": "2026-06-29T04:14:27",
-      "updated_at": "2026-06-29T04:14:27"
+      "last_win": "2026-06-29T04:20:11",
+      "updated_at": "2026-06-29T04:20:11"
     },
     "كتب": {
       "weekly_points": 0,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 449,
-      "daily_points": 123,
-      "total_points": 1053,
+      "weekly_points": 456,
+      "daily_points": 130,
+      "total_points": 1060,
       "wins": 150,
-      "participations": 211,
+      "participations": 212,
       "title": "ملك المقالات",
       "last_win": "2026-06-29T04:09:11",
-      "updated_at": "2026-06-29T04:14:27"
+      "updated_at": "2026-06-29T04:20:11"
     },
     "طرب": {
       "weekly_points": 0,
@@ -877,6 +877,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "D E F",
+          "points": 7
+        }
+      ],
+      "created_at": "2026-06-29T04:20:11"
+    },
     {
       "type": 5,
       "winner": "ＣＰＵ ..",
@@ -1539,17 +1554,6 @@
         }
       ],
       "created_at": "2026-06-28T21:41:39"
-    },
-    {
-      "type": 10,
-      "winner": "أبو زيــد",
-      "participants": [
-        {
-          "name": "أبو زيــد",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-28T21:38:21"
     }
   ],
   "last_daily_reset": "2026-06-29T00:08:49",
