@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-30T09:57:55",
   "last_reset": "2026-06-29T23:04:46",
-  "last_updated": "2026-06-30T10:00:18",
+  "last_updated": "2026-06-30T15:45:44",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -816,14 +816,14 @@
       "updated_at": "2026-06-26T16:22:36"
     },
     "D E F": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 45,
-      "wins": 8,
-      "participations": 8,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 55,
+      "wins": 9,
+      "participations": 9,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-29T02:48:38",
-      "updated_at": "2026-06-29T02:48:38"
+      "last_win": "2026-06-30T15:45:44",
+      "updated_at": "2026-06-30T15:45:44"
     },
     "Ricca": {
       "weekly_points": 0,
@@ -837,6 +837,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-06-30T15:45:44"
+    },
     {
       "type": 5,
       "winner": "How?",
@@ -1403,17 +1414,6 @@
         }
       ],
       "created_at": "2026-06-27T11:13:11"
-    },
-    {
-      "type": 5,
-      "winner": "نجر",
-      "participants": [
-        {
-          "name": "نجر",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-27T09:08:42"
     }
   ],
   "last_daily_reset": "2026-06-30T09:57:55",
