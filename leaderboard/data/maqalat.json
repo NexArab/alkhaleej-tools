@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-06-30T00:07:08",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-30T08:10:42",
+  "last_updated": "2026-06-30T09:17:05",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -336,14 +336,14 @@
       "updated_at": "2026-06-16T02:31:36"
     },
     "Sir Deinich": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 15,
-      "wins": 3,
-      "participations": 3,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 25,
+      "wins": 4,
+      "participations": 4,
       "title": "ملك المقالات",
-      "last_win": "2026-06-03T12:35:09",
-      "updated_at": "2026-06-03T12:35:09"
+      "last_win": "2026-06-30T09:17:05",
+      "updated_at": "2026-06-30T09:17:05"
     },
     "جليدان بن شلاح الشلاويح": {
       "weekly_points": 0,
@@ -874,9 +874,34 @@
       "title": "ملك المقالات",
       "last_win": "2026-06-30T01:42:36",
       "updated_at": "2026-06-30T01:42:36"
+    },
+    "بتصمل": {
+      "weekly_points": 7,
+      "daily_points": 7,
+      "total_points": 7,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-06-30T09:17:05"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Sir Deinich",
+      "participants": [
+        {
+          "name": "Sir Deinich",
+          "points": 10
+        },
+        {
+          "name": "بتصمل",
+          "points": 7
+        }
+      ],
+      "created_at": "2026-06-30T09:17:05"
+    },
     {
       "type": 5,
       "winner": "D E F",
@@ -1443,17 +1468,6 @@
         }
       ],
       "created_at": "2026-06-29T22:36:38"
-    },
-    {
-      "type": 5,
-      "winner": "أبو زيــد",
-      "participants": [
-        {
-          "name": "أبو زيــد",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-29T22:35:03"
     }
   ],
   "last_daily_reset": "2026-06-30T00:07:08",
