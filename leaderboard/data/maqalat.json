@@ -8,12 +8,12 @@
   "weekly_champion_set_at": "2026-06-26T23:27:33",
   "daily_champion": {
     "name": "D E F",
-    "points": 248,
-    "date": "2026-06-30"
+    "points": 214,
+    "date": "2026-07-01"
   },
-  "daily_champion_set_at": "2026-06-30T00:07:08",
+  "daily_champion_set_at": "2026-07-01T01:49:10",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-06-30T23:10:41",
+  "last_updated": "2026-07-01T01:49:10",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 62,
-      "daily_points": 40,
+      "daily_points": 0,
       "total_points": 1223,
       "wins": 95,
       "participations": 124,
@@ -127,7 +127,7 @@
     },
     "Rio": {
       "weekly_points": 49,
-      "daily_points": 40,
+      "daily_points": 0,
       "total_points": 225,
       "wins": 41,
       "participations": 43,
@@ -177,7 +177,7 @@
     },
     "ＣＰＵ ..": {
       "weekly_points": 184,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 3351,
       "wins": 260,
       "participations": 338,
@@ -307,7 +307,7 @@
     },
     "أدرينالين": {
       "weekly_points": 404,
-      "daily_points": 6,
+      "daily_points": 0,
       "total_points": 743,
       "wins": 45,
       "participations": 59,
@@ -337,7 +337,7 @@
     },
     "Sir Deinich": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 25,
       "wins": 4,
       "participations": 4,
@@ -497,7 +497,7 @@
     },
     "AizeN ..": {
       "weekly_points": 133,
-      "daily_points": 50,
+      "daily_points": 0,
       "total_points": 286,
       "wins": 23,
       "participations": 57,
@@ -687,7 +687,7 @@
     },
     "ضلينا": {
       "weekly_points": 25,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 89,
       "wins": 15,
       "participations": 23,
@@ -757,7 +757,7 @@
     },
     "D E F": {
       "weekly_points": 788,
-      "daily_points": 214,
+      "daily_points": 0,
       "total_points": 1392,
       "wins": 205,
       "participations": 269,
@@ -827,7 +827,7 @@
     },
     "K9": {
       "weekly_points": 613,
-      "daily_points": 47,
+      "daily_points": 0,
       "total_points": 701,
       "wins": 81,
       "participations": 103,
@@ -866,18 +866,18 @@
       "updated_at": "2026-06-27T11:18:44"
     },
     "أبو زيــد": {
-      "weekly_points": 340,
-      "daily_points": 115,
-      "total_points": 340,
-      "wins": 28,
-      "participations": 41,
+      "weekly_points": 350,
+      "daily_points": 10,
+      "total_points": 350,
+      "wins": 29,
+      "participations": 42,
       "title": "ملك المقالات",
-      "last_win": "2026-06-30T01:42:36",
-      "updated_at": "2026-06-30T01:42:36"
+      "last_win": "2026-07-01T01:49:10",
+      "updated_at": "2026-07-01T01:49:10"
     },
     "بتصمل": {
       "weekly_points": 7,
-      "daily_points": 7,
+      "daily_points": 0,
       "total_points": 7,
       "wins": 0,
       "participations": 1,
@@ -887,6 +887,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "أبو زيــد",
+      "participants": [
+        {
+          "name": "أبو زيــد",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-07-01T01:49:10"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1441,19 +1452,8 @@
         }
       ],
       "created_at": "2026-06-30T06:52:58"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-30T05:44:18"
     }
   ],
-  "last_daily_reset": "2026-06-30T00:07:08",
+  "last_daily_reset": "2026-07-01T01:49:10",
   "last_weekly_reset": "2026-06-26T23:27:33"
 }
