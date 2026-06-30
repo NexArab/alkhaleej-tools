@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-01T00:32:58",
   "last_reset": "2026-06-29T23:04:46",
-  "last_updated": "2026-07-01T00:37:57",
+  "last_updated": "2026-07-01T00:39:43",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -446,14 +446,14 @@
       "updated_at": "2026-06-17T21:29:05"
     },
     ".. سُوشي": {
-      "weekly_points": 15,
-      "daily_points": 15,
-      "total_points": 40,
-      "wins": 6,
-      "participations": 8,
+      "weekly_points": 20,
+      "daily_points": 20,
+      "total_points": 45,
+      "wins": 7,
+      "participations": 9,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-01T00:37:57",
-      "updated_at": "2026-07-01T00:37:57"
+      "last_win": "2026-07-01T00:39:43",
+      "updated_at": "2026-07-01T00:39:43"
     },
     "ل": {
       "weekly_points": 0,
@@ -837,6 +837,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": ".. سُوشي",
+      "participants": [
+        {
+          "name": ".. سُوشي",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-01T00:39:43"
+    },
     {
       "type": 5,
       "winner": ".. سُوشي",
@@ -1403,17 +1414,6 @@
         }
       ],
       "created_at": "2026-06-28T10:36:10"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-28T10:34:36"
     }
   ],
   "last_daily_reset": "2026-07-01T00:32:58",
