@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-01T01:49:10",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-07-01T13:33:01",
+  "last_updated": "2026-07-01T13:34:42",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,14 +306,14 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 429,
-      "daily_points": 25,
-      "total_points": 768,
-      "wins": 47,
-      "participations": 61,
+      "weekly_points": 434,
+      "daily_points": 30,
+      "total_points": 773,
+      "wins": 48,
+      "participations": 62,
       "title": "ملك المقالات",
-      "last_win": "2026-07-01T13:33:01",
-      "updated_at": "2026-07-01T13:33:01"
+      "last_win": "2026-07-01T13:34:42",
+      "updated_at": "2026-07-01T13:34:42"
     },
     "نجر": {
       "weekly_points": 208,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 803,
-      "daily_points": 15,
-      "total_points": 1407,
+      "weekly_points": 805,
+      "daily_points": 17,
+      "total_points": 1409,
       "wins": 208,
-      "participations": 272,
+      "participations": 273,
       "title": "ملك المقالات",
       "last_win": "2026-07-01T12:50:47",
-      "updated_at": "2026-07-01T12:50:47"
+      "updated_at": "2026-07-01T13:34:42"
     },
     "طرب": {
       "weekly_points": 0,
@@ -897,6 +897,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 5
+        },
+        {
+          "name": "D E F",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-07-01T13:34:42"
+    },
     {
       "type": 5,
       "winner": "أدرينالين",
@@ -1455,17 +1470,6 @@
         }
       ],
       "created_at": "2026-06-30T10:33:10"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-30T10:29:44"
     }
   ],
   "last_daily_reset": "2026-07-01T01:49:10",
