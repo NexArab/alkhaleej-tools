@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-01T01:49:10",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-07-01T22:58:46",
+  "last_updated": "2026-07-01T23:05:01",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 63,
-      "daily_points": 1,
-      "total_points": 1224,
+      "weekly_points": 65,
+      "daily_points": 3,
+      "total_points": 1226,
       "wins": 95,
-      "participations": 125,
+      "participations": 126,
       "title": "ملك المقالات",
       "last_win": "2026-06-30T02:59:16",
-      "updated_at": "2026-07-01T02:41:10"
+      "updated_at": "2026-07-01T23:05:01"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 215,
-      "daily_points": 31,
-      "total_points": 3382,
-      "wins": 264,
-      "participations": 343,
+      "weekly_points": 225,
+      "daily_points": 41,
+      "total_points": 3392,
+      "wins": 265,
+      "participations": 344,
       "title": "ملك المقالات",
-      "last_win": "2026-07-01T22:58:46",
-      "updated_at": "2026-07-01T22:58:46"
+      "last_win": "2026-07-01T23:05:01",
+      "updated_at": "2026-07-01T23:05:01"
     },
     "كتب": {
       "weekly_points": 0,
@@ -904,6 +904,21 @@
         {
           "name": "ＣＰＵ ..",
           "points": 10
+        },
+        {
+          "name": "ســاهــــر",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-07-01T23:05:01"
+    },
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
         }
       ],
       "created_at": "2026-07-01T22:58:46"
@@ -1483,17 +1498,6 @@
         }
       ],
       "created_at": "2026-06-30T22:31:33"
-    },
-    {
-      "type": 5,
-      "winner": "K9",
-      "participants": [
-        {
-          "name": "K9",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-30T22:30:02"
     }
   ],
   "last_daily_reset": "2026-07-01T01:49:10",
