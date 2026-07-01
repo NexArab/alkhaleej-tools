@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-01T01:49:10",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-07-01T23:05:01",
+  "last_updated": "2026-07-01T23:07:50",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 65,
-      "daily_points": 3,
-      "total_points": 1226,
+      "weekly_points": 70,
+      "daily_points": 8,
+      "total_points": 1231,
       "wins": 95,
-      "participations": 126,
+      "participations": 127,
       "title": "ملك المقالات",
       "last_win": "2026-06-30T02:59:16",
-      "updated_at": "2026-07-01T23:05:01"
+      "updated_at": "2026-07-01T23:07:50"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 225,
-      "daily_points": 41,
-      "total_points": 3392,
-      "wins": 265,
-      "participations": 344,
+      "weekly_points": 235,
+      "daily_points": 51,
+      "total_points": 3402,
+      "wins": 266,
+      "participations": 345,
       "title": "ملك المقالات",
-      "last_win": "2026-07-01T23:05:01",
-      "updated_at": "2026-07-01T23:05:01"
+      "last_win": "2026-07-01T23:07:50",
+      "updated_at": "2026-07-01T23:07:50"
     },
     "كتب": {
       "weekly_points": 0,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 139,
-      "daily_points": 6,
-      "total_points": 292,
+      "weekly_points": 140,
+      "daily_points": 7,
+      "total_points": 293,
       "wins": 24,
-      "participations": 59,
+      "participations": 60,
       "title": "ملك المقالات",
       "last_win": "2026-07-01T22:43:13",
-      "updated_at": "2026-07-01T22:55:13"
+      "updated_at": "2026-07-01T23:07:50"
     },
     "⠀⠀جـوج": {
       "weekly_points": 0,
@@ -897,6 +897,25 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "ســاهــــر",
+          "points": 5
+        },
+        {
+          "name": "AizeN ..",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-07-01T23:07:50"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1487,17 +1506,6 @@
         }
       ],
       "created_at": "2026-06-30T22:39:18"
-    },
-    {
-      "type": 5,
-      "winner": "K9",
-      "participants": [
-        {
-          "name": "K9",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-30T22:31:33"
     }
   ],
   "last_daily_reset": "2026-07-01T01:49:10",
