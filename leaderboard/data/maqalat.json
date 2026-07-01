@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-01T01:49:10",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-07-01T23:07:50",
+  "last_updated": "2026-07-01T23:32:33",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 70,
-      "daily_points": 8,
-      "total_points": 1231,
-      "wins": 95,
-      "participations": 127,
+      "weekly_points": 90,
+      "daily_points": 28,
+      "total_points": 1251,
+      "wins": 96,
+      "participations": 128,
       "title": "ملك المقالات",
-      "last_win": "2026-06-30T02:59:16",
-      "updated_at": "2026-07-01T23:07:50"
+      "last_win": "2026-07-01T23:32:33",
+      "updated_at": "2026-07-01T23:32:33"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 140,
-      "daily_points": 7,
-      "total_points": 293,
+      "weekly_points": 141,
+      "daily_points": 8,
+      "total_points": 294,
       "wins": 24,
-      "participations": 60,
+      "participations": 61,
       "title": "ملك المقالات",
       "last_win": "2026-07-01T22:43:13",
-      "updated_at": "2026-07-01T23:07:50"
+      "updated_at": "2026-07-01T23:32:33"
     },
     "⠀⠀جـوج": {
       "weekly_points": 0,
@@ -897,6 +897,21 @@
     }
   },
   "matches": [
+    {
+      "type": 20,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 20
+        },
+        {
+          "name": "AizeN ..",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-07-01T23:32:33"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1495,17 +1510,6 @@
         }
       ],
       "created_at": "2026-06-30T22:44:49"
-    },
-    {
-      "type": 5,
-      "winner": "K9",
-      "participants": [
-        {
-          "name": "K9",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-30T22:39:18"
     }
   ],
   "last_daily_reset": "2026-07-01T01:49:10",
