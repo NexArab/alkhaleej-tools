@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-01T01:49:10",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-07-01T19:47:02",
+  "last_updated": "2026-07-01T20:00:27",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -126,14 +126,14 @@
       "updated_at": "2026-05-26T14:57:23"
     },
     "Rio": {
-      "weekly_points": 54,
-      "daily_points": 5,
-      "total_points": 230,
-      "wins": 42,
-      "participations": 44,
+      "weekly_points": 64,
+      "daily_points": 15,
+      "total_points": 240,
+      "wins": 43,
+      "participations": 45,
       "title": "ملك المقالات",
-      "last_win": "2026-07-01T19:47:02",
-      "updated_at": "2026-07-01T19:47:02"
+      "last_win": "2026-07-01T20:00:27",
+      "updated_at": "2026-07-01T20:00:27"
     },
     "ضامي": {
       "weekly_points": 0,
@@ -898,6 +898,17 @@
   },
   "matches": [
     {
+      "type": 10,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-07-01T20:00:27"
+    },
+    {
       "type": 5,
       "winner": "Rio",
       "participants": [
@@ -1479,21 +1490,6 @@
         }
       ],
       "created_at": "2026-06-30T22:10:10"
-    },
-    {
-      "type": 5,
-      "winner": "K9",
-      "participants": [
-        {
-          "name": "K9",
-          "points": 5
-        },
-        {
-          "name": "AizeN ..",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-06-30T22:02:57"
     }
   ],
   "last_daily_reset": "2026-07-01T01:49:10",
