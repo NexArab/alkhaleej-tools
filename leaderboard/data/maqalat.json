@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-01T01:49:10",
   "last_reset": "2026-06-26T23:27:33",
-  "last_updated": "2026-07-01T13:30:59",
+  "last_updated": "2026-07-01T13:33:01",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,14 +306,14 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 424,
-      "daily_points": 20,
-      "total_points": 763,
-      "wins": 46,
-      "participations": 60,
+      "weekly_points": 429,
+      "daily_points": 25,
+      "total_points": 768,
+      "wins": 47,
+      "participations": 61,
       "title": "ملك المقالات",
-      "last_win": "2026-07-01T13:30:59",
-      "updated_at": "2026-07-01T13:30:59"
+      "last_win": "2026-07-01T13:33:01",
+      "updated_at": "2026-07-01T13:33:01"
     },
     "نجر": {
       "weekly_points": 208,
@@ -898,6 +898,17 @@
   },
   "matches": [
     {
+      "type": 5,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-01T13:33:01"
+    },
+    {
       "type": 20,
       "winner": "أدرينالين",
       "participants": [
@@ -1455,21 +1466,6 @@
         }
       ],
       "created_at": "2026-06-30T10:29:44"
-    },
-    {
-      "type": 10,
-      "winner": "Sir Deinich",
-      "participants": [
-        {
-          "name": "Sir Deinich",
-          "points": 10
-        },
-        {
-          "name": "بتصمل",
-          "points": 7
-        }
-      ],
-      "created_at": "2026-06-30T09:17:05"
     }
   ],
   "last_daily_reset": "2026-07-01T01:49:10",
