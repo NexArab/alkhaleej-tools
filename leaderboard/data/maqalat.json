@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-03T00:01:14",
   "last_reset": "2026-07-02T23:54:39",
-  "last_updated": "2026-07-03T01:59:55",
+  "last_updated": "2026-07-03T02:05:47",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -866,14 +866,14 @@
       "updated_at": "2026-06-27T11:18:44"
     },
     "أبو زيــد": {
-      "weekly_points": 35,
-      "daily_points": 35,
-      "total_points": 508,
-      "wins": 38,
-      "participations": 57,
+      "weekly_points": 55,
+      "daily_points": 55,
+      "total_points": 528,
+      "wins": 39,
+      "participations": 58,
       "title": "ملك المقالات",
-      "last_win": "2026-07-03T01:59:55",
-      "updated_at": "2026-07-03T01:59:55"
+      "last_win": "2026-07-03T02:05:47",
+      "updated_at": "2026-07-03T02:05:47"
     },
     "بتصمل": {
       "weekly_points": 0,
@@ -917,6 +917,17 @@
     }
   },
   "matches": [
+    {
+      "type": 20,
+      "winner": "أبو زيــد",
+      "participants": [
+        {
+          "name": "أبو زيــد",
+          "points": 20
+        }
+      ],
+      "created_at": "2026-07-03T02:05:47"
+    },
     {
       "type": 25,
       "winner": "أبو زيــد",
@@ -1511,17 +1522,6 @@
         }
       ],
       "created_at": "2026-07-02T17:25:29"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-02T16:24:59"
     }
   ],
   "last_daily_reset": "2026-07-03T00:01:14",
