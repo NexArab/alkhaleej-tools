@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-02T05:18:17",
   "last_reset": "2026-07-02T05:18:17",
-  "last_updated": "2026-07-02T05:28:59",
+  "last_updated": "2026-07-02T05:31:54",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-05-29T05:20:37"
     },
     "Rio": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 1993,
+      "weekly_points": 26,
+      "daily_points": 26,
+      "total_points": 1994,
       "wins": 389,
-      "participations": 409,
+      "participations": 410,
       "title": "بطل الفعاليات",
       "last_win": "2026-07-02T05:28:59",
-      "updated_at": "2026-07-02T05:28:59"
+      "updated_at": "2026-07-02T05:31:54"
     },
     "ناعور": {
       "weekly_points": 0,
@@ -216,14 +216,14 @@
       "updated_at": "2026-06-04T03:07:45"
     },
     "Yara": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 10,
+      "wins": 2,
+      "participations": 2,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-05T03:34:55",
-      "updated_at": "2026-06-05T03:34:55"
+      "last_win": "2026-07-02T05:31:54",
+      "updated_at": "2026-07-02T05:31:54"
     },
     "⠀⠀           محـمّد": {
       "weekly_points": 0,
@@ -366,14 +366,14 @@
       "updated_at": "2026-06-26T05:17:47"
     },
     "‎‎ ‏ ‏ هـنِيالك": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 10,
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 11,
       "wins": 2,
-      "participations": 2,
+      "participations": 3,
       "title": "بطل الفعاليات",
       "last_win": "2026-06-30T05:37:46",
-      "updated_at": "2026-06-30T05:37:46"
+      "updated_at": "2026-07-02T05:31:54"
     },
     "moon": {
       "weekly_points": 0,
@@ -387,6 +387,25 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Yara",
+      "participants": [
+        {
+          "name": "Yara",
+          "points": 5
+        },
+        {
+          "name": "Rio",
+          "points": 1
+        },
+        {
+          "name": "‎‎ ‏ ‏ هـنِيالك",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-07-02T05:31:54"
+    },
     {
       "type": 5,
       "winner": "Rio",
@@ -941,17 +960,6 @@
         }
       ],
       "created_at": "2026-06-23T06:39:30"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-23T06:37:55"
     }
   ],
   "last_daily_reset": "2026-07-02T05:18:17",
