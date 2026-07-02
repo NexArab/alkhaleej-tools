@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-03T00:01:14",
   "last_reset": "2026-07-02T23:54:39",
-  "last_updated": "2026-07-03T00:01:14",
+  "last_updated": "2026-07-03T01:44:13",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,14 +306,14 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 45,
-      "daily_points": 25,
-      "total_points": 923,
-      "wins": 62,
-      "participations": 76,
+      "weekly_points": 55,
+      "daily_points": 35,
+      "total_points": 933,
+      "wins": 63,
+      "participations": 77,
       "title": "ملك المقالات",
-      "last_win": "2026-07-03T00:01:14",
-      "updated_at": "2026-07-03T00:01:14"
+      "last_win": "2026-07-03T01:44:13",
+      "updated_at": "2026-07-03T01:44:13"
     },
     "نجر": {
       "weekly_points": 0,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 1,
-      "daily_points": 1,
-      "total_points": 382,
+      "weekly_points": 3,
+      "daily_points": 3,
+      "total_points": 384,
       "wins": 32,
-      "participations": 76,
+      "participations": 77,
       "title": "ملك المقالات",
       "last_win": "2026-07-02T23:40:54",
-      "updated_at": "2026-07-03T00:01:14"
+      "updated_at": "2026-07-03T01:44:13"
     },
     "⠀⠀جـوج": {
       "weekly_points": 0,
@@ -866,14 +866,14 @@
       "updated_at": "2026-06-27T11:18:44"
     },
     "أبو زيــد": {
-      "weekly_points": 4,
-      "daily_points": 4,
-      "total_points": 477,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 483,
       "wins": 37,
-      "participations": 55,
+      "participations": 56,
       "title": "ملك المقالات",
       "last_win": "2026-07-02T01:09:44",
-      "updated_at": "2026-07-03T00:01:14"
+      "updated_at": "2026-07-03T01:44:13"
     },
     "بتصمل": {
       "weekly_points": 0,
@@ -917,6 +917,25 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 10
+        },
+        {
+          "name": "أبو زيــد",
+          "points": 6
+        },
+        {
+          "name": "AizeN ..",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-07-03T01:44:13"
+    },
     {
       "type": 25,
       "winner": "أدرينالين",
@@ -1491,17 +1510,6 @@
         }
       ],
       "created_at": "2026-07-02T12:58:33"
-    },
-    {
-      "type": 20,
-      "winner": "أدرينالين",
-      "participants": [
-        {
-          "name": "أدرينالين",
-          "points": 20
-        }
-      ],
-      "created_at": "2026-07-02T12:56:24"
     }
   ],
   "last_daily_reset": "2026-07-03T00:01:14",
