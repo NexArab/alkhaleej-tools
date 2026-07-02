@@ -1,19 +1,19 @@
 {
   "room": "المقالات",
   "weekly_champion": {
-    "name": "AizeN ..",
-    "points": 5,
+    "name": "ســاهــــر",
+    "points": 10,
     "week_of": "2026-07-02"
   },
-  "weekly_champion_set_at": "2026-07-02T23:43:31",
+  "weekly_champion_set_at": "2026-07-02T23:54:39",
   "daily_champion": {
     "name": "D E F",
     "points": 135,
     "date": "2026-07-02"
   },
   "daily_champion_set_at": "2026-07-02T00:11:16",
-  "last_reset": "2026-07-02T23:43:31",
-  "last_updated": "2026-07-02T23:43:31",
+  "last_reset": "2026-07-02T23:54:39",
+  "last_updated": "2026-07-02T23:54:39",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,7 +76,7 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 10,
+      "weekly_points": 0,
       "daily_points": 42,
       "total_points": 1313,
       "wins": 102,
@@ -306,14 +306,14 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 0,
-      "daily_points": 30,
-      "total_points": 878,
-      "wins": 60,
-      "participations": 74,
+      "weekly_points": 20,
+      "daily_points": 50,
+      "total_points": 898,
+      "wins": 61,
+      "participations": 75,
       "title": "ملك المقالات",
-      "last_win": "2026-07-02T13:00:05",
-      "updated_at": "2026-07-02T13:00:05"
+      "last_win": "2026-07-02T23:54:39",
+      "updated_at": "2026-07-02T23:54:39"
     },
     "نجر": {
       "weekly_points": 0,
@@ -918,6 +918,17 @@
   },
   "matches": [
     {
+      "type": 20,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 20
+        }
+      ],
+      "created_at": "2026-07-02T23:54:39"
+    },
+    {
       "type": 10,
       "winner": "ســاهــــر",
       "participants": [
@@ -1487,23 +1498,8 @@
         }
       ],
       "created_at": "2026-07-02T01:09:44"
-    },
-    {
-      "type": 10,
-      "winner": "أبو زيــد",
-      "participants": [
-        {
-          "name": "أبو زيــد",
-          "points": 10
-        },
-        {
-          "name": "AizeN ..",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-07-02T01:00:50"
     }
   ],
   "last_daily_reset": "2026-07-02T00:11:16",
-  "last_weekly_reset": "2026-07-02T23:43:31"
+  "last_weekly_reset": "2026-07-02T23:54:39"
 }
