@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-03T00:01:14",
   "last_reset": "2026-07-02T23:54:39",
-  "last_updated": "2026-07-03T20:05:11",
+  "last_updated": "2026-07-03T20:06:40",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 140,
-      "daily_points": 140,
-      "total_points": 3578,
-      "wins": 285,
-      "participations": 371,
+      "weekly_points": 145,
+      "daily_points": 145,
+      "total_points": 3583,
+      "wins": 286,
+      "participations": 372,
       "title": "ملك المقالات",
-      "last_win": "2026-07-03T20:05:11",
-      "updated_at": "2026-07-03T20:05:11"
+      "last_win": "2026-07-03T20:06:40",
+      "updated_at": "2026-07-03T20:06:40"
     },
     "كتب": {
       "weekly_points": 0,
@@ -916,17 +916,32 @@
       "updated_at": "2026-07-02T20:11:23"
     },
     "نسيني": {
-      "weekly_points": 19,
-      "daily_points": 19,
-      "total_points": 19,
+      "weekly_points": 22,
+      "daily_points": 22,
+      "total_points": 22,
       "wins": 0,
-      "participations": 7,
+      "participations": 8,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-07-03T20:05:11"
+      "updated_at": "2026-07-03T20:06:40"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 5
+        },
+        {
+          "name": "نسيني",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-07-03T20:06:40"
+    },
     {
       "type": 5,
       "winner": "ＣＰＵ ..",
@@ -1573,25 +1588,6 @@
         }
       ],
       "created_at": "2026-07-03T01:48:57"
-    },
-    {
-      "type": 10,
-      "winner": "أدرينالين",
-      "participants": [
-        {
-          "name": "أدرينالين",
-          "points": 10
-        },
-        {
-          "name": "أبو زيــد",
-          "points": 6
-        },
-        {
-          "name": "AizeN ..",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-07-03T01:44:13"
     }
   ],
   "last_daily_reset": "2026-07-03T00:01:14",
