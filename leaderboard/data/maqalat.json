@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-03T00:01:14",
   "last_reset": "2026-07-02T23:54:39",
-  "last_updated": "2026-07-03T11:57:44",
+  "last_updated": "2026-07-03T12:02:57",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 50,
-      "daily_points": 50,
-      "total_points": 1363,
+      "weekly_points": 57,
+      "daily_points": 57,
+      "total_points": 1370,
       "wins": 107,
-      "participations": 141,
+      "participations": 142,
       "title": "ملك المقالات",
       "last_win": "2026-07-03T11:57:44",
-      "updated_at": "2026-07-03T11:57:44"
+      "updated_at": "2026-07-03T12:02:57"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 68,
-      "daily_points": 68,
-      "total_points": 3506,
-      "wins": 275,
-      "participations": 356,
+      "weekly_points": 78,
+      "daily_points": 78,
+      "total_points": 3516,
+      "wins": 276,
+      "participations": 357,
       "title": "ملك المقالات",
-      "last_win": "2026-07-03T05:01:04",
-      "updated_at": "2026-07-03T05:01:04"
+      "last_win": "2026-07-03T12:02:57",
+      "updated_at": "2026-07-03T12:02:57"
     },
     "كتب": {
       "weekly_points": 0,
@@ -918,6 +918,21 @@
   },
   "matches": [
     {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "ســاهــــر",
+          "points": 7
+        }
+      ],
+      "created_at": "2026-07-03T12:02:57"
+    },
+    {
       "type": 5,
       "winner": "ســاهــــر",
       "participants": [
@@ -1515,21 +1530,6 @@
         }
       ],
       "created_at": "2026-07-02T19:02:56"
-    },
-    {
-      "type": 5,
-      "winner": "kiss",
-      "participants": [
-        {
-          "name": "kiss",
-          "points": 5
-        },
-        {
-          "name": "غـايب",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-07-02T19:01:05"
     }
   ],
   "last_daily_reset": "2026-07-03T00:01:14",
