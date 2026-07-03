@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-03T00:01:14",
   "last_reset": "2026-07-02T23:54:39",
-  "last_updated": "2026-07-03T20:36:43",
+  "last_updated": "2026-07-03T20:41:08",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 127,
-      "daily_points": 127,
-      "total_points": 1440,
-      "wins": 113,
-      "participations": 148,
+      "weekly_points": 132,
+      "daily_points": 132,
+      "total_points": 1445,
+      "wins": 114,
+      "participations": 149,
       "title": "ملك المقالات",
-      "last_win": "2026-07-03T20:36:43",
-      "updated_at": "2026-07-03T20:36:43"
+      "last_win": "2026-07-03T20:41:08",
+      "updated_at": "2026-07-03T20:41:08"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -928,6 +928,17 @@
   },
   "matches": [
     {
+      "type": 5,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-03T20:41:08"
+    },
+    {
       "type": 10,
       "winner": "ســاهــــر",
       "participants": [
@@ -1565,17 +1576,6 @@
         }
       ],
       "created_at": "2026-07-03T04:27:57"
-    },
-    {
-      "type": 5,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-03T03:56:17"
     }
   ],
   "last_daily_reset": "2026-07-03T00:01:14",
