@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-03T00:01:14",
   "last_reset": "2026-07-02T23:54:39",
-  "last_updated": "2026-07-03T11:56:12",
+  "last_updated": "2026-07-03T11:57:44",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 45,
-      "daily_points": 45,
-      "total_points": 1358,
-      "wins": 106,
-      "participations": 140,
+      "weekly_points": 50,
+      "daily_points": 50,
+      "total_points": 1363,
+      "wins": 107,
+      "participations": 141,
       "title": "ملك المقالات",
-      "last_win": "2026-07-03T11:56:12",
-      "updated_at": "2026-07-03T11:56:12"
+      "last_win": "2026-07-03T11:57:44",
+      "updated_at": "2026-07-03T11:57:44"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -918,6 +918,17 @@
   },
   "matches": [
     {
+      "type": 5,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-03T11:57:44"
+    },
+    {
       "type": 15,
       "winner": "ســاهــــر",
       "participants": [
@@ -1519,21 +1530,6 @@
         }
       ],
       "created_at": "2026-07-02T19:01:05"
-    },
-    {
-      "type": 5,
-      "winner": "kiss",
-      "participants": [
-        {
-          "name": "kiss",
-          "points": 5
-        },
-        {
-          "name": "غـايب",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-07-02T18:58:19"
     }
   ],
   "last_daily_reset": "2026-07-03T00:01:14",
