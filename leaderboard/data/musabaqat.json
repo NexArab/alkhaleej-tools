@@ -8,12 +8,12 @@
   "weekly_champion_set_at": "2026-07-02T01:09:07",
   "daily_champion": {
     "name": "Rio",
-    "points": 37,
-    "date": "2026-07-03"
+    "points": 25,
+    "date": "2026-07-04"
   },
-  "daily_champion_set_at": "2026-07-03T05:29:22",
+  "daily_champion_set_at": "2026-07-04T02:38:30",
   "last_reset": "2026-07-02T01:09:07",
-  "last_updated": "2026-07-03T06:49:37",
+  "last_updated": "2026-07-04T02:38:30",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "Rio": {
       "weekly_points": 62,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 1790,
       "wins": 182,
       "participations": 198,
@@ -676,14 +676,14 @@
       "updated_at": "2026-06-12T01:11:48"
     },
     "⠀⠀جـوج": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 371,
-      "wins": 42,
-      "participations": 48,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 381,
+      "wins": 43,
+      "participations": 49,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-29T23:18:28",
-      "updated_at": "2026-06-29T23:18:28"
+      "last_win": "2026-07-04T02:38:30",
+      "updated_at": "2026-07-04T02:38:30"
     },
     "Viper": {
       "weekly_points": 0,
@@ -887,16 +887,41 @@
     },
     "جراح": {
       "weekly_points": 11,
-      "daily_points": 11,
+      "daily_points": 0,
       "total_points": 11,
       "wins": 0,
       "participations": 3,
       "title": null,
       "last_win": null,
       "updated_at": "2026-07-03T06:49:37"
+    },
+    "N A I F": {
+      "weekly_points": 2,
+      "daily_points": 2,
+      "total_points": 2,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-07-04T02:38:30"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "⠀⠀جـوج",
+      "participants": [
+        {
+          "name": "⠀⠀جـوج",
+          "points": 10
+        },
+        {
+          "name": "N A I F",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-07-04T02:38:30"
+    },
     {
       "type": 5,
       "winner": "Rio",
@@ -1495,19 +1520,8 @@
         }
       ],
       "created_at": "2026-06-29T04:10:14"
-    },
-    {
-      "type": 10,
-      "winner": "vvf",
-      "participants": [
-        {
-          "name": "vvf",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-06-29T03:48:31"
     }
   ],
-  "last_daily_reset": "2026-07-03T05:29:22",
+  "last_daily_reset": "2026-07-04T02:38:30",
   "last_weekly_reset": "2026-07-02T01:09:07"
 }
