@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-03T00:01:14",
   "last_reset": "2026-07-02T23:54:39",
-  "last_updated": "2026-07-03T19:52:15",
+  "last_updated": "2026-07-03T19:56:36",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 105,
-      "daily_points": 105,
-      "total_points": 3543,
-      "wins": 279,
-      "participations": 365,
+      "weekly_points": 115,
+      "daily_points": 115,
+      "total_points": 3553,
+      "wins": 280,
+      "participations": 366,
       "title": "ملك المقالات",
-      "last_win": "2026-07-03T19:52:15",
-      "updated_at": "2026-07-03T19:52:15"
+      "last_win": "2026-07-03T19:56:36",
+      "updated_at": "2026-07-03T19:56:36"
     },
     "كتب": {
       "weekly_points": 0,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 95,
-      "daily_points": 95,
-      "total_points": 1736,
+      "weekly_points": 100,
+      "daily_points": 100,
+      "total_points": 1741,
       "wins": 264,
-      "participations": 339,
+      "participations": 340,
       "title": "ملك المقالات",
       "last_win": "2026-07-03T19:47:25",
-      "updated_at": "2026-07-03T19:52:15"
+      "updated_at": "2026-07-03T19:56:36"
     },
     "طرب": {
       "weekly_points": 0,
@@ -916,17 +916,36 @@
       "updated_at": "2026-07-02T20:11:23"
     },
     "نسيني": {
-      "weekly_points": 4,
-      "daily_points": 4,
-      "total_points": 4,
+      "weekly_points": 7,
+      "daily_points": 7,
+      "total_points": 7,
       "wins": 0,
-      "participations": 1,
+      "participations": 2,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-07-03T19:52:15"
+      "updated_at": "2026-07-03T19:56:36"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 10
+        },
+        {
+          "name": "D E F",
+          "points": 5
+        },
+        {
+          "name": "نسيني",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-07-03T19:56:36"
+    },
     {
       "type": 10,
       "winner": "ＣＰＵ ..",
@@ -1561,17 +1580,6 @@
         }
       ],
       "created_at": "2026-07-02T23:35:49"
-    },
-    {
-      "type": 10,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-07-02T23:32:19"
     }
   ],
   "last_daily_reset": "2026-07-03T00:01:14",
