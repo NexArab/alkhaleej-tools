@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-03T00:01:14",
   "last_reset": "2026-07-02T23:54:39",
-  "last_updated": "2026-07-03T22:10:59",
+  "last_updated": "2026-07-03T22:12:26",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -616,14 +616,14 @@
       "updated_at": "2026-06-16T22:26:28"
     },
     "غـايب": {
-      "weekly_points": 27,
-      "daily_points": 27,
-      "total_points": 508,
-      "wins": 63,
-      "participations": 94,
+      "weekly_points": 32,
+      "daily_points": 32,
+      "total_points": 513,
+      "wins": 64,
+      "participations": 95,
       "title": "ملك المقالات",
-      "last_win": "2026-07-03T22:10:59",
-      "updated_at": "2026-07-03T22:10:59"
+      "last_win": "2026-07-03T22:12:26",
+      "updated_at": "2026-07-03T22:12:26"
     },
     "نجر 215": {
       "weekly_points": 0,
@@ -927,6 +927,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "غـايب",
+      "participants": [
+        {
+          "name": "غـايب",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-03T22:12:26"
+    },
     {
       "type": 5,
       "winner": "غـايب",
@@ -1565,17 +1576,6 @@
         }
       ],
       "created_at": "2026-07-03T04:47:38"
-    },
-    {
-      "type": 10,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-07-03T04:44:55"
     }
   ],
   "last_daily_reset": "2026-07-03T00:01:14",
