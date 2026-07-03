@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-02T01:09:07",
   "daily_champion": {
-    "name": ".. سُوشي",
-    "points": 25,
-    "date": "2026-07-02"
+    "name": "Rio",
+    "points": 37,
+    "date": "2026-07-03"
   },
-  "daily_champion_set_at": "2026-07-02T01:09:07",
+  "daily_champion_set_at": "2026-07-03T05:29:22",
   "last_reset": "2026-07-02T01:09:07",
-  "last_updated": "2026-07-02T16:44:11",
+  "last_updated": "2026-07-03T05:29:22",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -27,7 +27,7 @@
     },
     "How?": {
       "weekly_points": 11,
-      "daily_points": 11,
+      "daily_points": 0,
       "total_points": 489,
       "wins": 77,
       "participations": 80,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-26T14:55:37"
     },
     "Rio": {
-      "weekly_points": 37,
-      "daily_points": 37,
-      "total_points": 1765,
-      "wins": 178,
-      "participations": 194,
+      "weekly_points": 47,
+      "daily_points": 10,
+      "total_points": 1775,
+      "wins": 179,
+      "participations": 195,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-02T05:23:32",
-      "updated_at": "2026-07-02T16:44:11"
+      "last_win": "2026-07-03T05:29:22",
+      "updated_at": "2026-07-03T05:29:22"
     },
     "ＣＰＵ   ..": {
       "weekly_points": 0,
@@ -127,7 +127,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 92,
       "wins": 11,
       "participations": 12,
@@ -857,7 +857,7 @@
     },
     "مَلك": {
       "weekly_points": 15,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 15,
       "wins": 3,
       "participations": 3,
@@ -867,7 +867,7 @@
     },
     "أبو زيــد": {
       "weekly_points": 14,
-      "daily_points": 14,
+      "daily_points": 0,
       "total_points": 14,
       "wins": 1,
       "participations": 2,
@@ -877,26 +877,27 @@
     },
     "س": {
       "weekly_points": 12,
-      "daily_points": 12,
+      "daily_points": 0,
       "total_points": 12,
       "wins": 1,
       "participations": 2,
       "title": "سيد المسابقات",
       "last_win": "2026-07-02T16:37:59",
       "updated_at": "2026-07-02T16:44:11"
-    },
-    "-  أحدهم  ..": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
-      "title": "سيد المسابقات",
-      "last_win": "2026-07-02T16:44:11",
-      "updated_at": "2026-07-02T16:44:11"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Rio",
+      "participants": [
+        {
+          "name": "Rio",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-07-03T05:29:22"
+    },
     {
       "type": 5,
       "winner": "-  أحدهم  ..",
@@ -1483,19 +1484,8 @@
         }
       ],
       "created_at": "2026-06-29T03:23:28"
-    },
-    {
-      "type": 5,
-      "winner": "Ricca",
-      "participants": [
-        {
-          "name": "Ricca",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-29T03:21:48"
     }
   ],
-  "last_daily_reset": "2026-07-02T01:09:07",
+  "last_daily_reset": "2026-07-03T05:29:22",
   "last_weekly_reset": "2026-07-02T01:09:07"
 }
