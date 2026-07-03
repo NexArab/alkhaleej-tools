@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-03T00:01:14",
   "last_reset": "2026-07-02T23:54:39",
-  "last_updated": "2026-07-03T20:01:36",
+  "last_updated": "2026-07-03T20:02:53",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -176,14 +176,14 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 130,
-      "daily_points": 130,
-      "total_points": 3568,
-      "wins": 283,
-      "participations": 369,
+      "weekly_points": 135,
+      "daily_points": 135,
+      "total_points": 3573,
+      "wins": 284,
+      "participations": 370,
       "title": "ملك المقالات",
-      "last_win": "2026-07-03T20:01:36",
-      "updated_at": "2026-07-03T20:01:36"
+      "last_win": "2026-07-03T20:02:53",
+      "updated_at": "2026-07-03T20:02:53"
     },
     "كتب": {
       "weekly_points": 0,
@@ -916,17 +916,32 @@
       "updated_at": "2026-07-02T20:11:23"
     },
     "نسيني": {
-      "weekly_points": 14,
-      "daily_points": 14,
-      "total_points": 14,
+      "weekly_points": 16,
+      "daily_points": 16,
+      "total_points": 16,
       "wins": 0,
-      "participations": 5,
+      "participations": 6,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-07-03T20:01:36"
+      "updated_at": "2026-07-03T20:02:53"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ＣＰＵ ..",
+      "participants": [
+        {
+          "name": "ＣＰＵ ..",
+          "points": 5
+        },
+        {
+          "name": "نسيني",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-07-03T20:02:53"
+    },
     {
       "type": 5,
       "winner": "ＣＰＵ ..",
@@ -1581,17 +1596,6 @@
         }
       ],
       "created_at": "2026-07-03T00:01:14"
-    },
-    {
-      "type": 20,
-      "winner": "أدرينالين",
-      "participants": [
-        {
-          "name": "أدرينالين",
-          "points": 20
-        }
-      ],
-      "created_at": "2026-07-02T23:54:39"
     }
   ],
   "last_daily_reset": "2026-07-03T00:01:14",
