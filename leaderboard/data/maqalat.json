@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-05T00:30:50",
   "last_reset": "2026-07-04T23:42:16",
-  "last_updated": "2026-07-05T01:16:18",
+  "last_updated": "2026-07-05T01:21:58",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 20,
-      "daily_points": 20,
-      "total_points": 1465,
-      "wins": 116,
-      "participations": 151,
+      "weekly_points": 30,
+      "daily_points": 30,
+      "total_points": 1475,
+      "wins": 117,
+      "participations": 152,
       "title": "ملك المقالات",
-      "last_win": "2026-07-05T01:16:18",
-      "updated_at": "2026-07-05T01:16:18"
+      "last_win": "2026-07-05T01:21:58",
+      "updated_at": "2026-07-05T01:21:58"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -866,14 +866,14 @@
       "updated_at": "2026-06-27T11:18:44"
     },
     "أبو زيــد": {
-      "weekly_points": 55,
-      "daily_points": 45,
-      "total_points": 583,
+      "weekly_points": 59,
+      "daily_points": 49,
+      "total_points": 587,
       "wins": 42,
-      "participations": 61,
+      "participations": 62,
       "title": "ملك المقالات",
       "last_win": "2026-07-05T01:09:27",
-      "updated_at": "2026-07-05T01:09:27"
+      "updated_at": "2026-07-05T01:21:58"
     },
     "بتصمل": {
       "weekly_points": 0,
@@ -937,6 +937,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 10
+        },
+        {
+          "name": "أبو زيــد",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-07-05T01:21:58"
+    },
     {
       "type": 10,
       "winner": "ســاهــــر",
@@ -1559,21 +1574,6 @@
         }
       ],
       "created_at": "2026-07-03T19:45:50"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        },
-        {
-          "name": "ＣＰＵ ..",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-07-03T19:44:47"
     }
   ],
   "last_daily_reset": "2026-07-05T00:30:50",
