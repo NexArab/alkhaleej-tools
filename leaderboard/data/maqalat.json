@@ -1,19 +1,19 @@
 {
   "room": "المقالات",
   "weekly_champion": {
-    "name": "ســاهــــر",
-    "points": 10,
-    "week_of": "2026-07-02"
+    "name": "D E F",
+    "points": 173,
+    "week_of": "2026-07-04"
   },
-  "weekly_champion_set_at": "2026-07-02T23:54:39",
+  "weekly_champion_set_at": "2026-07-04T23:42:16",
   "daily_champion": {
     "name": "ＣＰＵ ..",
     "points": 145,
     "date": "2026-07-04"
   },
   "daily_champion_set_at": "2026-07-04T01:49:04",
-  "last_reset": "2026-07-02T23:54:39",
-  "last_updated": "2026-07-04T22:41:39",
+  "last_reset": "2026-07-04T23:42:16",
+  "last_updated": "2026-07-04T23:42:16",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,7 +76,7 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 132,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 1445,
       "wins": 114,
@@ -126,7 +126,7 @@
       "updated_at": "2026-05-26T14:57:23"
     },
     "Rio": {
-      "weekly_points": 53,
+      "weekly_points": 0,
       "daily_points": 5,
       "total_points": 304,
       "wins": 50,
@@ -176,7 +176,7 @@
       "updated_at": "2026-05-27T12:22:35"
     },
     "ＣＰＵ ..": {
-      "weekly_points": 155,
+      "weekly_points": 0,
       "daily_points": 10,
       "total_points": 3593,
       "wins": 287,
@@ -306,7 +306,7 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 77,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 955,
       "wins": 64,
@@ -496,7 +496,7 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 44,
+      "weekly_points": 0,
       "daily_points": 31,
       "total_points": 425,
       "wins": 37,
@@ -616,7 +616,7 @@
       "updated_at": "2026-06-16T22:26:28"
     },
     "غـايب": {
-      "weekly_points": 70,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 551,
       "wins": 67,
@@ -756,7 +756,7 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 173,
+      "weekly_points": 0,
       "daily_points": 65,
       "total_points": 1814,
       "wins": 275,
@@ -866,14 +866,14 @@
       "updated_at": "2026-06-27T11:18:44"
     },
     "أبو زيــد": {
-      "weekly_points": 55,
-      "daily_points": 0,
-      "total_points": 528,
-      "wins": 39,
-      "participations": 58,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 538,
+      "wins": 40,
+      "participations": 59,
       "title": "ملك المقالات",
-      "last_win": "2026-07-03T02:05:47",
-      "updated_at": "2026-07-03T02:05:47"
+      "last_win": "2026-07-04T23:42:16",
+      "updated_at": "2026-07-04T23:42:16"
     },
     "بتصمل": {
       "weekly_points": 0,
@@ -896,7 +896,7 @@
       "updated_at": "2026-07-01T02:41:10"
     },
     "kiss": {
-      "weekly_points": 10,
+      "weekly_points": 0,
       "daily_points": 10,
       "total_points": 43,
       "wins": 7,
@@ -916,7 +916,7 @@
       "updated_at": "2026-07-02T20:11:23"
     },
     "نسيني": {
-      "weekly_points": 22,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 22,
       "wins": 0,
@@ -926,7 +926,7 @@
       "updated_at": "2026-07-03T20:06:40"
     },
     "هــديب": {
-      "weekly_points": 13,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 13,
       "wins": 2,
@@ -937,6 +937,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "أبو زيــد",
+      "participants": [
+        {
+          "name": "أبو زيــد",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-07-04T23:42:16"
+    },
     {
       "type": 5,
       "winner": "kiss",
@@ -1579,19 +1590,8 @@
         }
       ],
       "created_at": "2026-07-03T19:32:54"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-03T18:48:59"
     }
   ],
   "last_daily_reset": "2026-07-04T01:49:04",
-  "last_weekly_reset": "2026-07-02T23:54:39"
+  "last_weekly_reset": "2026-07-04T23:42:16"
 }
