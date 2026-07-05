@@ -7,17 +7,17 @@
   },
   "weekly_champion_set_at": "2026-07-04T23:42:16",
   "daily_champion": {
-    "name": "D E F",
-    "points": 65,
-    "date": "2026-07-05"
+    "name": "أبو زيــد",
+    "points": 113,
+    "date": "2026-07-06"
   },
-  "daily_champion_set_at": "2026-07-05T00:30:50",
+  "daily_champion_set_at": "2026-07-06T00:34:28",
   "last_reset": "2026-07-04T23:42:16",
-  "last_updated": "2026-07-05T23:57:39",
+  "last_updated": "2026-07-06T00:34:28",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 26,
-      "daily_points": 26,
+      "daily_points": 0,
       "total_points": 98,
       "wins": 4,
       "participations": 12,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 70,
-      "daily_points": 70,
+      "daily_points": 0,
       "total_points": 1515,
       "wins": 121,
       "participations": 156,
@@ -307,7 +307,7 @@
     },
     "أدرينالين": {
       "weekly_points": 105,
-      "daily_points": 105,
+      "daily_points": 0,
       "total_points": 1060,
       "wins": 71,
       "participations": 87,
@@ -497,7 +497,7 @@
     },
     "AizeN ..": {
       "weekly_points": 12,
-      "daily_points": 12,
+      "daily_points": 0,
       "total_points": 437,
       "wins": 38,
       "participations": 93,
@@ -616,14 +616,14 @@
       "updated_at": "2026-06-16T22:26:28"
     },
     "غـايب": {
-      "weekly_points": 13,
-      "daily_points": 13,
-      "total_points": 564,
-      "wins": 68,
-      "participations": 103,
+      "weekly_points": 18,
+      "daily_points": 5,
+      "total_points": 569,
+      "wins": 69,
+      "participations": 104,
       "title": "ملك المقالات",
-      "last_win": "2026-07-05T23:07:25",
-      "updated_at": "2026-07-05T23:43:45"
+      "last_win": "2026-07-06T00:34:28",
+      "updated_at": "2026-07-06T00:34:28"
     },
     "نجر 215": {
       "weekly_points": 0,
@@ -757,7 +757,7 @@
     },
     "D E F": {
       "weekly_points": 40,
-      "daily_points": 40,
+      "daily_points": 0,
       "total_points": 1854,
       "wins": 282,
       "participations": 360,
@@ -867,7 +867,7 @@
     },
     "أبو زيــد": {
       "weekly_points": 123,
-      "daily_points": 113,
+      "daily_points": 0,
       "total_points": 651,
       "wins": 46,
       "participations": 72,
@@ -887,7 +887,7 @@
     },
     "TRT": {
       "weekly_points": 59,
-      "daily_points": 59,
+      "daily_points": 0,
       "total_points": 72,
       "wins": 7,
       "participations": 9,
@@ -927,7 +927,7 @@
     },
     "هــديب": {
       "weekly_points": 22,
-      "daily_points": 22,
+      "daily_points": 0,
       "total_points": 35,
       "wins": 3,
       "participations": 11,
@@ -937,7 +937,7 @@
     },
     "ملعان بن تصبيعة الشلاويـح": {
       "weekly_points": 25,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 25,
       "wins": 1,
       "participations": 1,
@@ -947,6 +947,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "غـايب",
+      "participants": [
+        {
+          "name": "غـايب",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-06T00:34:28"
+    },
     {
       "type": 10,
       "winner": "أبو زيــد",
@@ -1597,19 +1608,8 @@
         }
       ],
       "created_at": "2026-07-04T22:11:16"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-04T20:27:53"
     }
   ],
-  "last_daily_reset": "2026-07-05T00:30:50",
+  "last_daily_reset": "2026-07-06T00:34:28",
   "last_weekly_reset": "2026-07-04T23:42:16"
 }
