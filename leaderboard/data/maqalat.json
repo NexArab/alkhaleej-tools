@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-05T00:30:50",
   "last_reset": "2026-07-04T23:42:16",
-  "last_updated": "2026-07-05T23:37:03",
+  "last_updated": "2026-07-05T23:43:45",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 26,
@@ -306,14 +306,14 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 85,
-      "daily_points": 85,
-      "total_points": 1040,
-      "wins": 70,
-      "participations": 86,
+      "weekly_points": 105,
+      "daily_points": 105,
+      "total_points": 1060,
+      "wins": 71,
+      "participations": 87,
       "title": "ملك المقالات",
-      "last_win": "2026-07-05T23:37:03",
-      "updated_at": "2026-07-05T23:37:03"
+      "last_win": "2026-07-05T23:43:45",
+      "updated_at": "2026-07-05T23:43:45"
     },
     "نجر": {
       "weekly_points": 0,
@@ -616,14 +616,14 @@
       "updated_at": "2026-06-16T22:26:28"
     },
     "غـايب": {
-      "weekly_points": 11,
-      "daily_points": 11,
-      "total_points": 562,
+      "weekly_points": 13,
+      "daily_points": 13,
+      "total_points": 564,
       "wins": 68,
-      "participations": 102,
+      "participations": 103,
       "title": "ملك المقالات",
       "last_win": "2026-07-05T23:07:25",
-      "updated_at": "2026-07-05T23:37:03"
+      "updated_at": "2026-07-05T23:43:45"
     },
     "نجر 215": {
       "weekly_points": 0,
@@ -866,14 +866,14 @@
       "updated_at": "2026-06-27T11:18:44"
     },
     "أبو زيــد": {
-      "weekly_points": 109,
-      "daily_points": 99,
-      "total_points": 637,
+      "weekly_points": 113,
+      "daily_points": 103,
+      "total_points": 641,
       "wins": 45,
-      "participations": 70,
+      "participations": 71,
       "title": "ملك المقالات",
       "last_win": "2026-07-05T23:05:12",
-      "updated_at": "2026-07-05T23:29:18"
+      "updated_at": "2026-07-05T23:43:45"
     },
     "بتصمل": {
       "weekly_points": 0,
@@ -947,6 +947,25 @@
     }
   },
   "matches": [
+    {
+      "type": 20,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 20
+        },
+        {
+          "name": "أبو زيــد",
+          "points": 4
+        },
+        {
+          "name": "غـايب",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-07-05T23:43:45"
+    },
     {
       "type": 20,
       "winner": "أدرينالين",
@@ -1589,17 +1608,6 @@
         }
       ],
       "created_at": "2026-07-04T20:18:19"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-04T20:15:46"
     }
   ],
   "last_daily_reset": "2026-07-05T00:30:50",
