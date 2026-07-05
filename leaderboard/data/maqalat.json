@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-05T00:30:50",
   "last_reset": "2026-07-04T23:42:16",
-  "last_updated": "2026-07-05T06:43:28",
+  "last_updated": "2026-07-05T06:45:28",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -886,14 +886,14 @@
       "updated_at": "2026-06-30T09:17:05"
     },
     "TRT": {
-      "weekly_points": 29,
-      "daily_points": 29,
-      "total_points": 42,
-      "wins": 3,
-      "participations": 5,
+      "weekly_points": 34,
+      "daily_points": 34,
+      "total_points": 47,
+      "wins": 4,
+      "participations": 6,
       "title": "ملك المقالات",
-      "last_win": "2026-07-05T06:39:37",
-      "updated_at": "2026-07-05T06:43:28"
+      "last_win": "2026-07-05T06:45:28",
+      "updated_at": "2026-07-05T06:45:28"
     },
     "kiss": {
       "weekly_points": 0,
@@ -926,14 +926,14 @@
       "updated_at": "2026-07-03T20:06:40"
     },
     "هــديب": {
-      "weekly_points": 9,
-      "daily_points": 9,
-      "total_points": 22,
+      "weekly_points": 12,
+      "daily_points": 12,
+      "total_points": 25,
       "wins": 3,
-      "participations": 7,
+      "participations": 8,
       "title": "ملك المقالات",
       "last_win": "2026-07-05T06:43:28",
-      "updated_at": "2026-07-05T06:43:28"
+      "updated_at": "2026-07-05T06:45:28"
     },
     "ملعان بن تصبيعة الشلاويـح": {
       "weekly_points": 25,
@@ -947,6 +947,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "TRT",
+      "participants": [
+        {
+          "name": "TRT",
+          "points": 5
+        },
+        {
+          "name": "هــديب",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-07-05T06:45:28"
+    },
     {
       "type": 5,
       "winner": "هــديب",
@@ -1537,21 +1552,6 @@
         }
       ],
       "created_at": "2026-07-03T20:15:30"
-    },
-    {
-      "type": 5,
-      "winner": "ＣＰＵ ..",
-      "participants": [
-        {
-          "name": "ＣＰＵ ..",
-          "points": 5
-        },
-        {
-          "name": "نسيني",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-07-03T20:06:40"
     }
   ],
   "last_daily_reset": "2026-07-05T00:30:50",
