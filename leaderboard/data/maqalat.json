@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-05T00:30:50",
   "last_reset": "2026-07-04T23:42:16",
-  "last_updated": "2026-07-05T22:45:10",
+  "last_updated": "2026-07-05T22:56:30",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 425,
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 426,
       "wins": 37,
-      "participations": 88,
+      "participations": 89,
       "title": "ملك المقالات",
       "last_win": "2026-07-04T22:19:13",
-      "updated_at": "2026-07-04T22:26:45"
+      "updated_at": "2026-07-05T22:56:30"
     },
     "⠀⠀جـوج": {
       "weekly_points": 0,
@@ -866,14 +866,14 @@
       "updated_at": "2026-06-27T11:18:44"
     },
     "أبو زيــد": {
-      "weekly_points": 61,
-      "daily_points": 51,
-      "total_points": 589,
-      "wins": 42,
-      "participations": 63,
+      "weekly_points": 86,
+      "daily_points": 76,
+      "total_points": 614,
+      "wins": 43,
+      "participations": 64,
       "title": "ملك المقالات",
-      "last_win": "2026-07-05T01:09:27",
-      "updated_at": "2026-07-05T22:41:41"
+      "last_win": "2026-07-05T22:56:30",
+      "updated_at": "2026-07-05T22:56:30"
     },
     "بتصمل": {
       "weekly_points": 0,
@@ -947,6 +947,21 @@
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "أبو زيــد",
+      "participants": [
+        {
+          "name": "أبو زيــد",
+          "points": 25
+        },
+        {
+          "name": "AizeN ..",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-07-05T22:56:30"
+    },
     {
       "type": 10,
       "winner": "D E F",
@@ -1553,17 +1568,6 @@
         }
       ],
       "created_at": "2026-07-03T22:41:23"
-    },
-    {
-      "type": 25,
-      "winner": "غـايب",
-      "participants": [
-        {
-          "name": "غـايب",
-          "points": 25
-        }
-      ],
-      "created_at": "2026-07-03T22:19:47"
     }
   ],
   "last_daily_reset": "2026-07-05T00:30:50",
