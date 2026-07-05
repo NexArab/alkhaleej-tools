@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-05T00:30:50",
   "last_reset": "2026-07-04T23:42:16",
-  "last_updated": "2026-07-05T23:07:25",
+  "last_updated": "2026-07-05T23:09:45",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,14 +306,14 @@
       "updated_at": "2026-06-01T05:41:35"
     },
     "أدرينالين": {
-      "weekly_points": 20,
-      "daily_points": 20,
-      "total_points": 975,
-      "wins": 65,
-      "participations": 81,
+      "weekly_points": 25,
+      "daily_points": 25,
+      "total_points": 980,
+      "wins": 66,
+      "participations": 82,
       "title": "ملك المقالات",
-      "last_win": "2026-07-05T20:25:51",
-      "updated_at": "2026-07-05T20:25:51"
+      "last_win": "2026-07-05T23:09:45",
+      "updated_at": "2026-07-05T23:09:45"
     },
     "نجر": {
       "weekly_points": 0,
@@ -866,14 +866,14 @@
       "updated_at": "2026-06-27T11:18:44"
     },
     "أبو زيــد": {
-      "weekly_points": 100,
-      "daily_points": 90,
-      "total_points": 628,
+      "weekly_points": 101,
+      "daily_points": 91,
+      "total_points": 629,
       "wins": 45,
-      "participations": 67,
+      "participations": 68,
       "title": "ملك المقالات",
       "last_win": "2026-07-05T23:05:12",
-      "updated_at": "2026-07-05T23:05:12"
+      "updated_at": "2026-07-05T23:09:45"
     },
     "بتصمل": {
       "weekly_points": 0,
@@ -947,6 +947,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 5
+        },
+        {
+          "name": "أبو زيــد",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-07-05T23:09:45"
+    },
     {
       "type": 5,
       "winner": "غـايب",
@@ -1553,17 +1568,6 @@
         }
       ],
       "created_at": "2026-07-04T01:49:04"
-    },
-    {
-      "type": 5,
-      "winner": "هــديب",
-      "participants": [
-        {
-          "name": "هــديب",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-03T22:50:05"
     }
   ],
   "last_daily_reset": "2026-07-05T00:30:50",
