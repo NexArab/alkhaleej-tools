@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-06T00:34:28",
   "last_reset": "2026-07-04T23:42:16",
-  "last_updated": "2026-07-06T07:15:27",
+  "last_updated": "2026-07-06T07:17:24",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 26,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 130,
-      "daily_points": 90,
-      "total_points": 1944,
-      "wins": 299,
-      "participations": 377,
+      "weekly_points": 135,
+      "daily_points": 95,
+      "total_points": 1949,
+      "wins": 300,
+      "participations": 378,
       "title": "ملك المقالات",
-      "last_win": "2026-07-06T07:15:27",
-      "updated_at": "2026-07-06T07:15:27"
+      "last_win": "2026-07-06T07:17:24",
+      "updated_at": "2026-07-06T07:17:24"
     },
     "طرب": {
       "weekly_points": 0,
@@ -947,6 +947,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-06T07:17:24"
+    },
     {
       "type": 10,
       "winner": "D E F",
@@ -1565,21 +1576,6 @@
         }
       ],
       "created_at": "2026-07-05T06:45:28"
-    },
-    {
-      "type": 5,
-      "winner": "هــديب",
-      "participants": [
-        {
-          "name": "هــديب",
-          "points": 5
-        },
-        {
-          "name": "TRT",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-07-05T06:43:28"
     }
   ],
   "last_daily_reset": "2026-07-06T00:34:28",
