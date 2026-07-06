@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-07T01:14:01",
   "last_reset": "2026-07-05T23:37:50",
-  "last_updated": "2026-07-07T01:29:34",
+  "last_updated": "2026-07-07T01:31:18",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -676,14 +676,14 @@
       "updated_at": "2026-06-12T01:11:48"
     },
     "⠀⠀جـوج": {
-      "weekly_points": 95,
-      "daily_points": 90,
-      "total_points": 531,
-      "wins": 60,
-      "participations": 66,
+      "weekly_points": 105,
+      "daily_points": 100,
+      "total_points": 541,
+      "wins": 61,
+      "participations": 67,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-07T01:29:34",
-      "updated_at": "2026-07-07T01:29:34"
+      "last_win": "2026-07-07T01:31:18",
+      "updated_at": "2026-07-07T01:31:18"
     },
     "Viper": {
       "weekly_points": 0,
@@ -954,9 +954,34 @@
       "title": "سيد المسابقات",
       "last_win": "2026-07-06T19:23:32",
       "updated_at": "2026-07-06T19:23:32"
+    },
+    "لُوبِيدٌ": {
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 1,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-07-07T01:31:18"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "⠀⠀جـوج",
+      "participants": [
+        {
+          "name": "⠀⠀جـوج",
+          "points": 10
+        },
+        {
+          "name": "لُوبِيدٌ",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-07-07T01:31:18"
+    },
     {
       "type": 10,
       "winner": "⠀⠀جـوج",
@@ -1535,21 +1560,6 @@
         }
       ],
       "created_at": "2026-07-02T01:33:28"
-    },
-    {
-      "type": 10,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 10
-        },
-        {
-          "name": "أبو زيــد",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-07-02T01:27:55"
     }
   ],
   "last_daily_reset": "2026-07-07T01:14:01",
