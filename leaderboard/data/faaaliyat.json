@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-02T05:18:17",
   "daily_champion": {
-    "name": "Rio",
+    "name": "ســاهــــر",
     "points": 10,
-    "date": "2026-07-06"
+    "date": "2026-07-07"
   },
-  "daily_champion_set_at": "2026-07-06T04:06:58",
+  "daily_champion_set_at": "2026-07-07T05:18:07",
   "last_reset": "2026-07-02T05:18:17",
-  "last_updated": "2026-07-06T18:21:30",
+  "last_updated": "2026-07-07T05:18:07",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -27,7 +27,7 @@
     },
     "Rio": {
       "weekly_points": 89,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 2057,
       "wins": 400,
       "participations": 423,
@@ -46,14 +46,14 @@
       "updated_at": "2026-05-29T06:48:00"
     },
     "vvf": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 490,
-      "wins": 89,
-      "participations": 109,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 495,
+      "wins": 90,
+      "participations": 110,
       "title": "بطل الفعاليات",
-      "last_win": "2026-06-29T03:17:03",
-      "updated_at": "2026-06-29T03:17:03"
+      "last_win": "2026-07-07T05:18:07",
+      "updated_at": "2026-07-07T05:18:07"
     },
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -327,7 +327,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 15,
       "wins": 3,
       "participations": 3,
@@ -427,6 +427,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "vvf",
+      "participants": [
+        {
+          "name": "vvf",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-07T05:18:07"
+    },
     {
       "type": 5,
       "winner": "ســاهــــر",
@@ -1005,19 +1016,8 @@
         }
       ],
       "created_at": "2026-06-28T12:37:21"
-    },
-    {
-      "type": 5,
-      "winner": "‎‎ ‏ ‏ هـنِيالك",
-      "participants": [
-        {
-          "name": "‎‎ ‏ ‏ هـنِيالك",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-28T05:40:30"
     }
   ],
-  "last_daily_reset": "2026-07-06T04:06:58",
+  "last_daily_reset": "2026-07-07T05:18:07",
   "last_weekly_reset": "2026-07-02T05:18:17"
 }
