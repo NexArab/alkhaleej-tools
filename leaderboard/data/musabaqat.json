@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-08T07:25:06",
   "last_reset": "2026-07-05T23:37:50",
-  "last_updated": "2026-07-08T22:21:53",
+  "last_updated": "2026-07-08T23:05:52",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -706,14 +706,14 @@
       "updated_at": "2026-06-19T03:52:09"
     },
     "AizeN ..": {
-      "weekly_points": 30,
-      "daily_points": 0,
-      "total_points": 163,
-      "wins": 26,
-      "participations": 37,
+      "weekly_points": 35,
+      "daily_points": 5,
+      "total_points": 168,
+      "wins": 27,
+      "participations": 38,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-06T23:29:22",
-      "updated_at": "2026-07-06T23:29:22"
+      "last_win": "2026-07-08T23:05:52",
+      "updated_at": "2026-07-08T23:05:52"
     },
     "££": {
       "weekly_points": 0,
@@ -977,6 +977,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "AizeN ..",
+      "participants": [
+        {
+          "name": "AizeN ..",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-08T23:05:52"
+    },
     {
       "type": 10,
       "winner": "ســـــكـــــرة",
@@ -1555,17 +1566,6 @@
         }
       ],
       "created_at": "2026-07-02T16:37:59"
-    },
-    {
-      "type": 10,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-07-02T05:23:32"
     }
   ],
   "last_daily_reset": "2026-07-08T07:25:06",
