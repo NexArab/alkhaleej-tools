@@ -8,12 +8,12 @@
   "weekly_champion_set_at": "2026-07-09T23:50:53",
   "daily_champion": {
     "name": "D E F",
-    "points": 190,
-    "date": "2026-07-09"
+    "points": 265,
+    "date": "2026-07-10"
   },
-  "daily_champion_set_at": "2026-07-09T00:34:27",
+  "daily_champion_set_at": "2026-07-10T00:21:33",
   "last_reset": "2026-07-09T23:50:53",
-  "last_updated": "2026-07-09T23:50:53",
+  "last_updated": "2026-07-10T00:21:33",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 0,
-      "daily_points": 79,
+      "daily_points": 0,
       "total_points": 1734,
       "wins": 138,
       "participations": 175,
@@ -757,7 +757,7 @@
     },
     "D E F": {
       "weekly_points": 0,
-      "daily_points": 265,
+      "daily_points": 0,
       "total_points": 2544,
       "wins": 415,
       "participations": 496,
@@ -867,7 +867,7 @@
     },
     "أبو زيــد": {
       "weekly_points": 25,
-      "daily_points": 45,
+      "daily_points": 0,
       "total_points": 731,
       "wins": 53,
       "participations": 79,
@@ -907,7 +907,7 @@
     },
     "Koshary": {
       "weekly_points": 0,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 85,
       "wins": 7,
       "participations": 7,
@@ -964,9 +964,30 @@
       "title": "ملك المقالات",
       "last_win": "2026-07-07T02:41:33",
       "updated_at": "2026-07-07T02:41:33"
+    },
+    "ريـان ..": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-07-10T00:21:33",
+      "updated_at": "2026-07-10T00:21:33"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ريـان ..",
+      "participants": [
+        {
+          "name": "ريـان ..",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-10T00:21:33"
+    },
     {
       "type": 25,
       "winner": "أبو زيــد",
@@ -1513,19 +1534,8 @@
         }
       ],
       "created_at": "2026-07-09T04:31:45"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-09T04:15:43"
     }
   ],
-  "last_daily_reset": "2026-07-09T00:34:27",
+  "last_daily_reset": "2026-07-10T00:21:33",
   "last_weekly_reset": "2026-07-09T23:50:53"
 }
