@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-10T00:21:33",
   "last_reset": "2026-07-09T23:50:53",
-  "last_updated": "2026-07-10T00:28:42",
+  "last_updated": "2026-07-10T00:56:37",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -906,14 +906,14 @@
       "updated_at": "2026-07-04T22:41:39"
     },
     "Koshary": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 85,
-      "wins": 7,
-      "participations": 7,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 95,
+      "wins": 8,
+      "participations": 8,
       "title": "ملك المقالات",
-      "last_win": "2026-07-09T00:39:59",
-      "updated_at": "2026-07-09T00:39:59"
+      "last_win": "2026-07-10T00:56:37",
+      "updated_at": "2026-07-10T00:56:37"
     },
     "نسيني": {
       "weekly_points": 0,
@@ -977,6 +977,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Koshary",
+      "participants": [
+        {
+          "name": "Koshary",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-07-10T00:56:37"
+    },
     {
       "type": 5,
       "winner": "ريـان ..",
@@ -1523,17 +1534,6 @@
         }
       ],
       "created_at": "2026-07-09T04:37:10"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-09T04:33:59"
     }
   ],
   "last_daily_reset": "2026-07-10T00:21:33",
