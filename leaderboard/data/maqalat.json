@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-09T00:34:27",
   "last_reset": "2026-07-09T00:34:27",
-  "last_updated": "2026-07-09T04:33:59",
+  "last_updated": "2026-07-09T04:37:10",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 75,
-      "daily_points": 75,
-      "total_points": 2354,
-      "wins": 378,
-      "participations": 459,
+      "weekly_points": 80,
+      "daily_points": 80,
+      "total_points": 2359,
+      "wins": 379,
+      "participations": 460,
       "title": "ملك المقالات",
-      "last_win": "2026-07-09T04:33:59",
-      "updated_at": "2026-07-09T04:33:59"
+      "last_win": "2026-07-09T04:37:10",
+      "updated_at": "2026-07-09T04:37:10"
     },
     "طرب": {
       "weekly_points": 0,
@@ -967,6 +967,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-09T04:37:10"
+    },
     {
       "type": 5,
       "winner": "D E F",
@@ -1505,17 +1516,6 @@
         }
       ],
       "created_at": "2026-07-08T03:48:40"
-    },
-    {
-      "type": 5,
-      "winner": "نسيني",
-      "participants": [
-        {
-          "name": "نسيني",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-08T03:46:36"
     }
   ],
   "last_daily_reset": "2026-07-09T00:34:27",
