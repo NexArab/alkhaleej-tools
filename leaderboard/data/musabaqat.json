@@ -2,18 +2,18 @@
   "room": "المسابقات",
   "weekly_champion": {
     "name": "⠀⠀جـوج",
-    "points": 65,
-    "week_of": "2026-07-05"
+    "points": 125,
+    "week_of": "2026-07-10"
   },
-  "weekly_champion_set_at": "2026-07-05T23:37:50",
+  "weekly_champion_set_at": "2026-07-10T05:44:01",
   "daily_champion": {
-    "name": "⠀⠀جـوج",
-    "points": 100,
-    "date": "2026-07-08"
+    "name": "Koshary",
+    "points": 30,
+    "date": "2026-07-10"
   },
-  "daily_champion_set_at": "2026-07-08T07:25:06",
-  "last_reset": "2026-07-05T23:37:50",
-  "last_updated": "2026-07-08T23:53:59",
+  "daily_champion_set_at": "2026-07-10T05:44:01",
+  "last_reset": "2026-07-10T05:44:01",
+  "last_updated": "2026-07-10T05:44:01",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-06-19T03:52:09"
     },
     "How?": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 489,
-      "wins": 77,
-      "participations": 80,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 494,
+      "wins": 78,
+      "participations": 81,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-02T01:27:55",
-      "updated_at": "2026-07-02T01:33:28"
+      "last_win": "2026-07-10T05:44:01",
+      "updated_at": "2026-07-10T05:44:01"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -396,7 +396,7 @@
       "updated_at": "2026-05-31T04:48:16"
     },
     "⠀⠀           محـمّد": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 68,
       "wins": 10,
@@ -676,8 +676,8 @@
       "updated_at": "2026-06-12T01:11:48"
     },
     "⠀⠀جـوج": {
-      "weekly_points": 125,
-      "daily_points": 20,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 561,
       "wins": 63,
       "participations": 69,
@@ -706,8 +706,8 @@
       "updated_at": "2026-06-19T03:52:09"
     },
     "AizeN ..": {
-      "weekly_points": 36,
-      "daily_points": 6,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 169,
       "wins": 27,
       "participations": 39,
@@ -776,8 +776,8 @@
       "updated_at": "2026-06-23T19:45:24"
     },
     "wlw": {
-      "weekly_points": 10,
-      "daily_points": 10,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 15,
       "wins": 2,
       "participations": 2,
@@ -786,7 +786,7 @@
       "updated_at": "2026-07-08T07:39:51"
     },
     "ˣ": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 10,
       "wins": 2,
@@ -816,7 +816,7 @@
       "updated_at": "2026-06-26T16:22:36"
     },
     "D E F": {
-      "weekly_points": 20,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 80,
       "wins": 14,
@@ -916,8 +916,8 @@
       "updated_at": "2026-07-04T02:59:16"
     },
     "Koshary": {
-      "weekly_points": 30,
-      "daily_points": 30,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 40,
       "wins": 5,
       "participations": 5,
@@ -936,7 +936,7 @@
       "updated_at": "2026-07-05T00:42:51"
     },
     "VIP": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 5,
       "wins": 1,
@@ -946,7 +946,7 @@
       "updated_at": "2026-07-06T16:55:57"
     },
     "Tareq": {
-      "weekly_points": 10,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 10,
       "wins": 1,
@@ -956,7 +956,7 @@
       "updated_at": "2026-07-06T19:23:32"
     },
     "لُوبِيدٌ": {
-      "weekly_points": 1,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 1,
       "wins": 0,
@@ -966,8 +966,8 @@
       "updated_at": "2026-07-07T01:31:18"
     },
     "ســـــكـــــرة": {
-      "weekly_points": 13,
-      "daily_points": 13,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 13,
       "wins": 1,
       "participations": 2,
@@ -977,6 +977,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-10T05:44:01"
+    },
     {
       "type": 10,
       "winner": "Koshary",
@@ -1547,23 +1558,8 @@
         }
       ],
       "created_at": "2026-07-03T06:47:12"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        },
-        {
-          "name": "جراح",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-07-03T06:44:32"
     }
   ],
-  "last_daily_reset": "2026-07-08T07:25:06",
-  "last_weekly_reset": "2026-07-05T23:37:50"
+  "last_daily_reset": "2026-07-10T05:44:01",
+  "last_weekly_reset": "2026-07-10T05:44:01"
 }
