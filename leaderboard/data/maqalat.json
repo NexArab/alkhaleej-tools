@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-10T00:21:33",
   "last_reset": "2026-07-09T23:50:53",
-  "last_updated": "2026-07-10T15:24:50",
+  "last_updated": "2026-07-10T15:31:21",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -316,14 +316,14 @@
       "updated_at": "2026-07-10T01:05:52"
     },
     "نجر": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 1457,
+      "weekly_points": 9,
+      "daily_points": 9,
+      "total_points": 1466,
       "wins": 83,
-      "participations": 146,
+      "participations": 147,
       "title": "ملك المقالات",
       "last_win": "2026-06-29T12:33:24",
-      "updated_at": "2026-06-29T12:33:24"
+      "updated_at": "2026-07-10T15:31:21"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -986,17 +986,32 @@
       "updated_at": "2026-07-10T08:22:07"
     },
     "Yohan ..": {
-      "weekly_points": 6,
-      "daily_points": 6,
-      "total_points": 6,
-      "wins": 1,
-      "participations": 2,
+      "weekly_points": 26,
+      "daily_points": 26,
+      "total_points": 26,
+      "wins": 2,
+      "participations": 3,
       "title": "ملك المقالات",
-      "last_win": "2026-07-10T15:24:50",
-      "updated_at": "2026-07-10T15:24:50"
+      "last_win": "2026-07-10T15:31:21",
+      "updated_at": "2026-07-10T15:31:21"
     }
   },
   "matches": [
+    {
+      "type": 20,
+      "winner": "Yohan ..",
+      "participants": [
+        {
+          "name": "Yohan ..",
+          "points": 20
+        },
+        {
+          "name": "نجر",
+          "points": 9
+        }
+      ],
+      "created_at": "2026-07-10T15:31:21"
+    },
     {
       "type": 5,
       "winner": "Yohan ..",
@@ -1539,17 +1554,6 @@
         }
       ],
       "created_at": "2026-07-10T08:28:18"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-10T08:26:16"
     }
   ],
   "last_daily_reset": "2026-07-10T00:21:33",
