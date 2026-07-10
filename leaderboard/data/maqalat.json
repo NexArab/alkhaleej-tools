@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-10T00:21:33",
   "last_reset": "2026-07-09T23:50:53",
-  "last_updated": "2026-07-10T18:44:44",
+  "last_updated": "2026-07-10T19:31:07",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -986,17 +986,28 @@
       "updated_at": "2026-07-10T08:22:07"
     },
     "Yohan ..": {
-      "weekly_points": 71,
-      "daily_points": 71,
-      "total_points": 71,
-      "wins": 6,
-      "participations": 7,
+      "weekly_points": 81,
+      "daily_points": 81,
+      "total_points": 81,
+      "wins": 7,
+      "participations": 8,
       "title": "ملك المقالات",
-      "last_win": "2026-07-10T18:44:44",
-      "updated_at": "2026-07-10T18:44:44"
+      "last_win": "2026-07-10T19:31:07",
+      "updated_at": "2026-07-10T19:31:07"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Yohan ..",
+      "participants": [
+        {
+          "name": "Yohan ..",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-07-10T19:31:07"
+    },
     {
       "type": 20,
       "winner": "Yohan ..",
@@ -1543,17 +1554,6 @@
         }
       ],
       "created_at": "2026-07-10T10:55:38"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-10T10:36:19"
     }
   ],
   "last_daily_reset": "2026-07-10T00:21:33",
