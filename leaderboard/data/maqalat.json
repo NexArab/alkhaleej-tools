@@ -8,12 +8,12 @@
   "weekly_champion_set_at": "2026-07-09T23:50:53",
   "daily_champion": {
     "name": "D E F",
-    "points": 500,
-    "date": "2026-07-11"
+    "points": 55,
+    "date": "2026-07-12"
   },
-  "daily_champion_set_at": "2026-07-11T03:23:51",
+  "daily_champion_set_at": "2026-07-12T04:43:30",
   "last_reset": "2026-07-09T23:50:53",
-  "last_updated": "2026-07-11T22:38:06",
+  "last_updated": "2026-07-12T04:43:30",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 20,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 1754,
       "wins": 140,
       "participations": 177,
@@ -267,7 +267,7 @@
     },
     "How?": {
       "weekly_points": 11,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 277,
       "wins": 31,
       "participations": 47,
@@ -617,7 +617,7 @@
     },
     "غـايب": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 594,
       "wins": 74,
       "participations": 109,
@@ -757,7 +757,7 @@
     },
     "D E F": {
       "weekly_points": 555,
-      "daily_points": 55,
+      "daily_points": 0,
       "total_points": 3099,
       "wins": 519,
       "participations": 600,
@@ -996,17 +996,28 @@
       "updated_at": "2026-07-10T19:31:07"
     },
     "⠀⠀Rio": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 10,
-      "wins": 2,
-      "participations": 2,
+      "weekly_points": 15,
+      "daily_points": 5,
+      "total_points": 15,
+      "wins": 3,
+      "participations": 3,
       "title": "ملك المقالات",
-      "last_win": "2026-07-11T03:56:53",
-      "updated_at": "2026-07-11T03:56:53"
+      "last_win": "2026-07-12T04:43:30",
+      "updated_at": "2026-07-12T04:43:30"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "⠀⠀Rio",
+      "participants": [
+        {
+          "name": "⠀⠀Rio",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-12T04:43:30"
+    },
     {
       "type": 5,
       "winner": "D E F",
@@ -1557,19 +1568,8 @@
         }
       ],
       "created_at": "2026-07-10T14:36:28"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-10T14:34:47"
     }
   ],
-  "last_daily_reset": "2026-07-11T03:23:51",
+  "last_daily_reset": "2026-07-12T04:43:30",
   "last_weekly_reset": "2026-07-09T23:50:53"
 }
