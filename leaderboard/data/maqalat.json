@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-12T04:43:30",
   "last_reset": "2026-07-12T23:02:33",
-  "last_updated": "2026-07-12T23:43:17",
+  "last_updated": "2026-07-12T23:45:25",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 1764,
+      "weekly_points": 12,
+      "daily_points": 12,
+      "total_points": 1766,
       "wins": 141,
-      "participations": 178,
+      "participations": 179,
       "title": "ملك المقالات",
       "last_win": "2026-07-12T23:38:57",
-      "updated_at": "2026-07-12T23:38:57"
+      "updated_at": "2026-07-12T23:45:25"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 50,
-      "daily_points": 110,
-      "total_points": 666,
-      "wins": 75,
-      "participations": 131,
+      "weekly_points": 55,
+      "daily_points": 115,
+      "total_points": 671,
+      "wins": 76,
+      "participations": 132,
       "title": "ملك المقالات",
-      "last_win": "2026-07-12T23:43:17",
-      "updated_at": "2026-07-12T23:43:17"
+      "last_win": "2026-07-12T23:45:25",
+      "updated_at": "2026-07-12T23:45:25"
     },
     "⠀⠀جـوج": {
       "weekly_points": 0,
@@ -1037,6 +1037,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "AizeN ..",
+      "participants": [
+        {
+          "name": "AizeN ..",
+          "points": 5
+        },
+        {
+          "name": "ســاهــــر",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-07-12T23:45:25"
+    },
     {
       "type": 10,
       "winner": "AizeN ..",
@@ -1575,25 +1590,6 @@
         }
       ],
       "created_at": "2026-07-12T15:54:00"
-    },
-    {
-      "type": 5,
-      "winner": "الوبلاني",
-      "participants": [
-        {
-          "name": "الوبلاني",
-          "points": 5
-        },
-        {
-          "name": "يأس",
-          "points": 3
-        },
-        {
-          "name": "D E F",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-07-12T15:43:57"
     }
   ],
   "last_daily_reset": "2026-07-12T04:43:30",
