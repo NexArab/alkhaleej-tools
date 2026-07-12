@@ -13,17 +13,17 @@
   },
   "daily_champion_set_at": "2026-07-12T04:46:54",
   "last_reset": "2026-07-10T05:44:01",
-  "last_updated": "2026-07-12T04:46:54",
+  "last_updated": "2026-07-12T05:21:56",
   "players": {
     "بَكـر الدُليمــــي": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 41,
-      "wins": 5,
-      "participations": 9,
+      "weekly_points": 15,
+      "daily_points": 15,
+      "total_points": 46,
+      "wins": 6,
+      "participations": 10,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-12T04:46:54",
-      "updated_at": "2026-07-12T04:46:54"
+      "last_win": "2026-07-12T05:21:56",
+      "updated_at": "2026-07-12T05:21:56"
     },
     "How?": {
       "weekly_points": 20,
@@ -998,6 +998,17 @@
   },
   "matches": [
     {
+      "type": 5,
+      "winner": "بَكـر الدُليمــــي",
+      "participants": [
+        {
+          "name": "بَكـر الدُليمــــي",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-12T05:21:56"
+    },
+    {
       "type": 10,
       "winner": "بَكـر الدُليمــــي",
       "participants": [
@@ -1551,17 +1562,6 @@
         }
       ],
       "created_at": "2026-07-06T02:26:02"
-    },
-    {
-      "type": 5,
-      "winner": "AizeN ..",
-      "participants": [
-        {
-          "name": "AizeN ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-05T23:37:50"
     }
   ],
   "last_daily_reset": "2026-07-12T04:46:54",
