@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-12T04:43:30",
   "last_reset": "2026-07-09T23:50:53",
-  "last_updated": "2026-07-12T15:35:37",
+  "last_updated": "2026-07-12T15:43:57",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 15,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 715,
-      "daily_points": 160,
-      "total_points": 3259,
+      "weekly_points": 717,
+      "daily_points": 162,
+      "total_points": 3261,
       "wins": 549,
-      "participations": 630,
+      "participations": 631,
       "title": "ملك المقالات",
       "last_win": "2026-07-12T15:35:37",
-      "updated_at": "2026-07-12T15:35:37"
+      "updated_at": "2026-07-12T15:43:57"
     },
     "طرب": {
       "weekly_points": 0,
@@ -1006,14 +1006,14 @@
       "updated_at": "2026-07-12T06:14:43"
     },
     "الوبلاني": {
-      "weekly_points": 18,
-      "daily_points": 18,
-      "total_points": 18,
-      "wins": 2,
-      "participations": 3,
+      "weekly_points": 23,
+      "daily_points": 23,
+      "total_points": 23,
+      "wins": 3,
+      "participations": 4,
       "title": "ملك المقالات",
-      "last_win": "2026-07-12T15:09:19",
-      "updated_at": "2026-07-12T15:29:46"
+      "last_win": "2026-07-12T15:43:57",
+      "updated_at": "2026-07-12T15:43:57"
     },
     "انس ضيف الله الضياني": {
       "weekly_points": 2,
@@ -1024,9 +1024,38 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-07-12T15:29:46"
+    },
+    "يأس": {
+      "weekly_points": 3,
+      "daily_points": 3,
+      "total_points": 3,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-07-12T15:43:57"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "الوبلاني",
+      "participants": [
+        {
+          "name": "الوبلاني",
+          "points": 5
+        },
+        {
+          "name": "يأس",
+          "points": 3
+        },
+        {
+          "name": "D E F",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-07-12T15:43:57"
+    },
     {
       "type": 5,
       "winner": "D E F",
@@ -1573,17 +1602,6 @@
         }
       ],
       "created_at": "2026-07-11T14:47:21"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-11T09:16:59"
     }
   ],
   "last_daily_reset": "2026-07-12T04:43:30",
