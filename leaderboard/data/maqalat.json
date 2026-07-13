@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-14T00:04:30",
   "last_reset": "2026-07-12T23:02:33",
-  "last_updated": "2026-07-14T00:23:00",
+  "last_updated": "2026-07-14T00:58:35",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -296,14 +296,14 @@
       "updated_at": "2026-05-31T04:02:24"
     },
     "جديبان بن شلاح الشلاويح": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 4,
-      "wins": 0,
-      "participations": 1,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-06-01T05:41:35"
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 9,
+      "wins": 1,
+      "participations": 2,
+      "title": "ملك المقالات",
+      "last_win": "2026-07-14T00:58:35",
+      "updated_at": "2026-07-14T00:58:35"
     },
     "أدرينالين": {
       "weekly_points": 5,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 76,
-      "daily_points": 0,
-      "total_points": 692,
+      "weekly_points": 79,
+      "daily_points": 3,
+      "total_points": 695,
       "wins": 80,
-      "participations": 137,
+      "participations": 138,
       "title": "ملك المقالات",
       "last_win": "2026-07-13T23:29:50",
-      "updated_at": "2026-07-13T23:29:50"
+      "updated_at": "2026-07-14T00:58:35"
     },
     "⠀⠀جـوج": {
       "weekly_points": 0,
@@ -1047,6 +1047,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "جديبان بن شلاح الشلاويح",
+      "participants": [
+        {
+          "name": "جديبان بن شلاح الشلاويح",
+          "points": 5
+        },
+        {
+          "name": "AizeN ..",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-07-14T00:58:35"
+    },
     {
       "type": 5,
       "winner": "D E F",
@@ -1597,17 +1612,6 @@
         }
       ],
       "created_at": "2026-07-12T22:32:13"
-    },
-    {
-      "type": 5,
-      "winner": "AizeN ..",
-      "participants": [
-        {
-          "name": "AizeN ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-12T22:29:29"
     }
   ],
   "last_daily_reset": "2026-07-14T00:04:30",
