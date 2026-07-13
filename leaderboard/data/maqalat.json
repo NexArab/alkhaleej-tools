@@ -8,12 +8,12 @@
   "weekly_champion_set_at": "2026-07-12T23:02:33",
   "daily_champion": {
     "name": "D E F",
-    "points": 342,
-    "date": "2026-07-13"
+    "points": 140,
+    "date": "2026-07-14"
   },
-  "daily_champion_set_at": "2026-07-13T09:11:01",
+  "daily_champion_set_at": "2026-07-14T00:04:30",
   "last_reset": "2026-07-12T23:02:33",
-  "last_updated": "2026-07-13T23:29:50",
+  "last_updated": "2026-07-14T00:04:30",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -137,7 +137,7 @@
     },
     "ضامي": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 262,
       "wins": 47,
       "participations": 50,
@@ -307,7 +307,7 @@
     },
     "أدرينالين": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 1303,
       "wins": 92,
       "participations": 109,
@@ -497,7 +497,7 @@
     },
     "AizeN ..": {
       "weekly_points": 76,
-      "daily_points": 21,
+      "daily_points": 0,
       "total_points": 692,
       "wins": 80,
       "participations": 137,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 140,
-      "daily_points": 140,
-      "total_points": 3581,
-      "wins": 607,
-      "participations": 689,
+      "weekly_points": 145,
+      "daily_points": 5,
+      "total_points": 3586,
+      "wins": 608,
+      "participations": 690,
       "title": "ملك المقالات",
-      "last_win": "2026-07-13T22:25:58",
-      "updated_at": "2026-07-13T22:25:58"
+      "last_win": "2026-07-14T00:04:30",
+      "updated_at": "2026-07-14T00:04:30"
     },
     "طرب": {
       "weekly_points": 0,
@@ -1037,7 +1037,7 @@
     },
     "difference": {
       "weekly_points": 9,
-      "daily_points": 9,
+      "daily_points": 0,
       "total_points": 9,
       "wins": 1,
       "participations": 2,
@@ -1047,6 +1047,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-14T00:04:30"
+    },
     {
       "type": 5,
       "winner": "AizeN ..",
@@ -1597,19 +1608,8 @@
         }
       ],
       "created_at": "2026-07-12T22:21:27"
-    },
-    {
-      "type": 5,
-      "winner": "AizeN ..",
-      "participants": [
-        {
-          "name": "AizeN ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-12T22:18:28"
     }
   ],
-  "last_daily_reset": "2026-07-13T09:11:01",
+  "last_daily_reset": "2026-07-14T00:04:30",
   "last_weekly_reset": "2026-07-12T23:02:33"
 }
