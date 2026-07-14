@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-10T05:44:01",
   "daily_champion": {
-    "name": "wlw",
-    "points": 20,
-    "date": "2026-07-14"
+    "name": "D E F",
+    "points": 30,
+    "date": "2026-07-15"
   },
-  "daily_champion_set_at": "2026-07-14T16:38:28",
+  "daily_champion_set_at": "2026-07-15T00:21:40",
   "last_reset": "2026-07-10T05:44:01",
-  "last_updated": "2026-07-14T23:35:38",
+  "last_updated": "2026-07-15T00:21:40",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 15,
@@ -397,7 +397,7 @@
     },
     "⠀⠀           محـمّد": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 73,
       "wins": 11,
       "participations": 12,
@@ -816,14 +816,14 @@
       "updated_at": "2026-06-26T16:22:36"
     },
     "D E F": {
-      "weekly_points": 65,
-      "daily_points": 30,
-      "total_points": 145,
-      "wins": 25,
-      "participations": 25,
+      "weekly_points": 70,
+      "daily_points": 5,
+      "total_points": 150,
+      "wins": 26,
+      "participations": 26,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-14T22:47:23",
-      "updated_at": "2026-07-14T22:47:23"
+      "last_win": "2026-07-15T00:21:40",
+      "updated_at": "2026-07-15T00:21:40"
     },
     "Ricca": {
       "weekly_points": 0,
@@ -997,7 +997,7 @@
     },
     "ㅤمّكَاتِيْبّ": {
       "weekly_points": 1,
-      "daily_points": 1,
+      "daily_points": 0,
       "total_points": 1,
       "wins": 0,
       "participations": 1,
@@ -1007,7 +1007,7 @@
     },
     "أدرينالين": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -1017,6 +1017,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-15T00:21:40"
+    },
     {
       "type": 5,
       "winner": "أدرينالين",
@@ -1575,19 +1586,8 @@
         }
       ],
       "created_at": "2026-07-07T01:31:18"
-    },
-    {
-      "type": 10,
-      "winner": "⠀⠀جـوج",
-      "participants": [
-        {
-          "name": "⠀⠀جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-07-07T01:29:34"
     }
   ],
-  "last_daily_reset": "2026-07-14T16:38:28",
+  "last_daily_reset": "2026-07-15T00:21:40",
   "last_weekly_reset": "2026-07-10T05:44:01"
 }
