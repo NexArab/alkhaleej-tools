@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-10T05:44:01",
   "daily_champion": {
-    "name": "How?",
-    "points": 45,
-    "date": "2026-07-13"
+    "name": "wlw",
+    "points": 20,
+    "date": "2026-07-14"
   },
-  "daily_champion_set_at": "2026-07-13T09:22:30",
+  "daily_champion_set_at": "2026-07-14T16:38:28",
   "last_reset": "2026-07-10T05:44:01",
-  "last_updated": "2026-07-13T18:19:16",
+  "last_updated": "2026-07-14T16:38:28",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 15,
@@ -396,14 +396,14 @@
       "updated_at": "2026-05-31T04:48:16"
     },
     "⠀⠀           محـمّد": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 68,
-      "wins": 10,
-      "participations": 11,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 73,
+      "wins": 11,
+      "participations": 12,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-06T13:33:47",
-      "updated_at": "2026-07-06T13:33:47"
+      "last_win": "2026-07-14T16:38:28",
+      "updated_at": "2026-07-14T16:38:28"
     },
     "𝒟𝒶𝓃": {
       "weekly_points": 0,
@@ -777,7 +777,7 @@
     },
     "wlw": {
       "weekly_points": 20,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 35,
       "wins": 5,
       "participations": 5,
@@ -917,7 +917,7 @@
     },
     "Koshary": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 50,
       "wins": 6,
       "participations": 6,
@@ -997,6 +997,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "⠀⠀           محـمّد",
+      "participants": [
+        {
+          "name": "⠀⠀           محـمّد",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-14T16:38:28"
+    },
     {
       "type": 10,
       "winner": "Koshary",
@@ -1551,19 +1562,8 @@
         }
       ],
       "created_at": "2026-07-07T01:17:32"
-    },
-    {
-      "type": 10,
-      "winner": "⠀⠀جـوج",
-      "participants": [
-        {
-          "name": "⠀⠀جـوج",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-07-07T01:15:42"
     }
   ],
-  "last_daily_reset": "2026-07-13T09:22:30",
+  "last_daily_reset": "2026-07-14T16:38:28",
   "last_weekly_reset": "2026-07-10T05:44:01"
 }
