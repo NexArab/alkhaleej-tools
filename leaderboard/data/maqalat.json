@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-15T00:02:43",
   "last_reset": "2026-07-12T23:02:33",
-  "last_updated": "2026-07-15T04:00:24",
+  "last_updated": "2026-07-15T04:09:13",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 22,
-      "daily_points": 10,
-      "total_points": 1776,
+      "weekly_points": 27,
+      "daily_points": 15,
+      "total_points": 1781,
       "wins": 142,
-      "participations": 180,
+      "participations": 181,
       "title": "ملك المقالات",
       "last_win": "2026-07-15T04:00:24",
-      "updated_at": "2026-07-15T04:00:24"
+      "updated_at": "2026-07-15T04:09:13"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -266,14 +266,14 @@
       "updated_at": "2026-05-31T12:22:30"
     },
     "How?": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 282,
-      "wins": 31,
-      "participations": 48,
+      "weekly_points": 15,
+      "daily_points": 15,
+      "total_points": 292,
+      "wins": 32,
+      "participations": 49,
       "title": "ملك المقالات",
-      "last_win": "2026-07-11T09:16:59",
-      "updated_at": "2026-07-15T04:00:24"
+      "last_win": "2026-07-15T04:09:13",
+      "updated_at": "2026-07-15T04:09:13"
     },
     "شين باء": {
       "weekly_points": 0,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 289,
-      "daily_points": 61,
-      "total_points": 3730,
+      "weekly_points": 293,
+      "daily_points": 65,
+      "total_points": 3734,
       "wins": 629,
-      "participations": 715,
+      "participations": 716,
       "title": "ملك المقالات",
       "last_win": "2026-07-15T02:43:53",
-      "updated_at": "2026-07-15T04:00:24"
+      "updated_at": "2026-07-15T04:09:13"
     },
     "طرب": {
       "weekly_points": 0,
@@ -1047,6 +1047,25 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 10
+        },
+        {
+          "name": "ســاهــــر",
+          "points": 5
+        },
+        {
+          "name": "D E F",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-07-15T04:09:13"
+    },
     {
       "type": 10,
       "winner": "ســاهــــر",
@@ -1621,17 +1640,6 @@
         }
       ],
       "created_at": "2026-07-13T23:06:12"
-    },
-    {
-      "type": 5,
-      "winner": "AizeN ..",
-      "participants": [
-        {
-          "name": "AizeN ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-13T23:04:07"
     }
   ],
   "last_daily_reset": "2026-07-15T00:02:43",
