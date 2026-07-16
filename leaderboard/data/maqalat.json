@@ -13,17 +13,17 @@
   },
   "daily_champion_set_at": "2026-07-16T01:22:14",
   "last_reset": "2026-07-16T01:22:14",
-  "last_updated": "2026-07-16T02:01:52",
+  "last_updated": "2026-07-16T06:34:45",
   "players": {
     "بَكـر الدُليمــــي": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 113,
-      "wins": 7,
-      "participations": 15,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 118,
+      "wins": 8,
+      "participations": 16,
       "title": "ملك المقالات",
-      "last_win": "2026-07-12T05:20:22",
-      "updated_at": "2026-07-12T05:20:22"
+      "last_win": "2026-07-16T06:34:45",
+      "updated_at": "2026-07-16T06:34:45"
     },
     "voeuxmi": {
       "weekly_points": 0,
@@ -1068,6 +1068,17 @@
   },
   "matches": [
     {
+      "type": 5,
+      "winner": "بَكـر الدُليمــــي",
+      "participants": [
+        {
+          "name": "بَكـر الدُليمــــي",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-16T06:34:45"
+    },
+    {
       "type": 15,
       "winner": "ســاهــــر",
       "participants": [
@@ -1637,21 +1648,6 @@
         }
       ],
       "created_at": "2026-07-14T07:16:44"
-    },
-    {
-      "type": 5,
-      "winner": "عقدوسوار",
-      "participants": [
-        {
-          "name": "عقدوسوار",
-          "points": 5
-        },
-        {
-          "name": "هــديب",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-07-14T07:14:29"
     }
   ],
   "last_daily_reset": "2026-07-16T01:22:14",
