@@ -8,16 +8,16 @@
   "weekly_champion_set_at": "2026-07-16T23:54:46",
   "daily_champion": {
     "name": "D E F",
-    "points": 95,
-    "date": "2026-07-16"
+    "points": 223,
+    "date": "2026-07-17"
   },
-  "daily_champion_set_at": "2026-07-16T01:22:14",
+  "daily_champion_set_at": "2026-07-17T00:06:46",
   "last_reset": "2026-07-16T23:54:46",
-  "last_updated": "2026-07-16T23:54:46",
+  "last_updated": "2026-07-17T00:06:46",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 118,
       "wins": 8,
       "participations": 16,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 0,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 1806,
       "wins": 144,
       "participations": 183,
@@ -267,7 +267,7 @@
     },
     "How?": {
       "weekly_points": 0,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 297,
       "wins": 33,
       "participations": 50,
@@ -307,7 +307,7 @@
     },
     "أدرينالين": {
       "weekly_points": 0,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 1383,
       "wins": 98,
       "participations": 115,
@@ -497,7 +497,7 @@
     },
     "AizeN ..": {
       "weekly_points": 0,
-      "daily_points": 26,
+      "daily_points": 0,
       "total_points": 746,
       "wins": 90,
       "participations": 149,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 0,
-      "daily_points": 223,
-      "total_points": 3987,
-      "wins": 667,
-      "participations": 755,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 3992,
+      "wins": 668,
+      "participations": 756,
       "title": "ملك المقالات",
-      "last_win": "2026-07-16T23:41:41",
-      "updated_at": "2026-07-16T23:41:41"
+      "last_win": "2026-07-17T00:06:46",
+      "updated_at": "2026-07-17T00:06:46"
     },
     "طرب": {
       "weekly_points": 0,
@@ -967,7 +967,7 @@
     },
     "ريـان ..": {
       "weekly_points": 0,
-      "daily_points": 4,
+      "daily_points": 0,
       "total_points": 16,
       "wins": 2,
       "participations": 4,
@@ -987,7 +987,7 @@
     },
     "Yohan ..": {
       "weekly_points": 0,
-      "daily_points": 60,
+      "daily_points": 0,
       "total_points": 291,
       "wins": 23,
       "participations": 24,
@@ -1057,7 +1057,7 @@
     },
     "مو رايـق": {
       "weekly_points": 5,
-      "daily_points": 65,
+      "daily_points": 0,
       "total_points": 65,
       "wins": 7,
       "participations": 7,
@@ -1067,6 +1067,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-17T00:06:46"
+    },
     {
       "type": 5,
       "winner": "مو رايـق",
@@ -1617,19 +1628,8 @@
         }
       ],
       "created_at": "2026-07-16T08:18:07"
-    },
-    {
-      "type": 25,
-      "winner": "Yohan ..",
-      "participants": [
-        {
-          "name": "Yohan ..",
-          "points": 25
-        }
-      ],
-      "created_at": "2026-07-16T08:10:27"
     }
   ],
-  "last_daily_reset": "2026-07-16T01:22:14",
+  "last_daily_reset": "2026-07-17T00:06:46",
   "last_weekly_reset": "2026-07-16T23:54:46"
 }
