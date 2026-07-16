@@ -5,15 +5,15 @@
     "points": 5,
     "week_of": "2026-07-16"
   },
-  "weekly_champion_set_at": "2026-07-16T23:40:01",
+  "weekly_champion_set_at": "2026-07-16T23:41:41",
   "daily_champion": {
     "name": "D E F",
     "points": 95,
     "date": "2026-07-16"
   },
   "daily_champion_set_at": "2026-07-16T01:22:14",
-  "last_reset": "2026-07-16T23:40:01",
-  "last_updated": "2026-07-16T23:40:01",
+  "last_reset": "2026-07-16T23:41:41",
+  "last_updated": "2026-07-16T23:41:41",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -757,13 +757,13 @@
     },
     "D E F": {
       "weekly_points": 5,
-      "daily_points": 218,
-      "total_points": 3982,
-      "wins": 666,
-      "participations": 754,
+      "daily_points": 223,
+      "total_points": 3987,
+      "wins": 667,
+      "participations": 755,
       "title": "ملك المقالات",
-      "last_win": "2026-07-16T23:40:01",
-      "updated_at": "2026-07-16T23:40:01"
+      "last_win": "2026-07-16T23:41:41",
+      "updated_at": "2026-07-16T23:41:41"
     },
     "طرب": {
       "weekly_points": 0,
@@ -966,7 +966,7 @@
       "updated_at": "2026-07-07T02:41:33"
     },
     "ريـان ..": {
-      "weekly_points": 4,
+      "weekly_points": 0,
       "daily_points": 4,
       "total_points": 16,
       "wins": 2,
@@ -1067,6 +1067,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-16T23:41:41"
+    },
     {
       "type": 5,
       "winner": "D E F",
@@ -1617,19 +1628,8 @@
         }
       ],
       "created_at": "2026-07-16T02:01:52"
-    },
-    {
-      "type": 5,
-      "winner": "مو رايـق",
-      "participants": [
-        {
-          "name": "مو رايـق",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-16T01:22:14"
     }
   ],
   "last_daily_reset": "2026-07-16T01:22:14",
-  "last_weekly_reset": "2026-07-16T23:40:01"
+  "last_weekly_reset": "2026-07-16T23:41:41"
 }
