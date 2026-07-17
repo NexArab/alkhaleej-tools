@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-17T00:06:46",
   "last_reset": "2026-07-16T23:54:46",
-  "last_updated": "2026-07-17T21:54:18",
+  "last_updated": "2026-07-17T21:57:22",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 41,
-      "daily_points": 41,
-      "total_points": 1847,
-      "wins": 148,
-      "participations": 189,
+      "weekly_points": 46,
+      "daily_points": 46,
+      "total_points": 1852,
+      "wins": 149,
+      "participations": 190,
       "title": "ملك المقالات",
-      "last_win": "2026-07-17T21:54:18",
-      "updated_at": "2026-07-17T21:54:18"
+      "last_win": "2026-07-17T21:57:22",
+      "updated_at": "2026-07-17T21:57:22"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 2,
-      "daily_points": 2,
-      "total_points": 748,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 751,
       "wins": 90,
-      "participations": 150,
+      "participations": 151,
       "title": "ملك المقالات",
       "last_win": "2026-07-16T21:57:41",
-      "updated_at": "2026-07-17T00:49:27"
+      "updated_at": "2026-07-17T21:57:22"
     },
     "⠀⠀جـوج": {
       "weekly_points": 0,
@@ -1068,6 +1068,21 @@
   },
   "matches": [
     {
+      "type": 5,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 5
+        },
+        {
+          "name": "AizeN ..",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-07-17T21:57:22"
+    },
+    {
       "type": 10,
       "winner": "ســاهــــر",
       "participants": [
@@ -1617,17 +1632,6 @@
         }
       ],
       "created_at": "2026-07-16T23:54:46"
-    },
-    {
-      "type": 5,
-      "winner": "مو رايـق",
-      "participants": [
-        {
-          "name": "مو رايـق",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-16T23:51:48"
     }
   ],
   "last_daily_reset": "2026-07-17T00:06:46",
