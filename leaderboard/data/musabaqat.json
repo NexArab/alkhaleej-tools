@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-16T09:34:04",
   "daily_champion": {
-    "name": "D E F",
-    "points": 20,
-    "date": "2026-07-16"
+    "name": "How?",
+    "points": 10,
+    "date": "2026-07-17"
   },
-  "daily_champion_set_at": "2026-07-16T09:34:04",
+  "daily_champion_set_at": "2026-07-17T05:29:25",
   "last_reset": "2026-07-16T09:34:04",
-  "last_updated": "2026-07-16T17:37:31",
+  "last_updated": "2026-07-17T05:29:25",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-07-12T05:21:56"
     },
     "How?": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 571,
-      "wins": 93,
-      "participations": 97,
+      "weekly_points": 15,
+      "daily_points": 5,
+      "total_points": 576,
+      "wins": 94,
+      "participations": 98,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-16T09:35:41",
-      "updated_at": "2026-07-16T09:35:41"
+      "last_win": "2026-07-17T05:29:25",
+      "updated_at": "2026-07-17T05:29:25"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -1024,19 +1024,20 @@
       "title": "سيد المسابقات",
       "last_win": "2026-07-15T12:59:06",
       "updated_at": "2026-07-15T12:59:06"
-    },
-    "- 7RB ..": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
-      "title": "سيد المسابقات",
-      "last_win": "2026-07-16T17:37:31",
-      "updated_at": "2026-07-16T17:37:31"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-17T05:29:25"
+    },
     {
       "type": 5,
       "winner": "- 7RB ..",
@@ -1587,19 +1588,8 @@
         }
       ],
       "created_at": "2026-07-10T05:45:04"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-10T05:44:01"
     }
   ],
-  "last_daily_reset": "2026-07-16T09:34:04",
+  "last_daily_reset": "2026-07-17T05:29:25",
   "last_weekly_reset": "2026-07-16T09:34:04"
 }
