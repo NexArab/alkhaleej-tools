@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-17T05:29:25",
   "last_reset": "2026-07-16T09:34:04",
-  "last_updated": "2026-07-17T10:23:11",
+  "last_updated": "2026-07-17T12:06:41",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1034,9 +1034,44 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-07-17T10:23:11"
+    },
+    "-  7S . .": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-07-17T12:06:41",
+      "updated_at": "2026-07-17T12:06:41"
+    },
+    "طلال": {
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 1,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-07-17T12:06:41"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "-  7S . .",
+      "participants": [
+        {
+          "name": "-  7S . .",
+          "points": 5
+        },
+        {
+          "name": "طلال",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-07-17T12:06:41"
+    },
     {
       "type": 5,
       "winner": "‎‎ ‏ ‏ هـنِيالك",
@@ -1591,17 +1626,6 @@
         }
       ],
       "created_at": "2026-07-10T15:55:08"
-    },
-    {
-      "type": 5,
-      "winner": ".. سُوشي",
-      "participants": [
-        {
-          "name": ".. سُوشي",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-10T15:28:47"
     }
   ],
   "last_daily_reset": "2026-07-17T05:29:25",
