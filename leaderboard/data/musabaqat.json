@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-18T23:43:44",
   "daily_champion": {
-    "name": "‎‎ ‏ ‏ هـنِيالك",
+    "name": "wlw",
     "points": 10,
-    "date": "2026-07-18"
+    "date": "2026-07-19"
   },
-  "daily_champion_set_at": "2026-07-18T05:36:50",
+  "daily_champion_set_at": "2026-07-19T02:54:31",
   "last_reset": "2026-07-18T23:43:44",
-  "last_updated": "2026-07-18T23:43:44",
+  "last_updated": "2026-07-19T02:54:31",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -246,14 +246,14 @@
       "updated_at": "2026-05-27T00:51:04"
     },
     "🪿": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 35,
+      "weekly_points": 4,
+      "daily_points": 4,
+      "total_points": 39,
       "wins": 4,
-      "participations": 4,
+      "participations": 5,
       "title": "سيد المسابقات",
       "last_win": "2026-05-29T06:57:54",
-      "updated_at": "2026-05-29T06:57:54"
+      "updated_at": "2026-07-19T02:54:31"
     },
     "جــوج": {
       "weekly_points": 0,
@@ -707,7 +707,7 @@
     },
     "AizeN ..": {
       "weekly_points": 0,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 174,
       "wins": 28,
       "participations": 40,
@@ -777,7 +777,7 @@
     },
     "wlw": {
       "weekly_points": 0,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 50,
       "wins": 7,
       "participations": 7,
@@ -927,7 +927,7 @@
     },
     "‎‎ ‏ ‏ هـنِيالك": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 20,
       "wins": 4,
       "participations": 4,
@@ -1047,16 +1047,41 @@
     },
     "𝙆𝙃𝘼𝙇𝙀𝘿": {
       "weekly_points": 0,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
       "title": "سيد المسابقات",
       "last_win": "2026-07-18T13:02:04",
       "updated_at": "2026-07-18T13:02:04"
+    },
+    "🦋 𝒜𝓂𝓊𝓁𝒶𝒽 🌹": {
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 10,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-07-19T02:54:31",
+      "updated_at": "2026-07-19T02:54:31"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "🦋 𝒜𝓂𝓊𝓁𝒶𝒽 🌹",
+      "participants": [
+        {
+          "name": "🦋 𝒜𝓂𝓊𝓁𝒶𝒽 🌹",
+          "points": 10
+        },
+        {
+          "name": "🪿",
+          "points": 4
+        }
+      ],
+      "created_at": "2026-07-19T02:54:31"
+    },
     {
       "type": 5,
       "winner": "‎‎ ‏ ‏ هـنِيالك",
@@ -1611,19 +1636,8 @@
         }
       ],
       "created_at": "2026-07-10T16:18:21"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-10T16:16:09"
     }
   ],
-  "last_daily_reset": "2026-07-18T05:36:50",
+  "last_daily_reset": "2026-07-19T02:54:31",
   "last_weekly_reset": "2026-07-18T23:43:44"
 }
