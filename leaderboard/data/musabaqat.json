@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-19T02:54:31",
   "last_reset": "2026-07-18T23:43:44",
-  "last_updated": "2026-07-19T15:22:51",
+  "last_updated": "2026-07-19T20:17:07",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-07-12T05:21:56"
     },
     "How?": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 586,
-      "wins": 96,
-      "participations": 100,
+      "weekly_points": 15,
+      "daily_points": 15,
+      "total_points": 591,
+      "wins": 97,
+      "participations": 101,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-19T15:22:51",
-      "updated_at": "2026-07-19T15:22:51"
+      "last_win": "2026-07-19T20:17:07",
+      "updated_at": "2026-07-19T20:17:07"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -1076,6 +1076,17 @@
           "points": 5
         }
       ],
+      "created_at": "2026-07-19T20:17:07"
+    },
+    {
+      "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
       "created_at": "2026-07-19T15:22:51"
     },
     {
@@ -1629,17 +1640,6 @@
         }
       ],
       "created_at": "2026-07-11T09:13:39"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-11T08:36:25"
     }
   ],
   "last_daily_reset": "2026-07-19T02:54:31",
