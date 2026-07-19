@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-19T00:50:59",
   "last_reset": "2026-07-16T23:54:46",
-  "last_updated": "2026-07-19T16:42:23",
+  "last_updated": "2026-07-19T17:08:27",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -896,14 +896,14 @@
       "updated_at": "2026-07-05T06:54:15"
     },
     "kiss": {
-      "weekly_points": 10,
-      "daily_points": 0,
-      "total_points": 53,
-      "wins": 8,
-      "participations": 9,
+      "weekly_points": 15,
+      "daily_points": 5,
+      "total_points": 58,
+      "wins": 9,
+      "participations": 10,
       "title": "ملك المقالات",
-      "last_win": "2026-07-17T02:42:57",
-      "updated_at": "2026-07-17T02:42:57"
+      "last_win": "2026-07-19T17:08:27",
+      "updated_at": "2026-07-19T17:08:27"
     },
     "Koshary": {
       "weekly_points": 0,
@@ -1077,6 +1077,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "kiss",
+      "participants": [
+        {
+          "name": "kiss",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-19T17:08:27"
+    },
     {
       "type": 5,
       "winner": "How?",
@@ -1627,21 +1638,6 @@
         }
       ],
       "created_at": "2026-07-18T02:13:17"
-    },
-    {
-      "type": 5,
-      "winner": "ريـان ..",
-      "participants": [
-        {
-          "name": "ريـان ..",
-          "points": 5
-        },
-        {
-          "name": "مو رايـق",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-07-18T02:10:21"
     }
   ],
   "last_daily_reset": "2026-07-19T00:50:59",
