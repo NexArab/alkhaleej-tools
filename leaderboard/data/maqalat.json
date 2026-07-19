@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-19T00:50:59",
   "last_reset": "2026-07-16T23:54:46",
-  "last_updated": "2026-07-19T05:33:41",
+  "last_updated": "2026-07-19T07:18:15",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1006,14 +1006,14 @@
       "updated_at": "2026-07-12T06:14:43"
     },
     "الوبلاني": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 23,
-      "wins": 3,
-      "participations": 4,
+      "weekly_points": 20,
+      "daily_points": 20,
+      "total_points": 43,
+      "wins": 4,
+      "participations": 5,
       "title": "ملك المقالات",
-      "last_win": "2026-07-12T15:43:57",
-      "updated_at": "2026-07-12T15:43:57"
+      "last_win": "2026-07-19T07:18:15",
+      "updated_at": "2026-07-19T07:18:15"
     },
     "انس ضيف الله الضياني": {
       "weekly_points": 0,
@@ -1077,6 +1077,17 @@
     }
   },
   "matches": [
+    {
+      "type": 20,
+      "winner": "الوبلاني",
+      "participants": [
+        {
+          "name": "الوبلاني",
+          "points": 20
+        }
+      ],
+      "created_at": "2026-07-19T07:18:15"
+    },
     {
       "type": 5,
       "winner": "D E F",
@@ -1639,17 +1650,6 @@
         }
       ],
       "created_at": "2026-07-17T21:57:22"
-    },
-    {
-      "type": 10,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-07-17T21:54:18"
     }
   ],
   "last_daily_reset": "2026-07-19T00:50:59",
