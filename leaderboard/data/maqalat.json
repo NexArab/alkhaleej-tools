@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-19T00:50:59",
   "last_reset": "2026-07-16T23:54:46",
-  "last_updated": "2026-07-19T07:22:45",
+  "last_updated": "2026-07-19T09:28:58",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 270,
-      "daily_points": 35,
-      "total_points": 4257,
-      "wins": 718,
-      "participations": 806,
+      "weekly_points": 275,
+      "daily_points": 40,
+      "total_points": 4262,
+      "wins": 719,
+      "participations": 807,
       "title": "ملك المقالات",
-      "last_win": "2026-07-19T05:33:41",
-      "updated_at": "2026-07-19T05:33:41"
+      "last_win": "2026-07-19T09:28:58",
+      "updated_at": "2026-07-19T09:28:58"
     },
     "طرب": {
       "weekly_points": 0,
@@ -1077,6 +1077,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-19T09:28:58"
+    },
     {
       "type": 5,
       "winner": "الوبلاني",
@@ -1631,17 +1642,6 @@
         }
       ],
       "created_at": "2026-07-17T22:25:19"
-    },
-    {
-      "type": 5,
-      "winner": "AizeN ..",
-      "participants": [
-        {
-          "name": "AizeN ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-17T22:20:01"
     }
   ],
   "last_daily_reset": "2026-07-19T00:50:59",
