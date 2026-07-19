@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-19T02:54:31",
   "last_reset": "2026-07-18T23:43:44",
-  "last_updated": "2026-07-19T02:54:31",
+  "last_updated": "2026-07-19T08:58:38",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -926,14 +926,14 @@
       "updated_at": "2026-07-13T18:19:16"
     },
     "‎‎ ‏ ‏ هـنِيالك": {
-      "weekly_points": 5,
-      "daily_points": 0,
-      "total_points": 20,
-      "wins": 4,
-      "participations": 4,
+      "weekly_points": 10,
+      "daily_points": 5,
+      "total_points": 25,
+      "wins": 5,
+      "participations": 5,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-18T23:43:44",
-      "updated_at": "2026-07-18T23:43:44"
+      "last_win": "2026-07-19T08:58:38",
+      "updated_at": "2026-07-19T08:58:38"
     },
     "VIP": {
       "weekly_points": 0,
@@ -1067,6 +1067,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "‎‎ ‏ ‏ هـنِيالك",
+      "participants": [
+        {
+          "name": "‎‎ ‏ ‏ هـنِيالك",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-19T08:58:38"
+    },
     {
       "type": 10,
       "winner": "🦋 𝒜𝓂𝓊𝓁𝒶𝒽 🌹",
@@ -1625,17 +1636,6 @@
         }
       ],
       "created_at": "2026-07-10T16:21:09"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-10T16:18:21"
     }
   ],
   "last_daily_reset": "2026-07-19T02:54:31",
