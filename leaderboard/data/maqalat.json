@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-19T00:50:59",
   "last_reset": "2026-07-16T23:54:46",
-  "last_updated": "2026-07-19T13:21:01",
+  "last_updated": "2026-07-19T13:23:46",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -986,14 +986,14 @@
       "updated_at": "2026-07-10T08:22:07"
     },
     "Yohan ..": {
-      "weekly_points": 40,
-      "daily_points": 10,
-      "total_points": 331,
-      "wins": 28,
-      "participations": 29,
+      "weekly_points": 45,
+      "daily_points": 15,
+      "total_points": 336,
+      "wins": 29,
+      "participations": 30,
       "title": "ملك المقالات",
-      "last_win": "2026-07-19T13:21:01",
-      "updated_at": "2026-07-19T13:21:01"
+      "last_win": "2026-07-19T13:23:46",
+      "updated_at": "2026-07-19T13:23:46"
     },
     "⠀⠀Rio": {
       "weekly_points": 0,
@@ -1077,6 +1077,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Yohan ..",
+      "participants": [
+        {
+          "name": "Yohan ..",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-19T13:23:46"
+    },
     {
       "type": 5,
       "winner": "Yohan ..",
@@ -1631,17 +1642,6 @@
         }
       ],
       "created_at": "2026-07-18T02:04:58"
-    },
-    {
-      "type": 5,
-      "winner": "ريـان ..",
-      "participants": [
-        {
-          "name": "ريـان ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-18T01:56:18"
     }
   ],
   "last_daily_reset": "2026-07-19T00:50:59",
