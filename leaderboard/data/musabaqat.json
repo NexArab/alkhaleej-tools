@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-20T03:03:29",
   "last_reset": "2026-07-18T23:43:44",
-  "last_updated": "2026-07-20T04:39:45",
+  "last_updated": "2026-07-20T05:17:46",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -276,14 +276,14 @@
       "updated_at": "2026-06-25T06:54:18"
     },
     "ضامي": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 76,
-      "wins": 15,
-      "participations": 16,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 81,
+      "wins": 16,
+      "participations": 17,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-26T15:56:23",
-      "updated_at": "2026-06-26T15:56:23"
+      "last_win": "2026-07-20T05:17:46",
+      "updated_at": "2026-07-20T05:17:46"
     },
     "💛💙 Champions 💛💙": {
       "weekly_points": 0,
@@ -1069,6 +1069,17 @@
   "matches": [
     {
       "type": 5,
+      "winner": "ضامي",
+      "participants": [
+        {
+          "name": "ضامي",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-20T05:17:46"
+    },
+    {
+      "type": 5,
       "winner": "‎‎ ‏ ‏ هـنِيالك",
       "participants": [
         {
@@ -1629,17 +1640,6 @@
         }
       ],
       "created_at": "2026-07-12T12:42:07"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-12T12:40:06"
     }
   ],
   "last_daily_reset": "2026-07-20T03:03:29",
