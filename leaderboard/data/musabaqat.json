@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-18T23:43:44",
   "daily_champion": {
-    "name": "wlw",
-    "points": 10,
-    "date": "2026-07-19"
+    "name": "How?",
+    "points": 15,
+    "date": "2026-07-20"
   },
-  "daily_champion_set_at": "2026-07-19T02:54:31",
+  "daily_champion_set_at": "2026-07-20T03:03:29",
   "last_reset": "2026-07-18T23:43:44",
-  "last_updated": "2026-07-19T20:17:07",
+  "last_updated": "2026-07-20T03:03:29",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -27,7 +27,7 @@
     },
     "How?": {
       "weekly_points": 15,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 591,
       "wins": 97,
       "participations": 101,
@@ -247,7 +247,7 @@
     },
     "🪿": {
       "weekly_points": 4,
-      "daily_points": 4,
+      "daily_points": 0,
       "total_points": 39,
       "wins": 4,
       "participations": 5,
@@ -816,14 +816,14 @@
       "updated_at": "2026-06-26T16:22:36"
     },
     "D E F": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 165,
-      "wins": 29,
-      "participations": 29,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 170,
+      "wins": 30,
+      "participations": 30,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-15T04:54:28",
-      "updated_at": "2026-07-15T04:54:28"
+      "last_win": "2026-07-20T03:03:29",
+      "updated_at": "2026-07-20T03:03:29"
     },
     "Ricca": {
       "weekly_points": 0,
@@ -927,7 +927,7 @@
     },
     "‎‎ ‏ ‏ هـنِيالك": {
       "weekly_points": 20,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 35,
       "wins": 7,
       "participations": 7,
@@ -1027,7 +1027,7 @@
     },
     "‎ 　‎‎ ‎ ‎ ‎‎ٌ": {
       "weekly_points": 1,
-      "daily_points": 1,
+      "daily_points": 0,
       "total_points": 4,
       "wins": 0,
       "participations": 2,
@@ -1057,7 +1057,7 @@
     },
     "🦋 𝒜𝓂𝓊𝓁𝒶𝒽 🌹": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 10,
       "wins": 1,
       "participations": 1,
@@ -1067,6 +1067,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-20T03:03:29"
+    },
     {
       "type": 5,
       "winner": "How?",
@@ -1629,19 +1640,8 @@
         }
       ],
       "created_at": "2026-07-12T04:46:54"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-11T09:13:39"
     }
   ],
-  "last_daily_reset": "2026-07-19T02:54:31",
+  "last_daily_reset": "2026-07-20T03:03:29",
   "last_weekly_reset": "2026-07-18T23:43:44"
 }
