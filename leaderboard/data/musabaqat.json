@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-18T23:43:44",
   "daily_champion": {
-    "name": "How?",
+    "name": "D E F",
     "points": 15,
-    "date": "2026-07-20"
+    "date": "2026-07-21"
   },
-  "daily_champion_set_at": "2026-07-20T03:03:29",
+  "daily_champion_set_at": "2026-07-21T03:45:08",
   "last_reset": "2026-07-18T23:43:44",
-  "last_updated": "2026-07-20T09:59:00",
+  "last_updated": "2026-07-21T03:45:08",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -277,7 +277,7 @@
     },
     "ضامي": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 81,
       "wins": 16,
       "participations": 17,
@@ -817,7 +817,7 @@
     },
     "D E F": {
       "weekly_points": 15,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 180,
       "wins": 32,
       "participations": 32,
@@ -926,14 +926,14 @@
       "updated_at": "2026-07-13T18:19:16"
     },
     "‎‎ ‏ ‏ هـنِيالك": {
-      "weekly_points": 30,
-      "daily_points": 10,
-      "total_points": 45,
-      "wins": 9,
-      "participations": 9,
+      "weekly_points": 35,
+      "daily_points": 5,
+      "total_points": 50,
+      "wins": 10,
+      "participations": 10,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-20T09:59:00",
-      "updated_at": "2026-07-20T09:59:00"
+      "last_win": "2026-07-21T03:45:08",
+      "updated_at": "2026-07-21T03:45:08"
     },
     "VIP": {
       "weekly_points": 0,
@@ -1067,6 +1067,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "‎‎ ‏ ‏ هـنِيالك",
+      "participants": [
+        {
+          "name": "‎‎ ‏ ‏ هـنِيالك",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-21T03:45:08"
+    },
     {
       "type": 5,
       "winner": "‎‎ ‏ ‏ هـنِيالك",
@@ -1629,19 +1640,8 @@
         }
       ],
       "created_at": "2026-07-12T12:44:59"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-12T12:43:24"
     }
   ],
-  "last_daily_reset": "2026-07-20T03:03:29",
+  "last_daily_reset": "2026-07-21T03:45:08",
   "last_weekly_reset": "2026-07-18T23:43:44"
 }
