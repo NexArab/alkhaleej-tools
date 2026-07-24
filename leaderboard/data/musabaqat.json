@@ -1,19 +1,19 @@
 {
   "room": "المسابقات",
   "weekly_champion": {
-    "name": "How?",
-    "points": 15,
-    "week_of": "2026-07-18"
-  },
-  "weekly_champion_set_at": "2026-07-18T23:43:44",
-  "daily_champion": {
     "name": "‎‎ ‏ ‏ هـنِيالك",
-    "points": 5,
-    "date": "2026-07-22"
+    "points": 35,
+    "week_of": "2026-07-24"
   },
-  "daily_champion_set_at": "2026-07-22T05:23:22",
-  "last_reset": "2026-07-18T23:43:44",
-  "last_updated": "2026-07-22T14:51:58",
+  "weekly_champion_set_at": "2026-07-24T20:51:23",
+  "daily_champion": {
+    "name": "‎ 　‎‎ ‎ ‎ ‎‎ٌ",
+    "points": 5,
+    "date": "2026-07-24"
+  },
+  "daily_champion_set_at": "2026-07-24T20:51:23",
+  "last_reset": "2026-07-24T20:51:23",
+  "last_updated": "2026-07-24T20:51:23",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,7 +26,7 @@
       "updated_at": "2026-07-12T05:21:56"
     },
     "How?": {
-      "weekly_points": 15,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 591,
       "wins": 97,
@@ -246,7 +246,7 @@
       "updated_at": "2026-05-27T00:51:04"
     },
     "🪿": {
-      "weekly_points": 4,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 39,
       "wins": 4,
@@ -276,7 +276,7 @@
       "updated_at": "2026-06-25T06:54:18"
     },
     "ضامي": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 81,
       "wins": 16,
@@ -816,7 +816,7 @@
       "updated_at": "2026-06-26T16:22:36"
     },
     "D E F": {
-      "weekly_points": 15,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 180,
       "wins": 32,
@@ -926,7 +926,7 @@
       "updated_at": "2026-07-13T18:19:16"
     },
     "‎‎ ‏ ‏ هـنِيالك": {
-      "weekly_points": 35,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 50,
       "wins": 10,
@@ -1026,8 +1026,8 @@
       "updated_at": "2026-07-15T12:59:06"
     },
     "‎ 　‎‎ ‎ ‎ ‎‎ٌ": {
-      "weekly_points": 6,
-      "daily_points": 5,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 9,
       "wins": 1,
       "participations": 3,
@@ -1056,7 +1056,7 @@
       "updated_at": "2026-07-18T13:02:04"
     },
     "🦋 𝒜𝓂𝓊𝓁𝒶𝒽 🌹": {
-      "weekly_points": 10,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 10,
       "wins": 1,
@@ -1066,17 +1066,38 @@
       "updated_at": "2026-07-19T02:54:31"
     },
     "💕": {
-      "weekly_points": 5,
-      "daily_points": 5,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
       "title": "سيد المسابقات",
       "last_win": "2026-07-22T14:51:58",
       "updated_at": "2026-07-22T14:51:58"
+    },
+    "Ttt": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-07-24T20:51:23",
+      "updated_at": "2026-07-24T20:51:23"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Ttt",
+      "participants": [
+        {
+          "name": "Ttt",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-24T20:51:23"
+    },
     {
       "type": 5,
       "winner": "💕",
@@ -1639,19 +1660,8 @@
         }
       ],
       "created_at": "2026-07-12T12:51:31"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-12T12:49:29"
     }
   ],
-  "last_daily_reset": "2026-07-22T05:23:22",
-  "last_weekly_reset": "2026-07-18T23:43:44"
+  "last_daily_reset": "2026-07-24T20:51:23",
+  "last_weekly_reset": "2026-07-24T20:51:23"
 }
