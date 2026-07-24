@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-23T00:17:43",
   "daily_champion": {
-    "name": "ســاهــــر",
-    "points": 45,
-    "date": "2026-07-23"
+    "name": "D E F",
+    "points": 60,
+    "date": "2026-07-24"
   },
-  "daily_champion_set_at": "2026-07-23T00:17:43",
+  "daily_champion_set_at": "2026-07-24T19:50:07",
   "last_reset": "2026-07-23T00:17:43",
-  "last_updated": "2026-07-23T22:19:53",
+  "last_updated": "2026-07-24T19:50:07",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -267,7 +267,7 @@
     },
     "How?": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 352,
       "wins": 41,
       "participations": 58,
@@ -497,7 +497,7 @@
     },
     "AizeN ..": {
       "weekly_points": 25,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 863,
       "wins": 110,
       "participations": 173,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 60,
-      "daily_points": 60,
-      "total_points": 4692,
-      "wins": 795,
-      "participations": 883,
+      "weekly_points": 65,
+      "daily_points": 5,
+      "total_points": 4697,
+      "wins": 796,
+      "participations": 884,
       "title": "ملك المقالات",
-      "last_win": "2026-07-23T17:52:08",
-      "updated_at": "2026-07-23T17:52:08"
+      "last_win": "2026-07-24T19:50:07",
+      "updated_at": "2026-07-24T19:50:07"
     },
     "طرب": {
       "weekly_points": 0,
@@ -1077,6 +1077,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-24T19:50:07"
+    },
     {
       "type": 5,
       "winner": "AizeN ..",
@@ -1615,19 +1626,8 @@
         }
       ],
       "created_at": "2026-07-21T10:19:16"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-21T09:09:52"
     }
   ],
-  "last_daily_reset": "2026-07-23T00:17:43",
+  "last_daily_reset": "2026-07-24T19:50:07",
   "last_weekly_reset": "2026-07-23T00:17:43"
 }
