@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-24T23:15:17",
   "daily_champion": {
-    "name": "ســاهــــر",
-    "points": 45,
-    "date": "2026-07-26"
+    "name": "D E F",
+    "points": 60,
+    "date": "2026-07-27"
   },
-  "daily_champion_set_at": "2026-07-26T13:59:44",
+  "daily_champion_set_at": "2026-07-27T00:19:09",
   "last_reset": "2026-07-24T23:15:17",
-  "last_updated": "2026-07-26T21:04:33",
+  "last_updated": "2026-07-27T00:19:09",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 55,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 2007,
       "wins": 164,
       "participations": 206,
@@ -306,14 +306,14 @@
       "updated_at": "2026-07-14T00:58:35"
     },
     "أدرينالين": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 1388,
-      "wins": 99,
-      "participations": 116,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 1393,
+      "wins": 100,
+      "participations": 117,
       "title": "ملك المقالات",
-      "last_win": "2026-07-18T01:12:51",
-      "updated_at": "2026-07-18T01:12:51"
+      "last_win": "2026-07-27T00:19:09",
+      "updated_at": "2026-07-27T00:19:09"
     },
     "نجر": {
       "weekly_points": 10,
@@ -757,7 +757,7 @@
     },
     "D E F": {
       "weekly_points": 90,
-      "daily_points": 60,
+      "daily_points": 0,
       "total_points": 4822,
       "wins": 818,
       "participations": 906,
@@ -1077,6 +1077,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-27T00:19:09"
+    },
     {
       "type": 5,
       "winner": "D E F",
@@ -1619,19 +1630,8 @@
         }
       ],
       "created_at": "2026-07-23T10:16:52"
-    },
-    {
-      "type": 5,
-      "winner": "AizeN ..",
-      "participants": [
-        {
-          "name": "AizeN ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-23T00:21:23"
     }
   ],
-  "last_daily_reset": "2026-07-26T13:59:44",
+  "last_daily_reset": "2026-07-27T00:19:09",
   "last_weekly_reset": "2026-07-24T23:15:17"
 }
