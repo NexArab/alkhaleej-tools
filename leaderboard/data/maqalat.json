@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-24T23:15:17",
   "daily_champion": {
-    "name": "D E F",
-    "points": 60,
-    "date": "2026-07-27"
+    "name": "ســاهــــر",
+    "points": 40,
+    "date": "2026-07-28"
   },
-  "daily_champion_set_at": "2026-07-27T00:19:09",
+  "daily_champion_set_at": "2026-07-28T01:26:42",
   "last_reset": "2026-07-24T23:15:17",
-  "last_updated": "2026-07-27T22:27:52",
+  "last_updated": "2026-07-28T01:26:42",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 95,
-      "daily_points": 40,
+      "daily_points": 0,
       "total_points": 2047,
       "wins": 168,
       "participations": 210,
@@ -267,7 +267,7 @@
     },
     "How?": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 357,
       "wins": 42,
       "participations": 59,
@@ -307,7 +307,7 @@
     },
     "أدرينالين": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 1398,
       "wins": 101,
       "participations": 118,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 11,
-      "daily_points": 1,
-      "total_points": 894,
-      "wins": 116,
-      "participations": 180,
+      "weekly_points": 16,
+      "daily_points": 5,
+      "total_points": 899,
+      "wins": 117,
+      "participations": 181,
       "title": "ملك المقالات",
-      "last_win": "2026-07-25T21:16:21",
-      "updated_at": "2026-07-27T22:24:01"
+      "last_win": "2026-07-28T01:26:42",
+      "updated_at": "2026-07-28T01:26:42"
     },
     "⠀⠀جـوج": {
       "weekly_points": 0,
@@ -1078,6 +1078,17 @@
   },
   "matches": [
     {
+      "type": 5,
+      "winner": "AizeN ..",
+      "participants": [
+        {
+          "name": "AizeN ..",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-28T01:26:42"
+    },
+    {
       "type": 10,
       "winner": "ســاهــــر",
       "participants": [
@@ -1623,19 +1634,8 @@
         }
       ],
       "created_at": "2026-07-23T13:14:32"
-    },
-    {
-      "type": 10,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-07-23T12:36:03"
     }
   ],
-  "last_daily_reset": "2026-07-27T00:19:09",
+  "last_daily_reset": "2026-07-28T01:26:42",
   "last_weekly_reset": "2026-07-24T23:15:17"
 }
