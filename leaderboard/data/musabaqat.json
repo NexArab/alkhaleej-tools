@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-24T20:51:23",
   "daily_champion": {
-    "name": ".. سُوشي",
-    "points": 45,
-    "date": "2026-07-27"
+    "name": "How?",
+    "points": 20,
+    "date": "2026-07-28"
   },
-  "daily_champion_set_at": "2026-07-27T23:17:32",
+  "daily_champion_set_at": "2026-07-28T21:36:22",
   "last_reset": "2026-07-24T20:51:23",
-  "last_updated": "2026-07-27T23:22:47",
+  "last_updated": "2026-07-28T21:36:22",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-07-12T05:21:56"
     },
     "How?": {
-      "weekly_points": 30,
-      "daily_points": 20,
-      "total_points": 621,
-      "wins": 103,
-      "participations": 107,
+      "weekly_points": 35,
+      "daily_points": 5,
+      "total_points": 626,
+      "wins": 104,
+      "participations": 108,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-27T23:22:47",
-      "updated_at": "2026-07-27T23:22:47"
+      "last_win": "2026-07-28T21:36:22",
+      "updated_at": "2026-07-28T21:36:22"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -1117,7 +1117,7 @@
     },
     "ريـان ..": {
       "weekly_points": 2,
-      "daily_points": 2,
+      "daily_points": 0,
       "total_points": 2,
       "wins": 0,
       "participations": 1,
@@ -1127,6 +1127,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-28T21:36:22"
+    },
     {
       "type": 5,
       "winner": "How?",
@@ -1701,19 +1712,8 @@
         }
       ],
       "created_at": "2026-07-17T10:23:11"
-    },
-    {
-      "type": 5,
-      "winner": "‎‎ ‏ ‏ هـنِيالك",
-      "participants": [
-        {
-          "name": "‎‎ ‏ ‏ هـنِيالك",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-17T09:43:42"
     }
   ],
-  "last_daily_reset": "2026-07-27T23:17:32",
+  "last_daily_reset": "2026-07-28T21:36:22",
   "last_weekly_reset": "2026-07-24T20:51:23"
 }
