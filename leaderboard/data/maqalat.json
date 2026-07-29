@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-24T23:15:17",
   "daily_champion": {
-    "name": "ســاهــــر",
-    "points": 40,
-    "date": "2026-07-28"
+    "name": "عطني امل",
+    "points": 20,
+    "date": "2026-07-29"
   },
-  "daily_champion_set_at": "2026-07-28T01:26:42",
+  "daily_champion_set_at": "2026-07-29T23:30:06",
   "last_reset": "2026-07-24T23:15:17",
-  "last_updated": "2026-07-28T21:44:57",
+  "last_updated": "2026-07-29T23:30:06",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 105,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 2057,
       "wins": 169,
       "participations": 211,
@@ -267,7 +267,7 @@
     },
     "How?": {
       "weekly_points": 17,
-      "daily_points": 12,
+      "daily_points": 0,
       "total_points": 369,
       "wins": 44,
       "participations": 62,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 16,
-      "daily_points": 5,
-      "total_points": 899,
+      "weekly_points": 17,
+      "daily_points": 1,
+      "total_points": 900,
       "wins": 117,
-      "participations": 181,
+      "participations": 182,
       "title": "ملك المقالات",
       "last_win": "2026-07-28T01:26:42",
-      "updated_at": "2026-07-28T01:26:42"
+      "updated_at": "2026-07-29T23:30:06"
     },
     "⠀⠀جـوج": {
       "weekly_points": 0,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 105,
-      "daily_points": 15,
-      "total_points": 4837,
-      "wins": 821,
-      "participations": 909,
+      "weekly_points": 110,
+      "daily_points": 5,
+      "total_points": 4842,
+      "wins": 822,
+      "participations": 910,
       "title": "ملك المقالات",
-      "last_win": "2026-07-28T07:52:06",
-      "updated_at": "2026-07-28T07:52:06"
+      "last_win": "2026-07-29T23:30:06",
+      "updated_at": "2026-07-29T23:30:06"
     },
     "طرب": {
       "weekly_points": 0,
@@ -1077,7 +1077,7 @@
     },
     "عطني امل": {
       "weekly_points": 20,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 20,
       "wins": 4,
       "participations": 4,
@@ -1087,6 +1087,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 5
+        },
+        {
+          "name": "AizeN ..",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-07-29T23:30:06"
+    },
     {
       "type": 5,
       "winner": "How?",
@@ -1637,19 +1652,8 @@
         }
       ],
       "created_at": "2026-07-24T20:32:12"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-24T20:01:21"
     }
   ],
-  "last_daily_reset": "2026-07-28T01:26:42",
+  "last_daily_reset": "2026-07-29T23:30:06",
   "last_weekly_reset": "2026-07-24T23:15:17"
 }
