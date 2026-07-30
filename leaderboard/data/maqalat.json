@@ -1,19 +1,19 @@
 {
   "room": "المقالات",
   "weekly_champion": {
-    "name": "ةىلارل",
-    "points": 25,
+    "name": "نجر",
+    "points": 10,
     "week_of": "2026-07-30"
   },
-  "weekly_champion_set_at": "2026-07-30T23:00:32",
+  "weekly_champion_set_at": "2026-07-30T23:03:01",
   "daily_champion": {
     "name": "D E F",
     "points": 30,
     "date": "2026-07-30"
   },
   "daily_champion_set_at": "2026-07-30T00:11:29",
-  "last_reset": "2026-07-30T23:00:32",
-  "last_updated": "2026-07-30T23:00:32",
+  "last_reset": "2026-07-30T23:03:01",
+  "last_updated": "2026-07-30T23:03:01",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -317,13 +317,13 @@
     },
     "نجر": {
       "weekly_points": 10,
-      "daily_points": 20,
-      "total_points": 1511,
-      "wins": 87,
-      "participations": 152,
+      "daily_points": 30,
+      "total_points": 1521,
+      "wins": 88,
+      "participations": 153,
       "title": "ملك المقالات",
-      "last_win": "2026-07-30T23:00:32",
-      "updated_at": "2026-07-30T23:00:32"
+      "last_win": "2026-07-30T23:03:01",
+      "updated_at": "2026-07-30T23:03:01"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -1106,6 +1106,17 @@
           "points": 10
         }
       ],
+      "created_at": "2026-07-30T23:03:01"
+    },
+    {
+      "type": 10,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 10
+        }
+      ],
       "created_at": "2026-07-30T23:00:32"
     },
     {
@@ -1651,19 +1662,8 @@
         }
       ],
       "created_at": "2026-07-25T18:04:35"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-25T16:14:48"
     }
   ],
   "last_daily_reset": "2026-07-30T00:11:29",
-  "last_weekly_reset": "2026-07-30T23:00:32"
+  "last_weekly_reset": "2026-07-30T23:03:01"
 }
