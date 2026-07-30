@@ -1,23 +1,23 @@
 {
   "room": "المسابقات",
   "weekly_champion": {
-    "name": "‎‎ ‏ ‏ هـنِيالك",
-    "points": 35,
-    "week_of": "2026-07-24"
-  },
-  "weekly_champion_set_at": "2026-07-24T20:51:23",
-  "daily_champion": {
     "name": "How?",
-    "points": 20,
-    "date": "2026-07-29"
+    "points": 50,
+    "week_of": "2026-07-30"
   },
-  "daily_champion_set_at": "2026-07-29T03:17:50",
-  "last_reset": "2026-07-24T20:51:23",
-  "last_updated": "2026-07-29T17:01:11",
+  "weekly_champion_set_at": "2026-07-30T13:21:33",
+  "daily_champion": {
+    "name": "‎ 　‎‎ ‎ ‎ ‎‎ٌ",
+    "points": 15,
+    "date": "2026-07-30"
+  },
+  "daily_champion_set_at": "2026-07-30T13:21:33",
+  "last_reset": "2026-07-30T13:21:33",
+  "last_updated": "2026-07-30T13:21:33",
   "players": {
     "بَكـر الدُليمــــي": {
-      "weekly_points": 5,
-      "daily_points": 5,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 51,
       "wins": 7,
       "participations": 11,
@@ -26,7 +26,7 @@
       "updated_at": "2026-07-29T17:01:11"
     },
     "How?": {
-      "weekly_points": 50,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 641,
       "wins": 107,
@@ -126,7 +126,7 @@
       "updated_at": "2026-06-03T20:22:11"
     },
     "ســاهــــر": {
-      "weekly_points": 30,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 132,
       "wins": 16,
@@ -446,7 +446,7 @@
       "updated_at": "2026-06-17T21:29:05"
     },
     ".. سُوشي": {
-      "weekly_points": 45,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 132,
       "wins": 22,
@@ -816,7 +816,7 @@
       "updated_at": "2026-06-26T16:22:36"
     },
     "D E F": {
-      "weekly_points": 24,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 204,
       "wins": 36,
@@ -1026,14 +1026,14 @@
       "updated_at": "2026-07-15T12:59:06"
     },
     "‎ 　‎‎ ‎ ‎ ‎‎ٌ": {
-      "weekly_points": 25,
-      "daily_points": 15,
-      "total_points": 34,
-      "wins": 4,
-      "participations": 6,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 39,
+      "wins": 5,
+      "participations": 7,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-29T03:34:48",
-      "updated_at": "2026-07-29T03:34:48"
+      "last_win": "2026-07-30T13:21:33",
+      "updated_at": "2026-07-30T13:21:33"
     },
     "طلال": {
       "weekly_points": 0,
@@ -1076,7 +1076,7 @@
       "updated_at": "2026-07-22T14:51:58"
     },
     "Ttt": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 5,
       "wins": 1,
@@ -1086,7 +1086,7 @@
       "updated_at": "2026-07-24T20:51:23"
     },
     "خوي مسهد": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 5,
       "wins": 1,
@@ -1096,7 +1096,7 @@
       "updated_at": "2026-07-24T21:20:30"
     },
     "‎ ‎ ‎ ‎Uẓuḍ": {
-      "weekly_points": 7,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 7,
       "wins": 0,
@@ -1106,7 +1106,7 @@
       "updated_at": "2026-07-25T15:32:54"
     },
     "سكار": {
-      "weekly_points": 10,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 10,
       "wins": 1,
@@ -1116,7 +1116,7 @@
       "updated_at": "2026-07-25T16:50:29"
     },
     "ريـان ..": {
-      "weekly_points": 2,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 2,
       "wins": 0,
@@ -1127,6 +1127,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "‎ 　‎‎ ‎ ‎ ‎‎ٌ",
+      "participants": [
+        {
+          "name": "‎ 　‎‎ ‎ ‎ ‎‎ٌ",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-30T13:21:33"
+    },
     {
       "type": 5,
       "winner": "بَكـر الدُليمــــي",
@@ -1689,23 +1700,8 @@
         }
       ],
       "created_at": "2026-07-19T08:58:38"
-    },
-    {
-      "type": 10,
-      "winner": "🦋 𝒜𝓂𝓊𝓁𝒶𝒽 🌹",
-      "participants": [
-        {
-          "name": "🦋 𝒜𝓂𝓊𝓁𝒶𝒽 🌹",
-          "points": 10
-        },
-        {
-          "name": "🪿",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-07-19T02:54:31"
     }
   ],
-  "last_daily_reset": "2026-07-29T03:17:50",
-  "last_weekly_reset": "2026-07-24T20:51:23"
+  "last_daily_reset": "2026-07-30T13:21:33",
+  "last_weekly_reset": "2026-07-30T13:21:33"
 }
