@@ -1,19 +1,19 @@
 {
   "room": "المقالات",
   "weekly_champion": {
-    "name": "نجر",
-    "points": 10,
-    "week_of": "2026-07-30"
+    "name": "هــديب",
+    "points": 20,
+    "week_of": "2026-07-31"
   },
-  "weekly_champion_set_at": "2026-07-30T23:03:01",
+  "weekly_champion_set_at": "2026-07-31T23:01:29",
   "daily_champion": {
     "name": "نجر",
     "points": 30,
     "date": "2026-07-31"
   },
   "daily_champion_set_at": "2026-07-31T05:19:43",
-  "last_reset": "2026-07-30T23:03:01",
-  "last_updated": "2026-07-31T20:22:21",
+  "last_reset": "2026-07-31T23:01:29",
+  "last_updated": "2026-07-31T23:01:29",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,13 +77,13 @@
     },
     "ســاهــــر": {
       "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 2077,
-      "wins": 172,
-      "participations": 214,
+      "daily_points": 20,
+      "total_points": 2087,
+      "wins": 173,
+      "participations": 215,
       "title": "ملك المقالات",
-      "last_win": "2026-07-31T20:22:21",
-      "updated_at": "2026-07-31T20:22:21"
+      "last_win": "2026-07-31T23:01:29",
+      "updated_at": "2026-07-31T23:01:29"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -266,7 +266,7 @@
       "updated_at": "2026-05-31T12:22:30"
     },
     "How?": {
-      "weekly_points": 10,
+      "weekly_points": 0,
       "daily_points": 10,
       "total_points": 379,
       "wins": 45,
@@ -316,7 +316,7 @@
       "updated_at": "2026-07-27T02:01:54"
     },
     "نجر": {
-      "weekly_points": 10,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 1521,
       "wins": 88,
@@ -756,7 +756,7 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 5,
       "total_points": 4872,
       "wins": 826,
@@ -926,7 +926,7 @@
       "updated_at": "2026-07-08T03:49:57"
     },
     "هــديب": {
-      "weekly_points": 20,
+      "weekly_points": 0,
       "daily_points": 20,
       "total_points": 83,
       "wins": 11,
@@ -1097,6 +1097,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-07-31T23:01:29"
+    },
     {
       "type": 10,
       "winner": "ســاهــــر",
@@ -1651,19 +1662,8 @@
         }
       ],
       "created_at": "2026-07-26T13:59:44"
-    },
-    {
-      "type": 5,
-      "winner": "kiss",
-      "participants": [
-        {
-          "name": "kiss",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-25T23:46:04"
     }
   ],
   "last_daily_reset": "2026-07-31T05:19:43",
-  "last_weekly_reset": "2026-07-30T23:03:01"
+  "last_weekly_reset": "2026-07-31T23:01:29"
 }
