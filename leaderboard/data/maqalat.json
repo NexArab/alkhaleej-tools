@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-07-30T23:03:01",
   "daily_champion": {
-    "name": "D E F",
+    "name": "نجر",
     "points": 30,
-    "date": "2026-07-30"
+    "date": "2026-07-31"
   },
-  "daily_champion_set_at": "2026-07-30T00:11:29",
+  "daily_champion_set_at": "2026-07-31T05:19:43",
   "last_reset": "2026-07-30T23:03:01",
-  "last_updated": "2026-07-30T23:03:01",
+  "last_updated": "2026-07-31T05:19:43",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 0,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 2067,
       "wins": 171,
       "participations": 213,
@@ -266,14 +266,14 @@
       "updated_at": "2026-05-31T12:22:30"
     },
     "How?": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 369,
-      "wins": 44,
-      "participations": 62,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 379,
+      "wins": 45,
+      "participations": 63,
       "title": "ملك المقالات",
-      "last_win": "2026-07-28T21:44:57",
-      "updated_at": "2026-07-28T21:44:57"
+      "last_win": "2026-07-31T05:19:43",
+      "updated_at": "2026-07-31T05:19:43"
     },
     "شين باء": {
       "weekly_points": 0,
@@ -317,7 +317,7 @@
     },
     "نجر": {
       "weekly_points": 10,
-      "daily_points": 30,
+      "daily_points": 0,
       "total_points": 1521,
       "wins": 88,
       "participations": 153,
@@ -617,7 +617,7 @@
     },
     "غـايب": {
       "weekly_points": 0,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 624,
       "wins": 80,
       "participations": 115,
@@ -1087,7 +1087,7 @@
     },
     "ةىلارل": {
       "weekly_points": 0,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 25,
       "wins": 1,
       "participations": 1,
@@ -1097,6 +1097,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-07-31T05:19:43"
+    },
     {
       "type": 10,
       "winner": "نجر",
@@ -1651,19 +1662,8 @@
         }
       ],
       "created_at": "2026-07-25T18:38:04"
-    },
-    {
-      "type": 10,
-      "winner": "نجر",
-      "participants": [
-        {
-          "name": "نجر",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-07-25T18:04:35"
     }
   ],
-  "last_daily_reset": "2026-07-30T00:11:29",
+  "last_daily_reset": "2026-07-31T05:19:43",
   "last_weekly_reset": "2026-07-30T23:03:01"
 }
