@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-07-31T03:07:49",
   "last_reset": "2026-07-30T13:21:33",
-  "last_updated": "2026-07-31T03:39:08",
+  "last_updated": "2026-07-31T05:14:13",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-07-29T17:01:11"
     },
     "How?": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 641,
-      "wins": 107,
-      "participations": 111,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 646,
+      "wins": 108,
+      "participations": 112,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-28T22:34:20",
-      "updated_at": "2026-07-28T22:34:20"
+      "last_win": "2026-07-31T05:14:13",
+      "updated_at": "2026-07-31T05:14:13"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -1159,6 +1159,17 @@
   "matches": [
     {
       "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-07-31T05:14:13"
+    },
+    {
+      "type": 5,
       "winner": "YZOD",
       "participants": [
         {
@@ -1719,21 +1730,6 @@
         }
       ],
       "created_at": "2026-07-19T15:20:46"
-    },
-    {
-      "type": 5,
-      "winner": "‎‎ ‏ ‏ هـنِيالك",
-      "participants": [
-        {
-          "name": "‎‎ ‏ ‏ هـنِيالك",
-          "points": 5
-        },
-        {
-          "name": "‎ 　‎‎ ‎ ‎ ‎‎ٌ",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-07-19T09:34:17"
     }
   ],
   "last_daily_reset": "2026-07-31T03:07:49",
