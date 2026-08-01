@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-01T01:10:06",
   "last_reset": "2026-07-30T13:21:33",
-  "last_updated": "2026-08-01T02:39:57",
+  "last_updated": "2026-08-01T11:27:51",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -806,14 +806,14 @@
       "updated_at": "2026-06-26T10:48:25"
     },
     "Humam": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 10,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 20,
+      "wins": 2,
+      "participations": 2,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-26T16:22:36",
-      "updated_at": "2026-06-26T16:22:36"
+      "last_win": "2026-08-01T11:27:51",
+      "updated_at": "2026-08-01T11:27:51"
     },
     "D E F": {
       "weekly_points": 0,
@@ -1177,6 +1177,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "Humam",
+      "participants": [
+        {
+          "name": "Humam",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-08-01T11:27:51"
+    },
     {
       "type": 5,
       "winner": "⠀⠀⠀𝐅𝐢𝐧𝐱",
@@ -1743,17 +1754,6 @@
         }
       ],
       "created_at": "2026-07-20T05:17:46"
-    },
-    {
-      "type": 5,
-      "winner": "‎‎ ‏ ‏ هـنِيالك",
-      "participants": [
-        {
-          "name": "‎‎ ‏ ‏ هـنِيالك",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-20T04:39:45"
     }
   ],
   "last_daily_reset": "2026-08-01T01:10:06",
