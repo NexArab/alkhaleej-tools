@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-01T01:10:06",
   "last_reset": "2026-08-01T23:13:55",
-  "last_updated": "2026-08-01T23:17:34",
+  "last_updated": "2026-08-01T23:21:31",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -706,14 +706,14 @@
       "updated_at": "2026-06-19T03:52:09"
     },
     "AizeN ..": {
-      "weekly_points": 9,
-      "daily_points": 9,
-      "total_points": 183,
-      "wins": 29,
-      "participations": 42,
+      "weekly_points": 14,
+      "daily_points": 14,
+      "total_points": 188,
+      "wins": 30,
+      "participations": 43,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-01T23:17:34",
-      "updated_at": "2026-08-01T23:17:34"
+      "last_win": "2026-08-01T23:21:31",
+      "updated_at": "2026-08-01T23:21:31"
     },
     "££": {
       "weekly_points": 0,
@@ -1187,6 +1187,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "AizeN ..",
+      "participants": [
+        {
+          "name": "AizeN ..",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-01T23:21:31"
+    },
     {
       "type": 5,
       "winner": "AizeN ..",
@@ -1769,21 +1780,6 @@
         }
       ],
       "created_at": "2026-07-25T15:34:10"
-    },
-    {
-      "type": 10,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 10
-        },
-        {
-          "name": "‎ ‎ ‎ ‎Uẓuḍ",
-          "points": 7
-        }
-      ],
-      "created_at": "2026-07-25T15:32:54"
     }
   ],
   "last_daily_reset": "2026-08-01T01:10:06",
