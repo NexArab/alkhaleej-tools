@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-01T23:13:55",
   "daily_champion": {
-    "name": "How?",
-    "points": 15,
-    "date": "2026-08-01"
+    "name": "AizeN ..",
+    "points": 25,
+    "date": "2026-08-02"
   },
-  "daily_champion_set_at": "2026-08-01T01:10:06",
+  "daily_champion_set_at": "2026-08-02T00:10:17",
   "last_reset": "2026-08-01T23:13:55",
-  "last_updated": "2026-08-01T23:36:07",
+  "last_updated": "2026-08-02T00:10:17",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -27,7 +27,7 @@
     },
     "How?": {
       "weekly_points": 0,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 676,
       "wins": 114,
       "participations": 118,
@@ -217,7 +217,7 @@
     },
     "H~": {
       "weekly_points": 0,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 23,
       "wins": 2,
       "participations": 3,
@@ -397,7 +397,7 @@
     },
     "⠀⠀           محـمّد": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 78,
       "wins": 12,
       "participations": 13,
@@ -427,7 +427,7 @@
     },
     "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة": {
       "weekly_points": 0,
-      "daily_points": 1,
+      "daily_points": 0,
       "total_points": 58,
       "wins": 5,
       "participations": 8,
@@ -597,7 +597,7 @@
     },
     "Lyx": {
       "weekly_points": 0,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 46,
       "wins": 4,
       "participations": 7,
@@ -707,7 +707,7 @@
     },
     "AizeN ..": {
       "weekly_points": 25,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 199,
       "wins": 32,
       "participations": 46,
@@ -807,7 +807,7 @@
     },
     "Humam": {
       "weekly_points": 0,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 20,
       "wins": 2,
       "participations": 2,
@@ -1027,7 +1027,7 @@
     },
     "‎ 　‎‎ ‎ ‎ ‎‎ٌ": {
       "weekly_points": 0,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 49,
       "wins": 6,
       "participations": 8,
@@ -1097,7 +1097,7 @@
     },
     "‎ ‎ ‎ ‎Uẓuḍ": {
       "weekly_points": 7,
-      "daily_points": 7,
+      "daily_points": 0,
       "total_points": 14,
       "wins": 1,
       "participations": 3,
@@ -1136,28 +1136,28 @@
       "updated_at": "2026-07-31T03:07:49"
     },
     "YZOD": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 5,
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 6,
       "wins": 1,
-      "participations": 1,
+      "participations": 2,
       "title": "سيد المسابقات",
       "last_win": "2026-07-31T03:39:08",
-      "updated_at": "2026-07-31T03:39:08"
+      "updated_at": "2026-08-02T00:10:17"
     },
     "‎‎‎‎‎‎‎‎ ㅤㅤㅤ‎‎‎‎‎ ‎‎‎‎‎ ‎‎‎‎‎‎‎‎ياسر": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 1,
-      "wins": 0,
-      "participations": 1,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-07-31T03:39:08"
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 6,
+      "wins": 1,
+      "participations": 2,
+      "title": "سيد المسابقات",
+      "last_win": "2026-08-02T00:10:17",
+      "updated_at": "2026-08-02T00:10:17"
     },
     "فوريشوت": {
       "weekly_points": 0,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 10,
       "wins": 2,
       "participations": 2,
@@ -1167,7 +1167,7 @@
     },
     "⠀⠀⠀𝐅𝐢𝐧𝐱": {
       "weekly_points": 2,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 10,
       "wins": 1,
       "participations": 3,
@@ -1177,7 +1177,7 @@
     },
     "D": {
       "weekly_points": 2,
-      "daily_points": 2,
+      "daily_points": 0,
       "total_points": 2,
       "wins": 0,
       "participations": 1,
@@ -1187,7 +1187,7 @@
     },
     "الـريم": {
       "weekly_points": 1,
-      "daily_points": 1,
+      "daily_points": 0,
       "total_points": 1,
       "wins": 0,
       "participations": 1,
@@ -1197,6 +1197,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "‎‎‎‎‎‎‎‎ ㅤㅤㅤ‎‎‎‎‎ ‎‎‎‎‎ ‎‎‎‎‎‎‎‎ياسر",
+      "participants": [
+        {
+          "name": "‎‎‎‎‎‎‎‎ ㅤㅤㅤ‎‎‎‎‎ ‎‎‎‎‎ ‎‎‎‎‎‎‎‎ياسر",
+          "points": 5
+        },
+        {
+          "name": "YZOD",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-08-02T00:10:17"
+    },
     {
       "type": 5,
       "winner": "AizeN ..",
@@ -1783,23 +1798,8 @@
         }
       ],
       "created_at": "2026-07-25T16:47:43"
-    },
-    {
-      "type": 5,
-      "winner": "سكار",
-      "participants": [
-        {
-          "name": "سكار",
-          "points": 5
-        },
-        {
-          "name": "D E F",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-07-25T16:46:18"
     }
   ],
-  "last_daily_reset": "2026-08-01T01:10:06",
+  "last_daily_reset": "2026-08-02T00:10:17",
   "last_weekly_reset": "2026-08-01T23:13:55"
 }
