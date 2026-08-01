@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-01T01:10:06",
   "last_reset": "2026-07-30T13:21:33",
-  "last_updated": "2026-08-01T15:54:53",
+  "last_updated": "2026-08-01T21:06:13",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -596,14 +596,14 @@
       "updated_at": "2026-06-12T03:38:06"
     },
     "Lyx": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 41,
-      "wins": 3,
-      "participations": 6,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 46,
+      "wins": 4,
+      "participations": 7,
       "title": "سيد المسابقات",
-      "last_win": "2026-06-08T22:13:00",
-      "updated_at": "2026-06-09T00:37:35"
+      "last_win": "2026-08-01T21:06:13",
+      "updated_at": "2026-08-01T21:06:13"
     },
     "؟": {
       "weekly_points": 0,
@@ -1166,17 +1166,32 @@
       "updated_at": "2026-08-01T01:21:42"
     },
     "⠀⠀⠀𝐅𝐢𝐧𝐱": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 5,
+      "weekly_points": 8,
+      "daily_points": 8,
+      "total_points": 8,
       "wins": 1,
-      "participations": 1,
+      "participations": 2,
       "title": "سيد المسابقات",
       "last_win": "2026-08-01T02:39:57",
-      "updated_at": "2026-08-01T02:39:57"
+      "updated_at": "2026-08-01T21:06:13"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Lyx",
+      "participants": [
+        {
+          "name": "Lyx",
+          "points": 5
+        },
+        {
+          "name": "⠀⠀⠀𝐅𝐢𝐧𝐱",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-08-01T21:06:13"
+    },
     {
       "type": 5,
       "winner": "How?",
@@ -1743,17 +1758,6 @@
         }
       ],
       "created_at": "2026-07-24T21:20:30"
-    },
-    {
-      "type": 5,
-      "winner": "Ttt",
-      "participants": [
-        {
-          "name": "Ttt",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-24T20:51:23"
     }
   ],
   "last_daily_reset": "2026-08-01T01:10:06",
