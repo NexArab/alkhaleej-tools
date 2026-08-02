@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-02T00:10:17",
   "last_reset": "2026-08-01T23:13:55",
-  "last_updated": "2026-08-02T01:14:41",
+  "last_updated": "2026-08-02T16:07:04",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -816,14 +816,14 @@
       "updated_at": "2026-08-01T11:27:51"
     },
     "D E F": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 204,
-      "wins": 36,
-      "participations": 37,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 209,
+      "wins": 37,
+      "participations": 38,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-26T21:14:24",
-      "updated_at": "2026-07-26T21:14:24"
+      "last_win": "2026-08-02T16:07:04",
+      "updated_at": "2026-08-02T16:07:04"
     },
     "Ricca": {
       "weekly_points": 0,
@@ -1207,6 +1207,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-02T16:07:04"
+    },
     {
       "type": 5,
       "winner": "‎‎‎‎‎‎‎‎ ㅤㅤㅤ‎‎‎‎‎ ‎‎‎‎‎ ‎‎‎‎‎‎‎‎ياسر",
@@ -1797,21 +1808,6 @@
         }
       ],
       "created_at": "2026-07-25T16:52:20"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        },
-        {
-          "name": "سكار",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-07-25T16:50:29"
     }
   ],
   "last_daily_reset": "2026-08-02T00:10:17",
