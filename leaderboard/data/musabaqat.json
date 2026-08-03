@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-03T07:50:27",
   "last_reset": "2026-08-01T23:13:55",
-  "last_updated": "2026-08-03T23:41:42",
+  "last_updated": "2026-08-03T23:57:11",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1026,14 +1026,14 @@
       "updated_at": "2026-07-15T12:59:06"
     },
     "‎ 　‎‎ ‎ ‎ ‎‎ٌ": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 59,
-      "wins": 7,
-      "participations": 9,
+      "weekly_points": 15,
+      "daily_points": 15,
+      "total_points": 64,
+      "wins": 8,
+      "participations": 10,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-03T07:50:27",
-      "updated_at": "2026-08-03T07:50:27"
+      "last_win": "2026-08-03T23:57:11",
+      "updated_at": "2026-08-03T23:57:11"
     },
     "طلال": {
       "weekly_points": 0,
@@ -1146,14 +1146,14 @@
       "updated_at": "2026-08-02T00:10:17"
     },
     "‎‎‎‎‎‎‎‎ ㅤㅤㅤ‎‎‎‎‎ ‎‎‎‎‎ ‎‎‎‎‎‎‎‎ياسر": {
-      "weekly_points": 15,
-      "daily_points": 5,
-      "total_points": 16,
+      "weekly_points": 18,
+      "daily_points": 8,
+      "total_points": 19,
       "wins": 3,
-      "participations": 4,
+      "participations": 5,
       "title": "سيد المسابقات",
       "last_win": "2026-08-03T23:41:42",
-      "updated_at": "2026-08-03T23:41:42"
+      "updated_at": "2026-08-03T23:57:11"
     },
     "فوريشوت": {
       "weekly_points": 0,
@@ -1224,9 +1224,38 @@
       "title": "سيد المسابقات",
       "last_win": "2026-08-03T20:49:16",
       "updated_at": "2026-08-03T21:05:23"
+    },
+    "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎": {
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 1,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-08-03T23:57:11"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "‎ 　‎‎ ‎ ‎ ‎‎ٌ",
+      "participants": [
+        {
+          "name": "‎ 　‎‎ ‎ ‎ ‎‎ٌ",
+          "points": 5
+        },
+        {
+          "name": "‎‎‎‎‎‎‎‎ ㅤㅤㅤ‎‎‎‎‎ ‎‎‎‎‎ ‎‎‎‎‎‎‎‎ياسر",
+          "points": 3
+        },
+        {
+          "name": "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-08-03T23:57:11"
+    },
     {
       "type": 5,
       "winner": "‎‎‎‎‎‎‎‎ ㅤㅤㅤ‎‎‎‎‎ ‎‎‎‎‎ ‎‎‎‎‎‎‎‎ياسر",
@@ -1893,17 +1922,6 @@
         }
       ],
       "created_at": "2026-07-27T23:22:47"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-27T23:20:52"
     }
   ],
   "last_daily_reset": "2026-08-03T07:50:27",
