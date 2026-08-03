@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-03T07:50:27",
   "last_reset": "2026-08-01T23:13:55",
-  "last_updated": "2026-08-03T07:50:27",
+  "last_updated": "2026-08-03T20:26:18",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1204,9 +1204,44 @@
       "title": null,
       "last_win": null,
       "updated_at": "2026-08-02T01:14:41"
+    },
+    "⠀⠀⠀𝐅𝐢𝐧𝐱..": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-08-03T20:26:18",
+      "updated_at": "2026-08-03T20:26:18"
+    },
+    "-": {
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 1,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-08-03T20:26:18"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "⠀⠀⠀𝐅𝐢𝐧𝐱..",
+      "participants": [
+        {
+          "name": "⠀⠀⠀𝐅𝐢𝐧𝐱..",
+          "points": 5
+        },
+        {
+          "name": "-",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-08-03T20:26:18"
+    },
     {
       "type": 10,
       "winner": "‎ 　‎‎ ‎ ‎ ‎‎ٌ",
@@ -1797,17 +1832,6 @@
         }
       ],
       "created_at": "2026-07-26T05:43:58"
-    },
-    {
-      "type": 5,
-      "winner": ".. سُوشي",
-      "participants": [
-        {
-          "name": ".. سُوشي",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-07-26T05:42:21"
     }
   ],
   "last_daily_reset": "2026-08-03T07:50:27",
