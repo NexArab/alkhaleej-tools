@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-01T23:13:55",
   "daily_champion": {
-    "name": "⠀⠀           محـمّد",
-    "points": 36,
-    "date": "2026-08-04"
+    "name": "سمرقند",
+    "points": 40,
+    "date": "2026-08-05"
   },
-  "daily_champion_set_at": "2026-08-04T00:44:24",
+  "daily_champion_set_at": "2026-08-05T01:47:18",
   "last_reset": "2026-08-01T23:13:55",
-  "last_updated": "2026-08-04T21:45:20",
+  "last_updated": "2026-08-05T01:47:18",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -37,7 +37,7 @@
     },
     "هـنِيالك": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 35,
       "wins": 5,
       "participations": 7,
@@ -397,7 +397,7 @@
     },
     "⠀⠀           محـمّد": {
       "weekly_points": 46,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 119,
       "wins": 19,
       "participations": 23,
@@ -707,7 +707,7 @@
     },
     "AizeN ..": {
       "weekly_points": 30,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 204,
       "wins": 33,
       "participations": 47,
@@ -1156,14 +1156,14 @@
       "updated_at": "2026-08-03T23:57:11"
     },
     "فوريشوت": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 10,
-      "wins": 2,
-      "participations": 2,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 20,
+      "wins": 3,
+      "participations": 3,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-01T01:21:42",
-      "updated_at": "2026-08-01T01:21:42"
+      "last_win": "2026-08-05T01:47:18",
+      "updated_at": "2026-08-05T01:47:18"
     },
     "⠀⠀⠀𝐅𝐢𝐧𝐱": {
       "weekly_points": 4,
@@ -1177,7 +1177,7 @@
     },
     "D": {
       "weekly_points": 3,
-      "daily_points": 1,
+      "daily_points": 0,
       "total_points": 3,
       "wins": 0,
       "participations": 2,
@@ -1217,7 +1217,7 @@
     },
     "Ht": {
       "weekly_points": 36,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 36,
       "wins": 5,
       "participations": 12,
@@ -1237,7 +1237,7 @@
     },
     "Why!": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 10,
       "wins": 2,
       "participations": 2,
@@ -1247,7 +1247,7 @@
     },
     "لؤي1": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 10,
       "wins": 1,
       "participations": 1,
@@ -1256,18 +1256,18 @@
       "updated_at": "2026-08-04T10:28:51"
     },
     "⠀⠀ محـمّد": {
-      "weekly_points": 17,
-      "daily_points": 17,
-      "total_points": 17,
+      "weekly_points": 22,
+      "daily_points": 5,
+      "total_points": 22,
       "wins": 2,
-      "participations": 4,
+      "participations": 5,
       "title": "سيد المسابقات",
       "last_win": "2026-08-04T19:35:30",
-      "updated_at": "2026-08-04T19:50:20"
+      "updated_at": "2026-08-05T01:47:18"
     },
     "سمرقند": {
       "weekly_points": 40,
-      "daily_points": 40,
+      "daily_points": 0,
       "total_points": 40,
       "wins": 4,
       "participations": 4,
@@ -1277,6 +1277,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "فوريشوت",
+      "participants": [
+        {
+          "name": "فوريشوت",
+          "points": 10
+        },
+        {
+          "name": "⠀⠀ محـمّد",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-05T01:47:18"
+    },
     {
       "type": 5,
       "winner": "هـنِيالك",
@@ -1951,19 +1966,8 @@
         }
       ],
       "created_at": "2026-08-01T02:39:57"
-    },
-    {
-      "type": 10,
-      "winner": "‎ 　‎‎ ‎ ‎ ‎‎ٌ",
-      "participants": [
-        {
-          "name": "‎ 　‎‎ ‎ ‎ ‎‎ٌ",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-08-01T02:04:41"
     }
   ],
-  "last_daily_reset": "2026-08-04T00:44:24",
+  "last_daily_reset": "2026-08-05T01:47:18",
   "last_weekly_reset": "2026-08-01T23:13:55"
 }
