@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-05T01:47:18",
   "last_reset": "2026-08-01T23:13:55",
-  "last_updated": "2026-08-05T01:54:25",
+  "last_updated": "2026-08-05T04:57:22",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -856,14 +856,14 @@
       "updated_at": "2026-07-01T08:39:22"
     },
     "مَلك": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 15,
+      "weekly_points": 3,
+      "daily_points": 3,
+      "total_points": 18,
       "wins": 3,
-      "participations": 3,
+      "participations": 4,
       "title": "سيد المسابقات",
       "last_win": "2026-07-02T01:18:09",
-      "updated_at": "2026-07-02T01:18:09"
+      "updated_at": "2026-08-05T04:57:22"
     },
     "أبو زيــد": {
       "weekly_points": 0,
@@ -1274,9 +1274,34 @@
       "title": "سيد المسابقات",
       "last_win": "2026-08-04T20:03:46",
       "updated_at": "2026-08-04T20:03:46"
+    },
+    ".. اطوُيك": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-08-05T04:57:22",
+      "updated_at": "2026-08-05T04:57:22"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": ".. اطوُيك",
+      "participants": [
+        {
+          "name": ".. اطوُيك",
+          "points": 5
+        },
+        {
+          "name": "مَلك",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-08-05T04:57:22"
+    },
     {
       "type": 10,
       "winner": "فوريشوت",
@@ -1955,17 +1980,6 @@
         }
       ],
       "created_at": "2026-08-01T15:49:15"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-01T15:47:22"
     }
   ],
   "last_daily_reset": "2026-08-05T01:47:18",
