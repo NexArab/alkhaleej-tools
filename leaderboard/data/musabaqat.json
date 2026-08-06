@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-06T09:47:43",
   "daily_champion": {
-    "name": "فوريشوت",
-    "points": 40,
-    "date": "2026-08-06"
+    "name": "⠀⠀ محـمّد",
+    "points": 35,
+    "date": "2026-08-07"
   },
-  "daily_champion_set_at": "2026-08-06T09:47:43",
+  "daily_champion_set_at": "2026-08-07T01:39:15",
   "last_reset": "2026-08-06T09:47:43",
-  "last_updated": "2026-08-06T21:52:21",
+  "last_updated": "2026-08-07T01:39:15",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -276,14 +276,14 @@
       "updated_at": "2026-06-25T06:54:18"
     },
     "ضامي": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 81,
-      "wins": 16,
-      "participations": 17,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 86,
+      "wins": 17,
+      "participations": 18,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-20T05:17:46",
-      "updated_at": "2026-07-20T05:17:46"
+      "last_win": "2026-08-07T01:39:15",
+      "updated_at": "2026-08-07T01:39:15"
     },
     "💛💙 Champions 💛💙": {
       "weekly_points": 0,
@@ -1257,7 +1257,7 @@
     },
     "⠀⠀ محـمّد": {
       "weekly_points": 35,
-      "daily_points": 35,
+      "daily_points": 0,
       "total_points": 57,
       "wins": 9,
       "participations": 12,
@@ -1287,7 +1287,7 @@
     },
     "عشرين": {
       "weekly_points": 8,
-      "daily_points": 8,
+      "daily_points": 0,
       "total_points": 8,
       "wins": 0,
       "participations": 5,
@@ -1297,7 +1297,7 @@
     },
     "Ray": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 10,
       "wins": 1,
       "participations": 1,
@@ -1307,6 +1307,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ضامي",
+      "participants": [
+        {
+          "name": "ضامي",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-07T01:39:15"
+    },
     {
       "type": 10,
       "winner": "Ray",
@@ -1981,19 +1992,8 @@
         }
       ],
       "created_at": "2026-08-01T23:36:07"
-    },
-    {
-      "type": 5,
-      "winner": "AizeN ..",
-      "participants": [
-        {
-          "name": "AizeN ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-01T23:33:41"
     }
   ],
-  "last_daily_reset": "2026-08-06T09:47:43",
+  "last_daily_reset": "2026-08-07T01:39:15",
   "last_weekly_reset": "2026-08-06T09:47:43"
 }
