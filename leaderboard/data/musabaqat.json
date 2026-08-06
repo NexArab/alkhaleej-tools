@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-06T09:47:43",
   "last_reset": "2026-08-06T09:47:43",
-  "last_updated": "2026-08-06T09:54:05",
+  "last_updated": "2026-08-06T09:55:42",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1256,14 +1256,14 @@
       "updated_at": "2026-08-04T10:28:51"
     },
     "⠀⠀ محـمّد": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 47,
-      "wins": 7,
-      "participations": 10,
+      "weekly_points": 30,
+      "daily_points": 30,
+      "total_points": 52,
+      "wins": 8,
+      "participations": 11,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-06T09:54:05",
-      "updated_at": "2026-08-06T09:54:05"
+      "last_win": "2026-08-06T09:55:42",
+      "updated_at": "2026-08-06T09:55:42"
     },
     "سمرقند": {
       "weekly_points": 0,
@@ -1286,17 +1286,32 @@
       "updated_at": "2026-08-05T04:57:22"
     },
     "عشرين": {
-      "weekly_points": 7,
-      "daily_points": 7,
-      "total_points": 7,
+      "weekly_points": 8,
+      "daily_points": 8,
+      "total_points": 8,
       "wins": 0,
-      "participations": 4,
+      "participations": 5,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-08-06T09:54:05"
+      "updated_at": "2026-08-06T09:55:42"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "⠀⠀ محـمّد",
+      "participants": [
+        {
+          "name": "⠀⠀ محـمّد",
+          "points": 5
+        },
+        {
+          "name": "عشرين",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-08-06T09:55:42"
+    },
     {
       "type": 5,
       "winner": "⠀⠀ محـمّد",
@@ -1975,29 +1990,6 @@
         }
       ],
       "created_at": "2026-08-01T23:21:31"
-    },
-    {
-      "type": 5,
-      "winner": "AizeN ..",
-      "participants": [
-        {
-          "name": "AizeN ..",
-          "points": 5
-        },
-        {
-          "name": "D",
-          "points": 2
-        },
-        {
-          "name": "‎ ‎ ‎ ‎Uẓuḍ",
-          "points": 2
-        },
-        {
-          "name": "⠀⠀⠀𝐅𝐢𝐧𝐱",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-08-01T23:17:34"
     }
   ],
   "last_daily_reset": "2026-08-06T09:47:43",
