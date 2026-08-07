@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-07T01:39:15",
   "last_reset": "2026-08-06T09:47:43",
-  "last_updated": "2026-08-07T07:47:58",
+  "last_updated": "2026-08-07T09:48:40",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-07-29T17:01:11"
     },
     "How?": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 676,
-      "wins": 114,
-      "participations": 118,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 681,
+      "wins": 115,
+      "participations": 119,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-01T15:54:53",
-      "updated_at": "2026-08-01T15:54:53"
+      "last_win": "2026-08-07T09:48:40",
+      "updated_at": "2026-08-07T09:48:40"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -1309,6 +1309,17 @@
   "matches": [
     {
       "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-07T09:48:40"
+    },
+    {
+      "type": 5,
       "winner": "⠀⠀ محـمّد",
       "participants": [
         {
@@ -1969,17 +1980,6 @@
         }
       ],
       "created_at": "2026-08-03T07:50:27"
-    },
-    {
-      "type": 10,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-08-02T16:09:36"
     }
   ],
   "last_daily_reset": "2026-08-07T01:39:15",
