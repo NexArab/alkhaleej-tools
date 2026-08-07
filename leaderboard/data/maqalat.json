@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-07T01:33:42",
   "last_reset": "2026-08-06T08:37:00",
-  "last_updated": "2026-08-07T09:27:57",
+  "last_updated": "2026-08-07T09:29:06",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1056,14 +1056,14 @@
       "updated_at": "2026-08-03T10:30:46"
     },
     "مو رايـق": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 216,
-      "wins": 29,
-      "participations": 34,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 221,
+      "wins": 30,
+      "participations": 35,
       "title": "ملك المقالات",
-      "last_win": "2026-08-07T09:27:57",
-      "updated_at": "2026-08-07T09:27:57"
+      "last_win": "2026-08-07T09:29:06",
+      "updated_at": "2026-08-07T09:29:06"
     },
     "مَلك": {
       "weekly_points": 0,
@@ -1137,6 +1137,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "مو رايـق",
+      "participants": [
+        {
+          "name": "مو رايـق",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-07T09:29:06"
+    },
     {
       "type": 5,
       "winner": "مو رايـق",
@@ -1711,21 +1722,6 @@
         }
       ],
       "created_at": "2026-07-31T23:25:00"
-    },
-    {
-      "type": 5,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 5
-        },
-        {
-          "name": "AizeN ..",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-07-31T23:22:13"
     }
   ],
   "last_daily_reset": "2026-08-07T01:33:42",
