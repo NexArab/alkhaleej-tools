@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-09T00:18:37",
   "last_reset": "2026-08-08T23:13:00",
-  "last_updated": "2026-08-09T02:17:42",
+  "last_updated": "2026-08-09T02:48:04",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -126,14 +126,14 @@
       "updated_at": "2026-06-03T20:22:11"
     },
     "ســاهــــر": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 132,
-      "wins": 16,
-      "participations": 17,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 142,
+      "wins": 17,
+      "participations": 18,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-25T15:41:11",
-      "updated_at": "2026-07-25T15:41:11"
+      "last_win": "2026-08-09T02:48:04",
+      "updated_at": "2026-08-09T02:48:04"
     },
     "𝑲𝑯𝑨𝑳𝑬𝑫": {
       "weekly_points": 0,
@@ -1346,14 +1346,14 @@
       "updated_at": "2026-08-08T13:29:25"
     },
     "م⠀": {
-      "weekly_points": 17,
-      "daily_points": 5,
-      "total_points": 20,
+      "weekly_points": 18,
+      "daily_points": 6,
+      "total_points": 21,
       "wins": 1,
-      "participations": 5,
+      "participations": 6,
       "title": "سيد المسابقات",
       "last_win": "2026-08-08T23:29:48",
-      "updated_at": "2026-08-09T00:24:42"
+      "updated_at": "2026-08-09T02:48:04"
     },
     "عهـــــد": {
       "weekly_points": 20,
@@ -1387,6 +1387,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 10
+        },
+        {
+          "name": "م⠀",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-08-09T02:48:04"
+    },
     {
       "type": 5,
       "winner": "ㅤㅤㅤ ياسر",
@@ -1973,17 +1988,6 @@
         }
       ],
       "created_at": "2026-08-07T20:41:59"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-07T15:10:56"
     }
   ],
   "last_daily_reset": "2026-08-09T00:18:37",
