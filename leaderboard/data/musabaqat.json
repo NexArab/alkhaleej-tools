@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-08T23:13:00",
   "daily_champion": {
-    "name": "How?",
-    "points": 70,
-    "date": "2026-08-08"
+    "name": "فوريشوت",
+    "points": 63,
+    "date": "2026-08-09"
   },
-  "daily_champion_set_at": "2026-08-08T02:51:57",
+  "daily_champion_set_at": "2026-08-09T00:18:37",
   "last_reset": "2026-08-08T23:13:00",
-  "last_updated": "2026-08-08T23:41:21",
+  "last_updated": "2026-08-09T00:18:37",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -27,7 +27,7 @@
     },
     "How?": {
       "weekly_points": 0,
-      "daily_points": 26,
+      "daily_points": 0,
       "total_points": 772,
       "wins": 133,
       "participations": 138,
@@ -707,7 +707,7 @@
     },
     "AizeN ..": {
       "weekly_points": 2,
-      "daily_points": 7,
+      "daily_points": 0,
       "total_points": 211,
       "wins": 34,
       "participations": 49,
@@ -917,7 +917,7 @@
     },
     "Koshary": {
       "weekly_points": 0,
-      "daily_points": 4,
+      "daily_points": 0,
       "total_points": 54,
       "wins": 6,
       "participations": 8,
@@ -1157,7 +1157,7 @@
     },
     "فوريشوت": {
       "weekly_points": 48,
-      "daily_points": 63,
+      "daily_points": 0,
       "total_points": 113,
       "wins": 12,
       "participations": 13,
@@ -1207,7 +1207,7 @@
     },
     "⠀⠀⠀𝐅𝐢𝐧𝐱..": {
       "weekly_points": 0,
-      "daily_points": 6,
+      "daily_points": 0,
       "total_points": 27,
       "wins": 3,
       "participations": 9,
@@ -1257,7 +1257,7 @@
     },
     "⠀⠀ محـمّد": {
       "weekly_points": 0,
-      "daily_points": 55,
+      "daily_points": 0,
       "total_points": 127,
       "wins": 23,
       "participations": 26,
@@ -1307,7 +1307,7 @@
     },
     "صحيح": {
       "weekly_points": 0,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 10,
       "wins": 2,
       "participations": 2,
@@ -1317,7 +1317,7 @@
     },
     "بعد الغيابّ صدفه تلاقينا": {
       "weekly_points": 0,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 15,
       "wins": 3,
       "participations": 3,
@@ -1327,7 +1327,7 @@
     },
     "Uẓuḍ": {
       "weekly_points": 0,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 20,
       "wins": 3,
       "participations": 3,
@@ -1337,7 +1337,7 @@
     },
     "ㅤ TiMoR..": {
       "weekly_points": 0,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -1347,7 +1347,7 @@
     },
     "م⠀": {
       "weekly_points": 12,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 15,
       "wins": 1,
       "participations": 4,
@@ -1356,18 +1356,18 @@
       "updated_at": "2026-08-08T23:32:42"
     },
     "عهـــــد": {
-      "weekly_points": 0,
+      "weekly_points": 10,
       "daily_points": 10,
-      "total_points": 10,
-      "wins": 1,
-      "participations": 1,
+      "total_points": 20,
+      "wins": 2,
+      "participations": 2,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-08T18:41:49",
-      "updated_at": "2026-08-08T18:41:49"
+      "last_win": "2026-08-09T00:18:37",
+      "updated_at": "2026-08-09T00:18:37"
     },
     "ㅤㅤㅤ ياسر": {
       "weekly_points": 0,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -1377,6 +1377,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "عهـــــد",
+      "participants": [
+        {
+          "name": "عهـــــد",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-08-09T00:18:37"
+    },
     {
       "type": 10,
       "winner": "فوريشوت",
@@ -1951,19 +1962,8 @@
         }
       ],
       "created_at": "2026-08-07T09:58:17"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-07T09:48:40"
     }
   ],
-  "last_daily_reset": "2026-08-08T02:51:57",
+  "last_daily_reset": "2026-08-09T00:18:37",
   "last_weekly_reset": "2026-08-08T23:13:00"
 }
