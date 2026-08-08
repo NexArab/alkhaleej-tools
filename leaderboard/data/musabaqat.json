@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-09T00:18:37",
   "last_reset": "2026-08-08T23:13:00",
-  "last_updated": "2026-08-09T00:24:42",
+  "last_updated": "2026-08-09T02:13:30",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1226,14 +1226,14 @@
       "updated_at": "2026-08-04T11:04:07"
     },
     "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 1,
+      "weekly_points": 1,
+      "daily_points": 1,
+      "total_points": 2,
       "wins": 0,
-      "participations": 1,
+      "participations": 2,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-08-03T23:57:11"
+      "updated_at": "2026-08-09T02:13:30"
     },
     "Why!": {
       "weekly_points": 0,
@@ -1366,17 +1366,46 @@
       "updated_at": "2026-08-09T00:24:42"
     },
     "ㅤㅤㅤ ياسر": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 10,
+      "wins": 2,
+      "participations": 2,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-08T19:46:16",
-      "updated_at": "2026-08-08T19:46:16"
+      "last_win": "2026-08-09T02:13:30",
+      "updated_at": "2026-08-09T02:13:30"
+    },
+    "Khaled.": {
+      "weekly_points": 3,
+      "daily_points": 3,
+      "total_points": 3,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-08-09T02:13:30"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ㅤㅤㅤ ياسر",
+      "participants": [
+        {
+          "name": "ㅤㅤㅤ ياسر",
+          "points": 5
+        },
+        {
+          "name": "Khaled.",
+          "points": 3
+        },
+        {
+          "name": "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-08-09T02:13:30"
+    },
     {
       "type": 10,
       "winner": "عهـــــد",
@@ -1955,17 +1984,6 @@
         }
       ],
       "created_at": "2026-08-07T15:10:05"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-07T10:00:33"
     }
   ],
   "last_daily_reset": "2026-08-09T00:18:37",
