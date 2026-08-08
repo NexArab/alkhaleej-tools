@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-06T08:37:00",
   "daily_champion": {
-    "name": "ســاهــــر",
-    "points": 86,
-    "date": "2026-08-08"
+    "name": "How?",
+    "points": 35,
+    "date": "2026-08-09"
   },
-  "daily_champion_set_at": "2026-08-08T07:49:29",
+  "daily_champion_set_at": "2026-08-09T02:44:22",
   "last_reset": "2026-08-06T08:37:00",
-  "last_updated": "2026-08-08T20:58:17",
+  "last_updated": "2026-08-09T02:44:22",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 96,
-      "daily_points": 0,
-      "total_points": 2263,
-      "wins": 192,
-      "participations": 236,
+      "weekly_points": 101,
+      "daily_points": 5,
+      "total_points": 2268,
+      "wins": 193,
+      "participations": 237,
       "title": "ملك المقالات",
-      "last_win": "2026-08-07T19:49:23",
-      "updated_at": "2026-08-07T19:51:07"
+      "last_win": "2026-08-09T02:44:22",
+      "updated_at": "2026-08-09T02:44:22"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -267,7 +267,7 @@
     },
     "How?": {
       "weekly_points": 52,
-      "daily_points": 35,
+      "daily_points": 0,
       "total_points": 431,
       "wins": 52,
       "participations": 72,
@@ -497,7 +497,7 @@
     },
     "AizeN ..": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 928,
       "wins": 122,
       "participations": 189,
@@ -1137,7 +1137,7 @@
     },
     "بعد الغيابّ صدفه تلاقينا": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -1147,7 +1147,7 @@
     },
     "ㅤ TiMoR..": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -1157,6 +1157,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-09T02:44:22"
+    },
     {
       "type": 5,
       "winner": "AizeN ..",
@@ -1735,19 +1746,8 @@
         }
       ],
       "created_at": "2026-08-02T20:45:27"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-02T16:10:52"
     }
   ],
-  "last_daily_reset": "2026-08-08T07:49:29",
+  "last_daily_reset": "2026-08-09T02:44:22",
   "last_weekly_reset": "2026-08-06T08:37:00"
 }
