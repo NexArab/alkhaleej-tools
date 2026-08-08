@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-07T09:42:40",
   "daily_champion": {
-    "name": "⠀⠀           محـمّد",
+    "name": "ㅤ TiMoR..",
     "points": 5,
-    "date": "2026-08-07"
+    "date": "2026-08-08"
   },
-  "daily_champion_set_at": "2026-08-07T09:42:40",
+  "daily_champion_set_at": "2026-08-08T19:37:02",
   "last_reset": "2026-08-07T09:42:40",
-  "last_updated": "2026-08-07T09:42:40",
+  "last_updated": "2026-08-08T19:37:02",
   "players": {
     "إستبــــــــــــرق": {
       "weekly_points": 0,
@@ -467,16 +467,37 @@
     },
     "ㅤ TiMoR..": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
       "title": "بطل الفعاليات",
       "last_win": "2026-08-07T09:42:40",
       "updated_at": "2026-08-07T09:42:40"
+    },
+    "عهـــــد": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "بطل الفعاليات",
+      "last_win": "2026-08-08T19:37:02",
+      "updated_at": "2026-08-08T19:37:02"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "عهـــــد",
+      "participants": [
+        {
+          "name": "عهـــــد",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-08T19:37:02"
+    },
     {
       "type": 5,
       "winner": "ㅤ TiMoR..",
@@ -1059,19 +1080,8 @@
         }
       ],
       "created_at": "2026-06-29T17:51:08"
-    },
-    {
-      "type": 5,
-      "winner": "Rio",
-      "participants": [
-        {
-          "name": "Rio",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-06-29T17:49:31"
     }
   ],
-  "last_daily_reset": "2026-08-07T09:42:40",
+  "last_daily_reset": "2026-08-08T19:37:02",
   "last_weekly_reset": "2026-08-07T09:42:40"
 }
