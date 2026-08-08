@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-08T02:51:57",
   "last_reset": "2026-08-06T09:47:43",
-  "last_updated": "2026-08-08T07:55:52",
+  "last_updated": "2026-08-08T09:35:43",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-07-29T17:01:11"
     },
     "How?": {
-      "weekly_points": 70,
-      "daily_points": 0,
-      "total_points": 746,
-      "wins": 128,
-      "participations": 132,
+      "weekly_points": 75,
+      "daily_points": 5,
+      "total_points": 751,
+      "wins": 129,
+      "participations": 133,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-07T21:56:21",
-      "updated_at": "2026-08-07T21:56:21"
+      "last_win": "2026-08-08T09:35:43",
+      "updated_at": "2026-08-08T09:35:43"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -1329,6 +1329,17 @@
   "matches": [
     {
       "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-08T09:35:43"
+    },
+    {
+      "type": 5,
       "winner": "بعد الغيابّ صدفه تلاقينا",
       "participants": [
         {
@@ -1901,17 +1912,6 @@
         }
       ],
       "created_at": "2026-08-04T11:01:01"
-    },
-    {
-      "type": 5,
-      "winner": "Ht",
-      "participants": [
-        {
-          "name": "Ht",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-04T10:54:15"
     }
   ],
   "last_daily_reset": "2026-08-08T02:51:57",
