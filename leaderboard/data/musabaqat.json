@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-08T02:51:57",
   "last_reset": "2026-08-06T09:47:43",
-  "last_updated": "2026-08-08T13:13:26",
+  "last_updated": "2026-08-08T13:29:25",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1334,9 +1334,30 @@
       "title": "سيد المسابقات",
       "last_win": "2026-08-08T13:11:11",
       "updated_at": "2026-08-08T13:11:11"
+    },
+    "ㅤ TiMoR..": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-08-08T13:29:25",
+      "updated_at": "2026-08-08T13:29:25"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ㅤ TiMoR..",
+      "participants": [
+        {
+          "name": "ㅤ TiMoR..",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-08T13:29:25"
+    },
     {
       "type": 5,
       "winner": "⠀⠀⠀𝐅𝐢𝐧𝐱..",
@@ -1907,17 +1928,6 @@
         }
       ],
       "created_at": "2026-08-04T21:45:20"
-    },
-    {
-      "type": 5,
-      "winner": "هـنِيالك",
-      "participants": [
-        {
-          "name": "هـنِيالك",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-04T20:45:28"
     }
   ],
   "last_daily_reset": "2026-08-08T02:51:57",
