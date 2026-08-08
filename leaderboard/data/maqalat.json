@@ -8,12 +8,12 @@
   "weekly_champion_set_at": "2026-08-06T08:37:00",
   "daily_champion": {
     "name": "ســاهــــر",
-    "points": 10,
-    "date": "2026-08-07"
+    "points": 86,
+    "date": "2026-08-08"
   },
-  "daily_champion_set_at": "2026-08-07T01:33:42",
+  "daily_champion_set_at": "2026-08-08T07:49:29",
   "last_reset": "2026-08-06T08:37:00",
-  "last_updated": "2026-08-07T19:51:07",
+  "last_updated": "2026-08-08T07:49:29",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,7 +77,7 @@
     },
     "ســاهــــر": {
       "weekly_points": 96,
-      "daily_points": 86,
+      "daily_points": 0,
       "total_points": 2263,
       "wins": 192,
       "participations": 236,
@@ -137,7 +137,7 @@
     },
     "ضامي": {
       "weekly_points": 15,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 277,
       "wins": 50,
       "participations": 53,
@@ -267,7 +267,7 @@
     },
     "How?": {
       "weekly_points": 17,
-      "daily_points": 17,
+      "daily_points": 0,
       "total_points": 396,
       "wins": 47,
       "participations": 67,
@@ -757,7 +757,7 @@
     },
     "D E F": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 4922,
       "wins": 836,
       "participations": 924,
@@ -1057,7 +1057,7 @@
     },
     "مو رايـق": {
       "weekly_points": 25,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 236,
       "wins": 31,
       "participations": 39,
@@ -1134,9 +1134,30 @@
       "title": "ملك المقالات",
       "last_win": "2026-08-06T08:37:00",
       "updated_at": "2026-08-06T08:37:00"
+    },
+    "بعد الغيابّ صدفه تلاقينا": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-08-08T07:49:29",
+      "updated_at": "2026-08-08T07:49:29"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "بعد الغيابّ صدفه تلاقينا",
+      "participants": [
+        {
+          "name": "بعد الغيابّ صدفه تلاقينا",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-08T07:49:29"
+    },
     {
       "type": 5,
       "winner": "How?",
@@ -1715,19 +1736,8 @@
         }
       ],
       "created_at": "2026-08-02T04:15:42"
-    },
-    {
-      "type": 5,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-02T04:13:03"
     }
   ],
-  "last_daily_reset": "2026-08-07T01:33:42",
+  "last_daily_reset": "2026-08-08T07:49:29",
   "last_weekly_reset": "2026-08-06T08:37:00"
 }
