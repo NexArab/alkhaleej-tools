@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-09T00:18:37",
   "last_reset": "2026-08-08T23:13:00",
-  "last_updated": "2026-08-09T22:39:39",
+  "last_updated": "2026-08-09T22:44:07",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1396,14 +1396,14 @@
       "updated_at": "2026-08-09T11:19:28"
     },
     "Taj": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 10,
+      "wins": 2,
+      "participations": 2,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-09T22:39:39",
-      "updated_at": "2026-08-09T22:39:39"
+      "last_win": "2026-08-09T22:44:07",
+      "updated_at": "2026-08-09T22:44:07"
     },
     "ㅤㅤㅤㅤㅤㅤڃۚـﮧــڵــطــہ": {
       "weekly_points": 1,
@@ -1417,6 +1417,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Taj",
+      "participants": [
+        {
+          "name": "Taj",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-09T22:44:07"
+    },
     {
       "type": 5,
       "winner": "Taj",
@@ -2015,17 +2026,6 @@
         }
       ],
       "created_at": "2026-08-08T05:26:22"
-    },
-    {
-      "type": 5,
-      "winner": "صحيح",
-      "participants": [
-        {
-          "name": "صحيح",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-08T05:25:12"
     }
   ],
   "last_daily_reset": "2026-08-09T00:18:37",
