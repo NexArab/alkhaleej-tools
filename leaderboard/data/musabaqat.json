@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-09T00:18:37",
   "last_reset": "2026-08-08T23:13:00",
-  "last_updated": "2026-08-09T11:19:28",
+  "last_updated": "2026-08-09T14:37:13",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1356,14 +1356,14 @@
       "updated_at": "2026-08-09T02:48:04"
     },
     "عهـــــد": {
-      "weekly_points": 20,
-      "daily_points": 20,
-      "total_points": 30,
-      "wins": 3,
-      "participations": 3,
+      "weekly_points": 30,
+      "daily_points": 30,
+      "total_points": 40,
+      "wins": 4,
+      "participations": 4,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-09T00:24:42",
-      "updated_at": "2026-08-09T00:24:42"
+      "last_win": "2026-08-09T14:37:13",
+      "updated_at": "2026-08-09T14:37:13"
     },
     "ㅤㅤㅤ ياسر": {
       "weekly_points": 10,
@@ -1397,6 +1397,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "عهـــــد",
+      "participants": [
+        {
+          "name": "عهـــــد",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-08-09T14:37:13"
+    },
     {
       "type": 10,
       "winner": "قبس",
@@ -1987,17 +1998,6 @@
         }
       ],
       "created_at": "2026-08-07T21:01:16"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-07T20:58:04"
     }
   ],
   "last_daily_reset": "2026-08-09T00:18:37",
