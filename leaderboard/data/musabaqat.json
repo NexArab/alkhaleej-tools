@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-10T00:48:46",
   "last_reset": "2026-08-08T23:13:00",
-  "last_updated": "2026-08-10T00:50:47",
+  "last_updated": "2026-08-10T01:50:16",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1414,9 +1414,30 @@
       "title": "سيد المسابقات",
       "last_win": "2026-08-09T22:46:37",
       "updated_at": "2026-08-09T22:46:37"
+    },
+    "حمزة 1": {
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 5,
+      "wins": 1,
+      "participations": 1,
+      "title": "سيد المسابقات",
+      "last_win": "2026-08-10T01:50:16",
+      "updated_at": "2026-08-10T01:50:16"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "حمزة 1",
+      "participants": [
+        {
+          "name": "حمزة 1",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-10T01:50:16"
+    },
     {
       "type": 5,
       "winner": "How?",
@@ -2019,17 +2040,6 @@
         }
       ],
       "created_at": "2026-08-08T09:43:26"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-08T09:35:43"
     }
   ],
   "last_daily_reset": "2026-08-10T00:48:46",
