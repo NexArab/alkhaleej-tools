@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-08T23:13:00",
   "daily_champion": {
-    "name": "عهـــــد",
-    "points": 30,
-    "date": "2026-08-10"
+    "name": "How?",
+    "points": 10,
+    "date": "2026-08-11"
   },
-  "daily_champion_set_at": "2026-08-10T00:48:46",
+  "daily_champion_set_at": "2026-08-11T01:12:26",
   "last_reset": "2026-08-08T23:13:00",
-  "last_updated": "2026-08-10T22:00:38",
+  "last_updated": "2026-08-11T01:12:26",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-07-29T17:01:11"
     },
     "How?": {
-      "weekly_points": 30,
-      "daily_points": 10,
-      "total_points": 802,
-      "wins": 139,
-      "participations": 144,
+      "weekly_points": 35,
+      "daily_points": 5,
+      "total_points": 807,
+      "wins": 140,
+      "participations": 145,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-10T00:50:47",
-      "updated_at": "2026-08-10T00:50:47"
+      "last_win": "2026-08-11T01:12:26",
+      "updated_at": "2026-08-11T01:12:26"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -1257,7 +1257,7 @@
     },
     "⠀⠀ محـمّد": {
       "weekly_points": 30,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 157,
       "wins": 29,
       "participations": 32,
@@ -1347,7 +1347,7 @@
     },
     "م⠀": {
       "weekly_points": 36,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 39,
       "wins": 4,
       "participations": 10,
@@ -1357,7 +1357,7 @@
     },
     "عهـــــد": {
       "weekly_points": 40,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 50,
       "wins": 5,
       "participations": 5,
@@ -1367,7 +1367,7 @@
     },
     "ㅤㅤㅤ ياسر": {
       "weekly_points": 15,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 20,
       "wins": 4,
       "participations": 4,
@@ -1417,7 +1417,7 @@
     },
     "حمزة 1": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -1427,7 +1427,7 @@
     },
     "صرصور": {
       "weekly_points": 1,
-      "daily_points": 1,
+      "daily_points": 0,
       "total_points": 1,
       "wins": 0,
       "participations": 1,
@@ -1437,7 +1437,7 @@
     },
     "هووف": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -1447,7 +1447,7 @@
     },
     "(": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -1457,6 +1457,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-11T01:12:26"
+    },
     {
       "type": 5,
       "winner": "م⠀",
@@ -2059,19 +2070,8 @@
         }
       ],
       "created_at": "2026-08-08T14:54:32"
-    },
-    {
-      "type": 5,
-      "winner": "ㅤ TiMoR..",
-      "participants": [
-        {
-          "name": "ㅤ TiMoR..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-08T13:29:25"
     }
   ],
-  "last_daily_reset": "2026-08-10T00:48:46",
+  "last_daily_reset": "2026-08-11T01:12:26",
   "last_weekly_reset": "2026-08-08T23:13:00"
 }
