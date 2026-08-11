@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-11T01:12:26",
   "last_reset": "2026-08-08T23:13:00",
-  "last_updated": "2026-08-11T01:51:39",
+  "last_updated": "2026-08-11T03:34:18",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1226,14 +1226,14 @@
       "updated_at": "2026-08-04T11:04:07"
     },
     "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎": {
-      "weekly_points": 1,
-      "daily_points": 0,
-      "total_points": 2,
+      "weekly_points": 2,
+      "daily_points": 1,
+      "total_points": 3,
       "wins": 0,
-      "participations": 2,
+      "participations": 3,
       "title": null,
       "last_win": null,
-      "updated_at": "2026-08-09T02:13:30"
+      "updated_at": "2026-08-11T03:34:18"
     },
     "Why!": {
       "weekly_points": 0,
@@ -1366,14 +1366,14 @@
       "updated_at": "2026-08-10T15:20:28"
     },
     "ㅤㅤㅤ ياسر": {
-      "weekly_points": 15,
-      "daily_points": 0,
-      "total_points": 20,
-      "wins": 4,
-      "participations": 4,
+      "weekly_points": 20,
+      "daily_points": 5,
+      "total_points": 25,
+      "wins": 5,
+      "participations": 5,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-10T04:19:56",
-      "updated_at": "2026-08-10T04:19:56"
+      "last_win": "2026-08-11T03:34:18",
+      "updated_at": "2026-08-11T03:34:18"
     },
     "Khaled.": {
       "weekly_points": 3,
@@ -1457,6 +1457,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ㅤㅤㅤ ياسر",
+      "participants": [
+        {
+          "name": "ㅤㅤㅤ ياسر",
+          "points": 5
+        },
+        {
+          "name": "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-08-11T03:34:18"
+    },
     {
       "type": 5,
       "winner": "How?",
@@ -2059,17 +2074,6 @@
         }
       ],
       "created_at": "2026-08-08T15:32:46"
-    },
-    {
-      "type": 5,
-      "winner": "⠀⠀ محـمّد",
-      "participants": [
-        {
-          "name": "⠀⠀ محـمّد",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-08T15:25:17"
     }
   ],
   "last_daily_reset": "2026-08-11T01:12:26",
