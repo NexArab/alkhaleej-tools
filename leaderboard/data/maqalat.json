@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-11T04:16:05",
   "last_reset": "2026-08-06T08:37:00",
-  "last_updated": "2026-08-11T21:17:20",
+  "last_updated": "2026-08-11T21:25:47",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1166,14 +1166,14 @@
       "updated_at": "2026-08-11T15:02:42"
     },
     "ألدحمي": {
-      "weekly_points": 60,
-      "daily_points": 60,
-      "total_points": 60,
-      "wins": 5,
-      "participations": 5,
+      "weekly_points": 85,
+      "daily_points": 85,
+      "total_points": 85,
+      "wins": 6,
+      "participations": 6,
       "title": "ملك المقالات",
-      "last_win": "2026-08-11T21:17:20",
-      "updated_at": "2026-08-11T21:17:20"
+      "last_win": "2026-08-11T21:25:47",
+      "updated_at": "2026-08-11T21:25:47"
     },
     "محمِد.": {
       "weekly_points": 3,
@@ -1187,6 +1187,17 @@
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "ألدحمي",
+      "participants": [
+        {
+          "name": "ألدحمي",
+          "points": 25
+        }
+      ],
+      "created_at": "2026-08-11T21:25:47"
+    },
     {
       "type": 20,
       "winner": "ألدحمي",
@@ -1769,17 +1780,6 @@
         }
       ],
       "created_at": "2026-08-07T01:36:26"
-    },
-    {
-      "type": 5,
-      "winner": "ضامي",
-      "participants": [
-        {
-          "name": "ضامي",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-07T01:33:42"
     }
   ],
   "last_daily_reset": "2026-08-11T04:16:05",
