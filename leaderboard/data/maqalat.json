@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-11T04:16:05",
   "last_reset": "2026-08-06T08:37:00",
-  "last_updated": "2026-08-11T04:20:18",
+  "last_updated": "2026-08-11T04:23:28",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,24 +306,24 @@
       "updated_at": "2026-07-14T00:58:35"
     },
     "أدرينالين": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 1487,
-      "wins": 109,
-      "participations": 127,
+      "weekly_points": 20,
+      "daily_points": 20,
+      "total_points": 1497,
+      "wins": 110,
+      "participations": 128,
       "title": "ملك المقالات",
-      "last_win": "2026-08-11T04:20:18",
-      "updated_at": "2026-08-11T04:20:18"
+      "last_win": "2026-08-11T04:23:28",
+      "updated_at": "2026-08-11T04:23:28"
     },
     "نجر": {
-      "weekly_points": 8,
-      "daily_points": 8,
-      "total_points": 1624,
+      "weekly_points": 13,
+      "daily_points": 13,
+      "total_points": 1629,
       "wins": 95,
-      "participations": 167,
+      "participations": 168,
       "title": "ملك المقالات",
       "last_win": "2026-08-11T04:16:05",
-      "updated_at": "2026-08-11T04:20:18"
+      "updated_at": "2026-08-11T04:23:28"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -1167,6 +1167,21 @@
         },
         {
           "name": "نجر",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-11T04:23:28"
+    },
+    {
+      "type": 10,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 10
+        },
+        {
+          "name": "نجر",
           "points": 3
         }
       ],
@@ -1739,17 +1754,6 @@
         }
       ],
       "created_at": "2026-08-03T03:45:00"
-    },
-    {
-      "type": 10,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-08-03T01:07:40"
     }
   ],
   "last_daily_reset": "2026-08-11T04:16:05",
