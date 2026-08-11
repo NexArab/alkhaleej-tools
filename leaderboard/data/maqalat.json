@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-11T04:16:05",
   "last_reset": "2026-08-06T08:37:00",
-  "last_updated": "2026-08-11T04:23:28",
+  "last_updated": "2026-08-11T04:26:56",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,24 +306,24 @@
       "updated_at": "2026-07-14T00:58:35"
     },
     "أدرينالين": {
-      "weekly_points": 20,
-      "daily_points": 20,
-      "total_points": 1497,
+      "weekly_points": 26,
+      "daily_points": 26,
+      "total_points": 1503,
       "wins": 110,
-      "participations": 128,
+      "participations": 129,
       "title": "ملك المقالات",
       "last_win": "2026-08-11T04:23:28",
-      "updated_at": "2026-08-11T04:23:28"
+      "updated_at": "2026-08-11T04:26:56"
     },
     "نجر": {
-      "weekly_points": 13,
-      "daily_points": 13,
-      "total_points": 1629,
-      "wins": 95,
-      "participations": 168,
+      "weekly_points": 23,
+      "daily_points": 23,
+      "total_points": 1639,
+      "wins": 96,
+      "participations": 169,
       "title": "ملك المقالات",
-      "last_win": "2026-08-11T04:16:05",
-      "updated_at": "2026-08-11T04:23:28"
+      "last_win": "2026-08-11T04:26:56",
+      "updated_at": "2026-08-11T04:26:56"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -1159,6 +1159,21 @@
   "matches": [
     {
       "type": 10,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 10
+        },
+        {
+          "name": "أدرينالين",
+          "points": 6
+        }
+      ],
+      "created_at": "2026-08-11T04:26:56"
+    },
+    {
+      "type": 10,
       "winner": "أدرينالين",
       "participants": [
         {
@@ -1739,21 +1754,6 @@
         }
       ],
       "created_at": "2026-08-03T03:49:10"
-    },
-    {
-      "type": 10,
-      "winner": "أدرينالين",
-      "participants": [
-        {
-          "name": "أدرينالين",
-          "points": 10
-        },
-        {
-          "name": "نجر",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-08-03T03:45:00"
     }
   ],
   "last_daily_reset": "2026-08-11T04:16:05",
