@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-11T04:16:05",
   "last_reset": "2026-08-06T08:37:00",
-  "last_updated": "2026-08-11T19:54:05",
+  "last_updated": "2026-08-11T19:58:12",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1166,17 +1166,28 @@
       "updated_at": "2026-08-11T15:02:42"
     },
     "ألدحمي": {
-      "weekly_points": 5,
-      "daily_points": 5,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 15,
+      "daily_points": 15,
+      "total_points": 15,
+      "wins": 2,
+      "participations": 2,
       "title": "ملك المقالات",
-      "last_win": "2026-08-11T19:54:05",
-      "updated_at": "2026-08-11T19:54:05"
+      "last_win": "2026-08-11T19:58:12",
+      "updated_at": "2026-08-11T19:58:12"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ألدحمي",
+      "participants": [
+        {
+          "name": "ألدحمي",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-08-11T19:58:12"
+    },
     {
       "type": 5,
       "winner": "ألدحمي",
@@ -1755,17 +1766,6 @@
         }
       ],
       "created_at": "2026-08-06T08:37:00"
-    },
-    {
-      "type": 5,
-      "winner": "😵",
-      "participants": [
-        {
-          "name": "😵",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-05T18:00:42"
     }
   ],
   "last_daily_reset": "2026-08-11T04:16:05",
