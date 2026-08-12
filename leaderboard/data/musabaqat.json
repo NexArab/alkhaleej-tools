@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-12T06:03:18",
   "last_reset": "2026-08-08T23:13:00",
-  "last_updated": "2026-08-12T09:13:16",
+  "last_updated": "2026-08-12T10:27:46",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-07-29T17:01:11"
     },
     "How?": {
-      "weekly_points": 85,
-      "daily_points": 35,
-      "total_points": 857,
-      "wins": 149,
-      "participations": 154,
+      "weekly_points": 90,
+      "daily_points": 40,
+      "total_points": 862,
+      "wins": 150,
+      "participations": 155,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-12T09:13:16",
-      "updated_at": "2026-08-12T09:13:16"
+      "last_win": "2026-08-12T10:27:46",
+      "updated_at": "2026-08-12T10:27:46"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -1476,6 +1476,17 @@
           "points": 5
         }
       ],
+      "created_at": "2026-08-12T10:27:46"
+    },
+    {
+      "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
       "created_at": "2026-08-12T09:13:16"
     },
     {
@@ -2057,25 +2068,6 @@
         }
       ],
       "created_at": "2026-08-09T02:17:42"
-    },
-    {
-      "type": 5,
-      "winner": "ㅤㅤㅤ ياسر",
-      "participants": [
-        {
-          "name": "ㅤㅤㅤ ياسر",
-          "points": 5
-        },
-        {
-          "name": "Khaled.",
-          "points": 3
-        },
-        {
-          "name": "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-08-09T02:13:30"
     }
   ],
   "last_daily_reset": "2026-08-12T06:03:18",
