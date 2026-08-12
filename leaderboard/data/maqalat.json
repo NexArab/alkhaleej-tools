@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-12T06:27:09",
   "last_reset": "2026-08-06T08:37:00",
-  "last_updated": "2026-08-12T12:54:53",
+  "last_updated": "2026-08-12T14:42:37",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -756,14 +756,14 @@
       "updated_at": "2026-06-23T20:05:51"
     },
     "D E F": {
-      "weekly_points": 35,
-      "daily_points": 0,
-      "total_points": 4952,
-      "wins": 842,
-      "participations": 930,
+      "weekly_points": 40,
+      "daily_points": 5,
+      "total_points": 4957,
+      "wins": 843,
+      "participations": 931,
       "title": "ملك المقالات",
-      "last_win": "2026-08-11T11:06:10",
-      "updated_at": "2026-08-11T11:06:10"
+      "last_win": "2026-08-12T14:42:37",
+      "updated_at": "2026-08-12T14:42:37"
     },
     "طرب": {
       "weekly_points": 0,
@@ -1197,6 +1197,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "D E F",
+      "participants": [
+        {
+          "name": "D E F",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-12T14:42:37"
+    },
     {
       "type": 10,
       "winner": "ألدحمي",
@@ -1795,17 +1806,6 @@
         }
       ],
       "created_at": "2026-08-07T09:46:55"
-    },
-    {
-      "type": 5,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-07T09:45:21"
     }
   ],
   "last_daily_reset": "2026-08-12T06:27:09",
