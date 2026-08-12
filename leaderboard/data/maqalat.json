@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-06T08:37:00",
   "daily_champion": {
-    "name": "ســاهــــر",
-    "points": 30,
-    "date": "2026-08-11"
+    "name": "ألدحمي",
+    "points": 85,
+    "date": "2026-08-12"
   },
-  "daily_champion_set_at": "2026-08-11T04:16:05",
+  "daily_champion_set_at": "2026-08-12T06:27:09",
   "last_reset": "2026-08-06T08:37:00",
-  "last_updated": "2026-08-11T21:25:47",
+  "last_updated": "2026-08-12T06:27:09",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -266,14 +266,14 @@
       "updated_at": "2026-05-31T12:22:30"
     },
     "How?": {
-      "weekly_points": 62,
+      "weekly_points": 72,
       "daily_points": 10,
-      "total_points": 441,
-      "wins": 54,
-      "participations": 74,
+      "total_points": 451,
+      "wins": 55,
+      "participations": 75,
       "title": "ملك المقالات",
-      "last_win": "2026-08-11T09:14:55",
-      "updated_at": "2026-08-11T09:14:55"
+      "last_win": "2026-08-12T06:27:09",
+      "updated_at": "2026-08-12T06:27:09"
     },
     "شين باء": {
       "weekly_points": 0,
@@ -307,7 +307,7 @@
     },
     "أدرينالين": {
       "weekly_points": 26,
-      "daily_points": 26,
+      "daily_points": 0,
       "total_points": 1503,
       "wins": 110,
       "participations": 129,
@@ -317,7 +317,7 @@
     },
     "نجر": {
       "weekly_points": 23,
-      "daily_points": 23,
+      "daily_points": 0,
       "total_points": 1639,
       "wins": 96,
       "participations": 169,
@@ -757,7 +757,7 @@
     },
     "D E F": {
       "weekly_points": 35,
-      "daily_points": 30,
+      "daily_points": 0,
       "total_points": 4952,
       "wins": 842,
       "participations": 930,
@@ -1157,7 +1157,7 @@
     },
     "كوكب": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -1167,7 +1167,7 @@
     },
     "ألدحمي": {
       "weekly_points": 85,
-      "daily_points": 85,
+      "daily_points": 0,
       "total_points": 85,
       "wins": 6,
       "participations": 6,
@@ -1177,7 +1177,7 @@
     },
     "محمِد.": {
       "weekly_points": 3,
-      "daily_points": 3,
+      "daily_points": 0,
       "total_points": 3,
       "wins": 0,
       "participations": 1,
@@ -1187,6 +1187,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-08-12T06:27:09"
+    },
     {
       "type": 25,
       "winner": "ألدحمي",
@@ -1769,19 +1780,8 @@
         }
       ],
       "created_at": "2026-08-07T01:37:49"
-    },
-    {
-      "type": 5,
-      "winner": "ضامي",
-      "participants": [
-        {
-          "name": "ضامي",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-07T01:36:26"
     }
   ],
-  "last_daily_reset": "2026-08-11T04:16:05",
+  "last_daily_reset": "2026-08-12T06:27:09",
   "last_weekly_reset": "2026-08-06T08:37:00"
 }
