@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-13T01:22:30",
   "daily_champion": {
-    "name": "How?",
-    "points": 40,
-    "date": "2026-08-13"
+    "name": "Mirinda",
+    "points": 5,
+    "date": "2026-08-14"
   },
-  "daily_champion_set_at": "2026-08-13T01:22:30",
+  "daily_champion_set_at": "2026-08-14T02:16:29",
   "last_reset": "2026-08-13T01:22:30",
-  "last_updated": "2026-08-13T01:22:30",
+  "last_updated": "2026-08-14T02:16:29",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -786,14 +786,14 @@
       "updated_at": "2026-07-18T05:36:50"
     },
     "ˣ": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 10,
-      "wins": 2,
-      "participations": 2,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 15,
+      "wins": 3,
+      "participations": 3,
       "title": "سيد المسابقات",
-      "last_win": "2026-07-06T04:03:55",
-      "updated_at": "2026-07-06T04:03:55"
+      "last_win": "2026-08-14T02:16:29",
+      "updated_at": "2026-08-14T02:16:29"
     },
     "سوط": {
       "weekly_points": 0,
@@ -1487,7 +1487,7 @@
     },
     "Mirinda": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -1497,6 +1497,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ˣ",
+      "participants": [
+        {
+          "name": "ˣ",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-14T02:16:29"
+    },
     {
       "type": 5,
       "winner": "Mirinda",
@@ -2087,19 +2098,8 @@
         }
       ],
       "created_at": "2026-08-09T22:28:09"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-09T22:26:15"
     }
   ],
-  "last_daily_reset": "2026-08-13T01:22:30",
+  "last_daily_reset": "2026-08-14T02:16:29",
   "last_weekly_reset": "2026-08-13T01:22:30"
 }
