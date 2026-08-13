@@ -5,15 +5,15 @@
     "points": 10,
     "week_of": "2026-08-13"
   },
-  "weekly_champion_set_at": "2026-08-13T23:37:18",
+  "weekly_champion_set_at": "2026-08-13T23:40:51",
   "daily_champion": {
     "name": "12:23",
     "points": 40,
     "date": "2026-08-13"
   },
   "daily_champion_set_at": "2026-08-13T01:20:42",
-  "last_reset": "2026-08-13T23:37:18",
-  "last_updated": "2026-08-13T23:37:18",
+  "last_reset": "2026-08-13T23:40:51",
+  "last_updated": "2026-08-13T23:40:51",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -317,13 +317,13 @@
     },
     "نجر": {
       "weekly_points": 10,
-      "daily_points": 20,
-      "total_points": 1659,
-      "wins": 98,
-      "participations": 171,
+      "daily_points": 30,
+      "total_points": 1669,
+      "wins": 99,
+      "participations": 172,
       "title": "ملك المقالات",
-      "last_win": "2026-08-13T23:37:18",
-      "updated_at": "2026-08-13T23:37:18"
+      "last_win": "2026-08-13T23:40:51",
+      "updated_at": "2026-08-13T23:40:51"
     },
     "التجربة": {
       "weekly_points": 0,
@@ -1216,6 +1216,17 @@
           "points": 10
         }
       ],
+      "created_at": "2026-08-13T23:40:51"
+    },
+    {
+      "type": 10,
+      "winner": "نجر",
+      "participants": [
+        {
+          "name": "نجر",
+          "points": 10
+        }
+      ],
       "created_at": "2026-08-13T23:37:18"
     },
     {
@@ -1797,23 +1808,8 @@
         }
       ],
       "created_at": "2026-08-07T19:49:23"
-    },
-    {
-      "type": 10,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 10
-        },
-        {
-          "name": "How?",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-08-07T19:46:02"
     }
   ],
   "last_daily_reset": "2026-08-13T01:20:42",
-  "last_weekly_reset": "2026-08-13T23:37:18"
+  "last_weekly_reset": "2026-08-13T23:40:51"
 }
