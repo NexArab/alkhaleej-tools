@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-14T20:12:44",
   "last_reset": "2026-08-13T23:40:51",
-  "last_updated": "2026-08-14T20:14:28",
+  "last_updated": "2026-08-14T21:59:36",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -496,14 +496,14 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 928,
-      "wins": 122,
-      "participations": 189,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 933,
+      "wins": 123,
+      "participations": 190,
       "title": "ملك المقالات",
-      "last_win": "2026-08-08T20:58:17",
-      "updated_at": "2026-08-08T20:58:17"
+      "last_win": "2026-08-14T21:59:36",
+      "updated_at": "2026-08-14T21:59:36"
     },
     "⠀⠀جـوج": {
       "weekly_points": 0,
@@ -1209,6 +1209,17 @@
   "matches": [
     {
       "type": 5,
+      "winner": "AizeN ..",
+      "participants": [
+        {
+          "name": "AizeN ..",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-14T21:59:36"
+    },
+    {
+      "type": 5,
       "winner": "ســاهــــر",
       "participants": [
         {
@@ -1789,17 +1800,6 @@
         }
       ],
       "created_at": "2026-08-08T09:47:34"
-    },
-    {
-      "type": 5,
-      "winner": "بعد الغيابّ صدفه تلاقينا",
-      "participants": [
-        {
-          "name": "بعد الغيابّ صدفه تلاقينا",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-08T07:49:29"
     }
   ],
   "last_daily_reset": "2026-08-14T20:12:44",
