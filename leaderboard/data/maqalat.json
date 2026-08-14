@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-13T23:40:51",
   "daily_champion": {
-    "name": "12:23",
-    "points": 40,
-    "date": "2026-08-13"
+    "name": "نجر",
+    "points": 30,
+    "date": "2026-08-14"
   },
-  "daily_champion_set_at": "2026-08-13T01:20:42",
+  "daily_champion_set_at": "2026-08-14T20:12:44",
   "last_reset": "2026-08-13T23:40:51",
-  "last_updated": "2026-08-13T23:40:51",
+  "last_updated": "2026-08-14T20:12:44",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 2313,
-      "wins": 198,
-      "participations": 242,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 2318,
+      "wins": 199,
+      "participations": 243,
       "title": "ملك المقالات",
-      "last_win": "2026-08-10T01:55:07",
-      "updated_at": "2026-08-10T01:55:07"
+      "last_win": "2026-08-14T20:12:44",
+      "updated_at": "2026-08-14T20:12:44"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -317,7 +317,7 @@
     },
     "نجر": {
       "weekly_points": 10,
-      "daily_points": 30,
+      "daily_points": 0,
       "total_points": 1669,
       "wins": 99,
       "participations": 172,
@@ -1197,7 +1197,7 @@
     },
     "Mirinda": {
       "weekly_points": 0,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 5,
       "wins": 1,
       "participations": 1,
@@ -1207,6 +1207,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-14T20:12:44"
+    },
     {
       "type": 10,
       "winner": "نجر",
@@ -1793,23 +1804,8 @@
         }
       ],
       "created_at": "2026-08-07T19:51:07"
-    },
-    {
-      "type": 5,
-      "winner": "ســاهــــر",
-      "participants": [
-        {
-          "name": "ســاهــــر",
-          "points": 5
-        },
-        {
-          "name": "How?",
-          "points": 4
-        }
-      ],
-      "created_at": "2026-08-07T19:49:23"
     }
   ],
-  "last_daily_reset": "2026-08-13T01:20:42",
+  "last_daily_reset": "2026-08-14T20:12:44",
   "last_weekly_reset": "2026-08-13T23:40:51"
 }
