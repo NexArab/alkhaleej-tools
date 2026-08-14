@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-13T01:22:30",
   "daily_champion": {
-    "name": "Mirinda",
+    "name": "ˣ",
     "points": 5,
-    "date": "2026-08-14"
+    "date": "2026-08-15"
   },
-  "daily_champion_set_at": "2026-08-14T02:16:29",
+  "daily_champion_set_at": "2026-08-15T02:54:02",
   "last_reset": "2026-08-13T01:22:30",
-  "last_updated": "2026-08-14T17:27:20",
+  "last_updated": "2026-08-15T02:54:02",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -787,7 +787,7 @@
     },
     "ˣ": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 15,
       "wins": 3,
       "participations": 3,
@@ -1226,14 +1226,14 @@
       "updated_at": "2026-08-04T11:04:07"
     },
     "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 5,
-      "wins": 0,
-      "participations": 4,
-      "title": null,
-      "last_win": null,
-      "updated_at": "2026-08-11T03:41:16"
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 10,
+      "wins": 1,
+      "participations": 5,
+      "title": "سيد المسابقات",
+      "last_win": "2026-08-15T02:54:02",
+      "updated_at": "2026-08-15T02:54:02"
     },
     "Why!": {
       "weekly_points": 0,
@@ -1347,7 +1347,7 @@
     },
     "م⠀": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 81,
       "wins": 12,
       "participations": 19,
@@ -1497,6 +1497,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎",
+      "participants": [
+        {
+          "name": "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-15T02:54:02"
+    },
     {
       "type": 5,
       "winner": "م⠀",
@@ -2083,23 +2094,8 @@
         }
       ],
       "created_at": "2026-08-09T22:31:35"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        },
-        {
-          "name": "م⠀",
-          "points": 3
-        }
-      ],
-      "created_at": "2026-08-09T22:30:31"
     }
   ],
-  "last_daily_reset": "2026-08-14T02:16:29",
+  "last_daily_reset": "2026-08-15T02:54:02",
   "last_weekly_reset": "2026-08-13T01:22:30"
 }
