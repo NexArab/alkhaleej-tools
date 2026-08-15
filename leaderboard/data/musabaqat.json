@@ -1,19 +1,19 @@
 {
   "room": "المسابقات",
   "weekly_champion": {
-    "name": "How?",
-    "points": 90,
-    "week_of": "2026-08-13"
+    "name": "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎",
+    "points": 15,
+    "week_of": "2026-08-15"
   },
-  "weekly_champion_set_at": "2026-08-13T01:22:30",
+  "weekly_champion_set_at": "2026-08-15T23:30:52",
   "daily_champion": {
     "name": "ˣ",
     "points": 5,
     "date": "2026-08-15"
   },
   "daily_champion_set_at": "2026-08-15T02:54:02",
-  "last_reset": "2026-08-13T01:22:30",
-  "last_updated": "2026-08-15T03:20:23",
+  "last_reset": "2026-08-15T23:30:52",
+  "last_updated": "2026-08-15T23:30:52",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -786,7 +786,7 @@
       "updated_at": "2026-07-18T05:36:50"
     },
     "ˣ": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 15,
       "wins": 3,
@@ -1226,14 +1226,14 @@
       "updated_at": "2026-08-04T11:04:07"
     },
     "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎": {
-      "weekly_points": 15,
-      "daily_points": 15,
-      "total_points": 20,
-      "wins": 2,
-      "participations": 6,
+      "weekly_points": 10,
+      "daily_points": 25,
+      "total_points": 30,
+      "wins": 3,
+      "participations": 7,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-15T03:17:56",
-      "updated_at": "2026-08-15T03:17:56"
+      "last_win": "2026-08-15T23:30:52",
+      "updated_at": "2026-08-15T23:30:52"
     },
     "Why!": {
       "weekly_points": 0,
@@ -1346,7 +1346,7 @@
       "updated_at": "2026-08-08T13:29:25"
     },
     "م⠀": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 81,
       "wins": 12,
@@ -1366,14 +1366,14 @@
       "updated_at": "2026-08-10T15:20:28"
     },
     "ㅤㅤㅤ ياسر": {
-      "weekly_points": 12,
-      "daily_points": 12,
-      "total_points": 62,
+      "weekly_points": 2,
+      "daily_points": 14,
+      "total_points": 64,
       "wins": 10,
-      "participations": 11,
+      "participations": 12,
       "title": "سيد المسابقات",
       "last_win": "2026-08-15T03:20:23",
-      "updated_at": "2026-08-15T03:20:23"
+      "updated_at": "2026-08-15T23:30:52"
     },
     "Khaled.": {
       "weekly_points": 0,
@@ -1486,7 +1486,7 @@
       "updated_at": "2026-08-12T23:36:19"
     },
     "Mirinda": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 5,
       "wins": 1,
@@ -1497,6 +1497,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎",
+      "participants": [
+        {
+          "name": "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎",
+          "points": 10
+        },
+        {
+          "name": "ㅤㅤㅤ ياسر",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-08-15T23:30:52"
+    },
     {
       "type": 10,
       "winner": "ㅤㅤㅤ ياسر",
@@ -2083,19 +2098,8 @@
         }
       ],
       "created_at": "2026-08-09T22:46:37"
-    },
-    {
-      "type": 5,
-      "winner": "Taj",
-      "participants": [
-        {
-          "name": "Taj",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-09T22:44:07"
     }
   ],
   "last_daily_reset": "2026-08-15T02:54:02",
-  "last_weekly_reset": "2026-08-13T01:22:30"
+  "last_weekly_reset": "2026-08-15T23:30:52"
 }
