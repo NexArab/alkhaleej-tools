@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-16T04:51:00",
   "last_reset": "2026-08-13T23:40:51",
-  "last_updated": "2026-08-16T05:21:04",
+  "last_updated": "2026-08-16T12:54:36",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -306,14 +306,14 @@
       "updated_at": "2026-07-14T00:58:35"
     },
     "أدرينالين": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 1503,
-      "wins": 110,
-      "participations": 129,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 1508,
+      "wins": 111,
+      "participations": 130,
       "title": "ملك المقالات",
-      "last_win": "2026-08-11T04:23:28",
-      "updated_at": "2026-08-11T04:26:56"
+      "last_win": "2026-08-16T12:54:36",
+      "updated_at": "2026-08-16T12:54:36"
     },
     "نجر": {
       "weekly_points": 10,
@@ -1209,6 +1209,17 @@
   "matches": [
     {
       "type": 5,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-16T12:54:36"
+    },
+    {
+      "type": 5,
       "winner": "How?",
       "participants": [
         {
@@ -1789,17 +1800,6 @@
         }
       ],
       "created_at": "2026-08-08T13:26:33"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-08T09:58:11"
     }
   ],
   "last_daily_reset": "2026-08-16T04:51:00",
