@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-13T23:40:51",
   "daily_champion": {
-    "name": "ســاهــــر",
-    "points": 10,
-    "date": "2026-08-16"
+    "name": "أدرينالين",
+    "points": 15,
+    "date": "2026-08-17"
   },
-  "daily_champion_set_at": "2026-08-16T04:51:00",
+  "daily_champion_set_at": "2026-08-17T02:21:01",
   "last_reset": "2026-08-13T23:40:51",
-  "last_updated": "2026-08-16T14:24:18",
+  "last_updated": "2026-08-17T02:21:01",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -267,7 +267,7 @@
     },
     "How?": {
       "weekly_points": 10,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 461,
       "wins": 57,
       "participations": 77,
@@ -307,7 +307,7 @@
     },
     "أدرينالين": {
       "weekly_points": 15,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 1518,
       "wins": 112,
       "participations": 131,
@@ -317,7 +317,7 @@
     },
     "نجر": {
       "weekly_points": 16,
-      "daily_points": 6,
+      "daily_points": 0,
       "total_points": 1675,
       "wins": 99,
       "participations": 173,
@@ -1197,16 +1197,37 @@
     },
     "Mirinda": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 10,
       "wins": 2,
       "participations": 2,
       "title": "ملك المقالات",
       "last_win": "2026-08-16T04:51:00",
       "updated_at": "2026-08-16T04:51:00"
+    },
+    "𝟐𝟑.": {
+      "weekly_points": 10,
+      "daily_points": 10,
+      "total_points": 10,
+      "wins": 1,
+      "participations": 1,
+      "title": "ملك المقالات",
+      "last_win": "2026-08-17T02:21:01",
+      "updated_at": "2026-08-17T02:21:01"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "𝟐𝟑.",
+      "participants": [
+        {
+          "name": "𝟐𝟑.",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-08-17T02:21:01"
+    },
     {
       "type": 10,
       "winner": "أدرينالين",
@@ -1793,19 +1814,8 @@
         }
       ],
       "created_at": "2026-08-09T02:44:22"
-    },
-    {
-      "type": 5,
-      "winner": "AizeN ..",
-      "participants": [
-        {
-          "name": "AizeN ..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-08T20:58:17"
     }
   ],
-  "last_daily_reset": "2026-08-16T04:51:00",
+  "last_daily_reset": "2026-08-17T02:21:01",
   "last_weekly_reset": "2026-08-13T23:40:51"
 }
