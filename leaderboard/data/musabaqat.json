@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-18T00:25:34",
   "last_reset": "2026-08-15T23:30:52",
-  "last_updated": "2026-08-18T00:31:32",
+  "last_updated": "2026-08-18T00:33:10",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1156,14 +1156,14 @@
       "updated_at": "2026-08-03T23:57:11"
     },
     "فوريشوت": {
-      "weekly_points": 39,
-      "daily_points": 19,
-      "total_points": 152,
-      "wins": 16,
-      "participations": 18,
+      "weekly_points": 49,
+      "daily_points": 29,
+      "total_points": 162,
+      "wins": 17,
+      "participations": 19,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-18T00:31:32",
-      "updated_at": "2026-08-18T00:31:32"
+      "last_win": "2026-08-18T00:33:10",
+      "updated_at": "2026-08-18T00:33:10"
     },
     "⠀⠀⠀𝐅𝐢𝐧𝐱": {
       "weekly_points": 0,
@@ -1346,14 +1346,14 @@
       "updated_at": "2026-08-08T13:29:25"
     },
     "م⠀": {
-      "weekly_points": 38,
-      "daily_points": 17,
-      "total_points": 119,
+      "weekly_points": 40,
+      "daily_points": 19,
+      "total_points": 121,
       "wins": 15,
-      "participations": 31,
+      "participations": 32,
       "title": "سيد المسابقات",
       "last_win": "2026-08-18T00:30:05",
-      "updated_at": "2026-08-18T00:30:05"
+      "updated_at": "2026-08-18T00:33:10"
     },
     "عهـــــد": {
       "weekly_points": 0,
@@ -1527,6 +1527,21 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "فوريشوت",
+      "participants": [
+        {
+          "name": "فوريشوت",
+          "points": 10
+        },
+        {
+          "name": "م⠀",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-08-18T00:33:10"
+    },
     {
       "type": 5,
       "winner": "فوريشوت",
@@ -2153,21 +2168,6 @@
         }
       ],
       "created_at": "2026-08-13T01:22:30"
-    },
-    {
-      "type": 10,
-      "winner": "لُوبِيدٌ",
-      "participants": [
-        {
-          "name": "لُوبِيدٌ",
-          "points": 10
-        },
-        {
-          "name": "انين",
-          "points": 8
-        }
-      ],
-      "created_at": "2026-08-12T23:36:19"
     }
   ],
   "last_daily_reset": "2026-08-18T00:25:34",
