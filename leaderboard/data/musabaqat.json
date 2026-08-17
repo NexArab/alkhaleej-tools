@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-17T01:43:16",
   "last_reset": "2026-08-15T23:30:52",
-  "last_updated": "2026-08-17T09:37:01",
+  "last_updated": "2026-08-17T09:40:50",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -596,14 +596,14 @@
       "updated_at": "2026-06-12T03:38:06"
     },
     "Lyx": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 59,
-      "wins": 6,
-      "participations": 10,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 64,
+      "wins": 7,
+      "participations": 11,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-03T21:09:33",
-      "updated_at": "2026-08-03T21:09:33"
+      "last_win": "2026-08-17T09:40:50",
+      "updated_at": "2026-08-17T09:40:50"
     },
     "؟": {
       "weekly_points": 0,
@@ -1256,14 +1256,14 @@
       "updated_at": "2026-08-04T10:28:51"
     },
     "⠀⠀ محـمّد": {
-      "weekly_points": 65,
-      "daily_points": 60,
-      "total_points": 225,
+      "weekly_points": 68,
+      "daily_points": 63,
+      "total_points": 228,
       "wins": 42,
-      "participations": 46,
+      "participations": 47,
       "title": "سيد المسابقات",
       "last_win": "2026-08-17T09:37:01",
-      "updated_at": "2026-08-17T09:37:01"
+      "updated_at": "2026-08-17T09:40:50"
     },
     "سمرقند": {
       "weekly_points": 0,
@@ -1346,14 +1346,14 @@
       "updated_at": "2026-08-08T13:29:25"
     },
     "م⠀": {
-      "weekly_points": 18,
-      "daily_points": 18,
-      "total_points": 99,
+      "weekly_points": 19,
+      "daily_points": 19,
+      "total_points": 100,
       "wins": 13,
-      "participations": 26,
+      "participations": 27,
       "title": "سيد المسابقات",
       "last_win": "2026-08-17T06:13:49",
-      "updated_at": "2026-08-17T09:37:01"
+      "updated_at": "2026-08-17T09:40:50"
     },
     "عهـــــد": {
       "weekly_points": 0,
@@ -1527,6 +1527,25 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Lyx",
+      "participants": [
+        {
+          "name": "Lyx",
+          "points": 5
+        },
+        {
+          "name": "⠀⠀ محـمّد",
+          "points": 3
+        },
+        {
+          "name": "م⠀",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-08-17T09:40:50"
+    },
     {
       "type": 5,
       "winner": "⠀⠀ محـمّد",
@@ -2125,17 +2144,6 @@
         }
       ],
       "created_at": "2026-08-12T06:03:18"
-    },
-    {
-      "type": 5,
-      "winner": "م⠀",
-      "participants": [
-        {
-          "name": "م⠀",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-11T22:39:21"
     }
   ],
   "last_daily_reset": "2026-08-17T01:43:16",
