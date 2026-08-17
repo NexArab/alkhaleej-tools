@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-18T00:25:34",
   "last_reset": "2026-08-15T23:30:52",
-  "last_updated": "2026-08-18T00:54:46",
+  "last_updated": "2026-08-18T00:56:31",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1156,14 +1156,14 @@
       "updated_at": "2026-08-03T23:57:11"
     },
     "فوريشوت": {
-      "weekly_points": 57,
-      "daily_points": 37,
-      "total_points": 170,
-      "wins": 18,
-      "participations": 22,
+      "weekly_points": 62,
+      "daily_points": 42,
+      "total_points": 175,
+      "wins": 19,
+      "participations": 23,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-18T00:54:46",
-      "updated_at": "2026-08-18T00:54:46"
+      "last_win": "2026-08-18T00:56:31",
+      "updated_at": "2026-08-18T00:56:31"
     },
     "⠀⠀⠀𝐅𝐢𝐧𝐱": {
       "weekly_points": 0,
@@ -1366,14 +1366,14 @@
       "updated_at": "2026-08-10T15:20:28"
     },
     "ㅤㅤㅤ ياسر": {
-      "weekly_points": 3,
-      "daily_points": 1,
-      "total_points": 65,
+      "weekly_points": 4,
+      "daily_points": 2,
+      "total_points": 66,
       "wins": 10,
-      "participations": 13,
+      "participations": 14,
       "title": "سيد المسابقات",
       "last_win": "2026-08-15T03:20:23",
-      "updated_at": "2026-08-18T00:54:46"
+      "updated_at": "2026-08-18T00:56:31"
     },
     "Khaled.": {
       "weekly_points": 0,
@@ -1527,6 +1527,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "فوريشوت",
+      "participants": [
+        {
+          "name": "فوريشوت",
+          "points": 5
+        },
+        {
+          "name": "ㅤㅤㅤ ياسر",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-08-18T00:56:31"
+    },
     {
       "type": 5,
       "winner": "فوريشوت",
@@ -2169,21 +2184,6 @@
         }
       ],
       "created_at": "2026-08-15T03:20:23"
-    },
-    {
-      "type": 10,
-      "winner": "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎",
-      "participants": [
-        {
-          "name": "‎‌‌‌‌‌‏ ‌‌‌‌‏ ‌‌‌‌‌‌‌‏ ‌‌‌‌‌‏ ‌‌‎ ‌ غاليہٰ‏‎‌‌‎",
-          "points": 10
-        },
-        {
-          "name": "ㅤㅤㅤ ياسر",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-08-15T03:17:56"
     }
   ],
   "last_daily_reset": "2026-08-18T00:25:34",
