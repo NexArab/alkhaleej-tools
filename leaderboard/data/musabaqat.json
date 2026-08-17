@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-17T01:43:16",
   "last_reset": "2026-08-15T23:30:52",
-  "last_updated": "2026-08-17T04:00:33",
+  "last_updated": "2026-08-17T05:38:21",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -856,14 +856,14 @@
       "updated_at": "2026-07-01T08:39:22"
     },
     "مَلك": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 18,
+      "weekly_points": 2,
+      "daily_points": 2,
+      "total_points": 20,
       "wins": 3,
-      "participations": 4,
+      "participations": 5,
       "title": "سيد المسابقات",
       "last_win": "2026-07-02T01:18:09",
-      "updated_at": "2026-08-05T04:57:22"
+      "updated_at": "2026-08-17T05:38:21"
     },
     "أبو زيــد": {
       "weekly_points": 0,
@@ -1276,14 +1276,14 @@
       "updated_at": "2026-08-04T20:03:46"
     },
     ".. اطوُيك": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 10,
+      "wins": 2,
+      "participations": 2,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-05T04:57:22",
-      "updated_at": "2026-08-05T04:57:22"
+      "last_win": "2026-08-17T05:38:21",
+      "updated_at": "2026-08-17T05:38:21"
     },
     "عشرين": {
       "weekly_points": 0,
@@ -1514,9 +1514,38 @@
       "title": "سيد المسابقات",
       "last_win": "2026-08-17T04:00:33",
       "updated_at": "2026-08-17T04:00:33"
+    },
+    "روووين": {
+      "weekly_points": 2,
+      "daily_points": 2,
+      "total_points": 2,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-08-17T05:38:21"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": ".. اطوُيك",
+      "participants": [
+        {
+          "name": ".. اطوُيك",
+          "points": 5
+        },
+        {
+          "name": "مَلك",
+          "points": 2
+        },
+        {
+          "name": "روووين",
+          "points": 2
+        }
+      ],
+      "created_at": "2026-08-17T05:38:21"
+    },
     {
       "type": 5,
       "winner": "⠀ يـاسمين",
@@ -2099,25 +2128,6 @@
         }
       ],
       "created_at": "2026-08-11T05:09:05"
-    },
-    {
-      "type": 5,
-      "winner": "ㅤㅤㅤ ياسر",
-      "participants": [
-        {
-          "name": "ㅤㅤㅤ ياسر",
-          "points": 5
-        },
-        {
-          "name": "‎‎ ‎‎ ⠀⠀⠀ ⠀ مُبهم",
-          "points": 2
-        },
-        {
-          "name": "م⠀",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-08-11T05:05:59"
     }
   ],
   "last_daily_reset": "2026-08-17T01:43:16",
