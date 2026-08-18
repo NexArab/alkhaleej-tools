@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-13T23:40:51",
   "daily_champion": {
-    "name": "مو رايـق",
-    "points": 20,
-    "date": "2026-08-18"
+    "name": "𝟐𝟑.",
+    "points": 25,
+    "date": "2026-08-19"
   },
-  "daily_champion_set_at": "2026-08-18T01:57:34",
+  "daily_champion_set_at": "2026-08-19T01:37:56",
   "last_reset": "2026-08-13T23:40:51",
-  "last_updated": "2026-08-18T14:32:14",
+  "last_updated": "2026-08-19T01:37:56",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -267,7 +267,7 @@
     },
     "How?": {
       "weekly_points": 25,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 476,
       "wins": 59,
       "participations": 79,
@@ -306,14 +306,14 @@
       "updated_at": "2026-07-14T00:58:35"
     },
     "أدرينالين": {
-      "weekly_points": 15,
-      "daily_points": 0,
-      "total_points": 1518,
-      "wins": 112,
-      "participations": 131,
+      "weekly_points": 20,
+      "daily_points": 5,
+      "total_points": 1523,
+      "wins": 113,
+      "participations": 132,
       "title": "ملك المقالات",
-      "last_win": "2026-08-16T14:24:18",
-      "updated_at": "2026-08-16T14:24:18"
+      "last_win": "2026-08-19T01:37:56",
+      "updated_at": "2026-08-19T01:37:56"
     },
     "نجر": {
       "weekly_points": 16,
@@ -1057,7 +1057,7 @@
     },
     "مو رايـق": {
       "weekly_points": 30,
-      "daily_points": 10,
+      "daily_points": 0,
       "total_points": 266,
       "wins": 37,
       "participations": 45,
@@ -1207,7 +1207,7 @@
     },
     "𝟐𝟑.": {
       "weekly_points": 35,
-      "daily_points": 25,
+      "daily_points": 0,
       "total_points": 35,
       "wins": 3,
       "participations": 3,
@@ -1227,7 +1227,7 @@
     },
     ".. اذكريني": {
       "weekly_points": 2,
-      "daily_points": 2,
+      "daily_points": 0,
       "total_points": 2,
       "wins": 0,
       "participations": 1,
@@ -1237,6 +1237,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "أدرينالين",
+      "participants": [
+        {
+          "name": "أدرينالين",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-19T01:37:56"
+    },
     {
       "type": 5,
       "winner": "مو رايـق",
@@ -1815,19 +1826,8 @@
         }
       ],
       "created_at": "2026-08-11T10:57:01"
-    },
-    {
-      "type": 5,
-      "winner": "How?",
-      "participants": [
-        {
-          "name": "How?",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-11T09:14:55"
     }
   ],
-  "last_daily_reset": "2026-08-18T01:57:34",
+  "last_daily_reset": "2026-08-19T01:37:56",
   "last_weekly_reset": "2026-08-13T23:40:51"
 }
