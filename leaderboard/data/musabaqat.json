@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-18T00:25:34",
   "last_reset": "2026-08-15T23:30:52",
-  "last_updated": "2026-08-18T08:03:47",
+  "last_updated": "2026-08-18T12:35:13",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-07-29T17:01:11"
     },
     "How?": {
-      "weekly_points": 25,
-      "daily_points": 0,
-      "total_points": 887,
-      "wins": 155,
-      "participations": 160,
+      "weekly_points": 30,
+      "daily_points": 5,
+      "total_points": 892,
+      "wins": 156,
+      "participations": 161,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-17T20:00:15",
-      "updated_at": "2026-08-17T20:00:15"
+      "last_win": "2026-08-18T12:35:13",
+      "updated_at": "2026-08-18T12:35:13"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -1529,6 +1529,17 @@
   "matches": [
     {
       "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-18T12:35:13"
+    },
+    {
+      "type": 5,
       "winner": "م⠀",
       "participants": [
         {
@@ -2169,17 +2180,6 @@
         }
       ],
       "created_at": "2026-08-17T01:43:16"
-    },
-    {
-      "type": 10,
-      "winner": "فوريشوت",
-      "participants": [
-        {
-          "name": "فوريشوت",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-08-16T23:58:05"
     }
   ],
   "last_daily_reset": "2026-08-18T00:25:34",
