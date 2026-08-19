@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-19T14:25:19",
   "last_reset": "2026-08-15T23:30:52",
-  "last_updated": "2026-08-19T17:42:43",
+  "last_updated": "2026-08-19T17:46:52",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1206,14 +1206,14 @@
       "updated_at": "2026-08-02T01:14:41"
     },
     "⠀⠀⠀𝐅𝐢𝐧𝐱..": {
-      "weekly_points": 5,
-      "daily_points": 0,
-      "total_points": 32,
+      "weekly_points": 6,
+      "daily_points": 1,
+      "total_points": 33,
       "wins": 3,
-      "participations": 12,
+      "participations": 13,
       "title": "سيد المسابقات",
       "last_win": "2026-08-08T13:13:26",
-      "updated_at": "2026-08-17T14:48:50"
+      "updated_at": "2026-08-19T17:46:52"
     },
     "Ht": {
       "weekly_points": 0,
@@ -1256,14 +1256,14 @@
       "updated_at": "2026-08-04T10:28:51"
     },
     "⠀⠀ محـمّد": {
-      "weekly_points": 125,
-      "daily_points": 25,
-      "total_points": 285,
-      "wins": 53,
-      "participations": 59,
+      "weekly_points": 130,
+      "daily_points": 30,
+      "total_points": 290,
+      "wins": 54,
+      "participations": 60,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-19T17:42:43",
-      "updated_at": "2026-08-19T17:42:43"
+      "last_win": "2026-08-19T17:46:52",
+      "updated_at": "2026-08-19T17:46:52"
     },
     "سمرقند": {
       "weekly_points": 0,
@@ -1527,6 +1527,21 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "⠀⠀ محـمّد",
+      "participants": [
+        {
+          "name": "⠀⠀ محـمّد",
+          "points": 5
+        },
+        {
+          "name": "⠀⠀⠀𝐅𝐢𝐧𝐱..",
+          "points": 1
+        }
+      ],
+      "created_at": "2026-08-19T17:46:52"
+    },
     {
       "type": 5,
       "winner": "⠀⠀ محـمّد",
@@ -2149,21 +2164,6 @@
         }
       ],
       "created_at": "2026-08-17T03:57:59"
-    },
-    {
-      "type": 5,
-      "winner": "⠀⠀ محـمّد",
-      "participants": [
-        {
-          "name": "⠀⠀ محـمّد",
-          "points": 5
-        },
-        {
-          "name": "‎ ‎ ‎‎  ‎ ‎ ‎‎  دُرّة",
-          "points": 1
-        }
-      ],
-      "created_at": "2026-08-17T02:25:05"
     }
   ],
   "last_daily_reset": "2026-08-19T14:25:19",
