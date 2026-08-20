@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-21T00:01:25",
   "last_reset": "2026-08-20T00:26:25",
-  "last_updated": "2026-08-21T00:08:17",
+  "last_updated": "2026-08-21T00:10:11",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1556,17 +1556,28 @@
       "updated_at": "2026-08-20T20:51:48"
     },
     "ㅤ أمہيہر ألفہرح": {
-      "weekly_points": 10,
-      "daily_points": 10,
-      "total_points": 10,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 20,
+      "daily_points": 20,
+      "total_points": 20,
+      "wins": 2,
+      "participations": 2,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-21T00:08:17",
-      "updated_at": "2026-08-21T00:08:17"
+      "last_win": "2026-08-21T00:10:11",
+      "updated_at": "2026-08-21T00:10:11"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ㅤ أمہيہر ألفہرح",
+      "participants": [
+        {
+          "name": "ㅤ أمہيہر ألفہرح",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-08-21T00:10:11"
+    },
     {
       "type": 10,
       "winner": "ㅤ أمہيہر ألفہرح",
@@ -2133,21 +2144,6 @@
         }
       ],
       "created_at": "2026-08-19T23:34:20"
-    },
-    {
-      "type": 5,
-      "winner": "⠀⠀ محـمّد",
-      "participants": [
-        {
-          "name": "⠀⠀ محـمّد",
-          "points": 5
-        },
-        {
-          "name": "⠀⠀⠀𝐅𝐢𝐧𝐱..",
-          "points": 2
-        }
-      ],
-      "created_at": "2026-08-19T23:30:00"
     }
   ],
   "last_daily_reset": "2026-08-21T00:01:25",
