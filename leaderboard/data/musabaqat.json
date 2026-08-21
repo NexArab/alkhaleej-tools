@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-21T00:01:25",
   "last_reset": "2026-08-20T00:26:25",
-  "last_updated": "2026-08-21T19:04:06",
+  "last_updated": "2026-08-21T19:45:03",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1326,14 +1326,14 @@
       "updated_at": "2026-08-12T16:16:03"
     },
     "Uẓuḍ": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 20,
-      "wins": 3,
-      "participations": 3,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 25,
+      "wins": 4,
+      "participations": 4,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-08T13:11:11",
-      "updated_at": "2026-08-08T13:11:11"
+      "last_win": "2026-08-21T19:45:03",
+      "updated_at": "2026-08-21T19:45:03"
     },
     "ㅤ TiMoR..": {
       "weekly_points": 0,
@@ -1574,9 +1574,34 @@
       "title": "سيد المسابقات",
       "last_win": "2026-08-21T17:38:28",
       "updated_at": "2026-08-21T17:38:28"
+    },
+    "ميّم⠀": {
+      "weekly_points": 3,
+      "daily_points": 3,
+      "total_points": 3,
+      "wins": 0,
+      "participations": 1,
+      "title": null,
+      "last_win": null,
+      "updated_at": "2026-08-21T19:45:03"
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Uẓuḍ",
+      "participants": [
+        {
+          "name": "Uẓuḍ",
+          "points": 5
+        },
+        {
+          "name": "ميّم⠀",
+          "points": 3
+        }
+      ],
+      "created_at": "2026-08-21T19:45:03"
+    },
     {
       "type": 5,
       "winner": "⠀⠀ محـمّد",
@@ -2143,17 +2168,6 @@
         }
       ],
       "created_at": "2026-08-20T01:20:14"
-    },
-    {
-      "type": 5,
-      "winner": "فوريشوت",
-      "participants": [
-        {
-          "name": "فوريشوت",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-20T01:18:46"
     }
   ],
   "last_daily_reset": "2026-08-21T00:01:25",
