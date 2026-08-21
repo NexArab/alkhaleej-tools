@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-21T00:01:25",
   "last_reset": "2026-08-20T00:26:25",
-  "last_updated": "2026-08-21T03:20:34",
+  "last_updated": "2026-08-21T17:38:28",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1566,17 +1566,28 @@
       "updated_at": "2026-08-21T00:10:11"
     },
     "ㅤ غاليہٰ": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 25,
-      "wins": 2,
-      "participations": 3,
+      "weekly_points": 35,
+      "daily_points": 35,
+      "total_points": 35,
+      "wins": 3,
+      "participations": 4,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-21T03:20:34",
-      "updated_at": "2026-08-21T03:20:34"
+      "last_win": "2026-08-21T17:38:28",
+      "updated_at": "2026-08-21T17:38:28"
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ㅤ غاليہٰ",
+      "participants": [
+        {
+          "name": "ㅤ غاليہٰ",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-08-21T17:38:28"
+    },
     {
       "type": 10,
       "winner": "ㅤ غاليہٰ",
@@ -2147,17 +2158,6 @@
         }
       ],
       "created_at": "2026-08-20T01:14:00"
-    },
-    {
-      "type": 5,
-      "winner": "⠀⠀⠀𝐅𝐢𝐧𝐱..",
-      "participants": [
-        {
-          "name": "⠀⠀⠀𝐅𝐢𝐧𝐱..",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-20T01:02:31"
     }
   ],
   "last_daily_reset": "2026-08-21T00:01:25",
