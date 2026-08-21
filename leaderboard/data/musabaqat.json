@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-20T00:26:25",
   "daily_champion": {
-    "name": "⠀⠀ محـمّد",
-    "points": 90,
-    "date": "2026-08-21"
+    "name": "فوريشوت",
+    "points": 39,
+    "date": "2026-08-22"
   },
-  "daily_champion_set_at": "2026-08-21T00:01:25",
+  "daily_champion_set_at": "2026-08-22T02:23:01",
   "last_reset": "2026-08-20T00:26:25",
-  "last_updated": "2026-08-21T19:52:17",
+  "last_updated": "2026-08-22T02:23:01",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -26,14 +26,14 @@
       "updated_at": "2026-07-29T17:01:11"
     },
     "How?": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 897,
-      "wins": 157,
-      "participations": 162,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 902,
+      "wins": 158,
+      "participations": 163,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-18T12:37:16",
-      "updated_at": "2026-08-18T12:37:16"
+      "last_win": "2026-08-22T02:23:01",
+      "updated_at": "2026-08-22T02:23:01"
     },
     "هـنِيالك": {
       "weekly_points": 0,
@@ -1157,7 +1157,7 @@
     },
     "فوريشوت": {
       "weekly_points": 91,
-      "daily_points": 39,
+      "daily_points": 0,
       "total_points": 286,
       "wins": 35,
       "participations": 41,
@@ -1257,7 +1257,7 @@
     },
     "⠀⠀ محـمّد": {
       "weekly_points": 110,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 455,
       "wins": 82,
       "participations": 88,
@@ -1327,7 +1327,7 @@
     },
     "Uẓuḍ": {
       "weekly_points": 5,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 25,
       "wins": 4,
       "participations": 4,
@@ -1367,7 +1367,7 @@
     },
     "ㅤㅤㅤ ياسر": {
       "weekly_points": 18,
-      "daily_points": 13,
+      "daily_points": 0,
       "total_points": 85,
       "wins": 12,
       "participations": 18,
@@ -1557,7 +1557,7 @@
     },
     "ㅤ أمہيہر ألفہرح": {
       "weekly_points": 20,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 20,
       "wins": 2,
       "participations": 2,
@@ -1567,7 +1567,7 @@
     },
     "ㅤ غاليہٰ": {
       "weekly_points": 35,
-      "daily_points": 35,
+      "daily_points": 0,
       "total_points": 35,
       "wins": 3,
       "participations": 4,
@@ -1577,7 +1577,7 @@
     },
     "ميّم⠀": {
       "weekly_points": 6,
-      "daily_points": 6,
+      "daily_points": 0,
       "total_points": 6,
       "wins": 0,
       "participations": 2,
@@ -1587,6 +1587,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "How?",
+      "participants": [
+        {
+          "name": "How?",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-22T02:23:01"
+    },
     {
       "type": 10,
       "winner": "⠀⠀ محـمّد",
@@ -2157,19 +2168,8 @@
         }
       ],
       "created_at": "2026-08-20T01:32:25"
-    },
-    {
-      "type": 5,
-      "winner": "فوريشوت",
-      "participants": [
-        {
-          "name": "فوريشوت",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-20T01:23:02"
     }
   ],
-  "last_daily_reset": "2026-08-21T00:01:25",
+  "last_daily_reset": "2026-08-22T02:23:01",
   "last_weekly_reset": "2026-08-20T00:26:25"
 }
