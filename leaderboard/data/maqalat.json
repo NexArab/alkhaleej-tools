@@ -1,19 +1,19 @@
 {
   "room": "المقالات",
   "weekly_champion": {
-    "name": "نجر",
-    "points": 10,
-    "week_of": "2026-08-13"
-  },
-  "weekly_champion_set_at": "2026-08-13T23:40:51",
-  "daily_champion": {
     "name": "𝟐𝟑.",
-    "points": 25,
-    "date": "2026-08-19"
+    "points": 35,
+    "week_of": "2026-08-21"
   },
-  "daily_champion_set_at": "2026-08-19T01:37:56",
-  "last_reset": "2026-08-13T23:40:51",
-  "last_updated": "2026-08-19T01:37:56",
+  "weekly_champion_set_at": "2026-08-21T17:29:31",
+  "daily_champion": {
+    "name": "أدرينالين",
+    "points": 5,
+    "date": "2026-08-21"
+  },
+  "daily_champion_set_at": "2026-08-21T17:29:31",
+  "last_reset": "2026-08-21T17:29:31",
+  "last_updated": "2026-08-21T17:29:31",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -77,13 +77,13 @@
     },
     "ســاهــــر": {
       "weekly_points": 10,
-      "daily_points": 0,
-      "total_points": 2323,
-      "wins": 200,
-      "participations": 244,
+      "daily_points": 10,
+      "total_points": 2333,
+      "wins": 201,
+      "participations": 245,
       "title": "ملك المقالات",
-      "last_win": "2026-08-14T20:14:28",
-      "updated_at": "2026-08-14T20:14:28"
+      "last_win": "2026-08-21T17:29:31",
+      "updated_at": "2026-08-21T17:29:31"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -266,7 +266,7 @@
       "updated_at": "2026-05-31T12:22:30"
     },
     "How?": {
-      "weekly_points": 25,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 476,
       "wins": 59,
@@ -306,8 +306,8 @@
       "updated_at": "2026-07-14T00:58:35"
     },
     "أدرينالين": {
-      "weekly_points": 20,
-      "daily_points": 5,
+      "weekly_points": 0,
+      "daily_points": 0,
       "total_points": 1523,
       "wins": 113,
       "participations": 132,
@@ -316,7 +316,7 @@
       "updated_at": "2026-08-19T01:37:56"
     },
     "نجر": {
-      "weekly_points": 16,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 1675,
       "wins": 99,
@@ -496,7 +496,7 @@
       "updated_at": "2026-06-12T22:24:03"
     },
     "AizeN ..": {
-      "weekly_points": 10,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 938,
       "wins": 124,
@@ -1056,7 +1056,7 @@
       "updated_at": "2026-08-03T10:30:46"
     },
     "مو رايـق": {
-      "weekly_points": 30,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 266,
       "wins": 37,
@@ -1196,7 +1196,7 @@
       "updated_at": "2026-08-12T12:54:53"
     },
     "Mirinda": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 10,
       "wins": 2,
@@ -1206,7 +1206,7 @@
       "updated_at": "2026-08-16T04:51:00"
     },
     "𝟐𝟑.": {
-      "weekly_points": 35,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 35,
       "wins": 3,
@@ -1216,7 +1216,7 @@
       "updated_at": "2026-08-18T02:01:34"
     },
     "03:34ص": {
-      "weekly_points": 5,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 5,
       "wins": 1,
@@ -1226,7 +1226,7 @@
       "updated_at": "2026-08-17T03:55:00"
     },
     ".. اذكريني": {
-      "weekly_points": 2,
+      "weekly_points": 0,
       "daily_points": 0,
       "total_points": 2,
       "wins": 0,
@@ -1237,6 +1237,17 @@
     }
   },
   "matches": [
+    {
+      "type": 10,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 10
+        }
+      ],
+      "created_at": "2026-08-21T17:29:31"
+    },
     {
       "type": 5,
       "winner": "أدرينالين",
@@ -1815,19 +1826,8 @@
         }
       ],
       "created_at": "2026-08-11T10:59:13"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-11T10:57:01"
     }
   ],
-  "last_daily_reset": "2026-08-19T01:37:56",
-  "last_weekly_reset": "2026-08-13T23:40:51"
+  "last_daily_reset": "2026-08-21T17:29:31",
+  "last_weekly_reset": "2026-08-21T17:29:31"
 }
