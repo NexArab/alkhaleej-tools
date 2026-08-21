@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-21T17:29:31",
   "daily_champion": {
-    "name": "أدرينالين",
-    "points": 5,
-    "date": "2026-08-21"
+    "name": "ســاهــــر",
+    "points": 30,
+    "date": "2026-08-22"
   },
-  "daily_champion_set_at": "2026-08-21T17:29:31",
+  "daily_champion_set_at": "2026-08-22T00:01:56",
   "last_reset": "2026-08-21T17:29:31",
-  "last_updated": "2026-08-21T17:44:17",
+  "last_updated": "2026-08-22T00:01:56",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -76,14 +76,14 @@
       "updated_at": "2026-05-28T03:42:41"
     },
     "ســاهــــر": {
-      "weekly_points": 30,
-      "daily_points": 30,
-      "total_points": 2353,
-      "wins": 203,
-      "participations": 247,
+      "weekly_points": 40,
+      "daily_points": 10,
+      "total_points": 2363,
+      "wins": 204,
+      "participations": 248,
       "title": "ملك المقالات",
-      "last_win": "2026-08-21T17:44:17",
-      "updated_at": "2026-08-21T17:44:17"
+      "last_win": "2026-08-22T00:01:56",
+      "updated_at": "2026-08-22T00:01:56"
     },
     "دخيل": {
       "weekly_points": 0,
@@ -1246,6 +1246,17 @@
           "points": 10
         }
       ],
+      "created_at": "2026-08-22T00:01:56"
+    },
+    {
+      "type": 10,
+      "winner": "ســاهــــر",
+      "participants": [
+        {
+          "name": "ســاهــــر",
+          "points": 10
+        }
+      ],
       "created_at": "2026-08-21T17:44:17"
     },
     {
@@ -1815,19 +1826,8 @@
         }
       ],
       "created_at": "2026-08-11T11:04:03"
-    },
-    {
-      "type": 5,
-      "winner": "D E F",
-      "participants": [
-        {
-          "name": "D E F",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-11T11:02:04"
     }
   ],
-  "last_daily_reset": "2026-08-21T17:29:31",
+  "last_daily_reset": "2026-08-22T00:01:56",
   "last_weekly_reset": "2026-08-21T17:29:31"
 }
