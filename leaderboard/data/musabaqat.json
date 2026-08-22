@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-22T02:23:01",
   "last_reset": "2026-08-20T00:26:25",
-  "last_updated": "2026-08-22T15:26:03",
+  "last_updated": "2026-08-22T17:23:41",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1256,14 +1256,14 @@
       "updated_at": "2026-08-04T10:28:51"
     },
     "⠀⠀ محـمّد": {
-      "weekly_points": 110,
-      "daily_points": 0,
-      "total_points": 455,
-      "wins": 82,
-      "participations": 88,
+      "weekly_points": 115,
+      "daily_points": 5,
+      "total_points": 460,
+      "wins": 83,
+      "participations": 89,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-21T19:52:17",
-      "updated_at": "2026-08-21T19:52:17"
+      "last_win": "2026-08-22T17:23:41",
+      "updated_at": "2026-08-22T17:23:41"
     },
     "سمرقند": {
       "weekly_points": 0,
@@ -1587,6 +1587,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "⠀⠀ محـمّد",
+      "participants": [
+        {
+          "name": "⠀⠀ محـمّد",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-22T17:23:41"
+    },
     {
       "type": 5,
       "winner": "ㅤㅤㅤ ياسر",
@@ -2157,17 +2168,6 @@
         }
       ],
       "created_at": "2026-08-20T10:30:20"
-    },
-    {
-      "type": 5,
-      "winner": "⠀⠀ محـمّد",
-      "participants": [
-        {
-          "name": "⠀⠀ محـمّد",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-20T10:28:27"
     }
   ],
   "last_daily_reset": "2026-08-22T02:23:01",
