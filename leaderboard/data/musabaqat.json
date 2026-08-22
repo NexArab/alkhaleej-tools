@@ -7,13 +7,13 @@
   },
   "weekly_champion_set_at": "2026-08-20T00:26:25",
   "daily_champion": {
-    "name": "فوريشوت",
-    "points": 39,
-    "date": "2026-08-22"
+    "name": "How?",
+    "points": 20,
+    "date": "2026-08-23"
   },
-  "daily_champion_set_at": "2026-08-22T02:23:01",
+  "daily_champion_set_at": "2026-08-23T00:00:02",
   "last_reset": "2026-08-20T00:26:25",
-  "last_updated": "2026-08-22T17:23:41",
+  "last_updated": "2026-08-23T00:00:02",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -27,7 +27,7 @@
     },
     "How?": {
       "weekly_points": 20,
-      "daily_points": 20,
+      "daily_points": 0,
       "total_points": 917,
       "wins": 161,
       "participations": 166,
@@ -1257,7 +1257,7 @@
     },
     "⠀⠀ محـمّد": {
       "weekly_points": 115,
-      "daily_points": 5,
+      "daily_points": 0,
       "total_points": 460,
       "wins": 83,
       "participations": 89,
@@ -1367,7 +1367,7 @@
     },
     "ㅤㅤㅤ ياسر": {
       "weekly_points": 33,
-      "daily_points": 15,
+      "daily_points": 0,
       "total_points": 100,
       "wins": 15,
       "participations": 21,
@@ -1486,14 +1486,14 @@
       "updated_at": "2026-08-12T23:36:19"
     },
     "Mirinda": {
-      "weekly_points": 0,
-      "daily_points": 0,
-      "total_points": 5,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 5,
+      "daily_points": 5,
+      "total_points": 10,
+      "wins": 2,
+      "participations": 2,
       "title": "سيد المسابقات",
-      "last_win": "2026-08-13T01:22:30",
-      "updated_at": "2026-08-13T01:22:30"
+      "last_win": "2026-08-23T00:00:02",
+      "updated_at": "2026-08-23T00:00:02"
     },
     "يـاسمين": {
       "weekly_points": 0,
@@ -1587,6 +1587,17 @@
     }
   },
   "matches": [
+    {
+      "type": 5,
+      "winner": "Mirinda",
+      "participants": [
+        {
+          "name": "Mirinda",
+          "points": 5
+        }
+      ],
+      "created_at": "2026-08-23T00:00:02"
+    },
     {
       "type": 5,
       "winner": "⠀⠀ محـمّد",
@@ -2157,19 +2168,8 @@
         }
       ],
       "created_at": "2026-08-20T10:31:26"
-    },
-    {
-      "type": 5,
-      "winner": "⠀⠀ محـمّد",
-      "participants": [
-        {
-          "name": "⠀⠀ محـمّد",
-          "points": 5
-        }
-      ],
-      "created_at": "2026-08-20T10:30:20"
     }
   ],
-  "last_daily_reset": "2026-08-22T02:23:01",
+  "last_daily_reset": "2026-08-23T00:00:02",
   "last_weekly_reset": "2026-08-20T00:26:25"
 }
