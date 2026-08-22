@@ -13,7 +13,7 @@
   },
   "daily_champion_set_at": "2026-08-22T00:01:56",
   "last_reset": "2026-08-21T17:29:31",
-  "last_updated": "2026-08-22T21:17:37",
+  "last_updated": "2026-08-22T21:23:50",
   "players": {
     "بَكـر الدُليمــــي": {
       "weekly_points": 0,
@@ -1236,17 +1236,28 @@
       "updated_at": "2026-08-18T01:57:34"
     },
     "pepeَ": {
-      "weekly_points": 25,
-      "daily_points": 25,
-      "total_points": 25,
-      "wins": 1,
-      "participations": 1,
+      "weekly_points": 50,
+      "daily_points": 50,
+      "total_points": 50,
+      "wins": 2,
+      "participations": 2,
       "title": "ملك المقالات",
-      "last_win": "2026-08-22T21:17:37",
-      "updated_at": "2026-08-22T21:17:37"
+      "last_win": "2026-08-22T21:23:50",
+      "updated_at": "2026-08-22T21:23:50"
     }
   },
   "matches": [
+    {
+      "type": 25,
+      "winner": "pepeَ",
+      "participants": [
+        {
+          "name": "pepeَ",
+          "points": 25
+        }
+      ],
+      "created_at": "2026-08-22T21:23:50"
+    },
     {
       "type": 25,
       "winner": "pepeَ",
@@ -1825,17 +1836,6 @@
         }
       ],
       "created_at": "2026-08-11T20:03:23"
-    },
-    {
-      "type": 10,
-      "winner": "ألدحمي",
-      "participants": [
-        {
-          "name": "ألدحمي",
-          "points": 10
-        }
-      ],
-      "created_at": "2026-08-11T19:58:12"
     }
   ],
   "last_daily_reset": "2026-08-22T00:01:56",
